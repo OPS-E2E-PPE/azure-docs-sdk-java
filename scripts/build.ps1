@@ -36,7 +36,7 @@ $scriptPath = $MyInvocation.MyCommand.Path
 $scriptHome = Split-Path $scriptPath
 $scriptParent = Split-Path $scriptHome
 $apiref = "docs-ref-autogen"
-$code2yamlZip = "code2yaml.zip"
+$code2yamlZip =  "code2yaml.zip"
 $code2yamlArtifact = "https://ci.appveyor.com/api/projects/ansyral/code2yaml/artifacts/code2yaml.zip?branch=xsl"
 $code2yaml = "code2yaml"
 $src = "src"
