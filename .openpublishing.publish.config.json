@@ -1,14 +1,13 @@
 {
   "build_entry_point": "docs",
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "AzureJava",
+      "docset_name": "e2eppe-AzureJava",
       "build_source_folder": ".",
       "build_output_subfolder": "azure/sdk/java",
       "locale": "en-us",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -18,10 +17,10 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-	  "customized_template_paths": [
-         "_dependentPackages/memberpage.plugins/content"
+      "customized_template_paths": [
+        "_dependentPackages/memberpage.plugins/content"
       ],
-	  "customized_tasks": {
+      "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/splitToc/tools/run.ps1",
           "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1",
@@ -35,6 +34,7 @@
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -43,6 +43,7 @@
       "branch_mapping": {}
     }
   ],
+  "need_generate_pdf_url_template": false,
   "dependent_packages": [
     {
       "id": "Microsoft.OpenPublishing.CommonPlugins",
@@ -58,7 +59,7 @@
       "target_framework": "net45",
       "version": "latest"
     },
-	{
+    {
       "id": "memberpage.plugins",
       "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
       "path_to_root": "_dependentPackages/memberpage.plugins",
@@ -76,7 +77,9 @@
       "HideEmptyNode": true,
       "OutputFolder": "docs-ref-autogen/overview/azure",
       "ContainerPageMetadata": {
-        "langs": ["java"],
+        "langs": [
+          "java"
+        ],
         "open_to_public_contributors": false
       }
     }
@@ -84,7 +87,5 @@
   "DiffFolder": [
     "docs-ref-autogen/overview/azure"
   ],
-  "toc_path_need_to_split": "docs-ref-autogen/toc.yml",
-  "need_generate_pdf_url_template": false,
-  "enable_incremental_build": false
+  "toc_path_need_to_split": "docs-ref-autogen/toc.yml"
 }
