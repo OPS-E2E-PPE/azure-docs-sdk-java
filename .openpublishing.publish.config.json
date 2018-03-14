@@ -4,7 +4,7 @@
     {
       "docset_name": "e2eppe-AzureJava",
       "build_source_folder": ".",
-      "build_output_subfolder": "azure/sdk/java",
+      "build_output_subfolder": "e2eppe-azure/sdk/java",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
