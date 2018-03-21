@@ -1,13 +1,28 @@
 {
 	"repo": [{
+		"url": "https://github.com/Azure/azure-libraries-for-java",
+		"branch": "master",
+		"name": "azure-libraries-for-java"
+	},
+	{
 		"url": "https://github.com/Azure/azure-sdk-for-java",
-		"branch": "v1.1.2",
+		"branch": "master",
+		"name": "azure-sdk-for-java-master"
+	},
+        {
+		"url": "https://github.com/Azure/azure-sdk-for-java",
+		"branch": "v1.3.0",
 		"name": "azure-sdk-for-java"
 	},
 	{
 		"url": "https://github.com/Azure/azure-iot-sdk-java",
 		"branch": "master",
 		"name": "azure-iot-sdk-java"
+	},
+	{
+		"url": "https://github.com/Microsoft/elastic-db-tools-for-java",
+		"branch": "master",
+		"name": "elastic-db-tools-for-java"
 	},
 	{
 		"url": "https://github.com/Azure/azure-storage-java",
@@ -53,7 +68,13 @@
 		"url": "https://github.com/Azure/azure-keyvault-java",
 		"tag": "v1.0.0",
 		"name": "azure-keyvault"
+	},
+	{
+		"url": "https://github.com/AzureAD/azure-activedirectory-library-for-java",
+		"branch": "master",
+		"name": "azure-ad-client"
 	}
+
 
 	]
 }

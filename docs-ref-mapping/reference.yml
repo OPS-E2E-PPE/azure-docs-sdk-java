@@ -7,17 +7,22 @@
     uid: azure.java.sdk.landingpage.services.activedirectory
     href: ~/docs-ref-services/activedirectory.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.activedirectory.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.activedirectory.Management
       landingPageType: Service
       children:
       - com.microsoft.azure.management.graphrbac
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.activedirectory.Client
+      landingPageType: Service
+      children:
+      - com.microsoft.aad.adal4j
   - name: App Service
     uid: azure.java.sdk.landingpage.services.appservice
     href: ~/docs-ref-services/appservice.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.appservice.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.appservice.Management
       landingPageType: Service
       children:
       - com.microsoft.azure.management.appservice
@@ -25,145 +30,11 @@
     uid: azure.java.sdk.landingpage.services.appinsights
     href: ~/docs-ref-services/appinsights.md
     items:
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.appinsights.Client library
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.appinsights.Client
       landingPageType: Service
       children:
-      - com.microsoft.applicationinsights
-      - com.microsoft.applicationinsights.agent.dependencies.asm
-      - com.microsoft.applicationinsights.agent.dependencies.asm.commons
-      - com.microsoft.applicationinsights.agent.dependencies.asm.signature
-      - com.microsoft.applicationinsights.agent.dependencies.asm.tree
-      - com.microsoft.applicationinsights.agent.dependencies.asm.tree.analysis
-      - com.microsoft.applicationinsights.agent.dependencies.asm.util
-      - com.microsoft.applicationinsights.agent.dependencies.asm.xml
-      - com.microsoft.applicationinsights.agent.internal.agent
-      - com.microsoft.applicationinsights.agent.internal.agent.exceptions
-      - com.microsoft.applicationinsights.agent.internal.agent.http
-      - com.microsoft.applicationinsights.agent.internal.agent.jmx
-      - com.microsoft.applicationinsights.agent.internal.agent.redis
-      - com.microsoft.applicationinsights.agent.internal.agent.sql
-      - com.microsoft.applicationinsights.agent.internal.common
-      - com.microsoft.applicationinsights.agent.internal.config
-      - com.microsoft.applicationinsights.agent.internal.coresync
-      - com.microsoft.applicationinsights.agent.internal.coresync.impl
-      - com.microsoft.applicationinsights.agent.internal.logger
-      - com.microsoft.applicationinsights.channel
-      - com.microsoft.applicationinsights.channel.concrete.inprocess
-      - com.microsoft.applicationinsights.common
-      - com.microsoft.applicationinsights.core.dependencies.annotation
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.codec
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.codec.binary
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.codec.digest
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.codec.language
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.codec.language.bm
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.codec.net
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.io
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.io.comparator
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.io.filefilter
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.io.input
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.io.monitor
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.io.output
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.builder
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.concurrent
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.event
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.exception
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.math
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.mutable
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.reflect
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.text
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.text.translate
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.time
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.lang3.tuple
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.logging
-      - com.microsoft.applicationinsights.core.dependencies.apachecommons.logging.impl
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .annotations
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .base
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .base.internal
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .cache
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .collect
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .eventbus
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .hash
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .io
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .math
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .net
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .primitives
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .reflect
-      - com.microsoft.applicationinsights.core.dependencies.googlecommon .util.concurrent
-      - com.microsoft.applicationinsights.core.dependencies.http
-      - com.microsoft.applicationinsights.core.dependencies.http.annotation
-      - com.microsoft.applicationinsights.core.dependencies.http.auth
-      - com.microsoft.applicationinsights.core.dependencies.http.auth.params
-      - com.microsoft.applicationinsights.core.dependencies.http.client
-      - com.microsoft.applicationinsights.core.dependencies.http.client.config
-      - com.microsoft.applicationinsights.core.dependencies.http.client.entity
-      - com.microsoft.applicationinsights.core.dependencies.http.client.methods
-      - com.microsoft.applicationinsights.core.dependencies.http.client.params
-      - com.microsoft.applicationinsights.core.dependencies.http.client.protocol
-      - com.microsoft.applicationinsights.core.dependencies.http.client.utils
-      - com.microsoft.applicationinsights.core.dependencies.http.concurrent
-      - com.microsoft.applicationinsights.core.dependencies.http.config
-      - com.microsoft.applicationinsights.core.dependencies.http.conn
-      - com.microsoft.applicationinsights.core.dependencies.http.conn.params
-      - com.microsoft.applicationinsights.core.dependencies.http.conn.routing
-      - com.microsoft.applicationinsights.core.dependencies.http.conn.scheme
-      - com.microsoft.applicationinsights.core.dependencies.http.conn.socket
-      - com.microsoft.applicationinsights.core.dependencies.http.conn.ssl
-      - com.microsoft.applicationinsights.core.dependencies.http.conn.util
-      - com.microsoft.applicationinsights.core.dependencies.http.cookie
-      - com.microsoft.applicationinsights.core.dependencies.http.cookie.params
-      - com.microsoft.applicationinsights.core.dependencies.http.entity
-      - com.microsoft.applicationinsights.core.dependencies.http.impl
-      - com.microsoft.applicationinsights.core.dependencies.http.impl.auth
-      - com.microsoft.applicationinsights.core.dependencies.http.impl.client
-      - com.microsoft.applicationinsights.core.dependencies.http.impl.conn
-      - com.microsoft.applicationinsights.core.dependencies.http.impl.conn.tsccm
-      - com.microsoft.applicationinsights.core.dependencies.http.impl.cookie
-      - com.microsoft.applicationinsights.core.dependencies.http.impl.entity
-      - com.microsoft.applicationinsights.core.dependencies.http.impl.execchain
-      - com.microsoft.applicationinsights.core.dependencies.http.impl.io
-      - com.microsoft.applicationinsights.core.dependencies.http.impl.pool
-      - com.microsoft.applicationinsights.core.dependencies.http.io
-      - com.microsoft.applicationinsights.core.dependencies.http.message
-      - com.microsoft.applicationinsights.core.dependencies.http.params
-      - com.microsoft.applicationinsights.core.dependencies.http.pool
-      - com.microsoft.applicationinsights.core.dependencies.http.protocol
-      - com.microsoft.applicationinsights.core.dependencies.http.util
-      - com.microsoft.applicationinsights.extensibility
-      - com.microsoft.applicationinsights.extensibility.context
-      - com.microsoft.applicationinsights.extensibility.initializer
-      - com.microsoft.applicationinsights.extensibility.initializer.docker
-      - com.microsoft.applicationinsights.extensibility.initializer.docker.internal
-      - com.microsoft.applicationinsights.internal.agent
-      - com.microsoft.applicationinsights.internal.annotation
-      - com.microsoft.applicationinsights.internal.channel
-      - com.microsoft.applicationinsights.internal.channel.common
-      - com.microsoft.applicationinsights.internal.channel.sampling
-      - com.microsoft.applicationinsights.internal.channel.simplehttp
-      - com.microsoft.applicationinsights.internal.channel.stdout
-      - com.microsoft.applicationinsights.internal.config
-      - com.microsoft.applicationinsights.internal.jmx
-      - com.microsoft.applicationinsights.internal.logger
-      - com.microsoft.applicationinsights.internal.perfcounter
-      - com.microsoft.applicationinsights.internal.perfcounter.jvm
-      - com.microsoft.applicationinsights.internal.processor
-      - com.microsoft.applicationinsights.internal.quickpulse
-      - com.microsoft.applicationinsights.internal.reflect
-      - com.microsoft.applicationinsights.internal.schemav2
-      - com.microsoft.applicationinsights.internal.shutdown
-      - com.microsoft.applicationinsights.internal.system
-      - com.microsoft.applicationinsights.internal.util
-      - com.microsoft.applicationinsights.telemetry
-      - com.microsoft.applicationinsights.web.extensibility.initializers
-      - com.microsoft.applicationinsights.web.extensibility.modules
-      - com.microsoft.applicationinsights.web.internal
-      - com.microsoft.applicationinsights.web.internal.cookies
-      - com.microsoft.applicationinsights.web.internal.perfcounter
-      - com.microsoft.applicationinsights.web.javaee
-      - com.microsoft.applicationinsights.web.spring
-      - com.microsoft.applicationinsights.web.spring.internal
-      - com.microsoft.applicationinsights.web.struts
+      - com.microsoft.applicationinsights*
       - javax.annotation
       - javax.annotation.concurrent
       - javax.annotation.meta
@@ -178,63 +49,135 @@
     uid: azure.java.sdk.landingpage.services.batch
     href: ~/docs-ref-services/batch.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.batch.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.batch.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.batch
-      - com.microsoft.azure.management.batch.implementation
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.batch.Client library
+      - com.microsoft.azure.management.batch.*
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.batch.Client
       landingPageType: Service
       children:
-      - com.microsoft.azure.batch
-      - com.microsoft.azure.batch.auth
-      - com.microsoft.azure.batch.interceptor
-      - com.microsoft.azure.batch.protocol
-      - com.microsoft.azure.batch.protocol.implementation
-      - com.microsoft.azure.batch.protocol.models
+      - com.microsoft.azure.batch.*
+  - name: Batch AI
+    uid: azure.java.sdk.landingpage.services.batchai
+    landingPageType: Service
+    items:
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.batchai.Management
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.batchai*
   - name: CDN
     uid: azure.java.sdk.landingpage.services.cdn
     href: ~/docs-ref-services/cdn.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.cdn.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.cdn.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.cdn
-      - com.microsoft.azure.management.cdn.implementation
+      - com.microsoft.azure.management.cdn*
+  - name: Cognitive Services
+    uid: azure.java.sdk.landingpage.services.cognitiveservices
+    landingPageType: Service
+    items:
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.cognitiveservices.Client
+      landingPageType: Service
+      items:
+      - name: Computer Vision
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.computerVision
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.computervision*
+      - name: Content Moderator
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.contentModerator
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.contentmoderator*
+      - name: Custom Search
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.customSearch
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.customsearch*
+      - name: Entity Search
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.entitySearch
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.entitysearch*
+      - name: Face API
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.faceApi
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.faceapi*
+      - name: Image Search
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.imageSearch
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.imagesearch*
+      - name: News Search
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.newsSearch
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.newssearch*
+      - name: Spell Check
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.newsSearch
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.spellcheck*
+      - name: Text Analytics
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.textAnalytics
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.textanalytics*
+      - name: Video Search
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.videosearch
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.videosearch*
+      - name: Web Search
+        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.webSearch
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.cognitiveservices.websearch*
+  - name: Container Instance
+    uid: azure.java.sdk.landingpage.services.containerinstance
+    landingPageType: Service
+    items:
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.containerinstance.Management
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.containerinstance*
   - name: Container Registry
     uid: azure.java.sdk.landingpage.services.containerregistry
     landingPageType: Service
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.containerregistry.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.containerregistry.Management
       landingPageType: Service
       children:
       - com.microsoft.azure.management.containerregistry*
-  - name: CosmosDB
+  - name: Cosmos DB
     uid: azure.java.sdk.landingpage.services.cosmosdb
     href: ~/docs-ref-services/cosmosdb.md
     items:
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.cosmosdb.Client library
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.cosmosdb.Client
       landingPageType: Service
       children:
-      - com.microsoft.azure.documentdb
-      - com.microsoft.azure.documentdb.internal
-      - com.microsoft.azure.documentdb.internal.directconnectivity
-      - com.microsoft.azure.documentdb.internal.query
-      - com.microsoft.azure.documentdb.internal.query.aggregation
-      - com.microsoft.azure.documentdb.internal.query.executioncomponent
-      - com.microsoft.azure.documentdb.internal.query.orderbyquery
-      - com.microsoft.azure.documentdb.internal.routing
+      - com.microsoft.azure.documentdb*
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.cosmosdb.Management
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.cosmosdb*
   - name: Data Lake Analytics
     uid: azure.java.sdk.landingpage.services.datalakeanalytics
     href: ~/docs-ref-services/datalakeanalytics.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.datalakeanalytics.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.datalakeanalytics.Management
       landingPageType: Service
       children:
       - com.microsoft.azure.management.datalake.analytics*
@@ -242,13 +185,13 @@
     uid: azure.java.sdk.landingpage.services.datalakestore
     href: ~/docs-ref-services/datalake.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.datalakestore.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.datalakestore.Management
       landingPageType: Service
       children:
       - com.microsoft.azure.management.datalake.store*
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.datalakestore.Client library
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.datalakestore.Client
       landingPageType: Service
       children:
       - com.microsoft.azure.datalake.store
@@ -257,25 +200,24 @@
       - com.microsoft.azure.datalake.store.retrypolicies
   - name: DNS
     uid: azure.java.sdk.landingpage.services.dns
-    landingPageType: Service
+    href: ~/docs-ref-services/dns.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.dns.Management API
-      href: ~/docs-ref-services/dns.md
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.dns.Management
+      landingPageType: Service
       children:
-      - com.microsoft.azure.management.dns
-      - com.microsoft.azure.management.dns.implementation
-  - name: Event Hub
+      - com.microsoft.azure.management.dns*
+  - name: Event Hubs
     uid: azure.java.sdk.landingpage.services.eventhub
     href: ~/docs-ref-services/eventhub.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.eventhub.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.eventhub.Management
       landingPageType: Service
       children:
       - com.microsoft.azure.management.eventhub*
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.eventhub.Client library
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.eventhub.Client
       landingPageType: Service
       children:
       - com.microsoft.azure.eventhubs
@@ -285,54 +227,31 @@
     uid: azure.java.sdk.landingpage.services.iot
     href: ~/docs-ref-services/iot.md
     items:
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.iot.Client library
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.iot.Client
       landingPageType: Service
       children:
-      - com.microsoft.azure.sdk.iot.deps*
-      - com.microsoft.azure.sdk.iot.device
-      - com.microsoft.azure.sdk.iot.device*
-      - com.microsoft.azure.sdk.iot.device.auth
-      - com.microsoft.azure.sdk.iot.device.DeviceTwin
-      - com.microsoft.azure.sdk.iot.device.net
-      - com.microsoft.azure.sdk.iot.device.transport
-      - com.microsoft.azure.sdk.iot.device.transport.amqps
-      - com.microsoft.azure.sdk.iot.device.transport.https
-      - com.microsoft.azure.sdk.iot.device.transport.mqtt
-      - com.microsoft.azure.sdk.iot.service
-      - com.microsoft.azure.sdk.iot.service*
-      - com.microsoft.azure.sdk.iot.service.auth
-      - com.microsoft.azure.sdk.iot.service.devicetwin
-      - com.microsoft.azure.sdk.iot.service.exceptions
-      - com.microsoft.azure.sdk.iot.service.transport
-      - com.microsoft.azure.sdk.iot.service.transport.amqps
-      - com.microsoft.azure.sdk.iot.service.transport.http
+      - com.microsoft.azure.sdk.iot*
   - name: Key Vault
     uid: azure.java.sdk.landingpage.services.keyvault
     href: ~/docs-ref-services/keyvault.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.keyvault.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.keyvault.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.keyvault
-      - com.microsoft.azure.management.keyvault.implementation
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.keyvault.Client library
+      - com.microsoft.azure.management.keyvault*
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.keyvault.Client
       landingPageType: Service
       children:
-      - com.microsoft.azure.keyvault
-      - com.microsoft.azure.keyvault.*
-      - com.microsoft.azure.keyvault.authentication
-      - com.microsoft.azure.keyvault.models
-      - com.microsoft.azure.keyvault.requests
-      - com.microsoft.azure.keyvault.webkey
+      - com.microsoft.azure.keyvault*
   - name: Management
     uid: azure.java.sdk.landingpage.services.management
     landingPageType: Service
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.management.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.management.Management
       landingPageType: Service
       children:
       - com.microsoft.azure.management
@@ -340,56 +259,50 @@
     uid: azure.java.sdk.landingpage.services.networking
     href: ~/docs-ref-services/network.md
     items:
-    - name: Managment API
-      uid: azure.java.sdk.landingpage.services.networking.Managment API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.networking.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.network
-      - com.microsoft.azure.management.network.implementation
+      - com.microsoft.azure.management.network*
       - com.microsoft.azure.management.network.model
   - name: Redis Cache
     uid: azure.java.sdk.landingpage.services.rediscache
     href: ~/docs-ref-services/rediscache.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.rediscache.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.rediscache.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.redis
-      - com.microsoft.azure.management.redis.implementation
+      - com.microsoft.azure.management.redis*
   - name: Resources
     uid: azure.java.sdk.landingpage.services.resources
     href: ~/docs-ref-services/resources.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.resources.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.resources.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.resources
-      - com.microsoft.azure.management.resources.fluentcore.arm
-      - com.microsoft.azure.management.resources.fluentcore.arm.collection
-      - com.microsoft.azure.management.resources.fluentcore.arm.collection.implementation
-      - com.microsoft.azure.management.resources.fluentcore.arm.implementation
-      - com.microsoft.azure.management.resources.fluentcore.arm.models
-      - com.microsoft.azure.management.resources.fluentcore.arm.models.implementation
-      - com.microsoft.azure.management.resources.fluentcore.collection
-      - com.microsoft.azure.management.resources.fluentcore.dag
-      - com.microsoft.azure.management.resources.fluentcore.model
-      - com.microsoft.azure.management.resources.fluentcore.model.implementation
-      - com.microsoft.azure.management.resources.fluentcore.utils
-      - com.microsoft.azure.management.resources.implementation
+      - com.microsoft.azure.management.resources*  
+  - name: Search
+    uid: azure.java.sdk.landingpage.services.Search
+    landingPageType: Service
+    items:
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.search.Management
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.search*
   - name: Service Bus
     uid: azure.java.sdk.landingpage.services.servicebus
     href: ~/docs-ref-services/servicebus.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.servicebus.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.servicebus.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.servicebus
-      - com.microsoft.azure.management.servicebus.implementation
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.servicebus.Client library
+      - com.microsoft.azure.management.servicebus*
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.servicebus.Client
       landingPageType: Service
       children:
       - com.microsoft.azure.servicebus*
@@ -398,71 +311,83 @@
     uid: azure.java.sdk.landingpage.services.servicefabric
     landingPageType: Service
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.servicefabric.Management API
+    - name: Runtime
+      uid: azure.java.sdk.landingpage.services.servicefabric.Runtime
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.servicefabric*
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.servicefabric.Client library
+      - microsoft.servicefabric.*
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.servicefabric.Client
       landingPageType: Service
       children:
-      - customplugin*
-      - microsoft.servicefabric*
-      - org.jenkinsci.plugins.serviceFabric*
-      - servicefabric*
+      - system.fabric.description*
+      - system.fabric.health*
+      - system.fabric.interop*
+      - system.fabric.management.imageStore*
+      - system.fabric.query*
+      - system.fabric.repair*
+      - system.fabric.security*
+    - name: Common
+      uid: azure.java.sdk.landingpage.services.servicefabric.Common
+      landingPageType: Service
+      children:
       - system.fabric*
+      - system.fabric.exception*
+  - name: Stream Analytics
+    uid: azure.java.sdk.landingpage.services.streamanalytics
+    landingPageType: Service
+    items:
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.streamanalytics.Management
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.streamanalytics*
   - name: SQL
     uid: azure.java.sdk.landingpage.services.sql
     href: ~/docs-ref-services/sql.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.sql.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.sql.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.sql
-      - com.microsoft.azure.management.sql.implementation
+      - com.microsoft.azure.management.sql*
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.sql.Client
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.elasticdb*
   - name: Storage
     uid: azure.java.sdk.landingpage.services.storage
     href: ~/docs-ref-services/storage.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.storage.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.storage.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.storage
-      - com.microsoft.azure.management.storage.implementation
-    - name: Client library
-      uid: azure.java.sdk.landingpage.services.storage.Client library
+      - com.microsoft.azure.management.storage*
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.storage.Client
       landingPageType: Service
       children:
-      - com.microsoft.azure.storage
-      - com.microsoft.azure.storage.analytics
-      - com.microsoft.azure.storage.blob
-      - com.microsoft.azure.storage.core
-      - com.microsoft.azure.storage.file
-      - com.microsoft.azure.storage.queue
-      - com.microsoft.azure.storage.table
+      - com.microsoft.azure.storage*
   - name: Traffic Manager
     uid: azure.java.sdk.landingpage.services.trafficmanager
     href: ~/docs-ref-services/trafficmanager.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.trafficmanager.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.trafficmanager.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.trafficmanager
-      - com.microsoft.azure.management.trafficmanager.implementation
+      - com.microsoft.azure.management.trafficmanager*
   - name: Virtual Machines
     uid: azure.java.sdk.landingpage.services.virtualmachines
     href: ~/docs-ref-services/virtualmachines.md
     items:
-    - name: Management API
-      uid: azure.java.sdk.landingpage.services.virtualmachines.Management API
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.virtualmachines.Management
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.compute
-      - com.microsoft.azure.management.compute.implementation
+      - com.microsoft.azure.management.compute*
   - name: Other
     uid: azure.java.sdk.landingPage.services.other
     landingPageType: Service

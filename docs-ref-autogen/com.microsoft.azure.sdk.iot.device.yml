@@ -6,10 +6,10 @@ items:
   - com.microsoft.azure.sdk.iot.device._custom_logger
   - com.microsoft.azure.sdk.iot.device._device_client
   - com.microsoft.azure.sdk.iot.device._device_client_config
+  - com.microsoft.azure.sdk.iot.device._device_client_config._auth_type
   - com.microsoft.azure.sdk.iot.device._device_i_o
   - com.microsoft.azure.sdk.iot.device._device_i_o._iot_hub_client_state
   - com.microsoft.azure.sdk.iot.device._feedback_status_code_enum
-  - com.microsoft.azure.sdk.iot.device._iot_hub_certificate_manager
   - com.microsoft.azure.sdk.iot.device._iot_hub_client_protocol
   - com.microsoft.azure.sdk.iot.device._iot_hub_connection_state
   - com.microsoft.azure.sdk.iot.device._iot_hub_connection_state_callback
@@ -18,7 +18,6 @@ items:
   - com.microsoft.azure.sdk.iot.device._iot_hub_message_result
   - com.microsoft.azure.sdk.iot.device._iot_hub_method
   - com.microsoft.azure.sdk.iot.device._iot_hub_response_callback
-  - com.microsoft.azure.sdk.iot.device._iot_hub_s_s_l_context
   - com.microsoft.azure.sdk.iot.device._iot_hub_status_code
   - com.microsoft.azure.sdk.iot.device._message
   - com.microsoft.azure.sdk.iot.device._message_callback
@@ -27,6 +26,8 @@ items:
   - com.microsoft.azure.sdk.iot.device._object_lock
   - com.microsoft.azure.sdk.iot.device._response_message
   - com.microsoft.azure.sdk.iot.device._template
+  - com.microsoft.azure.sdk.iot.device._transport_client
+  - com.microsoft.azure.sdk.iot.device._transport_client._transport_client_state
   href: com.microsoft.azure.sdk.iot.device.yml
   langs:
   - java
@@ -137,67 +138,9 @@ references:
   fullName: com.microsoft.azure.sdk.iot.device.DeviceIO
   type: Class
   summary: >-
-    <p>Implement the standard I/O interface with the IoTHub. <verbatim>+-------------------------------------+                  +-----------------------------------+
+    <p>Implement the standard I/O interface with the IoTHub.</p>
 
-    |                                     |                  |                                   |
-
-    |             DeviceClient            |------------------+        DeviceClientConfig         |
-
-    |                                     |                  |                                   |
-
-    +-------------------------------------+                  +-----------------------------------+
-
-       |                        |
-
-       |                       \/
-
-       |  +---------------------------------------------------------------------------------------------+
-
-       |  | Services                                                                                    |
-
-       |  |  +-----------+    +------------+    +--------------+                        +------------+  |
-
-       |  |  | Telemetry |    | DeviceTwin |    | DeviceMethod |                        | FileUpload |  |
-
-       |  |  +-----------+    +------------+    +--------------+                        +---------+--+  |
-
-       |  +---------------------------------------------------------------------------------------|-----+
-
-       |                                    |                                                     |
-
-      \/                                   \/                                                     |
-
-    #####################################################################################         |
-
-    # DeviceIO                                                                          #         |
-
-    #  +----------------+    +-------------------------------------+    +------------+  #         |
-
-    #  |                |    |                open                 |    |            |  #         |
-
-    #  | sendEventAsync |    |                   +---------------+ |    |   close    |  #         |
-
-    #  |                |    |                   | taskScheduler | |    |            |  #         |
-
-    #  +--------+-------+    +--+----------------+--+---------+--+-+    +--------+---+  #         |
-
-    ############|###############|###################|#########|##################|#######         |
-
-                |               |                   |         |                  |                |
-
-                |               |                  \/        \/                  |                |
-
-                |               |    +----------------+   +-------------------+  |                |
-
-                |               |    | IoTHubSendTask |   | IoTHubReceiveTask |  |                |
-
-                |               |    |   +--------+   |   |    +---------+    |  |                |
-
-                |               |    |   |   Run  |   |   |    |   Run   |    |  |                |
-
-                |               |    +---+---+----+---+   +----+----+----+----+  |                |
-
-    </verbatim> IotHubTransport | | | | | | +------<mdash></mdash>|------------<mdash></mdash>|---------<mdash></mdash>|-------------------<mdash></mdash>|---------<mdash></mdash>|-----<mdash></mdash>+ +-------------------------------------------<mdash></mdash>+ | \/ \/ \/ \/ \/ | | IoTHubTransportManager | | +---------<mdash></mdash>+ +---------<mdash></mdash>+ +-----------<mdash></mdash>+ +------------<mdash></mdash>+ +------<mdash></mdash>+ | | +---<mdash></mdash>+ +----<mdash></mdash>+ +---<mdash></mdash>+ +------<mdash></mdash>+ | | | addMessage | | Open | | sendMessages | | handleMessage | | Close | | | | Open | | Close | | send | | receive | | | +---------<mdash></mdash>+ +---------<mdash></mdash>+ +-----------<mdash></mdash>+ +------------<mdash></mdash>+ +------<mdash></mdash>+ | | +---<mdash></mdash>+ +----<mdash></mdash>+ +---<mdash></mdash>+ +------<mdash></mdash>+ | +-------<mdash></mdash>+-----------------------------<mdash></mdash>+----------------------<mdash></mdash>+----------<mdash></mdash>+ +<mdash></mdash>+---------------------------------------<mdash></mdash>+ | | | | \/ \/ \/ \/ +----------------------<mdash></mdash>+ +----------------------<mdash></mdash>+ +---------------<mdash></mdash>+ +--------------------<mdash></mdash>+ | AmqpsTransport | | MqttTransport | | HttpsTransport | | HttpsTransportManager | +----------------------<mdash></mdash>+ +----------------------<mdash></mdash>+ +------------------------------------------<mdash></mdash>+ | AmqpsIotHubConnection | | MqttIotHubConnection | | HttpsIotHubConnection | +----------------------<mdash></mdash>+ +----------------------<mdash></mdash>+ +------------------------------------------<mdash></mdash>+ </p>
+    <p>+<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+ | | | | | <xref uid="com.microsoft.azure.sdk.iot.device._device_client" data-throw-if-not-resolved="false">DeviceClient</xref> |<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ <xref uid="com.microsoft.azure.sdk.iot.device._device_client_config" data-throw-if-not-resolved="false">DeviceClientConfig</xref> | | | | | +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+ | | | \/ | +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ | | Services | | | +<mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ | | | | Telemetry | | DeviceTwin | | DeviceMethod | | FileUpload | | | | +<mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+ +<mdash></mdash><mdash></mdash><mdash></mdash>+<ndash></ndash>+ | | +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>|<mdash></mdash><ndash></ndash>+ | | | \/ \/ | ##################################################################################### | # <xref uid="com.microsoft.azure.sdk.iot.device._device_i_o" data-throw-if-not-resolved="false">DeviceIO</xref> # | # +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ # | # | | | open | | | # | # | sendEventAsync | | +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ | | close | # | # | | | | taskScheduler | | | | # | # +<mdash></mdash><mdash></mdash><ndash></ndash>+<mdash></mdash><mdash></mdash>-+ +<ndash></ndash>+<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+<ndash></ndash>+<mdash></mdash><mdash></mdash><mdash></mdash>+<ndash></ndash>+-+ +<mdash></mdash><mdash></mdash><ndash></ndash>+<mdash></mdash>+ # | ############|###############|###################|#########|##################|####### | | | | | | | | | \/ \/ | | | | +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ | | | | | IoTHubSendTask | | IoTHubReceiveTask | | | | | | +<mdash></mdash><mdash></mdash><ndash></ndash>+ | | +<mdash></mdash><mdash></mdash><mdash></mdash>+ | | | | | | | Run | | | | Run | | | | | | +<mdash></mdash>+<mdash></mdash>+<mdash></mdash>-+<mdash></mdash>+ +<mdash></mdash>-+<mdash></mdash>-+<mdash></mdash>-+<mdash></mdash>-+ | | IotHubTransport | | | | | | +<mdash></mdash><mdash></mdash><mdash></mdash>|<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>|<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>|<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-|<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>|<mdash></mdash><mdash></mdash><ndash></ndash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ | \/ \/ \/ \/ \/ | | IoTHubTransportManager | | +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash>+ | | +<mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash>+ | | | addMessage | | Open | | sendMessages | | handleMessage | | Close | | | | Open | | Close | | send | | receive | | | +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash>+ | | +<mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash>+ | +<mdash></mdash><mdash></mdash><mdash></mdash>-+<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash>+<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ | | | | \/ \/ \/ \/ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><ndash></ndash>+ | AmqpsTransport | | MqttTransport | | HttpsTransport | | HttpsTransportManager | +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ | AmqpsIotHubConnection | | MqttIotHubConnection | | HttpsIotHubConnection | +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>-+ +<mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash><mdash></mdash>+ </p>
   syntax:
     content: public class DeviceIO
 - uid: com.microsoft.azure.sdk.iot.device._feedback_status_code_enum
@@ -209,15 +152,6 @@ references:
   type: Enum
   syntax:
     content: public enum FeedbackStatusCodeEnum
-- uid: com.microsoft.azure.sdk.iot.device._iot_hub_certificate_manager
-  parent: com.microsoft.azure.sdk.iot.device
-  href: com.microsoft.azure.sdk.iot.device._iot_hub_certificate_manager.yml
-  name: IotHubCertificateManager
-  nameWithType: IotHubCertificateManager
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubCertificateManager
-  type: Class
-  syntax:
-    content: public class IotHubCertificateManager
 - uid: com.microsoft.azure.sdk.iot.device._iot_hub_client_protocol
   parent: com.microsoft.azure.sdk.iot.device
   href: com.microsoft.azure.sdk.iot.device._iot_hub_client_protocol.yml
@@ -307,15 +241,6 @@ references:
     <p>Developers are expected to create an implementation of this interface, and the transport will call <xref uid="com.microsoft.azure.sdk.iot.device._iot_hub_response_callback.execute(ResponseMessage,Object)" data-throw-if-not-resolved="false">IotHubResponseCallback#execute(ResponseMessage, Object)</xref> upon receiving a response from an IoT Hub. </p>
   syntax:
     content: public interface IotHubResponseCallback
-- uid: com.microsoft.azure.sdk.iot.device._iot_hub_s_s_l_context
-  parent: com.microsoft.azure.sdk.iot.device
-  href: com.microsoft.azure.sdk.iot.device._iot_hub_s_s_l_context.yml
-  name: IotHubSSLContext
-  nameWithType: IotHubSSLContext
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubSSLContext
-  type: Class
-  syntax:
-    content: public class IotHubSSLContext
 - uid: com.microsoft.azure.sdk.iot.device._iot_hub_status_code
   parent: com.microsoft.azure.sdk.iot.device
   href: com.microsoft.azure.sdk.iot.device._iot_hub_status_code.yml
@@ -365,6 +290,7 @@ references:
   nameWithType: MessageType
   fullName: com.microsoft.azure.sdk.iot.device.MessageType
   type: Enum
+  summary: <p>The IoTHub message type </p>
   syntax:
     content: public enum MessageType
 - uid: com.microsoft.azure.sdk.iot.device._object_lock
@@ -396,6 +322,28 @@ references:
   type: Class
   syntax:
     content: public class Template
+- uid: com.microsoft.azure.sdk.iot.device._transport_client
+  parent: com.microsoft.azure.sdk.iot.device
+  href: com.microsoft.azure.sdk.iot.device._transport_client.yml
+  name: TransportClient
+  nameWithType: TransportClient
+  fullName: com.microsoft.azure.sdk.iot.device.TransportClient
+  type: Class
+  summary: >-
+    <p>The public-facing API. Allows user to create a transport client abstracton object to use it for multiple devices to connect to an IoT Hub using the same connection (multiplexing). Handle to register devices to transport client and open / closeNow the connection. </p>
+
+    <p>The multiplexed connection is supported with AMQPS / AMQPS_WS protocols. </p>
+  syntax:
+    content: public class TransportClient
+- uid: com.microsoft.azure.sdk.iot.device._device_client_config._auth_type
+  parent: com.microsoft.azure.sdk.iot.device
+  href: com.microsoft.azure.sdk.iot.device._device_client_config._auth_type.yml
+  name: DeviceClientConfig.AuthType
+  nameWithType: DeviceClientConfig.AuthType
+  fullName: com.microsoft.azure.sdk.iot.device.DeviceClientConfig.AuthType
+  type: Enum
+  syntax:
+    content: public enum AuthType
 - uid: com.microsoft.azure.sdk.iot.device._device_i_o._iot_hub_client_state
   parent: com.microsoft.azure.sdk.iot.device
   href: com.microsoft.azure.sdk.iot.device._device_i_o._iot_hub_client_state.yml
@@ -406,3 +354,12 @@ references:
   summary: <p>The state of the IoT Hub client's connection with the IoT Hub. </p>
   syntax:
     content: protected enum IotHubClientState
+- uid: com.microsoft.azure.sdk.iot.device._transport_client._transport_client_state
+  parent: com.microsoft.azure.sdk.iot.device
+  href: com.microsoft.azure.sdk.iot.device._transport_client._transport_client_state.yml
+  name: TransportClient.TransportClientState
+  nameWithType: TransportClient.TransportClientState
+  fullName: com.microsoft.azure.sdk.iot.device.TransportClient.TransportClientState
+  type: Enum
+  syntax:
+    content: public enum TransportClientState

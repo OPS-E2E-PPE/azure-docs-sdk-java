@@ -13,14 +13,14 @@ items:
   source:
     remote:
       path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/ApplicationGatewayBackendHttpConfiguration.java
-      branch: 880e2022bf46b71f481107effb7c878a9ae065dd
+      branch: v1.3.0
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/ApplicationGatewayBackendHttpConfiguration.java
     startLine: 69
   package: com.microsoft.azure.management.network
   summary: <p>The stage of an application gateway backend HTTP configuration allowing to specify the protocol. </p>
   syntax:
-    content: public interface WithProtocol<ParentT> extends HasProtocol<WithAttach<ParentT>, ApplicationGatewayProtocol>.DefinitionStages.WithProtocol
+    content: public interface WithProtocol<ParentT> extends HasProtocol<ProtocolT>.DefinitionStages.WithProtocol<WithAttach<ParentT>, ApplicationGatewayProtocol>
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent application gateway definition to return to after attaching this definition </p>

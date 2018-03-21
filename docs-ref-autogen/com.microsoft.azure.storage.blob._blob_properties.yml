@@ -16,6 +16,7 @@ items:
   - com.microsoft.azure.storage.blob._blob_properties.getContentMD5()
   - com.microsoft.azure.storage.blob._blob_properties.getContentType()
   - com.microsoft.azure.storage.blob._blob_properties.getCopyState()
+  - com.microsoft.azure.storage.blob._blob_properties.getDeletedTime()
   - com.microsoft.azure.storage.blob._blob_properties.getEtag()
   - com.microsoft.azure.storage.blob._blob_properties.getLastModified()
   - com.microsoft.azure.storage.blob._blob_properties.getLeaseDuration()
@@ -25,7 +26,9 @@ items:
   - com.microsoft.azure.storage.blob._blob_properties.getPageBlobSequenceNumber()
   - com.microsoft.azure.storage.blob._blob_properties.getPremiumPageBlobTier()
   - com.microsoft.azure.storage.blob._blob_properties.getRehydrationStatus()
+  - com.microsoft.azure.storage.blob._blob_properties.getRemainingRetentionDays()
   - com.microsoft.azure.storage.blob._blob_properties.getStandardBlobTier()
+  - com.microsoft.azure.storage.blob._blob_properties.getTierChangeTime()
   - com.microsoft.azure.storage.blob._blob_properties.isBlobTierInferred()
   - com.microsoft.azure.storage.blob._blob_properties.isIncrementalCopy()
   - com.microsoft.azure.storage.blob._blob_properties.isServerEncrypted()
@@ -39,6 +42,7 @@ items:
   - com.microsoft.azure.storage.blob._blob_properties.setContentMD5(final String)
   - com.microsoft.azure.storage.blob._blob_properties.setContentType(final String)
   - com.microsoft.azure.storage.blob._blob_properties.setCopyState(final CopyState)
+  - com.microsoft.azure.storage.blob._blob_properties.setDeletedTime(Date)
   - com.microsoft.azure.storage.blob._blob_properties.setEtag(final String)
   - com.microsoft.azure.storage.blob._blob_properties.setIncrementalCopy(boolean)
   - com.microsoft.azure.storage.blob._blob_properties.setLastModified(final Date)
@@ -49,8 +53,10 @@ items:
   - com.microsoft.azure.storage.blob._blob_properties.setPageBlobSequenceNumber(final Long)
   - com.microsoft.azure.storage.blob._blob_properties.setPremiumPageBlobTier(PremiumPageBlobTier)
   - com.microsoft.azure.storage.blob._blob_properties.setRehydrationStatus(RehydrationStatus)
+  - com.microsoft.azure.storage.blob._blob_properties.setRemainingRetentionDays(Integer)
   - com.microsoft.azure.storage.blob._blob_properties.setServerEncrypted(boolean)
   - com.microsoft.azure.storage.blob._blob_properties.setStandardBlobTier(StandardBlobTier)
+  - com.microsoft.azure.storage.blob._blob_properties.setTierChangeTime(Date)
   href: com.microsoft.azure.storage.blob._blob_properties.yml
   langs:
   - java
@@ -85,7 +91,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 142
+    startLine: 157
   package: com.microsoft.azure.storage.blob
   summary: <p>Creates an instance of the  class. </p>
   syntax:
@@ -104,7 +110,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 153
+    startLine: 168
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates an instance of the  class by copying values from another instance of the  class.</p>
@@ -130,7 +136,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 184
+    startLine: 202
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates an instance of the  class.</p>
@@ -156,7 +162,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 193
+    startLine: 211
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>If the blob is an append blob, gets the number of committed blocks.</p>
@@ -181,7 +187,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 202
+    startLine: 220
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the blob type for the blob.</p>
@@ -206,7 +212,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 211
+    startLine: 229
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the cache control value for the blob.</p>
@@ -231,7 +237,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 221
+    startLine: 239
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the content disposition value for the blob.</p>
@@ -256,7 +262,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 231
+    startLine: 249
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the content encoding value for the blob.</p>
@@ -281,7 +287,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 241
+    startLine: 259
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the content language value for the blob.</p>
@@ -306,7 +312,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 250
+    startLine: 268
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the content MD5 value for the blob.</p>
@@ -331,7 +337,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 259
+    startLine: 277
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the content type value for the blob.</p>
@@ -356,7 +362,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 268
+    startLine: 286
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the blob's copy state.</p>
@@ -367,6 +373,28 @@ items:
     return:
       type: com.microsoft.azure.storage.blob._copy_state
       description: <p>A <xref uid="com.microsoft.azure.storage.blob._copy_state" data-throw-if-not-resolved="false">CopyState</xref> object which represents the copy state of the blob. </p>
+- uid: com.microsoft.azure.storage.blob._blob_properties.getDeletedTime()
+  id: getDeletedTime()
+  parent: com.microsoft.azure.storage.blob._blob_properties
+  href: com.microsoft.azure.storage.blob._blob_properties.yml
+  langs:
+  - java
+  name: getDeletedTime()
+  nameWithType: BlobProperties.getDeletedTime()
+  fullName: Date com.microsoft.azure.storage.blob.BlobProperties.getDeletedTime()
+  overload: com.microsoft.azure.storage.blob._blob_properties.getDeletedTime*
+  type: Method
+  source:
+    remote: *o0
+    path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
+    startLine: 421
+  package: com.microsoft.azure.storage.blob
+  summary: <p>Gets the time when the blob was deleted. </p>
+  syntax:
+    content: public Date getDeletedTime()
+    return:
+      type: "12977444"
+      description: <p>A <xref uid="" data-throw-if-not-resolved="false">java.util.Date</xref> object which represents the time when the blob was deleted. It returns null if the blob has not been deleted. </p>
 - uid: com.microsoft.azure.storage.blob._blob_properties.getEtag()
   id: getEtag()
   parent: com.microsoft.azure.storage.blob._blob_properties
@@ -381,7 +409,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 284
+    startLine: 302
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the ETag value for the blob. </p>
@@ -410,7 +438,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 293
+    startLine: 311
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the last modified time for the blob.</p>
@@ -435,7 +463,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 327
+    startLine: 352
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the lease duration for the blob.</p>
@@ -460,7 +488,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 318
+    startLine: 343
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the lease state for the blob.</p>
@@ -485,7 +513,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 309
+    startLine: 334
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the lease status for the blob.</p>
@@ -510,7 +538,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 336
+    startLine: 361
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the size, in bytes, of the blob.</p>
@@ -535,7 +563,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 345
+    startLine: 370
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>If the blob is a page blob, gets the page blob's current sequence number.</p>
@@ -560,7 +588,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 354
+    startLine: 379
   package: com.microsoft.azure.storage.blob
   summary: <p>If using a premium account and the blob is a page blob, gets the tier of the blob. </p>
   syntax:
@@ -582,13 +610,35 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 372
+    startLine: 397
   package: com.microsoft.azure.storage.blob
   summary: <p>The rehydration status if the blob is being rehydrated and the tier of the blob once the rehydration from archive has completed. </p>
   syntax:
     content: public RehydrationStatus getRehydrationStatus()
     return:
       type: com.microsoft.azure.storage.blob._rehydration_status
+- uid: com.microsoft.azure.storage.blob._blob_properties.getRemainingRetentionDays()
+  id: getRemainingRetentionDays()
+  parent: com.microsoft.azure.storage.blob._blob_properties
+  href: com.microsoft.azure.storage.blob._blob_properties.yml
+  langs:
+  - java
+  name: getRemainingRetentionDays()
+  nameWithType: BlobProperties.getRemainingRetentionDays()
+  fullName: Integer com.microsoft.azure.storage.blob.BlobProperties.getRemainingRetentionDays()
+  overload: com.microsoft.azure.storage.blob._blob_properties.getRemainingRetentionDays*
+  type: Method
+  source:
+    remote: *o0
+    path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
+    startLine: 429
+  package: com.microsoft.azure.storage.blob
+  summary: <p>Gets the number of days that the deleted blob will be kept by the service. </p>
+  syntax:
+    content: public Integer getRemainingRetentionDays()
+    return:
+      type: 08effaa0
+      description: <p>A <code>Integer</code> value that represents the number of days that the deleted blob will be kept by the service. </p>
 - uid: com.microsoft.azure.storage.blob._blob_properties.getStandardBlobTier()
   id: getStandardBlobTier()
   parent: com.microsoft.azure.storage.blob._blob_properties
@@ -603,7 +653,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 363
+    startLine: 388
   package: com.microsoft.azure.storage.blob
   summary: <p>If using a standard account and the blob is a block blob, gets the tier of the blob. </p>
   syntax:
@@ -611,6 +661,31 @@ items:
     return:
       type: com.microsoft.azure.storage.blob._standard_blob_tier
       description: <p>A <xref uid="com.microsoft.azure.storage.blob._standard_blob_tier" data-throw-if-not-resolved="false">StandardBlobTier</xref> object which represents the tier of the blob or <code>null</code> if the tier has not been set. </p>
+- uid: com.microsoft.azure.storage.blob._blob_properties.getTierChangeTime()
+  id: getTierChangeTime()
+  parent: com.microsoft.azure.storage.blob._blob_properties
+  href: com.microsoft.azure.storage.blob._blob_properties.yml
+  langs:
+  - java
+  name: getTierChangeTime()
+  nameWithType: BlobProperties.getTierChangeTime()
+  fullName: Date com.microsoft.azure.storage.blob.BlobProperties.getTierChangeTime()
+  overload: com.microsoft.azure.storage.blob._blob_properties.getTierChangeTime*
+  type: Method
+  source:
+    remote: *o0
+    path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
+    startLine: 327
+  package: com.microsoft.azure.storage.blob
+  summary: >-
+    <p>Gets a value indicating the last time the tier was changed on the blob.</p>
+
+    <p></p>
+  syntax:
+    content: public Date getTierChangeTime()
+    return:
+      type: "12977444"
+      description: <p>A <xref uid="" data-throw-if-not-resolved="false">java.util.Date</xref> object which represents the last time the tier was changed. </p>
 - uid: com.microsoft.azure.storage.blob._blob_properties.isBlobTierInferred()
   id: isBlobTierInferred()
   parent: com.microsoft.azure.storage.blob._blob_properties
@@ -625,17 +700,17 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 302
+    startLine: 320
   package: com.microsoft.azure.storage.blob
   summary: >-
-    <p>Gets a value indicating if the tier of the premium page blob has been inferred.</p>
+    <p>Gets a value indicating if the tier of the blob has been inferred.</p>
 
     <p></p>
   syntax:
     content: public Boolean isBlobTierInferred()
     return:
       type: 866c2227
-      description: <p>A { java.lang.Boolean} object which represents if the blob tier was inferred. </p>
+      description: <p>A <xref uid="" data-throw-if-not-resolved="false">java.lang.Boolean</xref> object which represents if the blob tier was inferred. </p>
 - uid: com.microsoft.azure.storage.blob._blob_properties.isIncrementalCopy()
   id: isIncrementalCopy()
   parent: com.microsoft.azure.storage.blob._blob_properties
@@ -650,7 +725,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 388
+    startLine: 413
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets if the blob is an incremental copy</p>
@@ -675,7 +750,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 379
+    startLine: 404
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the blob's server-side encryption status;</p>
@@ -700,7 +775,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 458
+    startLine: 499
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>If the blob is an append blob, sets the number of committed blocks.</p>
@@ -726,7 +801,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 594
+    startLine: 635
   package: com.microsoft.azure.storage.blob
   summary: <p>Sets whether the blob tier is inferred. </p>
   syntax:
@@ -749,7 +824,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 468
+    startLine: 509
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the blob type.</p>
@@ -775,7 +850,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 398
+    startLine: 439
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the cache control value for the blob.</p>
@@ -801,7 +876,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 408
+    startLine: 449
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the content disposition value for the blob.</p>
@@ -827,7 +902,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 418
+    startLine: 459
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the content encoding value for the blob.</p>
@@ -853,7 +928,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 428
+    startLine: 469
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the content language for the blob.</p>
@@ -879,7 +954,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 438
+    startLine: 479
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the content MD5 value for the blob.</p>
@@ -905,7 +980,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 448
+    startLine: 489
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the content type value for the blob.</p>
@@ -931,7 +1006,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 478
+    startLine: 519
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the copy state value for the blob</p>
@@ -943,6 +1018,29 @@ items:
     - id: copyState
       type: 93de0ef9com.microsoft.azure.storage.blob._copy_state
       description: <p>A <xref uid="com.microsoft.azure.storage.blob._copy_state" data-throw-if-not-resolved="false">CopyState</xref> object which specifies the copy state value to set. </p>
+- uid: com.microsoft.azure.storage.blob._blob_properties.setDeletedTime(Date)
+  id: setDeletedTime(Date)
+  parent: com.microsoft.azure.storage.blob._blob_properties
+  href: com.microsoft.azure.storage.blob._blob_properties.yml
+  langs:
+  - java
+  name: setDeletedTime(Date deletedTime)
+  nameWithType: BlobProperties.setDeletedTime(Date deletedTime)
+  fullName: void com.microsoft.azure.storage.blob.BlobProperties.setDeletedTime(Date deletedTime)
+  overload: com.microsoft.azure.storage.blob._blob_properties.setDeletedTime*
+  type: Method
+  source:
+    remote: *o0
+    path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
+    startLine: 662
+  package: com.microsoft.azure.storage.blob
+  summary: <p>Sets the time when the blob was deleted. </p>
+  syntax:
+    content: protected void setDeletedTime(Date deletedTime)
+    parameters:
+    - id: deletedTime
+      type: "12977444"
+      description: <p>A <xref uid="" data-throw-if-not-resolved="false">java.util.Date</xref> object which represents the time when the blob was deleted. </p>
 - uid: com.microsoft.azure.storage.blob._blob_properties.setEtag(final String)
   id: setEtag(final String)
   parent: com.microsoft.azure.storage.blob._blob_properties
@@ -957,7 +1055,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 488
+    startLine: 529
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the ETag value for the blob.</p>
@@ -983,7 +1081,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 567
+    startLine: 608
   package: com.microsoft.azure.storage.blob
   summary: <p>Sets whether the blob is an incremental copy. </p>
   syntax:
@@ -1006,7 +1104,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 498
+    startLine: 539
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the last modified time for the blob.</p>
@@ -1032,7 +1130,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 528
+    startLine: 569
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the lease duration for the blob.</p>
@@ -1058,7 +1156,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 518
+    startLine: 559
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the lease state for the blob.</p>
@@ -1084,7 +1182,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 508
+    startLine: 549
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the lease status for the blob.</p>
@@ -1110,7 +1208,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 538
+    startLine: 579
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the content length, in bytes, for the blob.</p>
@@ -1136,7 +1234,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 548
+    startLine: 589
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>If the blob is a page blob, sets the blob's current sequence number.</p>
@@ -1162,7 +1260,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 576
+    startLine: 617
   package: com.microsoft.azure.storage.blob
   summary: <p>Sets the tier of the page blob. This is only supported for premium accounts. </p>
   syntax:
@@ -1185,7 +1283,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 603
+    startLine: 653
   package: com.microsoft.azure.storage.blob
   summary: <p>Sets the rehydration status of the blob. </p>
   syntax:
@@ -1194,6 +1292,29 @@ items:
     - id: rehydrationStatus
       type: com.microsoft.azure.storage.blob._rehydration_status
       description: <p>A { <xref uid="com.microsoft.azure.storage.blob._rehydration_status" data-throw-if-not-resolved="false">RehydrationStatus</xref>} which specifies the rehydration status of the blob. </p>
+- uid: com.microsoft.azure.storage.blob._blob_properties.setRemainingRetentionDays(Integer)
+  id: setRemainingRetentionDays(Integer)
+  parent: com.microsoft.azure.storage.blob._blob_properties
+  href: com.microsoft.azure.storage.blob._blob_properties.yml
+  langs:
+  - java
+  name: setRemainingRetentionDays(Integer remainingRetentionDays)
+  nameWithType: BlobProperties.setRemainingRetentionDays(Integer remainingRetentionDays)
+  fullName: void com.microsoft.azure.storage.blob.BlobProperties.setRemainingRetentionDays(Integer remainingRetentionDays)
+  overload: com.microsoft.azure.storage.blob._blob_properties.setRemainingRetentionDays*
+  type: Method
+  source:
+    remote: *o0
+    path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
+    startLine: 671
+  package: com.microsoft.azure.storage.blob
+  summary: <p>Sets the number days that the deleted blob will be kept by the service. </p>
+  syntax:
+    content: protected void setRemainingRetentionDays(Integer remainingRetentionDays)
+    parameters:
+    - id: remainingRetentionDays
+      type: 08effaa0
+      description: <p>A <code>Integer</code> value that represents the number days that the deleted blob will be kept by the service. </p>
 - uid: com.microsoft.azure.storage.blob._blob_properties.setServerEncrypted(boolean)
   id: setServerEncrypted(boolean)
   parent: com.microsoft.azure.storage.blob._blob_properties
@@ -1208,7 +1329,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 558
+    startLine: 599
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the blob's server-side encryption status.</p>
@@ -1234,7 +1355,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
-    startLine: 585
+    startLine: 626
   package: com.microsoft.azure.storage.blob
   summary: <p>Sets the tier of the block blob. This is only supported for standard storage accounts. </p>
   syntax:
@@ -1243,6 +1364,29 @@ items:
     - id: standardBlobTier
       type: com.microsoft.azure.storage.blob._standard_blob_tier
       description: <p>A <xref uid="com.microsoft.azure.storage.blob._standard_blob_tier" data-throw-if-not-resolved="false">StandardBlobTier</xref> object which represents the tier of the blob. </p>
+- uid: com.microsoft.azure.storage.blob._blob_properties.setTierChangeTime(Date)
+  id: setTierChangeTime(Date)
+  parent: com.microsoft.azure.storage.blob._blob_properties
+  href: com.microsoft.azure.storage.blob._blob_properties.yml
+  langs:
+  - java
+  name: setTierChangeTime(Date tierChangeTime)
+  nameWithType: BlobProperties.setTierChangeTime(Date tierChangeTime)
+  fullName: void com.microsoft.azure.storage.blob.BlobProperties.setTierChangeTime(Date tierChangeTime)
+  overload: com.microsoft.azure.storage.blob._blob_properties.setTierChangeTime*
+  type: Method
+  source:
+    remote: *o0
+    path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobProperties.java
+    startLine: 644
+  package: com.microsoft.azure.storage.blob
+  summary: <p>Sets the last time the tier was modified on the blob. </p>
+  syntax:
+    content: protected void setTierChangeTime(Date tierChangeTime)
+    parameters:
+    - id: tierChangeTime
+      type: "12977444"
+      description: <p>A <xref uid="" data-throw-if-not-resolved="false">java.util.Date</xref> which specifies the last time the tier was modified. </p>
 references:
 - uid: com.microsoft.azure.storage.blob._blob_properties.BlobProperties*
   name: BlobProperties
@@ -1341,6 +1485,11 @@ references:
   nameWithType: BlobProperties.isBlobTierInferred
   fullName: Boolean com.microsoft.azure.storage.blob.BlobProperties.isBlobTierInferred
   package: com.microsoft.azure.storage.blob
+- uid: com.microsoft.azure.storage.blob._blob_properties.getTierChangeTime*
+  name: getTierChangeTime
+  nameWithType: BlobProperties.getTierChangeTime
+  fullName: Date com.microsoft.azure.storage.blob.BlobProperties.getTierChangeTime
+  package: com.microsoft.azure.storage.blob
 - uid: com.microsoft.azure.storage.blob._blob_properties.getLeaseStatus*
   name: getLeaseStatus
   nameWithType: BlobProperties.getLeaseStatus
@@ -1402,6 +1551,16 @@ references:
   name: isIncrementalCopy
   nameWithType: BlobProperties.isIncrementalCopy
   fullName: boolean com.microsoft.azure.storage.blob.BlobProperties.isIncrementalCopy
+  package: com.microsoft.azure.storage.blob
+- uid: com.microsoft.azure.storage.blob._blob_properties.getDeletedTime*
+  name: getDeletedTime
+  nameWithType: BlobProperties.getDeletedTime
+  fullName: Date com.microsoft.azure.storage.blob.BlobProperties.getDeletedTime
+  package: com.microsoft.azure.storage.blob
+- uid: com.microsoft.azure.storage.blob._blob_properties.getRemainingRetentionDays*
+  name: getRemainingRetentionDays
+  nameWithType: BlobProperties.getRemainingRetentionDays
+  fullName: Integer com.microsoft.azure.storage.blob.BlobProperties.getRemainingRetentionDays
   package: com.microsoft.azure.storage.blob
 - uid: 3d93591e
   spec.java:
@@ -1560,10 +1719,25 @@ references:
   nameWithType: BlobProperties.setBlobTierInferred
   fullName: void com.microsoft.azure.storage.blob.BlobProperties.setBlobTierInferred
   package: com.microsoft.azure.storage.blob
+- uid: com.microsoft.azure.storage.blob._blob_properties.setTierChangeTime*
+  name: setTierChangeTime
+  nameWithType: BlobProperties.setTierChangeTime
+  fullName: void com.microsoft.azure.storage.blob.BlobProperties.setTierChangeTime
+  package: com.microsoft.azure.storage.blob
 - uid: com.microsoft.azure.storage.blob._blob_properties.setRehydrationStatus*
   name: setRehydrationStatus
   nameWithType: BlobProperties.setRehydrationStatus
   fullName: void com.microsoft.azure.storage.blob.BlobProperties.setRehydrationStatus
+  package: com.microsoft.azure.storage.blob
+- uid: com.microsoft.azure.storage.blob._blob_properties.setDeletedTime*
+  name: setDeletedTime
+  nameWithType: BlobProperties.setDeletedTime
+  fullName: void com.microsoft.azure.storage.blob.BlobProperties.setDeletedTime
+  package: com.microsoft.azure.storage.blob
+- uid: com.microsoft.azure.storage.blob._blob_properties.setRemainingRetentionDays*
+  name: setRemainingRetentionDays
+  nameWithType: BlobProperties.setRemainingRetentionDays
+  fullName: void com.microsoft.azure.storage.blob.BlobProperties.setRemainingRetentionDays
   package: com.microsoft.azure.storage.blob
 - uid: com.microsoft.azure.storage.blob._blob_type
   parent: com.microsoft.azure.storage.blob
@@ -1678,7 +1852,7 @@ references:
   summary: >-
     <p>Returns an access condition such that an operation will be performed only if the resource's ETag value matches the specified ETag value. </p>
 
-    <p>Setting this access condition modifies the request to include the HTTP <emphasis>If-Match</emphasis> conditional header. If this access condition is set, the operation is performed only if the ETag of the resource matches the specified ETag. </p>
+    <p>Setting this access condition modifies the request to include the HTTP <em>If-Match</em> conditional header. If this access condition is set, the operation is performed only if the ETag of the resource matches the specified ETag. </p>
 
     <p>For more information, see <ulink url="http://go.microsoft.com/fwlink/?LinkID=224642">Specifying Conditional Headers for Blob Service Operations</ulink>.</p>
 
@@ -1691,7 +1865,7 @@ references:
       description: <p>A <code>String</code> that represents the ETag value to check.</p>
     return:
       type: com.microsoft.azure.storage._access_condition
-      description: <p>An <code><xref uid="com.microsoft.azure.storage._access_condition" data-throw-if-not-resolved="false">AccessCondition</xref></code> object that represents the <emphasis>If-Match</emphasis> condition. </p>
+      description: <p>An <code><xref uid="com.microsoft.azure.storage._access_condition" data-throw-if-not-resolved="false">AccessCondition</xref></code> object that represents the <em>If-Match</em> condition. </p>
 - uid: com.microsoft.azure.storage._access_condition.generateIfNoneMatchCondition(final String)
   parent: com.microsoft.azure.storage._access_condition
   href: com.microsoft.azure.storage._access_condition.yml
@@ -1702,7 +1876,7 @@ references:
   summary: >-
     <p>Returns an access condition such that an operation will be performed only if the resource's ETag value does not match the specified ETag value. </p>
 
-    <p>Setting this access condition modifies the request to include the HTTP <emphasis>If-None-Match</emphasis> conditional header. If this access condition is set, the operation is performed only if the ETag of the resource does not match the specified ETag. </p>
+    <p>Setting this access condition modifies the request to include the HTTP <em>If-None-Match</em> conditional header. If this access condition is set, the operation is performed only if the ETag of the resource does not match the specified ETag. </p>
 
     <p>For more information, see <ulink url="http://go.microsoft.com/fwlink/?LinkID=224642">Specifying Conditional Headers for Blob Service Operations</ulink>.</p>
 
@@ -1715,7 +1889,7 @@ references:
       description: <p>A <code>String</code> that represents the ETag value to check.</p>
     return:
       type: com.microsoft.azure.storage._access_condition
-      description: <p>An <code><xref uid="com.microsoft.azure.storage._access_condition" data-throw-if-not-resolved="false">AccessCondition</xref></code> object that represents the <emphasis>If-None-Match</emphasis> condition. </p>
+      description: <p>An <code><xref uid="com.microsoft.azure.storage._access_condition" data-throw-if-not-resolved="false">AccessCondition</xref></code> object that represents the <em>If-None-Match</em> condition. </p>
 - uid: com.microsoft.azure.storage._access_condition
   parent: com.microsoft.azure.storage
   href: com.microsoft.azure.storage._access_condition.yml

@@ -72,9 +72,9 @@ items:
       branch: master
       repo: https://msazure.visualstudio.com/One/_git/sf-java
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 23
+    startLine: 26
   package: system.fabric
-  summary: <p>Provides a transactional, replicated, associative data storage to service writers â€“ ready for integration into any Service Fabric service. </p>
+  summary: <p>Provides a transactional, replicated, associative data storage to service writers – ready for integration into any Service Fabric service. </p>
   syntax: &o1
     content: public class KeyValueStoreReplica implements StatefulServiceReplica
   inheritance:
@@ -94,7 +94,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1210
+    startLine: 1072
   package: system.fabric
   summary: <p>Aborts this instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref> class. </p>
   syntax:
@@ -114,7 +114,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 360
+    startLine: 346
   package: system.fabric
   summary: >-
     <p>Adds a value indexed by the specified key to the key/value store.</p>
@@ -146,34 +146,34 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 908
+    startLine: 793
   package: system.fabric
   summary: >-
     <p>Asynchronously creates a backup of the key-value store.</p>
 
     <p>
 
-      <bold>Remarks:</bold> The <bold>postBackupAsyncFunc</bold> is not invoked if there is an error during backup. Also, it is not invoked when <bold>backupOption</bold> is <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref> since there is no further action needed from the user in this case to complete a single backup cycle. </p>
+      <b>Remarks:</b> The <b>postBackupAsyncFunc</b> is not invoked if there is an error during backup. Also, it is not invoked when <b>backupOption</b> is <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref> since there is no further action needed from the user in this case to complete a single backup cycle. </p>
   syntax:
     content: public CompletableFuture<?> backupAsync(String backupDirectory, StoreBackupOption backupOption, Function<StoreBackupInfo, CompletableFuture<Boolean>> postBackupAsyncFunc)
     parameters:
     - id: backupDirectory
       type: "26831127"
-      description: <p>The directory where the backup is to be stored. If <bold>backupOption</bold> is <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref>, then this parameter should be null. Otherwise, this parameter cannot be null, empty or contain just whitespace. UNC paths may also be provided. If the directory doesn't exist, it is created. If it exists and isn't empty, then incremental backup fails with <xref uid="system.fabric.exception._fabric_backup_directory_not_empty_exception" data-throw-if-not-resolved="false">system.fabric.exception.FabricBackupDirectoryNotEmptyException</xref>. </p>
+      description: <p>The directory where the backup is to be stored. If <b>backupOption</b> is <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref>, then this parameter should be null. Otherwise, this parameter cannot be null, empty or contain just whitespace. UNC paths may also be provided. If the directory doesn't exist, it is created. If it exists and isn't empty, then incremental backup fails with <xref uid="system.fabric.exception._fabric_backup_directory_not_empty_exception" data-throw-if-not-resolved="false">system.fabric.exception.FabricBackupDirectoryNotEmptyException</xref>. </p>
     - id: backupOption
       type: system.fabric._store_backup_option
       description: <p>The backup option. </p>
     - id: postBackupAsyncFunc
       type: 432ffe41system.fabric._store_backup_info774bd4f0
-      description: <p>The post backup asynchronous method that is invoked by Windows Fabric to allow the user to complete any post backup activity before returning control to the system. If <bold>null</bold> is passed in for this, incremental backups are disallowed. If the post-backup method returns false, then again, incremental backups are disallowed. </p>
+      description: <p>The post backup asynchronous method that is invoked by Windows Fabric to allow the user to complete any post backup activity before returning control to the system. If <b>null</b> is passed in for this, incremental backups are disallowed. If the post-backup method returns false, then again, incremental backups are disallowed. </p>
     return:
       type: 16409f84
       description: <p>A task that represents the asynchronous backup operation. </p>
   exceptions:
   - type: 3c87bd19
-    description: <p>backupDirectory is <bold>null</bold> when backupOption is not <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref>. </p>
+    description: <p>backupDirectory is <b>null</b> when backupOption is not <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref>. </p>
   - type: 3c87bd19
-    description: <p>backupDirectory is empty or contains just whitespaces when backupOption is not <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref> or backupDirectory is not <bold>null</bold> when backupOption is <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref>. </p>
+    description: <p>backupDirectory is empty or contains just whitespaces when backupOption is not <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref> or backupDirectory is not <b>null</b> when backupOption is <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY</xref>. </p>
   - type: system.fabric.exception._fabric_backup_directory_not_empty_exception
     description: <p>When backupOption is <xref uid="system.fabric._store_backup_option.FABRIC_STORE_BACKUP_OPTION_INCREMENTAL" data-throw-if-not-resolved="false">StoreBackupOption#FABRIC_STORE_BACKUP_OPTION_INCREMENTAL</xref> and the backup directory already contains files or sub-directories. </p>
   - type: system.fabric.exception._fabric_backup_in_progress_exception
@@ -192,14 +192,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1128
+    startLine: 1001
   package: system.fabric
   summary: >-
     <p>Changes the replica role of the replica and its replicator.</p>
 
     <p>
 
-      <bold>Remarks:</bold>This method does not need to be called explicitly if the application replica derives from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. In this case, the application replica should override <xref uid="system.fabric._key_value_store_replica.onChangeRoleAsync(ReplicaRole,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onChangeRoleAsync(system.fabric.ReplicaRole, system.fabric.CancellationToken)</xref> instead. </p>
+      <b>Remarks:</b>This method does not need to be called explicitly if the application replica derives from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. In this case, the application replica should override <xref uid="system.fabric._key_value_store_replica.onChangeRoleAsync(ReplicaRole,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onChangeRoleAsync(system.fabric.ReplicaRole, system.fabric.CancellationToken)</xref> instead. </p>
   syntax:
     content: public CompletableFuture<String> changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
     parameters:
@@ -230,14 +230,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1180
+    startLine: 1047
   package: system.fabric
   summary: >-
     <p>Closes the replica and its replicator in preparation for going offline from a replica set. Currently unused. Reserved for future use.</p>
 
     <p>
 
-      <bold>Remarks:</bold>The replica has not necessarily been removed permanently from the replica set and may be re-opened at a later time. The most common causes for closing a replica is graceful shutdown in preparation for upgrade or load balancing. This method does not need to be called explicitly if the application replica derives from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. In this case, the application replica should override <xref uid="system.fabric._key_value_store_replica.onCloseAsync(CancellationToken)" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onCloseAsync(system.fabric.CancellationToken)</xref> instead. </p>
+      <b>Remarks:</b>The replica has not necessarily been removed permanently from the replica set and may be re-opened at a later time. The most common causes for closing a replica is graceful shutdown in preparation for upgrade or load balancing. This method does not need to be called explicitly if the application replica derives from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. In this case, the application replica should override <xref uid="system.fabric._key_value_store_replica.onCloseAsync(CancellationToken)" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onCloseAsync(system.fabric.CancellationToken)</xref> instead. </p>
   syntax:
     content: public CompletableFuture<Void> closeAsync(CancellationToken cancellationToken)
     parameters:
@@ -265,7 +265,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 702
+    startLine: 625
   package: system.fabric
   summary: >-
     <p>Determines a flag that indicates whether a value is contained in the key/value store.</p>
@@ -297,7 +297,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 317
+    startLine: 315
   package: system.fabric
   summary: >-
     <p>Creates a unique <xref uid="system.fabric._transaction" data-throw-if-not-resolved="false">system.fabric.Transaction</xref> instance, which is used to commit or rollback groups of key/value store operations.</p>
@@ -322,7 +322,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 337
+    startLine: 329
   package: system.fabric
   summary: >-
     <p>Creates a unique <xref uid="system.fabric._transaction" data-throw-if-not-resolved="false">system.fabric.Transaction</xref> instance, which is used to commit or rollback groups of key/value store operations.</p>
@@ -351,7 +351,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 721
+    startLine: 639
   package: system.fabric
   summary: >-
     <p>Returns an enumerator that iterates through the <xref uid="system.fabric._key_value_store_item" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItem</xref> values in the key/value store.</p>
@@ -380,7 +380,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 743
+    startLine: 655
   package: system.fabric
   summary: >-
     <p>Returns an enumerator that iterates through the <xref uid="system.fabric._key_value_store_item" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItem</xref> values in the key/value store, where the value keys match the specified key prefix.</p>
@@ -412,7 +412,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 769
+    startLine: 676
   package: system.fabric
   summary: >-
     <p>Returns an enumerator that iterates through the <xref uid="system.fabric._key_value_store_item" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItem</xref> values in the key/value store.</p>
@@ -447,7 +447,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 795
+    startLine: 697
   package: system.fabric
   summary: >-
     <p>Returns an enumerator that iterates through the <xref uid="system.fabric._key_value_store_item_metadata" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItemMetadata</xref> values in the key/value store.</p>
@@ -476,7 +476,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 818
+    startLine: 715
   package: system.fabric
   summary: >-
     <p>Returns an enumerator that iterates through the <xref uid="system.fabric._key_value_store_item_metadata" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItemMetadata</xref> values in the key/value store, where the value keys match the specified key prefix.</p>
@@ -508,7 +508,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 848
+    startLine: 739
   package: system.fabric
   summary: >-
     <p>Returns an enumerator that iterates through the <xref uid="system.fabric._key_value_store_item_metadata" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItemMetadata</xref> values in the key/value store.</p>
@@ -543,7 +543,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 573
+    startLine: 527
   package: system.fabric
   summary: >-
     <p>Gets the stored value, as a <xref uid="system.fabric._key_value_store_item" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItem</xref> object, associated with the specified key.</p>
@@ -575,7 +575,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 281
+    startLine: 284
   package: system.fabric
   summary: >-
     <p>Gets the current epoch for the key/value store.</p>
@@ -600,7 +600,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 271
+    startLine: 274
   package: system.fabric
   syntax:
     content: public Observable getDataLossHandler()
@@ -620,7 +620,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 660
+    startLine: 593
   package: system.fabric
   summary: >-
     <p>Gets the metadata, as a <xref uid="system.fabric._key_value_store_item_metadata" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItemMetadata</xref> object, for the value associated with the specified key.</p>
@@ -652,7 +652,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1502
+    startLine: 1364
   package: system.fabric
   summary: >-
     <p>Gets the option settings for the key/value store replicator.</p>
@@ -677,14 +677,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1453
+    startLine: 1315
   package: system.fabric
   summary: >-
     <p>Gets the name of the key/value store.</p>
 
     <p>
 
-      <bold>Remarks:</bold>The store name should conform to valid filename characters. </p>
+      <b>Remarks:</b>The store name should conform to valid filename characters. </p>
   syntax:
     content: public String getStoreName()
     return:
@@ -704,7 +704,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 615
+    startLine: 559
   package: system.fabric
   summary: >-
     <p>Gets the stored value as a byte array, associated with the specified key.</p>
@@ -736,14 +736,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1004
+    startLine: 889
   package: system.fabric
   summary: >-
     <p>Initializes the replica in preparation for opening.</p>
 
     <p>
 
-      <bold>Remarks:</bold>This method does not need to be called explicitly if the application replica derives from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. In this case, the application replica should override <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onInitialize(system.fabric.StatefulServiceInitializationParameters)</xref> instead. </p>
+      <b>Remarks:</b>This method does not need to be called explicitly if the application replica derives from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. In this case, the application replica should override <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onInitialize(system.fabric.StatefulServiceInitializationParameters)</xref> instead. </p>
   syntax:
     content: public void initialize(StatefulServiceInitializationParameters initializationParameters)
     parameters:
@@ -765,14 +765,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 164
+    startLine: 167
   package: system.fabric
   summary: >-
     <p>Initializes a new instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref> class with the specified key/value store name.</p>
 
     <p>
 
-      <bold>Remarks:</bold>The store name should conform to valid filename characters. </p>
+      <b>Remarks:</b>The store name should conform to valid filename characters. </p>
   syntax:
     content: public KeyValueStoreReplica(String storeName)
     parameters:
@@ -793,7 +793,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 177
+    startLine: 180
   package: system.fabric
   summary: >-
     <p>Initializes a new instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref> class with the specified key/value store name and local store settings.</p>
@@ -822,7 +822,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 208
+    startLine: 211
   package: system.fabric
   summary: >-
     <p>Initializes a new instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref> class with the specified key/value store name, local store settings, and replicator settings.</p>
@@ -854,7 +854,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 254
+    startLine: 257
   package: system.fabric
   summary: >-
     <p>Initializes a new instance of the <xref uid="system.fabric._key_value_store_replica" data-throw-if-not-resolved="false">KeyValueStoreReplica</xref> class with the specified key/value store name, local store settings, replicator settings, and replica settings.</p>
@@ -889,7 +889,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 233
+    startLine: 236
   package: system.fabric
   summary: >-
     <p>Initializes a new instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref> class with the specified key/value store name, local store settings, and replicator settings. Secondary replica notifications are enabled via the notification mode.</p>
@@ -924,14 +924,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 193
+    startLine: 196
   package: system.fabric
   summary: >-
     <p>Initializes a new instance of the <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref> class with the specified key/value store name and store replicator settings.</p>
 
     <p>
 
-      <bold>Remarks:</bold>The store name should conform to valid filename characters. </p>
+      <b>Remarks:</b>The store name should conform to valid filename characters. </p>
   syntax:
     content: public KeyValueStoreReplica(String storeName, ReplicatorSettings replicatorSettings)
     parameters:
@@ -955,7 +955,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1291
+    startLine: 1153
   package: system.fabric
   summary: <p>Called to shut down this instance. </p>
   syntax:
@@ -974,14 +974,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1360
+    startLine: 1222
   package: system.fabric
   summary: >-
     <p>Indicates that this replica is changing roles.</p>
 
     <p>
 
-      <bold>Remarks:</bold>The application replica should override this method if deriving from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. The application replica should return a Task whose result is the address of this replica. This replica address is stored by the system as is and can be retrieved (unmodified) using ResolveServiceAsync. The application must take care to complete the role change in a timely manner since reconfiguration of the replica set will be blocked behind the completion of all outstanding change role calls. </p>
+      <b>Remarks:</b>The application replica should override this method if deriving from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. The application replica should return a Task whose result is the address of this replica. This replica address is stored by the system as is and can be retrieved (unmodified) using ResolveServiceAsync. The application must take care to complete the role change in a timely manner since reconfiguration of the replica set will be blocked behind the completion of all outstanding change role calls. </p>
   syntax: &o3
     content: protected CompletableFuture<String> onChangeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
     parameters:
@@ -1011,7 +1011,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1310
+    startLine: 1172
   package: system.fabric
   summary: >-
     <p>Called when this service replica is being shut down and needs to close.</p>
@@ -1043,14 +1043,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1261
+    startLine: 1123
   package: system.fabric
   summary: >-
     <p>Called by the system on secondary replicas when they have finished building from the primary and are ready to start applying replication operations.</p>
 
     <p>
 
-      <bold>Remarks:</bold>The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object can be used to read data on the secondary within the context of this method before any replication operations are applied. The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object is no longer valid after this method returns and cannot be used outside the context of this method. The application must take care to complete this callback in a timely manner since replication operations are being queued on the secondary replica and will not start getting applied until this method returns. The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object is backed by a single underlying local transaction and is not thread-safe. </p>
+      <b>Remarks:</b>The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object can be used to read data on the secondary within the context of this method before any replication operations are applied. The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object is no longer valid after this method returns and cannot be used outside the context of this method. The application must take care to complete this callback in a timely manner since replication operations are being queued on the secondary replica and will not start getting applied until this method returns. The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object is backed by a single underlying local transaction and is not thread-safe. </p>
   syntax: &o2
     content: protected void onCopyComplete(KeyValueStoreEnumerator enumerator)
     parameters:
@@ -1071,7 +1071,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1229
+    startLine: 1091
   package: system.fabric
   summary: >-
     <p>Signals that the replica set may have experienced data loss. The application can either override this method to process the event asynchronously or use <xref uid="system.fabric._key_value_store_replica.onDatalossReported()" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onDatalossReported()</xref> event to process synchronously. Both represent the same event.</p>
@@ -1106,7 +1106,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1239
+    startLine: 1101
   package: system.fabric
   summary: <p>Signals that the replica set may have experienced data loss. The application can either listen for this event or override <xref uid="system.fabric._key_value_store_replica.onDataLossAsync(CancellationToken)" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onDataLossAsync(CancellationToken)</xref> . Both represent the same event. </p>
   syntax: &o5
@@ -1125,7 +1125,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1295
+    startLine: 1157
   package: system.fabric
   syntax:
     content: protected void onInitialize(StatefulServiceInitializationParameters parameters)
@@ -1146,7 +1146,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1331
+    startLine: 1193
   package: system.fabric
   summary: >-
     <p>Called on an initialized service replica to open it so that additional actions can be taken.</p>
@@ -1184,14 +1184,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1288
+    startLine: 1150
   package: system.fabric
   summary: >-
     <p>Called by the system on secondary replicas for incoming replication operations. Each <xref uid="system.fabric._key_value_store_notification" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreNotification</xref> object contains all the data for a single atomic replication operation.</p>
 
     <p>
 
-      <bold>Remarks:</bold> If the BlockSecondaryAck mode was specified, then the incoming replication operation is not applied locally on the secondary replica and acknowledged to the primary until the method returns. This implies that the application must take care to return from this method in a timely manner to avoiding blocking the replication stream. Since the acknowledgment is not sent to the primary until this method returns, it cannot be assumed that the observed replication operation has already been (or is guaranteed to be in the future) applied by a quorum of replicas in the replica set. If the NonBlockingQuorumAcked mode was specified, then the observed replication operation is guaranteed to have already been applied by a quorum of replicas in the replica set. Furthermore, the observed replication operation may have already been applied locally by this secondary and acknowledged to the primary at the time the method is invoked by the system. The method callback will not block the replication stream in this mode, but it will still block the replication operation notification stream. That is, there will only be one outstanding OnReplicationOperation method callback at any given time. </p>
+      <b>Remarks:</b> If the BlockSecondaryAck mode was specified, then the incoming replication operation is not applied locally on the secondary replica and acknowledged to the primary until the method returns. This implies that the application must take care to return from this method in a timely manner to avoiding blocking the replication stream. Since the acknowledgment is not sent to the primary until this method returns, it cannot be assumed that the observed replication operation has already been (or is guaranteed to be in the future) applied by a quorum of replicas in the replica set. If the NonBlockingQuorumAcked mode was specified, then the observed replication operation is guaranteed to have already been applied by a quorum of replicas in the replica set. Furthermore, the observed replication operation may have already been applied locally by this secondary and acknowledged to the primary at the time the method is invoked by the system. The method callback will not block the replication stream in this mode, but it will still block the replication operation notification stream. That is, there will only be one outstanding OnReplicationOperation method callback at any given time. </p>
   syntax:
     content: protected void onReplicationOperation(Enumeration<KeyValueStoreNotification> enumerator)
     parameters:
@@ -1212,14 +1212,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1069
+    startLine: 948
   package: system.fabric
   summary: >-
     <p>Opens the replica and its replicator in preparation for coming online in a replica set.</p>
 
     <p>
 
-      <bold>Remarks:</bold>This method does not need to be called explicitly if the application replica derives from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. In this case, the application replica should override OnOpenAsync instead. </p>
+      <b>Remarks:</b>This method does not need to be called explicitly if the application replica derives from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. In this case, the application replica should override OnOpenAsync instead. </p>
   syntax:
     content: public CompletableFuture<Replicator> openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
     parameters:
@@ -1253,7 +1253,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 404
+    startLine: 378
   package: system.fabric
   summary: >-
     <p>Removes the stored value associated with the specified key.</p>
@@ -1282,7 +1282,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 434
+    startLine: 408
   package: system.fabric
   summary: >-
     <p>Attempts to remove the stored value associated with the specified key.</p>
@@ -1314,14 +1314,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 962
+    startLine: 847
   package: system.fabric
   summary: >-
     <p>Asynchronously restores the key-value store replica.</p>
 
     <p>
 
-      <bold>Remarks:</bold> It is recommended to not perform any write operations to the key-value store while restore is underway since the updated data would be lost when the store is restored from the files in backupDirectory. </p>
+      <b>Remarks:</b> It is recommended to not perform any write operations to the key-value store while restore is underway since the updated data would be lost when the store is restored from the files in backupDirectory. </p>
   syntax:
     content: public CompletableFuture<?> restoreAsync(String backupDirectory)
     parameters:
@@ -1333,7 +1333,7 @@ items:
       description: <p>A task that represents the asynchronous restore operation. </p>
   exceptions:
   - type: 3c87bd19
-    description: <p>backupDirectory is <bold>null</bold>. </p>
+    description: <p>backupDirectory is <b>null</b>. </p>
   - type: 3c87bd19
     description: <p>backupDirectory is empty or contains just whitespaces. </p>
 - uid: system.fabric._key_value_store_replica.restoreAsync(String,RestoreSettings)
@@ -1350,7 +1350,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 967
+    startLine: 852
   package: system.fabric
   syntax:
     content: public CompletableFuture<?> restoreAsync(String backupDirectory, RestoreSettings settings)
@@ -1375,7 +1375,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1297
+    startLine: 1159
   package: system.fabric
   syntax:
     content: protected CompletableFuture<Void> serviceCloseAsync(CancellationToken cancellationToken)
@@ -1398,7 +1398,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 1512
+    startLine: 1374
   package: system.fabric
   summary: >-
     <p>Sets the option settings for the key/value store replicator.</p>
@@ -1424,7 +1424,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 384
+    startLine: 364
   package: system.fabric
   summary: >-
     <p>Attempts to add a value indexed by the specified key to the key/value store.</p>
@@ -1459,7 +1459,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 595
+    startLine: 544
   package: system.fabric
   summary: >-
     <p>Attempts to get the stored value, as a <xref uid="system.fabric._key_value_store_item" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItem</xref> object, associated with the specified key.</p>
@@ -1491,7 +1491,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 682
+    startLine: 610
   package: system.fabric
   summary: >-
     <p>Attempts to get the metadata as a <xref uid="system.fabric._key_value_store_item_metadata" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreItemMetadata</xref> object, for the value associated with the specified key.</p>
@@ -1523,7 +1523,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 636
+    startLine: 575
   package: system.fabric
   summary: >-
     <p>Attempts to get the stored value as a byte array, associated with the specified key.</p>
@@ -1555,7 +1555,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 419
+    startLine: 393
   package: system.fabric
   summary: >-
     <p>Attempts to remove the stored value associated with the specified key.</p>
@@ -1587,7 +1587,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 457
+    startLine: 426
   package: system.fabric
   summary: >-
     <p>Attempts to remove the stored value associated with the specified key.</p>
@@ -1622,7 +1622,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 526
+    startLine: 485
   package: system.fabric
   summary: >-
     <p>Attempts to update the stored value associated with the specified key.</p>
@@ -1657,7 +1657,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 545
+    startLine: 504
   package: system.fabric
   summary: >-
     <p>Attempts to update the stored value associated with the specified key.</p>
@@ -1695,7 +1695,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 479
+    startLine: 443
   package: system.fabric
   summary: >-
     <p>Updates the stored value associated with the specified key.</p>
@@ -1727,7 +1727,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 496
+    startLine: 460
   package: system.fabric
   summary: >-
     <p>Updates the stored value associated with the specified key.</p>
@@ -1762,7 +1762,7 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/system.fabric/src/system/fabric/KeyValueStoreReplica.java
-    startLine: 298
+    startLine: 296
   package: system.fabric
   summary: >-
     <p>Updates the key/value store replicator with the settings in the specified <xref uid="system.fabric._replicator_settings" data-throw-if-not-resolved="false">system.fabric.ReplicatorSettings</xref> object.</p>
@@ -2073,7 +2073,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>Stateful service types must implement this interface. The logic of a stateful service type includes behavior that is invoked on Primary replicas and behavior that is invoked on Secondary replicas. If the service author wants to make use of the provided <xref uid="system.fabric._fabric_replicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref>, then the service must also implement <xref uid="system.fabric._state_provider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> to use the implementation of <xref uid="system.fabric._state_replicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> that is provided by <xref uid="system.fabric._fabric_replicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref></p>
+      <b>Remarks:</b>Stateful service types must implement this interface. The logic of a stateful service type includes behavior that is invoked on Primary replicas and behavior that is invoked on Secondary replicas. If the service author wants to make use of the provided <xref uid="system.fabric._fabric_replicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref>, then the service must also implement <xref uid="system.fabric._state_provider" data-throw-if-not-resolved="false">system.fabric.StateProvider</xref> to use the implementation of <xref uid="system.fabric._state_replicator" data-throw-if-not-resolved="false">system.fabric.StateReplicator</xref> that is provided by <xref uid="system.fabric._fabric_replicator" data-throw-if-not-resolved="false">system.fabric.FabricReplicator</xref></p>
   syntax:
     content: public interface StatefulServiceReplica
 - uid: system.fabric._replica_role
@@ -2083,6 +2083,7 @@ references:
   nameWithType: ReplicaRole
   fullName: system.fabric.ReplicaRole
   type: Enum
+  summary: <p>Defines the replica role </p>
   syntax:
     content: public enum ReplicaRole
 - uid: system.fabric._replicator_settings
@@ -2142,7 +2143,7 @@ references:
   nameWithType: KeyValueStoreReplica
   fullName: system.fabric.KeyValueStoreReplica
   type: Class
-  summary: <p>Provides a transactional, replicated, associative data storage to service writers â€“ ready for integration into any Service Fabric service. </p>
+  summary: <p>Provides a transactional, replicated, associative data storage to service writers – ready for integration into any Service Fabric service. </p>
   syntax: *o1
 - uid: system.fabric.interop._native_async_callback
   parent: system.fabric.interop
@@ -2165,7 +2166,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>An <xref uid="system.fabric._epoch" data-throw-if-not-resolved="false">Epoch</xref> is a configuration number for the partition as a whole. When the configuration of the replica set changes, for example when the Primary replica changes, the operations that are replicated from the new Primary replica are said to be a new <xref uid="system.fabric._epoch" data-throw-if-not-resolved="false">Epoch</xref> from the ones which were sent by the old Primary replica. The fact that the Primary has changed is not directly visible to Secondary replicas, which are usually unaffected by the failure that affected the original Primary replica. To track that the Primary replica has changed has to be communicated to the Secondary replica. This communication occurs via the <xref uid="system.fabric._state_provider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateProvider#updateEpochAsync(system.fabric.Epoch, system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref> method. Most services can ignore the details of the inner fields of the <xref uid="system.fabric._epoch" data-throw-if-not-resolved="false">Epoch</xref> as it is usually sufficient to know that the <xref uid="system.fabric._epoch" data-throw-if-not-resolved="false">Epoch</xref> has changed and to compare Epochs to determine relative ordering of operations and events in the system. Comparison operations are provided for this purpose. </p>
+      <b>Remarks:</b>An <xref uid="system.fabric._epoch" data-throw-if-not-resolved="false">Epoch</xref> is a configuration number for the partition as a whole. When the configuration of the replica set changes, for example when the Primary replica changes, the operations that are replicated from the new Primary replica are said to be a new <xref uid="system.fabric._epoch" data-throw-if-not-resolved="false">Epoch</xref> from the ones which were sent by the old Primary replica. The fact that the Primary has changed is not directly visible to Secondary replicas, which are usually unaffected by the failure that affected the original Primary replica. To track that the Primary replica has changed has to be communicated to the Secondary replica. This communication occurs via the <xref uid="system.fabric._state_provider.updateEpochAsync(Epoch,SequenceNumber,CancellationToken)" data-throw-if-not-resolved="false">system.fabric.StateProvider#updateEpochAsync(system.fabric.Epoch, system.fabric.SequenceNumber, system.fabric.CancellationToken)</xref> method. Most services can ignore the details of the inner fields of the <xref uid="system.fabric._epoch" data-throw-if-not-resolved="false">Epoch</xref> as it is usually sufficient to know that the <xref uid="system.fabric._epoch" data-throw-if-not-resolved="false">Epoch</xref> has changed and to compare Epochs to determine relative ordering of operations and events in the system. Comparison operations are provided for this purpose. </p>
   syntax:
     content: public class Epoch
 - uid: system.fabric._key_value_store_item
@@ -2210,7 +2211,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object can be used to read data on the secondary within the context of this method before any replication operations are applied. The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object is no longer valid after this method returns and cannot be used outside the context of this method. The application must take care to complete this callback in a timely manner since replication operations are being queued on the secondary replica and will not start getting applied until this method returns. The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object is backed by a single underlying local transaction and is not thread-safe. </p>
+      <b>Remarks:</b>The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object can be used to read data on the secondary within the context of this method before any replication operations are applied. The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object is no longer valid after this method returns and cannot be used outside the context of this method. The application must take care to complete this callback in a timely manner since replication operations are being queued on the secondary replica and will not start getting applied until this method returns. The <xref uid="system.fabric._key_value_store_enumerator" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreEnumerator</xref> object is backed by a single underlying local transaction and is not thread-safe. </p>
   syntax: *o2
 - uid: system.fabric._transaction
   parent: system.fabric
@@ -2272,7 +2273,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>This is useful in avoiding creation of backup files in secondary replicas when incremental backup is turned on. If incremental backup is turned on, then disk space fills up with transaction logs of the key-value store. To prevent this, frequent backups have to be created. However, creating backups on secondary replicas may not be useful for some key-value store services. These services also have to deal with discarding the backup directory. If this option is used, it cleans up the transaction logs without creating backup files. </p>
+      <b>Remarks:</b>This is useful in avoiding creation of backup files in secondary replicas when incremental backup is turned on. If incremental backup is turned on, then disk space fills up with transaction logs of the key-value store. To prevent this, frequent backups have to be created. However, creating backups on secondary replicas may not be useful for some key-value store services. These services also have to deal with discarding the backup directory. If this option is used, it cleans up the transaction logs without creating backup files. </p>
   syntax:
     content: public FABRIC_STORE_BACKUP_OPTION_TRUNCATE_LOGS_ONLY=(3)
 - uid: system.fabric.exception._fabric_backup_directory_not_empty_exception
@@ -2409,7 +2410,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>The new role is indicated as a parameter. When the service transitions to the new role, the service has a chance to update its current listening address. The listening address is the address where clients connect to it. This enables the service when it is a Primary replica to only claim some resources such as ports when communication from clients is expected. </p>
+      <b>Remarks:</b>The new role is indicated as a parameter. When the service transitions to the new role, the service has a chance to update its current listening address. The listening address is the address where clients connect to it. This enables the service when it is a Primary replica to only claim some resources such as ports when communication from clients is expected. </p>
   syntax:
     content: public CompletableFuture<String> changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
     parameters:
@@ -2424,7 +2425,7 @@ references:
           <xref uid="system.fabric._cancellation_token" data-throw-if-not-resolved="false">system.fabric.CancellationToken</xref> object to indicate the cancellation status of the operation. </p>
     return:
       type: 06be942d
-      description: <p>Returns <xref uid="" data-throw-if-not-resolved="false">CompletableFuture</xref> of type <xref uid="" data-throw-if-not-resolved="false">java.lang.String</xref>, the serviceâ€™s new connection address that is to be associated with the replica via Service Fabric Naming. </p>
+      description: <p>Returns <xref uid="" data-throw-if-not-resolved="false">CompletableFuture</xref> of type <xref uid="" data-throw-if-not-resolved="false">java.lang.String</xref>, the service’s new connection address that is to be associated with the replica via Service Fabric Naming. </p>
 - uid: system.fabric._key_value_store_replica.onChangeRoleAsync(ReplicaRole,CancellationToken)
   parent: system.fabric._key_value_store_replica
   href: system.fabric._key_value_store_replica.yml
@@ -2437,7 +2438,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>The application replica should override this method if deriving from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. The application replica should return a Task whose result is the address of this replica. This replica address is stored by the system as is and can be retrieved (unmodified) using ResolveServiceAsync. The application must take care to complete the role change in a timely manner since reconfiguration of the replica set will be blocked behind the completion of all outstanding change role calls. </p>
+      <b>Remarks:</b>The application replica should override this method if deriving from <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica</xref>, which is the recommended pattern. The application replica should return a Task whose result is the address of this replica. This replica address is stored by the system as is and can be retrieved (unmodified) using ResolveServiceAsync. The application must take care to complete the role change in a timely manner since reconfiguration of the replica set will be blocked behind the completion of all outstanding change role calls. </p>
   syntax: *o3
 - uid: system.fabric._stateful_service_replica.closeAsync(CancellationToken)
   parent: system.fabric._stateful_service_replica
@@ -2486,7 +2487,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>Lease loss and, in response to the service, the use of <xref uid="system.fabric._service_partition.reportFault(FaultType)" data-throw-if-not-resolved="false">system.fabric.ServicePartition#reportFault(FaultType)</xref> to report a <xref uid="" data-throw-if-not-resolved="false">system.fabric.FaultType#Permanent</xref> fault are examples of ungraceful termination. When this method is invoked, the service instance should immediately release and clean up all references and return. </p>
+      <b>Remarks:</b>Lease loss and, in response to the service, the use of <xref uid="system.fabric._service_partition.reportFault(FaultType)" data-throw-if-not-resolved="false">system.fabric.ServicePartition#reportFault(FaultType)</xref> to report a <xref uid="" data-throw-if-not-resolved="false">system.fabric.FaultType#Permanent</xref> fault are examples of ungraceful termination. When this method is invoked, the service instance should immediately release and clean up all references and return. </p>
   syntax:
     content: public void abort()
 - uid: system.fabric._key_value_store_replica.onDatalossReported()
@@ -2532,7 +2533,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>See <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onReplicationOperation(java.util.Enumeration)</xref>. </p>
+      <b>Remarks:</b>See <xref uid="" data-throw-if-not-resolved="false">system.fabric.KeyValueStoreReplica#onReplicationOperation(java.util.Enumeration)</xref>. </p>
   syntax:
     content: public class KeyValueStoreNotification
 - uid: system.fabric.exception._fabric_exception

@@ -15,7 +15,7 @@ items:
   source:
     remote: &o0
       path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Attachable.java
-      branch: 880e2022bf46b71f481107effb7c878a9ae065dd
+      branch: v1.3.0
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Attachable.java
     startLine: 30
@@ -154,6 +154,117 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent Batch account definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai._azure_blob_file_system._definition_stages._with_attach
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._azure_blob_file_system._definition_stages._with_attach.yml
+  name: AzureBlobFileSystem.DefinitionStages.WithAttach<ParentT>
+  nameWithType: AzureBlobFileSystem.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.AzureBlobFileSystem.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+- uid: com.microsoft.azure.management.batchai._azure_file_share._definition_stages._with_attach
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._azure_file_share._definition_stages._with_attach.yml
+  name: AzureFileShare.DefinitionStages.WithAttach<ParentT>
+  nameWithType: AzureFileShare.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.AzureFileShare.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+- uid: com.microsoft.azure.management.batchai._file_server._definition_stages._with_attach
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._file_server._definition_stages._with_attach.yml
+  name: FileServer.DefinitionStages.WithAttach<ParentT>
+  nameWithType: FileServer.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.FileServer.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+- uid: com.microsoft.azure.management.batchai._node_setup_task._definition_stages._with_attach
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._node_setup_task._definition_stages._with_attach.yml
+  name: NodeSetupTask.DefinitionStages.WithAttach<ParentT>
+  nameWithType: NodeSetupTask.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.NodeSetupTask.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: <p>The final stage of the setup task definition. At this stage, any remaining optional settings can be specified, or the setup task definition can be attached to the parent cluster definition. </p>
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai._tool_type_settings._caffe2_1_67b0496408b87f9c47a7d911a5fc7c52
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._tool_type_settings._caffe2_1_67b0496408b87f9c47a7d911a5fc7c52.yml
+  name: ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe2.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: <p>The final stage of the <xref uid="com.microsoft.azure.management.batchai._tool_type_settings._caffe2" data-throw-if-not-resolved="false">Caffe2</xref> settings definition. At this stage, any remaining optional settings can be specified, or the <xref uid="com.microsoft.azure.management.batchai._tool_type_settings._caffe2" data-throw-if-not-resolved="false">Caffe2</xref> settings definition can be attached to the parent Batch AI job definition. </p>
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai._tool_type_settings._caffe.d04ffbd053e9d9aa2a87e1f384159fee
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._tool_type_settings._caffe.d04ffbd053e9d9aa2a87e1f384159fee.yml
+  name: ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Caffe.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: <p>The final stage of the <xref uid="com.microsoft.azure.management.batchai._tool_type_settings._caffe" data-throw-if-not-resolved="false">Caffe</xref> settings definition. At this stage, any remaining optional settings can be specified, or the <xref uid="com.microsoft.azure.management.batchai._tool_type_settings._caffe" data-throw-if-not-resolved="false">Caffe</xref> settings definition can be attached to the parent Batch AI job definition. </p>
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai._tool_type_settings._chainer_1e7b973d824fd8ecfc0ed5a647211db29
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._tool_type_settings._chainer_1e7b973d824fd8ecfc0ed5a647211db29.yml
+  name: ToolTypeSettings.Chainer.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.Chainer.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.Chainer.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: <p>The final stage of the <xref uid="com.microsoft.azure.management.batchai._tool_type_settings._chainer" data-throw-if-not-resolved="false">Chainer</xref> settings definition. At this stage, any remaining optional settings can be specified, or the <xref uid="com.microsoft.azure.management.batchai._tool_type_settings._chainer" data-throw-if-not-resolved="false">Chainer</xref> settings definition can be attached to the parent Batch AI job definition. </p>
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai._tool_type_settings._cognitive3410844cf292485af4d9414088d05c63
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._tool_type_settings._cognitive3410844cf292485af4d9414088d05c63.yml
+  name: ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.CognitiveToolkit.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: <p>The final stage of the Microsoft Cognitive Toolkit settings definition. At this stage, any remaining optional settings can be specified, or the Microsoft Cognitive Toolkit settings definition can be attached to the parent Batch AI job definition. </p>
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.batchai._tool_type_settings._tensor_fl8ca12f8b60b81dbb08d4edc7cb644810
+  parent: com.microsoft.azure.management.batchai
+  href: com.microsoft.azure.management.batchai._tool_type_settings._tensor_fl8ca12f8b60b81dbb08d4edc7cb644810.yml
+  name: ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach<ParentT>
+  nameWithType: ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.TensorFlow.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: <p>The final stage of the <xref uid="com.microsoft.azure.management.batchai._tool_type_settings._tensor_flow" data-throw-if-not-resolved="false">TensorFlow</xref> settings definition. At this stage, any remaining optional settings can be specified, or the <xref uid="com.microsoft.azure.management.batchai._tool_type_settings._tensor_flow" data-throw-if-not-resolved="false">TensorFlow</xref> settings definition can be attached to the parent Batch AI job definition. </p>
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.compute._container_service_agent_pool.4a9a5c84a9c8e1ab3cc813cfc1216283
   parent: com.microsoft.azure.management.compute
   href: com.microsoft.azure.management.compute._container_service_agent_pool.4a9a5c84a9c8e1ab3cc813cfc1216283.yml
@@ -241,6 +352,54 @@ references:
     typeParameters:
     - type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerinstance._container_group._deb1546d1e7fb1f630e6638147352048f2
+  parent: com.microsoft.azure.management.containerinstance
+  href: com.microsoft.azure.management.containerinstance._container_group._deb1546d1e7fb1f630e6638147352048f2.yml
+  name: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithContainerInstanceAttach<ParentT>
+  nameWithType: ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithContainerInstanceAttach<ParentT>
+  fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.ContainerInstanceDefinitionStages.WithContainerInstanceAttach<ParentT>
+  type: Interface
+  summary: >-
+    <p>The final stage of the container instance definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  syntax:
+    content: public interface WithContainerInstanceAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerinstance._container_group._de6433c93ba31db93c939bdae6154fa820
+  parent: com.microsoft.azure.management.containerinstance
+  href: com.microsoft.azure.management.containerinstance._container_group._de6433c93ba31db93c939bdae6154fa820.yml
+  name: ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
+  nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
+  fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithVolumeAttach<ParentT>
+  type: Interface
+  summary: >-
+    <p>The final stage of the volume definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
+  syntax:
+    content: public interface WithVolumeAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_attach
+  parent: com.microsoft.azure.management.containerregistry
+  href: com.microsoft.azure.management.containerregistry._webhook._definition_stages._with_attach.yml
+  name: Webhook.DefinitionStages.WithAttach<ParentT>
+  nameWithType: Webhook.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.containerregistry.Webhook.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: >-
+    <p>The final stage of the webhook definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the webhook definition can be attached to the parent container group definition. </p>
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.dns._dns_record_set._definition_stages._with_attach
   parent: com.microsoft.azure.management.dns
   href: com.microsoft.azure.management.dns._dns_record_set._definition_stages._with_attach.yml
@@ -251,12 +410,14 @@ references:
   summary: >-
     <p>The final stage of the DNS zone record set definition. </p>
 
-    <p>At this stage, any remaining optional settings can be specified, or the DNS zone record set definition can be attached to the parent traffic manager profile definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">DnsRecordSet.DefinitionStages.WithAttach#attach()</xref>. </p>
+    <p>At this stage, any remaining optional settings can be specified, or the DNS zone record set definition can be attached to the parent traffic manager profile definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">DnsRecordSet.DefinitionStages.WithAttach#attach()</xref>.</p>
+
+    <p></p>
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
     - type: 18a275b1
-      description: <p>the return type of <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">DnsRecordSet.DefinitionStages.WithAttach#attach()</xref></p>
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.graphrbac._certificate_credential._definition_stages._with_attach
   parent: com.microsoft.azure.management.graphrbac
   href: com.microsoft.azure.management.graphrbac._certificate_credential._definition_stages._with_attach.yml
@@ -411,12 +572,12 @@ references:
   summary: >-
     <p>The final stage of a load balancer backend definition. </p>
 
-    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent load balancer definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent load balancer definition. </p>
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
     - type: 18a275b1
-      description: <p>the return type of <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref></p>
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.network._load_balancer_http_probe._definition_stages._with_attach
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._load_balancer_http_probe._definition_stages._with_attach.yml
@@ -427,12 +588,12 @@ references:
   summary: >-
     <p>The final stage of the probe definition. </p>
 
-    <p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+    <p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition. </p>
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
     - type: 18a275b1
-      description: <p>the return type of <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref></p>
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.network._load_balancer_inbound_nat_pool_16760f67761e6434bbfa9377149b77aa7
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._load_balancer_inbound_nat_pool_16760f67761e6434bbfa9377149b77aa7.yml
@@ -443,12 +604,12 @@ references:
   summary: >-
     <p>The final stage of the inbound NAT pool definition. </p>
 
-    <p>At this stage, any remaining optional settings can be specified, or the inbound NAT pool definition can be attached to the parent load balancer definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+    <p>At this stage, any remaining optional settings can be specified, or the inbound NAT pool definition can be attached to the parent load balancer definition. </p>
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
     - type: 18a275b1
-      description: <p>the return type of <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref></p>
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.network._load_balancer_inbound_nat_rule_1679f67e2c03fbe247bfd155477c42093
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._load_balancer_inbound_nat_rule_1679f67e2c03fbe247bfd155477c42093.yml
@@ -459,12 +620,12 @@ references:
   summary: >-
     <p>The final stage of the inbound NAT rule definition. </p>
 
-    <p>At this stage, any remaining optional settings can be specified, or the inbound NAT rule definition can be attached to the parent load balancer definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+    <p>At this stage, any remaining optional settings can be specified, or the inbound NAT rule definition can be attached to the parent load balancer definition. </p>
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
     - type: 18a275b1
-      description: <p>the return type of <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref></p>
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.network._load_balancer_public_frontend_1_f1054b20f9f980b892999c4c6575496f
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._load_balancer_public_frontend_1_f1054b20f9f980b892999c4c6575496f.yml
@@ -475,12 +636,12 @@ references:
   summary: >-
     <p>The final stage of a public frontend definition. </p>
 
-    <p>At this stage, any remaining optional settings can be specified, or the frontend definition can be attached to the parent load balancer definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+    <p>At this stage, any remaining optional settings can be specified, or the frontend definition can be attached to the parent load balancer definition. </p>
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
     - type: 18a275b1
-      description: <p>the return type of <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref></p>
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.network._load_balancer_tcp_probe._definition_stages._with_attach
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._load_balancer_tcp_probe._definition_stages._with_attach.yml
@@ -491,28 +652,12 @@ references:
   summary: >-
     <p>The final stage of the probe definition. </p>
 
-    <p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+    <p>At this stage, any remaining optional settings can be specified, or the probe definition can be attached to the parent load balancer definition. </p>
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
     - type: 18a275b1
-      description: <p>the parent resource type </p>
-- uid: com.microsoft.azure.management.network._load_balancing_rule._definition_stages._with_attach
-  parent: com.microsoft.azure.management.network
-  href: com.microsoft.azure.management.network._load_balancing_rule._definition_stages._with_attach.yml
-  name: LoadBalancingRule.DefinitionStages.WithAttach<ParentT>
-  nameWithType: LoadBalancingRule.DefinitionStages.WithAttach<ParentT>
-  fullName: com.microsoft.azure.management.network.LoadBalancingRule.DefinitionStages.WithAttach<ParentT>
-  type: Interface
-  summary: >-
-    <p>The final stage of the load balancing rule definition. </p>
-
-    <p>At this stage, any remaining optional settings can be specified, or the load balancing rule definition can be attached to the parent load balancer definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
-  syntax:
-    content: public interface WithAttach<ParentT>
-    typeParameters:
-    - type: 18a275b1
-      description: <p>the return type of <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref></p>
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.network._network_security_rule._definition_stages._with_attach
   parent: com.microsoft.azure.management.network
   href: com.microsoft.azure.management.network._network_security_rule._definition_stages._with_attach.yml
@@ -584,12 +729,28 @@ references:
   summary: >-
     <p>The final stage of the subnet definition. </p>
 
-    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref>. </p>
+    <p>At this stage, any remaining optional settings can be specified, or the subnet definition can be attached to the parent virtual network definition. </p>
   syntax:
     content: public interface WithAttach<ParentT>
     typeParameters:
     - type: 18a275b1
-      description: <p>the return type of <xref uid="com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.attach()" data-throw-if-not-resolved="false">WithAttach#attach()</xref></p>
+      description: <p>the stage of the parent definition to return to after attaching this definition </p>
+- uid: com.microsoft.azure.management.network._virtual_network_gateway_i_p_conf1eee1661e9d33894ebaeec935cf34a4f
+  parent: com.microsoft.azure.management.network
+  href: com.microsoft.azure.management.network._virtual_network_gateway_i_p_conf1eee1661e9d33894ebaeec935cf34a4f.yml
+  name: VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithAttach<ParentT>
+  nameWithType: VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithAttach<ParentT>
+  fullName: com.microsoft.azure.management.network.VirtualNetworkGatewayIPConfiguration.DefinitionStages.WithAttach<ParentT>
+  type: Interface
+  summary: >-
+    <p>The final stage of the virtual network gateway IP configuration definition. </p>
+
+    <p>At this stage, any remaining optional settings can be specified, or the definition can be attached to the parent virtual network gateway definition. </p>
+  syntax:
+    content: public interface WithAttach<ParentT>
+    typeParameters:
+    - type: 18a275b1
+      description: <p>the stage of the parent application gateway definition to return to after attaching this definition </p>
 - uid: com.microsoft.azure.management.trafficmanager._traffic_manager_endpoint_31419381ef676bb8f2e4d501b1ad6e87
   parent: com.microsoft.azure.management.trafficmanager
   href: com.microsoft.azure.management.trafficmanager._traffic_manager_endpoint_31419381ef676bb8f2e4d501b1ad6e87.yml

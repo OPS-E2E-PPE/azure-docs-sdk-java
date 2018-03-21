@@ -31,7 +31,7 @@ Create DNS zones and add records to zones with the management API.
 <dependency>
     <groupId>com.microsoft.azure</groupId>
     <artifactId>azure-mgmt-dns</artifactId>
-    <version>1.2.1</version>
+    <version>1.3.0</version>
 </dependency>
 ```   
 
@@ -56,3 +56,5 @@ rootDnsZone = rootDnsZone.update()
 [Host and manage your domains with Azure DNS](https://github.com/Azure-Samples/dns-java-host-and-manage-your-domains)
 
 Explore more [sample Java code for Azure DNS](https://azure.microsoft.com/resources/samples/?platform=java&term=dns) you can use in your apps.
+
+<!---Loc Comment: Please, refer to conversation section to check the issue. Thanks.--->

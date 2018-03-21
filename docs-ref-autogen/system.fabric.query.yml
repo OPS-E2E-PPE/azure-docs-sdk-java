@@ -166,7 +166,7 @@ references:
   nameWithType: DeployedApplication
   fullName: system.fabric.query.DeployedApplication
   type: Class
-  summary: <p>Describes an instance of an applicationâ€™s service host running on a <xref uid="system.fabric.query._service" data-throw-if-not-resolved="false">Service</xref> Fabric <xref uid="system.fabric.query._node" data-throw-if-not-resolved="false">Node</xref>. </p>
+  summary: <p>Describes an instance of an application’s service host running on a <xref uid="system.fabric.query._service" data-throw-if-not-resolved="false">Service</xref> Fabric <xref uid="system.fabric.query._node" data-throw-if-not-resolved="false">Node</xref>. </p>
   syntax:
     content: public class DeployedApplication
 - uid: system.fabric.query._deployed_code_package
@@ -380,7 +380,7 @@ references:
   summary: >-
     <p>
 
-      <bold>Remarks:</bold>The paged list is obtained from queries that have more results than can fit a message. The next results can be obtained by executing the same query with the previous continuation token. </p>
+      <b>Remarks:</b>The paged list is obtained from queries that have more results than can fit a message. The next results can be obtained by executing the same query with the previous continuation token. </p>
   syntax:
     content: public class PagedList<E>
     typeParameters:
@@ -450,7 +450,7 @@ references:
   nameWithType: RemoteReplicatorStatus
   fullName: system.fabric.query.RemoteReplicatorStatus
   type: Class
-  summary: <p>Represents the state of the secondary replicator from the primary replicatorâ€™s point of view. </p>
+  summary: <p>Represents the state of the secondary replicator from the primary replicator’s point of view. </p>
   syntax:
     content: public class RemoteReplicatorStatus
 - uid: system.fabric.query._replica
@@ -506,7 +506,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>Depending on the role of the replicator (<xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#Primary</xref> or <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#ActiveSecondary</xref>), the properties in this type mean different things. </p>
+      <b>Remarks:</b>Depending on the role of the replicator (<xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#Primary</xref> or <xref uid="" data-throw-if-not-resolved="false">system.fabric.ReplicaRole#ActiveSecondary</xref>), the properties in this type mean different things. </p>
   syntax:
     content: public class ReplicatorQueueStatus
 - uid: system.fabric.query._replicator_status

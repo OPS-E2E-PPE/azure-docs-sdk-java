@@ -26,7 +26,9 @@ items:
   - com.microsoft.azure.documentdb._document_client.deleteUser(String,RequestOptions)
   - com.microsoft.azure.documentdb._document_client.deleteUserDefinedFunction(String,RequestOptions)
   - com.microsoft.azure.documentdb._document_client.DocumentClient(String,List<Permission>,ConnectionPolicy,ConsistencyLevel)
+  - com.microsoft.azure.documentdb._document_client.DocumentClient(String,List<Permission>,ObjectMapper,ConnectionPolicy,ConsistencyLevel)
   - com.microsoft.azure.documentdb._document_client.DocumentClient(String,String,ConnectionPolicy,ConsistencyLevel)
+  - com.microsoft.azure.documentdb._document_client.DocumentClient(String,String,ObjectMapper,ConnectionPolicy,ConsistencyLevel)
   - com.microsoft.azure.documentdb._document_client.executeStoredProcedure(String,Object [])
   - com.microsoft.azure.documentdb._document_client.executeStoredProcedure(String,RequestOptions,Object [])
   - com.microsoft.azure.documentdb._document_client.getConnectionPolicy()
@@ -80,6 +82,7 @@ items:
   - com.microsoft.azure.documentdb._document_client.readOffers(FeedOptions)
   - com.microsoft.azure.documentdb._document_client.readPartitionKeyRanges(DocumentCollection,FeedOptions)
   - com.microsoft.azure.documentdb._document_client.readPartitionKeyRanges(String,FeedOptions)
+  - com.microsoft.azure.documentdb._document_client.readPartitionKeyRanges(String,String)
   - com.microsoft.azure.documentdb._document_client.readPermission(String,RequestOptions)
   - com.microsoft.azure.documentdb._document_client.readPermissions(String,FeedOptions)
   - com.microsoft.azure.documentdb._document_client.readStoredProcedure(String,RequestOptions)
@@ -123,7 +126,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-documentdb-java-pr
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 84
+    startLine: 88
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Provides a client-side logical representation of the Azure DocumentDB service. This client is used to configure and execute requests against the service. </p>
@@ -148,7 +151,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 3265
+    startLine: 3408
   package: com.microsoft.azure.documentdb
   summary: <p>Close this <xref uid="com.microsoft.azure.documentdb._document_client" data-throw-if-not-resolved="false">DocumentClient</xref> instance </p>
   syntax:
@@ -167,7 +170,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1920
+    startLine: 2051
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates an attachment.</p>
@@ -205,7 +208,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2117
+    startLine: 2248
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates an attachment.</p>
@@ -243,7 +246,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 549
+    startLine: 589
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates a document collection.</p>
@@ -281,7 +284,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 423
+    startLine: 463
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates a database.</p>
@@ -316,7 +319,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 738
+    startLine: 779
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates a document.</p>
@@ -357,7 +360,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2511
+    startLine: 2642
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates a permission.</p>
@@ -395,7 +398,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1198
+    startLine: 1239
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates a stored procedure.</p>
@@ -433,7 +436,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1454
+    startLine: 1504
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates a trigger.</p>
@@ -471,7 +474,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2336
+    startLine: 2467
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates a user.</p>
@@ -509,7 +512,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1713
+    startLine: 1844
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Creates a user defined function.</p>
@@ -547,7 +550,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2003
+    startLine: 2134
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes an attachment.</p>
@@ -582,7 +585,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 613
+    startLine: 653
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes a document collection by the collection link.</p>
@@ -617,7 +620,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2313
+    startLine: 2444
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes a conflict.</p>
@@ -652,7 +655,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 449
+    startLine: 489
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes a database.</p>
@@ -687,7 +690,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 943
+    startLine: 984
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes a document by the document link.</p>
@@ -722,7 +725,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2588
+    startLine: 2719
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes a permission.</p>
@@ -757,7 +760,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1285
+    startLine: 1326
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes a stored procedure by the stored procedure link.</p>
@@ -792,7 +795,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1534
+    startLine: 1584
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes a trigger.</p>
@@ -827,7 +830,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2405
+    startLine: 2536
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes a user.</p>
@@ -862,7 +865,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1799
+    startLine: 1930
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Deletes a user defined function.</p>
@@ -897,7 +900,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 141
+    startLine: 163
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Initializes a new instance of the Microsoft.Azure.Documents.Client.DocumentClient class using the specified DocumentDB service endpoint and permissions.</p>
@@ -918,6 +921,44 @@ items:
     - id: desiredConsistencyLevel
       type: com.microsoft.azure.documentdb._consistency_level
       description: <p>the desired consistency level. </p>
+- uid: com.microsoft.azure.documentdb._document_client.DocumentClient(String,List<Permission>,ObjectMapper,ConnectionPolicy,ConsistencyLevel)
+  id: DocumentClient(String,List<Permission>,ObjectMapper,ConnectionPolicy,ConsistencyLevel)
+  parent: com.microsoft.azure.documentdb._document_client
+  href: com.microsoft.azure.documentdb._document_client.yml
+  langs:
+  - java
+  name: DocumentClient(String serviceEndpoint, List<Permission> permissionFeed, ObjectMapper objectMapper, ConnectionPolicy connectionPolicy, ConsistencyLevel desiredConsistencyLevel)
+  nameWithType: DocumentClient.DocumentClient(String serviceEndpoint, List<Permission> permissionFeed, ObjectMapper objectMapper, ConnectionPolicy connectionPolicy, ConsistencyLevel desiredConsistencyLevel)
+  fullName: com.microsoft.azure.documentdb.DocumentClient.DocumentClient(String serviceEndpoint, List<Permission> permissionFeed, ObjectMapper objectMapper, ConnectionPolicy connectionPolicy, ConsistencyLevel desiredConsistencyLevel)
+  overload: com.microsoft.azure.documentdb._document_client.DocumentClient*
+  type: Constructor
+  source:
+    remote: *o0
+    path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
+    startLine: 180
+  package: com.microsoft.azure.documentdb
+  summary: >-
+    <p>Initializes a new instance of the Microsoft.Azure.Documents.Client.DocumentClient class using the specified DocumentDB service endpoint and permissions.</p>
+
+    <p></p>
+  syntax:
+    content: public DocumentClient(String serviceEndpoint, List<Permission> permissionFeed, ObjectMapper objectMapper, ConnectionPolicy connectionPolicy, ConsistencyLevel desiredConsistencyLevel)
+    parameters:
+    - id: serviceEndpoint
+      type: "26831127"
+      description: <p>the URI of the service end point. </p>
+    - id: permissionFeed
+      type: 5618da2dcom.microsoft.azure.documentdb._permissiona08ddfce
+      description: <p>the permission feed. </p>
+    - id: objectMapper
+      type: 7db3dbca
+      description: <p>the custom objectMapper </p>
+    - id: connectionPolicy
+      type: com.microsoft.azure.documentdb._connection_policy
+      description: <p>the connection policy. </p>
+    - id: desiredConsistencyLevel
+      type: com.microsoft.azure.documentdb._consistency_level
+      description: <p>the desired consistency level. </p>
 - uid: com.microsoft.azure.documentdb._document_client.DocumentClient(String,String,ConnectionPolicy,ConsistencyLevel)
   id: DocumentClient(String,String,ConnectionPolicy,ConsistencyLevel)
   parent: com.microsoft.azure.documentdb._document_client
@@ -932,7 +973,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 125
+    startLine: 130
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Initializes a new instance of the <xref uid="com.microsoft.azure.documentdb._document_client" data-throw-if-not-resolved="false">DocumentClient</xref> class using the specified DocumentDB service endpoint and keys.</p>
@@ -953,6 +994,44 @@ items:
     - id: desiredConsistencyLevel
       type: com.microsoft.azure.documentdb._consistency_level
       description: <p>the desired consistency level. </p>
+- uid: com.microsoft.azure.documentdb._document_client.DocumentClient(String,String,ObjectMapper,ConnectionPolicy,ConsistencyLevel)
+  id: DocumentClient(String,String,ObjectMapper,ConnectionPolicy,ConsistencyLevel)
+  parent: com.microsoft.azure.documentdb._document_client
+  href: com.microsoft.azure.documentdb._document_client.yml
+  langs:
+  - java
+  name: DocumentClient(String serviceEndpoint, String masterKey, ObjectMapper objectMapper, ConnectionPolicy connectionPolicy, ConsistencyLevel desiredConsistencyLevel)
+  nameWithType: DocumentClient.DocumentClient(String serviceEndpoint, String masterKey, ObjectMapper objectMapper, ConnectionPolicy connectionPolicy, ConsistencyLevel desiredConsistencyLevel)
+  fullName: com.microsoft.azure.documentdb.DocumentClient.DocumentClient(String serviceEndpoint, String masterKey, ObjectMapper objectMapper, ConnectionPolicy connectionPolicy, ConsistencyLevel desiredConsistencyLevel)
+  overload: com.microsoft.azure.documentdb._document_client.DocumentClient*
+  type: Constructor
+  source:
+    remote: *o0
+    path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
+    startLine: 146
+  package: com.microsoft.azure.documentdb
+  summary: >-
+    <p>Initializes a new instance of the <xref uid="com.microsoft.azure.documentdb._document_client" data-throw-if-not-resolved="false">DocumentClient</xref> class using the specified DocumentDB service endpoint and keys.</p>
+
+    <p></p>
+  syntax:
+    content: public DocumentClient(String serviceEndpoint, String masterKey, ObjectMapper objectMapper, ConnectionPolicy connectionPolicy, ConsistencyLevel desiredConsistencyLevel)
+    parameters:
+    - id: serviceEndpoint
+      type: "26831127"
+      description: <p>the URI of the service end point. </p>
+    - id: masterKey
+      type: "26831127"
+      description: <p>the master key. </p>
+    - id: objectMapper
+      type: 7db3dbca
+      description: <p>the custom objectMapper </p>
+    - id: connectionPolicy
+      type: com.microsoft.azure.documentdb._connection_policy
+      description: <p>the connection policy. </p>
+    - id: desiredConsistencyLevel
+      type: com.microsoft.azure.documentdb._consistency_level
+      description: <p>the desired consistency level. </p>
 - uid: com.microsoft.azure.documentdb._document_client.executeStoredProcedure(String,Object [])
   id: executeStoredProcedure(String,Object [])
   parent: com.microsoft.azure.documentdb._document_client
@@ -967,7 +1046,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1406
+    startLine: 1447
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Executes a stored procedure by the stored procedure link.</p>
@@ -1002,7 +1081,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1420
+    startLine: 1461
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Executes a stored procedure by the stored procedure link.</p>
@@ -1040,7 +1119,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 370
+    startLine: 410
   package: com.microsoft.azure.documentdb
   syntax:
     content: public ConnectionPolicy getConnectionPolicy()
@@ -1060,7 +1139,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2791
+    startLine: 2922
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Gets database account information.</p>
@@ -1088,7 +1167,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 332
+    startLine: 372
   package: com.microsoft.azure.documentdb
   syntax:
     content: protected PartitionResolver getPartitionResolver(String databaseLink)
@@ -1111,7 +1190,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 366
+    startLine: 406
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Gets the current read endpoint chosen based on availability and preference.</p>
@@ -1136,7 +1215,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 348
+    startLine: 388
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Gets the default service endpoint as passed in by the user during construction.</p>
@@ -1161,7 +1240,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 357
+    startLine: 397
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Gets the current write endpoint chosen based on availability and preference.</p>
@@ -1185,7 +1264,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 87
+    startLine: 91
   package: com.microsoft.azure.documentdb
   syntax:
     content: protected static final String PartitionResolverErrorMessage= "Couldn't find any partition resolvers for the database link provided. Ensure that the link you used when registering the partition resolvers matches the link provided or you need to register both types of database link(self link as well as ID based link)."
@@ -1205,7 +1284,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1118
+    startLine: 1159
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for aggregation values in a document collection.</p>
@@ -1240,7 +1319,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1131
+    startLine: 1172
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for aggregation values in a document collection.</p>
@@ -1278,7 +1357,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1092
+    startLine: 1133
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for aggregation values in a document collection.</p>
@@ -1313,7 +1392,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1105
+    startLine: 1146
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for aggregation values in a document collection.</p>
@@ -1351,7 +1430,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2090
+    startLine: 2221
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for attachments.</p>
@@ -1386,7 +1465,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2070
+    startLine: 2201
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for attachments.</p>
@@ -1421,7 +1500,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 707
+    startLine: 748
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for document collections in a database.</p>
@@ -1456,7 +1535,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 686
+    startLine: 727
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for document collections in a database.</p>
@@ -1491,7 +1570,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2286
+    startLine: 2417
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for conflicts.</p>
@@ -1526,7 +1605,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2265
+    startLine: 2396
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for conflicts.</p>
@@ -1561,7 +1640,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 526
+    startLine: 566
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for databases.</p>
@@ -1593,7 +1672,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 511
+    startLine: 551
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for databases.</p>
@@ -1625,12 +1704,12 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1170
+    startLine: 1211
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for documents change feed in a document collection. </p>
 
-    <p>Example: <preformatted>
+    <p>Example: <pre>
 
     String partitionKeyRangeId = "0";   // Use client.readPartitionKeyRanges() to obtain the ranges.
 
@@ -1656,7 +1735,7 @@ items:
 
     } while (query.getQueryIterator().hasNext());
 
-    </preformatted></p>
+    </pre></p>
   syntax:
     content: public FeedResponse<Document> queryDocumentChangeFeed(String collectionLink, ChangeFeedOptions changeFeedOptions)
     parameters:
@@ -1688,7 +1767,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1044
+    startLine: 1085
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for documents in a document collection.</p>
@@ -1723,7 +1802,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1057
+    startLine: 1098
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for documents in a document collection.</p>
@@ -1761,7 +1840,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1011
+    startLine: 1052
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for documents in a document collection.</p>
@@ -1796,7 +1875,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1024
+    startLine: 1065
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for documents in a document collection with a partitionKey</p>
@@ -1834,7 +1913,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2770
+    startLine: 2901
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for offers in a database.</p>
@@ -1866,7 +1945,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2756
+    startLine: 2887
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for offers in a database.</p>
@@ -1898,7 +1977,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2671
+    startLine: 2802
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for permissions.</p>
@@ -1933,7 +2012,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2650
+    startLine: 2781
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for permissions.</p>
@@ -1968,7 +2047,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1378
+    startLine: 1419
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for stored procedures in a document collection.</p>
@@ -2003,7 +2082,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1357
+    startLine: 1398
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for stored procedures in a document collection.</p>
@@ -2038,7 +2117,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1623
+    startLine: 1673
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for triggers.</p>
@@ -2073,7 +2152,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1600
+    startLine: 1650
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for triggers.</p>
@@ -2108,7 +2187,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1890
+    startLine: 2021
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for user defined functions.</p>
@@ -2143,7 +2222,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1867
+    startLine: 1998
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for user defined functions.</p>
@@ -2178,7 +2257,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2482
+    startLine: 2613
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for users.</p>
@@ -2213,7 +2292,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2462
+    startLine: 2593
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Query for users.</p>
@@ -2248,7 +2327,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2027
+    startLine: 2158
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads an attachment.</p>
@@ -2283,7 +2362,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2048
+    startLine: 2179
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all attachments in a document.</p>
@@ -2315,7 +2394,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 638
+    startLine: 679
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads a document collection by the collection link.</p>
@@ -2350,7 +2429,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 663
+    startLine: 704
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all document collections in a database.</p>
@@ -2382,7 +2461,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2222
+    startLine: 2353
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads a conflict.</p>
@@ -2417,7 +2496,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2243
+    startLine: 2374
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all conflicts in a document collection.</p>
@@ -2449,7 +2528,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 473
+    startLine: 513
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads a database.</p>
@@ -2484,7 +2563,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 495
+    startLine: 535
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all databases.</p>
@@ -2513,7 +2592,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 966
+    startLine: 1007
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads a document by the document link.</p>
@@ -2548,7 +2627,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 988
+    startLine: 1029
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all documents in a document collection.</p>
@@ -2580,7 +2659,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2171
+    startLine: 2302
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads a media by the media link.</p>
@@ -2612,7 +2691,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2722
+    startLine: 2853
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads an offer.</p>
@@ -2644,7 +2723,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2739
+    startLine: 2870
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads offers.</p>
@@ -2673,12 +2752,12 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1696
+    startLine: 1746
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all partition key ranges in a document collection. </p>
 
-    <p>Example: <preformatted><xref uid="com.microsoft.azure.documentdb._feed_response" data-throw-if-not-resolved="false">FeedResponse</xref>&lt;<xref uid="com.microsoft.azure.documentdb._partition_key_range" data-throw-if-not-resolved="false">PartitionKeyRange</xref>&gt; partitionKeyRanges = this.client.readPartitionKeyRanges(coll, null);
+    <p>Example: <pre><xref uid="com.microsoft.azure.documentdb._feed_response" data-throw-if-not-resolved="false">FeedResponse</xref>&lt;<xref uid="com.microsoft.azure.documentdb._partition_key_range" data-throw-if-not-resolved="false">PartitionKeyRange</xref>&gt; partitionKeyRanges = this.client.readPartitionKeyRanges(coll, null);
 
     List&lt;String&gt; ids = new ArrayList&lt;String&gt;();
 
@@ -2688,7 +2767,7 @@ items:
 
     }
 
-    </preformatted></p>
+    </pre></p>
   syntax:
     content: public FeedResponse<PartitionKeyRange> readPartitionKeyRanges(DocumentCollection documentCollection, FeedOptions options)
     parameters:
@@ -2718,12 +2797,12 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1661
+    startLine: 1711
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all partition key ranges in a document collection. </p>
 
-    <p>Example: <preformatted><xref uid="com.microsoft.azure.documentdb._feed_response" data-throw-if-not-resolved="false">FeedResponse</xref>&lt;<xref uid="com.microsoft.azure.documentdb._partition_key_range" data-throw-if-not-resolved="false">PartitionKeyRange</xref>&gt; partitionKeyRanges = this.client.readPartitionKeyRanges(coll, null);
+    <p>Example: <pre><xref uid="com.microsoft.azure.documentdb._feed_response" data-throw-if-not-resolved="false">FeedResponse</xref>&lt;<xref uid="com.microsoft.azure.documentdb._partition_key_range" data-throw-if-not-resolved="false">PartitionKeyRange</xref>&gt; partitionKeyRanges = this.client.readPartitionKeyRanges(coll, null);
 
     List&lt;String&gt; ids = new ArrayList&lt;String&gt;();
 
@@ -2733,7 +2812,7 @@ items:
 
     }
 
-    </preformatted></p>
+    </pre></p>
   syntax:
     content: public FeedResponse<PartitionKeyRange> readPartitionKeyRanges(String collectionLink, FeedOptions options)
     parameters:
@@ -2749,6 +2828,41 @@ items:
   see:
   - type: com.microsoft.azure.documentdb._partition_key_range
     description: PartitionKeyRange
+- uid: com.microsoft.azure.documentdb._document_client.readPartitionKeyRanges(String,String)
+  id: readPartitionKeyRanges(String,String)
+  parent: com.microsoft.azure.documentdb._document_client
+  href: com.microsoft.azure.documentdb._document_client.yml
+  langs:
+  - java
+  name: readPartitionKeyRanges(String collectionLink, String query)
+  nameWithType: DocumentClient.readPartitionKeyRanges(String collectionLink, String query)
+  fullName: Collection<PartitionKeyRange> com.microsoft.azure.documentdb.DocumentClient.readPartitionKeyRanges(String collectionLink, String query)
+  overload: com.microsoft.azure.documentdb._document_client.readPartitionKeyRanges*
+  type: Method
+  source:
+    remote: *o0
+    path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
+    startLine: 1762
+  package: com.microsoft.azure.documentdb
+  summary: >-
+    <p>Reads all partition key ranges in a document collection for a provided query.</p>
+
+    <p></p>
+  syntax:
+    content: public Collection<PartitionKeyRange> readPartitionKeyRanges(String collectionLink, String query)
+    parameters:
+    - id: collectionLink
+      type: "26831127"
+      description: <p>the document collection link </p>
+    - id: query
+      type: "26831127"
+      description: <p>the query string </p>
+    return:
+      type: 12ebb11acom.microsoft.azure.documentdb._partition_key_rangea08ddfce
+      description: <p>the list of the serving partition key ranges for the query </p>
+  exceptions:
+  - type: com.microsoft.azure.documentdb._document_client_exception
+    description: <p>from partition key ranges query </p>
 - uid: com.microsoft.azure.documentdb._document_client.readPermission(String,RequestOptions)
   id: readPermission(String,RequestOptions)
   parent: com.microsoft.azure.documentdb._document_client
@@ -2763,7 +2877,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2609
+    startLine: 2740
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads a permission.</p>
@@ -2798,7 +2912,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2629
+    startLine: 2760
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all permissions.</p>
@@ -2830,7 +2944,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1310
+    startLine: 1351
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Read a stored procedure by the stored procedure link.</p>
@@ -2865,7 +2979,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1334
+    startLine: 1375
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all stored procedures in a document collection link.</p>
@@ -2897,7 +3011,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1556
+    startLine: 1606
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads a trigger by the trigger link.</p>
@@ -2932,7 +3046,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1577
+    startLine: 1627
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all triggers in a document collection.</p>
@@ -2964,7 +3078,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2425
+    startLine: 2556
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads a user.</p>
@@ -2999,7 +3113,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1822
+    startLine: 1953
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Read a user defined function.</p>
@@ -3034,7 +3148,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1844
+    startLine: 1975
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all user defined functions in a document collection.</p>
@@ -3066,7 +3180,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2444
+    startLine: 2575
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Reads all users in a database.</p>
@@ -3098,7 +3212,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 319
+    startLine: 359
   package: com.microsoft.azure.documentdb
   syntax:
     content: public void registerPartitionResolver(String databaseLink, PartitionResolver partitionResolver)
@@ -3121,7 +3235,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1976
+    startLine: 2107
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces an attachment.</p>
@@ -3156,7 +3270,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 583
+    startLine: 623
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces a document collection.</p>
@@ -3191,7 +3305,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 890
+    startLine: 931
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces a document with the passed in document.</p>
@@ -3226,7 +3340,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 867
+    startLine: 908
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces a document using a POJO object.</p>
@@ -3264,7 +3378,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2699
+    startLine: 2830
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces an offer.</p>
@@ -3296,7 +3410,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2562
+    startLine: 2693
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces a permission.</p>
@@ -3331,7 +3445,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1256
+    startLine: 1297
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces a stored procedure.</p>
@@ -3366,7 +3480,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1507
+    startLine: 1557
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces a trigger.</p>
@@ -3401,7 +3515,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2383
+    startLine: 2514
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces a user.</p>
@@ -3436,7 +3550,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1772
+    startLine: 1903
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Replaces a user defined function.</p>
@@ -3471,7 +3585,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2193
+    startLine: 2324
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Updates a media by the media link.</p>
@@ -3509,7 +3623,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1938
+    startLine: 2069
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Upserts an attachment.</p>
@@ -3547,7 +3661,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2136
+    startLine: 2267
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Upserts an attachment to the media stream</p>
@@ -3585,7 +3699,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 776
+    startLine: 817
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Upserts a document.</p>
@@ -3626,7 +3740,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2527
+    startLine: 2658
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Upserts a permission.</p>
@@ -3664,7 +3778,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1217
+    startLine: 1258
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Upserts a stored procedure.</p>
@@ -3702,7 +3816,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1471
+    startLine: 1521
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Upserts a trigger.</p>
@@ -3740,7 +3854,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 2352
+    startLine: 2483
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Upserts a user.</p>
@@ -3778,7 +3892,7 @@ items:
   source:
     remote: *o0
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/DocumentClient.java
-    startLine: 1733
+    startLine: 1864
   package: com.microsoft.azure.documentdb
   summary: >-
     <p>Upserts a user defined function.</p>
@@ -3816,6 +3930,10 @@ references:
   nameWithType: DocumentClient.DocumentClient
   fullName: com.microsoft.azure.documentdb.DocumentClient.DocumentClient
   package: com.microsoft.azure.documentdb
+- uid: 7db3dbca
+  spec.java:
+  - name: ObjectMapper
+    fullName: ObjectMapper
 - uid: 5618da2dcom.microsoft.azure.documentdb._permissiona08ddfce
   spec.java:
   - name: List<
@@ -4205,6 +4323,16 @@ references:
   nameWithType: DocumentClient.readPartitionKeyRanges
   fullName: FeedResponse<PartitionKeyRange> com.microsoft.azure.documentdb.DocumentClient.readPartitionKeyRanges
   package: com.microsoft.azure.documentdb
+- uid: 12ebb11acom.microsoft.azure.documentdb._partition_key_rangea08ddfce
+  spec.java:
+  - name: Collection<
+    fullName: Collection<
+  - uid: com.microsoft.azure.documentdb._partition_key_range
+    name: PartitionKeyRange
+    fullName: com.microsoft.azure.documentdb.PartitionKeyRange
+    href: com.microsoft.azure.documentdb._partition_key_range.yml
+  - name: '>'
+    fullName: '>'
 - uid: com.microsoft.azure.documentdb._resource_response78504a52com.microsoft.azure.documentdb._user_defined_functiona08ddfce
   spec.java:
   - uid: com.microsoft.azure.documentdb._resource_response

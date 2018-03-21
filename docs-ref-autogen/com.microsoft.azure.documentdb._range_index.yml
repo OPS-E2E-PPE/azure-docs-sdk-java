@@ -56,6 +56,7 @@ items:
   - com.microsoft.azure.documentdb._index.Index(String,IndexKind)
   - com.microsoft.azure.documentdb._index.Index(JSONObject,IndexKind)
   - com.microsoft.azure.documentdb._json_serializable.JsonSerializable()
+  - com.microsoft.azure.documentdb._json_serializable.JsonSerializable(String,ObjectMapper)
   - com.microsoft.azure.documentdb._json_serializable.JsonSerializable(String)
   - com.microsoft.azure.documentdb._json_serializable.JsonSerializable(JSONObject)
   - com.microsoft.azure.documentdb._index.Range(DataType)
@@ -135,7 +136,9 @@ items:
   summary: >-
     <p>Initializes a new instance of the <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> class with specified <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref>. </p>
 
-    <p>Here is an example to instantiate <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> class passing in the <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref>: <preformatted><programlisting><codeline><highlight class="normal">RangeIndex<sp></sp>rangeIndex<sp></sp>=<sp></sp>new<sp></sp>RangeIndex(DataType.Number);</highlight></codeline></programlisting></preformatted></p>
+    <p>Here is an example to instantiate <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> class passing in the <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref>: <pre><code>RangeIndex rangeIndex = new RangeIndex(DataType.Number);
+
+        </code></pre></p>
 
     <p></p>
   syntax:
@@ -160,7 +163,10 @@ items:
     path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/RangeIndex.java
     startLine: 43
   package: com.microsoft.azure.documentdb
-  summary: <p>Initializes a new instance of the <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> class with specified <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref> and precision. <preformatted><programlisting><codeline><highlight class="normal">RangeIndex<sp></sp>rangeIndex<sp></sp>=<sp></sp>new<sp></sp>RangeIndex(DataType.Number,<sp></sp>-1);</highlight></codeline></programlisting></preformatted></p>
+  summary: >-
+    <p>Initializes a new instance of the <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> class with specified <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref> and precision. <pre><code>RangeIndex rangeIndex = new RangeIndex(DataType.Number, -1);
+
+        </code></pre></p>
   syntax:
     content: public RangeIndex(DataType dataType, int precision)
     parameters:
@@ -576,7 +582,9 @@ references:
   summary: >-
     <p>Returns an instance of <xref uid="com.microsoft.azure.documentdb._hash_index" data-throw-if-not-resolved="false">HashIndex</xref> class with specified <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref>. </p>
 
-    <p>Here is an example to create <xref uid="com.microsoft.azure.documentdb._hash_index" data-throw-if-not-resolved="false">HashIndex</xref> instance passing in the <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref>: <preformatted><programlisting><codeline><highlight class="normal">HashIndex<sp></sp>hashIndex<sp></sp>=<sp></sp>Index.Hash(DataType.String);</highlight></codeline></programlisting></preformatted></p>
+    <p>Here is an example to create <xref uid="com.microsoft.azure.documentdb._hash_index" data-throw-if-not-resolved="false">HashIndex</xref> instance passing in the <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref>: <pre><code>HashIndex hashIndex = Index.Hash(DataType.String);
+
+        </code></pre></p>
 
     <p></p>
   syntax:
@@ -683,6 +691,26 @@ references:
   type: Constructor
   syntax:
     content: protected JsonSerializable()
+- uid: com.microsoft.azure.documentdb._json_serializable.JsonSerializable(String,ObjectMapper)
+  parent: com.microsoft.azure.documentdb._json_serializable
+  href: com.microsoft.azure.documentdb._json_serializable.yml
+  name: JsonSerializable(String jsonString, ObjectMapper objectMapper)
+  nameWithType: JsonSerializable.JsonSerializable(String jsonString, ObjectMapper objectMapper)
+  fullName: com.microsoft.azure.documentdb.JsonSerializable.JsonSerializable(String jsonString, ObjectMapper objectMapper)
+  type: Constructor
+  summary: >-
+    <p>Constructor.</p>
+
+    <p></p>
+  syntax:
+    content: protected JsonSerializable(String jsonString, ObjectMapper objectMapper)
+    parameters:
+    - id: jsonString
+      type: "26831127"
+      description: <p>the json string that represents the <xref uid="com.microsoft.azure.documentdb._json_serializable" data-throw-if-not-resolved="false">JsonSerializable</xref>. </p>
+    - id: objectMapper
+      type: 7db3dbca
+      description: <p>the custom object mapper </p>
 - uid: com.microsoft.azure.documentdb._json_serializable.JsonSerializable(String)
   parent: com.microsoft.azure.documentdb._json_serializable
   href: com.microsoft.azure.documentdb._json_serializable.yml
@@ -727,7 +755,9 @@ references:
   summary: >-
     <p>Returns an instance of <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> class with specified <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref>. </p>
 
-    <p>Here is an example to create <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> instance passing in the <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref>: <preformatted><programlisting><codeline><highlight class="normal">RangeIndex<sp></sp>rangeIndex<sp></sp>=<sp></sp>Index.Range(DataType.Number);</highlight></codeline></programlisting></preformatted></p>
+    <p>Here is an example to create <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> instance passing in the <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref>: <pre><code>RangeIndex rangeIndex = Index.Range(DataType.Number);
+
+        </code></pre></p>
 
     <p></p>
   syntax:
@@ -749,7 +779,9 @@ references:
   summary: >-
     <p>Returns an instance of <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> class with specified <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref> and precision. </p>
 
-    <p>Here is an example to create <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> instance passing in the <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref> and precision: <preformatted><programlisting><codeline><highlight class="normal">RangeIndex<sp></sp>rangeIndex<sp></sp>=<sp></sp>Index.Range(DataType.Number,<sp></sp>-1);</highlight></codeline></programlisting></preformatted></p>
+    <p>Here is an example to create <xref uid="com.microsoft.azure.documentdb._range_index" data-throw-if-not-resolved="false">RangeIndex</xref> instance passing in the <xref uid="com.microsoft.azure.documentdb._data_type" data-throw-if-not-resolved="false">DataType</xref> and precision: <pre><code>RangeIndex rangeIndex = Index.Range(DataType.Number, -1);
+
+        </code></pre></p>
 
     <p></p>
   syntax:
@@ -869,7 +901,7 @@ references:
 
     <p>
 
-      <xrefsect id="deprecated_1_deprecated000019">
+      <xrefsect id="deprecated_1_deprecated000062">
 
         <xreftitle>Deprecated</xreftitle>
 

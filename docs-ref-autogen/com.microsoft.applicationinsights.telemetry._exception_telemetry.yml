@@ -35,7 +35,7 @@ items:
       branch: master
       repo: https://github.com/Microsoft/ApplicationInsights-Java
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 38
+    startLine: 36
   package: com.microsoft.applicationinsights.telemetry
   summary: >-
     <p>
@@ -81,7 +81,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 76
+    startLine: 73
   package: com.microsoft.applicationinsights.telemetry
   summary: <p>Initializes a new instance. </p>
   syntax:
@@ -104,7 +104,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 67
+    startLine: 64
   package: com.microsoft.applicationinsights.telemetry
   summary: <p>Initializes a new instance. </p>
   syntax:
@@ -190,7 +190,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 80
+    startLine: 77
   package: com.microsoft.applicationinsights.telemetry
   syntax:
     content: public Exception getException()
@@ -210,9 +210,24 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 102
+    startLine: 100
   package: com.microsoft.applicationinsights.telemetry
-  summary: <p>Gets the value indicated where the exception was handled. </p>
+  summary: >-
+    <p>
+
+      <xrefsect id="deprecated_1_deprecated000041">
+
+        <xreftitle>Deprecated</xreftitle>
+
+        <xrefdescription>
+
+          <p>Gets the value indicated where the exception was handled. </p>
+
+        </xrefdescription>
+
+      </xrefsect>
+
+    </p>
   syntax:
     content: public ExceptionHandledAt getExceptionHandledAt()
     return:
@@ -252,7 +267,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 120
+    startLine: 119
   package: com.microsoft.applicationinsights.telemetry
   summary: <p>Gets a map of application-defined exception metrics. The metrics appear along with the exception in Analytics, but under Custom Metrics in Metrics Explorer. </p>
   syntax:
@@ -274,7 +289,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 133
+    startLine: 132
   package: com.microsoft.applicationinsights.telemetry
   syntax:
     content: public Double getSamplingPercentage()
@@ -294,7 +309,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 128
+    startLine: 127
   package: com.microsoft.applicationinsights.telemetry
   syntax:
     content: public SeverityLevel getSeverityLevel()
@@ -314,7 +329,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 84
+    startLine: 81
   package: com.microsoft.applicationinsights.telemetry
   syntax:
     content: public Throwable getThrowable()
@@ -334,7 +349,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 88
+    startLine: 85
   package: com.microsoft.applicationinsights.telemetry
   syntax:
     content: public void setException(Throwable throwable)
@@ -355,7 +370,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 92
+    startLine: 89
   package: com.microsoft.applicationinsights.telemetry
   syntax:
     content: public void setException(Throwable throwable, int stackSize)
@@ -378,9 +393,24 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 111
+    startLine: 110
   package: com.microsoft.applicationinsights.telemetry
-  summary: <p>Sets the value indicated where the exception was handled. </p>
+  summary: >-
+    <p>
+
+      <xrefsect id="deprecated_1_deprecated000042">
+
+        <xreftitle>Deprecated</xreftitle>
+
+        <xrefdescription>
+
+          <p>Sets the value indicated where the exception was handled. </p>
+
+        </xrefdescription>
+
+      </xrefsect>
+
+    </p>
   syntax:
     content: public void setExceptionHandledAt(ExceptionHandledAt value)
     parameters:
@@ -401,7 +431,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 138
+    startLine: 137
   package: com.microsoft.applicationinsights.telemetry
   syntax:
     content: public void setSamplingPercentage(Double samplingPercentage)
@@ -422,7 +452,7 @@ items:
   source:
     remote: *o0
     path: core/src/main/java/com/microsoft/applicationinsights/telemetry/ExceptionTelemetry.java
-    startLine: 124
+    startLine: 123
   package: com.microsoft.applicationinsights.telemetry
   syntax:
     content: public void setSeverityLevel(SeverityLevel severityLevel)
@@ -582,7 +612,10 @@ references:
   nameWithType: ExceptionHandledAt
   fullName: com.microsoft.applicationinsights.telemetry.ExceptionHandledAt
   type: Enum
-  summary: <p>This enumeration is used by <xref uid="com.microsoft.applicationinsights.telemetry._exception_telemetry" data-throw-if-not-resolved="false">ExceptionTelemetry</xref> to identify if and where exception was handled. </p>
+  summary: >-
+    <p>This enumeration is used by <xref uid="com.microsoft.applicationinsights.telemetry._exception_telemetry" data-throw-if-not-resolved="false">ExceptionTelemetry</xref> to identify if and where exception was handled.</p>
+
+    <p>This Enum is now deprecated. <xrefsect id="deprecated_1_deprecated000040"><xreftitle>Deprecated</xreftitle><xrefdescription><p>As of 1.0.11 </p></xrefdescription></xrefsect></p>
   syntax:
     content: public enum ExceptionHandledAt
 - uid: com.microsoft.applicationinsights.telemetry._severity_level
