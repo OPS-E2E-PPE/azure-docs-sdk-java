@@ -5,7 +5,7 @@ items:
   parent: com.microsoft.azure.management.cdn
   children:
   - com.microsoft.azure.management.cdn._resource_type.fromString(String)
-  - com.microsoft.azure.management.cdn._resource_type.MICROSOFT_CDN_PROFILES_ENDPOINTS()
+  - com.microsoft.azure.management.cdn._resource_type.MICROSOFT_CDN_PROFILES_ENDPOINTS
   - com.microsoft.azure.management.cdn._resource_type.ResourceType(String)
   - com.microsoft.azure.management.cdn._resource_type.toString()
   href: com.microsoft.azure.management.cdn._resource_type.yml
@@ -18,7 +18,7 @@ items:
   source:
     remote: &o0
       path: azure-mgmt-cdn/src/main/java/com/microsoft/azure/management/cdn/ResourceType.java
-      branch: 880e2022bf46b71f481107effb7c878a9ae065dd
+      branch: v1.3.0
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-cdn/src/main/java/com/microsoft/azure/management/cdn/ResourceType.java
     startLine: 16
@@ -58,8 +58,8 @@ items:
     return:
       type: com.microsoft.azure.management.cdn._resource_type
       description: <p>the parsed <xref uid="com.microsoft.azure.management.cdn._resource_type" data-throw-if-not-resolved="false">ResourceType</xref> object, or null if unable to parse. </p>
-- uid: com.microsoft.azure.management.cdn._resource_type.MICROSOFT_CDN_PROFILES_ENDPOINTS()
-  id: MICROSOFT_CDN_PROFILES_ENDPOINTS()
+- uid: com.microsoft.azure.management.cdn._resource_type.MICROSOFT_CDN_PROFILES_ENDPOINTS
+  id: MICROSOFT_CDN_PROFILES_ENDPOINTS
   parent: com.microsoft.azure.management.cdn._resource_type
   href: com.microsoft.azure.management.cdn._resource_type.yml
   langs:

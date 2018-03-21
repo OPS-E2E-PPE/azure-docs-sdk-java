@@ -19,7 +19,7 @@ items:
   - com.microsoft.azure.batch._certificate_operations.listCertificates()
   - com.microsoft.azure.batch._certificate_operations.listCertificates(DetailLevel)
   - com.microsoft.azure.batch._certificate_operations.listCertificates(DetailLevel,Iterable<BatchClientBehavior>)
-  - com.microsoft.azure.batch._certificate_operations.SHA1_CERTIFICATE_ALGORITHM()
+  - com.microsoft.azure.batch._certificate_operations.SHA1_CERTIFICATE_ALGORITHM
   - com.microsoft.azure.batch._certificate_operations.withCustomBehaviors(Collection<BatchClientBehavior>)
   href: com.microsoft.azure.batch._certificate_operations.yml
   langs:
@@ -59,7 +59,7 @@ items:
     startLine: 167
   package: com.microsoft.azure.batch
   summary: >-
-    <p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED()" data-throw-if-not-resolved="false">Delete Failed</xref> state, and restores the certificate to the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.ACTIVE()" data-throw-if-not-resolved="false">Active</xref> state.</p>
+    <p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED" data-throw-if-not-resolved="false">Delete Failed</xref> state, and restores the certificate to the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.ACTIVE" data-throw-if-not-resolved="false">Active</xref> state.</p>
 
     <p></p>
   syntax: &o1
@@ -93,7 +93,7 @@ items:
     startLine: 182
   package: com.microsoft.azure.batch
   summary: >-
-    <p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED()" data-throw-if-not-resolved="false">Delete Failed</xref> state, and restores the certificate to the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.ACTIVE()" data-throw-if-not-resolved="false">Active</xref> state.</p>
+    <p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED" data-throw-if-not-resolved="false">Delete Failed</xref> state, and restores the certificate to the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.ACTIVE" data-throw-if-not-resolved="false">Active</xref> state.</p>
 
     <p></p>
   syntax:
@@ -296,31 +296,31 @@ items:
   summary: >-
     <p>Deletes the certificate from the Batch account. </p>
 
-    <p>The delete operation requests that the certificate be deleted. The request puts the certificate in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETING()" data-throw-if-not-resolved="false">Deleting</xref> state. The Batch service will perform the actual certificate deletion without any further client action.</p>
+    <p>The delete operation requests that the certificate be deleted. The request puts the certificate in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETING" data-throw-if-not-resolved="false">Deleting</xref> state. The Batch service will perform the actual certificate deletion without any further client action.</p>
 
     <p>You cannot delete a certificate if a resource (pool or compute node) is using it. Before you can delete a certificate, you must therefore make sure that:</p>
 
     <p>
 
-      <itemizedlist>
+      <ul>
 
-        <listitem>
+        <li>
 
           <p>The certificate is not associated with any pools. </p>
 
-        </listitem>
+        </li>
 
-        <listitem>
+        <li>
 
           <p>The certificate is not installed on any compute nodes. (Even if you remove a certificate from a pool, it is not removed from existing compute nodes in that pool until they restart.) </p>
 
-        </listitem>
+        </li>
 
-      </itemizedlist>
+      </ul>
 
     </p>
 
-    <p>If you try to delete a certificate that is in use, the deletion fails. The certificate state changes to <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED()" data-throw-if-not-resolved="false">Delete Failed</xref>. You can use <xref uid="com.microsoft.azure.batch._certificate_operations.cancelDeleteCertificate(String,String)" data-throw-if-not-resolved="false">cancelDeleteCertificate(String, String)</xref> to set the status back to Active if you decide that you want to continue using the certificate.</p>
+    <p>If you try to delete a certificate that is in use, the deletion fails. The certificate state changes to <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED" data-throw-if-not-resolved="false">Delete Failed</xref>. You can use <xref uid="com.microsoft.azure.batch._certificate_operations.cancelDeleteCertificate(String,String)" data-throw-if-not-resolved="false">cancelDeleteCertificate(String, String)</xref> to set the status back to Active if you decide that you want to continue using the certificate.</p>
 
     <p></p>
   syntax:
@@ -356,31 +356,31 @@ items:
   summary: >-
     <p>Deletes the certificate from the Batch account. </p>
 
-    <p>The delete operation requests that the certificate be deleted. The request puts the certificate in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETING()" data-throw-if-not-resolved="false">Deleting</xref> state. The Batch service will perform the actual certificate deletion without any further client action.</p>
+    <p>The delete operation requests that the certificate be deleted. The request puts the certificate in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETING" data-throw-if-not-resolved="false">Deleting</xref> state. The Batch service will perform the actual certificate deletion without any further client action.</p>
 
     <p>You cannot delete a certificate if a resource (pool or compute node) is using it. Before you can delete a certificate, you must therefore make sure that:</p>
 
     <p>
 
-      <itemizedlist>
+      <ul>
 
-        <listitem>
+        <li>
 
           <p>The certificate is not associated with any pools. </p>
 
-        </listitem>
+        </li>
 
-        <listitem>
+        <li>
 
           <p>The certificate is not installed on any compute nodes. (Even if you remove a certificate from a pool, it is not removed from existing compute nodes in that pool until they restart.) </p>
 
-        </listitem>
+        </li>
 
-      </itemizedlist>
+      </ul>
 
     </p>
 
-    <p>If you try to delete a certificate that is in use, the deletion fails. The certificate state changes to <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED()" data-throw-if-not-resolved="false">Delete Failed</xref>.</p>
+    <p>If you try to delete a certificate that is in use, the deletion fails. The certificate state changes to <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED" data-throw-if-not-resolved="false">Delete Failed</xref>.</p>
 
     <p>You can use <xref uid="com.microsoft.azure.batch._certificate_operations.cancelDeleteCertificate(String,String)" data-throw-if-not-resolved="false">cancelDeleteCertificate(String, String)</xref> to set the status back to Active if you decide that you want to continue using the certificate.</p>
 
@@ -623,8 +623,8 @@ items:
     description: <p>Exception thrown when an error response is received from the Batch service. </p>
   - type: cbf33bbe
     description: <p>Exception thrown when there is an error in serialization/deserialization of data sent to/received from the Batch service. </p>
-- uid: com.microsoft.azure.batch._certificate_operations.SHA1_CERTIFICATE_ALGORITHM()
-  id: SHA1_CERTIFICATE_ALGORITHM()
+- uid: com.microsoft.azure.batch._certificate_operations.SHA1_CERTIFICATE_ALGORITHM
+  id: SHA1_CERTIFICATE_ALGORITHM
   parent: com.microsoft.azure.batch._certificate_operations
   href: com.microsoft.azure.batch._certificate_operations.yml
   langs:
@@ -853,34 +853,34 @@ references:
   summary: <p>A certificate that can be installed on compute nodes and can be used to authenticate operations on the machine. </p>
   syntax:
     content: public class CertificateAddParameter
-- uid: com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED()
+- uid: com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED
   parent: com.microsoft.azure.batch.protocol.models._certificate_state
   href: com.microsoft.azure.batch.protocol.models._certificate_state.yml
   name: DELETE_FAILED
   nameWithType: CertificateState.DELETE_FAILED
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.DELETE_FAILED
   type: Field
-  summary: <p>Enum value deleteFailed. </p>
+  summary: <p>The user requested that the certificate be deleted, but there are pools that still have references to the certificate, or it is still installed on one or more compute nodes. (The latter can occur if the certificate has been removed from the pool, but the node has not yet restarted. Nodes refresh their certificates only when they restart.) You may use the cancel certificate delete operation to cancel the delete, or the delete certificate operation to retry the delete. </p>
   syntax:
-    content: public DELETE_FAILED=("deleteFailed")
-- uid: com.microsoft.azure.batch.protocol.models._certificate_state.ACTIVE()
+    content: public DELETE_FAILED=("deletefailed")
+- uid: com.microsoft.azure.batch.protocol.models._certificate_state.ACTIVE
   parent: com.microsoft.azure.batch.protocol.models._certificate_state
   href: com.microsoft.azure.batch.protocol.models._certificate_state.yml
   name: ACTIVE
   nameWithType: CertificateState.ACTIVE
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.ACTIVE
   type: Field
-  summary: <p>Enum value active. </p>
+  summary: <p>The certificate is available for use in pools. </p>
   syntax:
     content: public ACTIVE=("active")
-- uid: com.microsoft.azure.batch.protocol.models._certificate_state.DELETING()
+- uid: com.microsoft.azure.batch.protocol.models._certificate_state.DELETING
   parent: com.microsoft.azure.batch.protocol.models._certificate_state
   href: com.microsoft.azure.batch.protocol.models._certificate_state.yml
   name: DELETING
   nameWithType: CertificateState.DELETING
   fullName: com.microsoft.azure.batch.protocol.models.CertificateState.DELETING
   type: Field
-  summary: <p>Enum value deleting. </p>
+  summary: <p>The user has requested that the certificate be deleted, but the delete operation has not yet completed. You may not reference the certificate when creating or updating pools. </p>
   syntax:
     content: public DELETING=("deleting")
 - uid: com.microsoft.azure.batch._certificate_operations.cancelDeleteCertificate(String,String)
@@ -891,7 +891,7 @@ references:
   fullName: void com.microsoft.azure.batch.CertificateOperations.cancelDeleteCertificate(String thumbprintAlgorithm, String thumbprint)
   type: Method
   summary: >-
-    <p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED()" data-throw-if-not-resolved="false">Delete Failed</xref> state, and restores the certificate to the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.ACTIVE()" data-throw-if-not-resolved="false">Active</xref> state.</p>
+    <p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.DELETE_FAILED" data-throw-if-not-resolved="false">Delete Failed</xref> state, and restores the certificate to the <xref uid="com.microsoft.azure.batch.protocol.models._certificate_state.ACTIVE" data-throw-if-not-resolved="false">Active</xref> state.</p>
 
     <p></p>
   syntax: *o1

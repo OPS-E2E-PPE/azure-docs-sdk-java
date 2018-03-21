@@ -5,11 +5,12 @@ items:
   parent: com.microsoft.azure.storage.blob
   children:
   - com.microsoft.azure.storage.blob._blob_listing_details.BlobListingDetails(final int)
-  - com.microsoft.azure.storage.blob._blob_listing_details.COPY()
-  - com.microsoft.azure.storage.blob._blob_listing_details.METADATA()
-  - com.microsoft.azure.storage.blob._blob_listing_details.SNAPSHOTS()
-  - com.microsoft.azure.storage.blob._blob_listing_details.UNCOMMITTED_BLOBS()
-  - com.microsoft.azure.storage.blob._blob_listing_details.value()
+  - com.microsoft.azure.storage.blob._blob_listing_details.COPY
+  - com.microsoft.azure.storage.blob._blob_listing_details.DELETED
+  - com.microsoft.azure.storage.blob._blob_listing_details.METADATA
+  - com.microsoft.azure.storage.blob._blob_listing_details.SNAPSHOTS
+  - com.microsoft.azure.storage.blob._blob_listing_details.UNCOMMITTED_BLOBS
+  - com.microsoft.azure.storage.blob._blob_listing_details.value
   href: com.microsoft.azure.storage.blob._blob_listing_details.yml
   langs:
   - java
@@ -48,7 +49,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobListingDetails.java
-    startLine: 55
+    startLine: 60
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the value of this enum.</p>
@@ -60,8 +61,8 @@ items:
     - id: val
       type: cd225469
       description: <p>An <code>int</code> which represents the value being assigned. </p>
-- uid: com.microsoft.azure.storage.blob._blob_listing_details.COPY()
-  id: COPY()
+- uid: com.microsoft.azure.storage.blob._blob_listing_details.COPY
+  id: COPY
   parent: com.microsoft.azure.storage.blob._blob_listing_details
   href: com.microsoft.azure.storage.blob._blob_listing_details.yml
   langs:
@@ -78,8 +79,26 @@ items:
   summary: <p>Include copy properties in the listing. </p>
   syntax:
     content: public COPY=(8)
-- uid: com.microsoft.azure.storage.blob._blob_listing_details.METADATA()
-  id: METADATA()
+- uid: com.microsoft.azure.storage.blob._blob_listing_details.DELETED
+  id: DELETED
+  parent: com.microsoft.azure.storage.blob._blob_listing_details
+  href: com.microsoft.azure.storage.blob._blob_listing_details.yml
+  langs:
+  - java
+  name: DELETED
+  nameWithType: BlobListingDetails.DELETED
+  fullName: com.microsoft.azure.storage.blob.BlobListingDetails.DELETED
+  type: Field
+  source:
+    remote: *o0
+    path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobListingDetails.java
+    startLine: 47
+  package: com.microsoft.azure.storage.blob
+  summary: <p>Specifies that soft deleted blobs which are retained by the service should be included in the response. </p>
+  syntax:
+    content: public DELETED=(16)
+- uid: com.microsoft.azure.storage.blob._blob_listing_details.METADATA
+  id: METADATA
   parent: com.microsoft.azure.storage.blob._blob_listing_details
   href: com.microsoft.azure.storage.blob._blob_listing_details.yml
   langs:
@@ -96,8 +115,8 @@ items:
   summary: <p>Specifies listing blob metadata for each blob returned in the listing. </p>
   syntax:
     content: public METADATA=(2)
-- uid: com.microsoft.azure.storage.blob._blob_listing_details.SNAPSHOTS()
-  id: SNAPSHOTS()
+- uid: com.microsoft.azure.storage.blob._blob_listing_details.SNAPSHOTS
+  id: SNAPSHOTS
   parent: com.microsoft.azure.storage.blob._blob_listing_details
   href: com.microsoft.azure.storage.blob._blob_listing_details.yml
   langs:
@@ -114,8 +133,8 @@ items:
   summary: <p>Specifies listing committed blobs and blob snapshots. </p>
   syntax:
     content: public SNAPSHOTS=(1)
-- uid: com.microsoft.azure.storage.blob._blob_listing_details.UNCOMMITTED_BLOBS()
-  id: UNCOMMITTED_BLOBS()
+- uid: com.microsoft.azure.storage.blob._blob_listing_details.UNCOMMITTED_BLOBS
+  id: UNCOMMITTED_BLOBS
   parent: com.microsoft.azure.storage.blob._blob_listing_details
   href: com.microsoft.azure.storage.blob._blob_listing_details.yml
   langs:
@@ -132,8 +151,8 @@ items:
   summary: <p>Specifies listing uncommitted blobs. </p>
   syntax:
     content: public UNCOMMITTED_BLOBS=(4)
-- uid: com.microsoft.azure.storage.blob._blob_listing_details.value()
-  id: value()
+- uid: com.microsoft.azure.storage.blob._blob_listing_details.value
+  id: value
   parent: com.microsoft.azure.storage.blob._blob_listing_details
   href: com.microsoft.azure.storage.blob._blob_listing_details.yml
   langs:
@@ -145,7 +164,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/blob/BlobListingDetails.java
-    startLine: 47
+    startLine: 52
   package: com.microsoft.azure.storage.blob
   summary: <p>Returns the value of this enum. </p>
   syntax:

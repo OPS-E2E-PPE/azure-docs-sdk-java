@@ -4,12 +4,12 @@ items:
   id: _endpoint_type
   parent: com.microsoft.azure.management.trafficmanager
   children:
-  - com.microsoft.azure.management.trafficmanager._endpoint_type.AZURE()
+  - com.microsoft.azure.management.trafficmanager._endpoint_type.AZURE
   - com.microsoft.azure.management.trafficmanager._endpoint_type.EndpointType(String)
-  - com.microsoft.azure.management.trafficmanager._endpoint_type.EXTERNAL()
+  - com.microsoft.azure.management.trafficmanager._endpoint_type.EXTERNAL
   - com.microsoft.azure.management.trafficmanager._endpoint_type.fromValue(String)
   - com.microsoft.azure.management.trafficmanager._endpoint_type.localName()
-  - com.microsoft.azure.management.trafficmanager._endpoint_type.NESTED_PROFILE()
+  - com.microsoft.azure.management.trafficmanager._endpoint_type.NESTED_PROFILE
   - com.microsoft.azure.management.trafficmanager._endpoint_type.toString()
   href: com.microsoft.azure.management.trafficmanager._endpoint_type.yml
   langs:
@@ -21,7 +21,7 @@ items:
   source:
     remote: &o0
       path: azure-mgmt-trafficmanager/src/main/java/com/microsoft/azure/management/trafficmanager/EndpointType.java
-      branch: 880e2022bf46b71f481107effb7c878a9ae065dd
+      branch: v1.3.0
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-trafficmanager/src/main/java/com/microsoft/azure/management/trafficmanager/EndpointType.java
     startLine: 13
@@ -32,8 +32,8 @@ items:
   inheritance:
   - java.lang.Object
   - java.lang.Enum<EndpointType>
-- uid: com.microsoft.azure.management.trafficmanager._endpoint_type.AZURE()
-  id: AZURE()
+- uid: com.microsoft.azure.management.trafficmanager._endpoint_type.AZURE
+  id: AZURE
   parent: com.microsoft.azure.management.trafficmanager._endpoint_type
   href: com.microsoft.azure.management.trafficmanager._endpoint_type.yml
   langs:
@@ -71,8 +71,8 @@ items:
     parameters:
     - id: value
       type: "26831127"
-- uid: com.microsoft.azure.management.trafficmanager._endpoint_type.EXTERNAL()
-  id: EXTERNAL()
+- uid: com.microsoft.azure.management.trafficmanager._endpoint_type.EXTERNAL
+  id: EXTERNAL
   parent: com.microsoft.azure.management.trafficmanager._endpoint_type
   href: com.microsoft.azure.management.trafficmanager._endpoint_type.yml
   langs:
@@ -139,8 +139,8 @@ items:
     return:
       type: "26831127"
       description: <p>the local name of the endpoint type </p>
-- uid: com.microsoft.azure.management.trafficmanager._endpoint_type.NESTED_PROFILE()
-  id: NESTED_PROFILE()
+- uid: com.microsoft.azure.management.trafficmanager._endpoint_type.NESTED_PROFILE
+  id: NESTED_PROFILE
   parent: com.microsoft.azure.management.trafficmanager._endpoint_type
   href: com.microsoft.azure.management.trafficmanager._endpoint_type.yml
   langs:
@@ -217,7 +217,7 @@ references:
   name: TrafficRoutingMethod
   nameWithType: TrafficRoutingMethod
   fullName: com.microsoft.azure.management.trafficmanager.TrafficRoutingMethod
-  type: Enum
-  summary: <p>Possible routing methods supported by Traffic manager profile. </p>
+  type: Class
+  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.trafficmanager._traffic_routing_method" data-throw-if-not-resolved="false">TrafficRoutingMethod</xref>. </p>
   syntax:
-    content: public enum TrafficRoutingMethod
+    content: public class TrafficRoutingMethod

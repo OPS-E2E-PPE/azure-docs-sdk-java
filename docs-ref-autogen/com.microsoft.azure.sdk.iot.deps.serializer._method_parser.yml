@@ -57,7 +57,7 @@ items:
     parameters:
     - id: json
       type: "26831127"
-      description: <p>- Json with the information to change the collection.<itemizedlist><listitem><p>If contains <code>methodName</code>, it is a full method including <code>methodName</code>, <code>responseTimeoutInSeconds</code>, <code>connectTimeoutInSeconds</code>, and <code>payload</code>.</p></listitem><listitem><p>If contains <code>status</code>, it is a response with <code>status</code> and <code>payload</code>.</p></listitem><listitem><p>Otherwise, it is only <code>payload</code>. </p></listitem></itemizedlist></p>
+      description: <p>- Json with the information to change the collection.<ul><li><p>If contains `methodName`, it is a full method including `methodName`, `responseTimeoutInSeconds`, `connectTimeoutInSeconds`, and `payload`.</p></li><li><p>If contains `status`, it is a response with `status` and `payload`.</p></li><li><p>Otherwise, it is only `payload`. </p></li></ul></p>
     return:
       type: 5c0b90ca
   exceptions:
@@ -87,7 +87,10 @@ items:
     content: public Object getPayload()
     return:
       type: "79317049"
-      description: <p>An Object with the payload. It can be<programlisting><codeline><highlight class="normal">null<sp></sp></highlight></codeline></programlisting> . </p>
+      description: >-
+        <p>An Object with the payload. It can be<code>null 
+
+            </code> . </p>
 - uid: com.microsoft.azure.sdk.iot.deps.serializer._method_parser.getStatus()
   id: getStatus()
   parent: com.microsoft.azure.sdk.iot.deps.serializer._method_parser
@@ -112,10 +115,13 @@ items:
     content: public Integer getStatus()
     return:
       type: 08effaa0
-      description: <p>An integer with the status of the response. It can be<programlisting><codeline><highlight class="normal">null<sp></sp></highlight></codeline></programlisting> . </p>
+      description: >-
+        <p>An integer with the status of the response. It can be<code>null 
+
+            </code> . </p>
   exceptions:
   - type: 3c87bd19
-    description: <p>This exception is thrown if the operation is not type of <code>response</code>. </p>
+    description: <p>This exception is thrown if the operation is not type of `response`. </p>
 - uid: com.microsoft.azure.sdk.iot.deps.serializer._method_parser.MethodParser()
   id: MethodParser()
   parent: com.microsoft.azure.sdk.iot.deps.serializer._method_parser
@@ -160,7 +166,10 @@ items:
     parameters:
     - id: payload
       type: "79317049"
-      description: <p>- Object that contains the payload defined by the user. It can be<programlisting><codeline><highlight class="normal">null<sp></sp></highlight></codeline></programlisting> . </p>
+      description: >-
+        <p>- Object that contains the payload defined by the user. It can be<code>null 
+
+            </code> . </p>
 - uid: com.microsoft.azure.sdk.iot.deps.serializer._method_parser.MethodParser(String,Long,Long,Object)
   id: MethodParser(String,Long,Long,Object)
   parent: com.microsoft.azure.sdk.iot.deps.serializer._method_parser
@@ -189,13 +198,22 @@ items:
       description: <p>- method name [required]. </p>
     - id: responseTimeout
       type: 34f09483
-      description: <p>- maximum interval of time, in seconds, that the Direct Method will wait for answer. It can be<programlisting><codeline><highlight class="normal">null<sp></sp></highlight></codeline></programlisting> . </p>
+      description: >-
+        <p>- maximum interval of time, in seconds, that the Direct Method will wait for answer. It can be<code>null 
+
+            </code> . </p>
     - id: connectTimeout
       type: 34f09483
-      description: <p>- maximum interval of time, in seconds, that the Direct Method will wait for the connection. It can be<programlisting><codeline><highlight class="normal">null<sp></sp></highlight></codeline></programlisting> . </p>
+      description: >-
+        <p>- maximum interval of time, in seconds, that the Direct Method will wait for the connection. It can be<code>null 
+
+            </code> . </p>
     - id: payload
       type: "79317049"
-      description: <p>- Object that contains the payload defined by the user. It can be<programlisting><codeline><highlight class="normal">null<sp></sp></highlight></codeline></programlisting> . </p>
+      description: >-
+        <p>- Object that contains the payload defined by the user. It can be<code>null 
+
+            </code> . </p>
   exceptions:
   - type: 3c87bd19
     description: <p>This exception is thrown if the one of the provided information do not fits the requirements. </p>

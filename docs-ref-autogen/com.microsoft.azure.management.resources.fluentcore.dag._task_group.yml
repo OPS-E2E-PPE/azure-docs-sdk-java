@@ -18,7 +18,7 @@ items:
   source:
     remote: &o0
       path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/dag/TaskGroup.java
-      branch: 880e2022bf46b71f481107effb7c878a9ae065dd
+      branch: v1.3.0
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/dag/TaskGroup.java
     startLine: 23
@@ -443,7 +443,7 @@ references:
   summary: <p>Defines task group termination strategies to be used once a task error-ed. </p>
   syntax:
     content: public enum TaskGroupTerminateOnErrorStrategy
-- uid: com.microsoft.azure.management.resources.fluentcore.dag._task_group_terminate_on_error_strategy.TERMINATE_ON_INPROGRESS_TASKS_COMPLETION()
+- uid: com.microsoft.azure.management.resources.fluentcore.dag._task_group_terminate_on_error_strategy.TERMINATE_ON_INPROGRESS_TASKS_COMPLETION
   parent: com.microsoft.azure.management.resources.fluentcore.dag._task_group_terminate_on_error_strategy
   href: com.microsoft.azure.management.resources.fluentcore.dag._task_group_terminate_on_error_strategy.yml
   name: TERMINATE_ON_INPROGRESS_TASKS_COMPLETION

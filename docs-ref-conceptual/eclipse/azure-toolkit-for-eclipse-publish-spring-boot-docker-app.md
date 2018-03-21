@@ -1,21 +1,20 @@
 ---
-title: Publish a Spring Boot app as a Docker container by using the Azure Toolkit for Eclipse | Microsoft Docs
+title: Publish a Spring Boot app as a Docker container by using the Azure Toolkit for Eclipse
 description: Learn how to publish a web app to Microsoft Azure as a Docker container by using the Azure Toolkit for Eclipse.
 services: ''
 documentationcenter: java
 author: rmcmurray
-manager: erikre
+manager: routlaw
 editor: ''
 
 ms.assetid: 
-ms.service: multiple
-ms.workload: na
-ms.tgt_pltfrm: multiple
-ms.devlang: Java
-ms.topic: article
-ms.date: 06/21/2017
 ms.author: robmcm
-
+ms.date: 02/01/2018
+ms.devlang: Java
+ms.service: multiple
+ms.tgt_pltfrm: multiple
+ms.topic: article
+ms.workload: na
 ---
 
 # Publish a Spring Boot app as a Docker container by using the Azure Toolkit for Eclipse
@@ -32,7 +31,7 @@ This tutorial walks you through the steps to deploy a Spring Boot application as
 
 ### Import the public repository
 
-The following steps walk you through cloning the Spring Boot Docker repository to your local computer by using IntelliJ. If you want to use a command line, see [Deploy a Spring Boot application on Linux in Azure Container Service][Deploy Spring Boot on Linux in ACS].
+The following steps walk you through cloning the Spring Boot Docker repository to your local computer by using IntelliJ. If you want to use a command line, see [Deploy a Spring Boot application on Linux in Azure Container Service][Deploy Spring Boot on Linux in AKS].
 
 1. Open Eclipse.
 
@@ -200,41 +199,43 @@ The Spring Boot Docker repository contains a completed Maven project, which you 
 
 ## Next steps
 
-[!INCLUDE [azure-toolkit-additional-resources](../includes/azure-toolkit-additional-resources.md)]
+For additional resources for Docker, see the official [Docker website].
+
+[!INCLUDE [azure-toolkit-for-eclipse-additional-resources](../includes/azure-toolkit-for-eclipse-additional-resources.md)]
 
 <!-- URL List -->
 
 [Azure Management Portal]: http://go.microsoft.com/fwlink/?LinkID=512959
-[Deploy Spring Boot on Linux in ACS]:/azure/container-service/kubernetes/container-service-deploy-spring-boot-app-on-linux
+[Deploy Spring Boot on Linux in AKS]: /azure/container-service/kubernetes/container-service-deploy-spring-boot-app-on-linux
 [Docker]: https://www.docker.com/
-[Publish Container with Azure Toolkit]: ./azure-toolkit-for-eclipse-publish-as-docker-container.md
+[Publish Container with Azure Toolkit]: azure-toolkit-for-eclipse-publish-as-docker-container.md
 [Spring Boot]: http://projects.spring.io/spring-boot/
 [Spring Framework]: https://spring.io/
 
 <!-- IMG List -->
 
-[CL01]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL01.png
-[CL02]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL02.png
-[CL03]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL03.png
-[CL04]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL04.png
-[CL05]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL05.png
-[CL06]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL06.png
-[CL07]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL07.png
-[CL08]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL08.png
-[CL09]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL09.png
+[CL01]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL01.png
+[CL02]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL02.png
+[CL03]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL03.png
+[CL04]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL04.png
+[CL05]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL05.png
+[CL06]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL06.png
+[CL07]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL07.png
+[CL08]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL08.png
+[CL09]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/CL09.png
 
-[MV01]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/MV01.png
-[MV02]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/MV02.png
-[MV03]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/MV03.png
+[MV01]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/MV01.png
+[MV02]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/MV02.png
+[MV03]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/MV03.png
 
-[BU01]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/BU01.png
-[BU02]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/BU02.png
+[BU01]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/BU01.png
+[BU02]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/BU02.png
 
-[PU01]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU01.png
-[PU02]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU02.png
-[PU03]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU03.png
-[PU04]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU04.png
-[PU05]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU05.png
-[PU06]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU06.png
-[PU07]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU07.png
-[PU08]: ./media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU08.png
+[PU01]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU01.png
+[PU02]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU02.png
+[PU03]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU03.png
+[PU04]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU04.png
+[PU05]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU05.png
+[PU06]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU06.png
+[PU07]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU07.png
+[PU08]: media/azure-toolkit-for-eclipse-publish-spring-boot-docker-app/PU08.png

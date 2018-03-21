@@ -17,7 +17,7 @@ items:
   source:
     remote: &o0
       path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/collection/InnerSupportsGet.java
-      branch: 880e2022bf46b71f481107effb7c878a9ae065dd
+      branch: v1.3.0
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/collection/InnerSupportsGet.java
     startLine: 20
@@ -163,62 +163,230 @@ references:
   spec.java:
   - name: ServiceFuture<InnerT>
     fullName: ServiceFuture<InnerT>
-- uid: com.microsoft.azure.management.resources.implementation._deployments_inner
-  parent: com.microsoft.azure.management.resources.implementation
-  href: com.microsoft.azure.management.resources.implementation._deployments_inner.yml
-  name: DeploymentsInner
-  nameWithType: DeploymentsInner
-  fullName: com.microsoft.azure.management.resources.implementation.DeploymentsInner
+- uid: com.microsoft.azure.management.batchai.implementation._clusters_inner
+  parent: com.microsoft.azure.management.batchai.implementation
+  href: com.microsoft.azure.management.batchai.implementation._clusters_inner.yml
+  name: ClustersInner
+  nameWithType: ClustersInner
+  fullName: com.microsoft.azure.management.batchai.implementation.ClustersInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in <xref uid="com.microsoft.azure.management.resources._deployments" data-throw-if-not-resolved="false">Deployments</xref>. </p>
+  summary: <p>An instance of this class provides access to all the operations defined in Clusters. </p>
   syntax:
-    content: public class DeploymentsInner implements InnerSupportsGet<DeploymentExtendedInner>,InnerSupportsDelete<Void>
-- uid: com.microsoft.azure.management.resources.implementation._deployments_inner.getByResourceGroup(String,String)
-  parent: com.microsoft.azure.management.resources.implementation._deployments_inner
-  href: com.microsoft.azure.management.resources.implementation._deployments_inner.yml
-  name: getByResourceGroup(String resourceGroupName, String deploymentName)
-  nameWithType: DeploymentsInner.getByResourceGroup(String resourceGroupName, String deploymentName)
-  fullName: DeploymentExtendedInner com.microsoft.azure.management.resources.implementation.DeploymentsInner.getByResourceGroup(String resourceGroupName, String deploymentName)
+    content: public class ClustersInner implements InnerSupportsGet<ClusterInner>,InnerSupportsDelete<Void>,InnerSupportsListing<ClusterInner>
+- uid: com.microsoft.azure.management.batchai.implementation._file_servers_inner
+  parent: com.microsoft.azure.management.batchai.implementation
+  href: com.microsoft.azure.management.batchai.implementation._file_servers_inner.yml
+  name: FileServersInner
+  nameWithType: FileServersInner
+  fullName: com.microsoft.azure.management.batchai.implementation.FileServersInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in FileServers. </p>
+  syntax:
+    content: public class FileServersInner implements InnerSupportsGet<FileServerInner>,InnerSupportsDelete<Void>,InnerSupportsListing<FileServerInner>
+- uid: com.microsoft.azure.management.batchai.implementation._jobs_inner
+  parent: com.microsoft.azure.management.batchai.implementation
+  href: com.microsoft.azure.management.batchai.implementation._jobs_inner.yml
+  name: JobsInner
+  nameWithType: JobsInner
+  fullName: com.microsoft.azure.management.batchai.implementation.JobsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Jobs. </p>
+  syntax:
+    content: public class JobsInner
+- uid: com.microsoft.azure.management.containerregistry.implementation._registries_inner
+  parent: com.microsoft.azure.management.containerregistry.implementation
+  href: com.microsoft.azure.management.containerregistry.implementation._registries_inner.yml
+  name: RegistriesInner
+  nameWithType: RegistriesInner
+  fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in <xref uid="com.microsoft.azure.management.containerregistry._registries" data-throw-if-not-resolved="false">Registries</xref>. </p>
+  syntax:
+    content: public class RegistriesInner
+- uid: com.microsoft.azure.management.containerregistry.implementation._registries_inner.getByResourceGroup(String,String)
+  parent: com.microsoft.azure.management.containerregistry.implementation._registries_inner
+  href: com.microsoft.azure.management.containerregistry.implementation._registries_inner.yml
+  name: getByResourceGroup(String resourceGroupName, String registryName)
+  nameWithType: RegistriesInner.getByResourceGroup(String resourceGroupName, String registryName)
+  fullName: RegistryInner com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.getByResourceGroup(String resourceGroupName, String registryName)
   type: Method
   summary: >-
-    <p>Gets a deployment.</p>
+    <p>Gets the properties of the specified container registry.</p>
 
     <p></p>
   syntax:
-    content: public DeploymentExtendedInner getByResourceGroup(String resourceGroupName, String deploymentName)
+    content: public RegistryInner getByResourceGroup(String resourceGroupName, String registryName)
     parameters:
     - id: resourceGroupName
       type: "26831127"
-      description: <p>The name of the resource group. The name is case insensitive. </p>
-    - id: deploymentName
+      description: <p>The name of the resource group to which the container registry belongs. </p>
+    - id: registryName
       type: "26831127"
-      description: <p>The name of the deployment to get. </p>
+      description: <p>The name of the container registry. </p>
     return:
-      type: com.microsoft.azure.management.resources.implementation._deployment_extended_inner
-      description: <p>the <xref uid="com.microsoft.azure.management.resources.implementation._deployment_extended_inner" data-throw-if-not-resolved="false">DeploymentExtendedInner</xref> object if successful. </p>
-- uid: com.microsoft.azure.management.resources.implementation._deployments_inner.getByResourceGroupAsync(String,String)
-  parent: com.microsoft.azure.management.resources.implementation._deployments_inner
-  href: com.microsoft.azure.management.resources.implementation._deployments_inner.yml
-  name: getByResourceGroupAsync(String resourceGroupName, String deploymentName)
-  nameWithType: DeploymentsInner.getByResourceGroupAsync(String resourceGroupName, String deploymentName)
-  fullName: Observable<DeploymentExtendedInner> com.microsoft.azure.management.resources.implementation.DeploymentsInner.getByResourceGroupAsync(String resourceGroupName, String deploymentName)
+      type: com.microsoft.azure.management.containerregistry.implementation._registry_inner
+      description: <p>the <xref uid="com.microsoft.azure.management.containerregistry.implementation._registry_inner" data-throw-if-not-resolved="false">RegistryInner</xref> object if successful. </p>
+- uid: com.microsoft.azure.management.batchai.implementation._file_servers_inner.getByResourceGroup(String,String)
+  parent: com.microsoft.azure.management.batchai.implementation._file_servers_inner
+  href: com.microsoft.azure.management.batchai.implementation._file_servers_inner.yml
+  name: getByResourceGroup(String resourceGroupName, String fileServerName)
+  nameWithType: FileServersInner.getByResourceGroup(String resourceGroupName, String fileServerName)
+  fullName: FileServerInner com.microsoft.azure.management.batchai.implementation.FileServersInner.getByResourceGroup(String resourceGroupName, String fileServerName)
   type: Method
   summary: >-
-    <p>Gets a deployment.</p>
+    <p>Gets information about the specified Cluster.</p>
 
     <p></p>
   syntax:
-    content: public Observable<DeploymentExtendedInner> getByResourceGroupAsync(String resourceGroupName, String deploymentName)
+    content: public FileServerInner getByResourceGroup(String resourceGroupName, String fileServerName)
     parameters:
     - id: resourceGroupName
       type: "26831127"
-      description: <p>The name of the resource group. The name is case insensitive. </p>
-    - id: deploymentName
+      description: <p>Name of the resource group to which the resource belongs. </p>
+    - id: fileServerName
       type: "26831127"
-      description: <p>The name of the deployment to get. </p>
+      description: <p>The name of the file server within the specified resource group. File server names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
     return:
-      type: c2d0e8c6com.microsoft.azure.management.resources.implementation._deployment_extended_innera08ddfce
-      description: <p>the observable to the <xref uid="com.microsoft.azure.management.resources.implementation._deployment_extended_inner" data-throw-if-not-resolved="false">DeploymentExtendedInner</xref> object </p>
+      type: com.microsoft.azure.management.batchai.implementation._file_server_inner
+      description: <p>the <xref uid="com.microsoft.azure.management.batchai.implementation._file_server_inner" data-throw-if-not-resolved="false">FileServerInner</xref> object if successful. </p>
+- uid: com.microsoft.azure.management.batchai.implementation._jobs_inner.getByResourceGroup(String,String)
+  parent: com.microsoft.azure.management.batchai.implementation._jobs_inner
+  href: com.microsoft.azure.management.batchai.implementation._jobs_inner.yml
+  name: getByResourceGroup(String resourceGroupName, String jobName)
+  nameWithType: JobsInner.getByResourceGroup(String resourceGroupName, String jobName)
+  fullName: JobInner com.microsoft.azure.management.batchai.implementation.JobsInner.getByResourceGroup(String resourceGroupName, String jobName)
+  type: Method
+  summary: >-
+    <p>Gets information about the specified Batch AI job.</p>
+
+    <p></p>
+  syntax:
+    content: public JobInner getByResourceGroup(String resourceGroupName, String jobName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of the resource group to which the resource belongs. </p>
+    - id: jobName
+      type: "26831127"
+      description: <p>The name of the job within the specified resource group. Job names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    return:
+      type: com.microsoft.azure.management.batchai.implementation._job_inner
+      description: <p>the <xref uid="com.microsoft.azure.management.batchai.implementation._job_inner" data-throw-if-not-resolved="false">JobInner</xref> object if successful. </p>
+- uid: com.microsoft.azure.management.batchai.implementation._clusters_inner.getByResourceGroup(String,String)
+  parent: com.microsoft.azure.management.batchai.implementation._clusters_inner
+  href: com.microsoft.azure.management.batchai.implementation._clusters_inner.yml
+  name: getByResourceGroup(String resourceGroupName, String clusterName)
+  nameWithType: ClustersInner.getByResourceGroup(String resourceGroupName, String clusterName)
+  fullName: ClusterInner com.microsoft.azure.management.batchai.implementation.ClustersInner.getByResourceGroup(String resourceGroupName, String clusterName)
+  type: Method
+  summary: >-
+    <p>Gets information about the specified Cluster.</p>
+
+    <p></p>
+  syntax:
+    content: public ClusterInner getByResourceGroup(String resourceGroupName, String clusterName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of the resource group to which the resource belongs. </p>
+    - id: clusterName
+      type: "26831127"
+      description: <p>The name of the cluster within the specified resource group. Cluster names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    return:
+      type: com.microsoft.azure.management.batchai.implementation._cluster_inner
+      description: <p>the <xref uid="com.microsoft.azure.management.batchai.implementation._cluster_inner" data-throw-if-not-resolved="false">ClusterInner</xref> object if successful. </p>
+- uid: com.microsoft.azure.management.containerregistry.implementation._registries_inner.getByResourceGroupAsync(String,String)
+  parent: com.microsoft.azure.management.containerregistry.implementation._registries_inner
+  href: com.microsoft.azure.management.containerregistry.implementation._registries_inner.yml
+  name: getByResourceGroupAsync(String resourceGroupName, String registryName)
+  nameWithType: RegistriesInner.getByResourceGroupAsync(String resourceGroupName, String registryName)
+  fullName: Observable<RegistryInner> com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.getByResourceGroupAsync(String resourceGroupName, String registryName)
+  type: Method
+  summary: >-
+    <p>Gets the properties of the specified container registry.</p>
+
+    <p></p>
+  syntax:
+    content: public Observable<RegistryInner> getByResourceGroupAsync(String resourceGroupName, String registryName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group to which the container registry belongs. </p>
+    - id: registryName
+      type: "26831127"
+      description: <p>The name of the container registry. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.containerregistry.implementation._registry_innera08ddfce
+      description: <p>the observable to the <xref uid="com.microsoft.azure.management.containerregistry.implementation._registry_inner" data-throw-if-not-resolved="false">RegistryInner</xref> object </p>
+- uid: com.microsoft.azure.management.batchai.implementation._file_servers_inner.getByResourceGroupAsync(String,String)
+  parent: com.microsoft.azure.management.batchai.implementation._file_servers_inner
+  href: com.microsoft.azure.management.batchai.implementation._file_servers_inner.yml
+  name: getByResourceGroupAsync(String resourceGroupName, String fileServerName)
+  nameWithType: FileServersInner.getByResourceGroupAsync(String resourceGroupName, String fileServerName)
+  fullName: Observable<FileServerInner> com.microsoft.azure.management.batchai.implementation.FileServersInner.getByResourceGroupAsync(String resourceGroupName, String fileServerName)
+  type: Method
+  summary: >-
+    <p>Gets information about the specified Cluster.</p>
+
+    <p></p>
+  syntax:
+    content: public Observable<FileServerInner> getByResourceGroupAsync(String resourceGroupName, String fileServerName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of the resource group to which the resource belongs. </p>
+    - id: fileServerName
+      type: "26831127"
+      description: <p>The name of the file server within the specified resource group. File server names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.batchai.implementation._file_server_innera08ddfce
+      description: <p>the observable to the <xref uid="com.microsoft.azure.management.batchai.implementation._file_server_inner" data-throw-if-not-resolved="false">FileServerInner</xref> object </p>
+- uid: com.microsoft.azure.management.batchai.implementation._jobs_inner.getByResourceGroupAsync(String,String)
+  parent: com.microsoft.azure.management.batchai.implementation._jobs_inner
+  href: com.microsoft.azure.management.batchai.implementation._jobs_inner.yml
+  name: getByResourceGroupAsync(String resourceGroupName, String jobName)
+  nameWithType: JobsInner.getByResourceGroupAsync(String resourceGroupName, String jobName)
+  fullName: Observable<JobInner> com.microsoft.azure.management.batchai.implementation.JobsInner.getByResourceGroupAsync(String resourceGroupName, String jobName)
+  type: Method
+  summary: >-
+    <p>Gets information about the specified Batch AI job.</p>
+
+    <p></p>
+  syntax:
+    content: public Observable<JobInner> getByResourceGroupAsync(String resourceGroupName, String jobName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of the resource group to which the resource belongs. </p>
+    - id: jobName
+      type: "26831127"
+      description: <p>The name of the job within the specified resource group. Job names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.batchai.implementation._job_innera08ddfce
+      description: <p>the observable to the <xref uid="com.microsoft.azure.management.batchai.implementation._job_inner" data-throw-if-not-resolved="false">JobInner</xref> object </p>
+- uid: com.microsoft.azure.management.batchai.implementation._clusters_inner.getByResourceGroupAsync(String,String)
+  parent: com.microsoft.azure.management.batchai.implementation._clusters_inner
+  href: com.microsoft.azure.management.batchai.implementation._clusters_inner.yml
+  name: getByResourceGroupAsync(String resourceGroupName, String clusterName)
+  nameWithType: ClustersInner.getByResourceGroupAsync(String resourceGroupName, String clusterName)
+  fullName: Observable<ClusterInner> com.microsoft.azure.management.batchai.implementation.ClustersInner.getByResourceGroupAsync(String resourceGroupName, String clusterName)
+  type: Method
+  summary: >-
+    <p>Gets information about the specified Cluster.</p>
+
+    <p></p>
+  syntax:
+    content: public Observable<ClusterInner> getByResourceGroupAsync(String resourceGroupName, String clusterName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>Name of the resource group to which the resource belongs. </p>
+    - id: clusterName
+      type: "26831127"
+      description: <p>The name of the cluster within the specified resource group. Cluster names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.batchai.implementation._cluster_innera08ddfce
+      description: <p>the observable to the <xref uid="com.microsoft.azure.management.batchai.implementation._cluster_inner" data-throw-if-not-resolved="false">ClusterInner</xref> object </p>
 - uid: com.microsoft.azure.management._azure
   parent: com.microsoft.azure.management
   href: com.microsoft.azure.management._azure.yml

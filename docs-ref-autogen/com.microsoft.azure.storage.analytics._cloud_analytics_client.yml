@@ -4,7 +4,7 @@ items:
   id: _cloud_analytics_client
   parent: com.microsoft.azure.storage.analytics
   children:
-  - com.microsoft.azure.storage.analytics._cloud_analytics_client.blobClient()
+  - com.microsoft.azure.storage.analytics._cloud_analytics_client.blobClient
   - com.microsoft.azure.storage.analytics._cloud_analytics_client.CloudAnalyticsClient(StorageUri,StorageUri,StorageCredentials)
   - com.microsoft.azure.storage.analytics._cloud_analytics_client.getCapacityTable()
   - com.microsoft.azure.storage.analytics._cloud_analytics_client.getHourMetricsTable(StorageService)
@@ -16,10 +16,10 @@ items:
   - com.microsoft.azure.storage.analytics._cloud_analytics_client.listLogBlobs(StorageService,Date,Date,EnumSet<LoggingOperations>,BlobListingDetails,BlobRequestOptions,OperationContext)
   - com.microsoft.azure.storage.analytics._cloud_analytics_client.listLogRecords(StorageService)
   - com.microsoft.azure.storage.analytics._cloud_analytics_client.listLogRecords(StorageService,Date,Date,BlobRequestOptions,OperationContext)
-  - com.microsoft.azure.storage.analytics._cloud_analytics_client.LogContainer()
+  - com.microsoft.azure.storage.analytics._cloud_analytics_client.LogContainer
   - com.microsoft.azure.storage.analytics._cloud_analytics_client.parseLogBlob(ListBlobItem)
   - com.microsoft.azure.storage.analytics._cloud_analytics_client.parseLogBlobs(Iterable<ListBlobItem>)
-  - com.microsoft.azure.storage.analytics._cloud_analytics_client.tableClient()
+  - com.microsoft.azure.storage.analytics._cloud_analytics_client.tableClient
   href: com.microsoft.azure.storage.analytics._cloud_analytics_client.yml
   langs:
   - java
@@ -43,8 +43,8 @@ items:
     content: public class CloudAnalyticsClient
   inheritance:
   - java.lang.Object
-- uid: com.microsoft.azure.storage.analytics._cloud_analytics_client.blobClient()
-  id: blobClient()
+- uid: com.microsoft.azure.storage.analytics._cloud_analytics_client.blobClient
+  id: blobClient
   parent: com.microsoft.azure.storage.analytics._cloud_analytics_client
   href: com.microsoft.azure.storage.analytics._cloud_analytics_client.yml
   langs:
@@ -447,8 +447,8 @@ items:
   exceptions:
   - type: com.microsoft.azure.storage._storage_exception
   - type: "44102508"
-- uid: com.microsoft.azure.storage.analytics._cloud_analytics_client.LogContainer()
-  id: LogContainer()
+- uid: com.microsoft.azure.storage.analytics._cloud_analytics_client.LogContainer
+  id: LogContainer
   parent: com.microsoft.azure.storage.analytics._cloud_analytics_client
   href: com.microsoft.azure.storage.analytics._cloud_analytics_client.yml
   langs:
@@ -481,7 +481,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/analytics/CloudAnalyticsClient.java
-    startLine: 407
+    startLine: 403
   package: com.microsoft.azure.storage.analytics
   summary: >-
     <p>Returns an enumerable collection of log records, retrieved lazily.</p>
@@ -492,12 +492,10 @@ items:
     parameters:
     - id: logBlob
       type: com.microsoft.azure.storage.blob._list_blob_item
+      description: <p>A single blob to parse LogRecords from. </p>
     return:
       type: 2a13b5a5com.microsoft.azure.storage.analytics._log_recorda08ddfce
-      description: <p>An enumerable collection of objects that implement <xref uid="" data-throw-if-not-resolved="false">LogRecords</xref> and are retrieved lazily. </p>
-  exceptions:
-  - type: com.microsoft.azure.storage._storage_exception
-  - type: "44102508"
+      description: <p>An enumerable collection of objects that implement <xref uid="com.microsoft.azure.storage.analytics._log_record" data-throw-if-not-resolved="false">LogRecord</xref> and are retrieved lazily. </p>
 - uid: com.microsoft.azure.storage.analytics._cloud_analytics_client.parseLogBlobs(Iterable<ListBlobItem>)
   id: parseLogBlobs(Iterable<ListBlobItem>)
   parent: com.microsoft.azure.storage.analytics._cloud_analytics_client
@@ -512,7 +510,7 @@ items:
   source:
     remote: *o0
     path: microsoft-azure-storage/src/com/microsoft/azure/storage/analytics/CloudAnalyticsClient.java
-    startLine: 391
+    startLine: 389
   package: com.microsoft.azure.storage.analytics
   summary: >-
     <p>Returns an enumerable collection of log records, retrieved lazily.</p>
@@ -526,12 +524,9 @@ items:
       description: <p>An <xref uid="" data-throw-if-not-resolved="false">Iterable</xref> of blobs to parse LogRecords from. </p>
     return:
       type: 2a13b5a5com.microsoft.azure.storage.analytics._log_recorda08ddfce
-      description: <p>An enumerable collection of objects that implement <xref uid="" data-throw-if-not-resolved="false">LogRecords</xref> and are retrieved lazily. </p>
-  exceptions:
-  - type: com.microsoft.azure.storage._storage_exception
-  - type: "44102508"
-- uid: com.microsoft.azure.storage.analytics._cloud_analytics_client.tableClient()
-  id: tableClient()
+      description: <p>An enumerable collection of objects that implement <xref uid="com.microsoft.azure.storage.analytics._log_record" data-throw-if-not-resolved="false">LogRecord</xref> and are retrieved lazily. </p>
+- uid: com.microsoft.azure.storage.analytics._cloud_analytics_client.tableClient
+  id: tableClient
   parent: com.microsoft.azure.storage.analytics._cloud_analytics_client
   href: com.microsoft.azure.storage.analytics._cloud_analytics_client.yml
   langs:

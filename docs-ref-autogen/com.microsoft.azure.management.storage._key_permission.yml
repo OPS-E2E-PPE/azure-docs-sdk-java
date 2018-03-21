@@ -5,9 +5,9 @@ items:
   parent: com.microsoft.azure.management.storage
   children:
   - com.microsoft.azure.management.storage._key_permission.fromString(String)
-  - com.microsoft.azure.management.storage._key_permission.FULL()
+  - com.microsoft.azure.management.storage._key_permission.FULL
   - com.microsoft.azure.management.storage._key_permission.KeyPermission(String)
-  - com.microsoft.azure.management.storage._key_permission.READ()
+  - com.microsoft.azure.management.storage._key_permission.READ
   - com.microsoft.azure.management.storage._key_permission.toString()
   href: com.microsoft.azure.management.storage._key_permission.yml
   langs:
@@ -19,7 +19,7 @@ items:
   source:
     remote: &o0
       path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/KeyPermission.java
-      branch: 880e2022bf46b71f481107effb7c878a9ae065dd
+      branch: v1.3.0
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/KeyPermission.java
     startLine: 16
@@ -59,8 +59,8 @@ items:
     return:
       type: com.microsoft.azure.management.storage._key_permission
       description: <p>the parsed <xref uid="com.microsoft.azure.management.storage._key_permission" data-throw-if-not-resolved="false">KeyPermission</xref> object, or null if unable to parse. </p>
-- uid: com.microsoft.azure.management.storage._key_permission.FULL()
-  id: FULL()
+- uid: com.microsoft.azure.management.storage._key_permission.FULL
+  id: FULL
   parent: com.microsoft.azure.management.storage._key_permission
   href: com.microsoft.azure.management.storage._key_permission.yml
   langs:
@@ -98,8 +98,8 @@ items:
     parameters:
     - id: value
       type: "26831127"
-- uid: com.microsoft.azure.management.storage._key_permission.READ()
-  id: READ()
+- uid: com.microsoft.azure.management.storage._key_permission.READ
+  id: READ
   parent: com.microsoft.azure.management.storage._key_permission
   href: com.microsoft.azure.management.storage._key_permission.yml
   langs:

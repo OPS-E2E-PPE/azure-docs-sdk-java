@@ -5,8 +5,8 @@ items:
   parent: com.microsoft.azure.management.network
   children:
   - com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.ApplicationGatewayCookieBasedAffinity(String)
-  - com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.DISABLED()
-  - com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.ENABLED()
+  - com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.DISABLED
+  - com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.ENABLED
   - com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.equals(Object)
   - com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.hashCode()
   - com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.toString()
@@ -20,7 +20,7 @@ items:
   source:
     remote: &o0
       path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/ApplicationGatewayCookieBasedAffinity.java
-      branch: 880e2022bf46b71f481107effb7c878a9ae065dd
+      branch: v1.3.0
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-network/src/main/java/com/microsoft/azure/management/network/ApplicationGatewayCookieBasedAffinity.java
     startLine: 15
@@ -53,8 +53,8 @@ items:
     - id: value
       type: "26831127"
       description: <p>the custom value </p>
-- uid: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.DISABLED()
-  id: DISABLED()
+- uid: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.DISABLED
+  id: DISABLED
   parent: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity
   href: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.yml
   langs:
@@ -73,8 +73,8 @@ items:
     content: public static final ApplicationGatewayCookieBasedAffinity DISABLED= new ApplicationGatewayCookieBasedAffinity("Disabled")
     return:
       type: 93de0ef9com.microsoft.azure.management.network._application_gateway_cookie_based_affinity
-- uid: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.ENABLED()
-  id: ENABLED()
+- uid: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.ENABLED
+  id: ENABLED
   parent: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity
   href: com.microsoft.azure.management.network._application_gateway_cookie_based_affinity.yml
   langs:

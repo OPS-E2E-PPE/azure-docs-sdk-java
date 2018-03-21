@@ -31,7 +31,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-service-bus-java
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 57
+    startLine: 58
   package: com.microsoft.azure.servicebus.primitives
   syntax: &o1
     content: public class CoreMessageSender extends ClientEntity
@@ -39,7 +39,7 @@ items:
   - java.lang.Object
   - com.microsoft.azure.servicebus.primitives._client_entity
   inheritedMembers:
-  - com.microsoft.azure.servicebus.primitives._client_entity.ClientEntity(final String,final ClientEntity)
+  - com.microsoft.azure.servicebus.primitives._client_entity.ClientEntity(final String)
   - com.microsoft.azure.servicebus.primitives._client_entity.close()
   - com.microsoft.azure.servicebus.primitives._client_entity.closeAsync()
   - com.microsoft.azure.servicebus.primitives._client_entity.finalize()
@@ -62,7 +62,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 1018
+    startLine: 1042
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public CompletableFuture<Void> cancelScheduledMessageAsync(Long[] sequenceNumbers, Duration timeout)
@@ -87,7 +87,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 86
+    startLine: 87
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public static CompletableFuture<CoreMessageSender> create(final MessagingFactory factory, final String sendLinkName, final String senderPath)
@@ -114,7 +114,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 641
+    startLine: 652
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public ErrorContext getContext()
@@ -134,7 +134,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 193
+    startLine: 209
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public String getSendPath()
@@ -154,7 +154,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 885
+    startLine: 896
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: protected CompletableFuture<Void> onClose()
@@ -174,7 +174,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 410
+    startLine: 428
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public void onClose(ErrorCondition condition)
@@ -195,7 +195,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 419
+    startLine: 437
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public void onError(Exception completionException)
@@ -216,7 +216,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 657
+    startLine: 668
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public void onFlow(final int creditIssued)
@@ -237,7 +237,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 346
+    startLine: 362
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public void onOpenComplete(Exception completionException)
@@ -258,7 +258,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 467
+    startLine: 486
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public void onSendComplete(final Delivery delivery)
@@ -279,7 +279,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 1052
+    startLine: 1076
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public CompletableFuture<Collection<Message>> peekMessagesAsync(long fromSequenceNumber, int messageCount)
@@ -304,7 +304,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 951
+    startLine: 975
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public CompletableFuture<long[]> scheduleMessageAsync(Message[] messages, Duration timeout)
@@ -329,7 +329,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 280
+    startLine: 296
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public CompletableFuture<Void> sendAsync(final Iterable<Message> messages)
@@ -352,7 +352,7 @@ items:
   source:
     remote: *o0
     path: azure-servicebus/src/main/java/com/microsoft/azure/servicebus/primitives/CoreMessageSender.java
-    startLine: 329
+    startLine: 345
   package: com.microsoft.azure.servicebus.primitives
   syntax:
     content: public CompletableFuture<Void> sendAsync(Message msg)
@@ -508,20 +508,18 @@ references:
   nameWithType: CoreMessageSender.peekMessagesAsync
   fullName: CompletableFuture<Collection<Message>> com.microsoft.azure.servicebus.primitives.CoreMessageSender.peekMessagesAsync
   package: com.microsoft.azure.servicebus.primitives
-- uid: com.microsoft.azure.servicebus.primitives._client_entity.ClientEntity(final String,final ClientEntity)
+- uid: com.microsoft.azure.servicebus.primitives._client_entity.ClientEntity(final String)
   parent: com.microsoft.azure.servicebus.primitives._client_entity
   href: com.microsoft.azure.servicebus.primitives._client_entity.yml
-  name: ClientEntity(final String clientId, final ClientEntity parent)
-  nameWithType: ClientEntity.ClientEntity(final String clientId, final ClientEntity parent)
-  fullName: com.microsoft.azure.servicebus.primitives.ClientEntity.ClientEntity(final String clientId, final ClientEntity parent)
+  name: ClientEntity(final String clientId)
+  nameWithType: ClientEntity.ClientEntity(final String clientId)
+  fullName: com.microsoft.azure.servicebus.primitives.ClientEntity.ClientEntity(final String clientId)
   type: Constructor
   syntax:
-    content: protected ClientEntity(final String clientId, final ClientEntity parent)
+    content: protected ClientEntity(final String clientId)
     parameters:
     - id: clientId
       type: 3d93591e
-    - id: parent
-      type: 93de0ef9com.microsoft.azure.servicebus.primitives._client_entity
 - uid: com.microsoft.azure.servicebus.primitives._client_entity.close()
   parent: com.microsoft.azure.servicebus.primitives._client_entity
   href: com.microsoft.azure.servicebus.primitives._client_entity.yml

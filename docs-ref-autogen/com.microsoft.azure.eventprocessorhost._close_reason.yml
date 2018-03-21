@@ -4,8 +4,8 @@ items:
   id: _close_reason
   parent: com.microsoft.azure.eventprocessorhost
   children:
-  - com.microsoft.azure.eventprocessorhost._close_reason.LeaseLost()
-  - com.microsoft.azure.eventprocessorhost._close_reason.Shutdown()
+  - com.microsoft.azure.eventprocessorhost._close_reason.LeaseLost
+  - com.microsoft.azure.eventprocessorhost._close_reason.Shutdown
   href: com.microsoft.azure.eventprocessorhost._close_reason.yml
   langs:
   - java
@@ -19,15 +19,15 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-event-hubs-java
     path: azure-eventhubs-eph/src/main/java/com/microsoft/azure/eventprocessorhost/CloseReason.java
-    startLine: 7
+    startLine: 10
   package: com.microsoft.azure.eventprocessorhost
   syntax:
     content: public enum CloseReason
   inheritance:
   - java.lang.Object
   - java.lang.Enum<CloseReason>
-- uid: com.microsoft.azure.eventprocessorhost._close_reason.LeaseLost()
-  id: LeaseLost()
+- uid: com.microsoft.azure.eventprocessorhost._close_reason.LeaseLost
+  id: LeaseLost
   parent: com.microsoft.azure.eventprocessorhost._close_reason
   href: com.microsoft.azure.eventprocessorhost._close_reason.yml
   langs:
@@ -39,12 +39,12 @@ items:
   source:
     remote: *o0
     path: azure-eventhubs-eph/src/main/java/com/microsoft/azure/eventprocessorhost/CloseReason.java
-    startLine: 9
+    startLine: 15
   package: com.microsoft.azure.eventprocessorhost
   syntax:
     content: public LeaseLost
-- uid: com.microsoft.azure.eventprocessorhost._close_reason.Shutdown()
-  id: Shutdown()
+- uid: com.microsoft.azure.eventprocessorhost._close_reason.Shutdown
+  id: Shutdown
   parent: com.microsoft.azure.eventprocessorhost._close_reason
   href: com.microsoft.azure.eventprocessorhost._close_reason.yml
   langs:
@@ -56,7 +56,7 @@ items:
   source:
     remote: *o0
     path: azure-eventhubs-eph/src/main/java/com/microsoft/azure/eventprocessorhost/CloseReason.java
-    startLine: 10
+    startLine: 21
   package: com.microsoft.azure.eventprocessorhost
   syntax:
     content: public Shutdown

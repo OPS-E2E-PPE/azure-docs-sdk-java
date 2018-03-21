@@ -5,14 +5,14 @@ items:
   parent: microsoft.servicefabric.data
   children:
   - microsoft.servicefabric.data._state_provider_replica.abort()
-  - microsoft.servicefabric.data._state_provider_replica.backupAsync(BackupOption,Duration,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
+  - microsoft.servicefabric.data._state_provider_replica.backupAsync(BackupOption,Duration,CancellationToken,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
   - microsoft.servicefabric.data._state_provider_replica.backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
   - microsoft.servicefabric.data._state_provider_replica.changeRoleAsync(ReplicaRole,CancellationToken)
   - microsoft.servicefabric.data._state_provider_replica.closeAsync(CancellationToken)
   - microsoft.servicefabric.data._state_provider_replica.initialize(StatefulServiceInitializationParameters)
   - microsoft.servicefabric.data._state_provider_replica.openAsync(ReplicaOpenMode,StatefulServicePartition,CancellationToken)
   - microsoft.servicefabric.data._state_provider_replica.restoreAsync(String)
-  - microsoft.servicefabric.data._state_provider_replica.restoreAsync(String,RestorePolicy)
+  - microsoft.servicefabric.data._state_provider_replica.restoreAsync(String,RestorePolicy,Duration,CancellationToken)
   - microsoft.servicefabric.data._state_provider_replica.setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>>)
   href: microsoft.servicefabric.data._state_provider_replica.yml
   langs:
@@ -53,33 +53,33 @@ items:
 
     <p>
 
-      <bold>Remarks:</bold>This generally occurs when a permanent fault is detected on the node, or when Service Fabric cannot reliably manage the replica's lifecycle due to internal failures. </p>
+      <b>Remarks:</b>This generally occurs when a permanent fault is detected on the node, or when Service Fabric cannot reliably manage the replica's lifecycle due to internal failures. </p>
   syntax:
     content: public void abort()
-- uid: microsoft.servicefabric.data._state_provider_replica.backupAsync(BackupOption,Duration,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
-  id: backupAsync(BackupOption,Duration,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
+- uid: microsoft.servicefabric.data._state_provider_replica.backupAsync(BackupOption,Duration,CancellationToken,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
+  id: backupAsync(BackupOption,Duration,CancellationToken,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
   parent: microsoft.servicefabric.data._state_provider_replica
   href: microsoft.servicefabric.data._state_provider_replica.yml
   langs:
   - java
-  name: backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
-  nameWithType: StateProviderReplica.backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
-  fullName: CompletableFuture<?> microsoft.servicefabric.data.StateProviderReplica.backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  name: backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  nameWithType: StateProviderReplica.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  fullName: CompletableFuture<?> microsoft.servicefabric.data.StateProviderReplica.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
   overload: microsoft.servicefabric.data._state_provider_replica.backupAsync*
   type: Method
   source:
     remote: *o0
     path: src/prod/src/java/microsoft.servicefabric.services/src/microsoft/servicefabric/data/StateProviderReplica.java
-    startLine: 140
+    startLine: 142
   package: microsoft.servicefabric.data
   summary: >-
-    <p>Performs a full backup of all reliable state managed by this ReliableStateManager.</p>
+    <p>Performs a full backup of all reliable state managed by this <xref uid="microsoft.servicefabric.data._reliable_state_manager" data-throw-if-not-resolved="false">ReliableStateManager</xref>.</p>
 
     <p>
 
-      <bold>Remarks:</bold> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>
+      <b>Remarks:</b> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>
   syntax:
-    content: public CompletableFuture<?> backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+    content: public CompletableFuture<?> backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
     parameters:
     - id: option
       type: microsoft.servicefabric.data._backup_option
@@ -87,6 +87,9 @@ items:
     - id: timeout
       type: e02a2de0
       description: <p>The timeout for this operation. </p>
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: <p>The token to monitor for cancellation requests. </p>
     - id: backupCallback
       type: 8ead6242microsoft.servicefabric.data._backup_infob33c76fcsystem.fabric._cancellation_token774bd4f0
       description: <p>Callback to be called when the backup folder has been created locally and is ready to be moved out of the node </p>
@@ -110,11 +113,11 @@ items:
     startLine: 118
   package: microsoft.servicefabric.data
   summary: >-
-    <p>Performs a full backup of all reliable state managed by this ReliableStateManager.</p>
+    <p>Performs a full backup of all reliable state managed by this <xref uid="microsoft.servicefabric.data._reliable_state_manager" data-throw-if-not-resolved="false">ReliableStateManager</xref>.</p>
 
     <p>
 
-      <bold>Remarks:</bold> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>
+      <b>Remarks:</b> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>
   syntax:
     content: public CompletableFuture<?> backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
     parameters:
@@ -180,7 +183,7 @@ items:
 
     <p>
 
-      <bold>Remarks:</bold>This generally occurs when the replica's code is being upgrade, the replica is being moved due to load balancing, or a transient fault is detected. </p>
+      <b>Remarks:</b>This generally occurs when the replica's code is being upgrade, the replica is being moved due to load balancing, or a transient fault is detected. </p>
   syntax:
     content: public CompletableFuture<?> closeAsync(CancellationToken cancellationToken)
     parameters:
@@ -214,7 +217,7 @@ items:
 
     <p>
 
-      <bold>Remarks:</bold>No complex processing should be done during Initialize. Expensive or long-running initialization should be done in OpenAsync. </p>
+      <b>Remarks:</b>No complex processing should be done during Initialize. Expensive or long-running initialization should be done in OpenAsync. </p>
   syntax:
     content: public void initialize(StatefulServiceInitializationParameters initializationParameters)
     parameters:
@@ -242,7 +245,7 @@ items:
 
     <p>
 
-      <bold>Remarks:</bold>Extended state provider initialization tasks can be started at this time. </p>
+      <b>Remarks:</b>Extended state provider initialization tasks can be started at this time. </p>
   syntax:
     content: public CompletableFuture<Replicator> openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
     parameters:
@@ -275,14 +278,14 @@ items:
   source:
     remote: *o0
     path: src/prod/src/java/microsoft.servicefabric.services/src/microsoft/servicefabric/data/StateProviderReplica.java
-    startLine: 157
+    startLine: 160
   package: microsoft.servicefabric.data
   summary: >-
     <p>Restore a backup taken.</p>
 
     <p>
 
-      <bold>Remarks:</bold>A safe restore will be performed, meaning the restore will only be completed if the data to restore is ahead of state of the current replica. </p>
+      <b>Remarks:</b>A safe restore will be performed, meaning the restore will only be completed if the data to restore is ahead of state of the current replica. </p>
   syntax:
     content: public CompletableFuture<?> restoreAsync(String backupFolderPath)
     parameters:
@@ -292,28 +295,28 @@ items:
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous restore operation. </p>
-- uid: microsoft.servicefabric.data._state_provider_replica.restoreAsync(String,RestorePolicy)
-  id: restoreAsync(String,RestorePolicy)
+- uid: microsoft.servicefabric.data._state_provider_replica.restoreAsync(String,RestorePolicy,Duration,CancellationToken)
+  id: restoreAsync(String,RestorePolicy,Duration,CancellationToken)
   parent: microsoft.servicefabric.data._state_provider_replica
   href: microsoft.servicefabric.data._state_provider_replica.yml
   langs:
   - java
-  name: restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
-  nameWithType: StateProviderReplica.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
-  fullName: CompletableFuture<?> microsoft.servicefabric.data.StateProviderReplica.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
+  name: restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+  nameWithType: StateProviderReplica.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+  fullName: CompletableFuture<?> microsoft.servicefabric.data.StateProviderReplica.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
   overload: microsoft.servicefabric.data._state_provider_replica.restoreAsync*
   type: Method
   source:
     remote: *o0
     path: src/prod/src/java/microsoft.servicefabric.services/src/microsoft/servicefabric/data/StateProviderReplica.java
-    startLine: 169
+    startLine: 176
   package: microsoft.servicefabric.data
   summary: >-
     <p>Restore a backup taken</p>
 
     <p></p>
   syntax:
-    content: public CompletableFuture<?> restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
+    content: public CompletableFuture<?> restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
     parameters:
     - id: backupFolderPath
       type: "26831127"
@@ -321,6 +324,12 @@ items:
     - id: restorePolicy
       type: microsoft.servicefabric.data._restore_policy
       description: <p>The restore policy. </p>
+    - id: timeout
+      type: e02a2de0
+      description: <p>The timeout for this operation. </p>
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: <p>The token to monitor for cancellation requests. </p>
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous restore operation. </p>
@@ -466,6 +475,23 @@ references:
     - id: onDataLossAsync
       type: 432ffe41system.fabric._cancellation_token774bd4f0
       description: <p>TODO. Function called as part of suspected data loss processing. Function takes in CancellationToken and returns a CompletableFuture that represents the asynchronous processing of the event. Returning true, indicates that the replica's state has been restored. False indicates that the replica's state has not been changed. </p>
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>>)
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>> onDataLossAsync)
+  nameWithType: ReliableCollectionsActorStateProvider.setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>> onDataLossAsync)
+  fullName: void microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>> onDataLossAsync)
+  type: Method
+  summary: >-
+    <p>Function called during suspected data-loss</p>
+
+    <p></p>
+  syntax:
+    content: public void setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>> onDataLossAsync)
+    parameters:
+    - id: onDataLossAsync
+      type: 432ffe41system.fabric._cancellation_token774bd4f0
+      description: <p>Function called as part of suspected data loss processing. Function takes in CancellationToken and returns a CompletableFuture that represents the asynchronous processing of the event. Returning true, indicates that the replica's state has been restored. False indicates that the replica's state has not been changed. </p>
 - uid: microsoft.servicefabric.actors._volatile_actor_state_provider.setOnDataLossCallback(Function<CancellationToken, CompletableFuture<Boolean>>)
   parent: microsoft.servicefabric.actors._volatile_actor_state_provider
   href: microsoft.servicefabric.actors._volatile_actor_state_provider.yml
@@ -505,7 +531,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>No complex processing should be done during Initialize. Expensive or long-running initialization should be done in OpenAsync. </p>
+      <b>Remarks:</b>No complex processing should be done during Initialize. Expensive or long-running initialization should be done in OpenAsync. </p>
   syntax:
     content: public void initialize(StatefulServiceInitializationParameters initializationParameters)
     parameters:
@@ -515,6 +541,25 @@ references:
         <p>
 
           <xref uid="" data-throw-if-not-resolved="false">StatefulServiceInitializationParameters</xref> such as service name, partition id, replica id, and code package information. </p>
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.initialize(StatefulServiceInitializationParameters)
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: initialize(StatefulServiceInitializationParameters initializationParameters)
+  nameWithType: ReliableCollectionsActorStateProvider.initialize(StatefulServiceInitializationParameters initializationParameters)
+  fullName: void microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.initialize(StatefulServiceInitializationParameters initializationParameters)
+  type: Method
+  summary: >-
+    <p>Initialize the state provider replica using the service initialization information.</p>
+
+    <p>
+
+      <b>Remarks:</b>No complex processing should be done during Initialize. Expensive or long-running initialization should be done in OpenAsync. </p>
+  syntax:
+    content: public void initialize(StatefulServiceInitializationParameters initializationParameters)
+    parameters:
+    - id: initializationParameters
+      type: system.fabric._stateful_service_initialization_parameters
+      description: <p>Service initialization information such as service name, partition id, replica id, and code package information. </p>
 - uid: microsoft.servicefabric.actors._kvs_actor_state_provider.initialize(StatefulServiceInitializationParameters)
   parent: microsoft.servicefabric.actors._kvs_actor_state_provider
   href: microsoft.servicefabric.actors._kvs_actor_state_provider.yml
@@ -527,7 +572,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>No complex processing should be done during Initialize. Expensive or long-running initialization should be done in OpenAsync. </p>
+      <b>Remarks:</b>No complex processing should be done during Initialize. Expensive or long-running initialization should be done in OpenAsync. </p>
   syntax:
     content: public void initialize(StatefulServiceInitializationParameters initializationParameters)
     parameters:
@@ -568,7 +613,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>Extended state provider initialization tasks can be started at this time. </p>
+      <b>Remarks:</b>Extended state provider initialization tasks can be started at this time. </p>
   syntax:
     content: public CompletableFuture<Replicator> openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
     parameters:
@@ -578,6 +623,37 @@ references:
     - id: partition
       type: system.fabric._stateful_service_partition
       description: <p>The <xref uid="" data-throw-if-not-resolved="false">StatefulServicePartition</xref> partition the replica belongs to. </p>
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: >-
+        <p>
+
+          <xref uid="system.fabric._cancellation_token" data-throw-if-not-resolved="false">system.fabric.CancellationToken</xref> object to indicate the cancellation status of the operation. </p>
+    return:
+      type: 9cdf14d0system.fabric._replicatora08ddfce
+      description: <p>Task that represents the asynchronous open operation. The result contains the replicator responsible for replicating state between other state provider replicas in the partition. </p>
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.openAsync(ReplicaOpenMode,StatefulServicePartition,CancellationToken)
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
+  nameWithType: ReliableCollectionsActorStateProvider.openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
+  fullName: CompletableFuture<Replicator> microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
+  type: Method
+  summary: >-
+    <p>Open the state provider replica for use.</p>
+
+    <p>
+
+      <b>Remarks:</b>Extended state provider initialization tasks can be started at this time. </p>
+  syntax:
+    content: public CompletableFuture<Replicator> openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
+    parameters:
+    - id: openMode
+      type: system.fabric._replica_open_mode
+      description: <p>Indicates whether this is a new or existing replica. </p>
+    - id: partition
+      type: system.fabric._stateful_service_partition
+      description: <p>The partition this replica belongs to. </p>
     - id: cancellationToken
       type: system.fabric._cancellation_token
       description: >-
@@ -599,7 +675,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>Extended state provider initialization tasks can be started at this time. </p>
+      <b>Remarks:</b>Extended state provider initialization tasks can be started at this time. </p>
   syntax:
     content: public CompletableFuture<Replicator> openAsync(ReplicaOpenMode openMode, StatefulServicePartition partition, CancellationToken cancellationToken)
     parameters:
@@ -688,31 +764,23 @@ references:
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous change role operation. </p>
-- uid: system.fabric._replica_role
-  parent: system.fabric
-  href: system.fabric._replica_role.yml
-  name: ReplicaRole
-  nameWithType: ReplicaRole
-  fullName: system.fabric.ReplicaRole
-  type: Enum
-  syntax:
-    content: public enum ReplicaRole
-- uid: microsoft.servicefabric.actors._kvs_actor_state_provider.closeAsync(CancellationToken)
-  parent: microsoft.servicefabric.actors._kvs_actor_state_provider
-  href: microsoft.servicefabric.actors._kvs_actor_state_provider.yml
-  name: closeAsync(CancellationToken cancellationToken)
-  nameWithType: KvsActorStateProvider.closeAsync(CancellationToken cancellationToken)
-  fullName: CompletableFuture<?> microsoft.servicefabric.actors.KvsActorStateProvider.closeAsync(CancellationToken cancellationToken)
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.changeRoleAsync(ReplicaRole,CancellationToken)
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
+  nameWithType: ReliableCollectionsActorStateProvider.changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
   type: Method
   summary: >-
-    <p>Gracefully close the state provider replica.</p>
+    <p>Notify the state provider replica that its role is changing, for example to Primary or Secondary.</p>
 
-    <p>
-
-      <bold>Remarks:</bold>This generally occurs when the replica's code is being upgrade, the replica is being moved due to load balancing, or a transient fault is detected. </p>
+    <p></p>
   syntax:
-    content: public CompletableFuture<?> closeAsync(CancellationToken cancellationToken)
+    content: public CompletableFuture<?> changeRoleAsync(ReplicaRole newRole, CancellationToken cancellationToken)
     parameters:
+    - id: newRole
+      type: system.fabric._replica_role
+      description: <p>The new replica role, such as primary or secondary. </p>
     - id: cancellationToken
       type: system.fabric._cancellation_token
       description: >-
@@ -721,7 +789,17 @@ references:
           <xref uid="system.fabric._cancellation_token" data-throw-if-not-resolved="false">system.fabric.CancellationToken</xref> object to indicate the cancellation status of the operation. </p>
     return:
       type: 16409f84
-      description: <p>Task that represents the asynchronous close operation. </p>
+      description: <p>Task that represents the asynchronous change role operation. </p>
+- uid: system.fabric._replica_role
+  parent: system.fabric
+  href: system.fabric._replica_role.yml
+  name: ReplicaRole
+  nameWithType: ReplicaRole
+  fullName: system.fabric.ReplicaRole
+  type: Enum
+  summary: <p>Defines the replica role </p>
+  syntax:
+    content: public enum ReplicaRole
 - uid: microsoft.servicefabric.actors._volatile_actor_state_provider.closeAsync(CancellationToken)
   parent: microsoft.servicefabric.actors._volatile_actor_state_provider
   href: microsoft.servicefabric.actors._volatile_actor_state_provider.yml
@@ -734,7 +812,57 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>This generally occurs when the replica's code is being upgrade, the replica is being moved due to load balancing, or a transient fault is detected. </p>
+      <b>Remarks:</b>This generally occurs when the replica's code is being upgrade, the replica is being moved due to load balancing, or a transient fault is detected. </p>
+  syntax:
+    content: public CompletableFuture<?> closeAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: >-
+        <p>
+
+          <xref uid="system.fabric._cancellation_token" data-throw-if-not-resolved="false">system.fabric.CancellationToken</xref> object to indicate the cancellation status of the operation. </p>
+    return:
+      type: 16409f84
+      description: <p>Task that represents the asynchronous close operation. </p>
+- uid: microsoft.servicefabric.actors._kvs_actor_state_provider.closeAsync(CancellationToken)
+  parent: microsoft.servicefabric.actors._kvs_actor_state_provider
+  href: microsoft.servicefabric.actors._kvs_actor_state_provider.yml
+  name: closeAsync(CancellationToken cancellationToken)
+  nameWithType: KvsActorStateProvider.closeAsync(CancellationToken cancellationToken)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.KvsActorStateProvider.closeAsync(CancellationToken cancellationToken)
+  type: Method
+  summary: >-
+    <p>Gracefully close the state provider replica.</p>
+
+    <p>
+
+      <b>Remarks:</b>This generally occurs when the replica's code is being upgrade, the replica is being moved due to load balancing, or a transient fault is detected. </p>
+  syntax:
+    content: public CompletableFuture<?> closeAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: >-
+        <p>
+
+          <xref uid="system.fabric._cancellation_token" data-throw-if-not-resolved="false">system.fabric.CancellationToken</xref> object to indicate the cancellation status of the operation. </p>
+    return:
+      type: 16409f84
+      description: <p>Task that represents the asynchronous close operation. </p>
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.closeAsync(CancellationToken)
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: closeAsync(CancellationToken cancellationToken)
+  nameWithType: ReliableCollectionsActorStateProvider.closeAsync(CancellationToken cancellationToken)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.closeAsync(CancellationToken cancellationToken)
+  type: Method
+  summary: >-
+    <p>Gracefully close the state provider replica.</p>
+
+    <p>
+
+      <b>Remarks:</b>This generally occurs when the replica's code is being upgrade, the replica is being moved due to load balancing, or a transient fault is detected. </p>
   syntax:
     content: public CompletableFuture<?> closeAsync(CancellationToken cancellationToken)
     parameters:
@@ -759,7 +887,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>This generally occurs when a permanent fault is detected on the node, or when Service Fabric cannot reliably manage the replica's life-cycle due to internal failures. </p>
+      <b>Remarks:</b>This generally occurs when a permanent fault is detected on the node, or when Service Fabric cannot reliably manage the replica's life-cycle due to internal failures. </p>
   syntax:
     content: public void abort()
 - uid: microsoft.servicefabric.actors._kvs_actor_state_provider.abort()
@@ -774,7 +902,22 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>This generally occurs when a permanent fault is detected on the node, or when Service Fabric cannot reliably manage the replica's life-cycle due to internal failures. </p>
+      <b>Remarks:</b>This generally occurs when a permanent fault is detected on the node, or when Service Fabric cannot reliably manage the replica's life-cycle due to internal failures. </p>
+  syntax:
+    content: public void abort()
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.abort()
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: abort()
+  nameWithType: ReliableCollectionsActorStateProvider.abort()
+  fullName: void microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.abort()
+  type: Method
+  summary: >-
+    <p>Forcefully abort the state provider replica. </p>
+
+    <p>
+
+      <b>Remarks:</b>This generally occurs when a permanent fault is detected on the node, or when Service Fabric cannot reliably manage the replica's lifecycle due to internal failures. </p>
   syntax:
     content: public void abort()
 - uid: microsoft.servicefabric.actors._volatile_actor_state_provider.backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
@@ -789,7 +932,7 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
+      <b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax:
     content: public CompletableFuture<?> backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
     parameters:
@@ -811,13 +954,35 @@ references:
 
     <p>
 
-      <bold>Remarks:</bold>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
+      <b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax:
     content: public CompletableFuture<?> backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
     parameters:
     - id: backupCallback
       type: 8ead6242microsoft.servicefabric.data._backup_infob33c76fcsystem.fabric._cancellation_token774bd4f0
       description: <p>BackupCallbackCallback to be called when the backup folder has been created locally and is ready to be moved out of the node. </p>
+    return:
+      type: 16409f84
+      description: <p>Task that represents the asynchronous backup operation. </p>
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  nameWithType: ReliableCollectionsActorStateProvider.backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  type: Method
+  summary: >-
+    <p>Performs a full backup of all reliable state managed by this ReliableStateManager.</p>
+
+    <p>
+
+      <b>Remarks:</b> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>
+  syntax:
+    content: public CompletableFuture<?> backupAsync(BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+    parameters:
+    - id: backupCallback
+      type: 8ead6242microsoft.servicefabric.data._backup_infob33c76fcsystem.fabric._cancellation_token774bd4f0
+      description: <p>Callback to be called when the backup folder has been created locally and is ready to be moved out of the node </p>
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous backup operation. </p>
@@ -831,21 +996,30 @@ references:
   summary: <p>Provides info about the backup. </p>
   syntax:
     content: public class BackupInfo
-- uid: microsoft.servicefabric.actors._kvs_actor_state_provider.backupAsync(BackupOption,Duration,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
+- uid: microsoft.servicefabric.data._reliable_state_manager
+  parent: microsoft.servicefabric.data
+  href: microsoft.servicefabric.data._reliable_state_manager.yml
+  name: ReliableStateManager
+  nameWithType: ReliableStateManager
+  fullName: microsoft.servicefabric.data.ReliableStateManager
+  type: Interface
+  syntax:
+    content: public interface ReliableStateManager
+- uid: microsoft.servicefabric.actors._kvs_actor_state_provider.backupAsync(BackupOption,Duration,CancellationToken,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
   parent: microsoft.servicefabric.actors._kvs_actor_state_provider
   href: microsoft.servicefabric.actors._kvs_actor_state_provider.yml
-  name: backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
-  nameWithType: KvsActorStateProvider.backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
-  fullName: CompletableFuture<?> microsoft.servicefabric.actors.KvsActorStateProvider.backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  name: backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  nameWithType: KvsActorStateProvider.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.KvsActorStateProvider.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
   type: Method
   summary: >-
     <p>Performs a full backup of state managed by this actor state provider</p>
 
     <p>
 
-      <bold>Remarks:</bold>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
+      <b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax:
-    content: public CompletableFuture<?> backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+    content: public CompletableFuture<?> backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
     parameters:
     - id: option
       type: microsoft.servicefabric.data._backup_option
@@ -859,27 +1033,30 @@ references:
         <p>
 
           <xref uid="" data-throw-if-not-resolved="false">java.time.Duration</xref> that describes timeout for the backup </p>
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: <p>The token to monitor for cancellation requests. </p>
     - id: backupCallback
       type: 8ead6242microsoft.servicefabric.data._backup_infob33c76fcsystem.fabric._cancellation_token774bd4f0
       description: <p>BackupCallbackCallback to be called when the backup folder has been created locally and is ready to be moved out of the node. </p>
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous backup operation. </p>
-- uid: microsoft.servicefabric.actors._volatile_actor_state_provider.backupAsync(BackupOption,Duration,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
+- uid: microsoft.servicefabric.actors._volatile_actor_state_provider.backupAsync(BackupOption,Duration,CancellationToken,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
   parent: microsoft.servicefabric.actors._volatile_actor_state_provider
   href: microsoft.servicefabric.actors._volatile_actor_state_provider.yml
-  name: backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
-  nameWithType: VolatileActorStateProvider.backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
-  fullName: CompletableFuture<?> microsoft.servicefabric.actors.VolatileActorStateProvider.backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  name: backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  nameWithType: VolatileActorStateProvider.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.VolatileActorStateProvider.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
   type: Method
   summary: >-
     <p>Performs a full backup of state managed by this actor state provider</p>
 
     <p>
 
-      <bold>Remarks:</bold>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
+      <b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax:
-    content: public CompletableFuture<?> backupAsync(BackupOption option, Duration timeout, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+    content: public CompletableFuture<?> backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
     parameters:
     - id: option
       type: microsoft.servicefabric.data._backup_option
@@ -893,9 +1070,43 @@ references:
         <p>
 
           <xref uid="" data-throw-if-not-resolved="false">java.time.Duration</xref> that describes timeout for the backup </p>
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: <p>The token to monitor for cancellation requests. </p>
     - id: backupCallback
       type: 8ead6242microsoft.servicefabric.data._backup_infob33c76fcsystem.fabric._cancellation_token774bd4f0
       description: <p>BackupCallbackCallback to be called when the backup folder has been created locally and is ready to be moved out of the node. </p>
+    return:
+      type: 16409f84
+      description: <p>Task that represents the asynchronous backup operation. </p>
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.backupAsync(BackupOption,Duration,CancellationToken,BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>>)
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  nameWithType: ReliableCollectionsActorStateProvider.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+  type: Method
+  summary: >-
+    <p>Performs a full backup of all reliable state managed by this ReliableStateManager.</p>
+
+    <p>
+
+      <b>Remarks:</b> A FULL backup will be performed with a one-hour timeout. Boolean returned by the backupCallback indicate whether the service was able to successfully move the backup folder to an external location. If false is returned, BackupAsync throws UnsupportedOperationException with the relevant message indicating backupCallback returned false. Also, backup will be marked as unsuccessful. </p>
+  syntax:
+    content: public CompletableFuture<?> backupAsync(BackupOption option, Duration timeout, CancellationToken cancellationToken, BiFunction<BackupInfo, CancellationToken, CompletableFuture<Boolean>> backupCallback)
+    parameters:
+    - id: option
+      type: microsoft.servicefabric.data._backup_option
+      description: <p>The type of backup to perform. </p>
+    - id: timeout
+      type: e02a2de0
+      description: <p>The timeout for this operation. </p>
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: <p>The token to monitor for cancellation requests. </p>
+    - id: backupCallback
+      type: 8ead6242microsoft.servicefabric.data._backup_infob33c76fcsystem.fabric._cancellation_token774bd4f0
+      description: <p>Callback to be called when the backup folder has been created locally and is ready to be moved out of the node </p>
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous backup operation. </p>
@@ -916,13 +1127,35 @@ references:
   nameWithType: VolatileActorStateProvider.restoreAsync(String backupFolderPath)
   fullName: CompletableFuture<?> microsoft.servicefabric.actors.VolatileActorStateProvider.restoreAsync(String backupFolderPath)
   type: Method
-  summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, BiFunction)</xref><bold>Remarks:</bold>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
+  summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, CancellationToken, BiFunction)</xref><b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax:
     content: public CompletableFuture<?> restoreAsync(String backupFolderPath)
     parameters:
     - id: backupFolderPath
       type: "26831127"
       description: <p>Directory from where replica will be restored from. </p>
+    return:
+      type: 16409f84
+      description: <p>Task that represents the asynchronous restore operation. </p>
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.restoreAsync(String)
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: restoreAsync(String backupFolderPath)
+  nameWithType: ReliableCollectionsActorStateProvider.restoreAsync(String backupFolderPath)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.restoreAsync(String backupFolderPath)
+  type: Method
+  summary: >-
+    <p>Restore a backup taken.</p>
+
+    <p>
+
+      <b>Remarks:</b>A safe restore will be performed, meaning the restore will only be completed if the data to restore is ahead of state of the current replica. </p>
+  syntax:
+    content: public CompletableFuture<?> restoreAsync(String backupFolderPath)
+    parameters:
+    - id: backupFolderPath
+      type: "26831127"
+      description: <p>The directory where the replica is to be restored from. This parameter cannot be null, empty or contain just whitespace. UNC paths may also be provided. </p>
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous restore operation. </p>
@@ -933,7 +1166,7 @@ references:
   nameWithType: KvsActorStateProvider.restoreAsync(String backupFolderPath)
   fullName: CompletableFuture<?> microsoft.servicefabric.actors.KvsActorStateProvider.restoreAsync(String backupFolderPath)
   type: Method
-  summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, BiFunction)</xref><bold>Remarks:</bold>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
+  summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, CancellationToken, BiFunction)</xref><b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax:
     content: public CompletableFuture<?> restoreAsync(String backupFolderPath)
     parameters:
@@ -943,16 +1176,16 @@ references:
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous restore operation. </p>
-- uid: microsoft.servicefabric.actors._volatile_actor_state_provider.restoreAsync(String,RestorePolicy)
+- uid: microsoft.servicefabric.actors._volatile_actor_state_provider.restoreAsync(String,RestorePolicy,Duration,CancellationToken)
   parent: microsoft.servicefabric.actors._volatile_actor_state_provider
   href: microsoft.servicefabric.actors._volatile_actor_state_provider.yml
-  name: restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
-  nameWithType: VolatileActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
-  fullName: CompletableFuture<?> microsoft.servicefabric.actors.VolatileActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
+  name: restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+  nameWithType: VolatileActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.VolatileActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, BiFunction)</xref><bold>Remarks:</bold>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
+  summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, CancellationToken, BiFunction)</xref><b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax:
-    content: public CompletableFuture<?> restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
+    content: public CompletableFuture<?> restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
     parameters:
     - id: backupFolderPath
       type: "26831127"
@@ -960,19 +1193,54 @@ references:
     - id: restorePolicy
       type: microsoft.servicefabric.data._restore_policy
       description: <p>The <xref uid="" data-throw-if-not-resolved="false">RestorePolicy</xref>. </p>
+    - id: timeout
+      type: e02a2de0
+      description: <p>The timeout for this operation. </p>
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: <p>The token to monitor for cancellation requests. </p>
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous restore operation. </p>
-- uid: microsoft.servicefabric.actors._kvs_actor_state_provider.restoreAsync(String,RestorePolicy)
+- uid: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.restoreAsync(String,RestorePolicy,Duration,CancellationToken)
+  parent: microsoft.servicefabric.actors._reliable_collections_actor_state_provider
+  href: microsoft.servicefabric.actors._reliable_collections_actor_state_provider.yml
+  name: restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+  nameWithType: ReliableCollectionsActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.ReliableCollectionsActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+  type: Method
+  summary: >-
+    <p>Restore a backup taken</p>
+
+    <p></p>
+  syntax:
+    content: public CompletableFuture<?> restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+    parameters:
+    - id: backupFolderPath
+      type: "26831127"
+      description: <p>The directory where the replica is to be restored from. This parameter cannot be null, empty or contain just whitespace. UNC paths may also be provided. </p>
+    - id: restorePolicy
+      type: microsoft.servicefabric.data._restore_policy
+      description: <p>The restore policy. </p>
+    - id: timeout
+      type: e02a2de0
+      description: <p>The timeout for this operation. </p>
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: <p>The token to monitor for cancellation requests. </p>
+    return:
+      type: 16409f84
+      description: <p>Task that represents the asynchronous restore operation. </p>
+- uid: microsoft.servicefabric.actors._kvs_actor_state_provider.restoreAsync(String,RestorePolicy,Duration,CancellationToken)
   parent: microsoft.servicefabric.actors._kvs_actor_state_provider
   href: microsoft.servicefabric.actors._kvs_actor_state_provider.yml
-  name: restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
-  nameWithType: KvsActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
-  fullName: CompletableFuture<?> microsoft.servicefabric.actors.KvsActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
+  name: restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+  nameWithType: KvsActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
+  fullName: CompletableFuture<?> microsoft.servicefabric.actors.KvsActorStateProvider.restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
   type: Method
-  summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, BiFunction)</xref><bold>Remarks:</bold>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
+  summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, CancellationToken, BiFunction)</xref><b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors._volatile_actor_state_provider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax:
-    content: public CompletableFuture<?> restoreAsync(String backupFolderPath, RestorePolicy restorePolicy)
+    content: public CompletableFuture<?> restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
     parameters:
     - id: backupFolderPath
       type: "26831127"
@@ -980,6 +1248,12 @@ references:
     - id: restorePolicy
       type: microsoft.servicefabric.data._restore_policy
       description: <p>The <xref uid="" data-throw-if-not-resolved="false">RestorePolicy</xref>. </p>
+    - id: timeout
+      type: e02a2de0
+      description: <p>The timeout for this operation. </p>
+    - id: cancellationToken
+      type: system.fabric._cancellation_token
+      description: <p>The token to monitor for cancellation requests. </p>
     return:
       type: 16409f84
       description: <p>Task that represents the asynchronous restore operation. </p>
