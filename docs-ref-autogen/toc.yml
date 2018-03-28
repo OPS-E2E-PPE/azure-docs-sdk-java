@@ -2741,6 +2741,399 @@
   - uid: com.microsoft.azure.cognitiveservices.websearch.implementation._webs_inner
     name: WebsInner
     href: com.microsoft.azure.cognitiveservices.websearch.implementation._webs_inner.yml
+- uid: com.microsoft.azure.cosmosdb
+  name: com.microsoft.azure.cosmosdb
+  href: com.microsoft.azure.cosmosdb.yml
+  items:
+  - uid: com.microsoft.azure.cosmosdb._access_condition
+    name: AccessCondition
+    href: com.microsoft.azure.cosmosdb._access_condition.yml
+  - uid: com.microsoft.azure.cosmosdb._access_condition_type
+    name: AccessConditionType
+    href: com.microsoft.azure.cosmosdb._access_condition_type.yml
+  - uid: com.microsoft.azure.cosmosdb._attachment
+    name: Attachment
+    href: com.microsoft.azure.cosmosdb._attachment.yml
+  - uid: com.microsoft.azure.cosmosdb._bridge_internal
+    name: BridgeInternal
+    href: com.microsoft.azure.cosmosdb._bridge_internal.yml
+  - uid: com.microsoft.azure.cosmosdb._change_feed_options
+    name: ChangeFeedOptions
+    href: com.microsoft.azure.cosmosdb._change_feed_options.yml
+  - uid: com.microsoft.azure.cosmosdb._conflict
+    name: Conflict
+    href: com.microsoft.azure.cosmosdb._conflict.yml
+  - uid: com.microsoft.azure.cosmosdb._connection_mode
+    name: ConnectionMode
+    href: com.microsoft.azure.cosmosdb._connection_mode.yml
+  - uid: com.microsoft.azure.cosmosdb._connection_policy
+    name: ConnectionPolicy
+    href: com.microsoft.azure.cosmosdb._connection_policy.yml
+  - uid: com.microsoft.azure.cosmosdb._consistency_level
+    name: ConsistencyLevel
+    href: com.microsoft.azure.cosmosdb._consistency_level.yml
+  - uid: com.microsoft.azure.cosmosdb._consistency_policy
+    name: ConsistencyPolicy
+    href: com.microsoft.azure.cosmosdb._consistency_policy.yml
+  - uid: com.microsoft.azure.cosmosdb._database
+    name: Database
+    href: com.microsoft.azure.cosmosdb._database.yml
+  - uid: com.microsoft.azure.cosmosdb._database_account
+    name: DatabaseAccount
+    href: com.microsoft.azure.cosmosdb._database_account.yml
+  - uid: com.microsoft.azure.cosmosdb._database_account_location
+    name: DatabaseAccountLocation
+    href: com.microsoft.azure.cosmosdb._database_account_location.yml
+  - uid: com.microsoft.azure.cosmosdb._data_type
+    name: DataType
+    href: com.microsoft.azure.cosmosdb._data_type.yml
+  - uid: com.microsoft.azure.cosmosdb._document
+    name: Document
+    href: com.microsoft.azure.cosmosdb._document.yml
+  - uid: com.microsoft.azure.cosmosdb._document_client_exception
+    name: DocumentClientException
+    href: com.microsoft.azure.cosmosdb._document_client_exception.yml
+  - uid: com.microsoft.azure.cosmosdb._document_collection
+    name: DocumentCollection
+    href: com.microsoft.azure.cosmosdb._document_collection.yml
+  - uid: com.microsoft.azure.cosmosdb._error
+    name: Error
+    href: com.microsoft.azure.cosmosdb._error.yml
+  - uid: com.microsoft.azure.cosmosdb._excluded_path
+    name: ExcludedPath
+    href: com.microsoft.azure.cosmosdb._excluded_path.yml
+  - uid: com.microsoft.azure.cosmosdb._feed_options
+    name: FeedOptions
+    href: com.microsoft.azure.cosmosdb._feed_options.yml
+  - uid: com.microsoft.azure.cosmosdb._feed_options_base
+    name: FeedOptionsBase
+    href: com.microsoft.azure.cosmosdb._feed_options_base.yml
+  - uid: com.microsoft.azure.cosmosdb._feed_response
+    name: FeedResponse
+    href: com.microsoft.azure.cosmosdb._feed_response.yml
+  - uid: com.microsoft.azure.cosmosdb._hash_index
+    name: HashIndex
+    href: com.microsoft.azure.cosmosdb._hash_index.yml
+  - uid: com.microsoft.azure.cosmosdb._included_path
+    name: IncludedPath
+    href: com.microsoft.azure.cosmosdb._included_path.yml
+  - uid: com.microsoft.azure.cosmosdb._index
+    name: Index
+    href: com.microsoft.azure.cosmosdb._index.yml
+  - uid: com.microsoft.azure.cosmosdb._indexing_directive
+    name: IndexingDirective
+    href: com.microsoft.azure.cosmosdb._indexing_directive.yml
+  - uid: com.microsoft.azure.cosmosdb._indexing_mode
+    name: IndexingMode
+    href: com.microsoft.azure.cosmosdb._indexing_mode.yml
+  - uid: com.microsoft.azure.cosmosdb._indexing_policy
+    name: IndexingPolicy
+    href: com.microsoft.azure.cosmosdb._indexing_policy.yml
+  - uid: com.microsoft.azure.cosmosdb._index_kind
+    name: IndexKind
+    href: com.microsoft.azure.cosmosdb._index_kind.yml
+  - uid: com.microsoft.azure.cosmosdb._json_serializable
+    name: JsonSerializable
+    href: com.microsoft.azure.cosmosdb._json_serializable.yml
+  - uid: com.microsoft.azure.cosmosdb._media_options
+    name: MediaOptions
+    href: com.microsoft.azure.cosmosdb._media_options.yml
+  - uid: com.microsoft.azure.cosmosdb._media_read_mode
+    name: MediaReadMode
+    href: com.microsoft.azure.cosmosdb._media_read_mode.yml
+  - uid: com.microsoft.azure.cosmosdb._media_response
+    name: MediaResponse
+    href: com.microsoft.azure.cosmosdb._media_response.yml
+  - uid: com.microsoft.azure.cosmosdb._offer
+    name: Offer
+    href: com.microsoft.azure.cosmosdb._offer.yml
+  - uid: com.microsoft.azure.cosmosdb._offer_v2
+    name: OfferV2
+    href: com.microsoft.azure.cosmosdb._offer_v2.yml
+  - uid: com.microsoft.azure.cosmosdb._partition_key
+    name: PartitionKey
+    href: com.microsoft.azure.cosmosdb._partition_key.yml
+  - uid: com.microsoft.azure.cosmosdb._partition_key_definition
+    name: PartitionKeyDefinition
+    href: com.microsoft.azure.cosmosdb._partition_key_definition.yml
+  - uid: com.microsoft.azure.cosmosdb._partition_key_range
+    name: PartitionKeyRange
+    href: com.microsoft.azure.cosmosdb._partition_key_range.yml
+  - uid: com.microsoft.azure.cosmosdb._partition_kind
+    name: PartitionKind
+    href: com.microsoft.azure.cosmosdb._partition_kind.yml
+  - uid: com.microsoft.azure.cosmosdb._permission
+    name: Permission
+    href: com.microsoft.azure.cosmosdb._permission.yml
+  - uid: com.microsoft.azure.cosmosdb._permission_mode
+    name: PermissionMode
+    href: com.microsoft.azure.cosmosdb._permission_mode.yml
+  - uid: com.microsoft.azure.cosmosdb._range_index
+    name: RangeIndex
+    href: com.microsoft.azure.cosmosdb._range_index.yml
+  - uid: com.microsoft.azure.cosmosdb._replication_policy
+    name: ReplicationPolicy
+    href: com.microsoft.azure.cosmosdb._replication_policy.yml
+  - uid: com.microsoft.azure.cosmosdb._request_options
+    name: RequestOptions
+    href: com.microsoft.azure.cosmosdb._request_options.yml
+  - uid: com.microsoft.azure.cosmosdb._resource
+    name: Resource
+    href: com.microsoft.azure.cosmosdb._resource.yml
+  - uid: com.microsoft.azure.cosmosdb._resource_id_tests
+    name: ResourceIdTests
+    href: com.microsoft.azure.cosmosdb._resource_id_tests.yml
+  - uid: com.microsoft.azure.cosmosdb._resource_response
+    name: ResourceResponse
+    href: com.microsoft.azure.cosmosdb._resource_response.yml
+  - uid: com.microsoft.azure.cosmosdb._retry_options
+    name: RetryOptions
+    href: com.microsoft.azure.cosmosdb._retry_options.yml
+  - uid: com.microsoft.azure.cosmosdb._serialization_formatting_policy
+    name: SerializationFormattingPolicy
+    href: com.microsoft.azure.cosmosdb._serialization_formatting_policy.yml
+  - uid: com.microsoft.azure.cosmosdb._spatial_index
+    name: SpatialIndex
+    href: com.microsoft.azure.cosmosdb._spatial_index.yml
+  - uid: com.microsoft.azure.cosmosdb._sql_parameter
+    name: SqlParameter
+    href: com.microsoft.azure.cosmosdb._sql_parameter.yml
+  - uid: com.microsoft.azure.cosmosdb._sql_parameter_collection
+    name: SqlParameterCollection
+    href: com.microsoft.azure.cosmosdb._sql_parameter_collection.yml
+  - uid: com.microsoft.azure.cosmosdb._sql_query_spec
+    name: SqlQuerySpec
+    href: com.microsoft.azure.cosmosdb._sql_query_spec.yml
+  - uid: com.microsoft.azure.cosmosdb._stored_procedure
+    name: StoredProcedure
+    href: com.microsoft.azure.cosmosdb._stored_procedure.yml
+  - uid: com.microsoft.azure.cosmosdb._stored_procedure_response
+    name: StoredProcedureResponse
+    href: com.microsoft.azure.cosmosdb._stored_procedure_response.yml
+  - uid: com.microsoft.azure.cosmosdb._trigger
+    name: Trigger
+    href: com.microsoft.azure.cosmosdb._trigger.yml
+  - uid: com.microsoft.azure.cosmosdb._trigger_operation
+    name: TriggerOperation
+    href: com.microsoft.azure.cosmosdb._trigger_operation.yml
+  - uid: com.microsoft.azure.cosmosdb._trigger_type
+    name: TriggerType
+    href: com.microsoft.azure.cosmosdb._trigger_type.yml
+  - uid: com.microsoft.azure.cosmosdb._undefined
+    name: Undefined
+    href: com.microsoft.azure.cosmosdb._undefined.yml
+  - uid: com.microsoft.azure.cosmosdb._user
+    name: User
+    href: com.microsoft.azure.cosmosdb._user.yml
+  - uid: com.microsoft.azure.cosmosdb._user_defined_function
+    name: UserDefinedFunction
+    href: com.microsoft.azure.cosmosdb._user_defined_function.yml
+- uid: com.microsoft.azure.cosmosdb.internal.directconnectivity
+  name: com.microsoft.azure.cosmosdb.internal.directconnectivity
+  href: com.microsoft.azure.cosmosdb.internal.directconnectivity.yml
+  items:
+  - uid: com.microsoft.azure.cosmosdb.internal.directconnectivity._store_response_test
+    name: StoreResponseTest
+    href: com.microsoft.azure.cosmosdb.internal.directconnectivity._store_response_test.yml
+- uid: com.microsoft.azure.cosmosdb.internal.routing
+  name: com.microsoft.azure.cosmosdb.internal.routing
+  href: com.microsoft.azure.cosmosdb.internal.routing.yml
+  items:
+  - uid: com.microsoft.azure.cosmosdb.internal.routing._in_memory_collection_routing_map_test
+    name: InMemoryCollectionRoutingMapTest
+    href: com.microsoft.azure.cosmosdb.internal.routing._in_memory_collection_routing_map_test.yml
+  - uid: com.microsoft.azure.cosmosdb.internal.routing._routing_map_provider_helper_test
+    name: RoutingMapProviderHelperTest
+    href: com.microsoft.azure.cosmosdb.internal.routing._routing_map_provider_helper_test.yml
+- uid: com.microsoft.azure.cosmosdb.rx
+  name: com.microsoft.azure.cosmosdb.rx
+  href: com.microsoft.azure.cosmosdb.rx.yml
+  items:
+  - uid: com.microsoft.azure.cosmosdb.rx._aggregate_query_tests
+    name: AggregateQueryTests
+    href: com.microsoft.azure.cosmosdb.rx._aggregate_query_tests.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._aggregate_query_tests._aggregate_config
+    name: AggregateQueryTests.AggregateConfig
+    href: com.microsoft.azure.cosmosdb.rx._aggregate_query_tests._aggregate_config.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._aggregate_query_tests._query_config
+    name: AggregateQueryTests.QueryConfig
+    href: com.microsoft.azure.cosmosdb.rx._aggregate_query_tests._query_config.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._async_document_client
+    name: AsyncDocumentClient
+    href: com.microsoft.azure.cosmosdb.rx._async_document_client.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._async_document_client._builder
+    name: AsyncDocumentClient.Builder
+    href: com.microsoft.azure.cosmosdb.rx._async_document_client._builder.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._attachment_crud_test
+    name: AttachmentCrudTest
+    href: com.microsoft.azure.cosmosdb.rx._attachment_crud_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._attachment_query_test
+    name: AttachmentQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._attachment_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._change_feed_test
+    name: ChangeFeedTest
+    href: com.microsoft.azure.cosmosdb.rx._change_feed_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._collection_crud_test
+    name: CollectionCrudTest
+    href: com.microsoft.azure.cosmosdb.rx._collection_crud_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._collection_query_test
+    name: CollectionQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._collection_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._database_crud_test
+    name: DatabaseCrudTest
+    href: com.microsoft.azure.cosmosdb.rx._database_crud_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._database_query_test
+    name: DatabaseQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._database_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._document_crud_test
+    name: DocumentCrudTest
+    href: com.microsoft.azure.cosmosdb.rx._document_crud_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._event_loop_size_test
+    name: EventLoopSizeTest
+    href: com.microsoft.azure.cosmosdb.rx._event_loop_size_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._failure_validator
+    name: FailureValidator
+    href: com.microsoft.azure.cosmosdb.rx._failure_validator.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._failure_validator._builder
+    name: FailureValidator.Builder
+    href: com.microsoft.azure.cosmosdb.rx._failure_validator._builder.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._feed_response_list_validator
+    name: FeedResponseListValidator
+    href: com.microsoft.azure.cosmosdb.rx._feed_response_list_validator.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._feed_response_list_validator._builder
+    name: FeedResponseListValidator.Builder
+    href: com.microsoft.azure.cosmosdb.rx._feed_response_list_validator._builder.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._offer_query_test
+    name: OfferQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._offer_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._offer_read_replace_test
+    name: OfferReadReplaceTest
+    href: com.microsoft.azure.cosmosdb.rx._offer_read_replace_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._orderby_document_query_test
+    name: OrderbyDocumentQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._orderby_document_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._parallel_document_query_test
+    name: ParallelDocumentQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._parallel_document_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._permission_crud_test
+    name: PermissionCrudTest
+    href: com.microsoft.azure.cosmosdb.rx._permission_crud_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._permission_query_test
+    name: PermissionQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._permission_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_attachments_test
+    name: ReadFeedAttachmentsTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_attachments_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_collections_test
+    name: ReadFeedCollectionsTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_collections_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_databases_test
+    name: ReadFeedDatabasesTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_databases_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_documents_test
+    name: ReadFeedDocumentsTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_documents_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_exception_handling_test
+    name: ReadFeedExceptionHandlingTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_exception_handling_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_exception_handling_test._exception_subscriber
+    name: ReadFeedExceptionHandlingTest.ExceptionSubscriber
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_exception_handling_test._exception_subscriber.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_offers_test
+    name: ReadFeedOffersTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_offers_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_permissions_test
+    name: ReadFeedPermissionsTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_permissions_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_pkr_tests
+    name: ReadFeedPkrTests
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_pkr_tests.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_stored_procedures_test
+    name: ReadFeedStoredProceduresTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_stored_procedures_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_triggers_test
+    name: ReadFeedTriggersTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_triggers_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_udfs_test
+    name: ReadFeedUdfsTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_udfs_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._read_feed_users_test
+    name: ReadFeedUsersTest
+    href: com.microsoft.azure.cosmosdb.rx._read_feed_users_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._resource_response_validator
+    name: ResourceResponseValidator
+    href: com.microsoft.azure.cosmosdb.rx._resource_response_validator.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._resource_response_validator._builder
+    name: ResourceResponseValidator.Builder
+    href: com.microsoft.azure.cosmosdb.rx._resource_response_validator._builder.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._single_partition_document_query_test
+    name: SinglePartitionDocumentQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._single_partition_document_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._stored_procedure_crud_test
+    name: StoredProcedureCrudTest
+    href: com.microsoft.azure.cosmosdb.rx._stored_procedure_crud_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._stored_procedure_query_test
+    name: StoredProcedureQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._stored_procedure_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._stored_procedure_upsert_replace_test
+    name: StoredProcedureUpsertReplaceTest
+    href: com.microsoft.azure.cosmosdb.rx._stored_procedure_upsert_replace_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._test_configurations
+    name: TestConfigurations
+    href: com.microsoft.azure.cosmosdb.rx._test_configurations.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._test_suite_base
+    name: TestSuiteBase
+    href: com.microsoft.azure.cosmosdb.rx._test_suite_base.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._top_query_tests
+    name: TopQueryTests
+    href: com.microsoft.azure.cosmosdb.rx._top_query_tests.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._trigger_crud_test
+    name: TriggerCrudTest
+    href: com.microsoft.azure.cosmosdb.rx._trigger_crud_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._trigger_query_test
+    name: TriggerQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._trigger_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._trigger_upsert_replace_test
+    name: TriggerUpsertReplaceTest
+    href: com.microsoft.azure.cosmosdb.rx._trigger_upsert_replace_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._user_crud_test
+    name: UserCrudTest
+    href: com.microsoft.azure.cosmosdb.rx._user_crud_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._user_defined_function_crud_test
+    name: UserDefinedFunctionCrudTest
+    href: com.microsoft.azure.cosmosdb.rx._user_defined_function_crud_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._user_defined_function_query_test
+    name: UserDefinedFunctionQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._user_defined_function_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._user_defined_function_upsert_replace_test
+    name: UserDefinedFunctionUpsertReplaceTest
+    href: com.microsoft.azure.cosmosdb.rx._user_defined_function_upsert_replace_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._user_query_test
+    name: UserQueryTest
+    href: com.microsoft.azure.cosmosdb.rx._user_query_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx._utils
+    name: Utils
+    href: com.microsoft.azure.cosmosdb.rx._utils.yml
+- uid: com.microsoft.azure.cosmosdb.rx.internal
+  name: com.microsoft.azure.cosmosdb.rx.internal
+  href: com.microsoft.azure.cosmosdb.rx.internal.yml
+  items:
+  - uid: com.microsoft.azure.cosmosdb.rx.internal._retry_create_document_test
+    name: RetryCreateDocumentTest
+    href: com.microsoft.azure.cosmosdb.rx.internal._retry_create_document_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx.internal._retry_throttle_test
+    name: RetryThrottleTest
+    href: com.microsoft.azure.cosmosdb.rx.internal._retry_throttle_test.yml
+  - uid: com.microsoft.azure.cosmosdb.rx.internal._session_test
+    name: SessionTest
+    href: com.microsoft.azure.cosmosdb.rx.internal._session_test.yml
+- uid: com.microsoft.azure.cosmosdb.rx.internal.caches
+  name: com.microsoft.azure.cosmosdb.rx.internal.caches
+  href: com.microsoft.azure.cosmosdb.rx.internal.caches.yml
+  items:
+  - uid: com.microsoft.azure.cosmosdb.rx.internal.caches._async_cache_test
+    name: AsyncCacheTest
+    href: com.microsoft.azure.cosmosdb.rx.internal.caches._async_cache_test.yml
 - uid: com.microsoft.azure.datalake.store
   name: com.microsoft.azure.datalake.store
   href: com.microsoft.azure.datalake.store.yml
@@ -2998,6 +3391,12 @@
   - uid: com.microsoft.azure.documentdb._partition_key_range
     name: PartitionKeyRange
     href: com.microsoft.azure.documentdb._partition_key_range.yml
+  - uid: com.microsoft.azure.documentdb._partition_key_range_statistics
+    name: PartitionKeyRangeStatistics
+    href: com.microsoft.azure.documentdb._partition_key_range_statistics.yml
+  - uid: com.microsoft.azure.documentdb._partition_key_statistics
+    name: PartitionKeyStatistics
+    href: com.microsoft.azure.documentdb._partition_key_statistics.yml
   - uid: com.microsoft.azure.documentdb._partition_kind
     name: PartitionKind
     href: com.microsoft.azure.documentdb._partition_kind.yml
@@ -5524,6 +5923,9 @@
   - uid: com.microsoft.azure.management.batchai._allocation_state
     name: AllocationState
     href: com.microsoft.azure.management.batchai._allocation_state.yml
+  - uid: com.microsoft.azure.management.batchai._app_insights_reference
+    name: AppInsightsReference
+    href: com.microsoft.azure.management.batchai._app_insights_reference.yml
   - uid: com.microsoft.azure.management.batchai._auto_scale_settings
     name: AutoScaleSettings
     href: com.microsoft.azure.management.batchai._auto_scale_settings.yml
@@ -5611,27 +6013,36 @@
   - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._blank
     name: BatchAICluster.DefinitionStages.Blank
     href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._blank.yml
+  - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition3e68445e64210a90555f764550527279
+    name: BatchAICluster.DefinitionStages.WithAppInsightsKey
+    href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition3e68445e64210a90555f764550527279.yml
+  - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition46d6c5286c388acaf053a53f46c604b9
+    name: BatchAICluster.DefinitionStages.WithAppInsightsResourceId
+    href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition46d6c5286c388acaf053a53f46c604b9.yml
   - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_create
     name: BatchAICluster.DefinitionStages.WithCreate
     href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_create.yml
   - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_group
     name: BatchAICluster.DefinitionStages.WithGroup
     href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_group.yml
-  - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_mount_volumes
-    name: BatchAICluster.DefinitionStages.WithMountVolumes
-    href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_mount_volumes.yml
   - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_scale_settings
     name: BatchAICluster.DefinitionStages.WithScaleSettings
     href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_scale_settings.yml
   - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_setup_task
     name: BatchAICluster.DefinitionStages.WithSetupTask
     href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_setup_task.yml
+  - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_subnet
+    name: BatchAICluster.DefinitionStages.WithSubnet
+    href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_subnet.yml
   - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition45eaa60da3fa0fb4f80682d55169c927
     name: BatchAICluster.DefinitionStages.WithUserCredentials
     href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition45eaa60da3fa0fb4f80682d55169c927.yml
   - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_user_name
     name: BatchAICluster.DefinitionStages.WithUserName
     href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_user_name.yml
+  - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition0707c297b132e64773f2b921bdb7ae24
+    name: BatchAICluster.DefinitionStages.WithVirtualMachineImage
+    href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition0707c297b132e64773f2b921bdb7ae24.yml
   - uid: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_v_m_priority
     name: BatchAICluster.DefinitionStages.WithVMPriority
     href: com.microsoft.azure.management.batchai._batch_a_i_cluster._definition_stages._with_v_m_priority.yml
@@ -5674,6 +6085,9 @@
   - uid: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_group
     name: BatchAIFileServer.DefinitionStages.WithGroup
     href: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_group.yml
+  - uid: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_subnet
+    name: BatchAIFileServer.DefinitionStages.WithSubnet
+    href: com.microsoft.azure.management.batchai._batch_a_i_file_server._definition_stages._with_subnet.yml
   - uid: com.microsoft.azure.management.batchai._batch_a_i_file_server._definida5019ede293fc583db1229e35088f9e
     name: BatchAIFileServer.DefinitionStages.WithUserCredentials
     href: com.microsoft.azure.management.batchai._batch_a_i_file_server._definida5019ede293fc583db1229e35088f9e.yml
@@ -5704,6 +6118,12 @@
   - uid: com.microsoft.azure.management.batchai._batch_a_i_job._definition_stages._with_create
     name: BatchAIJob.DefinitionStages.WithCreate
     href: com.microsoft.azure.management.batchai._batch_a_i_job._definition_stages._with_create.yml
+  - uid: com.microsoft.azure.management.batchai._batch_a_i_job._definition_sta29853c5bd74e4609d06b2f7d9c2d8508
+    name: BatchAIJob.DefinitionStages.WithEnvironmentVariable
+    href: com.microsoft.azure.management.batchai._batch_a_i_job._definition_sta29853c5bd74e4609d06b2f7d9c2d8508.yml
+  - uid: com.microsoft.azure.management.batchai._batch_a_i_job._definition_sta6135c598ef9f23d201a582ab2a78bff9
+    name: BatchAIJob.DefinitionStages.WithEnvironmentVariableSecretValue
+    href: com.microsoft.azure.management.batchai._batch_a_i_job._definition_sta6135c598ef9f23d201a582ab2a78bff9.yml
   - uid: com.microsoft.azure.management.batchai._batch_a_i_job._definition_stages._with_experiment_name
     name: BatchAIJob.DefinitionStages.WithExperimentName
     href: com.microsoft.azure.management.batchai._batch_a_i_job._definition_stages._with_experiment_name.yml
@@ -5743,6 +6163,24 @@
   - uid: com.microsoft.azure.management.batchai._c_n_t_ksettings
     name: CNTKsettings
     href: com.microsoft.azure.management.batchai._c_n_t_ksettings.yml
+  - uid: com.microsoft.azure.management.batchai._container_image_settings
+    name: ContainerImageSettings
+    href: com.microsoft.azure.management.batchai._container_image_settings.yml
+  - uid: com.microsoft.azure.management.batchai._container_image_settings._definition
+    name: ContainerImageSettings.Definition
+    href: com.microsoft.azure.management.batchai._container_image_settings._definition.yml
+  - uid: com.microsoft.azure.management.batchai._container_image_settings._definition_stages
+    name: ContainerImageSettings.DefinitionStages
+    href: com.microsoft.azure.management.batchai._container_image_settings._definition_stages.yml
+  - uid: com.microsoft.azure.management.batchai._container_image_settings._definition_stages._blank
+    name: ContainerImageSettings.DefinitionStages.Blank
+    href: com.microsoft.azure.management.batchai._container_image_settings._definition_stages._blank.yml
+  - uid: com.microsoft.azure.management.batchai._container_image_settings._definition_stages._with_attach
+    name: ContainerImageSettings.DefinitionStages.WithAttach
+    href: com.microsoft.azure.management.batchai._container_image_settings._definition_stages._with_attach.yml
+  - uid: com.microsoft.azure.management.batchai._container_image_settings._def02535da2d488df6b3b970d27dea37752
+    name: ContainerImageSettings.DefinitionStages.WithRegistryCredentials
+    href: com.microsoft.azure.management.batchai._container_image_settings._def02535da2d488df6b3b970d27dea37752.yml
   - uid: com.microsoft.azure.management.batchai._container_settings
     name: ContainerSettings
     href: com.microsoft.azure.management.batchai._container_settings.yml
@@ -5755,9 +6193,12 @@
   - uid: com.microsoft.azure.management.batchai._deallocation_option
     name: DeallocationOption
     href: com.microsoft.azure.management.batchai._deallocation_option.yml
-  - uid: com.microsoft.azure.management.batchai._environment_setting
-    name: EnvironmentSetting
-    href: com.microsoft.azure.management.batchai._environment_setting.yml
+  - uid: com.microsoft.azure.management.batchai._environment_variable
+    name: EnvironmentVariable
+    href: com.microsoft.azure.management.batchai._environment_variable.yml
+  - uid: com.microsoft.azure.management.batchai._environment_variable_with_secret_value
+    name: EnvironmentVariableWithSecretValue
+    href: com.microsoft.azure.management.batchai._environment_variable_with_secret_value.yml
   - uid: com.microsoft.azure.management.batchai._execution_state
     name: ExecutionState
     href: com.microsoft.azure.management.batchai._execution_state.yml
@@ -5866,6 +6307,9 @@
   - uid: com.microsoft.azure.management.batchai._node_setup_task._definition_s01fd66a958c0278051fb04b1842871c7
     name: NodeSetupTask.DefinitionStages.WithEnvironmentVariable
     href: com.microsoft.azure.management.batchai._node_setup_task._definition_s01fd66a958c0278051fb04b1842871c7.yml
+  - uid: com.microsoft.azure.management.batchai._node_setup_task._definition_s75e78687a6be1f0af3e0a27b68d82fc7
+    name: NodeSetupTask.DefinitionStages.WithEnvironmentVariableSecretValue
+    href: com.microsoft.azure.management.batchai._node_setup_task._definition_s75e78687a6be1f0af3e0a27b68d82fc7.yml
   - uid: com.microsoft.azure.management.batchai._node_setup_task._definition_stages._with_std_out_err_path
     name: NodeSetupTask.DefinitionStages.WithStdOutErrPath
     href: com.microsoft.azure.management.batchai._node_setup_task._definition_stages._with_std_out_err_path.yml
@@ -5878,18 +6322,48 @@
   - uid: com.microsoft.azure.management.batchai._output_directory
     name: OutputDirectory
     href: com.microsoft.azure.management.batchai._output_directory.yml
+  - uid: com.microsoft.azure.management.batchai._output_directory_settings
+    name: OutputDirectorySettings
+    href: com.microsoft.azure.management.batchai._output_directory_settings.yml
+  - uid: com.microsoft.azure.management.batchai._output_directory_settings._definition
+    name: OutputDirectorySettings.Definition
+    href: com.microsoft.azure.management.batchai._output_directory_settings._definition.yml
+  - uid: com.microsoft.azure.management.batchai._output_directory_settings._definition_stages
+    name: OutputDirectorySettings.DefinitionStages
+    href: com.microsoft.azure.management.batchai._output_directory_settings._definition_stages.yml
+  - uid: com.microsoft.azure.management.batchai._output_directory_settings._definition_stages._blank
+    name: OutputDirectorySettings.DefinitionStages.Blank
+    href: com.microsoft.azure.management.batchai._output_directory_settings._definition_stages._blank.yml
+  - uid: com.microsoft.azure.management.batchai._output_directory_settings._definition_stages._with_attach
+    name: OutputDirectorySettings.DefinitionStages.WithAttach
+    href: com.microsoft.azure.management.batchai._output_directory_settings._definition_stages._with_attach.yml
+  - uid: com.microsoft.azure.management.batchai._output_directory_settings._de70d4116c9ea1f563b6072901a105a5ab
+    name: OutputDirectorySettings.DefinitionStages.WithCreateNew
+    href: com.microsoft.azure.management.batchai._output_directory_settings._de70d4116c9ea1f563b6072901a105a5ab.yml
+  - uid: com.microsoft.azure.management.batchai._output_directory_settings._de799ae5b0dbe32dd1dc4652da96092c95
+    name: OutputDirectorySettings.DefinitionStages.WithPathPrefix
+    href: com.microsoft.azure.management.batchai._output_directory_settings._de799ae5b0dbe32dd1dc4652da96092c95.yml
+  - uid: com.microsoft.azure.management.batchai._output_directory_settings._de25c7a1a972dffb9c560d7f094c22b9fc
+    name: OutputDirectorySettings.DefinitionStages.WithPathSuffix
+    href: com.microsoft.azure.management.batchai._output_directory_settings._de25c7a1a972dffb9c560d7f094c22b9fc.yml
   - uid: com.microsoft.azure.management.batchai._output_file
     name: OutputFile
     href: com.microsoft.azure.management.batchai._output_file.yml
   - uid: com.microsoft.azure.management.batchai._output_type
     name: OutputType
     href: com.microsoft.azure.management.batchai._output_type.yml
+  - uid: com.microsoft.azure.management.batchai._performance_counters_settings
+    name: PerformanceCountersSettings
+    href: com.microsoft.azure.management.batchai._performance_counters_settings.yml
   - uid: com.microsoft.azure.management.batchai._private_registry_credentials
     name: PrivateRegistryCredentials
     href: com.microsoft.azure.management.batchai._private_registry_credentials.yml
   - uid: com.microsoft.azure.management.batchai._provisioning_state
     name: ProvisioningState
     href: com.microsoft.azure.management.batchai._provisioning_state.yml
+  - uid: com.microsoft.azure.management.batchai._py_torch_settings
+    name: PyTorchSettings
+    href: com.microsoft.azure.management.batchai._py_torch_settings.yml
   - uid: com.microsoft.azure.management.batchai._resource_id
     name: ResourceId
     href: com.microsoft.azure.management.batchai._resource_id.yml
@@ -6010,6 +6484,24 @@
   - uid: com.microsoft.azure.management.batchai._tool_type_settings._definitioa9c0125b24ff99cf1227a780a99b8bd0
     name: ToolTypeSettings.DefinitionStages.WithPythonInterpreter
     href: com.microsoft.azure.management.batchai._tool_type_settings._definitioa9c0125b24ff99cf1227a780a99b8bd0.yml
+  - uid: com.microsoft.azure.management.batchai._tool_type_settings._py_torch
+    name: ToolTypeSettings.PyTorch
+    href: com.microsoft.azure.management.batchai._tool_type_settings._py_torch.yml
+  - uid: com.microsoft.azure.management.batchai._tool_type_settings._py_torch._definition
+    name: ToolTypeSettings.PyTorch.Definition
+    href: com.microsoft.azure.management.batchai._tool_type_settings._py_torch._definition.yml
+  - uid: com.microsoft.azure.management.batchai._tool_type_settings._py_torch._definition_stages
+    name: ToolTypeSettings.PyTorch.DefinitionStages
+    href: com.microsoft.azure.management.batchai._tool_type_settings._py_torch._definition_stages.yml
+  - uid: com.microsoft.azure.management.batchai._tool_type_settings._py_torch._definition_stages._blank
+    name: ToolTypeSettings.PyTorch.DefinitionStages.Blank
+    href: com.microsoft.azure.management.batchai._tool_type_settings._py_torch._definition_stages._blank.yml
+  - uid: com.microsoft.azure.management.batchai._tool_type_settings._py_torch_910567478acb32eb974657619dc64a6e
+    name: ToolTypeSettings.PyTorch.DefinitionStages.WithAttach
+    href: com.microsoft.azure.management.batchai._tool_type_settings._py_torch_910567478acb32eb974657619dc64a6e.yml
+  - uid: com.microsoft.azure.management.batchai._tool_type_settings._py_torch_8ac3b6f33d782d1ae93af4159e4edbc8
+    name: ToolTypeSettings.PyTorch.DefinitionStages.WithPython
+    href: com.microsoft.azure.management.batchai._tool_type_settings._py_torch_8ac3b6f33d782d1ae93af4159e4edbc8.yml
   - uid: com.microsoft.azure.management.batchai._tool_type_settings._tensor_flow
     name: ToolTypeSettings.TensorFlow
     href: com.microsoft.azure.management.batchai._tool_type_settings._tensor_flow.yml
@@ -6034,6 +6526,9 @@
   - uid: com.microsoft.azure.management.batchai._unmanaged_file_system_reference
     name: UnmanagedFileSystemReference
     href: com.microsoft.azure.management.batchai._unmanaged_file_system_reference.yml
+  - uid: com.microsoft.azure.management.batchai._usage_name
+    name: UsageName
+    href: com.microsoft.azure.management.batchai._usage_name.yml
   - uid: com.microsoft.azure.management.batchai._user_account_settings
     name: UserAccountSettings
     href: com.microsoft.azure.management.batchai._user_account_settings.yml
@@ -6122,6 +6617,25 @@
   - uid: com.microsoft.azure.management.batchai.implementation._remote_login_information_inner
     name: RemoteLoginInformationInner
     href: com.microsoft.azure.management.batchai.implementation._remote_login_information_inner.yml
+  - uid: com.microsoft.azure.management.batchai.implementation._usage_inner
+    name: UsageInner
+    href: com.microsoft.azure.management.batchai.implementation._usage_inner.yml
+  - uid: com.microsoft.azure.management.batchai.implementation._usages_inner
+    name: UsagesInner
+    href: com.microsoft.azure.management.batchai.implementation._usages_inner.yml
+- uid: com.microsoft.azure.management.batchai.model
+  name: com.microsoft.azure.management.batchai.model
+  href: com.microsoft.azure.management.batchai.model.yml
+  items:
+  - uid: com.microsoft.azure.management.batchai.model._has_mount_volumes
+    name: HasMountVolumes
+    href: com.microsoft.azure.management.batchai.model._has_mount_volumes.yml
+  - uid: com.microsoft.azure.management.batchai.model._has_mount_volumes._definition_stages
+    name: HasMountVolumes.DefinitionStages
+    href: com.microsoft.azure.management.batchai.model._has_mount_volumes._definition_stages.yml
+  - uid: com.microsoft.azure.management.batchai.model._has_mount_volumes._d7064bdde1f4c5a7294e659d519637170
+    name: HasMountVolumes.DefinitionStages.WithMountVolumes
+    href: com.microsoft.azure.management.batchai.model._has_mount_volumes._d7064bdde1f4c5a7294e659d519637170.yml
 - uid: com.microsoft.azure.management.cdn
   name: com.microsoft.azure.management.cdn
   href: com.microsoft.azure.management.cdn.yml
