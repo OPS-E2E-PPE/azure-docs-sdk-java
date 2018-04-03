@@ -48,7 +48,6 @@ items:
   - com.microsoft.azure.cosmosdb._replication_policy
   - com.microsoft.azure.cosmosdb._request_options
   - com.microsoft.azure.cosmosdb._resource
-  - com.microsoft.azure.cosmosdb._resource_id_tests
   - com.microsoft.azure.cosmosdb._resource_response
   - com.microsoft.azure.cosmosdb._retry_options
   - com.microsoft.azure.cosmosdb._serialization_formatting_policy
@@ -78,18 +77,15 @@ items:
       repo: https://github.com/Azure/azure-cosmosdb-java
     path: sdk/src/main/java/com/microsoft/azure/cosmosdb/AccessCondition.java
     startLine: 23
-  summary: <p>The MIT License (MIT) Copyright (c) 2018 Microsoft Corporation</p>
   syntax:
     content: package com.microsoft.azure.cosmosdb
 references:
-- uid: com.microsoft.azure.cosmosdb.internal
 - uid: com.microsoft.azure.cosmosdb.rx
   href: com.microsoft.azure.cosmosdb.rx.yml
   name: com.microsoft.azure.cosmosdb.rx
   nameWithType: com.microsoft.azure.cosmosdb.rx
   fullName: com.microsoft.azure.cosmosdb.rx
   type: Namespace
-  summary: <p>The MIT License (MIT) Copyright (c) 2018 Microsoft Corporation</p>
   syntax:
     content: package com.microsoft.azure.cosmosdb.rx
 - uid: com.microsoft.azure.cosmosdb._access_condition
@@ -132,7 +128,7 @@ references:
   nameWithType: BridgeInternal
   fullName: com.microsoft.azure.cosmosdb.BridgeInternal
   type: Class
-  summary: <p>This is meant to be used only internally as a bridge access to classes in <xref uid="com.microsoft.azure.cosmosdb" data-throw-if-not-resolved="false">com.microsoft.azure.cosmosdb</xref></p>
+  summary: <p>This is meant to be used only internally as a bridge access to classes in com.microsoft.azure.cosmosdb </p>
   syntax:
     content: public class BridgeInternal
 - uid: com.microsoft.azure.cosmosdb._change_feed_options
@@ -571,15 +567,6 @@ references:
   summary: <p>Represents the base resource in the Azure Cosmos DB database service. </p>
   syntax:
     content: public class Resource extends JsonSerializable
-- uid: com.microsoft.azure.cosmosdb._resource_id_tests
-  parent: com.microsoft.azure.cosmosdb
-  href: com.microsoft.azure.cosmosdb._resource_id_tests.yml
-  name: ResourceIdTests
-  nameWithType: ResourceIdTests
-  fullName: com.microsoft.azure.cosmosdb.ResourceIdTests
-  type: Class
-  syntax:
-    content: public class ResourceIdTests
 - uid: com.microsoft.azure.cosmosdb._resource_response
   parent: com.microsoft.azure.cosmosdb
   href: com.microsoft.azure.cosmosdb._resource_response.yml
