@@ -2539,7 +2539,7 @@ references:
 
     <p>
 
-      <xrefsect id="deprecated_1_deprecated000061">
+      <xrefsect id="deprecated_1_deprecated000062">
 
         <xreftitle>Deprecated</xreftitle>
 
@@ -2571,7 +2571,7 @@ references:
 
     <p>
 
-      <xrefsect id="deprecated_1_deprecated000062">
+      <xrefsect id="deprecated_1_deprecated000063">
 
         <xreftitle>Deprecated</xreftitle>
 
@@ -3573,7 +3573,7 @@ references:
 
     <p>Setting this access condition modifies the request to include the HTTP <em>If-None-Match</em> conditional header. </p>
 
-    <p>For more information, see <ulink url="http://go.microsoft.com/fwlink/?LinkID=224642">Specifying Conditional Headers for Blob Service Operations</ulink>.</p>
+    <p>For more information, see <a href="http://go.microsoft.com/fwlink/?LinkID=224642">Specifying Conditional Headers for Blob Service Operations</a>.</p>
 
     <p></p>
   syntax:

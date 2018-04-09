@@ -330,7 +330,7 @@ items:
   summary: >-
     <p>
 
-      <xrefsect id="deprecated_1_deprecated000050">
+      <xrefsect id="deprecated_1_deprecated000051">
 
         <xreftitle>Deprecated</xreftitle>
 
@@ -382,7 +382,7 @@ items:
   summary: >-
     <p>
 
-      <xrefsect id="deprecated_1_deprecated000051">
+      <xrefsect id="deprecated_1_deprecated000052">
 
         <xreftitle>Deprecated</xreftitle>
 
@@ -744,7 +744,7 @@ items:
   summary: >-
     <p>
 
-      <xrefsect id="deprecated_1_deprecated000047">
+      <xrefsect id="deprecated_1_deprecated000048">
 
         <xreftitle>Deprecated</xreftitle>
 
@@ -788,7 +788,7 @@ items:
   summary: >-
     <p>
 
-      <xrefsect id="deprecated_1_deprecated000048">
+      <xrefsect id="deprecated_1_deprecated000049">
 
         <xreftitle>Deprecated</xreftitle>
 
@@ -834,7 +834,7 @@ items:
   summary: >-
     <p>
 
-      <xrefsect id="deprecated_1_deprecated000049">
+      <xrefsect id="deprecated_1_deprecated000050">
 
         <xreftitle>Deprecated</xreftitle>
 
@@ -1704,7 +1704,7 @@ references:
 
         </code> iterator is the result of the query factory for <table rows="3" cols="2"><row><entry thead="no"><p><b>IndividualEnrollment:</b></p></entry><entry thead="no"><p><xref uid="com.microsoft.azure.sdk.iot.provisioning.service._provisioning_service_client.createIndividualEnrollmentQuery(QuerySpecification,int)" data-throw-if-not-resolved="false">ProvisioningServiceClient#createIndividualEnrollmentQuery(QuerySpecification, int)</xref></p></entry></row><row><entry thead="no"><p><b>EnrollmentGroup:</b></p></entry><entry thead="no"><p><xref uid="com.microsoft.azure.sdk.iot.provisioning.service._provisioning_service_client.createEnrollmentGroupQuery(QuerySpecification,int)" data-throw-if-not-resolved="false">ProvisioningServiceClient#createEnrollmentGroupQuery(QuerySpecification, int)</xref></p></entry></row><row><entry thead="no"><p><b>RegistrationStatus:</b></p></entry><entry thead="no"><p><xref uid="com.microsoft.azure.sdk.iot.provisioning.service._provisioning_service_client.createEnrollmentGroupRegistrationStatusQuery(QuerySpecification,String,int)" data-throw-if-not-resolved="false">ProvisioningServiceClient#createEnrollmentGroupRegistrationStatusQuery(QuerySpecification, String, int)</xref></p></entry></row></table></p>
 
-    <p>On all cases, the <b>QuerySpecification</b> contains a SQL query that must follow the <ulink url="https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-query-language">Query Language</ulink> for the Device Provisioning Service.</p>
+    <p>On all cases, the <b>QuerySpecification</b> contains a SQL query that must follow the <a href="https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-query-language">Query Language</a> for the Device Provisioning Service.</p>
 
     <p>Optionally, an<code>Integer 
 
