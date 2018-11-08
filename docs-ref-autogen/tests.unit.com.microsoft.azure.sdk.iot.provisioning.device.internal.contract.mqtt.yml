@@ -3,7 +3,7 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
   id: mqtt
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter19e1b9dbb5cf2aa13729fb855454361c
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.yml
   langs:
   - java
@@ -21,9 +21,9 @@ items:
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
 references:
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter19e1b9dbb5cf2aa13729fb855454361c
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter19e1b9dbb5cf2aa13729fb855454361c.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
   name: ContractAPIMqttTest
   nameWithType: ContractAPIMqttTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest

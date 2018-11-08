@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation
+  id: implementation
+  children:
+  - com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation.LuisRuntimeAPIImpl
+  - com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation.PredictionsImpl
+  href: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation.yml
+  langs:
+  - java
+  name: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation
+  nameWithType: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation
+  type: Namespace
+  source:
+    remote:
+      path: cognitiveservices/data-plane/language/luis/runtime/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/runtime/implementation/LuisRuntimeAPIImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/data-plane/language/luis/runtime/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/runtime/implementation/LuisRuntimeAPIImpl.java
+    startLine: 8
+  summary: "<p>This package contains the implementation classes for LuisRuntimeAPI. </p>"
+  syntax:
+    content: package com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation
+references:
+- uid: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation.LuisRuntimeAPIImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation.LuisRuntimeAPIImpl.yml
+  name: LuisRuntimeAPIImpl
+  nameWithType: LuisRuntimeAPIImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation.LuisRuntimeAPIImpl
+  type: Class
+  summary: <p>Initializes a new instance of the LuisRuntimeAPIImpl class. </p>
+  syntax:
+    content: public class LuisRuntimeAPIImpl implements LuisRuntimeAPI
+- uid: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation.PredictionsImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation.PredictionsImpl.yml
+  name: PredictionsImpl
+  nameWithType: PredictionsImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation.PredictionsImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Predictions. </p>
+  syntax:
+    content: public class PredictionsImpl implements Predictions

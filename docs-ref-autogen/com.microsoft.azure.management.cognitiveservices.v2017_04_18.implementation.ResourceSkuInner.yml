@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  id: ResourceSkuInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  children:
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.kind()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.locations()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.name()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.resourceType()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.restrictions()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.tier()
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  langs:
+  - java
+  name: ResourceSkuInner
+  nameWithType: ResourceSkuInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  type: Class
+  source:
+    remote: &o0
+      path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkuInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkuInner.java
+    startLine: 17
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Describes an available Cognitive Services SKU. </p>"
+  syntax:
+    content: public class ResourceSkuInner
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.kind()
+  id: kind()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  langs:
+  - java
+  name: kind()
+  nameWithType: ResourceSkuInner.kind()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.kind()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.kind*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkuInner.java
+    startLine: 87
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get the kind value.</p>\r\n<p></p>"
+  syntax:
+    content: public String kind()
+    return:
+      type: "26831127"
+      description: <p>the kind value </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.locations()
+  id: locations()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  langs:
+  - java
+  name: locations()
+  nameWithType: ResourceSkuInner.locations()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.locations()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.locations*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkuInner.java
+    startLine: 96
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get the locations value.</p>\r\n<p></p>"
+  syntax:
+    content: public List<String> locations()
+    return:
+      type: 7d60c20e
+      description: <p>the locations value </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.name()
+  id: name()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  langs:
+  - java
+  name: name()
+  nameWithType: ResourceSkuInner.name()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.name()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.name*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkuInner.java
+    startLine: 69
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get the name value.</p>\r\n<p></p>"
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name value </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.resourceType()
+  id: resourceType()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  langs:
+  - java
+  name: resourceType()
+  nameWithType: ResourceSkuInner.resourceType()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.resourceType()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.resourceType*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkuInner.java
+    startLine: 60
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get the resourceType value.</p>\r\n<p></p>"
+  syntax:
+    content: public String resourceType()
+    return:
+      type: "26831127"
+      description: <p>the resourceType value </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.restrictions()
+  id: restrictions()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  langs:
+  - java
+  name: restrictions()
+  nameWithType: ResourceSkuInner.restrictions()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.restrictions()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.restrictions*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkuInner.java
+    startLine: 105
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get the restrictions value.</p>\r\n<p></p>"
+  syntax:
+    content: public List<ResourceSkuRestrictions> restrictions()
+    return:
+      type: 5618da2dcom.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkuRestrictionsa08ddfce
+      description: <p>the restrictions value </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.tier()
+  id: tier()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  langs:
+  - java
+  name: tier()
+  nameWithType: ResourceSkuInner.tier()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.tier()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.tier*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkuInner.java
+    startLine: 78
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get the tier value.</p>\r\n<p></p>"
+  syntax:
+    content: public String tier()
+    return:
+      type: "26831127"
+      description: <p>the tier value </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.resourceType*
+  name: resourceType
+  nameWithType: ResourceSkuInner.resourceType
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.resourceType
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.name*
+  name: name
+  nameWithType: ResourceSkuInner.name
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.name
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.tier*
+  name: tier
+  nameWithType: ResourceSkuInner.tier
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.tier
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.kind*
+  name: kind
+  nameWithType: ResourceSkuInner.kind
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.kind
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 7d60c20e
+  spec.java:
+  - name: List<String>
+    fullName: List<String>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.locations*
+  name: locations
+  nameWithType: ResourceSkuInner.locations
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.locations
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 5618da2dcom.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkuRestrictionsa08ddfce
+  spec.java:
+  - name: List<
+    fullName: List<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkuRestrictions
+    name: ResourceSkuRestrictions
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkuRestrictions
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkuRestrictions.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.restrictions*
+  name: restrictions
+  nameWithType: ResourceSkuInner.restrictions
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.restrictions
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkuRestrictions
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkuRestrictions.yml
+  name: ResourceSkuRestrictions
+  nameWithType: ResourceSkuRestrictions
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkuRestrictions
+  type: Class
+  summary: <p>Describes restrictions of a SKU. </p>
+  syntax:
+    content: public class ResourceSkuRestrictions

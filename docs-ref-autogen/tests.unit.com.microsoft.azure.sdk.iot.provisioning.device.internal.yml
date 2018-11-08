@@ -3,7 +3,7 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
   id: internal
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interfa42f639b6356457b73d6baf090969f6
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.yml
   langs:
   - java
@@ -42,9 +42,9 @@ references:
   type: Namespace
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interfa42f639b6356457b73d6baf090969f6
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interfa42f639b6356457b73d6baf090969f6.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.yml
   name: ProvisioningDeviceClientConfigTest
   nameWithType: ProvisioningDeviceClientConfigTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest

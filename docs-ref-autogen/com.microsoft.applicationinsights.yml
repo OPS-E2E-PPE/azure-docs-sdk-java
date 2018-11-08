@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.applicationinsights
   id: applicationinsights
   children:
-  - com.microsoft.applicationinsights._telemetry_client
-  - com.microsoft.applicationinsights._telemetry_configuration
+  - com.microsoft.applicationinsights.TelemetryClient
+  - com.microsoft.applicationinsights.TelemetryConfiguration
   href: com.microsoft.applicationinsights.yml
   langs:
   - java
@@ -19,6 +19,14 @@ items:
   syntax:
     content: package com.microsoft.applicationinsights
 references:
+- uid: com.microsoft.applicationinsights.autoconfigure
+  href: com.microsoft.applicationinsights.autoconfigure.yml
+  name: com.microsoft.applicationinsights.autoconfigure
+  nameWithType: com.microsoft.applicationinsights.autoconfigure
+  fullName: com.microsoft.applicationinsights.autoconfigure
+  type: Namespace
+  syntax:
+    content: package com.microsoft.applicationinsights.autoconfigure
 - uid: com.microsoft.applicationinsights.channel
   href: com.microsoft.applicationinsights.channel.yml
   name: com.microsoft.applicationinsights.channel
@@ -35,6 +43,14 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.applicationinsights.common
+- uid: com.microsoft.applicationinsights.exceptions
+  href: com.microsoft.applicationinsights.exceptions.yml
+  name: com.microsoft.applicationinsights.exceptions
+  nameWithType: com.microsoft.applicationinsights.exceptions
+  fullName: com.microsoft.applicationinsights.exceptions
+  type: Namespace
+  syntax:
+    content: package com.microsoft.applicationinsights.exceptions
 - uid: com.microsoft.applicationinsights.extensibility
   href: com.microsoft.applicationinsights.extensibility.yml
   name: com.microsoft.applicationinsights.extensibility
@@ -51,9 +67,9 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.applicationinsights.telemetry
-- uid: com.microsoft.applicationinsights._telemetry_client
+- uid: com.microsoft.applicationinsights.TelemetryClient
   parent: com.microsoft.applicationinsights
-  href: com.microsoft.applicationinsights._telemetry_client.yml
+  href: com.microsoft.applicationinsights.TelemetryClient.yml
   name: TelemetryClient
   nameWithType: TelemetryClient
   fullName: com.microsoft.applicationinsights.TelemetryClient
@@ -61,9 +77,9 @@ references:
   summary: <p>Create an instance of this class to send telemetry to Azure Application Insights. General overview <a href="https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics">https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics</a></p>
   syntax:
     content: public class TelemetryClient
-- uid: com.microsoft.applicationinsights._telemetry_configuration
+- uid: com.microsoft.applicationinsights.TelemetryConfiguration
   parent: com.microsoft.applicationinsights
-  href: com.microsoft.applicationinsights._telemetry_configuration.yml
+  href: com.microsoft.applicationinsights.TelemetryConfiguration.yml
   name: TelemetryConfiguration
   nameWithType: TelemetryConfiguration
   fullName: com.microsoft.applicationinsights.TelemetryConfiguration
@@ -71,6 +87,6 @@ references:
   summary: >-
     <p>Encapsulates the global telemetry configuration typically loaded from the ApplicationInsights.xml file.</p>
 
-    <p>All <xref uid="com.microsoft.applicationinsights.telemetry._telemetry_context" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref> objects are initialized using the 'Active' (returned by the 'getActive' static method) telemetry configuration provided by this class. </p>
+    <p>All <xref uid="com.microsoft.applicationinsights.telemetry.TelemetryContext" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.telemetry.TelemetryContext</xref> objects are initialized using the 'Active' (returned by the 'getActive' static method) telemetry configuration provided by this class. </p>
   syntax:
     content: public class TelemetryConfiguration

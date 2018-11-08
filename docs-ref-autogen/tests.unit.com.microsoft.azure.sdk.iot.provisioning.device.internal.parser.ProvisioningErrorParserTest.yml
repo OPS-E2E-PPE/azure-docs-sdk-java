@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest
+  id: ProvisioningErrorParserTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.createFromJsonWorks()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.getExceptionMessageContainsErrorCodeTrackingIdAndMessage()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.yml
+  langs:
+  - java
+  name: ProvisioningErrorParserTest
+  nameWithType: ProvisioningErrorParserTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/ProvisioningErrorParserTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/ProvisioningErrorParserTest.java
+    startLine: 16
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public class ProvisioningErrorParserTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.createFromJsonWorks()
+  id: createFromJsonWorks()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.yml
+  langs:
+  - java
+  name: createFromJsonWorks()
+  nameWithType: ProvisioningErrorParserTest.createFromJsonWorks()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.createFromJsonWorks()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.createFromJsonWorks*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/ProvisioningErrorParserTest.java
+    startLine: 20
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void createFromJsonWorks()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.getExceptionMessageContainsErrorCodeTrackingIdAndMessage()
+  id: getExceptionMessageContainsErrorCodeTrackingIdAndMessage()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.yml
+  langs:
+  - java
+  name: getExceptionMessageContainsErrorCodeTrackingIdAndMessage()
+  nameWithType: ProvisioningErrorParserTest.getExceptionMessageContainsErrorCodeTrackingIdAndMessage()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.getExceptionMessageContainsErrorCodeTrackingIdAndMessage()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.getExceptionMessageContainsErrorCodeTrackingIdAndMessage*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/ProvisioningErrorParserTest.java
+    startLine: 39
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void getExceptionMessageContainsErrorCodeTrackingIdAndMessage()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.createFromJsonWorks*
+  name: createFromJsonWorks
+  nameWithType: ProvisioningErrorParserTest.createFromJsonWorks
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.createFromJsonWorks
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.getExceptionMessageContainsErrorCodeTrackingIdAndMessage*
+  name: getExceptionMessageContainsErrorCodeTrackingIdAndMessage
+  nameWithType: ProvisioningErrorParserTest.getExceptionMessageContainsErrorCodeTrackingIdAndMessage
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.getExceptionMessageContainsErrorCodeTrackingIdAndMessage
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser

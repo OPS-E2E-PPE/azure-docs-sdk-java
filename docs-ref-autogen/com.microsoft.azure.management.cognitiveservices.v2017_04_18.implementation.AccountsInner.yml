@@ -1,0 +1,2693 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  id: AccountsInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  children:
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.AccountsInner(Retrofit,CognitiveServicesManagementClientImpl)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.create(String,String,CognitiveServicesAccountCreateParameters)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync(String,String,CognitiveServicesAccountCreateParameters)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync(String,String,CognitiveServicesAccountCreateParameters,final ServiceCallback<CognitiveServicesAccountInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createWithServiceResponseAsync(String,String,CognitiveServicesAccountCreateParameters)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.delete(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync(String,String,final ServiceCallback<Void>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteWithServiceResponseAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroup(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync(String,String,final ServiceCallback<CognitiveServicesAccountInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupWithServiceResponseAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages(String,String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String,String,final ServiceCallback<UsagesResultInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String,String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String,String,String,final ServiceCallback<UsagesResultInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync(String,String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.list()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync(final ListOperationCallback<CognitiveServicesAccountInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroup(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync(final String,final ListOperationCallback<CognitiveServicesAccountInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNext(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync(final String,final ServiceFuture<List<CognitiveServicesAccountInner>>,final ListOperationCallback<CognitiveServicesAccountInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextSinglePageAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextWithServiceResponseAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupSinglePageAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupWithServiceResponseAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeys(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync(String,String,final ServiceCallback<CognitiveServicesAccountKeysInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysWithServiceResponseAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNext(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync(final String,final ServiceFuture<List<CognitiveServicesAccountInner>>,final ListOperationCallback<CognitiveServicesAccountInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextSinglePageAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextWithServiceResponseAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSinglePageAsync()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkus(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync(String,String,final ServiceCallback<CognitiveServicesAccountEnumerateSkusResultInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusWithServiceResponseAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listWithServiceResponseAsync()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKey(String,String,KeyName)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync(String,String,KeyName)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync(String,String,KeyName,final ServiceCallback<CognitiveServicesAccountKeysInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyWithServiceResponseAsync(String,String,KeyName)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update(String,String,Sku,Map<String, String>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String,String,final ServiceCallback<CognitiveServicesAccountInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String,String,Sku,Map<String, String>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String,String,Sku,Map<String, String>,final ServiceCallback<CognitiveServicesAccountInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync(String,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync(String,String,Sku,Map<String, String>)
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: AccountsInner
+  nameWithType: AccountsInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  type: Class
+  source:
+    remote: &o0
+      path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 52
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>An instance of this class provides access to all the operations defined in Accounts. </p>"
+  syntax:
+    content: public class AccountsInner
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.azure.arm.collection.InnerSupportsGet<CognitiveServicesAccountInner>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.AccountsInner(Retrofit,CognitiveServicesManagementClientImpl)
+  id: AccountsInner(Retrofit,CognitiveServicesManagementClientImpl)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: AccountsInner(Retrofit retrofit, CognitiveServicesManagementClientImpl client)
+  nameWithType: AccountsInner.AccountsInner(Retrofit retrofit, CognitiveServicesManagementClientImpl client)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.AccountsInner(Retrofit retrofit, CognitiveServicesManagementClientImpl client)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.AccountsInner*
+  type: Constructor
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 64
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Initializes an instance of AccountsInner.</p>\r\n<p></p>"
+  syntax:
+    content: public AccountsInner(Retrofit retrofit, CognitiveServicesManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManagementClientImpl
+      description: <p>the instance of the service client containing this operation class. </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.create(String,String,CognitiveServicesAccountCreateParameters)
+  id: create(String,String,CognitiveServicesAccountCreateParameters)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: create(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+  nameWithType: AccountsInner.create(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.create(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.create*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 135
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Create Cognitive Services Account. Accounts is a resource group wide resource type. It holds the keys for developer to access intelligent APIs. It's also the resource type for billing.</p>\r\n<p></p>"
+  syntax:
+    content: public CognitiveServicesAccountInner create(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CognitiveServicesAccountCreateParameters
+      description: <p>The parameters to provide for the created account. </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+      description: <p>the CognitiveServicesAccountInner object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync(String,String,CognitiveServicesAccountCreateParameters)
+  id: createAsync(String,String,CognitiveServicesAccountCreateParameters)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: createAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+  nameWithType: AccountsInner.createAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 162
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Create Cognitive Services Account. Accounts is a resource group wide resource type. It holds the keys for developer to access intelligent APIs. It's also the resource type for billing.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<CognitiveServicesAccountInner> createAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CognitiveServicesAccountCreateParameters
+      description: <p>The parameters to provide for the created account. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the observable to the CognitiveServicesAccountInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync(String,String,CognitiveServicesAccountCreateParameters,final ServiceCallback<CognitiveServicesAccountInner>)
+  id: createAsync(String,String,CognitiveServicesAccountCreateParameters,final ServiceCallback<CognitiveServicesAccountInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: createAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  nameWithType: AccountsInner.createAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 149
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Create Cognitive Services Account. Accounts is a resource group wide resource type. It holds the keys for developer to access intelligent APIs. It's also the resource type for billing.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<CognitiveServicesAccountInner> createAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CognitiveServicesAccountCreateParameters
+      description: <p>The parameters to provide for the created account. </p>
+    - id: serviceCallback
+      type: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createWithServiceResponseAsync(String,String,CognitiveServicesAccountCreateParameters)
+  id: createWithServiceResponseAsync(String,String,CognitiveServicesAccountCreateParameters)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: createWithServiceResponseAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+  nameWithType: AccountsInner.createWithServiceResponseAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createWithServiceResponseAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 180
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Create Cognitive Services Account. Accounts is a resource group wide resource type. It holds the keys for developer to access intelligent APIs. It's also the resource type for billing.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<CognitiveServicesAccountInner>> createWithServiceResponseAsync(String resourceGroupName, String accountName, CognitiveServicesAccountCreateParameters parameters)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: parameters
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CognitiveServicesAccountCreateParameters
+      description: <p>The parameters to provide for the created account. </p>
+    return:
+      type: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the observable to the CognitiveServicesAccountInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.delete(String,String)
+  id: delete(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: delete(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.delete(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.delete(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.delete*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 411
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Deletes a Cognitive Services account from the resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public void delete(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync(String,String)
+  id: deleteAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.deleteAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 436
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Deletes a Cognitive Services account from the resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<Void> deleteAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: dcd884b2
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponse</xref> object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync(String,String,final ServiceCallback<Void>)
+  id: deleteAsync(String,String,final ServiceCallback<Void>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: deleteAsync(String resourceGroupName, String accountName, final ServiceCallback<Void> serviceCallback)
+  nameWithType: AccountsInner.deleteAsync(String resourceGroupName, String accountName, final ServiceCallback<Void> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync(String resourceGroupName, String accountName, final ServiceCallback<Void> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 424
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Deletes a Cognitive Services account from the resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<Void> deleteAsync(String resourceGroupName, String accountName, final ServiceCallback<Void> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: serviceCallback
+      type: 1c186eb5
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: aa81d378
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteWithServiceResponseAsync(String,String)
+  id: deleteWithServiceResponseAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: deleteWithServiceResponseAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.deleteWithServiceResponseAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteWithServiceResponseAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 453
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Deletes a Cognitive Services account from the resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<Void>> deleteWithServiceResponseAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: 27015fa1
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponse</xref> object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroup(String,String)
+  id: getByResourceGroup(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getByResourceGroup(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.getByResourceGroup(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroup(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroup*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 498
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns a Cognitive Services account specified by the parameters.</p>\r\n<p></p>"
+  syntax:
+    content: public CognitiveServicesAccountInner getByResourceGroup(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+      description: <p>the CognitiveServicesAccountInner object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync(String,String)
+  id: getByResourceGroupAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getByResourceGroupAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.getByResourceGroupAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 523
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns a Cognitive Services account specified by the parameters.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<CognitiveServicesAccountInner> getByResourceGroupAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the observable to the CognitiveServicesAccountInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync(String,String,final ServiceCallback<CognitiveServicesAccountInner>)
+  id: getByResourceGroupAsync(String,String,final ServiceCallback<CognitiveServicesAccountInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getByResourceGroupAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  nameWithType: AccountsInner.getByResourceGroupAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 511
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns a Cognitive Services account specified by the parameters.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<CognitiveServicesAccountInner> getByResourceGroupAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: serviceCallback
+      type: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupWithServiceResponseAsync(String,String)
+  id: getByResourceGroupWithServiceResponseAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getByResourceGroupWithServiceResponseAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.getByResourceGroupWithServiceResponseAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupWithServiceResponseAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 540
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns a Cognitive Services account specified by the parameters.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<CognitiveServicesAccountInner>> getByResourceGroupWithServiceResponseAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the observable to the CognitiveServicesAccountInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages(String,String)
+  id: getUsages(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getUsages(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.getUsages(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1073
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get usages for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public UsagesResultInner getUsages(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+      description: <p>the UsagesResultInner object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages(String,String,String)
+  id: getUsages(String,String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getUsages(String resourceGroupName, String accountName, String filter)
+  nameWithType: AccountsInner.getUsages(String resourceGroupName, String accountName, String filter)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages(String resourceGroupName, String accountName, String filter)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1154
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get usages for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public UsagesResultInner getUsages(String resourceGroupName, String accountName, String filter)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: filter
+      type: "26831127"
+      description: <p>An OData filter expression that describes a subset of usages to return. The supported parameter is name.value (name of the metric, can have an or of multiple names). </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+      description: <p>the UsagesResultInner object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String,String)
+  id: getUsagesAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getUsagesAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.getUsagesAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1098
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get usages for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<UsagesResultInner> getUsagesAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnera08ddfce
+      description: <p>the observable to the UsagesResultInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String,String,final ServiceCallback<UsagesResultInner>)
+  id: getUsagesAsync(String,String,final ServiceCallback<UsagesResultInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getUsagesAsync(String resourceGroupName, String accountName, final ServiceCallback<UsagesResultInner> serviceCallback)
+  nameWithType: AccountsInner.getUsagesAsync(String resourceGroupName, String accountName, final ServiceCallback<UsagesResultInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String resourceGroupName, String accountName, final ServiceCallback<UsagesResultInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1086
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get usages for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<UsagesResultInner> getUsagesAsync(String resourceGroupName, String accountName, final ServiceCallback<UsagesResultInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: serviceCallback
+      type: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnera08ddfce
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String,String,String)
+  id: getUsagesAsync(String,String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getUsagesAsync(String resourceGroupName, String accountName, String filter)
+  nameWithType: AccountsInner.getUsagesAsync(String resourceGroupName, String accountName, String filter)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String resourceGroupName, String accountName, String filter)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1181
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get usages for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<UsagesResultInner> getUsagesAsync(String resourceGroupName, String accountName, String filter)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: filter
+      type: "26831127"
+      description: <p>An OData filter expression that describes a subset of usages to return. The supported parameter is name.value (name of the metric, can have an or of multiple names). </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnera08ddfce
+      description: <p>the observable to the UsagesResultInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String,String,String,final ServiceCallback<UsagesResultInner>)
+  id: getUsagesAsync(String,String,String,final ServiceCallback<UsagesResultInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getUsagesAsync(String resourceGroupName, String accountName, String filter, final ServiceCallback<UsagesResultInner> serviceCallback)
+  nameWithType: AccountsInner.getUsagesAsync(String resourceGroupName, String accountName, String filter, final ServiceCallback<UsagesResultInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync(String resourceGroupName, String accountName, String filter, final ServiceCallback<UsagesResultInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1168
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get usages for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<UsagesResultInner> getUsagesAsync(String resourceGroupName, String accountName, String filter, final ServiceCallback<UsagesResultInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: filter
+      type: "26831127"
+      description: <p>An OData filter expression that describes a subset of usages to return. The supported parameter is name.value (name of the metric, can have an or of multiple names). </p>
+    - id: serviceCallback
+      type: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnera08ddfce
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync(String,String)
+  id: getUsagesWithServiceResponseAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getUsagesWithServiceResponseAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.getUsagesWithServiceResponseAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1115
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get usages for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<UsagesResultInner>> getUsagesWithServiceResponseAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnere7daa122
+      description: <p>the observable to the UsagesResultInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync(String,String,String)
+  id: getUsagesWithServiceResponseAsync(String,String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: getUsagesWithServiceResponseAsync(String resourceGroupName, String accountName, String filter)
+  nameWithType: AccountsInner.getUsagesWithServiceResponseAsync(String resourceGroupName, String accountName, String filter)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync(String resourceGroupName, String accountName, String filter)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1199
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get usages for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<UsagesResultInner>> getUsagesWithServiceResponseAsync(String resourceGroupName, String accountName, String filter)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: filter
+      type: "26831127"
+      description: <p>An OData filter expression that describes a subset of usages to return. The supported parameter is name.value (name of the metric, can have an or of multiple names). </p>
+    return:
+      type: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnere7daa122
+      description: <p>the observable to the UsagesResultInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.list()
+  id: list()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: list()
+  nameWithType: AccountsInner.list()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.list()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.list*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 697
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public PagedList<CognitiveServicesAccountInner> list()
+    return:
+      type: 36b27be0com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the PagedList&lt;CognitiveServicesAccountInner&gt; object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync()
+  id: listAsync()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listAsync()
+  nameWithType: AccountsInner.listAsync()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 732
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<Page<CognitiveServicesAccountInner>> listAsync()
+    return:
+      type: 32da0907com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the observable to the PagedList&lt;CognitiveServicesAccountInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync(final ListOperationCallback<CognitiveServicesAccountInner>)
+  id: listAsync(final ListOperationCallback<CognitiveServicesAccountInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listAsync(final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  nameWithType: AccountsInner.listAsync(final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync(final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 714
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<List<CognitiveServicesAccountInner>> listAsync(final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 3c4303efcom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: b7698b59com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroup(final String)
+  id: listByResourceGroup(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroup(final String resourceGroupName)
+  nameWithType: AccountsInner.listByResourceGroup(final String resourceGroupName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroup(final String resourceGroupName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroup*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 583
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public PagedList<CognitiveServicesAccountInner> listByResourceGroup(final String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group within the user's subscription. </p>
+    return:
+      type: 36b27be0com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the PagedList&lt;CognitiveServicesAccountInner&gt; object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync(final String)
+  id: listByResourceGroupAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroupAsync(final String resourceGroupName)
+  nameWithType: AccountsInner.listByResourceGroupAsync(final String resourceGroupName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync(final String resourceGroupName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 620
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<Page<CognitiveServicesAccountInner>> listByResourceGroupAsync(final String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group within the user's subscription. </p>
+    return:
+      type: 32da0907com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the observable to the PagedList&lt;CognitiveServicesAccountInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync(final String,final ListOperationCallback<CognitiveServicesAccountInner>)
+  id: listByResourceGroupAsync(final String,final ListOperationCallback<CognitiveServicesAccountInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroupAsync(final String resourceGroupName, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  nameWithType: AccountsInner.listByResourceGroupAsync(final String resourceGroupName, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync(final String resourceGroupName, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 601
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<List<CognitiveServicesAccountInner>> listByResourceGroupAsync(final String resourceGroupName, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: serviceCallback
+      type: 3c4303efcom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: b7698b59com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNext(final String)
+  id: listByResourceGroupNext(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroupNext(final String nextPageLink)
+  nameWithType: AccountsInner.listByResourceGroupNext(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNext(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNext*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1242
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public PagedList<CognitiveServicesAccountInner> listByResourceGroupNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: 36b27be0com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the PagedList&lt;CognitiveServicesAccountInner&gt; object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync(final String)
+  id: listByResourceGroupNextAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroupNextAsync(final String nextPageLink)
+  nameWithType: AccountsInner.listByResourceGroupNextAsync(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1280
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<Page<CognitiveServicesAccountInner>> listByResourceGroupNextAsync(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: 32da0907com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the observable to the PagedList&lt;CognitiveServicesAccountInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync(final String,final ServiceFuture<List<CognitiveServicesAccountInner>>,final ListOperationCallback<CognitiveServicesAccountInner>)
+  id: listByResourceGroupNextAsync(final String,final ServiceFuture<List<CognitiveServicesAccountInner>>,final ListOperationCallback<CognitiveServicesAccountInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroupNextAsync(final String nextPageLink, final ServiceFuture<List<CognitiveServicesAccountInner>> serviceFuture, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  nameWithType: AccountsInner.listByResourceGroupNextAsync(final String nextPageLink, final ServiceFuture<List<CognitiveServicesAccountInner>> serviceFuture, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync(final String nextPageLink, final ServiceFuture<List<CognitiveServicesAccountInner>> serviceFuture, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1261
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<List<CognitiveServicesAccountInner>> listByResourceGroupNextAsync(final String nextPageLink, final ServiceFuture<List<CognitiveServicesAccountInner>> serviceFuture, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceFuture
+      type: bd82102acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the ServiceFuture object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 3c4303efcom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: b7698b59com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextSinglePageAsync(final String)
+  id: listByResourceGroupNextSinglePageAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroupNextSinglePageAsync(final String nextPageLink)
+  nameWithType: AccountsInner.listByResourceGroupNextSinglePageAsync(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextSinglePageAsync(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextSinglePageAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1318
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p>ServiceResponse&lt;PageImpl&lt;CognitiveServicesAccountInner&gt;&gt; * </p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<CognitiveServicesAccountInner>>> listByResourceGroupNextSinglePageAsync(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner2646ccb0
+      description: <p>the PagedList&lt;CognitiveServicesAccountInner&gt; object wrapped in <xref uid="" data-throw-if-not-resolved="false">ServiceResponse</xref> if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextWithServiceResponseAsync(final String)
+  id: listByResourceGroupNextWithServiceResponseAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroupNextWithServiceResponseAsync(final String nextPageLink)
+  nameWithType: AccountsInner.listByResourceGroupNextWithServiceResponseAsync(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextWithServiceResponseAsync(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1297
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<CognitiveServicesAccountInner>>> listByResourceGroupNextWithServiceResponseAsync(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner2646ccb0
+      description: <p>the observable to the PagedList&lt;CognitiveServicesAccountInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupSinglePageAsync(final String)
+  id: listByResourceGroupSinglePageAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroupSinglePageAsync(final String resourceGroupName)
+  nameWithType: AccountsInner.listByResourceGroupSinglePageAsync(final String resourceGroupName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupSinglePageAsync(final String resourceGroupName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupSinglePageAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 658
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p>ServiceResponse&lt;PageImpl&lt;CognitiveServicesAccountInner&gt;&gt; * </p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<CognitiveServicesAccountInner>>> listByResourceGroupSinglePageAsync(final String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group within the user's subscription. </p>
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner2646ccb0
+      description: <p>the PagedList&lt;CognitiveServicesAccountInner&gt; object wrapped in <xref uid="" data-throw-if-not-resolved="false">ServiceResponse</xref> if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupWithServiceResponseAsync(final String)
+  id: listByResourceGroupWithServiceResponseAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listByResourceGroupWithServiceResponseAsync(final String resourceGroupName)
+  nameWithType: AccountsInner.listByResourceGroupWithServiceResponseAsync(final String resourceGroupName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupWithServiceResponseAsync(final String resourceGroupName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 637
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a resource group.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<CognitiveServicesAccountInner>>> listByResourceGroupWithServiceResponseAsync(final String resourceGroupName)
+    parameters:
+    - id: resourceGroupName
+      type: 3d93591e
+      description: <p>The name of the resource group within the user's subscription. </p>
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner2646ccb0
+      description: <p>the observable to the PagedList&lt;CognitiveServicesAccountInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeys(String,String)
+  id: listKeys(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listKeys(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.listKeys(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeys(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeys*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 806
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Lists the account keys for the specified Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public CognitiveServicesAccountKeysInner listKeys(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+      description: <p>the CognitiveServicesAccountKeysInner object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync(String,String)
+  id: listKeysAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listKeysAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.listKeysAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 831
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Lists the account keys for the specified Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<CognitiveServicesAccountKeysInner> listKeysAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnera08ddfce
+      description: <p>the observable to the CognitiveServicesAccountKeysInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync(String,String,final ServiceCallback<CognitiveServicesAccountKeysInner>)
+  id: listKeysAsync(String,String,final ServiceCallback<CognitiveServicesAccountKeysInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listKeysAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountKeysInner> serviceCallback)
+  nameWithType: AccountsInner.listKeysAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountKeysInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountKeysInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 819
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Lists the account keys for the specified Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<CognitiveServicesAccountKeysInner> listKeysAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountKeysInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: serviceCallback
+      type: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnera08ddfce
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysWithServiceResponseAsync(String,String)
+  id: listKeysWithServiceResponseAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listKeysWithServiceResponseAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.listKeysWithServiceResponseAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysWithServiceResponseAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 848
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Lists the account keys for the specified Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<CognitiveServicesAccountKeysInner>> listKeysWithServiceResponseAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnere7daa122
+      description: <p>the observable to the CognitiveServicesAccountKeysInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNext(final String)
+  id: listNext(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  nameWithType: AccountsInner.listNext(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNext(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNext*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1353
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public PagedList<CognitiveServicesAccountInner> listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: 36b27be0com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the PagedList&lt;CognitiveServicesAccountInner&gt; object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync(final String)
+  id: listNextAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink)
+  nameWithType: AccountsInner.listNextAsync(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1391
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<Page<CognitiveServicesAccountInner>> listNextAsync(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: 32da0907com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the observable to the PagedList&lt;CognitiveServicesAccountInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync(final String,final ServiceFuture<List<CognitiveServicesAccountInner>>,final ListOperationCallback<CognitiveServicesAccountInner>)
+  id: listNextAsync(final String,final ServiceFuture<List<CognitiveServicesAccountInner>>,final ListOperationCallback<CognitiveServicesAccountInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceFuture<List<CognitiveServicesAccountInner>> serviceFuture, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  nameWithType: AccountsInner.listNextAsync(final String nextPageLink, final ServiceFuture<List<CognitiveServicesAccountInner>> serviceFuture, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync(final String nextPageLink, final ServiceFuture<List<CognitiveServicesAccountInner>> serviceFuture, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1372
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<List<CognitiveServicesAccountInner>> listNextAsync(final String nextPageLink, final ServiceFuture<List<CognitiveServicesAccountInner>> serviceFuture, final ListOperationCallback<CognitiveServicesAccountInner> serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceFuture
+      type: bd82102acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the ServiceFuture object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 3c4303efcom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: b7698b59com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextSinglePageAsync(final String)
+  id: listNextSinglePageAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listNextSinglePageAsync(final String nextPageLink)
+  nameWithType: AccountsInner.listNextSinglePageAsync(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextSinglePageAsync(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextSinglePageAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1429
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p>ServiceResponse&lt;PageImpl&lt;CognitiveServicesAccountInner&gt;&gt; * </p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<CognitiveServicesAccountInner>>> listNextSinglePageAsync(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner2646ccb0
+      description: <p>the PagedList&lt;CognitiveServicesAccountInner&gt; object wrapped in <xref uid="" data-throw-if-not-resolved="false">ServiceResponse</xref> if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextWithServiceResponseAsync(final String)
+  id: listNextWithServiceResponseAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listNextWithServiceResponseAsync(final String nextPageLink)
+  nameWithType: AccountsInner.listNextWithServiceResponseAsync(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextWithServiceResponseAsync(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1408
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<CognitiveServicesAccountInner>>> listNextWithServiceResponseAsync(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner2646ccb0
+      description: <p>the observable to the PagedList&lt;CognitiveServicesAccountInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSinglePageAsync()
+  id: listSinglePageAsync()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listSinglePageAsync()
+  nameWithType: AccountsInner.listSinglePageAsync()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSinglePageAsync()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSinglePageAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 768
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<CognitiveServicesAccountInner>>> listSinglePageAsync()
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner2646ccb0
+      description: <p>the PagedList&lt;CognitiveServicesAccountInner&gt; object wrapped in <xref uid="" data-throw-if-not-resolved="false">ServiceResponse</xref> if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkus(String,String)
+  id: listSkus(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listSkus(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.listSkus(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkus(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkus*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 987
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>List available SKUs for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public CognitiveServicesAccountEnumerateSkusResultInner listSkus(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+      description: <p>the CognitiveServicesAccountEnumerateSkusResultInner object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync(String,String)
+  id: listSkusAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listSkusAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.listSkusAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1012
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>List available SKUs for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<CognitiveServicesAccountEnumerateSkusResultInner> listSkusAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInnera08ddfce
+      description: <p>the observable to the CognitiveServicesAccountEnumerateSkusResultInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync(String,String,final ServiceCallback<CognitiveServicesAccountEnumerateSkusResultInner>)
+  id: listSkusAsync(String,String,final ServiceCallback<CognitiveServicesAccountEnumerateSkusResultInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listSkusAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountEnumerateSkusResultInner> serviceCallback)
+  nameWithType: AccountsInner.listSkusAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountEnumerateSkusResultInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountEnumerateSkusResultInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1000
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>List available SKUs for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<CognitiveServicesAccountEnumerateSkusResultInner> listSkusAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountEnumerateSkusResultInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: serviceCallback
+      type: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInnera08ddfce
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusWithServiceResponseAsync(String,String)
+  id: listSkusWithServiceResponseAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listSkusWithServiceResponseAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.listSkusWithServiceResponseAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusWithServiceResponseAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 1029
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>List available SKUs for the requested Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<CognitiveServicesAccountEnumerateSkusResultInner>> listSkusWithServiceResponseAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInnere7daa122
+      description: <p>the observable to the CognitiveServicesAccountEnumerateSkusResultInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listWithServiceResponseAsync()
+  id: listWithServiceResponseAsync()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: listWithServiceResponseAsync()
+  nameWithType: AccountsInner.listWithServiceResponseAsync()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listWithServiceResponseAsync()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 748
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Returns all the resources of a particular type belonging to a subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<CognitiveServicesAccountInner>>> listWithServiceResponseAsync()
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner2646ccb0
+      description: <p>the observable to the PagedList&lt;CognitiveServicesAccountInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKey(String,String,KeyName)
+  id: regenerateKey(String,String,KeyName)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: regenerateKey(String resourceGroupName, String accountName, KeyName keyName)
+  nameWithType: AccountsInner.regenerateKey(String resourceGroupName, String accountName, KeyName keyName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKey(String resourceGroupName, String accountName, KeyName keyName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKey*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 893
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Regenerates the specified account key for the specified Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public CognitiveServicesAccountKeysInner regenerateKey(String resourceGroupName, String accountName, KeyName keyName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: keyName
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.KeyName
+      description: "<p>key name to generate (Key1|Key2). Possible values include: 'Key1', 'Key2' </p>"
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+      description: <p>the CognitiveServicesAccountKeysInner object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync(String,String,KeyName)
+  id: regenerateKeyAsync(String,String,KeyName)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: regenerateKeyAsync(String resourceGroupName, String accountName, KeyName keyName)
+  nameWithType: AccountsInner.regenerateKeyAsync(String resourceGroupName, String accountName, KeyName keyName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync(String resourceGroupName, String accountName, KeyName keyName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 920
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Regenerates the specified account key for the specified Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<CognitiveServicesAccountKeysInner> regenerateKeyAsync(String resourceGroupName, String accountName, KeyName keyName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: keyName
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.KeyName
+      description: "<p>key name to generate (Key1|Key2). Possible values include: 'Key1', 'Key2' </p>"
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnera08ddfce
+      description: <p>the observable to the CognitiveServicesAccountKeysInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync(String,String,KeyName,final ServiceCallback<CognitiveServicesAccountKeysInner>)
+  id: regenerateKeyAsync(String,String,KeyName,final ServiceCallback<CognitiveServicesAccountKeysInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: regenerateKeyAsync(String resourceGroupName, String accountName, KeyName keyName, final ServiceCallback<CognitiveServicesAccountKeysInner> serviceCallback)
+  nameWithType: AccountsInner.regenerateKeyAsync(String resourceGroupName, String accountName, KeyName keyName, final ServiceCallback<CognitiveServicesAccountKeysInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync(String resourceGroupName, String accountName, KeyName keyName, final ServiceCallback<CognitiveServicesAccountKeysInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 907
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Regenerates the specified account key for the specified Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<CognitiveServicesAccountKeysInner> regenerateKeyAsync(String resourceGroupName, String accountName, KeyName keyName, final ServiceCallback<CognitiveServicesAccountKeysInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: keyName
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.KeyName
+      description: "<p>key name to generate (Key1|Key2). Possible values include: 'Key1', 'Key2' </p>"
+    - id: serviceCallback
+      type: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnera08ddfce
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyWithServiceResponseAsync(String,String,KeyName)
+  id: regenerateKeyWithServiceResponseAsync(String,String,KeyName)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: regenerateKeyWithServiceResponseAsync(String resourceGroupName, String accountName, KeyName keyName)
+  nameWithType: AccountsInner.regenerateKeyWithServiceResponseAsync(String resourceGroupName, String accountName, KeyName keyName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyWithServiceResponseAsync(String resourceGroupName, String accountName, KeyName keyName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 938
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Regenerates the specified account key for the specified Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<CognitiveServicesAccountKeysInner>> regenerateKeyWithServiceResponseAsync(String resourceGroupName, String accountName, KeyName keyName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: keyName
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.KeyName
+      description: "<p>key name to generate (Key1|Key2). Possible values include: 'Key1', 'Key2' </p>"
+    return:
+      type: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnere7daa122
+      description: <p>the observable to the CognitiveServicesAccountKeysInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update(String,String)
+  id: update(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: update(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.update(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 229
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Updates a Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public CognitiveServicesAccountInner update(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+      description: <p>the CognitiveServicesAccountInner object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update(String,String,Sku,Map<String, String>)
+  id: update(String,String,Sku,Map<String, String>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: update(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+  nameWithType: AccountsInner.update(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 315
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Updates a Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public CognitiveServicesAccountInner update(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: sku
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Sku
+      description: <p>Gets or sets the SKU of the resource. </p>
+    - id: tags
+      type: 689c8cb5
+      description: <p>Gets or sets a list of key value pairs that describe the resource. These tags can be used in viewing and grouping this resource (across resource groups). A maximum of 15 tags can be provided for a resource. Each tag must have a key no greater than 128 characters and value no greater than 256 characters. </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+      description: <p>the CognitiveServicesAccountInner object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: 89e55a8f
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String,String)
+  id: updateAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: updateAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.updateAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 254
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Updates a Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<CognitiveServicesAccountInner> updateAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the observable to the CognitiveServicesAccountInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String,String,final ServiceCallback<CognitiveServicesAccountInner>)
+  id: updateAsync(String,String,final ServiceCallback<CognitiveServicesAccountInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: updateAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  nameWithType: AccountsInner.updateAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 242
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Updates a Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<CognitiveServicesAccountInner> updateAsync(String resourceGroupName, String accountName, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: serviceCallback
+      type: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String,String,Sku,Map<String, String>)
+  id: updateAsync(String,String,Sku,Map<String, String>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: updateAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+  nameWithType: AccountsInner.updateAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 344
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Updates a Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<CognitiveServicesAccountInner> updateAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: sku
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Sku
+      description: <p>Gets or sets the SKU of the resource. </p>
+    - id: tags
+      type: 689c8cb5
+      description: <p>Gets or sets a list of key value pairs that describe the resource. These tags can be used in viewing and grouping this resource (across resource groups). A maximum of 15 tags can be provided for a resource. Each tag must have a key no greater than 128 characters and value no greater than 256 characters. </p>
+    return:
+      type: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the observable to the CognitiveServicesAccountInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String,String,Sku,Map<String, String>,final ServiceCallback<CognitiveServicesAccountInner>)
+  id: updateAsync(String,String,Sku,Map<String, String>,final ServiceCallback<CognitiveServicesAccountInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: updateAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  nameWithType: AccountsInner.updateAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 330
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Updates a Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<CognitiveServicesAccountInner> updateAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags, final ServiceCallback<CognitiveServicesAccountInner> serviceCallback)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: sku
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Sku
+      description: <p>Gets or sets the SKU of the resource. </p>
+    - id: tags
+      type: 689c8cb5
+      description: <p>Gets or sets a list of key value pairs that describe the resource. These tags can be used in viewing and grouping this resource (across resource groups). A maximum of 15 tags can be provided for a resource. Each tag must have a key no greater than 128 characters and value no greater than 256 characters. </p>
+    - id: serviceCallback
+      type: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync(String,String)
+  id: updateWithServiceResponseAsync(String,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: updateWithServiceResponseAsync(String resourceGroupName, String accountName)
+  nameWithType: AccountsInner.updateWithServiceResponseAsync(String resourceGroupName, String accountName)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync(String resourceGroupName, String accountName)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 271
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Updates a Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<CognitiveServicesAccountInner>> updateWithServiceResponseAsync(String resourceGroupName, String accountName)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    return:
+      type: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the observable to the CognitiveServicesAccountInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync(String,String,Sku,Map<String, String>)
+  id: updateWithServiceResponseAsync(String,String,Sku,Map<String, String>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.yml
+  langs:
+  - java
+  name: updateWithServiceResponseAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+  nameWithType: AccountsInner.updateWithServiceResponseAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/AccountsInner.java
+    startLine: 363
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Updates a Cognitive Services account.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<CognitiveServicesAccountInner>> updateWithServiceResponseAsync(String resourceGroupName, String accountName, Sku sku, Map<String, String> tags)
+    parameters:
+    - id: resourceGroupName
+      type: "26831127"
+      description: <p>The name of the resource group within the user's subscription. </p>
+    - id: accountName
+      type: "26831127"
+      description: <p>The name of Cognitive Services account. </p>
+    - id: sku
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Sku
+      description: <p>Gets or sets the SKU of the resource. </p>
+    - id: tags
+      type: 689c8cb5
+      description: <p>Gets or sets a list of key value pairs that describe the resource. These tags can be used in viewing and grouping this resource (across resource groups). A maximum of 15 tags can be provided for a resource. Each tag must have a key no greater than 128 characters and value no greater than 256 characters. </p>
+    return:
+      type: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+      description: <p>the observable to the CognitiveServicesAccountInner object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.AccountsInner*
+  name: AccountsInner
+  nameWithType: AccountsInner.AccountsInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.AccountsInner
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
+- uid: 89e55a8f
+  spec.java:
+  - name: ErrorException
+    fullName: ErrorException
+- uid: 9b2a4515
+  spec.java:
+  - name: RuntimeException
+    fullName: RuntimeException
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.create*
+  name: create
+  nameWithType: AccountsInner.create
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.create
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+  spec.java:
+  - name: final ServiceCallback<
+    fullName: final ServiceCallback<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+  spec.java:
+  - name: ServiceFuture<
+    fullName: ServiceFuture<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync*
+  name: createAsync
+  nameWithType: AccountsInner.createAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+  spec.java:
+  - name: Observable<
+    fullName: Observable<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+  spec.java:
+  - name: Observable<ServiceResponse<
+    fullName: Observable<ServiceResponse<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createWithServiceResponseAsync*
+  name: createWithServiceResponseAsync
+  nameWithType: AccountsInner.createWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.createWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update*
+  name: update
+  nameWithType: AccountsInner.update
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.update
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync*
+  name: updateAsync
+  nameWithType: AccountsInner.updateAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync*
+  name: updateWithServiceResponseAsync
+  nameWithType: AccountsInner.updateWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.updateWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 689c8cb5
+  spec.java:
+  - name: Map<String, String>
+    fullName: Map<String, String>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.delete*
+  name: delete
+  nameWithType: AccountsInner.delete
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.delete
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 1c186eb5
+  spec.java:
+  - name: final ServiceCallback<Void>
+    fullName: final ServiceCallback<Void>
+- uid: aa81d378
+  spec.java:
+  - name: ServiceFuture<Void>
+    fullName: ServiceFuture<Void>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync*
+  name: deleteAsync
+  nameWithType: AccountsInner.deleteAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: dcd884b2
+  spec.java:
+  - name: Observable<Void>
+    fullName: Observable<Void>
+- uid: 27015fa1
+  spec.java:
+  - name: Observable<ServiceResponse<Void>>
+    fullName: Observable<ServiceResponse<Void>>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteWithServiceResponseAsync*
+  name: deleteWithServiceResponseAsync
+  nameWithType: AccountsInner.deleteWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.deleteWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroup*
+  name: getByResourceGroup
+  nameWithType: AccountsInner.getByResourceGroup
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroup
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync*
+  name: getByResourceGroupAsync
+  nameWithType: AccountsInner.getByResourceGroupAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupWithServiceResponseAsync*
+  name: getByResourceGroupWithServiceResponseAsync
+  nameWithType: AccountsInner.getByResourceGroupWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getByResourceGroupWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: 36b27be0com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+  spec.java:
+  - name: PagedList<
+    fullName: PagedList<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroup*
+  name: listByResourceGroup
+  nameWithType: AccountsInner.listByResourceGroup
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroup
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 3c4303efcom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnera08ddfce
+  spec.java:
+  - name: final ListOperationCallback<
+    fullName: final ListOperationCallback<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: b7698b59com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+  spec.java:
+  - name: ServiceFuture<List<
+    fullName: ServiceFuture<List<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync*
+  name: listByResourceGroupAsync
+  nameWithType: AccountsInner.listByResourceGroupAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 32da0907com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+  spec.java:
+  - name: Observable<Page<
+    fullName: Observable<Page<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner2646ccb0
+  spec.java:
+  - name: Observable<ServiceResponse<Page<
+    fullName: Observable<ServiceResponse<Page<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>>>'
+    fullName: '>>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupWithServiceResponseAsync*
+  name: listByResourceGroupWithServiceResponseAsync
+  nameWithType: AccountsInner.listByResourceGroupWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupSinglePageAsync*
+  name: listByResourceGroupSinglePageAsync
+  nameWithType: AccountsInner.listByResourceGroupSinglePageAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupSinglePageAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.list*
+  name: list
+  nameWithType: AccountsInner.list
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.list
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync*
+  name: listAsync
+  nameWithType: AccountsInner.listAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listWithServiceResponseAsync*
+  name: listWithServiceResponseAsync
+  nameWithType: AccountsInner.listWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSinglePageAsync*
+  name: listSinglePageAsync
+  nameWithType: AccountsInner.listSinglePageAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSinglePageAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeys*
+  name: listKeys
+  nameWithType: AccountsInner.listKeys
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeys
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnera08ddfce
+  spec.java:
+  - name: final ServiceCallback<
+    fullName: final ServiceCallback<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+    name: CognitiveServicesAccountKeysInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnera08ddfce
+  spec.java:
+  - name: ServiceFuture<
+    fullName: ServiceFuture<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+    name: CognitiveServicesAccountKeysInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync*
+  name: listKeysAsync
+  nameWithType: AccountsInner.listKeysAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnera08ddfce
+  spec.java:
+  - name: Observable<
+    fullName: Observable<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+    name: CognitiveServicesAccountKeysInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInnere7daa122
+  spec.java:
+  - name: Observable<ServiceResponse<
+    fullName: Observable<ServiceResponse<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+    name: CognitiveServicesAccountKeysInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysWithServiceResponseAsync*
+  name: listKeysWithServiceResponseAsync
+  nameWithType: AccountsInner.listKeysWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listKeysWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKey*
+  name: regenerateKey
+  nameWithType: AccountsInner.regenerateKey
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKey
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync*
+  name: regenerateKeyAsync
+  nameWithType: AccountsInner.regenerateKeyAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyWithServiceResponseAsync*
+  name: regenerateKeyWithServiceResponseAsync
+  nameWithType: AccountsInner.regenerateKeyWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.regenerateKeyWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkus*
+  name: listSkus
+  nameWithType: AccountsInner.listSkus
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkus
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInnera08ddfce
+  spec.java:
+  - name: final ServiceCallback<
+    fullName: final ServiceCallback<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+    name: CognitiveServicesAccountEnumerateSkusResultInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInnera08ddfce
+  spec.java:
+  - name: ServiceFuture<
+    fullName: ServiceFuture<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+    name: CognitiveServicesAccountEnumerateSkusResultInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync*
+  name: listSkusAsync
+  nameWithType: AccountsInner.listSkusAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInnera08ddfce
+  spec.java:
+  - name: Observable<
+    fullName: Observable<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+    name: CognitiveServicesAccountEnumerateSkusResultInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInnere7daa122
+  spec.java:
+  - name: Observable<ServiceResponse<
+    fullName: Observable<ServiceResponse<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+    name: CognitiveServicesAccountEnumerateSkusResultInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusWithServiceResponseAsync*
+  name: listSkusWithServiceResponseAsync
+  nameWithType: AccountsInner.listSkusWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listSkusWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages*
+  name: getUsages
+  nameWithType: AccountsInner.getUsages
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsages
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 897eb10acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnera08ddfce
+  spec.java:
+  - name: final ServiceCallback<
+    fullName: final ServiceCallback<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+    name: UsagesResultInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: c522ce07com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnera08ddfce
+  spec.java:
+  - name: ServiceFuture<
+    fullName: ServiceFuture<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+    name: UsagesResultInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync*
+  name: getUsagesAsync
+  nameWithType: AccountsInner.getUsagesAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: c2d0e8c6com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnera08ddfce
+  spec.java:
+  - name: Observable<
+    fullName: Observable<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+    name: UsagesResultInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: fc480ba2com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInnere7daa122
+  spec.java:
+  - name: Observable<ServiceResponse<
+    fullName: Observable<ServiceResponse<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+    name: UsagesResultInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync*
+  name: getUsagesWithServiceResponseAsync
+  nameWithType: AccountsInner.getUsagesWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.getUsagesWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNext*
+  name: listByResourceGroupNext
+  nameWithType: AccountsInner.listByResourceGroupNext
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNext
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: bd82102acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInnere7daa122
+  spec.java:
+  - name: final ServiceFuture<List<
+    fullName: final ServiceFuture<List<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    name: CognitiveServicesAccountInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync*
+  name: listByResourceGroupNextAsync
+  nameWithType: AccountsInner.listByResourceGroupNextAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextWithServiceResponseAsync*
+  name: listByResourceGroupNextWithServiceResponseAsync
+  nameWithType: AccountsInner.listByResourceGroupNextWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextSinglePageAsync*
+  name: listByResourceGroupNextSinglePageAsync
+  nameWithType: AccountsInner.listByResourceGroupNextSinglePageAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listByResourceGroupNextSinglePageAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNext*
+  name: listNext
+  nameWithType: AccountsInner.listNext
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNext
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync*
+  name: listNextAsync
+  nameWithType: AccountsInner.listNextAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextWithServiceResponseAsync*
+  name: listNextWithServiceResponseAsync
+  nameWithType: AccountsInner.listNextWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextSinglePageAsync*
+  name: listNextSinglePageAsync
+  nameWithType: AccountsInner.listNextSinglePageAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.AccountsInner.listNextSinglePageAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManagementClientImpl
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManagementClientImpl.yml
+  name: CognitiveServicesManagementClientImpl
+  nameWithType: CognitiveServicesManagementClientImpl
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the CognitiveServicesManagementClientImpl class. </p>
+  syntax:
+    content: public class CognitiveServicesManagementClientImpl
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner.yml
+  name: CognitiveServicesAccountInner
+  nameWithType: CognitiveServicesAccountInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountInner
+  type: Class
+  summary: <p>Cognitive Services Account is an Azure resource representing the provisioned account, its type, location and SKU. </p>
+  syntax:
+    content: public class CognitiveServicesAccountInner
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CognitiveServicesAccountCreateParameters
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CognitiveServicesAccountCreateParameters.yml
+  name: CognitiveServicesAccountCreateParameters
+  nameWithType: CognitiveServicesAccountCreateParameters
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CognitiveServicesAccountCreateParameters
+  type: Class
+  summary: <p>The parameters to provide for the account. </p>
+  syntax:
+    content: public class CognitiveServicesAccountCreateParameters
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Sku
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Sku.yml
+  name: Sku
+  nameWithType: Sku
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Sku
+  type: Class
+  summary: <p>The SKU of the cognitive services account. </p>
+  syntax:
+    content: public class Sku
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner.yml
+  name: CognitiveServicesAccountKeysInner
+  nameWithType: CognitiveServicesAccountKeysInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountKeysInner
+  type: Class
+  summary: <p>The access keys for the cognitive services account. </p>
+  syntax:
+    content: public class CognitiveServicesAccountKeysInner
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.KeyName
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.KeyName.yml
+  name: KeyName
+  nameWithType: KeyName
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.KeyName
+  type: Enum
+  summary: <p>Defines values for KeyName. </p>
+  syntax:
+    content: public enum KeyName
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner.yml
+  name: CognitiveServicesAccountEnumerateSkusResultInner
+  nameWithType: CognitiveServicesAccountEnumerateSkusResultInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesAccountEnumerateSkusResultInner
+  type: Class
+  summary: <p>The list of cognitive services accounts operation response. </p>
+  syntax:
+    content: public class CognitiveServicesAccountEnumerateSkusResultInner
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner.yml
+  name: UsagesResultInner
+  nameWithType: UsagesResultInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.UsagesResultInner
+  type: Class
+  summary: <p>The response to a list usage request. </p>
+  syntax:
+    content: public class UsagesResultInner
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ErrorException
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ErrorException.yml
+  name: ErrorException
+  nameWithType: ErrorException
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ErrorException
+  type: Class
+  summary: <p>Exception thrown for an invalid response with Error information. </p>
+  syntax:
+    content: public class ErrorException
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.PageImpl
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.PageImpl.yml
+  name: PageImpl<T>
+  nameWithType: PageImpl<T>
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.PageImpl<T>
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of Azure resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+      description: <p>type of Azure resource </p>

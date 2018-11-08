@@ -1,0 +1,640 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.sql.SqlServer
+  id: SqlServer
+  parent: com.microsoft.azure.management.sql
+  children:
+  - com.microsoft.azure.management.sql.SqlServer.administratorLogin()
+  - com.microsoft.azure.management.sql.SqlServer.databases()
+  - com.microsoft.azure.management.sql.SqlServer.elasticPools()
+  - com.microsoft.azure.management.sql.SqlServer.firewallRules()
+  - com.microsoft.azure.management.sql.SqlServer.fullyQualifiedDomainName()
+  - com.microsoft.azure.management.sql.SqlServer.getServiceObjective(String)
+  - com.microsoft.azure.management.sql.SqlServer.listRecommendedElasticPools()
+  - com.microsoft.azure.management.sql.SqlServer.listServiceObjectives()
+  - com.microsoft.azure.management.sql.SqlServer.listUsages()
+  - com.microsoft.azure.management.sql.SqlServer.version()
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: SqlServer
+  nameWithType: SqlServer
+  fullName: com.microsoft.azure.management.sql.SqlServer
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+      branch: v1.3.0
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 26
+  package: com.microsoft.azure.management.sql
+  summary: "<p>An immutable client-side representation of an Azure SQL Server. </p>"
+  syntax:
+    content: public interface SqlServer extends GroupableResource<SqlServerManager, ServerInner>,Refreshable<SqlServer>,Updatable<SqlServer.Update>
+  inheritedMembers:
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.HasId.id()
+  - com.microsoft.azure.management.resources.fluentcore.model.HasInner.inner()
+  - com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager.manager()
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
+  - com.microsoft.azure.management.resources.fluentcore.model.Refreshable.refresh()
+  - com.microsoft.azure.management.resources.fluentcore.model.Refreshable.refreshAsync()
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.HasResourceGroup.resourceGroupName()
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.tags()
+  - com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.type()
+  - com.microsoft.azure.management.resources.fluentcore.model.Updatable.update()
+- uid: com.microsoft.azure.management.sql.SqlServer.administratorLogin()
+  id: administratorLogin()
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: administratorLogin()
+  nameWithType: SqlServer.administratorLogin()
+  fullName: com.microsoft.azure.management.sql.SqlServer.administratorLogin()
+  overload: com.microsoft.azure.management.sql.SqlServer.administratorLogin*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 44
+  package: com.microsoft.azure.management.sql
+  syntax:
+    content: public String administratorLogin()
+    return:
+      type: "26831127"
+      description: <p>the administrator login user name for the SQL Server </p>
+- uid: com.microsoft.azure.management.sql.SqlServer.databases()
+  id: databases()
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: databases()
+  nameWithType: SqlServer.databases()
+  fullName: com.microsoft.azure.management.sql.SqlServer.databases()
+  overload: com.microsoft.azure.management.sql.SqlServer.databases*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 59
+  package: com.microsoft.azure.management.sql
+  syntax:
+    content: public Databases databases()
+    return:
+      type: com.microsoft.azure.management.sql.SqlServer.Databases
+      description: <p>entry point to manage Databases in SqlServer. </p>
+- uid: com.microsoft.azure.management.sql.SqlServer.elasticPools()
+  id: elasticPools()
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: elasticPools()
+  nameWithType: SqlServer.elasticPools()
+  fullName: com.microsoft.azure.management.sql.SqlServer.elasticPools()
+  overload: com.microsoft.azure.management.sql.SqlServer.elasticPools*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 54
+  package: com.microsoft.azure.management.sql
+  syntax:
+    content: public ElasticPools elasticPools()
+    return:
+      type: com.microsoft.azure.management.sql.SqlServer.ElasticPools
+      description: <p>returns entry point to manage ElasticPools in SqlServer. </p>
+- uid: com.microsoft.azure.management.sql.SqlServer.firewallRules()
+  id: firewallRules()
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: firewallRules()
+  nameWithType: SqlServer.firewallRules()
+  fullName: com.microsoft.azure.management.sql.SqlServer.firewallRules()
+  overload: com.microsoft.azure.management.sql.SqlServer.firewallRules*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 49
+  package: com.microsoft.azure.management.sql
+  syntax:
+    content: public FirewallRules firewallRules()
+    return:
+      type: com.microsoft.azure.management.sql.SqlServer.FirewallRules
+      description: <p>returns entry point to manage FirewallRules in SqlServer. </p>
+- uid: com.microsoft.azure.management.sql.SqlServer.fullyQualifiedDomainName()
+  id: fullyQualifiedDomainName()
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: fullyQualifiedDomainName()
+  nameWithType: SqlServer.fullyQualifiedDomainName()
+  fullName: com.microsoft.azure.management.sql.SqlServer.fullyQualifiedDomainName()
+  overload: com.microsoft.azure.management.sql.SqlServer.fullyQualifiedDomainName*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 34
+  package: com.microsoft.azure.management.sql
+  syntax:
+    content: public String fullyQualifiedDomainName()
+    return:
+      type: "26831127"
+      description: <p>fully qualified name of the SQL Server </p>
+- uid: com.microsoft.azure.management.sql.SqlServer.getServiceObjective(String)
+  id: getServiceObjective(String)
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: getServiceObjective(String serviceObjectiveName)
+  nameWithType: SqlServer.getServiceObjective(String serviceObjectiveName)
+  fullName: com.microsoft.azure.management.sql.SqlServer.getServiceObjective(String serviceObjectiveName)
+  overload: com.microsoft.azure.management.sql.SqlServer.getServiceObjective*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 76
+  package: com.microsoft.azure.management.sql
+  summary: "<p>Gets the information on a particular Sql Server Service Objective. </p>"
+  syntax:
+    content: public ServiceObjective getServiceObjective(String serviceObjectiveName)
+    parameters:
+    - id: serviceObjectiveName
+      type: "26831127"
+      description: <p>name of the service objective to be fetched </p>
+    return:
+      type: com.microsoft.azure.management.sql.ServiceObjective
+      description: <p>information of the service objective </p>
+- uid: com.microsoft.azure.management.sql.SqlServer.listRecommendedElasticPools()
+  id: listRecommendedElasticPools()
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: listRecommendedElasticPools()
+  nameWithType: SqlServer.listRecommendedElasticPools()
+  fullName: com.microsoft.azure.management.sql.SqlServer.listRecommendedElasticPools()
+  overload: com.microsoft.azure.management.sql.SqlServer.listRecommendedElasticPools*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 83
+  package: com.microsoft.azure.management.sql
+  summary: "<p>Returns all the recommended elastic pools for the server.</p>\r\n<p></p>"
+  syntax:
+    content: public Map<String, RecommendedElasticPool> listRecommendedElasticPools()
+    return:
+      type: 2108f1f4com.microsoft.azure.management.sql.RecommendedElasticPoola08ddfce
+      description: <p>list of recommended elastic pools for the server </p>
+- uid: com.microsoft.azure.management.sql.SqlServer.listServiceObjectives()
+  id: listServiceObjectives()
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: listServiceObjectives()
+  nameWithType: SqlServer.listServiceObjectives()
+  fullName: com.microsoft.azure.management.sql.SqlServer.listServiceObjectives()
+  overload: com.microsoft.azure.management.sql.SqlServer.listServiceObjectives*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 69
+  package: com.microsoft.azure.management.sql
+  syntax:
+    content: public List<ServiceObjective> listServiceObjectives()
+    return:
+      type: 5618da2dcom.microsoft.azure.management.sql.ServiceObjectivea08ddfce
+      description: <p>the list of information on all service objectives </p>
+- uid: com.microsoft.azure.management.sql.SqlServer.listUsages()
+  id: listUsages()
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: listUsages()
+  nameWithType: SqlServer.listUsages()
+  fullName: com.microsoft.azure.management.sql.SqlServer.listUsages()
+  overload: com.microsoft.azure.management.sql.SqlServer.listUsages*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 64
+  package: com.microsoft.azure.management.sql
+  syntax:
+    content: public List<ServerMetric> listUsages()
+    return:
+      type: 5618da2dcom.microsoft.azure.management.sql.ServerMetrica08ddfce
+      description: <p>returns the list of usages (ServerMetric) of Azure SQL Server </p>
+- uid: com.microsoft.azure.management.sql.SqlServer.version()
+  id: version()
+  parent: com.microsoft.azure.management.sql.SqlServer
+  href: com.microsoft.azure.management.sql.SqlServer.yml
+  langs:
+  - java
+  name: version()
+  nameWithType: SqlServer.version()
+  fullName: com.microsoft.azure.management.sql.SqlServer.version()
+  overload: com.microsoft.azure.management.sql.SqlServer.version*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlServer.java
+    startLine: 39
+  package: com.microsoft.azure.management.sql
+  syntax:
+    content: public ServerVersion version()
+    return:
+      type: com.microsoft.azure.management.sql.ServerVersion
+      description: <p>the version of the SQL Server </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.sql.SqlServer.fullyQualifiedDomainName*
+  name: fullyQualifiedDomainName
+  nameWithType: SqlServer.fullyQualifiedDomainName
+  fullName: com.microsoft.azure.management.sql.SqlServer.fullyQualifiedDomainName
+  package: com.microsoft.azure.management.sql
+- uid: com.microsoft.azure.management.sql.SqlServer.version*
+  name: version
+  nameWithType: SqlServer.version
+  fullName: com.microsoft.azure.management.sql.SqlServer.version
+  package: com.microsoft.azure.management.sql
+- uid: com.microsoft.azure.management.sql.SqlServer.administratorLogin*
+  name: administratorLogin
+  nameWithType: SqlServer.administratorLogin
+  fullName: com.microsoft.azure.management.sql.SqlServer.administratorLogin
+  package: com.microsoft.azure.management.sql
+- uid: com.microsoft.azure.management.sql.SqlServer.firewallRules*
+  name: firewallRules
+  nameWithType: SqlServer.firewallRules
+  fullName: com.microsoft.azure.management.sql.SqlServer.firewallRules
+  package: com.microsoft.azure.management.sql
+- uid: com.microsoft.azure.management.sql.SqlServer.elasticPools*
+  name: elasticPools
+  nameWithType: SqlServer.elasticPools
+  fullName: com.microsoft.azure.management.sql.SqlServer.elasticPools
+  package: com.microsoft.azure.management.sql
+- uid: com.microsoft.azure.management.sql.SqlServer.databases*
+  name: databases
+  nameWithType: SqlServer.databases
+  fullName: com.microsoft.azure.management.sql.SqlServer.databases
+  package: com.microsoft.azure.management.sql
+- uid: 5618da2dcom.microsoft.azure.management.sql.ServerMetrica08ddfce
+  spec.java:
+  - name: List<
+    fullName: List<
+  - uid: com.microsoft.azure.management.sql.ServerMetric
+    name: ServerMetric
+    fullName: com.microsoft.azure.management.sql.ServerMetric
+    href: com.microsoft.azure.management.sql.ServerMetric.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.sql.SqlServer.listUsages*
+  name: listUsages
+  nameWithType: SqlServer.listUsages
+  fullName: com.microsoft.azure.management.sql.SqlServer.listUsages
+  package: com.microsoft.azure.management.sql
+- uid: 5618da2dcom.microsoft.azure.management.sql.ServiceObjectivea08ddfce
+  spec.java:
+  - name: List<
+    fullName: List<
+  - uid: com.microsoft.azure.management.sql.ServiceObjective
+    name: ServiceObjective
+    fullName: com.microsoft.azure.management.sql.ServiceObjective
+    href: com.microsoft.azure.management.sql.ServiceObjective.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.sql.SqlServer.listServiceObjectives*
+  name: listServiceObjectives
+  nameWithType: SqlServer.listServiceObjectives
+  fullName: com.microsoft.azure.management.sql.SqlServer.listServiceObjectives
+  package: com.microsoft.azure.management.sql
+- uid: com.microsoft.azure.management.sql.SqlServer.getServiceObjective*
+  name: getServiceObjective
+  nameWithType: SqlServer.getServiceObjective
+  fullName: com.microsoft.azure.management.sql.SqlServer.getServiceObjective
+  package: com.microsoft.azure.management.sql
+- uid: 2108f1f4com.microsoft.azure.management.sql.RecommendedElasticPoola08ddfce
+  spec.java:
+  - name: 'Map<String, '
+    fullName: 'Map<String, '
+  - uid: com.microsoft.azure.management.sql.RecommendedElasticPool
+    name: RecommendedElasticPool
+    fullName: com.microsoft.azure.management.sql.RecommendedElasticPool
+    href: com.microsoft.azure.management.sql.RecommendedElasticPool.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.sql.SqlServer.listRecommendedElasticPools*
+  name: listRecommendedElasticPools
+  nameWithType: SqlServer.listRecommendedElasticPools
+  fullName: com.microsoft.azure.management.sql.SqlServer.listRecommendedElasticPools
+  package: com.microsoft.azure.management.sql
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId.id()
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId.yml
+  name: id()
+  nameWithType: HasId.id()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasId.id()
+  type: Method
+  syntax:
+    content: public String id()
+    return:
+      type: "26831127"
+      description: <p>the resource ID string </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.HasInner.inner()
+  parent: com.microsoft.azure.management.resources.fluentcore.model.HasInner
+  href: com.microsoft.azure.management.resources.fluentcore.model.HasInner.yml
+  name: inner()
+  nameWithType: HasInner<T>.inner()
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>.inner()
+  type: Method
+  syntax:
+    content: public T inner()
+    return:
+      type: 8ce1ecb9
+      description: <p>wrapped inner object providing direct access to the underlying auto-generated API implementation, based on Azure REST API </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
+  parent: com.microsoft.azure.management.resources.fluentcore.model.Indexable
+  href: com.microsoft.azure.management.resources.fluentcore.model.Indexable.yml
+  name: key()
+  nameWithType: Indexable.key()
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
+  type: Method
+  syntax:
+    content: public String key()
+    return:
+      type: "26831127"
+      description: <p>the index key. </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager.manager()
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager.yml
+  name: manager()
+  nameWithType: HasManager<ManagerT>.manager()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager<ManagerT>.manager()
+  type: Method
+  syntax:
+    content: public ManagerT manager()
+    return:
+      type: 8b0aab42
+      description: <p>the manager client of this resource type </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.yml
+  name: name()
+  nameWithType: HasName.name()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
+  type: Method
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+      description: <p>the name of the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Refreshable.refresh()
+  parent: com.microsoft.azure.management.resources.fluentcore.model.Refreshable
+  href: com.microsoft.azure.management.resources.fluentcore.model.Refreshable.yml
+  name: refresh()
+  nameWithType: Refreshable<T>.refresh()
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refresh()
+  type: Method
+  summary: >-
+    <p>Refreshes the resource to sync with Azure.</p>
+
+    <p></p>
+  syntax:
+    content: public T refresh()
+    return:
+      type: 8ce1ecb9
+      description: <p>the refreshed resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Refreshable.refreshAsync()
+  parent: com.microsoft.azure.management.resources.fluentcore.model.Refreshable
+  href: com.microsoft.azure.management.resources.fluentcore.model.Refreshable.yml
+  name: refreshAsync()
+  nameWithType: Refreshable<T>.refreshAsync()
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>.refreshAsync()
+  type: Method
+  summary: >-
+    <p>Refreshes the resource to sync with Azure.</p>
+
+    <p></p>
+  syntax:
+    content: public Observable<T> refreshAsync()
+    return:
+      type: c4094ba1
+      description: <p>the Observable to refreshed resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.yml
+  name: region()
+  nameWithType: Resource.region()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.region()
+  type: Method
+  syntax:
+    content: public Region region()
+    return:
+      type: com.microsoft.azure.management.resources.fluentcore.arm.Region
+      description: <p>the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.yml
+  name: regionName()
+  nameWithType: Resource.regionName()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.regionName()
+  type: Method
+  syntax:
+    content: public String regionName()
+    return:
+      type: "26831127"
+      description: <p>the name of the region the resource is in </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.HasResourceGroup.resourceGroupName()
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.HasResourceGroup
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.HasResourceGroup.yml
+  name: resourceGroupName()
+  nameWithType: HasResourceGroup.resourceGroupName()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.HasResourceGroup.resourceGroupName()
+  type: Method
+  syntax:
+    content: public String resourceGroupName()
+    return:
+      type: "26831127"
+      description: <p>the name of the resource group </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.tags()
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.yml
+  name: tags()
+  nameWithType: Resource.tags()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.tags()
+  type: Method
+  syntax:
+    content: public Map<String, String> tags()
+    return:
+      type: 689c8cb5
+      description: <p>the tags for the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.type()
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.yml
+  name: type()
+  nameWithType: Resource.type()
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.type()
+  type: Method
+  syntax:
+    content: public String type()
+    return:
+      type: "26831127"
+      description: <p>the type of the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Updatable.update()
+  parent: com.microsoft.azure.management.resources.fluentcore.model.Updatable
+  href: com.microsoft.azure.management.resources.fluentcore.model.Updatable.yml
+  name: update()
+  nameWithType: Updatable<T>.update()
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>.update()
+  type: Method
+  summary: >-
+    <p>Begins an update for a new resource. </p>
+
+    <p>This is the beginning of the builder pattern used to update top level resources in Azure. The final method completing the definition and starting the actual resource creation process in Azure is <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false">Appliable#apply()</xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public T update()
+    return:
+      type: 8ce1ecb9
+      description: <p>the stage of new resource update </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource
+  parent: com.microsoft.azure.management.resources.fluentcore.arm.models
+  href: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource.yml
+  name: GroupableResource<TManager,InnerT>
+  nameWithType: GroupableResource<TManager,InnerT>
+  fullName: com.microsoft.azure.management.resources.fluentcore.arm.models.GroupableResource<TManager,InnerT>
+  type: Interface
+  summary: <p>Base interface for resources in resource groups. </p>
+  syntax:
+    content: public interface GroupableResource<TManager,InnerT> extends Resource,HasResourceGroup,HasManager<TManager>,HasInner<InnerT>
+    typeParameters:
+    - id: TManager
+      type: 20e9f9a4
+      description: <p>the manager object type representing the service </p>
+    - id: InnerT
+      type: 52cf8095
+      description: <p>the wrapped, inner, auto-generated implementation object type </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Refreshable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model.Refreshable.yml
+  name: Refreshable<T>
+  nameWithType: Refreshable<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
+  type: Interface
+  summary: >-
+    <p>Base class for resources that can be refreshed to get the latest state.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Refreshable<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Updatable
+  parent: com.microsoft.azure.management.resources.fluentcore.model
+  href: com.microsoft.azure.management.resources.fluentcore.model.Updatable.yml
+  name: Updatable<T>
+  nameWithType: Updatable<T>
+  fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
+  type: Interface
+  summary: >-
+    <p>Base class for resource that can be updated.</p>
+
+    <p></p>
+  syntax:
+    content: public interface Updatable<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+      description: <p>the fluent type of the resource </p>
+- uid: com.microsoft.azure.management.sql.ServerVersion
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.ServerVersion.yml
+  name: ServerVersion
+  nameWithType: ServerVersion
+  fullName: com.microsoft.azure.management.sql.ServerVersion
+  type: Class
+  summary: <p>Defines values for ServerVersion. </p>
+  syntax:
+    content: public class ServerVersion
+- uid: com.microsoft.azure.management.sql.SqlServer.FirewallRules
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.SqlServer.FirewallRules.yml
+  name: SqlServer.FirewallRules
+  nameWithType: SqlServer.FirewallRules
+  fullName: com.microsoft.azure.management.sql.SqlServer.FirewallRules
+  type: Interface
+  summary: <p>Entry point to firewall rules from the SQL Server. </p>
+  syntax:
+    content: public interface FirewallRules
+- uid: com.microsoft.azure.management.sql.SqlServer.ElasticPools
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.SqlServer.ElasticPools.yml
+  name: SqlServer.ElasticPools
+  nameWithType: SqlServer.ElasticPools
+  fullName: com.microsoft.azure.management.sql.SqlServer.ElasticPools
+  type: Interface
+  summary: <p>Entry point to elastic pools from the SQL Server. </p>
+  syntax:
+    content: public interface ElasticPools
+- uid: com.microsoft.azure.management.sql.SqlServer.Databases
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.SqlServer.Databases.yml
+  name: SqlServer.Databases
+  nameWithType: SqlServer.Databases
+  fullName: com.microsoft.azure.management.sql.SqlServer.Databases
+  type: Interface
+  summary: <p>Entry point to databases from the SQL Server. </p>
+  syntax:
+    content: public interface Databases
+- uid: com.microsoft.azure.management.sql.ServerMetric
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.ServerMetric.yml
+  name: ServerMetric
+  nameWithType: ServerMetric
+  fullName: com.microsoft.azure.management.sql.ServerMetric
+  type: Interface
+  summary: <p>An immutable client-side representation of an Azure SQL ServerMetric. </p>
+  syntax:
+    content: public interface ServerMetric extends HasInner<ServerMetricInner>
+- uid: com.microsoft.azure.management.sql.ServiceObjective
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.ServiceObjective.yml
+  name: ServiceObjective
+  nameWithType: ServiceObjective
+  fullName: com.microsoft.azure.management.sql.ServiceObjective
+  type: Interface
+  summary: <p>An immutable client-side representation of an Azure SQL Service Objective. </p>
+  syntax:
+    content: public interface ServiceObjective extends HasInner<ServiceObjectiveInner>,Refreshable<ServiceObjective>,HasResourceGroup,HasName,HasId
+- uid: com.microsoft.azure.management.sql.RecommendedElasticPool
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.RecommendedElasticPool.yml
+  name: RecommendedElasticPool
+  nameWithType: RecommendedElasticPool
+  fullName: com.microsoft.azure.management.sql.RecommendedElasticPool
+  type: Interface
+  summary: <p>An immutable client-side representation of an Azure SQL Recommended ElasticPool. </p>
+  syntax:
+    content: public interface RecommendedElasticPool extends Refreshable<RecommendedElasticPool>,HasInner<RecommendedElasticPoolInner>,HasResourceGroup,HasName,HasId,HasManager<SqlServerManager>

@@ -3,7 +3,7 @@ items:
 - uid: com.microsoft.applicationinsights.extensibility.initializer.docker
   id: docker
   children:
-  - com.microsoft.applicationinsights.extensibility.initializer.docker._docker_context_initializer
+  - com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer
   href: com.microsoft.applicationinsights.extensibility.initializer.docker.yml
   langs:
   - java
@@ -21,9 +21,9 @@ items:
   syntax:
     content: package com.microsoft.applicationinsights.extensibility.initializer.docker
 references:
-- uid: com.microsoft.applicationinsights.extensibility.initializer.docker._docker_context_initializer
+- uid: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer
   parent: com.microsoft.applicationinsights.extensibility.initializer.docker
-  href: com.microsoft.applicationinsights.extensibility.initializer.docker._docker_context_initializer.yml
+  href: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer.yml
   name: DockerContextInitializer
   nameWithType: DockerContextInitializer
   fullName: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer

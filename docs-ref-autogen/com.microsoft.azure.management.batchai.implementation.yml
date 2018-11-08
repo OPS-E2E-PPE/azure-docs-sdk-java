@@ -3,33 +3,27 @@ items:
 - uid: com.microsoft.azure.management.batchai.implementation
   id: implementation
   children:
-  - com.microsoft.azure.management.batchai.implementation._batch_a_i_management_client_impl
-  - com.microsoft.azure.management.batchai.implementation._batch_a_i_manager
-  - com.microsoft.azure.management.batchai.implementation._batch_a_i_manager._configurable
-  - com.microsoft.azure.management.batchai.implementation._cluster_create_parameters_inner
-  - com.microsoft.azure.management.batchai.implementation._cluster_inner
-  - com.microsoft.azure.management.batchai.implementation._cluster_update_parameters_inner
-  - com.microsoft.azure.management.batchai.implementation._clusters_inner
-  - com.microsoft.azure.management.batchai.implementation._clusters_list_by_resource_group_options_inner
-  - com.microsoft.azure.management.batchai.implementation._clusters_list_options_inner
-  - com.microsoft.azure.management.batchai.implementation._file_inner
-  - com.microsoft.azure.management.batchai.implementation._file_server_create_parameters_inner
-  - com.microsoft.azure.management.batchai.implementation._file_server_inner
-  - com.microsoft.azure.management.batchai.implementation._file_servers_inner
-  - com.microsoft.azure.management.batchai.implementation._file_servers_list_by_resource_group_options_inner
-  - com.microsoft.azure.management.batchai.implementation._file_servers_list_options_inner
-  - com.microsoft.azure.management.batchai.implementation._job_create_parameters_inner
-  - com.microsoft.azure.management.batchai.implementation._job_inner
-  - com.microsoft.azure.management.batchai.implementation._jobs_inner
-  - com.microsoft.azure.management.batchai.implementation._jobs_list_by_resource_group_options_inner
-  - com.microsoft.azure.management.batchai.implementation._jobs_list_options_inner
-  - com.microsoft.azure.management.batchai.implementation._jobs_list_output_files_options_inner
-  - com.microsoft.azure.management.batchai.implementation._operation_inner
-  - com.microsoft.azure.management.batchai.implementation._operations_inner
-  - com.microsoft.azure.management.batchai.implementation._page_impl
-  - com.microsoft.azure.management.batchai.implementation._remote_login_information_inner
-  - com.microsoft.azure.management.batchai.implementation._usage_inner
-  - com.microsoft.azure.management.batchai.implementation._usages_inner
+  - com.microsoft.azure.management.batchai.implementation.BatchAIManagementClientImpl
+  - com.microsoft.azure.management.batchai.implementation.BatchAIManager
+  - com.microsoft.azure.management.batchai.implementation.BatchAIManager.Configurable
+  - com.microsoft.azure.management.batchai.implementation.BatchAIWorkspacesImpl
+  - com.microsoft.azure.management.batchai.implementation.ClusterInner
+  - com.microsoft.azure.management.batchai.implementation.ClustersInner
+  - com.microsoft.azure.management.batchai.implementation.ExperimentInner
+  - com.microsoft.azure.management.batchai.implementation.ExperimentsInner
+  - com.microsoft.azure.management.batchai.implementation.FileInner
+  - com.microsoft.azure.management.batchai.implementation.FileServerInner
+  - com.microsoft.azure.management.batchai.implementation.FileServersInner
+  - com.microsoft.azure.management.batchai.implementation.JobInner
+  - com.microsoft.azure.management.batchai.implementation.JobsInner
+  - com.microsoft.azure.management.batchai.implementation.OperationInner
+  - com.microsoft.azure.management.batchai.implementation.OperationsInner
+  - com.microsoft.azure.management.batchai.implementation.PageImpl
+  - com.microsoft.azure.management.batchai.implementation.RemoteLoginInformationInner
+  - com.microsoft.azure.management.batchai.implementation.UsageInner
+  - com.microsoft.azure.management.batchai.implementation.UsagesInner
+  - com.microsoft.azure.management.batchai.implementation.WorkspaceInner
+  - com.microsoft.azure.management.batchai.implementation.WorkspacesInner
   href: com.microsoft.azure.management.batchai.implementation.yml
   langs:
   - java
@@ -44,103 +38,83 @@ items:
       repo: https://github.com/Azure/azure-libraries-for-java
     path: azure-mgmt-batchai/src/main/java/com/microsoft/azure/management/batchai/implementation/AzureBlobFileSystemImpl.java
     startLine: 5
-  summary: <p>This package contains the implementation classes for BatchAIManagementClient. The <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> BatchAI Management API. </p>
+  summary: "<p>This package contains the implementation classes for BatchAIManagementClient. The Azure BatchAI Management API. </p>"
   syntax:
     content: package com.microsoft.azure.management.batchai.implementation
 references:
-- uid: com.microsoft.azure.management._azure
-  parent: com.microsoft.azure.management
-  href: com.microsoft.azure.management._azure.yml
-  name: Azure
-  nameWithType: Azure
-  fullName: com.microsoft.azure.management.Azure
-  type: Class
-  summary: <p>The entry point for accessing resource management APIs in <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref>. </p>
-  syntax:
-    content: public class Azure
-- uid: com.microsoft.azure.management.batchai.implementation._batch_a_i_management_client_impl
+- uid: com.microsoft.azure.management.batchai.implementation.BatchAIManagementClientImpl
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._batch_a_i_management_client_impl.yml
+  href: com.microsoft.azure.management.batchai.implementation.BatchAIManagementClientImpl.yml
   name: BatchAIManagementClientImpl
   nameWithType: BatchAIManagementClientImpl
   fullName: com.microsoft.azure.management.batchai.implementation.BatchAIManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref uid="com.microsoft.azure.management.batchai.implementation._batch_a_i_management_client_impl" data-throw-if-not-resolved="false">BatchAIManagementClientImpl</xref> class. </p>
+  summary: <p>Initializes a new instance of the BatchAIManagementClientImpl class. </p>
   syntax:
     content: public class BatchAIManagementClientImpl
-- uid: com.microsoft.azure.management.batchai.implementation._batch_a_i_manager
+- uid: com.microsoft.azure.management.batchai.implementation.BatchAIManager
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._batch_a_i_manager.yml
+  href: com.microsoft.azure.management.batchai.implementation.BatchAIManager.yml
   name: BatchAIManager
   nameWithType: BatchAIManager
   fullName: com.microsoft.azure.management.batchai.implementation.BatchAIManager
   type: Class
-  summary: <p>Entry point to <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> BatchAI resource management. </p>
+  summary: <p>Entry point to Azure BatchAI resource management. </p>
   syntax:
     content: public class BatchAIManager
-- uid: com.microsoft.azure.management.batchai.implementation._cluster_create_parameters_inner
+- uid: com.microsoft.azure.management.batchai.implementation.BatchAIWorkspacesImpl
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._cluster_create_parameters_inner.yml
-  name: ClusterCreateParametersInner
-  nameWithType: ClusterCreateParametersInner
-  fullName: com.microsoft.azure.management.batchai.implementation.ClusterCreateParametersInner
+  href: com.microsoft.azure.management.batchai.implementation.BatchAIWorkspacesImpl.yml
+  name: BatchAIWorkspacesImpl
+  nameWithType: BatchAIWorkspacesImpl
+  fullName: com.microsoft.azure.management.batchai.implementation.BatchAIWorkspacesImpl
   type: Class
-  summary: <p>Parameters supplied to the Create operation. </p>
+  summary: <p>Implementation for Workspaces. </p>
   syntax:
-    content: public class ClusterCreateParametersInner
-- uid: com.microsoft.azure.management.batchai.implementation._cluster_inner
+    content: public class BatchAIWorkspacesImpl implements BatchAIWorkspaces
+- uid: com.microsoft.azure.management.batchai.implementation.ClusterInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._cluster_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.ClusterInner.yml
   name: ClusterInner
   nameWithType: ClusterInner
   fullName: com.microsoft.azure.management.batchai.implementation.ClusterInner
   type: Class
-  summary: <p>Contains information about a Cluster. </p>
+  summary: <p>Information about a Cluster. </p>
   syntax:
     content: public class ClusterInner
-- uid: com.microsoft.azure.management.batchai.implementation._clusters_inner
+- uid: com.microsoft.azure.management.batchai.implementation.ClustersInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._clusters_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.ClustersInner.yml
   name: ClustersInner
   nameWithType: ClustersInner
   fullName: com.microsoft.azure.management.batchai.implementation.ClustersInner
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in Clusters. </p>
   syntax:
-    content: public class ClustersInner implements InnerSupportsGet<ClusterInner>,InnerSupportsDelete<Void>,InnerSupportsListing<ClusterInner>
-- uid: com.microsoft.azure.management.batchai.implementation._clusters_list_by_resource_group_options_inner
+    content: public class ClustersInner
+- uid: com.microsoft.azure.management.batchai.implementation.ExperimentInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._clusters_list_by_resource_group_options_inner.yml
-  name: ClustersListByResourceGroupOptionsInner
-  nameWithType: ClustersListByResourceGroupOptionsInner
-  fullName: com.microsoft.azure.management.batchai.implementation.ClustersListByResourceGroupOptionsInner
+  href: com.microsoft.azure.management.batchai.implementation.ExperimentInner.yml
+  name: ExperimentInner
+  nameWithType: ExperimentInner
+  fullName: com.microsoft.azure.management.batchai.implementation.ExperimentInner
   type: Class
-  summary: <p>Additional parameters for listByResourceGroup operation. </p>
+  summary: <p>Experiment information. </p>
   syntax:
-    content: public class ClustersListByResourceGroupOptionsInner
-- uid: com.microsoft.azure.management.batchai.implementation._clusters_list_options_inner
+    content: public class ExperimentInner
+- uid: com.microsoft.azure.management.batchai.implementation.ExperimentsInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._clusters_list_options_inner.yml
-  name: ClustersListOptionsInner
-  nameWithType: ClustersListOptionsInner
-  fullName: com.microsoft.azure.management.batchai.implementation.ClustersListOptionsInner
+  href: com.microsoft.azure.management.batchai.implementation.ExperimentsInner.yml
+  name: ExperimentsInner
+  nameWithType: ExperimentsInner
+  fullName: com.microsoft.azure.management.batchai.implementation.ExperimentsInner
   type: Class
-  summary: <p>Additional parameters for list operation. </p>
+  summary: <p>An instance of this class provides access to all the operations defined in Experiments. </p>
   syntax:
-    content: public class ClustersListOptionsInner
-- uid: com.microsoft.azure.management.batchai.implementation._cluster_update_parameters_inner
+    content: public class ExperimentsInner
+- uid: com.microsoft.azure.management.batchai.implementation.FileInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._cluster_update_parameters_inner.yml
-  name: ClusterUpdateParametersInner
-  nameWithType: ClusterUpdateParametersInner
-  fullName: com.microsoft.azure.management.batchai.implementation.ClusterUpdateParametersInner
-  type: Class
-  summary: <p>Parameters supplied to the Update operation. </p>
-  syntax:
-    content: public class ClusterUpdateParametersInner
-- uid: com.microsoft.azure.management.batchai.implementation._file_inner
-  parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._file_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.FileInner.yml
   name: FileInner
   nameWithType: FileInner
   fullName: com.microsoft.azure.management.batchai.implementation.FileInner
@@ -148,119 +122,49 @@ references:
   summary: <p>Properties of the file or directory. </p>
   syntax:
     content: public class FileInner
-- uid: com.microsoft.azure.management.batchai.implementation._file_server_create_parameters_inner
+- uid: com.microsoft.azure.management.batchai.implementation.FileServerInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._file_server_create_parameters_inner.yml
-  name: FileServerCreateParametersInner
-  nameWithType: FileServerCreateParametersInner
-  fullName: com.microsoft.azure.management.batchai.implementation.FileServerCreateParametersInner
-  type: Class
-  summary: <p>Parameters supplied to the Create operation. </p>
-  syntax:
-    content: public class FileServerCreateParametersInner
-- uid: com.microsoft.azure.management.batchai.implementation._file_server_inner
-  parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._file_server_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.FileServerInner.yml
   name: FileServerInner
   nameWithType: FileServerInner
   fullName: com.microsoft.azure.management.batchai.implementation.FileServerInner
   type: Class
-  summary: <p>Contains information about the File Server. </p>
+  summary: <p>File Server information. </p>
   syntax:
     content: public class FileServerInner
-- uid: com.microsoft.azure.management.batchai.implementation._file_servers_inner
+- uid: com.microsoft.azure.management.batchai.implementation.FileServersInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._file_servers_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.FileServersInner.yml
   name: FileServersInner
   nameWithType: FileServersInner
   fullName: com.microsoft.azure.management.batchai.implementation.FileServersInner
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in FileServers. </p>
   syntax:
-    content: public class FileServersInner implements InnerSupportsGet<FileServerInner>,InnerSupportsDelete<Void>,InnerSupportsListing<FileServerInner>
-- uid: com.microsoft.azure.management.batchai.implementation._file_servers_list_by_resource_group_options_inner
+    content: public class FileServersInner
+- uid: com.microsoft.azure.management.batchai.implementation.JobInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._file_servers_list_by_resource_group_options_inner.yml
-  name: FileServersListByResourceGroupOptionsInner
-  nameWithType: FileServersListByResourceGroupOptionsInner
-  fullName: com.microsoft.azure.management.batchai.implementation.FileServersListByResourceGroupOptionsInner
-  type: Class
-  summary: <p>Additional parameters for listByResourceGroup operation. </p>
-  syntax:
-    content: public class FileServersListByResourceGroupOptionsInner
-- uid: com.microsoft.azure.management.batchai.implementation._file_servers_list_options_inner
-  parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._file_servers_list_options_inner.yml
-  name: FileServersListOptionsInner
-  nameWithType: FileServersListOptionsInner
-  fullName: com.microsoft.azure.management.batchai.implementation.FileServersListOptionsInner
-  type: Class
-  summary: <p>Additional parameters for list operation. </p>
-  syntax:
-    content: public class FileServersListOptionsInner
-- uid: com.microsoft.azure.management.batchai.implementation._job_create_parameters_inner
-  parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._job_create_parameters_inner.yml
-  name: JobCreateParametersInner
-  nameWithType: JobCreateParametersInner
-  fullName: com.microsoft.azure.management.batchai.implementation.JobCreateParametersInner
-  type: Class
-  summary: <p>Parameters supplied to the Create operation. </p>
-  syntax:
-    content: public class JobCreateParametersInner
-- uid: com.microsoft.azure.management.batchai.implementation._job_inner
-  parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._job_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.JobInner.yml
   name: JobInner
   nameWithType: JobInner
   fullName: com.microsoft.azure.management.batchai.implementation.JobInner
   type: Class
-  summary: <p>Contains information about the job. </p>
+  summary: <p>Information about a Job. </p>
   syntax:
     content: public class JobInner
-- uid: com.microsoft.azure.management.batchai.implementation._jobs_inner
+- uid: com.microsoft.azure.management.batchai.implementation.JobsInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._jobs_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.JobsInner.yml
   name: JobsInner
   nameWithType: JobsInner
   fullName: com.microsoft.azure.management.batchai.implementation.JobsInner
   type: Class
   summary: <p>An instance of this class provides access to all the operations defined in Jobs. </p>
   syntax:
-    content: public class JobsInner implements InnerSupportsGet<JobInner>,InnerSupportsDelete<Void>,InnerSupportsListing<JobInner>
-- uid: com.microsoft.azure.management.batchai.implementation._jobs_list_by_resource_group_options_inner
+    content: public class JobsInner
+- uid: com.microsoft.azure.management.batchai.implementation.OperationInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._jobs_list_by_resource_group_options_inner.yml
-  name: JobsListByResourceGroupOptionsInner
-  nameWithType: JobsListByResourceGroupOptionsInner
-  fullName: com.microsoft.azure.management.batchai.implementation.JobsListByResourceGroupOptionsInner
-  type: Class
-  summary: <p>Additional parameters for listByResourceGroup operation. </p>
-  syntax:
-    content: public class JobsListByResourceGroupOptionsInner
-- uid: com.microsoft.azure.management.batchai.implementation._jobs_list_options_inner
-  parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._jobs_list_options_inner.yml
-  name: JobsListOptionsInner
-  nameWithType: JobsListOptionsInner
-  fullName: com.microsoft.azure.management.batchai.implementation.JobsListOptionsInner
-  type: Class
-  summary: <p>Additional parameters for list operation. </p>
-  syntax:
-    content: public class JobsListOptionsInner
-- uid: com.microsoft.azure.management.batchai.implementation._jobs_list_output_files_options_inner
-  parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._jobs_list_output_files_options_inner.yml
-  name: JobsListOutputFilesOptionsInner
-  nameWithType: JobsListOutputFilesOptionsInner
-  fullName: com.microsoft.azure.management.batchai.implementation.JobsListOutputFilesOptionsInner
-  type: Class
-  summary: <p>Additional parameters for listOutputFiles operation. </p>
-  syntax:
-    content: public class JobsListOutputFilesOptionsInner
-- uid: com.microsoft.azure.management.batchai.implementation._operation_inner
-  parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._operation_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.OperationInner.yml
   name: OperationInner
   nameWithType: OperationInner
   fullName: com.microsoft.azure.management.batchai.implementation.OperationInner
@@ -268,9 +172,9 @@ references:
   summary: <p>A REST API operation. Details of a REST API operation. </p>
   syntax:
     content: public class OperationInner
-- uid: com.microsoft.azure.management.batchai.implementation._operations_inner
+- uid: com.microsoft.azure.management.batchai.implementation.OperationsInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._operations_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.OperationsInner.yml
   name: OperationsInner
   nameWithType: OperationsInner
   fullName: com.microsoft.azure.management.batchai.implementation.OperationsInner
@@ -278,35 +182,36 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in Operations. </p>
   syntax:
     content: public class OperationsInner
-- uid: com.microsoft.azure.management.batchai.implementation._page_impl
+- uid: com.microsoft.azure.management.batchai.implementation.PageImpl
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._page_impl.yml
+  href: com.microsoft.azure.management.batchai.implementation.PageImpl.yml
   name: PageImpl<T>
   nameWithType: PageImpl<T>
   fullName: com.microsoft.azure.management.batchai.implementation.PageImpl<T>
   type: Class
   summary: >-
-    <p>An instance of this class defines a page of <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> resources and a link to get the next page of resources, if any.</p>
+    <p>An instance of this class defines a page of Azure resources and a link to get the next page of resources, if any.</p>
 
     <p></p>
   syntax:
     content: public class PageImpl<T>
     typeParameters:
-    - type: 8ce1ecb9
-      description: <p>type of <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> resource </p>
-- uid: com.microsoft.azure.management.batchai.implementation._remote_login_information_inner
+    - id: T
+      type: 8ce1ecb9
+      description: <p>type of Azure resource </p>
+- uid: com.microsoft.azure.management.batchai.implementation.RemoteLoginInformationInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._remote_login_information_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.RemoteLoginInformationInner.yml
   name: RemoteLoginInformationInner
   nameWithType: RemoteLoginInformationInner
   fullName: com.microsoft.azure.management.batchai.implementation.RemoteLoginInformationInner
   type: Class
-  summary: <p>Contains remote login details to SSH/RDP to a compute node in cluster. </p>
+  summary: <p>Login details to SSH to a compute node in cluster. </p>
   syntax:
     content: public class RemoteLoginInformationInner
-- uid: com.microsoft.azure.management.batchai.implementation._usage_inner
+- uid: com.microsoft.azure.management.batchai.implementation.UsageInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._usage_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.UsageInner.yml
   name: UsageInner
   nameWithType: UsageInner
   fullName: com.microsoft.azure.management.batchai.implementation.UsageInner
@@ -314,9 +219,9 @@ references:
   summary: <p>Describes Batch AI Resource Usage. </p>
   syntax:
     content: public class UsageInner
-- uid: com.microsoft.azure.management.batchai.implementation._usages_inner
+- uid: com.microsoft.azure.management.batchai.implementation.UsagesInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._usages_inner.yml
+  href: com.microsoft.azure.management.batchai.implementation.UsagesInner.yml
   name: UsagesInner
   nameWithType: UsagesInner
   fullName: com.microsoft.azure.management.batchai.implementation.UsagesInner
@@ -324,9 +229,29 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in Usages. </p>
   syntax:
     content: public class UsagesInner
-- uid: com.microsoft.azure.management.batchai.implementation._batch_a_i_manager._configurable
+- uid: com.microsoft.azure.management.batchai.implementation.WorkspaceInner
   parent: com.microsoft.azure.management.batchai.implementation
-  href: com.microsoft.azure.management.batchai.implementation._batch_a_i_manager._configurable.yml
+  href: com.microsoft.azure.management.batchai.implementation.WorkspaceInner.yml
+  name: WorkspaceInner
+  nameWithType: WorkspaceInner
+  fullName: com.microsoft.azure.management.batchai.implementation.WorkspaceInner
+  type: Class
+  summary: <p>Batch AI Workspace information. </p>
+  syntax:
+    content: public class WorkspaceInner
+- uid: com.microsoft.azure.management.batchai.implementation.WorkspacesInner
+  parent: com.microsoft.azure.management.batchai.implementation
+  href: com.microsoft.azure.management.batchai.implementation.WorkspacesInner.yml
+  name: WorkspacesInner
+  nameWithType: WorkspacesInner
+  fullName: com.microsoft.azure.management.batchai.implementation.WorkspacesInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Workspaces. </p>
+  syntax:
+    content: public class WorkspacesInner implements InnerSupportsGet<WorkspaceInner>,InnerSupportsDelete<Void>,InnerSupportsListing<WorkspaceInner>
+- uid: com.microsoft.azure.management.batchai.implementation.BatchAIManager.Configurable
+  parent: com.microsoft.azure.management.batchai.implementation
+  href: com.microsoft.azure.management.batchai.implementation.BatchAIManager.Configurable.yml
   name: BatchAIManager.Configurable
   nameWithType: BatchAIManager.Configurable
   fullName: com.microsoft.azure.management.batchai.implementation.BatchAIManager.Configurable

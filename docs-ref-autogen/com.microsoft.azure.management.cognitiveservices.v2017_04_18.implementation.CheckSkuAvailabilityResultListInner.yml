@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner
+  id: CheckSkuAvailabilityResultListInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  children:
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.value()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.withValue(List<CheckSkuAvailabilityResult>)
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.yml
+  langs:
+  - java
+  name: CheckSkuAvailabilityResultListInner
+  nameWithType: CheckSkuAvailabilityResultListInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner
+  type: Class
+  source:
+    remote: &o0
+      path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CheckSkuAvailabilityResultListInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CheckSkuAvailabilityResultListInner.java
+    startLine: 17
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Check SKU availability result list. </p>"
+  syntax: &o1
+    content: public class CheckSkuAvailabilityResultListInner
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.value()
+  id: value()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.yml
+  langs:
+  - java
+  name: value()
+  nameWithType: CheckSkuAvailabilityResultListInner.value()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.value()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.value*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CheckSkuAvailabilityResultListInner.java
+    startLine: 29
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get the value value.</p>\r\n<p></p>"
+  syntax:
+    content: public List<CheckSkuAvailabilityResult> value()
+    return:
+      type: 5618da2dcom.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilityResulta08ddfce
+      description: <p>the value value </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.withValue(List<CheckSkuAvailabilityResult>)
+  id: withValue(List<CheckSkuAvailabilityResult>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.yml
+  langs:
+  - java
+  name: withValue(List<CheckSkuAvailabilityResult> value)
+  nameWithType: CheckSkuAvailabilityResultListInner.withValue(List<CheckSkuAvailabilityResult> value)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.withValue(List<CheckSkuAvailabilityResult> value)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.withValue*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CheckSkuAvailabilityResultListInner.java
+    startLine: 39
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Set the value value.</p>\r\n<p></p>"
+  syntax:
+    content: public CheckSkuAvailabilityResultListInner withValue(List<CheckSkuAvailabilityResult> value)
+    parameters:
+    - id: value
+      type: 5618da2dcom.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilityResulta08ddfce
+      description: <p>the value value to set </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner
+      description: <p>the CheckSkuAvailabilityResultListInner object itself. </p>
+references:
+- uid: 5618da2dcom.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilityResulta08ddfce
+  spec.java:
+  - name: List<
+    fullName: List<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilityResult
+    name: CheckSkuAvailabilityResult
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilityResult
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilityResult.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.value*
+  name: value
+  nameWithType: CheckSkuAvailabilityResultListInner.value
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.value
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.withValue*
+  name: withValue
+  nameWithType: CheckSkuAvailabilityResultListInner.withValue
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.withValue
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilityResult
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilityResult.yml
+  name: CheckSkuAvailabilityResult
+  nameWithType: CheckSkuAvailabilityResult
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilityResult
+  type: Class
+  summary: <p>Check SKU availability result. </p>
+  syntax:
+    content: public class CheckSkuAvailabilityResult
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner.yml
+  name: CheckSkuAvailabilityResultListInner
+  nameWithType: CheckSkuAvailabilityResultListInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CheckSkuAvailabilityResultListInner
+  type: Class
+  summary: <p>Check SKU availability result list. </p>
+  syntax: *o1

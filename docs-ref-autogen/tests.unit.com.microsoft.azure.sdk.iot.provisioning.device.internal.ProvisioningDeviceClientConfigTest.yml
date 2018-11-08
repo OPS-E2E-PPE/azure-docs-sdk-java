@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest
+  id: ProvisioningDeviceClientConfigTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForEndpointCBSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForProtocolSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForRegistrationCBSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForScopeIdSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForSecurityClientSucceeds()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.yml
+  langs:
+  - java
+  name: ProvisioningDeviceClientConfigTest
+  nameWithType: ProvisioningDeviceClientConfigTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/ProvisioningDeviceClientConfigTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/ProvisioningDeviceClientConfigTest.java
+    startLine: 23
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+  syntax:
+    content: public class ProvisioningDeviceClientConfigTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForEndpointCBSucceeds()
+  id: setterAndGetterForEndpointCBSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.yml
+  langs:
+  - java
+  name: setterAndGetterForEndpointCBSucceeds()
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForEndpointCBSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForEndpointCBSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForEndpointCBSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/ProvisioningDeviceClientConfigTest.java
+    startLine: 53
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+  syntax:
+    content: public void setterAndGetterForEndpointCBSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForProtocolSucceeds()
+  id: setterAndGetterForProtocolSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.yml
+  langs:
+  - java
+  name: setterAndGetterForProtocolSucceeds()
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForProtocolSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForProtocolSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForProtocolSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/ProvisioningDeviceClientConfigTest.java
+    startLine: 38
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+  syntax:
+    content: public void setterAndGetterForProtocolSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForRegistrationCBSucceeds()
+  id: setterAndGetterForRegistrationCBSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.yml
+  langs:
+  - java
+  name: setterAndGetterForRegistrationCBSucceeds()
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForRegistrationCBSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForRegistrationCBSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForRegistrationCBSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/ProvisioningDeviceClientConfigTest.java
+    startLine: 99
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+  syntax:
+    content: public void setterAndGetterForRegistrationCBSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForScopeIdSucceeds()
+  id: setterAndGetterForScopeIdSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.yml
+  langs:
+  - java
+  name: setterAndGetterForScopeIdSucceeds()
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForScopeIdSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForScopeIdSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForScopeIdSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/ProvisioningDeviceClientConfigTest.java
+    startLine: 68
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+  syntax:
+    content: public void setterAndGetterForScopeIdSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForSecurityClientSucceeds()
+  id: setterAndGetterForSecurityClientSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.yml
+  langs:
+  - java
+  name: setterAndGetterForSecurityClientSucceeds()
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForSecurityClientSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForSecurityClientSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForSecurityClientSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/ProvisioningDeviceClientConfigTest.java
+    startLine: 83
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+  syntax:
+    content: public void setterAndGetterForSecurityClientSucceeds()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForProtocolSucceeds*
+  name: setterAndGetterForProtocolSucceeds
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForProtocolSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForProtocolSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForEndpointCBSucceeds*
+  name: setterAndGetterForEndpointCBSucceeds
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForEndpointCBSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForEndpointCBSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForScopeIdSucceeds*
+  name: setterAndGetterForScopeIdSucceeds
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForScopeIdSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForScopeIdSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForSecurityClientSucceeds*
+  name: setterAndGetterForSecurityClientSucceeds
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForSecurityClientSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForSecurityClientSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForRegistrationCBSucceeds*
+  name: setterAndGetterForRegistrationCBSucceeds
+  nameWithType: ProvisioningDeviceClientConfigTest.setterAndGetterForRegistrationCBSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfigTest.setterAndGetterForRegistrationCBSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTransportProtocol
+  parent: com.microsoft.azure.sdk.iot.provisioning.device
+  href: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTransportProtocol.yml
+  name: ProvisioningDeviceClientTransportProtocol
+  nameWithType: ProvisioningDeviceClientTransportProtocol
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTransportProtocol
+  type: Enum
+  syntax:
+    content: public enum ProvisioningDeviceClientTransportProtocol
+- uid: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider
+  parent: com.microsoft.azure.sdk.iot.provisioning.security
+  href: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider.yml
+  name: SecurityProvider
+  nameWithType: SecurityProvider
+  fullName: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider
+  type: Class
+  syntax:
+    content: public class SecurityProvider
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationCallback
+  parent: com.microsoft.azure.sdk.iot.provisioning.device
+  href: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationCallback.yml
+  name: ProvisioningDeviceClientRegistrationCallback
+  nameWithType: ProvisioningDeviceClientRegistrationCallback
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationCallback
+  type: Interface
+  syntax:
+    content: public interface ProvisioningDeviceClientRegistrationCallback

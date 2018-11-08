@@ -1,0 +1,493 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  id: ProvisioningServiceClientExceptionManagerTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification300()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorInvalidEmptyReason()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonOk()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301WithErrorReason()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithEmptyErrorReason()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithErrorReason()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithInnerMessageAndException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithMessageAndException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithNULLErrorReason()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithoutMessage()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification401()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification404()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification412()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification429()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification500()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownBadUsageReason()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownTransientReason()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: ProvisioningServiceClientExceptionManagerTest
+  nameWithType: ProvisioningServiceClientExceptionManagerTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 21
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  summary: "<p>Unit test for ProvisioningServiceClient Exception Manager 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class ProvisioningServiceClientExceptionManagerTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification300()
+  id: httpResponseVerification300()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification300()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification300()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification300()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification300*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 140
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification300()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorInvalidEmptyReason()
+  id: httpResponseVerification301ErrorInvalidEmptyReason()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification301ErrorInvalidEmptyReason()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorInvalidEmptyReason()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorInvalidEmptyReason()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorInvalidEmptyReason*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 128
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification301ErrorInvalidEmptyReason()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonNull()
+  id: httpResponseVerification301ErrorReasonNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification301ErrorReasonNull()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 115
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification301ErrorReasonNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonOk()
+  id: httpResponseVerification301ErrorReasonOk()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification301ErrorReasonOk()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonOk()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonOk()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonOk*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 102
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification301ErrorReasonOk()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301WithErrorReason()
+  id: httpResponseVerification301WithErrorReason()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification301WithErrorReason()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301WithErrorReason()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301WithErrorReason()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301WithErrorReason*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 158
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification301WithErrorReason()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400()
+  id: httpResponseVerification400()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification400()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 26
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification400()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithEmptyErrorReason()
+  id: httpResponseVerification400WithEmptyErrorReason()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification400WithEmptyErrorReason()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithEmptyErrorReason()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithEmptyErrorReason()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithEmptyErrorReason*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 229
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification400WithEmptyErrorReason()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithErrorReason()
+  id: httpResponseVerification400WithErrorReason()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification400WithErrorReason()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithErrorReason()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithErrorReason()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithErrorReason*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 185
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification400WithErrorReason()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithInnerMessageAndException()
+  id: httpResponseVerification400WithInnerMessageAndException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification400WithInnerMessageAndException()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithInnerMessageAndException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithInnerMessageAndException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithInnerMessageAndException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 273
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification400WithInnerMessageAndException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithMessageAndException()
+  id: httpResponseVerification400WithMessageAndException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification400WithMessageAndException()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithMessageAndException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithMessageAndException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithMessageAndException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 251
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification400WithMessageAndException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithNULLErrorReason()
+  id: httpResponseVerification400WithNULLErrorReason()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification400WithNULLErrorReason()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithNULLErrorReason()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithNULLErrorReason()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithNULLErrorReason*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 207
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification400WithNULLErrorReason()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithoutMessage()
+  id: httpResponseVerification400WithoutMessage()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification400WithoutMessage()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithoutMessage()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithoutMessage()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithoutMessage*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 295
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification400WithoutMessage()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification401()
+  id: httpResponseVerification401()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification401()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification401()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification401()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification401*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 38
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification401()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification404()
+  id: httpResponseVerification404()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification404()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification404()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification404()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification404*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 50
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification404()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification412()
+  id: httpResponseVerification412()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification412()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification412()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification412()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification412*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 63
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification412()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification429()
+  id: httpResponseVerification429()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification429()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification429()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification429()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification429*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 76
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification429()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification500()
+  id: httpResponseVerification500()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerification500()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification500()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification500()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification500*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 89
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerification500()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownBadUsageReason()
+  id: httpResponseVerificationUnknownBadUsageReason()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerificationUnknownBadUsageReason()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownBadUsageReason()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownBadUsageReason()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownBadUsageReason*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 317
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerificationUnknownBadUsageReason()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownTransientReason()
+  id: httpResponseVerificationUnknownTransientReason()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
+  langs:
+  - java
+  name: httpResponseVerificationUnknownTransientReason()
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownTransientReason()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownTransientReason()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownTransientReason*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/exceptions/ProvisioningServiceClientExceptionManagerTest.java
+    startLine: 339
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  syntax:
+    content: public void httpResponseVerificationUnknownTransientReason()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400*
+  name: httpResponseVerification400
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification401*
+  name: httpResponseVerification401
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification401
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification401
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification404*
+  name: httpResponseVerification404
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification404
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification404
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification412*
+  name: httpResponseVerification412
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification412
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification412
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification429*
+  name: httpResponseVerification429
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification429
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification429
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification500*
+  name: httpResponseVerification500
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification500
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification500
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonOk*
+  name: httpResponseVerification301ErrorReasonOk
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonOk
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonOk
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonNull*
+  name: httpResponseVerification301ErrorReasonNull
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorReasonNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorInvalidEmptyReason*
+  name: httpResponseVerification301ErrorInvalidEmptyReason
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorInvalidEmptyReason
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301ErrorInvalidEmptyReason
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification300*
+  name: httpResponseVerification300
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification300
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification300
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301WithErrorReason*
+  name: httpResponseVerification301WithErrorReason
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301WithErrorReason
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification301WithErrorReason
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithErrorReason*
+  name: httpResponseVerification400WithErrorReason
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithErrorReason
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithErrorReason
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithNULLErrorReason*
+  name: httpResponseVerification400WithNULLErrorReason
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithNULLErrorReason
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithNULLErrorReason
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithEmptyErrorReason*
+  name: httpResponseVerification400WithEmptyErrorReason
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithEmptyErrorReason
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithEmptyErrorReason
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithMessageAndException*
+  name: httpResponseVerification400WithMessageAndException
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithMessageAndException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithMessageAndException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithInnerMessageAndException*
+  name: httpResponseVerification400WithInnerMessageAndException
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithInnerMessageAndException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithInnerMessageAndException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithoutMessage*
+  name: httpResponseVerification400WithoutMessage
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithoutMessage
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerification400WithoutMessage
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownBadUsageReason*
+  name: httpResponseVerificationUnknownBadUsageReason
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownBadUsageReason
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownBadUsageReason
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownTransientReason*
+  name: httpResponseVerificationUnknownTransientReason
+  nameWithType: ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownTransientReason
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.httpResponseVerificationUnknownTransientReason
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientServiceException
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientServiceException.yml
+  name: ProvisioningServiceClientServiceException
+  nameWithType: ProvisioningServiceClientServiceException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientServiceException
+  type: Class
+  summary: <p>This is the subset of the Device Provisioning Service exceptions for the exceptions reported by the Service. </p>
+  syntax:
+    content: public class ProvisioningServiceClientServiceException

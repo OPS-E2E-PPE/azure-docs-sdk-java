@@ -1,0 +1,751 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  id: SecurityProviderTPMHsmTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeySucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnCreateResponseNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnEncryptDecryptResponseNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHIdKeyNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHSymKeyNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnIdKeyPrivateNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInnerWrapKeyNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInvalidLengthOfEncUriData()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnNullIdKeyPub()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnStartAuthSessionFail()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSavesValidRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceedsWithSuccessHandle()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnCreatePrimaryResponseNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnInvalidRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnNullRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnReadPublicResponseNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandle()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getEndorsementKeySucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getStorageRootSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterCallsSuperRegistrationIdIfNotFound()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterReturnsRegistrationIdIfFound()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signDataReturnsHMACOnSmallerLength(@Mocked TPM_ALG_ID,@Mocked TPMU_ASYM_SCHEME,@Mocked TPMU_PUBLIC_PARMS,@Mocked TPMS_SCHEME_HMAC,@Mocked TPMS_KEYEDHASH_PARMS)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentitySucceeds(@Mocked TPM_ALG_ID,@Mocked TPMU_ASYM_SCHEME,@Mocked TPMU_PUBLIC_PARMS,@Mocked TPMS_SCHEME_HMAC,@Mocked TPMS_KEYEDHASH_PARMS)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullDeviceIdData()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullHandle(@Mocked TPM_ALG_ID,@Mocked TPMU_ASYM_SCHEME,@Mocked TPMU_PUBLIC_PARMS,@Mocked TPMS_SCHEME_HMAC,@Mocked TPMS_KEYEDHASH_PARMS)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullIdKeyPub()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: SecurityProviderTPMHsmTest
+  nameWithType: SecurityProviderTPMHsmTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 28
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public class SecurityProviderTPMHsmTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeySucceeds()
+  id: activateIdentityKeySucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeySucceeds()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeySucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeySucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeySucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 352
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeySucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnCreateResponseNull()
+  id: activateIdentityKeyThrowsOnCreateResponseNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeyThrowsOnCreateResponseNull()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnCreateResponseNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnCreateResponseNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnCreateResponseNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 648
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeyThrowsOnCreateResponseNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnEncryptDecryptResponseNull()
+  id: activateIdentityKeyThrowsOnEncryptDecryptResponseNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeyThrowsOnEncryptDecryptResponseNull()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnEncryptDecryptResponseNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnEncryptDecryptResponseNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnEncryptDecryptResponseNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 790
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeyThrowsOnEncryptDecryptResponseNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHIdKeyNull()
+  id: activateIdentityKeyThrowsOnHIdKeyNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeyThrowsOnHIdKeyNull()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHIdKeyNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHIdKeyNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHIdKeyNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 548
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeyThrowsOnHIdKeyNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHSymKeyNull()
+  id: activateIdentityKeyThrowsOnHSymKeyNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeyThrowsOnHSymKeyNull()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHSymKeyNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHSymKeyNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHSymKeyNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 710
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeyThrowsOnHSymKeyNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnIdKeyPrivateNull()
+  id: activateIdentityKeyThrowsOnIdKeyPrivateNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeyThrowsOnIdKeyPrivateNull()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnIdKeyPrivateNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnIdKeyPrivateNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnIdKeyPrivateNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 509
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeyThrowsOnIdKeyPrivateNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInnerWrapKeyNull()
+  id: activateIdentityKeyThrowsOnInnerWrapKeyNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeyThrowsOnInnerWrapKeyNull()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInnerWrapKeyNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInnerWrapKeyNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInnerWrapKeyNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 474
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeyThrowsOnInnerWrapKeyNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInvalidLengthOfEncUriData()
+  id: activateIdentityKeyThrowsOnInvalidLengthOfEncUriData()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeyThrowsOnInvalidLengthOfEncUriData()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInvalidLengthOfEncUriData()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInvalidLengthOfEncUriData()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInvalidLengthOfEncUriData*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 589
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeyThrowsOnInvalidLengthOfEncUriData()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnNullIdKeyPub()
+  id: activateIdentityKeyThrowsOnNullIdKeyPub()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeyThrowsOnNullIdKeyPub()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnNullIdKeyPub()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnNullIdKeyPub()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnNullIdKeyPub*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 422
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeyThrowsOnNullIdKeyPub()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnStartAuthSessionFail()
+  id: activateIdentityKeyThrowsOnStartAuthSessionFail()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: activateIdentityKeyThrowsOnStartAuthSessionFail()
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnStartAuthSessionFail()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnStartAuthSessionFail()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnStartAuthSessionFail*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 445
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void activateIdentityKeyThrowsOnStartAuthSessionFail()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSavesValidRegistrationId()
+  id: constructorSavesValidRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: constructorSavesValidRegistrationId()
+  nameWithType: SecurityProviderTPMHsmTest.constructorSavesValidRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSavesValidRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSavesValidRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 257
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorSavesValidRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceeds()
+  id: constructorSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: constructorSucceeds()
+  nameWithType: SecurityProviderTPMHsmTest.constructorSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 128
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceedsWithSuccessHandle()
+  id: constructorSucceedsWithSuccessHandle()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: constructorSucceedsWithSuccessHandle()
+  nameWithType: SecurityProviderTPMHsmTest.constructorSucceedsWithSuccessHandle()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceedsWithSuccessHandle()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceedsWithSuccessHandle*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 147
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorSucceedsWithSuccessHandle()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnCreatePrimaryResponseNull()
+  id: constructorThrowsOnCreatePrimaryResponseNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnCreatePrimaryResponseNull()
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnCreatePrimaryResponseNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnCreatePrimaryResponseNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnCreatePrimaryResponseNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 232
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorThrowsOnCreatePrimaryResponseNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnInvalidRegistrationId()
+  id: constructorThrowsOnInvalidRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnInvalidRegistrationId()
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnInvalidRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnInvalidRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnInvalidRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 280
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorThrowsOnInvalidRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnNullRegistrationId()
+  id: constructorThrowsOnNullRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullRegistrationId()
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnNullRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnNullRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnNullRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 301
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorThrowsOnNullRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnReadPublicResponseNull()
+  id: constructorThrowsOnReadPublicResponseNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnReadPublicResponseNull()
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnReadPublicResponseNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnReadPublicResponseNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnReadPublicResponseNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 172
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorThrowsOnReadPublicResponseNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandle()
+  id: constructorThrowsOnResponseCodeNotSuccessNotHandle()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnResponseCodeNotSuccessNotHandle()
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandle()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandle()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandle*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 191
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorThrowsOnResponseCodeNotSuccessNotHandle()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear()
+  id: constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear()
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 213
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getEndorsementKeySucceeds()
+  id: getEndorsementKeySucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: getEndorsementKeySucceeds()
+  nameWithType: SecurityProviderTPMHsmTest.getEndorsementKeySucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getEndorsementKeySucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getEndorsementKeySucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 1014
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getEndorsementKeySucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getStorageRootSucceeds()
+  id: getStorageRootSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: getStorageRootSucceeds()
+  nameWithType: SecurityProviderTPMHsmTest.getStorageRootSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getStorageRootSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getStorageRootSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 1029
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getStorageRootSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterCallsSuperRegistrationIdIfNotFound()
+  id: getterCallsSuperRegistrationIdIfNotFound()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: getterCallsSuperRegistrationIdIfNotFound()
+  nameWithType: SecurityProviderTPMHsmTest.getterCallsSuperRegistrationIdIfNotFound()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterCallsSuperRegistrationIdIfNotFound()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterCallsSuperRegistrationIdIfNotFound*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 325
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getterCallsSuperRegistrationIdIfNotFound()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterReturnsRegistrationIdIfFound()
+  id: getterReturnsRegistrationIdIfFound()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: getterReturnsRegistrationIdIfFound()
+  nameWithType: SecurityProviderTPMHsmTest.getterReturnsRegistrationIdIfFound()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterReturnsRegistrationIdIfFound()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterReturnsRegistrationIdIfFound*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 308
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getterReturnsRegistrationIdIfFound()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signDataReturnsHMACOnSmallerLength(@Mocked TPM_ALG_ID,@Mocked TPMU_ASYM_SCHEME,@Mocked TPMU_PUBLIC_PARMS,@Mocked TPMS_SCHEME_HMAC,@Mocked TPMS_KEYEDHASH_PARMS)
+  id: signDataReturnsHMACOnSmallerLength(@Mocked TPM_ALG_ID,@Mocked TPMU_ASYM_SCHEME,@Mocked TPMU_PUBLIC_PARMS,@Mocked TPMS_SCHEME_HMAC,@Mocked TPMS_KEYEDHASH_PARMS)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: signDataReturnsHMACOnSmallerLength(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+  nameWithType: SecurityProviderTPMHsmTest.signDataReturnsHMACOnSmallerLength(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signDataReturnsHMACOnSmallerLength(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signDataReturnsHMACOnSmallerLength*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 938
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void signDataReturnsHMACOnSmallerLength(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+    parameters:
+    - id: mockedTpmAlgId
+      type: 77c38731
+    - id: mockedTpmuAsymScheme
+      type: 7c166738
+    - id: mockedTpmuPublicParms
+      type: 300e325c
+    - id: mockedTpmsSchemeHmac
+      type: da7612e1
+    - id: mockedTpmsKeyedhashParms
+      type: 40ff5d56
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentitySucceeds(@Mocked TPM_ALG_ID,@Mocked TPMU_ASYM_SCHEME,@Mocked TPMU_PUBLIC_PARMS,@Mocked TPMS_SCHEME_HMAC,@Mocked TPMS_KEYEDHASH_PARMS)
+  id: signWithIdentitySucceeds(@Mocked TPM_ALG_ID,@Mocked TPMU_ASYM_SCHEME,@Mocked TPMU_PUBLIC_PARMS,@Mocked TPMS_SCHEME_HMAC,@Mocked TPMS_KEYEDHASH_PARMS)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: signWithIdentitySucceeds(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+  nameWithType: SecurityProviderTPMHsmTest.signWithIdentitySucceeds(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentitySucceeds(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentitySucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 858
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void signWithIdentitySucceeds(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+    parameters:
+    - id: mockedTpmAlgId
+      type: 77c38731
+    - id: mockedTpmuAsymScheme
+      type: 7c166738
+    - id: mockedTpmuPublicParms
+      type: 300e325c
+    - id: mockedTpmsSchemeHmac
+      type: da7612e1
+    - id: mockedTpmsKeyedhashParms
+      type: 40ff5d56
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullDeviceIdData()
+  id: signWithIdentityThrowsOnNullDeviceIdData()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: signWithIdentityThrowsOnNullDeviceIdData()
+  nameWithType: SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullDeviceIdData()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullDeviceIdData()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullDeviceIdData*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 923
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void signWithIdentityThrowsOnNullDeviceIdData()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullHandle(@Mocked TPM_ALG_ID,@Mocked TPMU_ASYM_SCHEME,@Mocked TPMU_PUBLIC_PARMS,@Mocked TPMS_SCHEME_HMAC,@Mocked TPMS_KEYEDHASH_PARMS)
+  id: signWithIdentityThrowsOnNullHandle(@Mocked TPM_ALG_ID,@Mocked TPMU_ASYM_SCHEME,@Mocked TPMU_PUBLIC_PARMS,@Mocked TPMS_SCHEME_HMAC,@Mocked TPMS_KEYEDHASH_PARMS)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: signWithIdentityThrowsOnNullHandle(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+  nameWithType: SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullHandle(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullHandle(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullHandle*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 975
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void signWithIdentityThrowsOnNullHandle(@Mocked TPM_ALG_ID mockedTpmAlgId, @Mocked TPMU_ASYM_SCHEME mockedTpmuAsymScheme, @Mocked TPMU_PUBLIC_PARMS mockedTpmuPublicParms, @Mocked TPMS_SCHEME_HMAC mockedTpmsSchemeHmac, @Mocked TPMS_KEYEDHASH_PARMS mockedTpmsKeyedhashParms)
+    parameters:
+    - id: mockedTpmAlgId
+      type: 77c38731
+    - id: mockedTpmuAsymScheme
+      type: 7c166738
+    - id: mockedTpmuPublicParms
+      type: 300e325c
+    - id: mockedTpmsSchemeHmac
+      type: da7612e1
+    - id: mockedTpmsKeyedhashParms
+      type: 40ff5d56
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullIdKeyPub()
+  id: signWithIdentityThrowsOnNullIdKeyPub()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
+  langs:
+  - java
+  name: signWithIdentityThrowsOnNullIdKeyPub()
+  nameWithType: SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullIdKeyPub()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullIdKeyPub()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullIdKeyPub*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/tpm-provider/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderTPMHsmTest.java
+    startLine: 901
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void signWithIdentityThrowsOnNullIdKeyPub()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceeds*
+  name: constructorSucceeds
+  nameWithType: SecurityProviderTPMHsmTest.constructorSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceedsWithSuccessHandle*
+  name: constructorSucceedsWithSuccessHandle
+  nameWithType: SecurityProviderTPMHsmTest.constructorSucceedsWithSuccessHandle
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSucceedsWithSuccessHandle
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnReadPublicResponseNull*
+  name: constructorThrowsOnReadPublicResponseNull
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnReadPublicResponseNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnReadPublicResponseNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandle*
+  name: constructorThrowsOnResponseCodeNotSuccessNotHandle
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandle
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandle
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear*
+  name: constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnResponseCodeNotSuccessNotHandleOnClear
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnCreatePrimaryResponseNull*
+  name: constructorThrowsOnCreatePrimaryResponseNull
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnCreatePrimaryResponseNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnCreatePrimaryResponseNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSavesValidRegistrationId*
+  name: constructorSavesValidRegistrationId
+  nameWithType: SecurityProviderTPMHsmTest.constructorSavesValidRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorSavesValidRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnInvalidRegistrationId*
+  name: constructorThrowsOnInvalidRegistrationId
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnInvalidRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnInvalidRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnNullRegistrationId*
+  name: constructorThrowsOnNullRegistrationId
+  nameWithType: SecurityProviderTPMHsmTest.constructorThrowsOnNullRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.constructorThrowsOnNullRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterReturnsRegistrationIdIfFound*
+  name: getterReturnsRegistrationIdIfFound
+  nameWithType: SecurityProviderTPMHsmTest.getterReturnsRegistrationIdIfFound
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterReturnsRegistrationIdIfFound
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterCallsSuperRegistrationIdIfNotFound*
+  name: getterCallsSuperRegistrationIdIfNotFound
+  nameWithType: SecurityProviderTPMHsmTest.getterCallsSuperRegistrationIdIfNotFound
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getterCallsSuperRegistrationIdIfNotFound
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeySucceeds*
+  name: activateIdentityKeySucceeds
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeySucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeySucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnNullIdKeyPub*
+  name: activateIdentityKeyThrowsOnNullIdKeyPub
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnNullIdKeyPub
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnNullIdKeyPub
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnStartAuthSessionFail*
+  name: activateIdentityKeyThrowsOnStartAuthSessionFail
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnStartAuthSessionFail
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnStartAuthSessionFail
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInnerWrapKeyNull*
+  name: activateIdentityKeyThrowsOnInnerWrapKeyNull
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInnerWrapKeyNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInnerWrapKeyNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnIdKeyPrivateNull*
+  name: activateIdentityKeyThrowsOnIdKeyPrivateNull
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnIdKeyPrivateNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnIdKeyPrivateNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHIdKeyNull*
+  name: activateIdentityKeyThrowsOnHIdKeyNull
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHIdKeyNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHIdKeyNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInvalidLengthOfEncUriData*
+  name: activateIdentityKeyThrowsOnInvalidLengthOfEncUriData
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInvalidLengthOfEncUriData
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnInvalidLengthOfEncUriData
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnCreateResponseNull*
+  name: activateIdentityKeyThrowsOnCreateResponseNull
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnCreateResponseNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnCreateResponseNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHSymKeyNull*
+  name: activateIdentityKeyThrowsOnHSymKeyNull
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHSymKeyNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnHSymKeyNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnEncryptDecryptResponseNull*
+  name: activateIdentityKeyThrowsOnEncryptDecryptResponseNull
+  nameWithType: SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnEncryptDecryptResponseNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.activateIdentityKeyThrowsOnEncryptDecryptResponseNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: 77c38731
+  spec.java:
+  - name: '@Mocked TPM_ALG_ID'
+    fullName: '@Mocked TPM_ALG_ID'
+- uid: 7c166738
+  spec.java:
+  - name: '@Mocked TPMU_ASYM_SCHEME'
+    fullName: '@Mocked TPMU_ASYM_SCHEME'
+- uid: 300e325c
+  spec.java:
+  - name: '@Mocked TPMU_PUBLIC_PARMS'
+    fullName: '@Mocked TPMU_PUBLIC_PARMS'
+- uid: da7612e1
+  spec.java:
+  - name: '@Mocked TPMS_SCHEME_HMAC'
+    fullName: '@Mocked TPMS_SCHEME_HMAC'
+- uid: 40ff5d56
+  spec.java:
+  - name: '@Mocked TPMS_KEYEDHASH_PARMS'
+    fullName: '@Mocked TPMS_KEYEDHASH_PARMS'
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentitySucceeds*
+  name: signWithIdentitySucceeds
+  nameWithType: SecurityProviderTPMHsmTest.signWithIdentitySucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentitySucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullIdKeyPub*
+  name: signWithIdentityThrowsOnNullIdKeyPub
+  nameWithType: SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullIdKeyPub
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullIdKeyPub
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullDeviceIdData*
+  name: signWithIdentityThrowsOnNullDeviceIdData
+  nameWithType: SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullDeviceIdData
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullDeviceIdData
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signDataReturnsHMACOnSmallerLength*
+  name: signDataReturnsHMACOnSmallerLength
+  nameWithType: SecurityProviderTPMHsmTest.signDataReturnsHMACOnSmallerLength
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signDataReturnsHMACOnSmallerLength
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullHandle*
+  name: signWithIdentityThrowsOnNullHandle
+  nameWithType: SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullHandle
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.signWithIdentityThrowsOnNullHandle
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getEndorsementKeySucceeds*
+  name: getEndorsementKeySucceeds
+  nameWithType: SecurityProviderTPMHsmTest.getEndorsementKeySucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getEndorsementKeySucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getStorageRootSucceeds*
+  name: getStorageRootSucceeds
+  nameWithType: SecurityProviderTPMHsmTest.getStorageRootSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.getStorageRootSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm

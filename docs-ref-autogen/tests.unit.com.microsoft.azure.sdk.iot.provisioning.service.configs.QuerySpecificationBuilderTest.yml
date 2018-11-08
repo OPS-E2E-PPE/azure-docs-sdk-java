@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  id: QuerySpecificationBuilderTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorStoreSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnEmptySelection()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullFromType()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullSelection()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQuerySucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithGroupBySucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereAndGroupBySucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.groupByStoreSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.whereStoreSucceed()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: QuerySpecificationBuilderTest
+  nameWithType: QuerySpecificationBuilderTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 17
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  summary: "<p>Unit tests for Device Provisioning Service query Specification builder 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class QuerySpecificationBuilderTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorStoreSucceed()
+  id: constructorStoreSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: constructorStoreSucceed()
+  nameWithType: QuerySpecificationBuilderTest.constructorStoreSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorStoreSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorStoreSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 54
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorStoreSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnEmptySelection()
+  id: constructorThrowsOnEmptySelection()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnEmptySelection()
+  nameWithType: QuerySpecificationBuilderTest.constructorThrowsOnEmptySelection()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnEmptySelection()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnEmptySelection*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 32
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnEmptySelection()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullFromType()
+  id: constructorThrowsOnNullFromType()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullFromType()
+  nameWithType: QuerySpecificationBuilderTest.constructorThrowsOnNullFromType()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullFromType()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullFromType*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 43
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnNullFromType()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullSelection()
+  id: constructorThrowsOnNullSelection()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullSelection()
+  nameWithType: QuerySpecificationBuilderTest.constructorThrowsOnNullSelection()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullSelection()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullSelection*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 21
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnNullSelection()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQuerySucceed()
+  id: createSqlQuerySucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: createSqlQuerySucceed()
+  nameWithType: QuerySpecificationBuilderTest.createSqlQuerySucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQuerySucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQuerySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 93
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void createSqlQuerySucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithGroupBySucceed()
+  id: createSqlQueryWithGroupBySucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: createSqlQueryWithGroupBySucceed()
+  nameWithType: QuerySpecificationBuilderTest.createSqlQueryWithGroupBySucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithGroupBySucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithGroupBySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 117
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void createSqlQueryWithGroupBySucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereAndGroupBySucceed()
+  id: createSqlQueryWithWhereAndGroupBySucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: createSqlQueryWithWhereAndGroupBySucceed()
+  nameWithType: QuerySpecificationBuilderTest.createSqlQueryWithWhereAndGroupBySucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereAndGroupBySucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereAndGroupBySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 129
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void createSqlQueryWithWhereAndGroupBySucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereSucceed()
+  id: createSqlQueryWithWhereSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: createSqlQueryWithWhereSucceed()
+  nameWithType: QuerySpecificationBuilderTest.createSqlQueryWithWhereSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 105
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void createSqlQueryWithWhereSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.groupByStoreSucceed()
+  id: groupByStoreSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: groupByStoreSucceed()
+  nameWithType: QuerySpecificationBuilderTest.groupByStoreSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.groupByStoreSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.groupByStoreSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 80
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void groupByStoreSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.whereStoreSucceed()
+  id: whereStoreSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
+  langs:
+  - java
+  name: whereStoreSucceed()
+  nameWithType: QuerySpecificationBuilderTest.whereStoreSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.whereStoreSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.whereStoreSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/QuerySpecificationBuilderTest.java
+    startLine: 67
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void whereStoreSucceed()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullSelection*
+  name: constructorThrowsOnNullSelection
+  nameWithType: QuerySpecificationBuilderTest.constructorThrowsOnNullSelection
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullSelection
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnEmptySelection*
+  name: constructorThrowsOnEmptySelection
+  nameWithType: QuerySpecificationBuilderTest.constructorThrowsOnEmptySelection
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnEmptySelection
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullFromType*
+  name: constructorThrowsOnNullFromType
+  nameWithType: QuerySpecificationBuilderTest.constructorThrowsOnNullFromType
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorThrowsOnNullFromType
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorStoreSucceed*
+  name: constructorStoreSucceed
+  nameWithType: QuerySpecificationBuilderTest.constructorStoreSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.constructorStoreSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.whereStoreSucceed*
+  name: whereStoreSucceed
+  nameWithType: QuerySpecificationBuilderTest.whereStoreSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.whereStoreSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.groupByStoreSucceed*
+  name: groupByStoreSucceed
+  nameWithType: QuerySpecificationBuilderTest.groupByStoreSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.groupByStoreSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQuerySucceed*
+  name: createSqlQuerySucceed
+  nameWithType: QuerySpecificationBuilderTest.createSqlQuerySucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQuerySucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereSucceed*
+  name: createSqlQueryWithWhereSucceed
+  nameWithType: QuerySpecificationBuilderTest.createSqlQueryWithWhereSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithGroupBySucceed*
+  name: createSqlQueryWithGroupBySucceed
+  nameWithType: QuerySpecificationBuilderTest.createSqlQueryWithGroupBySucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithGroupBySucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereAndGroupBySucceed*
+  name: createSqlQueryWithWhereAndGroupBySucceed
+  nameWithType: QuerySpecificationBuilderTest.createSqlQueryWithWhereAndGroupBySucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.createSqlQueryWithWhereAndGroupBySucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs

@@ -3,8 +3,8 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
   id: device
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device._prov059cefe19bcde7faf2e1c843973670b6
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device._provisioning_device_client_test
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationResultTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.yml
   langs:
   - java
@@ -27,18 +27,18 @@ references:
   type: Namespace
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device._prov059cefe19bcde7faf2e1c843973670b6
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationResultTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device._prov059cefe19bcde7faf2e1c843973670b6.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationResultTest.yml
   name: ProvisioningDeviceClientRegistrationResultTest
   nameWithType: ProvisioningDeviceClientRegistrationResultTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationResultTest
   type: Class
   syntax:
     content: public class ProvisioningDeviceClientRegistrationResultTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device._provisioning_device_client_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device._provisioning_device_client_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
   name: ProvisioningDeviceClientTest
   nameWithType: ProvisioningDeviceClientTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest

@@ -3,11 +3,11 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
   id: hsm
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm._security_client_dice_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm08aefd22d604e65320389a26b573d88e
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm1d70db7a3c433267786d035137bd348a
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm84e002da93919debcfb441bc3a40ef7a
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsmafc5fb98866f328ed7d049eed6a8e6be
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityClientDiceTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulatorTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderX509CertTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.yml
   langs:
   - java
@@ -25,45 +25,45 @@ items:
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
 references:
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm._security_client_dice_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityClientDiceTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm._security_client_dice_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityClientDiceTest.yml
   name: SecurityClientDiceTest
   nameWithType: SecurityClientDiceTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityClientDiceTest
   type: Class
   syntax:
     content: public class SecurityClientDiceTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm08aefd22d604e65320389a26b573d88e
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm08aefd22d604e65320389a26b573d88e.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
   name: SecurityProviderDiceEmulatorTest
   nameWithType: SecurityProviderDiceEmulatorTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
   type: Class
   syntax:
     content: public class SecurityProviderDiceEmulatorTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm84e002da93919debcfb441bc3a40ef7a
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulatorTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm84e002da93919debcfb441bc3a40ef7a.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulatorTest.yml
   name: SecurityProviderTPMEmulatorTest
   nameWithType: SecurityProviderTPMEmulatorTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulatorTest
   type: Class
   syntax:
     content: public class SecurityProviderTPMEmulatorTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm1d70db7a3c433267786d035137bd348a
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm1d70db7a3c433267786d035137bd348a.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest.yml
   name: SecurityProviderTPMHsmTest
   nameWithType: SecurityProviderTPMHsmTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsmTest
   type: Class
   syntax:
     content: public class SecurityProviderTPMHsmTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsmafc5fb98866f328ed7d049eed6a8e6be
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderX509CertTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsmafc5fb98866f328ed7d049eed6a8e6be.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderX509CertTest.yml
   name: SecurityProviderX509CertTest
   nameWithType: SecurityProviderX509CertTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderX509CertTest

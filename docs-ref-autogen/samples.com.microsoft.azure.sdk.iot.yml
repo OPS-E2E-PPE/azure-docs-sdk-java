@@ -3,12 +3,12 @@ items:
 - uid: samples.com.microsoft.azure.sdk.iot
   id: iot
   children:
-  - samples.com.microsoft.azure.sdk.iot._provisioning_tpm_sample
-  - samples.com.microsoft.azure.sdk.iot._provisioning_x509_sample
-  - samples.com.microsoft.azure.sdk.iot._service_bulk_operation_sample
-  - samples.com.microsoft.azure.sdk.iot._service_enrollment_group_sample
-  - samples.com.microsoft.azure.sdk.iot._service_enrollment_sample
-  - samples.com.microsoft.azure.sdk.iot._service_update_enrollment_sample
+  - samples.com.microsoft.azure.sdk.iot.ProvisioningTpmSample
+  - samples.com.microsoft.azure.sdk.iot.ProvisioningX509Sample
+  - samples.com.microsoft.azure.sdk.iot.ServiceBulkOperationSample
+  - samples.com.microsoft.azure.sdk.iot.ServiceEnrollmentGroupSample
+  - samples.com.microsoft.azure.sdk.iot.ServiceEnrollmentSample
+  - samples.com.microsoft.azure.sdk.iot.ServiceUpdateEnrollmentSample
   href: samples.com.microsoft.azure.sdk.iot.yml
   langs:
   - java
@@ -26,9 +26,9 @@ items:
   syntax:
     content: package samples.com.microsoft.azure.sdk.iot
 references:
-- uid: samples.com.microsoft.azure.sdk.iot._provisioning_tpm_sample
+- uid: samples.com.microsoft.azure.sdk.iot.ProvisioningTpmSample
   parent: samples.com.microsoft.azure.sdk.iot
-  href: samples.com.microsoft.azure.sdk.iot._provisioning_tpm_sample.yml
+  href: samples.com.microsoft.azure.sdk.iot.ProvisioningTpmSample.yml
   name: ProvisioningTpmSample
   nameWithType: ProvisioningTpmSample
   fullName: samples.com.microsoft.azure.sdk.iot.ProvisioningTpmSample
@@ -36,9 +36,9 @@ references:
   summary: <p>TPM sample </p>
   syntax:
     content: public class ProvisioningTpmSample
-- uid: samples.com.microsoft.azure.sdk.iot._provisioning_x509_sample
+- uid: samples.com.microsoft.azure.sdk.iot.ProvisioningX509Sample
   parent: samples.com.microsoft.azure.sdk.iot
-  href: samples.com.microsoft.azure.sdk.iot._provisioning_x509_sample.yml
+  href: samples.com.microsoft.azure.sdk.iot.ProvisioningX509Sample.yml
   name: ProvisioningX509Sample
   nameWithType: ProvisioningX509Sample
   fullName: samples.com.microsoft.azure.sdk.iot.ProvisioningX509Sample
@@ -46,9 +46,9 @@ references:
   summary: <p>Provisioning Sample for X509 </p>
   syntax:
     content: public class ProvisioningX509Sample
-- uid: samples.com.microsoft.azure.sdk.iot._service_bulk_operation_sample
+- uid: samples.com.microsoft.azure.sdk.iot.ServiceBulkOperationSample
   parent: samples.com.microsoft.azure.sdk.iot
-  href: samples.com.microsoft.azure.sdk.iot._service_bulk_operation_sample.yml
+  href: samples.com.microsoft.azure.sdk.iot.ServiceBulkOperationSample.yml
   name: ServiceBulkOperationSample
   nameWithType: ServiceBulkOperationSample
   fullName: samples.com.microsoft.azure.sdk.iot.ServiceBulkOperationSample
@@ -56,9 +56,9 @@ references:
   summary: <p>Create, get, query, and delete a set of individual enrollments on the Microsoft Azure IoT Hub Device Provisioning Service </p>
   syntax:
     content: public class ServiceBulkOperationSample
-- uid: samples.com.microsoft.azure.sdk.iot._service_enrollment_group_sample
+- uid: samples.com.microsoft.azure.sdk.iot.ServiceEnrollmentGroupSample
   parent: samples.com.microsoft.azure.sdk.iot
-  href: samples.com.microsoft.azure.sdk.iot._service_enrollment_group_sample.yml
+  href: samples.com.microsoft.azure.sdk.iot.ServiceEnrollmentGroupSample.yml
   name: ServiceEnrollmentGroupSample
   nameWithType: ServiceEnrollmentGroupSample
   fullName: samples.com.microsoft.azure.sdk.iot.ServiceEnrollmentGroupSample
@@ -66,9 +66,9 @@ references:
   summary: <p>Create, get, query, and delete an enrollmentGroup on the Microsoft Azure IoT Hub Device Provisioning Service </p>
   syntax:
     content: public class ServiceEnrollmentGroupSample
-- uid: samples.com.microsoft.azure.sdk.iot._service_enrollment_sample
+- uid: samples.com.microsoft.azure.sdk.iot.ServiceEnrollmentSample
   parent: samples.com.microsoft.azure.sdk.iot
-  href: samples.com.microsoft.azure.sdk.iot._service_enrollment_sample.yml
+  href: samples.com.microsoft.azure.sdk.iot.ServiceEnrollmentSample.yml
   name: ServiceEnrollmentSample
   nameWithType: ServiceEnrollmentSample
   fullName: samples.com.microsoft.azure.sdk.iot.ServiceEnrollmentSample
@@ -76,9 +76,9 @@ references:
   summary: <p>Create, get, query, and delete an individual enrollment on the Microsoft Azure IoT Hub Device Provisioning Service </p>
   syntax:
     content: public class ServiceEnrollmentSample
-- uid: samples.com.microsoft.azure.sdk.iot._service_update_enrollment_sample
+- uid: samples.com.microsoft.azure.sdk.iot.ServiceUpdateEnrollmentSample
   parent: samples.com.microsoft.azure.sdk.iot
-  href: samples.com.microsoft.azure.sdk.iot._service_update_enrollment_sample.yml
+  href: samples.com.microsoft.azure.sdk.iot.ServiceUpdateEnrollmentSample.yml
   name: ServiceUpdateEnrollmentSample
   nameWithType: ServiceUpdateEnrollmentSample
   fullName: samples.com.microsoft.azure.sdk.iot.ServiceUpdateEnrollmentSample

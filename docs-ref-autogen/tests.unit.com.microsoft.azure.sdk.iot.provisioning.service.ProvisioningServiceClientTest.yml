@@ -1,0 +1,1391 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  id: ProvisioningServiceClientTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQuerySucceed(@Mocked final QuerySpecification)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQueryWithPageSizeSucceed(@Mocked final QuerySpecification)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQuerySucceed(@Mocked final QuerySpecification)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQueryWithPageSizeSucceed(@Mocked final QuerySpecification)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateEnrollmentGroupSucceed(@Mocked final EnrollmentGroup)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateIndividualEnrollmentSucceed(@Mocked final IndividualEnrollment)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQuerySucceed(@Mocked final QuerySpecification)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQueryWithPageSizeSucceed(@Mocked final QuerySpecification)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed(@Mocked final DeviceRegistrationState)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdAndEtagSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupSucceed(@Mocked final EnrollmentGroup)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithEnrollmentSucceed(@Mocked final IndividualEnrollment)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factorySucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnContractApiHttpFail()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnEnrollmentGroupManagerFail()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnIndividualEnrollmentManagerFail()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnProvisioningConnectionStringFail()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnRegistrationStatusManagerFail()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getDeviceRegistrationStateSucceed(@Mocked final DeviceRegistrationState)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getEnrollmentGroupSucceed(@Mocked final EnrollmentGroup)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getIndividualEnrollmentSucceed(@Mocked final IndividualEnrollment)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.runBulkEnrollmentOperationSucceed(@Mocked final IndividualEnrollment,@Mocked final BulkEnrollmentOperationResult)
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: ProvisioningServiceClientTest
+  nameWithType: ProvisioningServiceClientTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 25
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  summary: "<p>Unit tests for Provisioning Service Client public API. 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class ProvisioningServiceClientTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQuerySucceed(@Mocked final QuerySpecification)
+  id: createEnrollmentGroupQuerySucceed(@Mocked final QuerySpecification)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: createEnrollmentGroupQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  nameWithType: ProvisioningServiceClientTest.createEnrollmentGroupQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQuerySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 569
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void createEnrollmentGroupQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+    parameters:
+    - id: mockedQuerySpecification
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQueryWithPageSizeSucceed(@Mocked final QuerySpecification)
+  id: createEnrollmentGroupQueryWithPageSizeSucceed(@Mocked final QuerySpecification)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: createEnrollmentGroupQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  nameWithType: ProvisioningServiceClientTest.createEnrollmentGroupQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQueryWithPageSizeSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 592
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void createEnrollmentGroupQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+    parameters:
+    - id: mockedQuerySpecification
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQuerySucceed(@Mocked final QuerySpecification)
+  id: createIndividualEnrollmentQuerySucceed(@Mocked final QuerySpecification)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: createIndividualEnrollmentQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  nameWithType: ProvisioningServiceClientTest.createIndividualEnrollmentQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQuerySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 407
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void createIndividualEnrollmentQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+    parameters:
+    - id: mockedQuerySpecification
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQueryWithPageSizeSucceed(@Mocked final QuerySpecification)
+  id: createIndividualEnrollmentQueryWithPageSizeSucceed(@Mocked final QuerySpecification)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: createIndividualEnrollmentQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  nameWithType: ProvisioningServiceClientTest.createIndividualEnrollmentQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQueryWithPageSizeSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 430
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void createIndividualEnrollmentQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+    parameters:
+    - id: mockedQuerySpecification
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateEnrollmentGroupSucceed(@Mocked final EnrollmentGroup)
+  id: createOrUpdateEnrollmentGroupSucceed(@Mocked final EnrollmentGroup)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: createOrUpdateEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+  nameWithType: ProvisioningServiceClientTest.createOrUpdateEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateEnrollmentGroupSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 453
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void createOrUpdateEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+    parameters:
+    - id: mockedEnrollmentGroup
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateIndividualEnrollmentSucceed(@Mocked final IndividualEnrollment)
+  id: createOrUpdateIndividualEnrollmentSucceed(@Mocked final IndividualEnrollment)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: createOrUpdateIndividualEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+  nameWithType: ProvisioningServiceClientTest.createOrUpdateIndividualEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateIndividualEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateIndividualEnrollmentSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 264
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void createOrUpdateIndividualEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+    parameters:
+    - id: mockedIndividualEnrollment
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQuerySucceed(@Mocked final QuerySpecification)
+  id: createRegistrationStateQuerySucceed(@Mocked final QuerySpecification)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: createRegistrationStateQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  nameWithType: ProvisioningServiceClientTest.createRegistrationStateQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQuerySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 707
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void createRegistrationStateQuerySucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+    parameters:
+    - id: mockedQuerySpecification
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQueryWithPageSizeSucceed(@Mocked final QuerySpecification)
+  id: createRegistrationStateQueryWithPageSizeSucceed(@Mocked final QuerySpecification)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: createRegistrationStateQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  nameWithType: ProvisioningServiceClientTest.createRegistrationStateQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQueryWithPageSizeSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 731
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void createRegistrationStateQueryWithPageSizeSucceed( @Mocked final QuerySpecification mockedQuerySpecification)
+    parameters:
+    - id: mockedQuerySpecification
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed(@Mocked final DeviceRegistrationState)
+  id: deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed(@Mocked final DeviceRegistrationState)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed( @Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+  nameWithType: ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed( @Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed( @Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 640
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed( @Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+    parameters:
+    - id: mockedDeviceRegistrationState
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdAndEtagSucceed()
+  id: deleteDeviceRegistrationStateWithIdAndEtagSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: deleteDeviceRegistrationStateWithIdAndEtagSucceed()
+  nameWithType: ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdAndEtagSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdAndEtagSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdAndEtagSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 684
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void deleteDeviceRegistrationStateWithIdAndEtagSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdSucceed()
+  id: deleteDeviceRegistrationStateWithIdSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: deleteDeviceRegistrationStateWithIdSucceed()
+  nameWithType: ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 662
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void deleteDeviceRegistrationStateWithIdSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed()
+  id: deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed()
+  nameWithType: ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 546
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdSucceed()
+  id: deleteEnrollmentGroupWithEnrollmentGroupIdSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: deleteEnrollmentGroupWithEnrollmentGroupIdSucceed()
+  nameWithType: ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 524
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void deleteEnrollmentGroupWithEnrollmentGroupIdSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupSucceed(@Mocked final EnrollmentGroup)
+  id: deleteEnrollmentGroupWithEnrollmentGroupSucceed(@Mocked final EnrollmentGroup)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: deleteEnrollmentGroupWithEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+  nameWithType: ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 502
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void deleteEnrollmentGroupWithEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+    parameters:
+    - id: mockedEnrollmentGroup
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithEnrollmentSucceed(@Mocked final IndividualEnrollment)
+  id: deleteIndividualEnrollmentWithEnrollmentSucceed(@Mocked final IndividualEnrollment)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: deleteIndividualEnrollmentWithEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+  nameWithType: ProvisioningServiceClientTest.deleteIndividualEnrollmentWithEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithEnrollmentSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 340
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void deleteIndividualEnrollmentWithEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+    parameters:
+    - id: mockedIndividualEnrollment
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed()
+  id: deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed()
+  nameWithType: ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 384
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdSucceed()
+  id: deleteIndividualEnrollmentWithRegistrationIdSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: deleteIndividualEnrollmentWithRegistrationIdSucceed()
+  nameWithType: ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 362
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void deleteIndividualEnrollmentWithRegistrationIdSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factorySucceed()
+  id: factorySucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: factorySucceed()
+  nameWithType: ProvisioningServiceClientTest.factorySucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factorySucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factorySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 74
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void factorySucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringEmpty()
+  id: factoryThrowsOnConnectionStringEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: factoryThrowsOnConnectionStringEmpty()
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnConnectionStringEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 118
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void factoryThrowsOnConnectionStringEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringNull()
+  id: factoryThrowsOnConnectionStringNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: factoryThrowsOnConnectionStringNull()
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnConnectionStringNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 107
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void factoryThrowsOnConnectionStringNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnContractApiHttpFail()
+  id: factoryThrowsOnContractApiHttpFail()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: factoryThrowsOnContractApiHttpFail()
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnContractApiHttpFail()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnContractApiHttpFail()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnContractApiHttpFail*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 150
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void factoryThrowsOnContractApiHttpFail()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnEnrollmentGroupManagerFail()
+  id: factoryThrowsOnEnrollmentGroupManagerFail()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: factoryThrowsOnEnrollmentGroupManagerFail()
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnEnrollmentGroupManagerFail()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnEnrollmentGroupManagerFail()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnEnrollmentGroupManagerFail*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 201
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void factoryThrowsOnEnrollmentGroupManagerFail()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnIndividualEnrollmentManagerFail()
+  id: factoryThrowsOnIndividualEnrollmentManagerFail()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: factoryThrowsOnIndividualEnrollmentManagerFail()
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnIndividualEnrollmentManagerFail()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnIndividualEnrollmentManagerFail()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnIndividualEnrollmentManagerFail*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 174
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void factoryThrowsOnIndividualEnrollmentManagerFail()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnProvisioningConnectionStringFail()
+  id: factoryThrowsOnProvisioningConnectionStringFail()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: factoryThrowsOnProvisioningConnectionStringFail()
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnProvisioningConnectionStringFail()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnProvisioningConnectionStringFail()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnProvisioningConnectionStringFail*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 129
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void factoryThrowsOnProvisioningConnectionStringFail()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnRegistrationStatusManagerFail()
+  id: factoryThrowsOnRegistrationStatusManagerFail()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: factoryThrowsOnRegistrationStatusManagerFail()
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnRegistrationStatusManagerFail()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnRegistrationStatusManagerFail()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnRegistrationStatusManagerFail*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 231
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void factoryThrowsOnRegistrationStatusManagerFail()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getDeviceRegistrationStateSucceed(@Mocked final DeviceRegistrationState)
+  id: getDeviceRegistrationStateSucceed(@Mocked final DeviceRegistrationState)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: getDeviceRegistrationStateSucceed( @Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+  nameWithType: ProvisioningServiceClientTest.getDeviceRegistrationStateSucceed( @Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getDeviceRegistrationStateSucceed( @Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getDeviceRegistrationStateSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 615
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void getDeviceRegistrationStateSucceed( @Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+    parameters:
+    - id: mockedDeviceRegistrationState
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getEnrollmentGroupSucceed(@Mocked final EnrollmentGroup)
+  id: getEnrollmentGroupSucceed(@Mocked final EnrollmentGroup)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: getEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+  nameWithType: ProvisioningServiceClientTest.getEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getEnrollmentGroupSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 477
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void getEnrollmentGroupSucceed( @Mocked final EnrollmentGroup mockedEnrollmentGroup)
+    parameters:
+    - id: mockedEnrollmentGroup
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getIndividualEnrollmentSucceed(@Mocked final IndividualEnrollment)
+  id: getIndividualEnrollmentSucceed(@Mocked final IndividualEnrollment)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: getIndividualEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+  nameWithType: ProvisioningServiceClientTest.getIndividualEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getIndividualEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getIndividualEnrollmentSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 315
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void getIndividualEnrollmentSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment)
+    parameters:
+    - id: mockedIndividualEnrollment
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.runBulkEnrollmentOperationSucceed(@Mocked final IndividualEnrollment,@Mocked final BulkEnrollmentOperationResult)
+  id: runBulkEnrollmentOperationSucceed(@Mocked final IndividualEnrollment,@Mocked final BulkEnrollmentOperationResult)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
+  langs:
+  - java
+  name: runBulkEnrollmentOperationSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment, @Mocked final BulkEnrollmentOperationResult mockedBulkEnrollmentOperationResult)
+  nameWithType: ProvisioningServiceClientTest.runBulkEnrollmentOperationSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment, @Mocked final BulkEnrollmentOperationResult mockedBulkEnrollmentOperationResult)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.runBulkEnrollmentOperationSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment, @Mocked final BulkEnrollmentOperationResult mockedBulkEnrollmentOperationResult)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.runBulkEnrollmentOperationSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/ProvisioningServiceClientTest.java
+    startLine: 288
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+  syntax:
+    content: public void runBulkEnrollmentOperationSucceed( @Mocked final IndividualEnrollment mockedIndividualEnrollment, @Mocked final BulkEnrollmentOperationResult mockedBulkEnrollmentOperationResult)
+    parameters:
+    - id: mockedIndividualEnrollment
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+    - id: mockedBulkEnrollmentOperationResult
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factorySucceed*
+  name: factorySucceed
+  nameWithType: ProvisioningServiceClientTest.factorySucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factorySucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringNull*
+  name: factoryThrowsOnConnectionStringNull
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnConnectionStringNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringEmpty*
+  name: factoryThrowsOnConnectionStringEmpty
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnConnectionStringEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnConnectionStringEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnProvisioningConnectionStringFail*
+  name: factoryThrowsOnProvisioningConnectionStringFail
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnProvisioningConnectionStringFail
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnProvisioningConnectionStringFail
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnContractApiHttpFail*
+  name: factoryThrowsOnContractApiHttpFail
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnContractApiHttpFail
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnContractApiHttpFail
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnIndividualEnrollmentManagerFail*
+  name: factoryThrowsOnIndividualEnrollmentManagerFail
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnIndividualEnrollmentManagerFail
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnIndividualEnrollmentManagerFail
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnEnrollmentGroupManagerFail*
+  name: factoryThrowsOnEnrollmentGroupManagerFail
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnEnrollmentGroupManagerFail
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnEnrollmentGroupManagerFail
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnRegistrationStatusManagerFail*
+  name: factoryThrowsOnRegistrationStatusManagerFail
+  nameWithType: ProvisioningServiceClientTest.factoryThrowsOnRegistrationStatusManagerFail
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.factoryThrowsOnRegistrationStatusManagerFail
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+    name: IndividualEnrollment
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateIndividualEnrollmentSucceed*
+  name: createOrUpdateIndividualEnrollmentSucceed
+  nameWithType: ProvisioningServiceClientTest.createOrUpdateIndividualEnrollmentSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateIndividualEnrollmentSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult
+    name: BulkEnrollmentOperationResult
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.runBulkEnrollmentOperationSucceed*
+  name: runBulkEnrollmentOperationSucceed
+  nameWithType: ProvisioningServiceClientTest.runBulkEnrollmentOperationSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.runBulkEnrollmentOperationSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getIndividualEnrollmentSucceed*
+  name: getIndividualEnrollmentSucceed
+  nameWithType: ProvisioningServiceClientTest.getIndividualEnrollmentSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getIndividualEnrollmentSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithEnrollmentSucceed*
+  name: deleteIndividualEnrollmentWithEnrollmentSucceed
+  nameWithType: ProvisioningServiceClientTest.deleteIndividualEnrollmentWithEnrollmentSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithEnrollmentSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdSucceed*
+  name: deleteIndividualEnrollmentWithRegistrationIdSucceed
+  nameWithType: ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed*
+  name: deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed
+  nameWithType: ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteIndividualEnrollmentWithRegistrationIdAndEtagSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+    name: QuerySpecification
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQuerySucceed*
+  name: createIndividualEnrollmentQuerySucceed
+  nameWithType: ProvisioningServiceClientTest.createIndividualEnrollmentQuerySucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQuerySucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQueryWithPageSizeSucceed*
+  name: createIndividualEnrollmentQueryWithPageSizeSucceed
+  nameWithType: ProvisioningServiceClientTest.createIndividualEnrollmentQueryWithPageSizeSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createIndividualEnrollmentQueryWithPageSizeSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup
+    name: EnrollmentGroup
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateEnrollmentGroupSucceed*
+  name: createOrUpdateEnrollmentGroupSucceed
+  nameWithType: ProvisioningServiceClientTest.createOrUpdateEnrollmentGroupSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createOrUpdateEnrollmentGroupSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getEnrollmentGroupSucceed*
+  name: getEnrollmentGroupSucceed
+  nameWithType: ProvisioningServiceClientTest.getEnrollmentGroupSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getEnrollmentGroupSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupSucceed*
+  name: deleteEnrollmentGroupWithEnrollmentGroupSucceed
+  nameWithType: ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdSucceed*
+  name: deleteEnrollmentGroupWithEnrollmentGroupIdSucceed
+  nameWithType: ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed*
+  name: deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed
+  nameWithType: ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteEnrollmentGroupWithEnrollmentGroupIdAndEtagSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQuerySucceed*
+  name: createEnrollmentGroupQuerySucceed
+  nameWithType: ProvisioningServiceClientTest.createEnrollmentGroupQuerySucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQuerySucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQueryWithPageSizeSucceed*
+  name: createEnrollmentGroupQueryWithPageSizeSucceed
+  nameWithType: ProvisioningServiceClientTest.createEnrollmentGroupQueryWithPageSizeSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createEnrollmentGroupQueryWithPageSizeSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+    name: DeviceRegistrationState
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getDeviceRegistrationStateSucceed*
+  name: getDeviceRegistrationStateSucceed
+  nameWithType: ProvisioningServiceClientTest.getDeviceRegistrationStateSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.getDeviceRegistrationStateSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed*
+  name: deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed
+  nameWithType: ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithDeviceRegistrationStateSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdSucceed*
+  name: deleteDeviceRegistrationStateWithIdSucceed
+  nameWithType: ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdAndEtagSucceed*
+  name: deleteDeviceRegistrationStateWithIdAndEtagSucceed
+  nameWithType: ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdAndEtagSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.deleteDeviceRegistrationStateWithIdAndEtagSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQuerySucceed*
+  name: createRegistrationStateQuerySucceed
+  nameWithType: ProvisioningServiceClientTest.createRegistrationStateQuerySucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQuerySucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQueryWithPageSizeSucceed*
+  name: createRegistrationStateQueryWithPageSizeSucceed
+  nameWithType: ProvisioningServiceClientTest.createRegistrationStateQueryWithPageSizeSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.createRegistrationStateQueryWithPageSizeSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.auth
+  href: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString.yml
+  name: ProvisioningConnectionString
+  nameWithType: ProvisioningConnectionString
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString
+  type: Class
+  summary: <p>Expose all connections string properties and methods for user, device and connection string serialization. </p>
+  syntax:
+    content: public class ProvisioningConnectionString extends ProvisioningConnectionStringBuilder
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttp
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttp.yml
+  name: ContractApiHttp
+  nameWithType: ContractApiHttp
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttp
+  type: Class
+  summary: >-
+    <p>This client handles the Device Provisioning Service HTTP communication.</p>
+
+    <p>This class implements the HTTPS contract between the Provisioning Service Client and the Device Provisioning Service. It is called by the Managers that implement the Provisioning Service Client public APIs. To access the public APIs, please see the <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient" data-throw-if-not-resolved="false">ProvisioningServiceClient</xref>.</p>
+
+    <p>The follow diagram describe the relation between these 3 layers of the Service Client:</p>
+
+    <p>
+
+      <pre>
+
+        <code>          +-------------------------------------------------------------------+           +------------+
+
+                  |                        ProvisioningServiceClient                  |           |    Query   |
+
+                  +-----+----------------------------+--------------------------+-----+           +--+---+-----+
+
+                       /                             |                           \                   |   |
+
+                      /                              |                            \                  |   |
+
+        +------------+----------------+  +-----------+------------+  +-------------+-------------+   |   |
+
+        | IndividualEnrollmentManager |  | EnrollmentGroupManager |  | RegistrationStatusManager |   |   |
+
+        +------------+--------+-------+  +-----------+------+-----+  +-------------+-------+-----+   |   |
+
+                     |         \                     |       \                     |        \        |   |
+
+                     |          +-----------------------------+------------------------------+-------+   |
+
+                     |                               |                             |                     |
+
+        +------------+-------------------------------+-----------------------------+---------------------+---+
+
+        |                                       ContractApiHttp                                              |
+
+        +------------------------------------------------+---------------------------------------------------+
+
+                                                         |
+
+                                                         |
+
+                   +-------------------------------------+------------------------------------------+
+
+                   |                 com.microsoft.azure.sdk.iot.deps.transport.http                |
+
+                   +--------------------------------------------------------------------------------+
+
+        </code>
+
+      </pre>
+
+    </p>
+  syntax:
+    content: public class ContractApiHttp
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringBuilder
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.auth
+  href: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringBuilder.yml
+  name: ProvisioningConnectionStringBuilder
+  nameWithType: ProvisioningConnectionStringBuilder
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringBuilder
+  type: Class
+  summary: <p>Provide static constructors to create ProvisioningConnectionString object </p>
+  syntax:
+    content: public class ProvisioningConnectionStringBuilder
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.IndividualEnrollmentManager
+  parent: com.microsoft.azure.sdk.iot.provisioning.service
+  href: com.microsoft.azure.sdk.iot.provisioning.service.IndividualEnrollmentManager.yml
+  name: IndividualEnrollmentManager
+  nameWithType: IndividualEnrollmentManager
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.IndividualEnrollmentManager
+  type: Class
+  summary: >-
+    <p>IndividualEnrollment Manager</p>
+
+    <p>This is the inner class that implements the IndividualEnrollment APIs. </p>
+
+    <p>For the public API, please see <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient" data-throw-if-not-resolved="false">ProvisioningServiceClient</xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public class IndividualEnrollmentManager
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.EnrollmentGroupManager
+  parent: com.microsoft.azure.sdk.iot.provisioning.service
+  href: com.microsoft.azure.sdk.iot.provisioning.service.EnrollmentGroupManager.yml
+  name: EnrollmentGroupManager
+  nameWithType: EnrollmentGroupManager
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.EnrollmentGroupManager
+  type: Class
+  summary: >-
+    <p>Enrollment Group Manager</p>
+
+    <p>This is the inner class that implements the Enrollment Group APIs. </p>
+
+    <p>For the exposed API, please see <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient" data-throw-if-not-resolved="false">ProvisioningServiceClient</xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public class EnrollmentGroupManager
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.RegistrationStatusManager
+  parent: com.microsoft.azure.sdk.iot.provisioning.service
+  href: com.microsoft.azure.sdk.iot.provisioning.service.RegistrationStatusManager.yml
+  name: RegistrationStatusManager
+  nameWithType: RegistrationStatusManager
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.RegistrationStatusManager
+  type: Class
+  summary: >-
+    <p>Registration Status Manager</p>
+
+    <p>This is the inner class that implements the Registration Status APIs. </p>
+
+    <p>For the exposed API, please see <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient" data-throw-if-not-resolved="false">ProvisioningServiceClient</xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public class RegistrationStatusManager
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient
+  parent: com.microsoft.azure.sdk.iot.provisioning.service
+  href: com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient.yml
+  name: ProvisioningServiceClient
+  nameWithType: ProvisioningServiceClient
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient
+  type: Class
+  summary: >-
+    <p>Device Provisioning Service Client.</p>
+
+    <p>The IoT Hub Device Provisioning Service is a helper service for IoT Hub that enables automatic device provisioning to a specified IoT hub without requiring human intervention. You can use the Device Provisioning Service to provision millions of devices in a secure and scalable manner.</p>
+
+    <p>This java SDK provides an API to help developers to create and maintain Enrollments on the IoT Hub Device Provisioning Service, it translate the rest API in java Objects and Methods.</p>
+
+    <p>To use the this SDK, you must include the follow package on your application. <pre><code>// Include the following imports to use the Device Provisioning Service APIs.
+
+        import com.microsoft.azure.sdk.iot.provisioning.service.*;
+
+        </code></pre></p>
+
+    <p>The main APIs are exposed by the <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient" data-throw-if-not-resolved="false">ProvisioningServiceClient</xref>, it contains the public Methods that the application shall call to create and maintain the Enrollments. The Objects in the <b>configs</b> package shall be filled and passed as parameters of the public API, for example, to create a new enrollment, the application shall create the object <xref uid="" data-throw-if-not-resolved="false">IndividualEnrollment</xref> with the appropriate enrollment configurations, and call the <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient.createOrUpdateIndividualEnrollment(IndividualEnrollment)" data-throw-if-not-resolved="false">createOrUpdateIndividualEnrollment(IndividualEnrollment)</xref>.</p>
+
+    <p>The IoT Hub Device Provisioning Service supports SQL queries too. The application can create a new query using one of the queries factories, for instance <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient.createIndividualEnrollmentQuery(QuerySpecification)" data-throw-if-not-resolved="false">createIndividualEnrollmentQuery(QuerySpecification)</xref>, passing the <xref uid="" data-throw-if-not-resolved="false">QuerySpecification</xref>, with the SQL query. This factory returns a <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.Query" data-throw-if-not-resolved="false">Query</xref> object, which is an active iterator.</p>
+
+    <p>This java SDK can be represented in the follow diagram, the first layer are the public APIs the your application shall use:</p>
+
+    <p>
+
+      <pre>
+
+        <code>+===============+       +==========================================+                           +============+   +===+
+
+        |    configs    |------&gt;|         ProvisioningServiceClient        |                        +-&gt;|    Query   |   |   |
+
+        +===============+       +==+=================+==================+==+                        |  +======+=====+   | e |
+
+                                  /                  |                   \                          |         |         | x |
+
+                                 /                   |                    \                         |         |         | c |
+
+        +-----------------------+-----+  +-----------+------------+  +-----+---------------------+  |         |         | e |
+
+        | IndividualEnrollmentManager |  | EnrollmentGroupManager |  | RegistrationStatusManager |  |         |         | p |
+
+        +---------------+------+------+  +-----------+------+-----+  +-------------+-------+-----+  |         |         | t |
+
+                         \      \                    |       \                     |        \       |         |         | i |
+
+                          \      +----------------------------+------------------------------+------+         |         | o |
+
+                           \                         |                             |                          |         | n |
+
+         +--------+      +--+------------------------+-----------------------------+--------------------------+-----+   | s |
+
+         |  auth  |-----&gt;|                                     ContractApiHttp                                      |   |   |
+
+         +--------+      +-------------------------------------------+----------------------------------------------+   +===+
+
+                                                                     |
+
+                                                                     |
+
+                               +-------------------------------------+------------------------------------------+
+
+                               |                 com.microsoft.azure.sdk.iot.deps.transport.http                |
+
+                               +--------------------------------------------------------------------------------+
+
+        </code>
+
+      </pre>
+
+    </p>
+
+    <p></p>
+  syntax:
+    content: public class ProvisioningServiceClient
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment.yml
+  name: IndividualEnrollment
+  nameWithType: IndividualEnrollment
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+  type: Class
+  summary: >-
+    <p>Representation of a single Device Provisioning Service enrollment with a JSON serializer and deserializer.</p>
+
+    <p>This object is used to send IndividualEnrollment information to the provisioning service, or receive IndividualEnrollment information from the provisioning service.</p>
+
+    <p>To create or update an IndividualEnrollment on the provisioning service you should fill this object and call the public API <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient.createOrUpdateIndividualEnrollment(IndividualEnrollment)" data-throw-if-not-resolved="false">ProvisioningServiceClient#createOrUpdateIndividualEnrollment(IndividualEnrollment)</xref>. The minimum information required by the provisioning service is the<code>registrationId 
+
+        </code> and the <code>attestation 
+
+        </code> .</p>
+
+    <p>A new device can be provisioned by two attestation mechanisms, Trust Platform Module (see <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation" data-throw-if-not-resolved="false">TpmAttestation</xref>) or X509 (see <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation" data-throw-if-not-resolved="false">X509Attestation</xref>). The definition of each one you should use depending on the physical authentication hardware that the device contains.</p>
+
+    <p>The content of this class will be serialized in a JSON format and sent as a body of the rest API to the provisioning service.</p>
+
+    <p>When serialized, an IndividualEnrollment will look like the following example:</p>
+
+    <p>
+
+      <pre>
+
+        <code>{
+
+           "registrationId":"validRegistrationId",
+
+           "deviceId":"ContosoDevice-123",
+
+           "attestation":{
+
+               "type":"tpm",
+
+               "tpm":{
+
+                   "endorsementKey":"validEndorsementKey"
+
+               }
+
+           },
+
+           "iotHubHostName":"ContosoIoTHub.azure-devices.net",
+
+           "provisioningStatus":"enabled"
+
+        }
+
+        </code>
+
+      </pre>
+
+    </p>
+
+    <p>The content of this class can be filled by a JSON, received from the provisioning service, as result of a IndividualEnrollment operation like create, update, or query enrollment.</p>
+
+    <p>The following JSON is a sample or the IndividualEnrollment response, received from the provisioning service.</p>
+
+    <p>
+
+      <pre>
+
+        <code>{
+
+           "registrationId":"validRegistrationId",
+
+           "deviceId":"ContosoDevice-123",
+
+           "attestation":{
+
+               "type":"tpm",
+
+               "tpm":{
+
+                   "endorsementKey":"validEndorsementKey"
+
+               }
+
+           },
+
+           "iotHubHostName":"ContosoIoTHub.azure-devices.net",
+
+           "provisioningStatus":"enabled"
+
+           "createdDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+           "lastUpdatedDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+           "etag": "\"00000000-0000-0000-0000-00000000000\""
+
+        }
+
+        </code>
+
+      </pre>
+
+    </p>
+
+    <p></p>
+  syntax:
+    content: public class IndividualEnrollment extends Serializable
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException.yml
+  name: ProvisioningServiceClientException
+  nameWithType: ProvisioningServiceClientException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
+  type: Class
+  summary: >-
+    <p>Super class for the Device Provisioning Service exceptions on the Service Client.</p>
+
+    <p>
+
+      <pre>
+
+        <code>ProvisioningServiceClientException
+
+            |
+
+            +--&gt;ProvisioningServiceClientTransportException [any transport layer exception]
+
+            |
+
+            +--&gt;ProvisioningServiceClientServiceException [any exception reported in the http response]
+
+                    |
+
+                    |
+
+                    +--&gt;ProvisioningServiceClientBadUsageException [any http response 4xx]
+
+                    |        |
+
+                    |        +--&gt;ProvisioningServiceClientBadFormatException [400]
+
+                    |        +--&gt;ProvisioningServiceClientUnathorizedException [401]
+
+                    |        +--&gt;ProvisioningServiceClientNotFoundException [404]
+
+                    |        +--&gt;ProvisioningServiceClientPreconditionFailedException [412]
+
+                    |        +--&gt;ProvisioningServiceClientTooManyRequestsException [429]
+
+                    |
+
+                    +--&gt;ProvisioningServiceClientTransientException [any http response 5xx]
+
+                    |        |
+
+                    |        +--&gt;ProvisioningServiceClientInternalServerErrorException [500]
+
+                    |
+
+                    +--&gt;ProvisioningServiceClientUnknownException [any other http response &gt;300, but not 4xx or 5xx]
+
+        </code>
+
+      </pre>
+
+    </p>
+  syntax:
+    content: public class ProvisioningServiceClientException
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult.yml
+  name: BulkEnrollmentOperationResult
+  nameWithType: BulkEnrollmentOperationResult
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult
+  type: Class
+  summary: >-
+    <p>Representation of a single Device Provisioning Service bulk operation result with a JSON deserializer.</p>
+
+    <p>This result is returned as a result of the <xref uid="" data-throw-if-not-resolved="false">ProvisioningServiceClient#runBulkEnrollmentOperation(BulkOperationMode, Collection)</xref>.</p>
+
+    <p>The provisioning service provides general bulk result in the isSuccessful, and a individual error result for each enrolment in the bulk.</p>
+
+    <p>The following JSON is an example of the result from a bulk operation. <pre><code>{
+
+            "isSuccessful":true,
+
+            "errors": [
+
+                {
+
+                    "registrationId":"validRegistrationId1",
+
+                    "errorCode":200,
+
+                    "errorStatus":"Succeeded"
+
+                },
+
+                {
+
+                    "registrationId":"validRegistrationId2",
+
+                    "errorCode":200,
+
+                    "errorStatus":"Succeeded"
+
+                }
+
+            ]
+
+        }
+
+        </code></pre></p>
+
+    <p></p>
+  syntax:
+    content: public class BulkEnrollmentOperationResult
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification.yml
+  name: QuerySpecification
+  nameWithType: QuerySpecification
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecification
+  type: Class
+  summary: >-
+    <p>Representation of a single Device Provisioning Service query specification with a JSON serializer.</p>
+
+    <p></p>
+  syntax:
+    content: public class QuerySpecification
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup.yml
+  name: EnrollmentGroup
+  nameWithType: EnrollmentGroup
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup
+  type: Class
+  summary: >-
+    <p>Representation of a single Device Provisioning Service enrollment group with a JSON serializer and deserializer.</p>
+
+    <p>This object is used to send EnrollmentGroup information to the provisioning service, or receive EnrollmentGroup information from the provisioning service.</p>
+
+    <p>To create or update an EnrollmentGroup on the provisioning service you should fill this object and call the public API <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient.createOrUpdateEnrollmentGroup(EnrollmentGroup)" data-throw-if-not-resolved="false">ProvisioningServiceClient#createOrUpdateEnrollmentGroup(EnrollmentGroup)</xref>. The minimum information required by the provisioning service is the <xref uid="" data-throw-if-not-resolved="false">enrollmentGroupId</xref> and the <xref uid="" data-throw-if-not-resolved="false">attestation</xref>.</p>
+
+    <p>To provision a device using EnrollmentGroup, it must contain a X509 chip with a signingCertificate for the <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation" data-throw-if-not-resolved="false">X509Attestation</xref> mechanism.</p>
+
+    <p>The content of this class will be serialized in a JSON format and sent as a body of the rest API to the provisioning service.</p>
+
+    <p>When serialized, an EnrollmentGroup will look like the following example: <pre><code>{
+
+            "enrollmentGroupId":"validEnrollmentGroupId",
+
+            "attestation":{
+
+                "type":"x509",
+
+                "signingCertificates":{
+
+                    "primary":{
+
+                        "certificate":"[valid certificate]"
+
+                    }
+
+                }
+
+            },
+
+            "iotHubHostName":"ContosoIoTHub.azure-devices.net",
+
+            "provisioningStatus":"enabled"
+
+        }
+
+        </code></pre></p>
+
+    <p>The content of this class can be filled by a JSON, received from the provisioning service, as result of a EnrollmentGroup operation like create, update, or query EnrollmentGroup.</p>
+
+    <p>The following JSON is a sample of the EnrollmentGroup response, received from the provisioning service. <pre><code>{
+
+            "enrollmentGroupId":"validEnrollmentGroupId",
+
+            "attestation":{
+
+                "type":"x509",
+
+                "signingCertificates":{
+
+                    "primary":{
+
+                        "certificate":"[valid certificate]",
+
+                        "info": {
+
+                            "subjectName": "CN=ROOT_00000000-0000-0000-0000-000000000000, OU=Azure IoT, O=MSFT, C=US",
+
+                            "sha1Thumbprint": "0000000000000000000000000000000000",
+
+                            "sha256Thumbprint": "validEnrollmentGroupId",
+
+                            "issuerName": "CN=ROOT_00000000-0000-0000-0000-000000000000, OU=Azure IoT, O=MSFT, C=US",
+
+                            "notBeforeUtc": "2017-11-14T12:34:18Z",
+
+                            "notAfterUtc": "2017-11-20T12:34:18Z",
+
+                            "serialNumber": "000000000000000000",
+
+                            "version": 3
+
+                        }
+
+                    }
+
+                }
+
+            },
+
+            "iotHubHostName":"ContosoIoTHub.azure-devices.net",
+
+            "provisioningStatus":"enabled",
+
+            "createdDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+            "lastUpdatedDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+            "etag": "\"00000000-0000-0000-0000-00000000000\""
+
+        }
+
+        </code></pre></p>
+
+    <p></p>
+  syntax:
+    content: public class EnrollmentGroup extends Serializable
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState.yml
+  name: DeviceRegistrationState
+  nameWithType: DeviceRegistrationState
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+  type: Class
+  summary: >-
+    <p>Representation of a single Device Provisioning Service device registration state with a JSON deserializer.</p>
+
+    <p>Example of JSON format: <pre><code>{
+
+            "registrationId":"validRegistrationId",
+
+            "createdDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+            "assignedHub":"ContosoIoTHub.azure-devices.net",
+
+            "deviceId":"ContosoDevice-123",
+
+            "status":"assigned"
+
+            "lastUpdatedDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+            "errorCode":200
+
+            "errorMessage":"Succeeded"
+
+            "etag": "\"00000000-0000-0000-0000-00000000000\""
+
+        }
+
+        </code></pre></p>
+
+    <p></p>
+  syntax:
+    content: public class DeviceRegistrationState

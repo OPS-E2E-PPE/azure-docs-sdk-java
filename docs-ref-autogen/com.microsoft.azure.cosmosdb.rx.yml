@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.azure.cosmosdb.rx
   id: rx
   children:
-  - com.microsoft.azure.cosmosdb.rx._async_document_client
-  - com.microsoft.azure.cosmosdb.rx._async_document_client._builder
+  - com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient
+  - com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
   href: com.microsoft.azure.cosmosdb.rx.yml
   langs:
   - java
@@ -19,12 +19,13 @@ items:
       repo: https://github.com/Azure/azure-cosmosdb-java
     path: sdk/src/main/java/com/microsoft/azure/cosmosdb/rx/AsyncDocumentClient.java
     startLine: 22
+  summary: "<p>This package provides Rx interfaces for interacting with Azure Cosmos DB. </p>"
   syntax:
     content: package com.microsoft.azure.cosmosdb.rx
 references:
-- uid: com.microsoft.azure.cosmosdb.rx._async_document_client
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient
   parent: com.microsoft.azure.cosmosdb.rx
-  href: com.microsoft.azure.cosmosdb.rx._async_document_client.yml
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.yml
   name: AsyncDocumentClient
   nameWithType: AsyncDocumentClient
   fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient
@@ -34,13 +35,13 @@ references:
 
     <p>
 
-      <xref uid="com.microsoft.azure.cosmosdb.rx._async_document_client" data-throw-if-not-resolved="false">AsyncDocumentClient</xref> async APIs return <a href="https://github.com/ReactiveX/RxJava">rxJava</a>'s<code>Observable 
+      <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient" data-throw-if-not-resolved="false">AsyncDocumentClient</xref> async APIs return <a href="https://github.com/ReactiveX/RxJava">rxJava</a>'s<code>Observable 
 
         </code> , and so you can use rxJava <xref uid="" data-throw-if-not-resolved="false">Observable</xref> functionalities. <b>The async <xref uid="" data-throw-if-not-resolved="false">Observable</xref> based APIs perform the requested operation only after subscription.</b></p>
 
     <p>The service client encapsulates the endpoint and credentials used to access the Cosmos DB service.</p>
 
-    <p>To instantiate you can use the <xref uid="" data-throw-if-not-resolved="false">Builder</xref><pre><code>AsyncDocumentClient client = new AsyncDocumentClient.Builder()
+    <p>To instantiate you can use the <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder" data-throw-if-not-resolved="false">Builder</xref><pre><code>AsyncDocumentClient client = new AsyncDocumentClient.Builder()
 
                 .withServiceEndpoint(serviceEndpoint)
 
@@ -55,15 +56,15 @@ references:
         </code></pre></p>
   syntax:
     content: public interface AsyncDocumentClient
-- uid: com.microsoft.azure.cosmosdb.rx._async_document_client._builder
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
   parent: com.microsoft.azure.cosmosdb.rx
-  href: com.microsoft.azure.cosmosdb.rx._async_document_client._builder.yml
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.yml
   name: AsyncDocumentClient.Builder
   nameWithType: AsyncDocumentClient.Builder
   fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
   type: Class
   summary: >-
-    <p>Helper class to build <xref uid="com.microsoft.azure.cosmosdb.rx._async_document_client" data-throw-if-not-resolved="false">AsyncDocumentClient</xref> instances as logical representation of the Azure Cosmos DB database service.</p>
+    <p>Helper class to build <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient" data-throw-if-not-resolved="false">AsyncDocumentClient</xref> instances as logical representation of the Azure Cosmos DB database service.</p>
 
     <p>
 
@@ -73,7 +74,7 @@ references:
 
                 .withServiceEndpoint(serviceEndpoint)
 
-                .withMasterKey(masterKey)
+                .withMasterKeyOrResourceToken(masterKeyOrResourceToken)
 
                 .withConnectionPolicy(ConnectionPolicy.GetDefault())
 

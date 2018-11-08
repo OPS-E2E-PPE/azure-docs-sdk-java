@@ -3,27 +3,27 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
   id: configs
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf255ec7f32b29310c81e410642a11ddce
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf2fe8ae9bfab46a77da0e43a1f6f8e4af
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf32acd4fb9730aa7a7db765e6e9a52a2e
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf446cb516efa5614e0a3f19c2c0e9d256
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf5133e888963543086905ab7a6fd54fb3
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf798d548ce8a841be74b81504ab5ffd03
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf8a9701928a43007cab8f3a8ad79baae6
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.confb669b3e0a90419ea07ee7b534d962100
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.confbf7d97a744b4630b66a927df1bad1c68
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.confeb245d8b25960880434cfef2cb11ad34
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conffe5f03aa049b7f6d0f34ac081c40be78
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._enrollment_group_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._query_result_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._serializable_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._tpm_attestation_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_collection_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_metadata_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_properties_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_state_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._x509_attestation_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._x509_certificates_test
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanismTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationErrorTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResultTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationStateTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroupTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QueryResultTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.SerializableTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinPropertiesTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinStateTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509AttestationTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfoTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificatesTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.yml
   langs:
   - java
@@ -41,9 +41,9 @@ items:
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
 references:
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf446cb516efa5614e0a3f19c2c0e9d256
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanismTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf446cb516efa5614e0a3f19c2c0e9d256.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanismTest.yml
   name: AttestationMechanismTest
   nameWithType: AttestationMechanismTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanismTest
@@ -51,9 +51,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service IndividualEnrollment serializer 100% methods, 100% lines covered </p>
   syntax:
     content: public class AttestationMechanismTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf798d548ce8a841be74b81504ab5ffd03
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationErrorTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf798d548ce8a841be74b81504ab5ffd03.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationErrorTest.yml
   name: BulkEnrollmentOperationErrorTest
   nameWithType: BulkEnrollmentOperationErrorTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationErrorTest
@@ -61,9 +61,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service Device Registration Operation Error 100% methods, 100% lines covered </p>
   syntax:
     content: public class BulkEnrollmentOperationErrorTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.confbf7d97a744b4630b66a927df1bad1c68
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResultTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.confbf7d97a744b4630b66a927df1bad1c68.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResultTest.yml
   name: BulkEnrollmentOperationResultTest
   nameWithType: BulkEnrollmentOperationResultTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResultTest
@@ -71,9 +71,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service bulk operation result deserializer 100% methods, 100% lines covered </p>
   syntax:
     content: public class BulkEnrollmentOperationResultTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf5133e888963543086905ab7a6fd54fb3
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf5133e888963543086905ab7a6fd54fb3.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationTest.yml
   name: BulkEnrollmentOperationTest
   nameWithType: BulkEnrollmentOperationTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationTest
@@ -81,9 +81,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service bulk operation serializer 100% methods, 100% lines covered </p>
   syntax:
     content: public class BulkEnrollmentOperationTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.confeb245d8b25960880434cfef2cb11ad34
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationStateTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.confeb245d8b25960880434cfef2cb11ad34.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationStateTest.yml
   name: DeviceRegistrationStateTest
   nameWithType: DeviceRegistrationStateTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationStateTest
@@ -91,9 +91,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service bulk operation result deserializer 100% methods, 100% lines covered </p>
   syntax:
     content: public class DeviceRegistrationStateTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._enrollment_group_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroupTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._enrollment_group_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroupTest.yml
   name: EnrollmentGroupTest
   nameWithType: EnrollmentGroupTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroupTest
@@ -101,9 +101,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service Enrollment group serializer 100% methods, 100% lines covered </p>
   syntax:
     content: public class EnrollmentGroupTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf32acd4fb9730aa7a7db765e6e9a52a2e
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf32acd4fb9730aa7a7db765e6e9a52a2e.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
   name: IndividualEnrollmentTest
   nameWithType: IndividualEnrollmentTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
@@ -111,9 +111,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service IndividualEnrollment serializer 100% methods, 100% lines covered </p>
   syntax:
     content: public class IndividualEnrollmentTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._query_result_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QueryResultTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._query_result_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QueryResultTest.yml
   name: QueryResultTest
   nameWithType: QueryResultTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QueryResultTest
@@ -121,9 +121,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service query result deserializer 100% methods, 100% lines covered </p>
   syntax:
     content: public class QueryResultTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf255ec7f32b29310c81e410642a11ddce
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf255ec7f32b29310c81e410642a11ddce.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest.yml
   name: QuerySpecificationBuilderTest
   nameWithType: QuerySpecificationBuilderTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilderTest
@@ -131,9 +131,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service query Specification builder 100% methods, 100% lines covered </p>
   syntax:
     content: public class QuerySpecificationBuilderTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.confb669b3e0a90419ea07ee7b534d962100
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.confb669b3e0a90419ea07ee7b534d962100.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationTest.yml
   name: QuerySpecificationTest
   nameWithType: QuerySpecificationTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationTest
@@ -141,9 +141,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service query Specification serializer 100% methods, 100% lines covered </p>
   syntax:
     content: public class QuerySpecificationTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._serializable_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.SerializableTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._serializable_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.SerializableTest.yml
   name: SerializableTest
   nameWithType: SerializableTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.SerializableTest
@@ -151,9 +151,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service Serializable 100% methods, 100% lines covered </p>
   syntax:
     content: public class SerializableTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._tpm_attestation_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._tpm_attestation_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
   name: TpmAttestationTest
   nameWithType: TpmAttestationTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
@@ -161,9 +161,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service TPM attestation 100% methods, 100% lines covered </p>
   syntax:
     content: public class TpmAttestationTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_collection_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_collection_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
   name: TwinCollectionTest
   nameWithType: TwinCollectionTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
@@ -171,9 +171,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service TwinCollection 100% methods, 100% lines covered </p>
   syntax:
     content: public class TwinCollectionTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_metadata_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_metadata_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
   name: TwinMetadataTest
   nameWithType: TwinMetadataTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
@@ -181,9 +181,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service TwinMetadata 100% methods, 100% lines covered </p>
   syntax:
     content: public class TwinMetadataTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_properties_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinPropertiesTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_properties_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinPropertiesTest.yml
   name: TwinPropertiesTest
   nameWithType: TwinPropertiesTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinPropertiesTest
@@ -191,9 +191,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service TwinProperties 100% methods, 100% lines covered </p>
   syntax:
     content: public class TwinPropertiesTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_state_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinStateTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._twin_state_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinStateTest.yml
   name: TwinStateTest
   nameWithType: TwinStateTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinStateTest
@@ -201,9 +201,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service TwinState 100% methods, 100% lines covered </p>
   syntax:
     content: public class TwinStateTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._x509_attestation_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509AttestationTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._x509_attestation_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509AttestationTest.yml
   name: X509AttestationTest
   nameWithType: X509AttestationTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509AttestationTest
@@ -211,9 +211,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service X509 attestation 100% methods, 100% lines covered </p>
   syntax:
     content: public class X509AttestationTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conffe5f03aa049b7f6d0f34ac081c40be78
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conffe5f03aa049b7f6d0f34ac081c40be78.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
   name: X509CAReferencesTest
   nameWithType: X509CAReferencesTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
@@ -221,9 +221,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service X509 CA references 100% methods, 100% lines covered </p>
   syntax:
     content: public class X509CAReferencesTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf8a9701928a43007cab8f3a8ad79baae6
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfoTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf8a9701928a43007cab8f3a8ad79baae6.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfoTest.yml
   name: X509CertificateInfoTest
   nameWithType: X509CertificateInfoTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfoTest
@@ -231,9 +231,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service X509 certificate info 100% methods, 100% lines covered </p>
   syntax:
     content: public class X509CertificateInfoTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._x509_certificates_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificatesTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs._x509_certificates_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificatesTest.yml
   name: X509CertificatesTest
   nameWithType: X509CertificatesTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificatesTest
@@ -241,9 +241,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service X509 certificates 100% methods, 100% lines covered </p>
   syntax:
     content: public class X509CertificatesTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf2fe8ae9bfab46a77da0e43a1f6f8e4af
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.conf2fe8ae9bfab46a77da0e43a1f6f8e4af.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
   name: X509CertificateWithInfoTest
   nameWithType: X509CertificateWithInfoTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest

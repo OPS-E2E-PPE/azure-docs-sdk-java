@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition
+  id: WithEdition
+  parent: com.microsoft.azure.management.sql
+  children:
+  - com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withEdition(ElasticPoolEditions)
+  href: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.yml
+  langs:
+  - java
+  name: SqlElasticPool.DefinitionStages.WithEdition
+  nameWithType: SqlElasticPool.DefinitionStages.WithEdition
+  fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlElasticPool.java
+      branch: v1.3.0
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlElasticPool.java
+    startLine: 124
+  package: com.microsoft.azure.management.sql
+  summary: "<p>The SQL Elastic Pool definition to set the edition for database. </p>"
+  syntax:
+    content: public interface WithEdition
+- uid: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withEdition(ElasticPoolEditions)
+  id: withEdition(ElasticPoolEditions)
+  parent: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition
+  href: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.yml
+  langs:
+  - java
+  name: withEdition(ElasticPoolEditions edition)
+  nameWithType: SqlElasticPool.DefinitionStages.WithEdition.withEdition(ElasticPoolEditions edition)
+  fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withEdition(ElasticPoolEditions edition)
+  overload: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withEdition*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlElasticPool.java
+    startLine: 131
+  package: com.microsoft.azure.management.sql
+  summary: "<p>Sets the edition for the SQL Elastic Pool.</p>\r\n<p></p>"
+  syntax:
+    content: public SqlElasticPool.DefinitionStages.WithCreate withEdition(ElasticPoolEditions edition)
+    parameters:
+    - id: edition
+      type: com.microsoft.azure.management.sql.ElasticPoolEditions
+      description: <p>edition to be set for elastic pool. </p>
+    return:
+      type: 9d67413d
+      description: <p>The next stage of the definition. </p>
+references:
+- uid: 9d67413d
+  spec.java:
+  - name: SqlElasticPool.DefinitionStages.WithCreate
+    fullName: SqlElasticPool.DefinitionStages.WithCreate
+- uid: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withEdition*
+  name: withEdition
+  nameWithType: SqlElasticPool.DefinitionStages.WithEdition.withEdition
+  fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withEdition
+  package: com.microsoft.azure.management.sql
+- uid: com.microsoft.azure.management.sql.SqlElasticPool.Definition
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.SqlElasticPool.Definition.yml
+  name: SqlElasticPool.Definition
+  nameWithType: SqlElasticPool.Definition
+  fullName: com.microsoft.azure.management.sql.SqlElasticPool.Definition
+  type: Interface
+  summary: <p>Container interface for all the definitions that need to be implemented. </p>
+  syntax:
+    content: public interface Definition extends SqlElasticPool.DefinitionStages.Blank,SqlElasticPool.DefinitionStages.WithEdition,SqlElasticPool.DefinitionStages.WithCreate
+- uid: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.Blank
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.Blank.yml
+  name: SqlElasticPool.DefinitionStages.Blank
+  nameWithType: SqlElasticPool.DefinitionStages.Blank
+  fullName: com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.Blank
+  type: Interface
+  summary: <p>The first stage of the SQL Server definition. </p>
+  syntax:
+    content: public interface Blank extends SqlElasticPool.DefinitionStages.WithEdition
+- uid: com.microsoft.azure.management.sql.ElasticPoolEditions
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.ElasticPoolEditions.yml
+  name: ElasticPoolEditions
+  nameWithType: ElasticPoolEditions
+  fullName: com.microsoft.azure.management.sql.ElasticPoolEditions
+  type: Class
+  summary: <p>Defines values for ElasticPoolEditions. </p>
+  syntax:
+    content: public class ElasticPoolEditions

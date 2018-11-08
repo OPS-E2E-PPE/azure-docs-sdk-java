@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  id: CognitiveServicesManager
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  children:
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.accounts()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate(AzureTokenCredentials,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate(RestClient,String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.checkSkuAvailabilitys()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.configure()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.operations()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.resourceSkus()
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: CognitiveServicesManager
+  nameWithType: CognitiveServicesManager
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  type: Class
+  source:
+    remote: &o0
+      path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CognitiveServicesManager.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CognitiveServicesManager.java
+    startLine: 28
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Entry point to Azure CognitiveServices resource management. </p>"
+  syntax: &o1
+    content: public class CognitiveServicesManager
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.azure.arm.resources.implementation.ManagerCore<CognitiveServicesManager, CognitiveServicesManagementClientImpl>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.accounts()
+  id: accounts()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: accounts()
+  nameWithType: CognitiveServicesManager.accounts()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.accounts()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.accounts*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CognitiveServicesManager.java
+    startLine: 83
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  syntax:
+    content: public Accounts accounts()
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Accounts
+      description: <p>Entry point to manage Accounts. </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate(AzureTokenCredentials,String)
+  id: authenticate(AzureTokenCredentials,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  nameWithType: CognitiveServicesManager.authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CognitiveServicesManager.java
+    startLine: 48
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Creates an instance of CognitiveServicesManager that exposes CognitiveServices resource management API entry points.</p>\r\n<p></p>"
+  syntax:
+    content: public static CognitiveServicesManager authenticate(AzureTokenCredentials credentials, String subscriptionId)
+    parameters:
+    - id: credentials
+      type: f380981c
+      description: <p>the credentials to use </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>the subscription UUID </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+      description: <p>the CognitiveServicesManager </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate(RestClient,String)
+  id: authenticate(RestClient,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: authenticate(RestClient restClient, String subscriptionId)
+  nameWithType: CognitiveServicesManager.authenticate(RestClient restClient, String subscriptionId)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate(RestClient restClient, String subscriptionId)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CognitiveServicesManager.java
+    startLine: 63
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Creates an instance of CognitiveServicesManager that exposes CognitiveServices resource management API entry points.</p>\r\n<p></p>"
+  syntax:
+    content: public static CognitiveServicesManager authenticate(RestClient restClient, String subscriptionId)
+    parameters:
+    - id: restClient
+      type: 9545a295
+      description: <p>the RestClient to be used for API calls. </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>the subscription UUID </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+      description: <p>the CognitiveServicesManager </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.checkSkuAvailabilitys()
+  id: checkSkuAvailabilitys()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: checkSkuAvailabilitys()
+  nameWithType: CognitiveServicesManager.checkSkuAvailabilitys()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.checkSkuAvailabilitys()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.checkSkuAvailabilitys*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CognitiveServicesManager.java
+    startLine: 113
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  syntax:
+    content: public CheckSkuAvailabilitys checkSkuAvailabilitys()
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilitys
+      description: <p>Entry point to manage CheckSkuAvailabilitys. </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.configure()
+  id: configure()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: configure()
+  nameWithType: CognitiveServicesManager.configure()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.configure()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.configure*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CognitiveServicesManager.java
+    startLine: 38
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Get a Configurable instance that can be used to create CognitiveServicesManager with optional configuration.</p>\r\n<p></p>"
+  syntax:
+    content: public static Configurable configure()
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.Configurable
+      description: <p>the instance allowing configurations </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.operations()
+  id: operations()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: operations()
+  nameWithType: CognitiveServicesManager.operations()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.operations()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.operations*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CognitiveServicesManager.java
+    startLine: 103
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  syntax:
+    content: public Operations operations()
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Operations
+      description: <p>Entry point to manage Operations. </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.resourceSkus()
+  id: resourceSkus()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: resourceSkus()
+  nameWithType: CognitiveServicesManager.resourceSkus()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.resourceSkus()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.resourceSkus*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/CognitiveServicesManager.java
+    startLine: 93
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  syntax:
+    content: public ResourceSkus resourceSkus()
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkus
+      description: <p>Entry point to manage ResourceSkus. </p>
+references:
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.configure*
+  name: configure
+  nameWithType: CognitiveServicesManager.configure
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.configure
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: f380981c
+  spec.java:
+  - name: AzureTokenCredentials
+    fullName: AzureTokenCredentials
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate*
+  name: authenticate
+  nameWithType: CognitiveServicesManager.authenticate
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.authenticate
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 9545a295
+  spec.java:
+  - name: RestClient
+    fullName: RestClient
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.accounts*
+  name: accounts
+  nameWithType: CognitiveServicesManager.accounts
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.accounts
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.resourceSkus*
+  name: resourceSkus
+  nameWithType: CognitiveServicesManager.resourceSkus
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.resourceSkus
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.operations*
+  name: operations
+  nameWithType: CognitiveServicesManager.operations
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.operations
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.checkSkuAvailabilitys*
+  name: checkSkuAvailabilitys
+  nameWithType: CognitiveServicesManager.checkSkuAvailabilitys
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.checkSkuAvailabilitys
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Accounts
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Accounts.yml
+  name: Accounts
+  nameWithType: Accounts
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Accounts
+  type: Interface
+  summary: <p>Type representing Accounts. </p>
+  syntax:
+    content: public interface Accounts
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkus
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkus.yml
+  name: ResourceSkus
+  nameWithType: ResourceSkus
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.ResourceSkus
+  type: Interface
+  summary: <p>Type representing ResourceSkus. </p>
+  syntax:
+    content: public interface ResourceSkus
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Operations
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Operations.yml
+  name: Operations
+  nameWithType: Operations
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.Operations
+  type: Interface
+  summary: <p>Type representing Operations. </p>
+  syntax:
+    content: public interface Operations
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilitys
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilitys.yml
+  name: CheckSkuAvailabilitys
+  nameWithType: CheckSkuAvailabilitys
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.CheckSkuAvailabilitys
+  type: Interface
+  summary: <p>Type representing CheckSkuAvailabilitys. </p>
+  syntax:
+    content: public interface CheckSkuAvailabilitys
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.Configurable
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.Configurable.yml
+  name: CognitiveServicesManager.Configurable
+  nameWithType: CognitiveServicesManager.Configurable
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.Configurable
+  type: Interface
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager.yml
+  name: CognitiveServicesManager
+  nameWithType: CognitiveServicesManager
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManager
+  type: Class
+  summary: <p>Entry point to Azure CognitiveServices resource management. </p>
+  syntax: *o1

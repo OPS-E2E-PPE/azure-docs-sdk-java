@@ -3,8 +3,8 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
   id: contract
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract._contract_api_http_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract._s_d_k_utils_test
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.SDKUtilsTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.yml
   langs:
   - java
@@ -22,9 +22,9 @@ items:
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
 references:
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract._contract_api_http_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract._contract_api_http_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
   name: ContractApiHttpTest
   nameWithType: ContractApiHttpTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
@@ -32,9 +32,9 @@ references:
   summary: <p>Unit tests for Device Provisioning Service Contract APIs for HTTP. 100% methods, 98% lines covered * impossible enum condition on getHttpMethodFromDeviceRegistrationMethod </p>
   syntax:
     content: public class ContractApiHttpTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract._s_d_k_utils_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.SDKUtilsTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract._s_d_k_utils_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.SDKUtilsTest.yml
   name: SDKUtilsTest
   nameWithType: SDKUtilsTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.SDKUtilsTest

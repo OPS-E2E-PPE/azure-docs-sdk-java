@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  id: X509CertificateWithInfoTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificate()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificateAndInfo(@Mocked final X509CertificateInfo)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyInfo(@Mocked final X509CertificateInfo)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorStoresCertificate()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.emptyConstructorSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.gettersSucceed(@Mocked final X509CertificateInfo)
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: X509CertificateWithInfoTest
+  nameWithType: X509CertificateWithInfoTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 17
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  summary: "<p>Unit tests for Device Provisioning Service X509 certificates 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class X509CertificateWithInfoTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificate()
+  id: constructorCopyCertificate()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: constructorCopyCertificate()
+  nameWithType: X509CertificateWithInfoTest.constructorCopyCertificate()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificate()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificate*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 79
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCopyCertificate()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificateAndInfo(@Mocked final X509CertificateInfo)
+  id: constructorCopyCertificateAndInfo(@Mocked final X509CertificateInfo)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: constructorCopyCertificateAndInfo( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+  nameWithType: X509CertificateWithInfoTest.constructorCopyCertificateAndInfo( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificateAndInfo( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificateAndInfo*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 95
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCopyCertificateAndInfo( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+    parameters:
+    - id: mockedX509CertificateInfo
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyInfo(@Mocked final X509CertificateInfo)
+  id: constructorCopyInfo(@Mocked final X509CertificateInfo)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: constructorCopyInfo( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+  nameWithType: X509CertificateWithInfoTest.constructorCopyInfo( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyInfo( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyInfo*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 113
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCopyInfo( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+    parameters:
+    - id: mockedX509CertificateInfo
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyThrowsOnNull()
+  id: constructorCopyThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: constructorCopyThrowsOnNull()
+  nameWithType: X509CertificateWithInfoTest.constructorCopyThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 69
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCopyThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorStoresCertificate()
+  id: constructorStoresCertificate()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: constructorStoresCertificate()
+  nameWithType: X509CertificateWithInfoTest.constructorStoresCertificate()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorStoresCertificate()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorStoresCertificate*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 56
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorStoresCertificate()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateEmpty()
+  id: constructorThrowsOnCertificateEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnCertificateEmpty()
+  nameWithType: X509CertificateWithInfoTest.constructorThrowsOnCertificateEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 46
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnCertificateEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateNull()
+  id: constructorThrowsOnCertificateNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnCertificateNull()
+  nameWithType: X509CertificateWithInfoTest.constructorThrowsOnCertificateNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 36
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnCertificateNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.emptyConstructorSucceed()
+  id: emptyConstructorSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: emptyConstructorSucceed()
+  nameWithType: X509CertificateWithInfoTest.emptyConstructorSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.emptyConstructorSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.emptyConstructorSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 150
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void emptyConstructorSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.gettersSucceed(@Mocked final X509CertificateInfo)
+  id: gettersSucceed(@Mocked final X509CertificateInfo)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.yml
+  langs:
+  - java
+  name: gettersSucceed( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+  nameWithType: X509CertificateWithInfoTest.gettersSucceed( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.gettersSucceed( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.gettersSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CertificateWithInfoTest.java
+    startLine: 132
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void gettersSucceed( @Mocked final X509CertificateInfo mockedX509CertificateInfo)
+    parameters:
+    - id: mockedX509CertificateInfo
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateNull*
+  name: constructorThrowsOnCertificateNull
+  nameWithType: X509CertificateWithInfoTest.constructorThrowsOnCertificateNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateEmpty*
+  name: constructorThrowsOnCertificateEmpty
+  nameWithType: X509CertificateWithInfoTest.constructorThrowsOnCertificateEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorThrowsOnCertificateEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorStoresCertificate*
+  name: constructorStoresCertificate
+  nameWithType: X509CertificateWithInfoTest.constructorStoresCertificate
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorStoresCertificate
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyThrowsOnNull*
+  name: constructorCopyThrowsOnNull
+  nameWithType: X509CertificateWithInfoTest.constructorCopyThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificate*
+  name: constructorCopyCertificate
+  nameWithType: X509CertificateWithInfoTest.constructorCopyCertificate
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificate
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo
+    name: X509CertificateInfo
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificateAndInfo*
+  name: constructorCopyCertificateAndInfo
+  nameWithType: X509CertificateWithInfoTest.constructorCopyCertificateAndInfo
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyCertificateAndInfo
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyInfo*
+  name: constructorCopyInfo
+  nameWithType: X509CertificateWithInfoTest.constructorCopyInfo
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.constructorCopyInfo
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.gettersSucceed*
+  name: gettersSucceed
+  nameWithType: X509CertificateWithInfoTest.gettersSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.gettersSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.emptyConstructorSucceed*
+  name: emptyConstructorSucceed
+  nameWithType: X509CertificateWithInfoTest.emptyConstructorSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateWithInfoTest.emptyConstructorSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo.yml
+  name: X509CertificateInfo
+  nameWithType: X509CertificateInfo
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CertificateInfo
+  type: Class
+  summary: >-
+    <p>Representation of a single X509 Certificate Info for the Device Provisioning Service.</p>
+
+    <p>User receive this info from the provisioning service as result of X509 operations.</p>
+
+    <p>This info contains a set of parameters, The following JSON is an example of the X509 certificate info. <pre><code>{
+
+            "subjectName": "CN=ROOT_00000000-0000-0000-0000-000000000000, OU=Azure IoT, O=MSFT, C=US",
+
+            "sha1Thumbprint": "0000000000000000000000000000000000",
+
+            "sha256Thumbprint": "validEnrollmentGroupId",
+
+            "issuerName": "CN=ROOT_00000000-0000-0000-0000-000000000000, OU=Azure IoT, O=MSFT, C=US",
+
+            "notBeforeUtc": "2017-11-14T12:34:182Z",
+
+            "notAfterUtc": "2017-11-20T12:34:183Z",
+
+            "serialNumber": "000000000000000000",
+
+            "version": 3
+
+        }
+
+        </code></pre></p>
+
+    <p></p>
+  syntax:
+    content: public class X509CertificateInfo

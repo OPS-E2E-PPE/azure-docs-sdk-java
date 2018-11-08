@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective
+  id: WithServiceObjective
+  parent: com.microsoft.azure.management.sql
+  children:
+  - com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective.withServiceObjective(ServiceObjectiveName)
+  href: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective.yml
+  langs:
+  - java
+  name: SqlDatabase.DefinitionStages.WithServiceObjective
+  nameWithType: SqlDatabase.DefinitionStages.WithServiceObjective
+  fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective
+  type: Interface
+  source:
+    remote: &o0
+      path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlDatabase.java
+      branch: v1.3.0
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlDatabase.java
+    startLine: 350
+  package: com.microsoft.azure.management.sql
+  summary: "<p>The SQL Database definition to set the service level objective. </p>"
+  syntax:
+    content: public interface WithServiceObjective
+- uid: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective.withServiceObjective(ServiceObjectiveName)
+  id: withServiceObjective(ServiceObjectiveName)
+  parent: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective
+  href: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective.yml
+  langs:
+  - java
+  name: withServiceObjective(ServiceObjectiveName serviceLevelObjective)
+  nameWithType: SqlDatabase.DefinitionStages.WithServiceObjective.withServiceObjective(ServiceObjectiveName serviceLevelObjective)
+  fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective.withServiceObjective(ServiceObjectiveName serviceLevelObjective)
+  overload: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective.withServiceObjective*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-mgmt-sql/src/main/java/com/microsoft/azure/management/sql/SqlDatabase.java
+    startLine: 357
+  package: com.microsoft.azure.management.sql
+  summary: "<p>Sets the service level objective for the SQL Database.</p>\r\n<p></p>"
+  syntax:
+    content: public WithCreate withServiceObjective(ServiceObjectiveName serviceLevelObjective)
+    parameters:
+    - id: serviceLevelObjective
+      type: com.microsoft.azure.management.sql.ServiceObjectiveName
+      description: <p>service level objected for the SQL Database </p>
+    return:
+      type: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCreate
+      description: <p>The next stage of the definition. </p>
+references:
+- uid: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective.withServiceObjective*
+  name: withServiceObjective
+  nameWithType: SqlDatabase.DefinitionStages.WithServiceObjective.withServiceObjective
+  fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective.withServiceObjective
+  package: com.microsoft.azure.management.sql
+- uid: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCreate
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCreate.yml
+  name: SqlDatabase.DefinitionStages.WithCreate
+  nameWithType: SqlDatabase.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCreate
+  type: Interface
+  summary: <p>A SQL Database definition with sufficient inputs to create a new SQL database in the cloud, but exposing additional optional settings to specify. </p>
+  syntax:
+    content: public interface WithCreate extends SqlDatabase.DefinitionStages.WithServiceObjective,SqlDatabase.DefinitionStages.WithEdition,SqlDatabase.DefinitionStages.WithCollationAllCreateOptions,SqlDatabase.DefinitionStages.WithMaxSizeBytesAllCreateOptions,SqlDatabase.DefinitionStages.WithCreateWithLessOptions
+- uid: com.microsoft.azure.management.sql.ServiceObjectiveName
+  parent: com.microsoft.azure.management.sql
+  href: com.microsoft.azure.management.sql.ServiceObjectiveName.yml
+  name: ServiceObjectiveName
+  nameWithType: ServiceObjectiveName
+  fullName: com.microsoft.azure.management.sql.ServiceObjectiveName
+  type: Class
+  summary: <p>Defines values for ServiceObjectiveName. </p>
+  syntax:
+    content: public class ServiceObjectiveName

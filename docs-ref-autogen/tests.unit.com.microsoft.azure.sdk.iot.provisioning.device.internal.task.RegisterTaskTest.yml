@@ -1,0 +1,1002 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  id: RegisterTaskTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullEk()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullRegId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSRK()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSSLContext()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnRequestNonceFail()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenFailure()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataFailure()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsImportKeyFailure()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnNullAuthKey()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnThreadInterruptedException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509Succeeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnAuthenticateWithDPSFail()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNonExistentType()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullRegId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullSSLContext()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnThreadInterruptedException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullAuthorization()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullConfig()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullContract()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullSecurityProvider()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: RegisterTaskTest
+  nameWithType: RegisterTaskTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 45
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public class RegisterTaskTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser)
+  id: authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 1060
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+    parameters:
+    - id: mockedProvisioningErrorParser
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce()
+  id: authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 532
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce()
+  id: authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 559
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullEk()
+  id: authenticateWithSasTokenNonceThrowsOnNullEk()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenNonceThrowsOnNullEk()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullEk()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullEk()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullEk*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 428
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenNonceThrowsOnNullEk()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullRegId()
+  id: authenticateWithSasTokenNonceThrowsOnNullRegId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenNonceThrowsOnNullRegId()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullRegId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullRegId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullRegId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 409
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenNonceThrowsOnNullRegId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSRK()
+  id: authenticateWithSasTokenNonceThrowsOnNullSRK()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenNonceThrowsOnNullSRK()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSRK()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSRK()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSRK*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 449
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenNonceThrowsOnNullSRK()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSSLContext()
+  id: authenticateWithSasTokenNonceThrowsOnNullSSLContext()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenNonceThrowsOnNullSSLContext()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSSLContext()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSSLContext()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSSLContext*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 473
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenNonceThrowsOnNullSSLContext()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnRequestNonceFail()
+  id: authenticateWithSasTokenNonceThrowsOnRequestNonceFail()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenNonceThrowsOnRequestNonceFail()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnRequestNonceFail()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnRequestNonceFail()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnRequestNonceFail*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 501
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenNonceThrowsOnRequestNonceFail()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenSucceeds()
+  id: authenticateWithSasTokenSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenSucceeds()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 352
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenFailure()
+  id: authenticateWithSasTokenThrowsConstructTokenFailure()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsConstructTokenFailure()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenFailure()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenFailure()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenFailure*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 689
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsConstructTokenFailure()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataFailure()
+  id: authenticateWithSasTokenThrowsConstructTokenSignDataFailure()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsConstructTokenSignDataFailure()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataFailure()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataFailure()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataFailure*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 795
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsConstructTokenSignDataFailure()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty()
+  id: authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 871
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull()
+  id: authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 833
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime()
+  id: authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 951
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsImportKeyFailure()
+  id: authenticateWithSasTokenThrowsImportKeyFailure()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsImportKeyFailure()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsImportKeyFailure()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsImportKeyFailure()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsImportKeyFailure*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 649
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsImportKeyFailure()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail()
+  id: authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 910
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnNullAuthKey()
+  id: authenticateWithSasTokenThrowsOnNullAuthKey()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsOnNullAuthKey()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsOnNullAuthKey()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnNullAuthKey()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnNullAuthKey*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 617
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsOnNullAuthKey()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnThreadInterruptedException()
+  id: authenticateWithSasTokenThrowsOnThreadInterruptedException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsOnThreadInterruptedException()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsOnThreadInterruptedException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnThreadInterruptedException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnThreadInterruptedException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 589
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsOnThreadInterruptedException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty()
+  id: authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 760
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsNull()
+  id: authenticateWithSasTokenThrowsUrlBuilderReturnsNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithSasTokenThrowsUrlBuilderReturnsNull()
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 725
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithSasTokenThrowsUrlBuilderReturnsNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser)
+  id: authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+  nameWithType: RegisterTaskTest.authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 1015
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+    parameters:
+    - id: mockedProvisioningErrorParser
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509Succeeds()
+  id: authenticateWithX509Succeeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithX509Succeeds()
+  nameWithType: RegisterTaskTest.authenticateWithX509Succeeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509Succeeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509Succeeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 153
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithX509Succeeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime()
+  id: authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime()
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 277
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime()
+  id: authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime()
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 301
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnAuthenticateWithDPSFail()
+  id: authenticateWithX509ThrowsOnAuthenticateWithDPSFail()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithX509ThrowsOnAuthenticateWithDPSFail()
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnAuthenticateWithDPSFail()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnAuthenticateWithDPSFail()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnAuthenticateWithDPSFail*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 251
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithX509ThrowsOnAuthenticateWithDPSFail()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNonExistentType()
+  id: authenticateWithX509ThrowsOnNonExistentType()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithX509ThrowsOnNonExistentType()
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnNonExistentType()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNonExistentType()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNonExistentType*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 192
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithX509ThrowsOnNonExistentType()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullRegId()
+  id: authenticateWithX509ThrowsOnNullRegId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithX509ThrowsOnNullRegId()
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnNullRegId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullRegId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullRegId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 206
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithX509ThrowsOnNullRegId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullSSLContext()
+  id: authenticateWithX509ThrowsOnNullSSLContext()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithX509ThrowsOnNullSSLContext()
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnNullSSLContext()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullSSLContext()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullSSLContext*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 227
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithX509ThrowsOnNullSSLContext()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnThreadInterruptedException()
+  id: authenticateWithX509ThrowsOnThreadInterruptedException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: authenticateWithX509ThrowsOnThreadInterruptedException()
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnThreadInterruptedException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnThreadInterruptedException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnThreadInterruptedException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 329
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void authenticateWithX509ThrowsOnThreadInterruptedException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorSucceeds()
+  id: constructorSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: constructorSucceeds()
+  nameWithType: RegisterTaskTest.constructorSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 87
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullAuthorization()
+  id: constructorThrowsOnNullAuthorization()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullAuthorization()
+  nameWithType: RegisterTaskTest.constructorThrowsOnNullAuthorization()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullAuthorization()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullAuthorization*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 141
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThrowsOnNullAuthorization()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullConfig()
+  id: constructorThrowsOnNullConfig()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullConfig()
+  nameWithType: RegisterTaskTest.constructorThrowsOnNullConfig()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullConfig()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullConfig*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 104
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThrowsOnNullConfig()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullContract()
+  id: constructorThrowsOnNullContract()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullContract()
+  nameWithType: RegisterTaskTest.constructorThrowsOnNullContract()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullContract()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullContract*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 130
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThrowsOnNullContract()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullSecurityProvider()
+  id: constructorThrowsOnNullSecurityProvider()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullSecurityProvider()
+  nameWithType: RegisterTaskTest.constructorThrowsOnNullSecurityProvider()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullSecurityProvider()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullSecurityProvider*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RegisterTaskTest.java
+    startLine: 117
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThrowsOnNullSecurityProvider()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorSucceeds*
+  name: constructorSucceeds
+  nameWithType: RegisterTaskTest.constructorSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullConfig*
+  name: constructorThrowsOnNullConfig
+  nameWithType: RegisterTaskTest.constructorThrowsOnNullConfig
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullConfig
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullSecurityProvider*
+  name: constructorThrowsOnNullSecurityProvider
+  nameWithType: RegisterTaskTest.constructorThrowsOnNullSecurityProvider
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullSecurityProvider
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullContract*
+  name: constructorThrowsOnNullContract
+  nameWithType: RegisterTaskTest.constructorThrowsOnNullContract
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullContract
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullAuthorization*
+  name: constructorThrowsOnNullAuthorization
+  nameWithType: RegisterTaskTest.constructorThrowsOnNullAuthorization
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.constructorThrowsOnNullAuthorization
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509Succeeds*
+  name: authenticateWithX509Succeeds
+  nameWithType: RegisterTaskTest.authenticateWithX509Succeeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509Succeeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNonExistentType*
+  name: authenticateWithX509ThrowsOnNonExistentType
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnNonExistentType
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNonExistentType
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullRegId*
+  name: authenticateWithX509ThrowsOnNullRegId
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnNullRegId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullRegId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullSSLContext*
+  name: authenticateWithX509ThrowsOnNullSSLContext
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnNullSSLContext
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnNullSSLContext
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnAuthenticateWithDPSFail*
+  name: authenticateWithX509ThrowsOnAuthenticateWithDPSFail
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnAuthenticateWithDPSFail
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnAuthenticateWithDPSFail
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime*
+  name: authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNoResponseReceivedInMaxTime
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime*
+  name: authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsIfNullResponseReceivedInMaxTime
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnThreadInterruptedException*
+  name: authenticateWithX509ThrowsOnThreadInterruptedException
+  nameWithType: RegisterTaskTest.authenticateWithX509ThrowsOnThreadInterruptedException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509ThrowsOnThreadInterruptedException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenSucceeds*
+  name: authenticateWithSasTokenSucceeds
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullRegId*
+  name: authenticateWithSasTokenNonceThrowsOnNullRegId
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullRegId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullRegId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullEk*
+  name: authenticateWithSasTokenNonceThrowsOnNullEk
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullEk
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullEk
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSRK*
+  name: authenticateWithSasTokenNonceThrowsOnNullSRK
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSRK
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSRK
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSSLContext*
+  name: authenticateWithSasTokenNonceThrowsOnNullSSLContext
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSSLContext
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnNullSSLContext
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnRequestNonceFail*
+  name: authenticateWithSasTokenNonceThrowsOnRequestNonceFail
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnRequestNonceFail
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsOnRequestNonceFail
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce*
+  name: authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNoResponseReceivedInMaxTimeForNonce
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce*
+  name: authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenNonceThrowsIfNullResponseReceivedInMaxTimeForNonce
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnThreadInterruptedException*
+  name: authenticateWithSasTokenThrowsOnThreadInterruptedException
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsOnThreadInterruptedException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnThreadInterruptedException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnNullAuthKey*
+  name: authenticateWithSasTokenThrowsOnNullAuthKey
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsOnNullAuthKey
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnNullAuthKey
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsImportKeyFailure*
+  name: authenticateWithSasTokenThrowsImportKeyFailure
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsImportKeyFailure
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsImportKeyFailure
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenFailure*
+  name: authenticateWithSasTokenThrowsConstructTokenFailure
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenFailure
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenFailure
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsNull*
+  name: authenticateWithSasTokenThrowsUrlBuilderReturnsNull
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty*
+  name: authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsUrlBuilderReturnsEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataFailure*
+  name: authenticateWithSasTokenThrowsConstructTokenSignDataFailure
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataFailure
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataFailure
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull*
+  name: authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty*
+  name: authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsConstructTokenSignDataReturnsEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail*
+  name: authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsOnAuthenticateWithDPSFail
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime*
+  name: authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenThrowsIfNoResponseReceivedInMaxTime
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+    name: ProvisioningErrorParser
+    fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+    href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails*
+  name: authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails
+  nameWithType: RegisterTaskTest.authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithX509FallsBackToErrorParserIfRegistrationOperationStatusParsingFails
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails*
+  name: authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails
+  nameWithType: RegisterTaskTest.authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.authenticateWithSasTokenFallsBackToErrorParserIfRegistrationOperationStatusParsingFails
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider
+  parent: com.microsoft.azure.sdk.iot.provisioning.security
+  href: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider.yml
+  name: SecurityProvider
+  nameWithType: SecurityProvider
+  fullName: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider
+  type: Class
+  syntax:
+    content: public class SecurityProvider
+- uid: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderTpm
+  parent: com.microsoft.azure.sdk.iot.provisioning.security
+  href: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderTpm.yml
+  name: SecurityProviderTpm
+  nameWithType: SecurityProviderTpm
+  fullName: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderTpm
+  type: Class
+  syntax:
+    content: public class SecurityProviderTpm
+- uid: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderX509
+  parent: com.microsoft.azure.sdk.iot.provisioning.security
+  href: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderX509.yml
+  name: SecurityProviderX509
+  nameWithType: SecurityProviderX509
+  fullName: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderX509
+  type: Class
+  syntax:
+    content: public class SecurityProviderX509
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract.yml
+  name: ProvisioningDeviceClientContract
+  nameWithType: ProvisioningDeviceClientContract
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientContract
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig.yml
+  name: ProvisioningDeviceClientConfig
+  nameWithType: ProvisioningDeviceClientConfig
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientConfig
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.Authorization
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.Authorization.yml
+  name: Authorization
+  nameWithType: Authorization
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.Authorization
+  type: Class
+  syntax:
+    content: public class Authorization
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser.yml
+  name: DeviceRegistrationParser
+  nameWithType: DeviceRegistrationParser
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+  type: Class
+  syntax:
+    content: public class DeviceRegistrationParser
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilder
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilder.yml
+  name: UrlPathBuilder
+  nameWithType: UrlPathBuilder
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilder
+  type: Class
+  syntax:
+    content: public class UrlPathBuilder
+- uid: com.microsoft.azure.sdk.iot.deps.util.Base64
+  parent: com.microsoft.azure.sdk.iot.deps.util
+  href: com.microsoft.azure.sdk.iot.deps.util.Base64.yml
+  name: Base64
+  nameWithType: Base64
+  fullName: com.microsoft.azure.sdk.iot.deps.util.Base64
+  type: Class
+  syntax:
+    content: public class Base64
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.TpmRegistrationResultParser
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.TpmRegistrationResultParser.yml
+  name: TpmRegistrationResultParser
+  nameWithType: TpmRegistrationResultParser
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.TpmRegistrationResultParser
+  type: Class
+  summary: <p>Class for the representation of TpmRegistration <a href="https://docs.microsoft.com/en-us/rest/api/iot-dps/RuntimeRegistration/RegisterDevice#definitions_tpmregistrationresult">https://docs.microsoft.com/en-us/rest/api/iot-dps/RuntimeRegistration/RegisterDevice#definitions_tpmregistrationresult</a></p>
+  syntax:
+    content: public class TpmRegistrationResultParser
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser.yml
+  name: RegistrationOperationStatusParser
+  nameWithType: RegistrationOperationStatusParser
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser
+  type: Class
+  summary: '<p>Parses JSON which represent the RegistrationOperationStatus object. Format : <a href="https://docs.microsoft.com/en-us/rest/api/iot-dps/RuntimeRegistration/RegisterDevice#definitions_registrationoperationstatus">https://docs.microsoft.com/en-us/rest/api/iot-dps/RuntimeRegistration/RegisterDevice#definitions_registrationoperationstatus</a></p>'
+  syntax:
+    content: public class RegistrationOperationStatusParser
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback.yml
+  name: ResponseCallback
+  nameWithType: ResponseCallback
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  type: Interface
+  syntax:
+    content: public interface ResponseCallback
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData.yml
+  name: ResponseData
+  nameWithType: ResponseData
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData
+  type: Class
+  syntax:
+    content: public class ResponseData
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData.yml
+  name: RequestData
+  nameWithType: RequestData
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData
+  type: Class
+  syntax:
+    content: public class RequestData
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException.yml
+  name: ProvisioningDeviceClientException
+  nameWithType: ProvisioningDeviceClientException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientException
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser.yml
+  name: ProvisioningErrorParser
+  nameWithType: ProvisioningErrorParser
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+  type: Class
+  syntax:
+    content: public class ProvisioningErrorParser

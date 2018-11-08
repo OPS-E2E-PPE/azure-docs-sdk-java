@@ -1,0 +1,530 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  id: SecurityProviderDiceEmulatorTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyAliasNamesThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyRootNamesThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptySignerNamesThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNamesSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullAliasNamesThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullRootNamesThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullSignerNamesThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameAliasAndSignerNamesThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndAliasNamesThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndSignerNamesThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnEmptyID()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnNullID()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertPemSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasKeySucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForCommonNameSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForDeviceSignerCertificatesSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForRootCertPemSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForSignerCertPemSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.verifyProofOfPossessionSucceeds()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: SecurityProviderDiceEmulatorTest
+  nameWithType: SecurityProviderDiceEmulatorTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 26
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public class SecurityProviderDiceEmulatorTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorSucceeds()
+  id: constructorSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorSucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 38
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyAliasNamesThrows()
+  id: constructorWithEmptyAliasNamesThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithEmptyAliasNamesThrows()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithEmptyAliasNamesThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyAliasNamesThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyAliasNamesThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 102
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithEmptyAliasNamesThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyRootNamesThrows()
+  id: constructorWithEmptyRootNamesThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithEmptyRootNamesThrows()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithEmptyRootNamesThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyRootNamesThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyRootNamesThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 142
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithEmptyRootNamesThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptySignerNamesThrows()
+  id: constructorWithEmptySignerNamesThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithEmptySignerNamesThrows()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithEmptySignerNamesThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptySignerNamesThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptySignerNamesThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 122
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithEmptySignerNamesThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNamesSucceeds()
+  id: constructorWithNamesSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithNamesSucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithNamesSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNamesSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNamesSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 49
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithNamesSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullAliasNamesThrows()
+  id: constructorWithNullAliasNamesThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithNullAliasNamesThrows()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithNullAliasNamesThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullAliasNamesThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullAliasNamesThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 92
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithNullAliasNamesThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullRootNamesThrows()
+  id: constructorWithNullRootNamesThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithNullRootNamesThrows()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithNullRootNamesThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullRootNamesThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullRootNamesThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 132
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithNullRootNamesThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullSignerNamesThrows()
+  id: constructorWithNullSignerNamesThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithNullSignerNamesThrows()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithNullSignerNamesThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullSignerNamesThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullSignerNamesThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 112
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithNullSignerNamesThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameAliasAndSignerNamesThrows()
+  id: constructorWithSameAliasAndSignerNamesThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithSameAliasAndSignerNamesThrows()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithSameAliasAndSignerNamesThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameAliasAndSignerNamesThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameAliasAndSignerNamesThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 72
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithSameAliasAndSignerNamesThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndAliasNamesThrows()
+  id: constructorWithSameRootAndAliasNamesThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithSameRootAndAliasNamesThrows()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithSameRootAndAliasNamesThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndAliasNamesThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndAliasNamesThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 81
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithSameRootAndAliasNamesThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndSignerNamesThrows()
+  id: constructorWithSameRootAndSignerNamesThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: constructorWithSameRootAndSignerNamesThrows()
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithSameRootAndSignerNamesThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndSignerNamesThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndSignerNamesThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 63
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void constructorWithSameRootAndSignerNamesThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnEmptyID()
+  id: generateLeafCertThrowsOnEmptyID()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: generateLeafCertThrowsOnEmptyID()
+  nameWithType: SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnEmptyID()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnEmptyID()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnEmptyID*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 272
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void generateLeafCertThrowsOnEmptyID()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnNullID()
+  id: generateLeafCertThrowsOnNullID()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: generateLeafCertThrowsOnNullID()
+  nameWithType: SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnNullID()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnNullID()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnNullID*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 261
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void generateLeafCertThrowsOnNullID()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertPemSucceeds()
+  id: getterForAliasCertPemSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: getterForAliasCertPemSucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForAliasCertPemSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertPemSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertPemSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 214
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getterForAliasCertPemSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertSucceeds()
+  id: getterForAliasCertSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: getterForAliasCertSucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForAliasCertSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 168
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getterForAliasCertSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasKeySucceeds()
+  id: getterForAliasKeySucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: getterForAliasKeySucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForAliasKeySucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasKeySucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasKeySucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 183
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getterForAliasKeySucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForCommonNameSucceeds()
+  id: getterForCommonNameSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: getterForCommonNameSucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForCommonNameSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForCommonNameSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForCommonNameSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 153
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getterForCommonNameSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForDeviceSignerCertificatesSucceeds()
+  id: getterForDeviceSignerCertificatesSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: getterForDeviceSignerCertificatesSucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForDeviceSignerCertificatesSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForDeviceSignerCertificatesSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForDeviceSignerCertificatesSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 198
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getterForDeviceSignerCertificatesSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForRootCertPemSucceeds()
+  id: getterForRootCertPemSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: getterForRootCertPemSucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForRootCertPemSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForRootCertPemSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForRootCertPemSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 246
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getterForRootCertPemSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForSignerCertPemSucceeds()
+  id: getterForSignerCertPemSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: getterForSignerCertPemSucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForSignerCertPemSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForSignerCertPemSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForSignerCertPemSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 230
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void getterForSignerCertPemSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.verifyProofOfPossessionSucceeds()
+  id: verifyProofOfPossessionSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.yml
+  langs:
+  - java
+  name: verifyProofOfPossessionSucceeds()
+  nameWithType: SecurityProviderDiceEmulatorTest.verifyProofOfPossessionSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.verifyProofOfPossessionSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.verifyProofOfPossessionSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/security/dice-provider-emulator/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/security/hsm/SecurityProviderDiceEmulatorTest.java
+    startLine: 284
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+  syntax:
+    content: public void verifyProofOfPossessionSucceeds()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorSucceeds*
+  name: constructorSucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNamesSucceeds*
+  name: constructorWithNamesSucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithNamesSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNamesSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndSignerNamesThrows*
+  name: constructorWithSameRootAndSignerNamesThrows
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithSameRootAndSignerNamesThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndSignerNamesThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameAliasAndSignerNamesThrows*
+  name: constructorWithSameAliasAndSignerNamesThrows
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithSameAliasAndSignerNamesThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameAliasAndSignerNamesThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndAliasNamesThrows*
+  name: constructorWithSameRootAndAliasNamesThrows
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithSameRootAndAliasNamesThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithSameRootAndAliasNamesThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullAliasNamesThrows*
+  name: constructorWithNullAliasNamesThrows
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithNullAliasNamesThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullAliasNamesThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyAliasNamesThrows*
+  name: constructorWithEmptyAliasNamesThrows
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithEmptyAliasNamesThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyAliasNamesThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullSignerNamesThrows*
+  name: constructorWithNullSignerNamesThrows
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithNullSignerNamesThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullSignerNamesThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptySignerNamesThrows*
+  name: constructorWithEmptySignerNamesThrows
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithEmptySignerNamesThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptySignerNamesThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullRootNamesThrows*
+  name: constructorWithNullRootNamesThrows
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithNullRootNamesThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithNullRootNamesThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyRootNamesThrows*
+  name: constructorWithEmptyRootNamesThrows
+  nameWithType: SecurityProviderDiceEmulatorTest.constructorWithEmptyRootNamesThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.constructorWithEmptyRootNamesThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForCommonNameSucceeds*
+  name: getterForCommonNameSucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForCommonNameSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForCommonNameSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertSucceeds*
+  name: getterForAliasCertSucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForAliasCertSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasKeySucceeds*
+  name: getterForAliasKeySucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForAliasKeySucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasKeySucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForDeviceSignerCertificatesSucceeds*
+  name: getterForDeviceSignerCertificatesSucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForDeviceSignerCertificatesSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForDeviceSignerCertificatesSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertPemSucceeds*
+  name: getterForAliasCertPemSucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForAliasCertPemSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForAliasCertPemSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForSignerCertPemSucceeds*
+  name: getterForSignerCertPemSucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForSignerCertPemSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForSignerCertPemSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForRootCertPemSucceeds*
+  name: getterForRootCertPemSucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.getterForRootCertPemSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.getterForRootCertPemSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnNullID*
+  name: generateLeafCertThrowsOnNullID
+  nameWithType: SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnNullID
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnNullID
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnEmptyID*
+  name: generateLeafCertThrowsOnEmptyID
+  nameWithType: SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnEmptyID
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.generateLeafCertThrowsOnEmptyID
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.verifyProofOfPossessionSucceeds*
+  name: verifyProofOfPossessionSucceeds
+  nameWithType: SecurityProviderDiceEmulatorTest.verifyProofOfPossessionSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderDiceEmulatorTest.verifyProofOfPossessionSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm

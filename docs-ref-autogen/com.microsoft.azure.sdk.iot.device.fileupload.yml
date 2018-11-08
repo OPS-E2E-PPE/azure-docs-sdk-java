@@ -3,9 +3,9 @@ items:
 - uid: com.microsoft.azure.sdk.iot.device.fileupload
   id: fileupload
   children:
-  - com.microsoft.azure.sdk.iot.device.fileupload._file_upload
-  - com.microsoft.azure.sdk.iot.device.fileupload._file_upload_in_progress
-  - com.microsoft.azure.sdk.iot.device.fileupload._file_upload_task
+  - com.microsoft.azure.sdk.iot.device.fileupload.FileUpload
+  - com.microsoft.azure.sdk.iot.device.fileupload.FileUploadInProgress
+  - com.microsoft.azure.sdk.iot.device.fileupload.FileUploadTask
   href: com.microsoft.azure.sdk.iot.device.fileupload.yml
   langs:
   - java
@@ -23,9 +23,9 @@ items:
   syntax:
     content: package com.microsoft.azure.sdk.iot.device.fileupload
 references:
-- uid: com.microsoft.azure.sdk.iot.device.fileupload._file_upload
+- uid: com.microsoft.azure.sdk.iot.device.fileupload.FileUpload
   parent: com.microsoft.azure.sdk.iot.device.fileupload
-  href: com.microsoft.azure.sdk.iot.device.fileupload._file_upload.yml
+  href: com.microsoft.azure.sdk.iot.device.fileupload.FileUpload.yml
   name: FileUpload
   nameWithType: FileUpload
   fullName: com.microsoft.azure.sdk.iot.device.fileupload.FileUpload
@@ -33,9 +33,9 @@ references:
   summary: <p>Provide means to upload file in the Azure Storage using the IoTHub. </p>
   syntax:
     content: public class FileUpload
-- uid: com.microsoft.azure.sdk.iot.device.fileupload._file_upload_in_progress
+- uid: com.microsoft.azure.sdk.iot.device.fileupload.FileUploadInProgress
   parent: com.microsoft.azure.sdk.iot.device.fileupload
-  href: com.microsoft.azure.sdk.iot.device.fileupload._file_upload_in_progress.yml
+  href: com.microsoft.azure.sdk.iot.device.fileupload.FileUploadInProgress.yml
   name: FileUploadInProgress
   nameWithType: FileUploadInProgress
   fullName: com.microsoft.azure.sdk.iot.device.fileupload.FileUploadInProgress
@@ -43,9 +43,9 @@ references:
   summary: <p>Control the file uploads that are in progress </p>
   syntax:
     content: public class FileUploadInProgress
-- uid: com.microsoft.azure.sdk.iot.device.fileupload._file_upload_task
+- uid: com.microsoft.azure.sdk.iot.device.fileupload.FileUploadTask
   parent: com.microsoft.azure.sdk.iot.device.fileupload
-  href: com.microsoft.azure.sdk.iot.device.fileupload._file_upload_task.yml
+  href: com.microsoft.azure.sdk.iot.device.fileupload.FileUploadTask.yml
   name: FileUploadTask
   nameWithType: FileUploadTask
   fullName: com.microsoft.azure.sdk.iot.device.fileupload.FileUploadTask

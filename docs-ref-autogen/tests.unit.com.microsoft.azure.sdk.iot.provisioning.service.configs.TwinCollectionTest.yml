@@ -1,0 +1,827 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  id: TwinCollectionTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithInvalidVersionFailed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithMetadataSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithoutMetadataSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithVersionSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorCreatesSuperSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorInconsistentMetadataFailed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnEmptySucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnNullSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorSucceedOn5Levels()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorThrowsOnMoreThan5Levels()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorTwinCollectionWithoutBaseMetadataSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorWithMapSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAddNewPairSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllSucceedOn5InnerMaps()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnEmptyMap()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnIllegal6InnerMaps()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData(@Mocked final ParserUtility,@Mocked final JsonElement)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion(@Mocked final ParserUtility,@Mocked final JsonElement)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putNoPreviousValueSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putReturnsPreviousValueSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putSucceedOn5InnerMaps()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOn6InnerMaps()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyInvalid()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidArray()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidType()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementNotIncludeMetadataOrVersion()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementSerializeSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIncludeMetadataOrVersion()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: TwinCollectionTest
+  nameWithType: TwinCollectionTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 25
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  summary: "<p>Unit tests for Device Provisioning Service TwinCollection 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class TwinCollectionTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithInvalidVersionFailed()
+  id: constructor2LevelsWithInvalidVersionFailed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructor2LevelsWithInvalidVersionFailed()
+  nameWithType: TwinCollectionTest.constructor2LevelsWithInvalidVersionFailed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithInvalidVersionFailed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithInvalidVersionFailed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 518
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructor2LevelsWithInvalidVersionFailed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithMetadataSucceed()
+  id: constructor2LevelsWithMetadataSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructor2LevelsWithMetadataSucceed()
+  nameWithType: TwinCollectionTest.constructor2LevelsWithMetadataSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithMetadataSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithMetadataSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 535
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructor2LevelsWithMetadataSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithoutMetadataSucceed()
+  id: constructor2LevelsWithoutMetadataSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructor2LevelsWithoutMetadataSucceed()
+  nameWithType: TwinCollectionTest.constructor2LevelsWithoutMetadataSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithoutMetadataSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithoutMetadataSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 491
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructor2LevelsWithoutMetadataSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithVersionSucceed()
+  id: constructor2LevelsWithVersionSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructor2LevelsWithVersionSucceed()
+  nameWithType: TwinCollectionTest.constructor2LevelsWithVersionSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithVersionSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithVersionSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 503
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructor2LevelsWithVersionSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorCreatesSuperSucceed()
+  id: constructorCreatesSuperSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructorCreatesSuperSucceed()
+  nameWithType: TwinCollectionTest.constructorCreatesSuperSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorCreatesSuperSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorCreatesSuperSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 105
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCreatesSuperSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorInconsistentMetadataFailed()
+  id: constructorInconsistentMetadataFailed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructorInconsistentMetadataFailed()
+  nameWithType: TwinCollectionTest.constructorInconsistentMetadataFailed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorInconsistentMetadataFailed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorInconsistentMetadataFailed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 596
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorInconsistentMetadataFailed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnEmptySucceed()
+  id: constructorMapCreatesEmptySuperOnEmptySucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructorMapCreatesEmptySuperOnEmptySucceed()
+  nameWithType: TwinCollectionTest.constructorMapCreatesEmptySuperOnEmptySucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnEmptySucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnEmptySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 131
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorMapCreatesEmptySuperOnEmptySucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnNullSucceed()
+  id: constructorMapCreatesEmptySuperOnNullSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructorMapCreatesEmptySuperOnNullSucceed()
+  nameWithType: TwinCollectionTest.constructorMapCreatesEmptySuperOnNullSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnNullSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnNullSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 118
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorMapCreatesEmptySuperOnNullSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorSucceedOn5Levels()
+  id: constructorSucceedOn5Levels()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructorSucceedOn5Levels()
+  nameWithType: TwinCollectionTest.constructorSucceedOn5Levels()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorSucceedOn5Levels()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorSucceedOn5Levels*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 696
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorSucceedOn5Levels()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorThrowsOnMoreThan5Levels()
+  id: constructorThrowsOnMoreThan5Levels()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnMoreThan5Levels()
+  nameWithType: TwinCollectionTest.constructorThrowsOnMoreThan5Levels()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorThrowsOnMoreThan5Levels()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorThrowsOnMoreThan5Levels*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 650
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnMoreThan5Levels()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorTwinCollectionWithoutBaseMetadataSucceed()
+  id: constructorTwinCollectionWithoutBaseMetadataSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructorTwinCollectionWithoutBaseMetadataSucceed()
+  nameWithType: TwinCollectionTest.constructorTwinCollectionWithoutBaseMetadataSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorTwinCollectionWithoutBaseMetadataSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorTwinCollectionWithoutBaseMetadataSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 565
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorTwinCollectionWithoutBaseMetadataSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorWithMapSucceed()
+  id: constructorWithMapSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: constructorWithMapSucceed()
+  nameWithType: TwinCollectionTest.constructorWithMapSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorWithMapSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorWithMapSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 144
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithMapSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAddNewPairSucceed()
+  id: putAddNewPairSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putAddNewPairSucceed()
+  nameWithType: TwinCollectionTest.putAddNewPairSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAddNewPairSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAddNewPairSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 321
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putAddNewPairSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllSucceedOn5InnerMaps()
+  id: putAllSucceedOn5InnerMaps()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putAllSucceedOn5InnerMaps()
+  nameWithType: TwinCollectionTest.putAllSucceedOn5InnerMaps()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllSucceedOn5InnerMaps()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllSucceedOn5InnerMaps*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 244
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putAllSucceedOn5InnerMaps()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnEmptyMap()
+  id: putAllThrowsOnEmptyMap()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putAllThrowsOnEmptyMap()
+  nameWithType: TwinCollectionTest.putAllThrowsOnEmptyMap()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnEmptyMap()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnEmptyMap*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 184
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putAllThrowsOnEmptyMap()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnIllegal6InnerMaps()
+  id: putAllThrowsOnIllegal6InnerMaps()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putAllThrowsOnIllegal6InnerMaps()
+  nameWithType: TwinCollectionTest.putAllThrowsOnIllegal6InnerMaps()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnIllegal6InnerMaps()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnIllegal6InnerMaps*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 197
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putAllThrowsOnIllegal6InnerMaps()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnNull()
+  id: putAllThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putAllThrowsOnNull()
+  nameWithType: TwinCollectionTest.putAllThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 171
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putAllThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData(@Mocked final ParserUtility,@Mocked final JsonElement)
+  id: putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData(@Mocked final ParserUtility,@Mocked final JsonElement)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData(@Mocked final ParserUtility mockedParserUtility, @Mocked final JsonElement mockedJsonElement)
+  nameWithType: TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData(@Mocked final ParserUtility mockedParserUtility, @Mocked final JsonElement mockedJsonElement)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData(@Mocked final ParserUtility mockedParserUtility, @Mocked final JsonElement mockedJsonElement)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 817
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData(@Mocked final ParserUtility mockedParserUtility, @Mocked final JsonElement mockedJsonElement)
+    parameters:
+    - id: mockedParserUtility
+      type: 5514d1f5com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility
+    - id: mockedJsonElement
+      type: 2f3313fd
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion(@Mocked final ParserUtility,@Mocked final JsonElement)
+  id: putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion(@Mocked final ParserUtility,@Mocked final JsonElement)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion(@Mocked final ParserUtility mockedParserUtility, @Mocked final JsonElement mockedJsonElement)
+  nameWithType: TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion(@Mocked final ParserUtility mockedParserUtility, @Mocked final JsonElement mockedJsonElement)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion(@Mocked final ParserUtility mockedParserUtility, @Mocked final JsonElement mockedJsonElement)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 872
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion(@Mocked final ParserUtility mockedParserUtility, @Mocked final JsonElement mockedJsonElement)
+    parameters:
+    - id: mockedParserUtility
+      type: 5514d1f5com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility
+    - id: mockedJsonElement
+      type: 2f3313fd
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putNoPreviousValueSucceed()
+  id: putNoPreviousValueSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putNoPreviousValueSucceed()
+  nameWithType: TwinCollectionTest.putNoPreviousValueSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putNoPreviousValueSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putNoPreviousValueSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 307
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putNoPreviousValueSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putReturnsPreviousValueSucceed()
+  id: putReturnsPreviousValueSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putReturnsPreviousValueSucceed()
+  nameWithType: TwinCollectionTest.putReturnsPreviousValueSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putReturnsPreviousValueSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putReturnsPreviousValueSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 287
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putReturnsPreviousValueSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putSucceedOn5InnerMaps()
+  id: putSucceedOn5InnerMaps()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putSucceedOn5InnerMaps()
+  nameWithType: TwinCollectionTest.putSucceedOn5InnerMaps()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putSucceedOn5InnerMaps()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putSucceedOn5InnerMaps*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 335
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putSucceedOn5InnerMaps()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOn6InnerMaps()
+  id: putThrowsOn6InnerMaps()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putThrowsOn6InnerMaps()
+  nameWithType: TwinCollectionTest.putThrowsOn6InnerMaps()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOn6InnerMaps()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOn6InnerMaps*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 373
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putThrowsOn6InnerMaps()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyEmpty()
+  id: putThrowsOnKeyEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putThrowsOnKeyEmpty()
+  nameWithType: TwinCollectionTest.putThrowsOnKeyEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 433
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putThrowsOnKeyEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyInvalid()
+  id: putThrowsOnKeyInvalid()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putThrowsOnKeyInvalid()
+  nameWithType: TwinCollectionTest.putThrowsOnKeyInvalid()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyInvalid()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyInvalid*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 446
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putThrowsOnKeyInvalid()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyNull()
+  id: putThrowsOnKeyNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putThrowsOnKeyNull()
+  nameWithType: TwinCollectionTest.putThrowsOnKeyNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 420
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putThrowsOnKeyNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidArray()
+  id: putThrowsOnValueInvalidArray()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putThrowsOnValueInvalidArray()
+  nameWithType: TwinCollectionTest.putThrowsOnValueInvalidArray()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidArray()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidArray*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 459
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putThrowsOnValueInvalidArray()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidType()
+  id: putThrowsOnValueInvalidType()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: putThrowsOnValueInvalidType()
+  nameWithType: TwinCollectionTest.putThrowsOnValueInvalidType()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidType()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidType*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 472
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void putThrowsOnValueInvalidType()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementNotIncludeMetadataOrVersion()
+  id: toJsonElementNotIncludeMetadataOrVersion()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: toJsonElementNotIncludeMetadataOrVersion()
+  nameWithType: TwinCollectionTest.toJsonElementNotIncludeMetadataOrVersion()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementNotIncludeMetadataOrVersion()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementNotIncludeMetadataOrVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 770
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonElementNotIncludeMetadataOrVersion()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementSerializeSucceed()
+  id: toJsonElementSerializeSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: toJsonElementSerializeSucceed()
+  nameWithType: TwinCollectionTest.toJsonElementSerializeSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementSerializeSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementSerializeSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 738
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonElementSerializeSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion()
+  id: toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion()
+  nameWithType: TwinCollectionTest.toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 803
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIncludeMetadataOrVersion()
+  id: toJsonElementWithMetadataIncludeMetadataOrVersion()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.yml
+  langs:
+  - java
+  name: toJsonElementWithMetadataIncludeMetadataOrVersion()
+  nameWithType: TwinCollectionTest.toJsonElementWithMetadataIncludeMetadataOrVersion()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIncludeMetadataOrVersion()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIncludeMetadataOrVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinCollectionTest.java
+    startLine: 786
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonElementWithMetadataIncludeMetadataOrVersion()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorCreatesSuperSucceed*
+  name: constructorCreatesSuperSucceed
+  nameWithType: TwinCollectionTest.constructorCreatesSuperSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorCreatesSuperSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnNullSucceed*
+  name: constructorMapCreatesEmptySuperOnNullSucceed
+  nameWithType: TwinCollectionTest.constructorMapCreatesEmptySuperOnNullSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnNullSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnEmptySucceed*
+  name: constructorMapCreatesEmptySuperOnEmptySucceed
+  nameWithType: TwinCollectionTest.constructorMapCreatesEmptySuperOnEmptySucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorMapCreatesEmptySuperOnEmptySucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorWithMapSucceed*
+  name: constructorWithMapSucceed
+  nameWithType: TwinCollectionTest.constructorWithMapSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorWithMapSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnNull*
+  name: putAllThrowsOnNull
+  nameWithType: TwinCollectionTest.putAllThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnEmptyMap*
+  name: putAllThrowsOnEmptyMap
+  nameWithType: TwinCollectionTest.putAllThrowsOnEmptyMap
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnEmptyMap
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnIllegal6InnerMaps*
+  name: putAllThrowsOnIllegal6InnerMaps
+  nameWithType: TwinCollectionTest.putAllThrowsOnIllegal6InnerMaps
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllThrowsOnIllegal6InnerMaps
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllSucceedOn5InnerMaps*
+  name: putAllSucceedOn5InnerMaps
+  nameWithType: TwinCollectionTest.putAllSucceedOn5InnerMaps
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAllSucceedOn5InnerMaps
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putReturnsPreviousValueSucceed*
+  name: putReturnsPreviousValueSucceed
+  nameWithType: TwinCollectionTest.putReturnsPreviousValueSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putReturnsPreviousValueSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putNoPreviousValueSucceed*
+  name: putNoPreviousValueSucceed
+  nameWithType: TwinCollectionTest.putNoPreviousValueSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putNoPreviousValueSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAddNewPairSucceed*
+  name: putAddNewPairSucceed
+  nameWithType: TwinCollectionTest.putAddNewPairSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putAddNewPairSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putSucceedOn5InnerMaps*
+  name: putSucceedOn5InnerMaps
+  nameWithType: TwinCollectionTest.putSucceedOn5InnerMaps
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putSucceedOn5InnerMaps
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOn6InnerMaps*
+  name: putThrowsOn6InnerMaps
+  nameWithType: TwinCollectionTest.putThrowsOn6InnerMaps
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOn6InnerMaps
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyNull*
+  name: putThrowsOnKeyNull
+  nameWithType: TwinCollectionTest.putThrowsOnKeyNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyEmpty*
+  name: putThrowsOnKeyEmpty
+  nameWithType: TwinCollectionTest.putThrowsOnKeyEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyInvalid*
+  name: putThrowsOnKeyInvalid
+  nameWithType: TwinCollectionTest.putThrowsOnKeyInvalid
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnKeyInvalid
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidArray*
+  name: putThrowsOnValueInvalidArray
+  nameWithType: TwinCollectionTest.putThrowsOnValueInvalidArray
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidArray
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidType*
+  name: putThrowsOnValueInvalidType
+  nameWithType: TwinCollectionTest.putThrowsOnValueInvalidType
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putThrowsOnValueInvalidType
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithoutMetadataSucceed*
+  name: constructor2LevelsWithoutMetadataSucceed
+  nameWithType: TwinCollectionTest.constructor2LevelsWithoutMetadataSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithoutMetadataSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithVersionSucceed*
+  name: constructor2LevelsWithVersionSucceed
+  nameWithType: TwinCollectionTest.constructor2LevelsWithVersionSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithVersionSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithInvalidVersionFailed*
+  name: constructor2LevelsWithInvalidVersionFailed
+  nameWithType: TwinCollectionTest.constructor2LevelsWithInvalidVersionFailed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithInvalidVersionFailed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithMetadataSucceed*
+  name: constructor2LevelsWithMetadataSucceed
+  nameWithType: TwinCollectionTest.constructor2LevelsWithMetadataSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructor2LevelsWithMetadataSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorTwinCollectionWithoutBaseMetadataSucceed*
+  name: constructorTwinCollectionWithoutBaseMetadataSucceed
+  nameWithType: TwinCollectionTest.constructorTwinCollectionWithoutBaseMetadataSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorTwinCollectionWithoutBaseMetadataSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorInconsistentMetadataFailed*
+  name: constructorInconsistentMetadataFailed
+  nameWithType: TwinCollectionTest.constructorInconsistentMetadataFailed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorInconsistentMetadataFailed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorThrowsOnMoreThan5Levels*
+  name: constructorThrowsOnMoreThan5Levels
+  nameWithType: TwinCollectionTest.constructorThrowsOnMoreThan5Levels
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorThrowsOnMoreThan5Levels
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorSucceedOn5Levels*
+  name: constructorSucceedOn5Levels
+  nameWithType: TwinCollectionTest.constructorSucceedOn5Levels
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.constructorSucceedOn5Levels
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementSerializeSucceed*
+  name: toJsonElementSerializeSucceed
+  nameWithType: TwinCollectionTest.toJsonElementSerializeSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementSerializeSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementNotIncludeMetadataOrVersion*
+  name: toJsonElementNotIncludeMetadataOrVersion
+  nameWithType: TwinCollectionTest.toJsonElementNotIncludeMetadataOrVersion
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementNotIncludeMetadataOrVersion
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIncludeMetadataOrVersion*
+  name: toJsonElementWithMetadataIncludeMetadataOrVersion
+  nameWithType: TwinCollectionTest.toJsonElementWithMetadataIncludeMetadataOrVersion
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIncludeMetadataOrVersion
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion*
+  name: toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion
+  nameWithType: TwinCollectionTest.toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.toJsonElementWithMetadataIgnoreEmptyMetadataAndVersion
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility
+    name: ParserUtility
+    fullName: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility
+    href: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility.yml
+- uid: 2f3313fd
+  spec.java:
+  - name: '@Mocked final JsonElement'
+    fullName: '@Mocked final JsonElement'
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData*
+  name: putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData
+  nameWithType: TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsMetaData
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion*
+  name: putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion
+  nameWithType: TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollectionTest.putDoesNotThrowOn6InnerMapsIfHighestLevelIsVersion
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility
+  parent: com.microsoft.azure.sdk.iot.deps.serializer
+  href: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility.yml
+  name: ParserUtility
+  nameWithType: ParserUtility
+  fullName: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility
+  type: Class
+  summary: <p>Set of static functions to help the serializer. </p>
+  syntax:
+    content: public class ParserUtility

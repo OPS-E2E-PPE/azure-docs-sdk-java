@@ -1,0 +1,783 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  id: AmqpsProvisioningSaslHandlerTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.beforeClass()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitSuccess()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitThrowsIfNotWaitingToBuildInit()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismReturnsTPMIfPresent()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfNotWaitingToChooseMechanism()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfTPMNotPresent()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorSavesArgumentValues()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyIdScope()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullEndorsementKey()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullIdScope()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullNonceCallback()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullStorageRootKey()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeFirstChallengeSuccess()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeSecondChallengeSuccess()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThirdChallengeSuccess()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsForNullChallengeData()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingForSaslOutcome()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToBuildInitPayload()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToChooseMechanism()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeAuthThrowsProvisioningDeviceSecurityException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysPermThrowsProvisioningDeviceSecurityException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysTempThrowsProvisioningDeviceSecurityException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysThrowsProvisioningDeviceSecurityException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeThrowsIfNotWaitingOnOutcome()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.setSasTokenSets()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: AmqpsProvisioningSaslHandlerTest
+  nameWithType: AmqpsProvisioningSaslHandlerTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 31
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  summary: "<p>Unit tests for AmqpsProvisioningSaslHandler.java Coverage : 100% method, 90% line </p>"
+  syntax:
+    content: public class AmqpsProvisioningSaslHandlerTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.beforeClass()
+  id: beforeClass()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: beforeClass()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.beforeClass()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.beforeClass()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.beforeClass*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 54
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public static void beforeClass()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitSuccess()
+  id: buildInitSuccess()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: buildInitSuccess()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.buildInitSuccess()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitSuccess()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitSuccess*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 179
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void buildInitSuccess()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitThrowsIfNotWaitingToBuildInit()
+  id: buildInitThrowsIfNotWaitingToBuildInit()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: buildInitThrowsIfNotWaitingToBuildInit()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.buildInitThrowsIfNotWaitingToBuildInit()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitThrowsIfNotWaitingToBuildInit()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitThrowsIfNotWaitingToBuildInit*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 194
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void buildInitThrowsIfNotWaitingToBuildInit()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismReturnsTPMIfPresent()
+  id: choseSaslMechanismReturnsTPMIfPresent()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: choseSaslMechanismReturnsTPMIfPresent()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.choseSaslMechanismReturnsTPMIfPresent()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismReturnsTPMIfPresent()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismReturnsTPMIfPresent*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 152
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void choseSaslMechanismReturnsTPMIfPresent()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfNotWaitingToChooseMechanism()
+  id: choseSaslMechanismThrowsIfNotWaitingToChooseMechanism()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: choseSaslMechanismThrowsIfNotWaitingToChooseMechanism()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfNotWaitingToChooseMechanism()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfNotWaitingToChooseMechanism()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfNotWaitingToChooseMechanism*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 167
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void choseSaslMechanismThrowsIfNotWaitingToChooseMechanism()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfTPMNotPresent()
+  id: choseSaslMechanismThrowsIfTPMNotPresent()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: choseSaslMechanismThrowsIfTPMNotPresent()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfTPMNotPresent()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfTPMNotPresent()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfTPMNotPresent*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 141
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void choseSaslMechanismThrowsIfTPMNotPresent()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorSavesArgumentValues()
+  id: constructorSavesArgumentValues()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: constructorSavesArgumentValues()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorSavesArgumentValues()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorSavesArgumentValues()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorSavesArgumentValues*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 62
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void constructorSavesArgumentValues()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyIdScope()
+  id: constructorThrowsForEmptyIdScope()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: constructorThrowsForEmptyIdScope()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyIdScope()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyIdScope()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyIdScope*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 93
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void constructorThrowsForEmptyIdScope()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyRegistrationId()
+  id: constructorThrowsForEmptyRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: constructorThrowsForEmptyRegistrationId()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 109
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void constructorThrowsForEmptyRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullEndorsementKey()
+  id: constructorThrowsForNullEndorsementKey()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: constructorThrowsForNullEndorsementKey()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullEndorsementKey()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullEndorsementKey()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullEndorsementKey*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 117
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void constructorThrowsForNullEndorsementKey()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullIdScope()
+  id: constructorThrowsForNullIdScope()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: constructorThrowsForNullIdScope()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullIdScope()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullIdScope()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullIdScope*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 85
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void constructorThrowsForNullIdScope()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullNonceCallback()
+  id: constructorThrowsForNullNonceCallback()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: constructorThrowsForNullNonceCallback()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullNonceCallback()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullNonceCallback()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullNonceCallback*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 133
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void constructorThrowsForNullNonceCallback()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullRegistrationId()
+  id: constructorThrowsForNullRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: constructorThrowsForNullRegistrationId()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 101
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void constructorThrowsForNullRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullStorageRootKey()
+  id: constructorThrowsForNullStorageRootKey()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: constructorThrowsForNullStorageRootKey()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullStorageRootKey()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullStorageRootKey()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullStorageRootKey*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 125
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void constructorThrowsForNullStorageRootKey()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeFirstChallengeSuccess()
+  id: handleChallengeFirstChallengeSuccess()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleChallengeFirstChallengeSuccess()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeFirstChallengeSuccess()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeFirstChallengeSuccess()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeFirstChallengeSuccess*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 205
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleChallengeFirstChallengeSuccess()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeSecondChallengeSuccess()
+  id: handleChallengeSecondChallengeSuccess()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleChallengeSecondChallengeSuccess()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeSecondChallengeSuccess()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeSecondChallengeSuccess()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeSecondChallengeSuccess*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 221
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleChallengeSecondChallengeSuccess()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThirdChallengeSuccess()
+  id: handleChallengeThirdChallengeSuccess()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleChallengeThirdChallengeSuccess()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThirdChallengeSuccess()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThirdChallengeSuccess()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThirdChallengeSuccess*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 241
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleChallengeThirdChallengeSuccess()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsForNullChallengeData()
+  id: handleChallengeThrowsForNullChallengeData()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleChallengeThrowsForNullChallengeData()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsForNullChallengeData()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsForNullChallengeData()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsForNullChallengeData*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 275
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleChallengeThrowsForNullChallengeData()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingForSaslOutcome()
+  id: handleChallengeThrowsIfWaitingForSaslOutcome()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleChallengeThrowsIfWaitingForSaslOutcome()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingForSaslOutcome()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingForSaslOutcome()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingForSaslOutcome*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 354
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleChallengeThrowsIfWaitingForSaslOutcome()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToBuildInitPayload()
+  id: handleChallengeThrowsIfWaitingToBuildInitPayload()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleChallengeThrowsIfWaitingToBuildInitPayload()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToBuildInitPayload()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToBuildInitPayload()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToBuildInitPayload*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 342
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleChallengeThrowsIfWaitingToBuildInitPayload()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToChooseMechanism()
+  id: handleChallengeThrowsIfWaitingToChooseMechanism()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleChallengeThrowsIfWaitingToChooseMechanism()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToChooseMechanism()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToChooseMechanism()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToChooseMechanism*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 331
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleChallengeThrowsIfWaitingToChooseMechanism()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  id: handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 288
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeAuthThrowsProvisioningDeviceSecurityException()
+  id: handleOutcomeAuthThrowsProvisioningDeviceSecurityException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleOutcomeAuthThrowsProvisioningDeviceSecurityException()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeAuthThrowsProvisioningDeviceSecurityException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeAuthThrowsProvisioningDeviceSecurityException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeAuthThrowsProvisioningDeviceSecurityException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 371
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleOutcomeAuthThrowsProvisioningDeviceSecurityException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysPermThrowsProvisioningDeviceSecurityException()
+  id: handleOutcomeSysPermThrowsProvisioningDeviceSecurityException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleOutcomeSysPermThrowsProvisioningDeviceSecurityException()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeSysPermThrowsProvisioningDeviceSecurityException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysPermThrowsProvisioningDeviceSecurityException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysPermThrowsProvisioningDeviceSecurityException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 422
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleOutcomeSysPermThrowsProvisioningDeviceSecurityException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysTempThrowsProvisioningDeviceSecurityException()
+  id: handleOutcomeSysTempThrowsProvisioningDeviceSecurityException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleOutcomeSysTempThrowsProvisioningDeviceSecurityException()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeSysTempThrowsProvisioningDeviceSecurityException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysTempThrowsProvisioningDeviceSecurityException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysTempThrowsProvisioningDeviceSecurityException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 388
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleOutcomeSysTempThrowsProvisioningDeviceSecurityException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysThrowsProvisioningDeviceSecurityException()
+  id: handleOutcomeSysThrowsProvisioningDeviceSecurityException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleOutcomeSysThrowsProvisioningDeviceSecurityException()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeSysThrowsProvisioningDeviceSecurityException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysThrowsProvisioningDeviceSecurityException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysThrowsProvisioningDeviceSecurityException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 405
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleOutcomeSysThrowsProvisioningDeviceSecurityException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeThrowsIfNotWaitingOnOutcome()
+  id: handleOutcomeThrowsIfNotWaitingOnOutcome()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleOutcomeThrowsIfNotWaitingOnOutcome()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeThrowsIfNotWaitingOnOutcome()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeThrowsIfNotWaitingOnOutcome()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeThrowsIfNotWaitingOnOutcome*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 439
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleOutcomeThrowsIfNotWaitingOnOutcome()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  id: handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 301
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  id: handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 315
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.setSasTokenSets()
+  id: setSasTokenSets()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.yml
+  langs:
+  - java
+  name: setSasTokenSets()
+  nameWithType: AmqpsProvisioningSaslHandlerTest.setSasTokenSets()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.setSasTokenSets()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.setSasTokenSets*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/amqp/AmqpsProvisioningSaslHandlerTest.java
+    startLine: 450
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+  syntax:
+    content: public void setSasTokenSets()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.beforeClass*
+  name: beforeClass
+  nameWithType: AmqpsProvisioningSaslHandlerTest.beforeClass
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.beforeClass
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorSavesArgumentValues*
+  name: constructorSavesArgumentValues
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorSavesArgumentValues
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorSavesArgumentValues
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullIdScope*
+  name: constructorThrowsForNullIdScope
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullIdScope
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullIdScope
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyIdScope*
+  name: constructorThrowsForEmptyIdScope
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyIdScope
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyIdScope
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullRegistrationId*
+  name: constructorThrowsForNullRegistrationId
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyRegistrationId*
+  name: constructorThrowsForEmptyRegistrationId
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForEmptyRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullEndorsementKey*
+  name: constructorThrowsForNullEndorsementKey
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullEndorsementKey
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullEndorsementKey
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullStorageRootKey*
+  name: constructorThrowsForNullStorageRootKey
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullStorageRootKey
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullStorageRootKey
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullNonceCallback*
+  name: constructorThrowsForNullNonceCallback
+  nameWithType: AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullNonceCallback
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.constructorThrowsForNullNonceCallback
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfTPMNotPresent*
+  name: choseSaslMechanismThrowsIfTPMNotPresent
+  nameWithType: AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfTPMNotPresent
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfTPMNotPresent
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismReturnsTPMIfPresent*
+  name: choseSaslMechanismReturnsTPMIfPresent
+  nameWithType: AmqpsProvisioningSaslHandlerTest.choseSaslMechanismReturnsTPMIfPresent
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismReturnsTPMIfPresent
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfNotWaitingToChooseMechanism*
+  name: choseSaslMechanismThrowsIfNotWaitingToChooseMechanism
+  nameWithType: AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfNotWaitingToChooseMechanism
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.choseSaslMechanismThrowsIfNotWaitingToChooseMechanism
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitSuccess*
+  name: buildInitSuccess
+  nameWithType: AmqpsProvisioningSaslHandlerTest.buildInitSuccess
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitSuccess
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitThrowsIfNotWaitingToBuildInit*
+  name: buildInitThrowsIfNotWaitingToBuildInit
+  nameWithType: AmqpsProvisioningSaslHandlerTest.buildInitThrowsIfNotWaitingToBuildInit
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.buildInitThrowsIfNotWaitingToBuildInit
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeFirstChallengeSuccess*
+  name: handleChallengeFirstChallengeSuccess
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeFirstChallengeSuccess
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeFirstChallengeSuccess
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeSecondChallengeSuccess*
+  name: handleChallengeSecondChallengeSuccess
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeSecondChallengeSuccess
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeSecondChallengeSuccess
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThirdChallengeSuccess*
+  name: handleChallengeThirdChallengeSuccess
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThirdChallengeSuccess
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThirdChallengeSuccess
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsForNullChallengeData*
+  name: handleChallengeThrowsForNullChallengeData
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsForNullChallengeData
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsForNullChallengeData
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte*
+  name: handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleFirstChallengeThrowsForChallengeDataWithIncorrectControlByte
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte*
+  name: handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleSecondChallengeThrowsForChallengeDataWithIncorrectControlByte
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte*
+  name: handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleThirdChallengeThrowsForChallengeDataWithIncorrectControlByte
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToChooseMechanism*
+  name: handleChallengeThrowsIfWaitingToChooseMechanism
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToChooseMechanism
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToChooseMechanism
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToBuildInitPayload*
+  name: handleChallengeThrowsIfWaitingToBuildInitPayload
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToBuildInitPayload
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingToBuildInitPayload
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingForSaslOutcome*
+  name: handleChallengeThrowsIfWaitingForSaslOutcome
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingForSaslOutcome
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleChallengeThrowsIfWaitingForSaslOutcome
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeAuthThrowsProvisioningDeviceSecurityException*
+  name: handleOutcomeAuthThrowsProvisioningDeviceSecurityException
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeAuthThrowsProvisioningDeviceSecurityException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeAuthThrowsProvisioningDeviceSecurityException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysTempThrowsProvisioningDeviceSecurityException*
+  name: handleOutcomeSysTempThrowsProvisioningDeviceSecurityException
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeSysTempThrowsProvisioningDeviceSecurityException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysTempThrowsProvisioningDeviceSecurityException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysThrowsProvisioningDeviceSecurityException*
+  name: handleOutcomeSysThrowsProvisioningDeviceSecurityException
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeSysThrowsProvisioningDeviceSecurityException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysThrowsProvisioningDeviceSecurityException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysPermThrowsProvisioningDeviceSecurityException*
+  name: handleOutcomeSysPermThrowsProvisioningDeviceSecurityException
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeSysPermThrowsProvisioningDeviceSecurityException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeSysPermThrowsProvisioningDeviceSecurityException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeThrowsIfNotWaitingOnOutcome*
+  name: handleOutcomeThrowsIfNotWaitingOnOutcome
+  nameWithType: AmqpsProvisioningSaslHandlerTest.handleOutcomeThrowsIfNotWaitingOnOutcome
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.handleOutcomeThrowsIfNotWaitingOnOutcome
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.setSasTokenSets*
+  name: setSasTokenSets
+  nameWithType: AmqpsProvisioningSaslHandlerTest.setSasTokenSets
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.AmqpsProvisioningSaslHandlerTest.setSasTokenSets
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback.yml
+  name: ResponseCallback
+  nameWithType: ResponseCallback
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  type: Interface
+  syntax:
+    content: public interface ResponseCallback
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData.yml
+  name: ResponseData
+  nameWithType: ResponseData
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData
+  type: Class
+  syntax:
+    content: public class ResponseData
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceSecurityException
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceSecurityException.yml
+  name: ProvisioningDeviceSecurityException
+  nameWithType: ProvisioningDeviceSecurityException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceSecurityException
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceSecurityException
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException.yml
+  name: ProvisioningDeviceClientException
+  nameWithType: ProvisioningDeviceClientException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientException

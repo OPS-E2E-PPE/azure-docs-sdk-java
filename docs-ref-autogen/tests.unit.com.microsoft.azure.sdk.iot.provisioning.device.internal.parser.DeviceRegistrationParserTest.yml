@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  id: DeviceRegistrationParserTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnEmptyRegistrationIdThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnNullRegistrationIdThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyEkThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyRegistrationIdThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullEkThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullRegistrationIdThrows()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMSucceed()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
+  langs:
+  - java
+  name: DeviceRegistrationParserTest
+  nameWithType: DeviceRegistrationParserTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+    startLine: 18
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public class DeviceRegistrationParserTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnEmptyRegistrationIdThrows()
+  id: constructorWithoutTPMOnEmptyRegistrationIdThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
+  langs:
+  - java
+  name: constructorWithoutTPMOnEmptyRegistrationIdThrows()
+  nameWithType: DeviceRegistrationParserTest.constructorWithoutTPMOnEmptyRegistrationIdThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnEmptyRegistrationIdThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnEmptyRegistrationIdThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+    startLine: 44
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void constructorWithoutTPMOnEmptyRegistrationIdThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnNullRegistrationIdThrows()
+  id: constructorWithoutTPMOnNullRegistrationIdThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
+  langs:
+  - java
+  name: constructorWithoutTPMOnNullRegistrationIdThrows()
+  nameWithType: DeviceRegistrationParserTest.constructorWithoutTPMOnNullRegistrationIdThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnNullRegistrationIdThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnNullRegistrationIdThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+    startLine: 37
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void constructorWithoutTPMOnNullRegistrationIdThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMSucceed()
+  id: constructorWithoutTPMSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
+  langs:
+  - java
+  name: constructorWithoutTPMSucceed()
+  nameWithType: DeviceRegistrationParserTest.constructorWithoutTPMSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+    startLine: 25
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void constructorWithoutTPMSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyEkThrows()
+  id: constructorWithTPMOnEmptyEkThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
+  langs:
+  - java
+  name: constructorWithTPMOnEmptyEkThrows()
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMOnEmptyEkThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyEkThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyEkThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+    startLine: 95
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void constructorWithTPMOnEmptyEkThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyRegistrationIdThrows()
+  id: constructorWithTPMOnEmptyRegistrationIdThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
+  langs:
+  - java
+  name: constructorWithTPMOnEmptyRegistrationIdThrows()
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMOnEmptyRegistrationIdThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyRegistrationIdThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyRegistrationIdThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+    startLine: 78
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void constructorWithTPMOnEmptyRegistrationIdThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullEkThrows()
+  id: constructorWithTPMOnNullEkThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
+  langs:
+  - java
+  name: constructorWithTPMOnNullEkThrows()
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMOnNullEkThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullEkThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullEkThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+    startLine: 87
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void constructorWithTPMOnNullEkThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullRegistrationIdThrows()
+  id: constructorWithTPMOnNullRegistrationIdThrows()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
+  langs:
+  - java
+  name: constructorWithTPMOnNullRegistrationIdThrows()
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMOnNullRegistrationIdThrows()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullRegistrationIdThrows()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullRegistrationIdThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+    startLine: 70
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void constructorWithTPMOnNullRegistrationIdThrows()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMSucceed()
+  id: constructorWithTPMSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
+  langs:
+  - java
+  name: constructorWithTPMSucceed()
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/parser/DeviceRegistrationParserTest.java
+    startLine: 52
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  syntax:
+    content: public void constructorWithTPMSucceed()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMSucceed*
+  name: constructorWithoutTPMSucceed
+  nameWithType: DeviceRegistrationParserTest.constructorWithoutTPMSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnNullRegistrationIdThrows*
+  name: constructorWithoutTPMOnNullRegistrationIdThrows
+  nameWithType: DeviceRegistrationParserTest.constructorWithoutTPMOnNullRegistrationIdThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnNullRegistrationIdThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnEmptyRegistrationIdThrows*
+  name: constructorWithoutTPMOnEmptyRegistrationIdThrows
+  nameWithType: DeviceRegistrationParserTest.constructorWithoutTPMOnEmptyRegistrationIdThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithoutTPMOnEmptyRegistrationIdThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMSucceed*
+  name: constructorWithTPMSucceed
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullRegistrationIdThrows*
+  name: constructorWithTPMOnNullRegistrationIdThrows
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMOnNullRegistrationIdThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullRegistrationIdThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyRegistrationIdThrows*
+  name: constructorWithTPMOnEmptyRegistrationIdThrows
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMOnEmptyRegistrationIdThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyRegistrationIdThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullEkThrows*
+  name: constructorWithTPMOnNullEkThrows
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMOnNullEkThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnNullEkThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyEkThrows*
+  name: constructorWithTPMOnEmptyEkThrows
+  nameWithType: DeviceRegistrationParserTest.constructorWithTPMOnEmptyEkThrows
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.constructorWithTPMOnEmptyEkThrows
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser

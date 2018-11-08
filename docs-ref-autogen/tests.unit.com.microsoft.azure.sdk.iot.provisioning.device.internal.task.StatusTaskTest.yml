@@ -1,0 +1,497 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  id: StatusTaskTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnEmptyOperationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullAuth()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullContract()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullOperationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullSecurityProvider()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnContractGetStatusFails()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnEmptyRegId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnInterruptedException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullRegId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullResponseReceived()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullSslContext()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: StatusTaskTest
+  nameWithType: StatusTaskTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 43
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public class StatusTaskTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorSucceeds()
+  id: constructorSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: constructorSucceeds()
+  nameWithType: StatusTaskTest.constructorSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 71
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnEmptyOperationId()
+  id: constructorThrowsOnEmptyOperationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnEmptyOperationId()
+  nameWithType: StatusTaskTest.constructorThrowsOnEmptyOperationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnEmptyOperationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnEmptyOperationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 122
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThrowsOnEmptyOperationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullAuth()
+  id: constructorThrowsOnNullAuth()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullAuth()
+  nameWithType: StatusTaskTest.constructorThrowsOnNullAuth()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullAuth()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullAuth*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 133
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThrowsOnNullAuth()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullContract()
+  id: constructorThrowsOnNullContract()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullContract()
+  nameWithType: StatusTaskTest.constructorThrowsOnNullContract()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullContract()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullContract*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 100
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThrowsOnNullContract()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullOperationId()
+  id: constructorThrowsOnNullOperationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullOperationId()
+  nameWithType: StatusTaskTest.constructorThrowsOnNullOperationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullOperationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullOperationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 111
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThrowsOnNullOperationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullSecurityProvider()
+  id: constructorThrowsOnNullSecurityProvider()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullSecurityProvider()
+  nameWithType: StatusTaskTest.constructorThrowsOnNullSecurityProvider()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullSecurityProvider()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullSecurityProvider*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 89
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThrowsOnNullSecurityProvider()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser)
+  id: getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+  nameWithType: StatusTaskTest.getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 356
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails(@Mocked final ProvisioningErrorParser mockedProvisioningErrorParser)
+    parameters:
+    - id: mockedProvisioningErrorParser
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusSucceeds()
+  id: getRegistrationStatusSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusSucceeds()
+  nameWithType: StatusTaskTest.getRegistrationStatusSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 144
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void getRegistrationStatusSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime()
+  id: getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime()
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 277
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnContractGetStatusFails()
+  id: getRegistrationStatusThrowsOnContractGetStatusFails()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnContractGetStatusFails()
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnContractGetStatusFails()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnContractGetStatusFails()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnContractGetStatusFails*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 250
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void getRegistrationStatusThrowsOnContractGetStatusFails()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnEmptyRegId()
+  id: getRegistrationStatusThrowsOnEmptyRegId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnEmptyRegId()
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnEmptyRegId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnEmptyRegId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnEmptyRegId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 204
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void getRegistrationStatusThrowsOnEmptyRegId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnInterruptedException()
+  id: getRegistrationStatusThrowsOnInterruptedException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnInterruptedException()
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnInterruptedException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnInterruptedException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnInterruptedException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 325
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void getRegistrationStatusThrowsOnInterruptedException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullRegId()
+  id: getRegistrationStatusThrowsOnNullRegId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnNullRegId()
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnNullRegId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullRegId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullRegId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 183
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void getRegistrationStatusThrowsOnNullRegId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullResponseReceived()
+  id: getRegistrationStatusThrowsOnNullResponseReceived()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnNullResponseReceived()
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnNullResponseReceived()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullResponseReceived()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullResponseReceived*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 300
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void getRegistrationStatusThrowsOnNullResponseReceived()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullSslContext()
+  id: getRegistrationStatusThrowsOnNullSslContext()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnNullSslContext()
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnNullSslContext()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullSslContext()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullSslContext*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/StatusTaskTest.java
+    startLine: 226
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void getRegistrationStatusThrowsOnNullSslContext()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorSucceeds*
+  name: constructorSucceeds
+  nameWithType: StatusTaskTest.constructorSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullSecurityProvider*
+  name: constructorThrowsOnNullSecurityProvider
+  nameWithType: StatusTaskTest.constructorThrowsOnNullSecurityProvider
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullSecurityProvider
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullContract*
+  name: constructorThrowsOnNullContract
+  nameWithType: StatusTaskTest.constructorThrowsOnNullContract
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullContract
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullOperationId*
+  name: constructorThrowsOnNullOperationId
+  nameWithType: StatusTaskTest.constructorThrowsOnNullOperationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullOperationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnEmptyOperationId*
+  name: constructorThrowsOnEmptyOperationId
+  nameWithType: StatusTaskTest.constructorThrowsOnEmptyOperationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnEmptyOperationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullAuth*
+  name: constructorThrowsOnNullAuth
+  nameWithType: StatusTaskTest.constructorThrowsOnNullAuth
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.constructorThrowsOnNullAuth
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusSucceeds*
+  name: getRegistrationStatusSucceeds
+  nameWithType: StatusTaskTest.getRegistrationStatusSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullRegId*
+  name: getRegistrationStatusThrowsOnNullRegId
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnNullRegId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullRegId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnEmptyRegId*
+  name: getRegistrationStatusThrowsOnEmptyRegId
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnEmptyRegId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnEmptyRegId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullSslContext*
+  name: getRegistrationStatusThrowsOnNullSslContext
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnNullSslContext
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullSslContext
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnContractGetStatusFails*
+  name: getRegistrationStatusThrowsOnContractGetStatusFails
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnContractGetStatusFails
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnContractGetStatusFails
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime*
+  name: getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsIfNoResponseReceivedInMaxTime
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullResponseReceived*
+  name: getRegistrationStatusThrowsOnNullResponseReceived
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnNullResponseReceived
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnNullResponseReceived
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnInterruptedException*
+  name: getRegistrationStatusThrowsOnInterruptedException
+  nameWithType: StatusTaskTest.getRegistrationStatusThrowsOnInterruptedException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusThrowsOnInterruptedException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+    name: ProvisioningErrorParser
+    fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+    href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails*
+  name: getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails
+  nameWithType: StatusTaskTest.getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.getRegistrationStatusFallsBackToErrorParserIfRegistrationOperationStatusParsingFails
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider
+  parent: com.microsoft.azure.sdk.iot.provisioning.security
+  href: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider.yml
+  name: SecurityProvider
+  nameWithType: SecurityProvider
+  fullName: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider
+  type: Class
+  syntax:
+    content: public class SecurityProvider
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract.yml
+  name: ProvisioningDeviceClientContract
+  nameWithType: ProvisioningDeviceClientContract
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientContract
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.Authorization
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.Authorization.yml
+  name: Authorization
+  nameWithType: Authorization
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.Authorization
+  type: Class
+  syntax:
+    content: public class Authorization
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser.yml
+  name: DeviceRegistrationParser
+  nameWithType: DeviceRegistrationParser
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+  type: Class
+  syntax:
+    content: public class DeviceRegistrationParser
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilder
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilder.yml
+  name: UrlPathBuilder
+  nameWithType: UrlPathBuilder
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilder
+  type: Class
+  syntax:
+    content: public class UrlPathBuilder
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser.yml
+  name: RegistrationOperationStatusParser
+  nameWithType: RegistrationOperationStatusParser
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser
+  type: Class
+  summary: '<p>Parses JSON which represent the RegistrationOperationStatus object. Format : <a href="https://docs.microsoft.com/en-us/rest/api/iot-dps/RuntimeRegistration/RegisterDevice#definitions_registrationoperationstatus">https://docs.microsoft.com/en-us/rest/api/iot-dps/RuntimeRegistration/RegisterDevice#definitions_registrationoperationstatus</a></p>'
+  syntax:
+    content: public class RegistrationOperationStatusParser
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback.yml
+  name: ResponseCallback
+  nameWithType: ResponseCallback
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  type: Interface
+  syntax:
+    content: public interface ResponseCallback
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData.yml
+  name: ResponseData
+  nameWithType: ResponseData
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData
+  type: Class
+  syntax:
+    content: public class ResponseData
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData.yml
+  name: RequestData
+  nameWithType: RequestData
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData
+  type: Class
+  syntax:
+    content: public class RequestData
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException.yml
+  name: ProvisioningDeviceClientException
+  nameWithType: ProvisioningDeviceClientException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientException
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser.yml
+  name: ProvisioningErrorParser
+  nameWithType: ProvisioningErrorParser
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParser
+  type: Class
+  syntax:
+    content: public class ProvisioningErrorParser

@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  id: RequestDataTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorFourSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorOneSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorThreeSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorTwoSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetEkAndSRKSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithOpIdSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithRegIdSucceeds()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.yml
+  langs:
+  - java
+  name: RequestDataTest
+  nameWithType: RequestDataTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RequestDataTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RequestDataTest.java
+    startLine: 30
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public class RequestDataTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorFourSucceeds()
+  id: constructorFourSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.yml
+  langs:
+  - java
+  name: constructorFourSucceeds()
+  nameWithType: RequestDataTest.constructorFourSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorFourSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorFourSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RequestDataTest.java
+    startLine: 100
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorFourSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorOneSucceeds()
+  id: constructorOneSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.yml
+  langs:
+  - java
+  name: constructorOneSucceeds()
+  nameWithType: RequestDataTest.constructorOneSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorOneSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorOneSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RequestDataTest.java
+    startLine: 43
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorOneSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorThreeSucceeds()
+  id: constructorThreeSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.yml
+  langs:
+  - java
+  name: constructorThreeSucceeds()
+  nameWithType: RequestDataTest.constructorThreeSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorThreeSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorThreeSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RequestDataTest.java
+    startLine: 81
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorThreeSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorTwoSucceeds()
+  id: constructorTwoSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.yml
+  langs:
+  - java
+  name: constructorTwoSucceeds()
+  nameWithType: RequestDataTest.constructorTwoSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorTwoSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorTwoSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RequestDataTest.java
+    startLine: 62
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void constructorTwoSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetEkAndSRKSucceeds()
+  id: setAndGetEkAndSRKSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.yml
+  langs:
+  - java
+  name: setAndGetEkAndSRKSucceeds()
+  nameWithType: RequestDataTest.setAndGetEkAndSRKSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetEkAndSRKSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetEkAndSRKSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RequestDataTest.java
+    startLine: 130
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void setAndGetEkAndSRKSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithOpIdSucceeds()
+  id: setAndGetWithOpIdSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.yml
+  langs:
+  - java
+  name: setAndGetWithOpIdSucceeds()
+  nameWithType: RequestDataTest.setAndGetWithOpIdSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithOpIdSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithOpIdSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RequestDataTest.java
+    startLine: 154
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void setAndGetWithOpIdSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithRegIdSucceeds()
+  id: setAndGetWithRegIdSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.yml
+  langs:
+  - java
+  name: setAndGetWithRegIdSucceeds()
+  nameWithType: RequestDataTest.setAndGetWithRegIdSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithRegIdSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithRegIdSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/task/RequestDataTest.java
+    startLine: 179
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  syntax:
+    content: public void setAndGetWithRegIdSucceeds()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorOneSucceeds*
+  name: constructorOneSucceeds
+  nameWithType: RequestDataTest.constructorOneSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorOneSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorTwoSucceeds*
+  name: constructorTwoSucceeds
+  nameWithType: RequestDataTest.constructorTwoSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorTwoSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorThreeSucceeds*
+  name: constructorThreeSucceeds
+  nameWithType: RequestDataTest.constructorThreeSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorThreeSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorFourSucceeds*
+  name: constructorFourSucceeds
+  nameWithType: RequestDataTest.constructorFourSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.constructorFourSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetEkAndSRKSucceeds*
+  name: setAndGetEkAndSRKSucceeds
+  nameWithType: RequestDataTest.setAndGetEkAndSRKSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetEkAndSRKSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithOpIdSucceeds*
+  name: setAndGetWithOpIdSucceeds
+  nameWithType: RequestDataTest.setAndGetWithOpIdSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithOpIdSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithRegIdSucceeds*
+  name: setAndGetWithRegIdSucceeds
+  nameWithType: RequestDataTest.setAndGetWithRegIdSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.setAndGetWithRegIdSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task

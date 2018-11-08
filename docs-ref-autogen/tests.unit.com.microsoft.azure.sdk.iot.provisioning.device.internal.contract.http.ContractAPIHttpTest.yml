@@ -1,0 +1,1093 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  id: ContractAPIHttpTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSForTPMSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnEmptyRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullResponseCallback()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullSSLContext()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnSendFailure()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithAuthSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithOutAuthSucceeds(@Mocked DeviceRegistrationParser)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyHostName()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyScopeID()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullHostName()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullScopeID()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyOperationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnFailureStatus()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullOperationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullResponseCallback()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullSSLContext()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithAuthSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithOutAuthSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnInvalidTimeout()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullMethod()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullPayload()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullUrl()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnEmptyRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullEk()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullResponseCallback()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSRk()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSSLContext()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.sendRequestThrowsOnSendFailure()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: ContractAPIHttpTest
+  nameWithType: ContractAPIHttpTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 40
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public class ContractAPIHttpTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSForTPMSucceeds()
+  id: authenticateWithDPSForTPMSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: authenticateWithDPSForTPMSucceeds()
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSForTPMSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSForTPMSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSForTPMSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 620
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void authenticateWithDPSForTPMSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnEmptyRegistrationId()
+  id: authenticateWithDPSThrowsOnEmptyRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: authenticateWithDPSThrowsOnEmptyRegistrationId()
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnEmptyRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnEmptyRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnEmptyRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 800
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void authenticateWithDPSThrowsOnEmptyRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullRegistrationId()
+  id: authenticateWithDPSThrowsOnNullRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: authenticateWithDPSThrowsOnNullRegistrationId()
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnNullRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 778
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void authenticateWithDPSThrowsOnNullRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullResponseCallback()
+  id: authenticateWithDPSThrowsOnNullResponseCallback()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: authenticateWithDPSThrowsOnNullResponseCallback()
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnNullResponseCallback()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullResponseCallback()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullResponseCallback*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 842
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void authenticateWithDPSThrowsOnNullResponseCallback()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullSSLContext()
+  id: authenticateWithDPSThrowsOnNullSSLContext()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: authenticateWithDPSThrowsOnNullSSLContext()
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnNullSSLContext()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullSSLContext()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullSSLContext*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 821
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void authenticateWithDPSThrowsOnNullSSLContext()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnSendFailure()
+  id: authenticateWithDPSThrowsOnSendFailure()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: authenticateWithDPSThrowsOnSendFailure()
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnSendFailure()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnSendFailure()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnSendFailure*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 673
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void authenticateWithDPSThrowsOnSendFailure()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  id: authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 864
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithAuthSucceeds()
+  id: authenticateWithDPSWithAuthSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: authenticateWithDPSWithAuthSucceeds()
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSWithAuthSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithAuthSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithAuthSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 724
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void authenticateWithDPSWithAuthSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithOutAuthSucceeds(@Mocked DeviceRegistrationParser)
+  id: authenticateWithDPSWithOutAuthSucceeds(@Mocked DeviceRegistrationParser)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: authenticateWithDPSWithOutAuthSucceeds(@Mocked DeviceRegistrationParser mockedDeviceRegistrationParser)
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSWithOutAuthSucceeds(@Mocked DeviceRegistrationParser mockedDeviceRegistrationParser)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithOutAuthSucceeds(@Mocked DeviceRegistrationParser mockedDeviceRegistrationParser)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithOutAuthSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 568
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void authenticateWithDPSWithOutAuthSucceeds(@Mocked DeviceRegistrationParser mockedDeviceRegistrationParser)
+    parameters:
+    - id: mockedDeviceRegistrationParser
+      type: e69e3bb0com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorSucceeds()
+  id: constructorSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: constructorSucceeds()
+  nameWithType: ContractAPIHttpTest.constructorSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 126
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void constructorSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyHostName()
+  id: constructorThrowsOnEmptyHostName()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnEmptyHostName()
+  nameWithType: ContractAPIHttpTest.constructorThrowsOnEmptyHostName()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyHostName()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyHostName*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 206
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void constructorThrowsOnEmptyHostName()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyScopeID()
+  id: constructorThrowsOnEmptyScopeID()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnEmptyScopeID()
+  nameWithType: ContractAPIHttpTest.constructorThrowsOnEmptyScopeID()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyScopeID()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyScopeID*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 167
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void constructorThrowsOnEmptyScopeID()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullHostName()
+  id: constructorThrowsOnNullHostName()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullHostName()
+  nameWithType: ContractAPIHttpTest.constructorThrowsOnNullHostName()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullHostName()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullHostName*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 185
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void constructorThrowsOnNullHostName()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullScopeID()
+  id: constructorThrowsOnNullScopeID()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullScopeID()
+  nameWithType: ContractAPIHttpTest.constructorThrowsOnNullScopeID()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullScopeID()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullScopeID*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 149
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void constructorThrowsOnNullScopeID()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyOperationId()
+  id: getRegistrationStatusThrowsOnEmptyOperationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnEmptyOperationId()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyOperationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyOperationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyOperationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1067
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusThrowsOnEmptyOperationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyRegistrationId()
+  id: getRegistrationStatusThrowsOnEmptyRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnEmptyRegistrationId()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1114
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusThrowsOnEmptyRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnFailureStatus()
+  id: getRegistrationStatusThrowsOnFailureStatus()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnFailureStatus()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnFailureStatus()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnFailureStatus()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnFailureStatus*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 993
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusThrowsOnFailureStatus()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullOperationId()
+  id: getRegistrationStatusThrowsOnNullOperationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnNullOperationId()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnNullOperationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullOperationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullOperationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1044
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusThrowsOnNullOperationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullRegistrationId()
+  id: getRegistrationStatusThrowsOnNullRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnNullRegistrationId()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnNullRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1090
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusThrowsOnNullRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullResponseCallback()
+  id: getRegistrationStatusThrowsOnNullResponseCallback()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnNullResponseCallback()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnNullResponseCallback()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullResponseCallback()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullResponseCallback*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1162
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusThrowsOnNullResponseCallback()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullSSLContext()
+  id: getRegistrationStatusThrowsOnNullSSLContext()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnNullSSLContext()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnNullSSLContext()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullSSLContext()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullSSLContext*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1139
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusThrowsOnNullSSLContext()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  id: getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1185
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithAuthSucceeds()
+  id: getRegistrationStatusWithAuthSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusWithAuthSucceeds()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusWithAuthSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithAuthSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithAuthSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 906
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusWithAuthSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithOutAuthSucceeds()
+  id: getRegistrationStatusWithOutAuthSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusWithOutAuthSucceeds()
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusWithOutAuthSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithOutAuthSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithOutAuthSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 949
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void getRegistrationStatusWithOutAuthSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnInvalidTimeout()
+  id: prepareRequestThrowsOnInvalidTimeout()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: prepareRequestThrowsOnInvalidTimeout()
+  nameWithType: ContractAPIHttpTest.prepareRequestThrowsOnInvalidTimeout()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnInvalidTimeout()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnInvalidTimeout*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1262
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void prepareRequestThrowsOnInvalidTimeout()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullMethod()
+  id: prepareRequestThrowsOnNullMethod()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: prepareRequestThrowsOnNullMethod()
+  nameWithType: ContractAPIHttpTest.prepareRequestThrowsOnNullMethod()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullMethod()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullMethod*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1236
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void prepareRequestThrowsOnNullMethod()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullPayload()
+  id: prepareRequestThrowsOnNullPayload()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: prepareRequestThrowsOnNullPayload()
+  nameWithType: ContractAPIHttpTest.prepareRequestThrowsOnNullPayload()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullPayload()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullPayload*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1249
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void prepareRequestThrowsOnNullPayload()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullUrl()
+  id: prepareRequestThrowsOnNullUrl()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: prepareRequestThrowsOnNullUrl()
+  nameWithType: ContractAPIHttpTest.prepareRequestThrowsOnNullUrl()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullUrl()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1223
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void prepareRequestThrowsOnNullUrl()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMSucceeds()
+  id: requestNonceWithDPSTPMSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMSucceeds()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 230
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws()
+  id: requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 478
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws()
+  id: requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 429
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnEmptyRegistrationId()
+  id: requestNonceWithDPSTPMThrowsOnEmptyRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMThrowsOnEmptyRegistrationId()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnEmptyRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnEmptyRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnEmptyRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 313
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMThrowsOnEmptyRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullEk()
+  id: requestNonceWithDPSTPMThrowsOnNullEk()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMThrowsOnNullEk()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullEk()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullEk()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullEk*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 336
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMThrowsOnNullEk()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullRegistrationId()
+  id: requestNonceWithDPSTPMThrowsOnNullRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMThrowsOnNullRegistrationId()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 290
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMThrowsOnNullRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullResponseCallback()
+  id: requestNonceWithDPSTPMThrowsOnNullResponseCallback()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMThrowsOnNullResponseCallback()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullResponseCallback()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullResponseCallback()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullResponseCallback*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 405
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMThrowsOnNullResponseCallback()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSRk()
+  id: requestNonceWithDPSTPMThrowsOnNullSRk()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMThrowsOnNullSRk()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSRk()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSRk()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSRk*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 359
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMThrowsOnNullSRk()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSSLContext()
+  id: requestNonceWithDPSTPMThrowsOnNullSSLContext()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMThrowsOnNullSSLContext()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSSLContext()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSSLContext()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSSLContext*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 382
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMThrowsOnNullSSLContext()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  id: requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 525
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.sendRequestThrowsOnSendFailure()
+  id: sendRequestThrowsOnSendFailure()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
+  langs:
+  - java
+  name: sendRequestThrowsOnSendFailure()
+  nameWithType: ContractAPIHttpTest.sendRequestThrowsOnSendFailure()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.sendRequestThrowsOnSendFailure()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.sendRequestThrowsOnSendFailure*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/http/ContractAPIHttpTest.java
+    startLine: 1275
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  syntax:
+    content: public void sendRequestThrowsOnSendFailure()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorSucceeds*
+  name: constructorSucceeds
+  nameWithType: ContractAPIHttpTest.constructorSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullScopeID*
+  name: constructorThrowsOnNullScopeID
+  nameWithType: ContractAPIHttpTest.constructorThrowsOnNullScopeID
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullScopeID
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyScopeID*
+  name: constructorThrowsOnEmptyScopeID
+  nameWithType: ContractAPIHttpTest.constructorThrowsOnEmptyScopeID
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyScopeID
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullHostName*
+  name: constructorThrowsOnNullHostName
+  nameWithType: ContractAPIHttpTest.constructorThrowsOnNullHostName
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnNullHostName
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyHostName*
+  name: constructorThrowsOnEmptyHostName
+  nameWithType: ContractAPIHttpTest.constructorThrowsOnEmptyHostName
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.constructorThrowsOnEmptyHostName
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMSucceeds*
+  name: requestNonceWithDPSTPMSucceeds
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullRegistrationId*
+  name: requestNonceWithDPSTPMThrowsOnNullRegistrationId
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnEmptyRegistrationId*
+  name: requestNonceWithDPSTPMThrowsOnEmptyRegistrationId
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnEmptyRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnEmptyRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullEk*
+  name: requestNonceWithDPSTPMThrowsOnNullEk
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullEk
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullEk
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSRk*
+  name: requestNonceWithDPSTPMThrowsOnNullSRk
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSRk
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSRk
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSSLContext*
+  name: requestNonceWithDPSTPMThrowsOnNullSSLContext
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSSLContext
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullSSLContext
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullResponseCallback*
+  name: requestNonceWithDPSTPMThrowsOnNullResponseCallback
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullResponseCallback
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsOnNullResponseCallback
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws*
+  name: requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusOtherThan404Throws
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws*
+  name: requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsHubExceptionWithStatusLessThan300Throws
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails*
+  name: requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails
+  nameWithType: ContractAPIHttpTest.requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.requestNonceWithDPSTPMThrowsTransportExceptionIfAnyOfTheTransportCallsFails
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: e69e3bb0com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+  spec.java:
+  - name: '@Mocked '
+    fullName: '@Mocked '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+    name: DeviceRegistrationParser
+    fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+    href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithOutAuthSucceeds*
+  name: authenticateWithDPSWithOutAuthSucceeds
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSWithOutAuthSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithOutAuthSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSForTPMSucceeds*
+  name: authenticateWithDPSForTPMSucceeds
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSForTPMSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSForTPMSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnSendFailure*
+  name: authenticateWithDPSThrowsOnSendFailure
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnSendFailure
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnSendFailure
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithAuthSucceeds*
+  name: authenticateWithDPSWithAuthSucceeds
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSWithAuthSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSWithAuthSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullRegistrationId*
+  name: authenticateWithDPSThrowsOnNullRegistrationId
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnNullRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnEmptyRegistrationId*
+  name: authenticateWithDPSThrowsOnEmptyRegistrationId
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnEmptyRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnEmptyRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullSSLContext*
+  name: authenticateWithDPSThrowsOnNullSSLContext
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnNullSSLContext
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullSSLContext
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullResponseCallback*
+  name: authenticateWithDPSThrowsOnNullResponseCallback
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsOnNullResponseCallback
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsOnNullResponseCallback
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails*
+  name: authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails
+  nameWithType: ContractAPIHttpTest.authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.authenticateWithDPSThrowsTransportExceptionIfAnyOfTheTransportCallsFails
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithAuthSucceeds*
+  name: getRegistrationStatusWithAuthSucceeds
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusWithAuthSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithAuthSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithOutAuthSucceeds*
+  name: getRegistrationStatusWithOutAuthSucceeds
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusWithOutAuthSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusWithOutAuthSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnFailureStatus*
+  name: getRegistrationStatusThrowsOnFailureStatus
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnFailureStatus
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnFailureStatus
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullOperationId*
+  name: getRegistrationStatusThrowsOnNullOperationId
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnNullOperationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullOperationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyOperationId*
+  name: getRegistrationStatusThrowsOnEmptyOperationId
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyOperationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyOperationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullRegistrationId*
+  name: getRegistrationStatusThrowsOnNullRegistrationId
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnNullRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyRegistrationId*
+  name: getRegistrationStatusThrowsOnEmptyRegistrationId
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnEmptyRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullSSLContext*
+  name: getRegistrationStatusThrowsOnNullSSLContext
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnNullSSLContext
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullSSLContext
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullResponseCallback*
+  name: getRegistrationStatusThrowsOnNullResponseCallback
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsOnNullResponseCallback
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsOnNullResponseCallback
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails*
+  name: getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails
+  nameWithType: ContractAPIHttpTest.getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.getRegistrationStatusThrowsTransportExceptionIfAnyOfTheTransportCallsFails
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullUrl*
+  name: prepareRequestThrowsOnNullUrl
+  nameWithType: ContractAPIHttpTest.prepareRequestThrowsOnNullUrl
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullUrl
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullMethod*
+  name: prepareRequestThrowsOnNullMethod
+  nameWithType: ContractAPIHttpTest.prepareRequestThrowsOnNullMethod
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullMethod
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullPayload*
+  name: prepareRequestThrowsOnNullPayload
+  nameWithType: ContractAPIHttpTest.prepareRequestThrowsOnNullPayload
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnNullPayload
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnInvalidTimeout*
+  name: prepareRequestThrowsOnInvalidTimeout
+  nameWithType: ContractAPIHttpTest.prepareRequestThrowsOnInvalidTimeout
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.prepareRequestThrowsOnInvalidTimeout
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.sendRequestThrowsOnSendFailure*
+  name: sendRequestThrowsOnSendFailure
+  nameWithType: ContractAPIHttpTest.sendRequestThrowsOnSendFailure
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.sendRequestThrowsOnSendFailure
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+- uid: com.microsoft.azure.sdk.iot.deps.util.Base64
+  parent: com.microsoft.azure.sdk.iot.deps.util
+  href: com.microsoft.azure.sdk.iot.deps.util.Base64.yml
+  name: Base64
+  nameWithType: Base64
+  fullName: com.microsoft.azure.sdk.iot.deps.util.Base64
+  type: Class
+  syntax:
+    content: public class Base64
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser.yml
+  name: DeviceRegistrationParser
+  nameWithType: DeviceRegistrationParser
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser
+  type: Class
+  syntax:
+    content: public class DeviceRegistrationParser
+- uid: com.microsoft.azure.sdk.iot.deps.transport.http.HttpRequest
+  parent: com.microsoft.azure.sdk.iot.deps.transport.http
+  href: com.microsoft.azure.sdk.iot.deps.transport.http.HttpRequest.yml
+  name: HttpRequest
+  nameWithType: HttpRequest
+  fullName: com.microsoft.azure.sdk.iot.deps.transport.http.HttpRequest
+  type: Class
+  syntax:
+    content: public class HttpRequest
+- uid: com.microsoft.azure.sdk.iot.deps.transport.http.HttpResponse
+  parent: com.microsoft.azure.sdk.iot.deps.transport.http
+  href: com.microsoft.azure.sdk.iot.deps.transport.http.HttpResponse.yml
+  name: HttpResponse
+  nameWithType: HttpResponse
+  fullName: com.microsoft.azure.sdk.iot.deps.transport.http.HttpResponse
+  type: Class
+  summary: <p>An HTTPS response. Contains the status code, body, header fields, and error reason (if any). </p>
+  syntax:
+    content: public class HttpResponse
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback.yml
+  name: ResponseCallback
+  nameWithType: ResponseCallback
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  type: Interface
+  syntax:
+    content: public interface ResponseCallback
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilder
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilder.yml
+  name: UrlPathBuilder
+  nameWithType: UrlPathBuilder
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilder
+  type: Class
+  syntax:
+    content: public class UrlPathBuilder
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientExceptionManager
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientExceptionManager.yml
+  name: ProvisioningDeviceClientExceptionManager
+  nameWithType: ProvisioningDeviceClientExceptionManager
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientExceptionManager
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientExceptionManager
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData.yml
+  name: RequestData
+  nameWithType: RequestData
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData
+  type: Class
+  syntax:
+    content: public class RequestData
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig.yml
+  name: ProvisioningDeviceClientConfig
+  nameWithType: ProvisioningDeviceClientConfig
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientConfig
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.TpmRegistrationResultParser
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.TpmRegistrationResultParser.yml
+  name: TpmRegistrationResultParser
+  nameWithType: TpmRegistrationResultParser
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.TpmRegistrationResultParser
+  type: Class
+  summary: <p>Class for the representation of TpmRegistration <a href="https://docs.microsoft.com/en-us/rest/api/iot-dps/RuntimeRegistration/RegisterDevice#definitions_tpmregistrationresult">https://docs.microsoft.com/en-us/rest/api/iot-dps/RuntimeRegistration/RegisterDevice#definitions_tpmregistrationresult</a></p>
+  syntax:
+    content: public class TpmRegistrationResultParser
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttp
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttp.yml
+  name: ContractAPIHttp
+  nameWithType: ContractAPIHttp
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttp
+  type: Class
+  syntax:
+    content: public class ContractAPIHttp extends ProvisioningDeviceClientContract
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException.yml
+  name: ProvisioningDeviceClientException
+  nameWithType: ProvisioningDeviceClientException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientException
+- uid: com.microsoft.azure.sdk.iot.deps.transport.http.HttpMethod
+  parent: com.microsoft.azure.sdk.iot.deps.transport.http
+  href: com.microsoft.azure.sdk.iot.deps.transport.http.HttpMethod.yml
+  name: HttpMethod
+  nameWithType: HttpMethod
+  fullName: com.microsoft.azure.sdk.iot.deps.transport.http.HttpMethod
+  type: Enum
+  summary: <p>The HTTPS request method (i.e. GET). </p>
+  syntax:
+    content: public enum HttpMethod

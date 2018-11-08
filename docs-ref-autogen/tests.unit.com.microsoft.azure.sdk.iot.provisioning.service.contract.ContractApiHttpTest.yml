@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  id: ContractApiHttpTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringThrowsOnNullConnectionString()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorThrowsOnNullConnectionString()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestAddHttpHeader()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreateHttpHeader()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesHttpRequest()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesSasToken()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesURL()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestSendsHttpRequest()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnDeviceProvisioningServiceError()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnEmptyPath()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnHttpRequestFailed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnNullPath()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSasToken()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSendHttpRequestFailed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnWrongPath()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: ContractApiHttpTest
+  nameWithType: ContractApiHttpTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 32
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  summary: "<p>Unit tests for Device Provisioning Service Contract APIs for HTTP. 100% methods, 98% lines covered * impossible enum condition on getHttpMethodFromDeviceRegistrationMethod </p>"
+  syntax:
+    content: public class ContractApiHttpTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringSucceeded()
+  id: createFromConnectionStringSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: createFromConnectionStringSucceeded()
+  nameWithType: ContractApiHttpTest.createFromConnectionStringSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 129
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void createFromConnectionStringSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringThrowsOnNullConnectionString()
+  id: createFromConnectionStringThrowsOnNullConnectionString()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: createFromConnectionStringThrowsOnNullConnectionString()
+  nameWithType: ContractApiHttpTest.createFromConnectionStringThrowsOnNullConnectionString()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringThrowsOnNullConnectionString()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringThrowsOnNullConnectionString*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 116
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void createFromConnectionStringThrowsOnNullConnectionString()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorSucceeded()
+  id: privateConstructorSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: privateConstructorSucceeded()
+  nameWithType: ContractApiHttpTest.privateConstructorSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 90
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void privateConstructorSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorThrowsOnNullConnectionString()
+  id: privateConstructorThrowsOnNullConnectionString()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: privateConstructorThrowsOnNullConnectionString()
+  nameWithType: ContractApiHttpTest.privateConstructorThrowsOnNullConnectionString()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorThrowsOnNullConnectionString()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorThrowsOnNullConnectionString*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 104
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void privateConstructorThrowsOnNullConnectionString()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestAddHttpHeader()
+  id: requestAddHttpHeader()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestAddHttpHeader()
+  nameWithType: ContractApiHttpTest.requestAddHttpHeader()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestAddHttpHeader()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestAddHttpHeader*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 438
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestAddHttpHeader()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreateHttpHeader()
+  id: requestCreateHttpHeader()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestCreateHttpHeader()
+  nameWithType: ContractApiHttpTest.requestCreateHttpHeader()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreateHttpHeader()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreateHttpHeader*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 405
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestCreateHttpHeader()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesHttpRequest()
+  id: requestCreatesHttpRequest()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestCreatesHttpRequest()
+  nameWithType: ContractApiHttpTest.requestCreatesHttpRequest()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesHttpRequest()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesHttpRequest*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 330
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestCreatesHttpRequest()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesSasToken()
+  id: requestCreatesSasToken()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestCreatesSasToken()
+  nameWithType: ContractApiHttpTest.requestCreatesSasToken()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesSasToken()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesSasToken*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 143
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestCreatesSasToken()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesURL()
+  id: requestCreatesURL()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestCreatesURL()
+  nameWithType: ContractApiHttpTest.requestCreatesURL()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesURL()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesURL*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 212
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestCreatesURL()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestSendsHttpRequest()
+  id: requestSendsHttpRequest()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestSendsHttpRequest()
+  nameWithType: ContractApiHttpTest.requestSendsHttpRequest()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestSendsHttpRequest()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestSendsHttpRequest*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 475
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestSendsHttpRequest()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnDeviceProvisioningServiceError()
+  id: requestThrowsOnDeviceProvisioningServiceError()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestThrowsOnDeviceProvisioningServiceError()
+  nameWithType: ContractApiHttpTest.requestThrowsOnDeviceProvisioningServiceError()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnDeviceProvisioningServiceError()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnDeviceProvisioningServiceError*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 536
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestThrowsOnDeviceProvisioningServiceError()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnEmptyPath()
+  id: requestThrowsOnEmptyPath()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestThrowsOnEmptyPath()
+  nameWithType: ContractApiHttpTest.requestThrowsOnEmptyPath()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnEmptyPath()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnEmptyPath*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 268
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestThrowsOnEmptyPath()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnHttpRequestFailed()
+  id: requestThrowsOnHttpRequestFailed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestThrowsOnHttpRequestFailed()
+  nameWithType: ContractApiHttpTest.requestThrowsOnHttpRequestFailed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnHttpRequestFailed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnHttpRequestFailed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 372
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestThrowsOnHttpRequestFailed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnNullPath()
+  id: requestThrowsOnNullPath()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestThrowsOnNullPath()
+  nameWithType: ContractApiHttpTest.requestThrowsOnNullPath()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnNullPath()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnNullPath*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 238
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestThrowsOnNullPath()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSasToken()
+  id: requestThrowsOnSasToken()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestThrowsOnSasToken()
+  nameWithType: ContractApiHttpTest.requestThrowsOnSasToken()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSasToken()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSasToken*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 186
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestThrowsOnSasToken()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSendHttpRequestFailed()
+  id: requestThrowsOnSendHttpRequestFailed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestThrowsOnSendHttpRequestFailed()
+  nameWithType: ContractApiHttpTest.requestThrowsOnSendHttpRequestFailed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSendHttpRequestFailed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSendHttpRequestFailed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 500
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestThrowsOnSendHttpRequestFailed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnWrongPath()
+  id: requestThrowsOnWrongPath()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.yml
+  langs:
+  - java
+  name: requestThrowsOnWrongPath()
+  nameWithType: ContractApiHttpTest.requestThrowsOnWrongPath()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnWrongPath()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnWrongPath*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/contract/ContractApiHttpTest.java
+    startLine: 298
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+  syntax:
+    content: public void requestThrowsOnWrongPath()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorSucceeded*
+  name: privateConstructorSucceeded
+  nameWithType: ContractApiHttpTest.privateConstructorSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorThrowsOnNullConnectionString*
+  name: privateConstructorThrowsOnNullConnectionString
+  nameWithType: ContractApiHttpTest.privateConstructorThrowsOnNullConnectionString
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.privateConstructorThrowsOnNullConnectionString
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringThrowsOnNullConnectionString*
+  name: createFromConnectionStringThrowsOnNullConnectionString
+  nameWithType: ContractApiHttpTest.createFromConnectionStringThrowsOnNullConnectionString
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringThrowsOnNullConnectionString
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringSucceeded*
+  name: createFromConnectionStringSucceeded
+  nameWithType: ContractApiHttpTest.createFromConnectionStringSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.createFromConnectionStringSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesSasToken*
+  name: requestCreatesSasToken
+  nameWithType: ContractApiHttpTest.requestCreatesSasToken
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesSasToken
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSasToken*
+  name: requestThrowsOnSasToken
+  nameWithType: ContractApiHttpTest.requestThrowsOnSasToken
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSasToken
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesURL*
+  name: requestCreatesURL
+  nameWithType: ContractApiHttpTest.requestCreatesURL
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesURL
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnNullPath*
+  name: requestThrowsOnNullPath
+  nameWithType: ContractApiHttpTest.requestThrowsOnNullPath
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnNullPath
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnEmptyPath*
+  name: requestThrowsOnEmptyPath
+  nameWithType: ContractApiHttpTest.requestThrowsOnEmptyPath
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnEmptyPath
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnWrongPath*
+  name: requestThrowsOnWrongPath
+  nameWithType: ContractApiHttpTest.requestThrowsOnWrongPath
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnWrongPath
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesHttpRequest*
+  name: requestCreatesHttpRequest
+  nameWithType: ContractApiHttpTest.requestCreatesHttpRequest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreatesHttpRequest
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnHttpRequestFailed*
+  name: requestThrowsOnHttpRequestFailed
+  nameWithType: ContractApiHttpTest.requestThrowsOnHttpRequestFailed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnHttpRequestFailed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreateHttpHeader*
+  name: requestCreateHttpHeader
+  nameWithType: ContractApiHttpTest.requestCreateHttpHeader
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestCreateHttpHeader
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestAddHttpHeader*
+  name: requestAddHttpHeader
+  nameWithType: ContractApiHttpTest.requestAddHttpHeader
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestAddHttpHeader
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestSendsHttpRequest*
+  name: requestSendsHttpRequest
+  nameWithType: ContractApiHttpTest.requestSendsHttpRequest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestSendsHttpRequest
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSendHttpRequestFailed*
+  name: requestThrowsOnSendHttpRequestFailed
+  nameWithType: ContractApiHttpTest.requestThrowsOnSendHttpRequestFailed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnSendHttpRequestFailed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnDeviceProvisioningServiceError*
+  name: requestThrowsOnDeviceProvisioningServiceError
+  nameWithType: ContractApiHttpTest.requestThrowsOnDeviceProvisioningServiceError
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttpTest.requestThrowsOnDeviceProvisioningServiceError
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.contract
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningSasToken
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.auth
+  href: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningSasToken.yml
+  name: ProvisioningSasToken
+  nameWithType: ProvisioningSasToken
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningSasToken
+  type: Class
+  summary: <p>Grants device access to an Provisioning for the specified amount of time. </p>
+  syntax:
+    content: public class ProvisioningSasToken
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.auth
+  href: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString.yml
+  name: ProvisioningConnectionString
+  nameWithType: ProvisioningConnectionString
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString
+  type: Class
+  summary: <p>Expose all connections string properties and methods for user, device and connection string serialization. </p>
+  syntax:
+    content: public class ProvisioningConnectionString
+- uid: com.microsoft.azure.sdk.iot.deps.transport.http.HttpRequest
+  parent: com.microsoft.azure.sdk.iot.deps.transport.http
+  href: com.microsoft.azure.sdk.iot.deps.transport.http.HttpRequest.yml
+  name: HttpRequest
+  nameWithType: HttpRequest
+  fullName: com.microsoft.azure.sdk.iot.deps.transport.http.HttpRequest
+  type: Class
+  syntax:
+    content: public class HttpRequest
+- uid: com.microsoft.azure.sdk.iot.deps.transport.http.HttpResponse
+  parent: com.microsoft.azure.sdk.iot.deps.transport.http
+  href: com.microsoft.azure.sdk.iot.deps.transport.http.HttpResponse.yml
+  name: HttpResponse
+  nameWithType: HttpResponse
+  fullName: com.microsoft.azure.sdk.iot.deps.transport.http.HttpResponse
+  type: Class
+  summary: <p>An HTTPS response. Contains the status code, body, header fields, and error reason (if any). </p>
+  syntax:
+    content: public class HttpResponse
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException.yml
+  name: ProvisioningServiceClientException
+  nameWithType: ProvisioningServiceClientException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
+  type: Class
+  summary: >-
+    <p>Super class for the Device Provisioning Service exceptions on the Service Client.</p>
+
+    <p>
+
+      <pre>
+
+        <code>ProvisioningServiceClientException
+
+            |
+
+            +--&gt;ProvisioningServiceClientTransportException [any transport layer exception]
+
+            |
+
+            +--&gt;ProvisioningServiceClientServiceException [any exception reported in the http response]
+
+                    |
+
+                    |
+
+                    +--&gt;ProvisioningServiceClientBadUsageException [any http response 4xx]
+
+                    |        |
+
+                    |        +--&gt;ProvisioningServiceClientBadFormatException [400]
+
+                    |        +--&gt;ProvisioningServiceClientUnathorizedException [401]
+
+                    |        +--&gt;ProvisioningServiceClientNotFoundException [404]
+
+                    |        +--&gt;ProvisioningServiceClientPreconditionFailedException [412]
+
+                    |        +--&gt;ProvisioningServiceClientTooManyRequestsException [429]
+
+                    |
+
+                    +--&gt;ProvisioningServiceClientTransientException [any http response 5xx]
+
+                    |        |
+
+                    |        +--&gt;ProvisioningServiceClientInternalServerErrorException [500]
+
+                    |
+
+                    +--&gt;ProvisioningServiceClientUnknownException [any other http response &gt;300, but not 4xx or 5xx]
+
+        </code>
+
+      </pre>
+
+    </p>
+  syntax:
+    content: public class ProvisioningServiceClientException

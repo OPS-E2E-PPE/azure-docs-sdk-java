@@ -1,0 +1,514 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  id: ResourceSkusInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  children:
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.list()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync(final ListOperationCallback<ResourceSkuInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNext(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync(final String,final ServiceFuture<List<ResourceSkuInner>>,final ListOperationCallback<ResourceSkuInner>)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextSinglePageAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextWithServiceResponseAsync(final String)
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listSinglePageAsync()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listWithServiceResponseAsync()
+  - com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.ResourceSkusInner(Retrofit,CognitiveServicesManagementClientImpl)
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: ResourceSkusInner
+  nameWithType: ResourceSkusInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  type: Class
+  source:
+    remote: &o0
+      path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 36
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>An instance of this class provides access to all the operations defined in ResourceSkus. </p>"
+  syntax:
+    content: public class ResourceSkusInner
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.list()
+  id: list()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: list()
+  nameWithType: ResourceSkusInner.list()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.list()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.list*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 76
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public PagedList<ResourceSkuInner> list()
+    return:
+      type: 36b27be0com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnera08ddfce
+      description: <p>the PagedList&lt;ResourceSkuInner&gt; object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: dc385fd4
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync()
+  id: listAsync()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: listAsync()
+  nameWithType: ResourceSkusInner.listAsync()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 111
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<Page<ResourceSkuInner>> listAsync()
+    return:
+      type: 32da0907com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnere7daa122
+      description: <p>the observable to the PagedList&lt;ResourceSkuInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync(final ListOperationCallback<ResourceSkuInner>)
+  id: listAsync(final ListOperationCallback<ResourceSkuInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: listAsync(final ListOperationCallback<ResourceSkuInner> serviceCallback)
+  nameWithType: ResourceSkusInner.listAsync(final ListOperationCallback<ResourceSkuInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync(final ListOperationCallback<ResourceSkuInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 93
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<List<ResourceSkuInner>> listAsync(final ListOperationCallback<ResourceSkuInner> serviceCallback)
+    parameters:
+    - id: serviceCallback
+      type: 3c4303efcom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: b7698b59com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnere7daa122
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNext(final String)
+  id: listNext(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: listNext(final String nextPageLink)
+  nameWithType: ResourceSkusInner.listNext(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNext(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNext*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 184
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public PagedList<ResourceSkuInner> listNext(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: 36b27be0com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnera08ddfce
+      description: <p>the PagedList&lt;ResourceSkuInner&gt; object if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+  - type: dc385fd4
+    description: <p>thrown if the request is rejected by server </p>
+  - type: 9b2a4515
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync(final String)
+  id: listNextAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink)
+  nameWithType: ResourceSkusInner.listNextAsync(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 222
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<Page<ResourceSkuInner>> listNextAsync(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: 32da0907com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnere7daa122
+      description: <p>the observable to the PagedList&lt;ResourceSkuInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync(final String,final ServiceFuture<List<ResourceSkuInner>>,final ListOperationCallback<ResourceSkuInner>)
+  id: listNextAsync(final String,final ServiceFuture<List<ResourceSkuInner>>,final ListOperationCallback<ResourceSkuInner>)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: listNextAsync(final String nextPageLink, final ServiceFuture<List<ResourceSkuInner>> serviceFuture, final ListOperationCallback<ResourceSkuInner> serviceCallback)
+  nameWithType: ResourceSkusInner.listNextAsync(final String nextPageLink, final ServiceFuture<List<ResourceSkuInner>> serviceFuture, final ListOperationCallback<ResourceSkuInner> serviceCallback)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync(final String nextPageLink, final ServiceFuture<List<ResourceSkuInner>> serviceFuture, final ListOperationCallback<ResourceSkuInner> serviceCallback)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 203
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public ServiceFuture<List<ResourceSkuInner>> listNextAsync(final String nextPageLink, final ServiceFuture<List<ResourceSkuInner>> serviceFuture, final ListOperationCallback<ResourceSkuInner> serviceCallback)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    - id: serviceFuture
+      type: bd82102acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnere7daa122
+      description: <p>the ServiceFuture object tracking the Retrofit calls </p>
+    - id: serviceCallback
+      type: 3c4303efcom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnera08ddfce
+      description: <p>the async ServiceCallback to handle successful and failed responses. </p>
+    return:
+      type: b7698b59com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnere7daa122
+      description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextSinglePageAsync(final String)
+  id: listNextSinglePageAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: listNextSinglePageAsync(final String nextPageLink)
+  nameWithType: ResourceSkusInner.listNextSinglePageAsync(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextSinglePageAsync(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextSinglePageAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 260
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p>ServiceResponse&lt;PageImpl&lt;ResourceSkuInner&gt;&gt; * </p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<ResourceSkuInner>>> listNextSinglePageAsync(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner2646ccb0
+      description: <p>the PagedList&lt;ResourceSkuInner&gt; object wrapped in <xref uid="" data-throw-if-not-resolved="false">ServiceResponse</xref> if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextWithServiceResponseAsync(final String)
+  id: listNextWithServiceResponseAsync(final String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: listNextWithServiceResponseAsync(final String nextPageLink)
+  nameWithType: ResourceSkusInner.listNextWithServiceResponseAsync(final String nextPageLink)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextWithServiceResponseAsync(final String nextPageLink)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 239
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<ResourceSkuInner>>> listNextWithServiceResponseAsync(final String nextPageLink)
+    parameters:
+    - id: nextPageLink
+      type: 3d93591e
+      description: <p>The NextLink from the previous successful call to List operation. </p>
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner2646ccb0
+      description: <p>the observable to the PagedList&lt;ResourceSkuInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listSinglePageAsync()
+  id: listSinglePageAsync()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: listSinglePageAsync()
+  nameWithType: ResourceSkusInner.listSinglePageAsync()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listSinglePageAsync()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listSinglePageAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 147
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<ResourceSkuInner>>> listSinglePageAsync()
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner2646ccb0
+      description: <p>the PagedList&lt;ResourceSkuInner&gt; object wrapped in <xref uid="" data-throw-if-not-resolved="false">ServiceResponse</xref> if successful. </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listWithServiceResponseAsync()
+  id: listWithServiceResponseAsync()
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: listWithServiceResponseAsync()
+  nameWithType: ResourceSkusInner.listWithServiceResponseAsync()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listWithServiceResponseAsync()
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listWithServiceResponseAsync*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 127
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Gets the list of Microsoft.CognitiveServices SKUs available for your Subscription.</p>\r\n<p></p>"
+  syntax:
+    content: public Observable<ServiceResponse<Page<ResourceSkuInner>>> listWithServiceResponseAsync()
+    return:
+      type: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner2646ccb0
+      description: <p>the observable to the PagedList&lt;ResourceSkuInner&gt; object </p>
+  exceptions:
+  - type: 3c87bd19
+    description: <p>thrown if parameters fail the validation </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.ResourceSkusInner(Retrofit,CognitiveServicesManagementClientImpl)
+  id: ResourceSkusInner(Retrofit,CognitiveServicesManagementClientImpl)
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.yml
+  langs:
+  - java
+  name: ResourceSkusInner(Retrofit retrofit, CognitiveServicesManagementClientImpl client)
+  nameWithType: ResourceSkusInner.ResourceSkusInner(Retrofit retrofit, CognitiveServicesManagementClientImpl client)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.ResourceSkusInner(Retrofit retrofit, CognitiveServicesManagementClientImpl client)
+  overload: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.ResourceSkusInner*
+  type: Constructor
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2017_04_18/src/main/java/com/microsoft/azure/management/cognitiveservices/v2017_04_18/implementation/ResourceSkusInner.java
+    startLine: 48
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  summary: "<p>Initializes an instance of ResourceSkusInner.</p>\r\n<p></p>"
+  syntax:
+    content: public ResourceSkusInner(Retrofit retrofit, CognitiveServicesManagementClientImpl client)
+    parameters:
+    - id: retrofit
+      type: 964879b9
+      description: <p>the Retrofit instance built from a Retrofit Builder. </p>
+    - id: client
+      type: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManagementClientImpl
+      description: <p>the instance of the service client containing this operation class. </p>
+references:
+- uid: 964879b9
+  spec.java:
+  - name: Retrofit
+    fullName: Retrofit
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.ResourceSkusInner*
+  name: ResourceSkusInner
+  nameWithType: ResourceSkusInner.ResourceSkusInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.ResourceSkusInner
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 3c87bd19
+  spec.java:
+  - name: IllegalArgumentException
+    fullName: IllegalArgumentException
+- uid: dc385fd4
+  spec.java:
+  - name: CloudException
+    fullName: CloudException
+- uid: 9b2a4515
+  spec.java:
+  - name: RuntimeException
+    fullName: RuntimeException
+- uid: 36b27be0com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnera08ddfce
+  spec.java:
+  - name: PagedList<
+    fullName: PagedList<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    name: ResourceSkuInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.list*
+  name: list
+  nameWithType: ResourceSkusInner.list
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.list
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 3c4303efcom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnera08ddfce
+  spec.java:
+  - name: final ListOperationCallback<
+    fullName: final ListOperationCallback<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    name: ResourceSkuInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  - name: '>'
+    fullName: '>'
+- uid: b7698b59com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnere7daa122
+  spec.java:
+  - name: ServiceFuture<List<
+    fullName: ServiceFuture<List<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    name: ResourceSkuInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync*
+  name: listAsync
+  nameWithType: ResourceSkusInner.listAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 32da0907com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnere7daa122
+  spec.java:
+  - name: Observable<Page<
+    fullName: Observable<Page<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    name: ResourceSkuInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: f9d74917com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner2646ccb0
+  spec.java:
+  - name: Observable<ServiceResponse<Page<
+    fullName: Observable<ServiceResponse<Page<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    name: ResourceSkuInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  - name: '>>>'
+    fullName: '>>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listWithServiceResponseAsync*
+  name: listWithServiceResponseAsync
+  nameWithType: ResourceSkusInner.listWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listSinglePageAsync*
+  name: listSinglePageAsync
+  nameWithType: ResourceSkusInner.listSinglePageAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listSinglePageAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNext*
+  name: listNext
+  nameWithType: ResourceSkusInner.listNext
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNext
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: bd82102acom.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInnere7daa122
+  spec.java:
+  - name: final ServiceFuture<List<
+    fullName: final ServiceFuture<List<
+  - uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    name: ResourceSkuInner
+    fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+    href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  - name: '>>'
+    fullName: '>>'
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync*
+  name: listNextAsync
+  nameWithType: ResourceSkusInner.listNextAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextWithServiceResponseAsync*
+  name: listNextWithServiceResponseAsync
+  nameWithType: ResourceSkusInner.listNextWithServiceResponseAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextWithServiceResponseAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextSinglePageAsync*
+  name: listNextSinglePageAsync
+  nameWithType: ResourceSkusInner.listNextSinglePageAsync
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkusInner.listNextSinglePageAsync
+  package: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManagementClientImpl
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManagementClientImpl.yml
+  name: CognitiveServicesManagementClientImpl
+  nameWithType: CognitiveServicesManagementClientImpl
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.CognitiveServicesManagementClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the CognitiveServicesManagementClientImpl class. </p>
+  syntax:
+    content: public class CognitiveServicesManagementClientImpl
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner.yml
+  name: ResourceSkuInner
+  nameWithType: ResourceSkuInner
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.ResourceSkuInner
+  type: Class
+  summary: <p>Describes an available Cognitive Services SKU. </p>
+  syntax:
+    content: public class ResourceSkuInner
+- uid: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.PageImpl
+  parent: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.PageImpl.yml
+  name: PageImpl<T>
+  nameWithType: PageImpl<T>
+  fullName: com.microsoft.azure.management.cognitiveservices.v2017_04_18.implementation.PageImpl<T>
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of Azure resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+      description: <p>type of Azure resource </p>

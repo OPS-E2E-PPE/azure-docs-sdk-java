@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.cognitiveservices.vision.computervision.implementation
+  id: implementation
+  children:
+  - com.microsoft.azure.cognitiveservices.vision.computervision.implementation.ComputerVisionClientImpl
+  - com.microsoft.azure.cognitiveservices.vision.computervision.implementation.ComputerVisionImpl
+  href: com.microsoft.azure.cognitiveservices.vision.computervision.implementation.yml
+  langs:
+  - java
+  name: com.microsoft.azure.cognitiveservices.vision.computervision.implementation
+  nameWithType: com.microsoft.azure.cognitiveservices.vision.computervision.implementation
+  fullName: com.microsoft.azure.cognitiveservices.vision.computervision.implementation
+  type: Namespace
+  source:
+    remote:
+      path: cognitiveservices/data-plane/vision/computervision/src/main/java/com/microsoft/azure/cognitiveservices/vision/computervision/implementation/ComputerVisionClientImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/data-plane/vision/computervision/src/main/java/com/microsoft/azure/cognitiveservices/vision/computervision/implementation/ComputerVisionClientImpl.java
+    startLine: 8
+  summary: "<p>This package contains the implementation classes for ComputerVisionClient. The Computer Vision API provides state-of-the-art algorithms to process images and return information. For example, it can be used to determine if an image contains mature content, or it can be used to find all the faces in an image. It also has other features like estimating dominant and accent colors, categorizing the content of images, and describing an image with complete English sentences. Additionally, it can also intelligently generate images thumbnails for displaying large images effectively. </p>"
+  syntax:
+    content: package com.microsoft.azure.cognitiveservices.vision.computervision.implementation
+references:
+- uid: com.microsoft.azure.cognitiveservices.vision.computervision.implementation.ComputerVisionClientImpl
+  parent: com.microsoft.azure.cognitiveservices.vision.computervision.implementation
+  href: com.microsoft.azure.cognitiveservices.vision.computervision.implementation.ComputerVisionClientImpl.yml
+  name: ComputerVisionClientImpl
+  nameWithType: ComputerVisionClientImpl
+  fullName: com.microsoft.azure.cognitiveservices.vision.computervision.implementation.ComputerVisionClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the ComputerVisionClientImpl class. </p>
+  syntax:
+    content: public class ComputerVisionClientImpl implements ComputerVisionClient
+- uid: com.microsoft.azure.cognitiveservices.vision.computervision.implementation.ComputerVisionImpl
+  parent: com.microsoft.azure.cognitiveservices.vision.computervision.implementation
+  href: com.microsoft.azure.cognitiveservices.vision.computervision.implementation.ComputerVisionImpl.yml
+  name: ComputerVisionImpl
+  nameWithType: ComputerVisionImpl
+  fullName: com.microsoft.azure.cognitiveservices.vision.computervision.implementation.ComputerVisionImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in ComputerVision. </p>
+  syntax:
+    content: public class ComputerVisionImpl implements ComputerVision

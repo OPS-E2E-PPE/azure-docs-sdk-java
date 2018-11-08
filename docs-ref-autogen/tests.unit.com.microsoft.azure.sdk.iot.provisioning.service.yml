@@ -3,13 +3,13 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
   id: service
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._enrollment_group_manager_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._helpers
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._individual_enrollment_manager_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._provisioning_service_client_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._query_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._registration_status_manager_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._tools_test
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.EnrollmentGroupManagerTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.Helpers
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.IndividualEnrollmentManagerTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.QueryTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.RegistrationStatusManagerTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ToolsTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.yml
   langs:
   - java
@@ -56,9 +56,9 @@ references:
   type: Namespace
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._enrollment_group_manager_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.EnrollmentGroupManagerTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._enrollment_group_manager_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.EnrollmentGroupManagerTest.yml
   name: EnrollmentGroupManagerTest
   nameWithType: EnrollmentGroupManagerTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.EnrollmentGroupManagerTest
@@ -66,9 +66,9 @@ references:
   summary: <p>Unit tests for EnrollmentGroup Manager. 100% methods, 100% lines covered </p>
   syntax:
     content: public class EnrollmentGroupManagerTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._helpers
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.Helpers
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._helpers.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.Helpers.yml
   name: Helpers
   nameWithType: Helpers
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.Helpers
@@ -76,9 +76,9 @@ references:
   summary: <p>Test helpers. </p>
   syntax:
     content: public class Helpers
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._individual_enrollment_manager_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.IndividualEnrollmentManagerTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._individual_enrollment_manager_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.IndividualEnrollmentManagerTest.yml
   name: IndividualEnrollmentManagerTest
   nameWithType: IndividualEnrollmentManagerTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.IndividualEnrollmentManagerTest
@@ -86,9 +86,9 @@ references:
   summary: <p>Unit tests for IndividualEnrollment Manager. 100% methods, 100% lines covered </p>
   syntax:
     content: public class IndividualEnrollmentManagerTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._provisioning_service_client_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._provisioning_service_client_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest.yml
   name: ProvisioningServiceClientTest
   nameWithType: ProvisioningServiceClientTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClientTest
@@ -96,9 +96,9 @@ references:
   summary: <p>Unit tests for Provisioning Service Client public API. 100% methods, 100% lines covered </p>
   syntax:
     content: public class ProvisioningServiceClientTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._query_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.QueryTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._query_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.QueryTest.yml
   name: QueryTest
   nameWithType: QueryTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.QueryTest
@@ -106,9 +106,9 @@ references:
   summary: <p>Unit tests for Query iterator. 100% methods, 100% lines covered </p>
   syntax:
     content: public class QueryTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._registration_status_manager_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.RegistrationStatusManagerTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._registration_status_manager_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.RegistrationStatusManagerTest.yml
   name: RegistrationStatusManagerTest
   nameWithType: RegistrationStatusManagerTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.RegistrationStatusManagerTest
@@ -116,9 +116,9 @@ references:
   summary: <p>Unit tests for Registration Status Manager. 100% methods, 100% lines covered </p>
   syntax:
     content: public class RegistrationStatusManagerTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._tools_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ToolsTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service._tools_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ToolsTest.yml
   name: ToolsTest
   nameWithType: ToolsTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.ToolsTest

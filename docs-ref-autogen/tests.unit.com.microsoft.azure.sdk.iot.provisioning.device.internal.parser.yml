@@ -3,9 +3,10 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
   id: parser
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter46350b57ce06442f1eba98db9416f71e
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interd0a51e9c0e00e8a557be028bc8545236
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.intereea94e01ecd524f2210b41e880881e35
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationResultParserTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParserTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.yml
   langs:
   - java
@@ -23,27 +24,36 @@ items:
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
 references:
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter46350b57ce06442f1eba98db9416f71e
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter46350b57ce06442f1eba98db9416f71e.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest.yml
   name: DeviceRegistrationParserTest
   nameWithType: DeviceRegistrationParserTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParserTest
   type: Class
   syntax:
     content: public class DeviceRegistrationParserTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interd0a51e9c0e00e8a557be028bc8545236
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationResultParserTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interd0a51e9c0e00e8a557be028bc8545236.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationResultParserTest.yml
   name: DeviceRegistrationResultParserTest
   nameWithType: DeviceRegistrationResultParserTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationResultParserTest
   type: Class
   syntax:
     content: public class DeviceRegistrationResultParserTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.intereea94e01ecd524f2210b41e880881e35
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.intereea94e01ecd524f2210b41e880881e35.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest.yml
+  name: ProvisioningErrorParserTest
+  nameWithType: ProvisioningErrorParserTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.ProvisioningErrorParserTest
+  type: Class
+  syntax:
+    content: public class ProvisioningErrorParserTest
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParserTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParserTest.yml
   name: RegistrationOperationStatusParserTest
   nameWithType: RegistrationOperationStatusParserTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParserTest

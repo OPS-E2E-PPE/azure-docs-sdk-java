@@ -3,7 +3,7 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
   id: http
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interd57ff45d1098bd8dd649fab690692afa
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.yml
   langs:
   - java
@@ -21,9 +21,9 @@ items:
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
 references:
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interd57ff45d1098bd8dd649fab690692afa
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interd57ff45d1098bd8dd649fab690692afa.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest.yml
   name: ContractAPIHttpTest
   nameWithType: ContractAPIHttpTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http.ContractAPIHttpTest

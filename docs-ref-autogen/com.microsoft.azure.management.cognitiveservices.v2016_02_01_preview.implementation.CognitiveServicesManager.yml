@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+  id: CognitiveServicesManager
+  parent: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+  children:
+  - com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate(AzureTokenCredentials,String)
+  - com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate(RestClient,String)
+  - com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.cognitiveServicesAccounts()
+  - com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.configure()
+  href: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: CognitiveServicesManager
+  nameWithType: CognitiveServicesManager
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+  type: Class
+  source:
+    remote: &o0
+      path: cognitiveservices/resource-manager/v2016_02_01_preview/src/main/java/com/microsoft/azure/management/cognitiveservices/v2016_02_01_preview/implementation/CognitiveServicesManager.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/resource-manager/v2016_02_01_preview/src/main/java/com/microsoft/azure/management/cognitiveservices/v2016_02_01_preview/implementation/CognitiveServicesManager.java
+    startLine: 25
+  package: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+  summary: "<p>Entry point to Azure CognitiveServices resource management. </p>"
+  syntax: &o1
+    content: public class CognitiveServicesManager
+  inheritance:
+  - java.lang.Object
+  - com.microsoft.azure.arm.resources.implementation.ManagerCore<CognitiveServicesManager, CognitiveServicesManagementClientImpl>
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate(AzureTokenCredentials,String)
+  id: authenticate(AzureTokenCredentials,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  nameWithType: CognitiveServicesManager.authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  overload: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2016_02_01_preview/src/main/java/com/microsoft/azure/management/cognitiveservices/v2016_02_01_preview/implementation/CognitiveServicesManager.java
+    startLine: 42
+  package: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+  summary: "<p>Creates an instance of CognitiveServicesManager that exposes CognitiveServices resource management API entry points.</p>\r\n<p></p>"
+  syntax:
+    content: public static CognitiveServicesManager authenticate(AzureTokenCredentials credentials, String subscriptionId)
+    parameters:
+    - id: credentials
+      type: f380981c
+      description: <p>the credentials to use </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>the subscription UUID </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+      description: <p>the CognitiveServicesManager </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate(RestClient,String)
+  id: authenticate(RestClient,String)
+  parent: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: authenticate(RestClient restClient, String subscriptionId)
+  nameWithType: CognitiveServicesManager.authenticate(RestClient restClient, String subscriptionId)
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate(RestClient restClient, String subscriptionId)
+  overload: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2016_02_01_preview/src/main/java/com/microsoft/azure/management/cognitiveservices/v2016_02_01_preview/implementation/CognitiveServicesManager.java
+    startLine: 57
+  package: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+  summary: "<p>Creates an instance of CognitiveServicesManager that exposes CognitiveServices resource management API entry points.</p>\r\n<p></p>"
+  syntax:
+    content: public static CognitiveServicesManager authenticate(RestClient restClient, String subscriptionId)
+    parameters:
+    - id: restClient
+      type: 9545a295
+      description: <p>the RestClient to be used for API calls. </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>the subscription UUID </p>
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+      description: <p>the CognitiveServicesManager </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.cognitiveServicesAccounts()
+  id: cognitiveServicesAccounts()
+  parent: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: cognitiveServicesAccounts()
+  nameWithType: CognitiveServicesManager.cognitiveServicesAccounts()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.cognitiveServicesAccounts()
+  overload: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.cognitiveServicesAccounts*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2016_02_01_preview/src/main/java/com/microsoft/azure/management/cognitiveservices/v2016_02_01_preview/implementation/CognitiveServicesManager.java
+    startLine: 77
+  package: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+  syntax:
+    content: public CognitiveServicesAccounts cognitiveServicesAccounts()
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.CognitiveServicesAccounts
+      description: <p>Entry point to manage CognitiveServicesAccounts. </p>
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.configure()
+  id: configure()
+  parent: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+  href: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.yml
+  langs:
+  - java
+  name: configure()
+  nameWithType: CognitiveServicesManager.configure()
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.configure()
+  overload: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.configure*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/resource-manager/v2016_02_01_preview/src/main/java/com/microsoft/azure/management/cognitiveservices/v2016_02_01_preview/implementation/CognitiveServicesManager.java
+    startLine: 32
+  package: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+  summary: "<p>Get a Configurable instance that can be used to create CognitiveServicesManager with optional configuration.</p>\r\n<p></p>"
+  syntax:
+    content: public static Configurable configure()
+    return:
+      type: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.Configurable
+      description: <p>the instance allowing configurations </p>
+references:
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.configure*
+  name: configure
+  nameWithType: CognitiveServicesManager.configure
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.configure
+  package: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+- uid: f380981c
+  spec.java:
+  - name: AzureTokenCredentials
+    fullName: AzureTokenCredentials
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate*
+  name: authenticate
+  nameWithType: CognitiveServicesManager.authenticate
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.authenticate
+  package: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+- uid: 9545a295
+  spec.java:
+  - name: RestClient
+    fullName: RestClient
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.cognitiveServicesAccounts*
+  name: cognitiveServicesAccounts
+  nameWithType: CognitiveServicesManager.cognitiveServicesAccounts
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.cognitiveServicesAccounts
+  package: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.CognitiveServicesAccounts
+  parent: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview
+  href: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.CognitiveServicesAccounts.yml
+  name: CognitiveServicesAccounts
+  nameWithType: CognitiveServicesAccounts
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.CognitiveServicesAccounts
+  type: Interface
+  summary: <p>Type representing CognitiveServicesAccounts. </p>
+  syntax:
+    content: public interface CognitiveServicesAccounts
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.Configurable
+  parent: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.Configurable.yml
+  name: CognitiveServicesManager.Configurable
+  nameWithType: CognitiveServicesManager.Configurable
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.Configurable
+  type: Interface
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable
+- uid: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+  parent: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation
+  href: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager.yml
+  name: CognitiveServicesManager
+  nameWithType: CognitiveServicesManager
+  fullName: com.microsoft.azure.management.cognitiveservices.v2016_02_01_preview.implementation.CognitiveServicesManager
+  type: Class
+  summary: <p>Entry point to Azure CognitiveServices resource management. </p>
+  syntax: *o1

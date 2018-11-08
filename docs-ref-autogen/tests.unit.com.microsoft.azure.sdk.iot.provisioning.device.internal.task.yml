@@ -3,14 +3,14 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
   id: task
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter06269187d2cbf3a116f97442d64cc2b3
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter3d86d77c7591dadc415ee830e4c5c8c4
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter6f5d326d39e8c26273edc0c0d22c6f95
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter84981cca39a76b94b6e41920f15d1167
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter898ac9205bf1075b4f01c0e54dc9362c
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interb1d08e3d82c39fa4d02fa6284997f0f9
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.intere05577c496ffeb1acf18508514b4a0b7
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interff3cc7b676cf930f5d539722c25ceb27
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.AuthorizationTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningStatusTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTaskTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegistrationInfoTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseDataTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.yml
   langs:
   - java
@@ -28,72 +28,72 @@ items:
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
 references:
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter3d86d77c7591dadc415ee830e4c5c8c4
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.AuthorizationTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter3d86d77c7591dadc415ee830e4c5c8c4.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.AuthorizationTest.yml
   name: AuthorizationTest
   nameWithType: AuthorizationTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.AuthorizationTest
   type: Class
   syntax:
     content: public class AuthorizationTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter84981cca39a76b94b6e41920f15d1167
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningStatusTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter84981cca39a76b94b6e41920f15d1167.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningStatusTest.yml
   name: ProvisioningStatusTest
   nameWithType: ProvisioningStatusTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningStatusTest
   type: Class
   syntax:
     content: public class ProvisioningStatusTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.intere05577c496ffeb1acf18508514b4a0b7
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTaskTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.intere05577c496ffeb1acf18508514b4a0b7.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTaskTest.yml
   name: ProvisioningTaskTest
   nameWithType: ProvisioningTaskTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTaskTest
   type: Class
   syntax:
     content: public class ProvisioningTaskTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interb1d08e3d82c39fa4d02fa6284997f0f9
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interb1d08e3d82c39fa4d02fa6284997f0f9.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest.yml
   name: RegisterTaskTest
   nameWithType: RegisterTaskTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTaskTest
   type: Class
   syntax:
     content: public class RegisterTaskTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interff3cc7b676cf930f5d539722c25ceb27
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegistrationInfoTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.interff3cc7b676cf930f5d539722c25ceb27.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegistrationInfoTest.yml
   name: RegistrationInfoTest
   nameWithType: RegistrationInfoTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegistrationInfoTest
   type: Class
   syntax:
     content: public class RegistrationInfoTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter6f5d326d39e8c26273edc0c0d22c6f95
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter6f5d326d39e8c26273edc0c0d22c6f95.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest.yml
   name: RequestDataTest
   nameWithType: RequestDataTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestDataTest
   type: Class
   syntax:
     content: public class RequestDataTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter898ac9205bf1075b4f01c0e54dc9362c
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseDataTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter898ac9205bf1075b4f01c0e54dc9362c.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseDataTest.yml
   name: ResponseDataTest
   nameWithType: ResponseDataTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseDataTest
   type: Class
   syntax:
     content: public class ResponseDataTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter06269187d2cbf3a116f97442d64cc2b3
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter06269187d2cbf3a116f97442d64cc2b3.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest.yml
   name: StatusTaskTest
   nameWithType: StatusTaskTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTaskTest

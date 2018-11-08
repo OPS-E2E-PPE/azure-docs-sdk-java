@@ -3,8 +3,8 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security
   id: security
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security._security_provider_tpm_test
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security._security_provider_x509_test
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderTpmTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderX509Test
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.yml
   langs:
   - java
@@ -27,18 +27,18 @@ references:
   type: Namespace
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.hsm
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security._security_provider_tpm_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderTpmTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security._security_provider_tpm_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderTpmTest.yml
   name: SecurityProviderTpmTest
   nameWithType: SecurityProviderTpmTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderTpmTest
   type: Class
   syntax:
     content: public class SecurityProviderTpmTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security._security_provider_x509_test
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderX509Test
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security._security_provider_x509_test.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderX509Test.yml
   name: SecurityProviderX509Test
   nameWithType: SecurityProviderX509Test
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.security.SecurityProviderX509Test

@@ -3,8 +3,8 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
   id: contract
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter56b5febd2cb92ebd31338d07722332a7
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter995dc5258febfc54edd84d282b667ac3
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContractTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilderTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.yml
   langs:
   - java
@@ -43,18 +43,18 @@ references:
   type: Namespace
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter56b5febd2cb92ebd31338d07722332a7
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContractTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter56b5febd2cb92ebd31338d07722332a7.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContractTest.yml
   name: ProvisioningDeviceClientContractTest
   nameWithType: ProvisioningDeviceClientContractTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContractTest
   type: Class
   syntax:
     content: public class ProvisioningDeviceClientContractTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter995dc5258febfc54edd84d282b667ac3
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilderTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.inter995dc5258febfc54edd84d282b667ac3.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilderTest.yml
   name: UrlPathBuilderTest
   nameWithType: UrlPathBuilderTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.UrlPathBuilderTest

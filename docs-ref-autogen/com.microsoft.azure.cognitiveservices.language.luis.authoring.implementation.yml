@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  id: implementation
+  children:
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.AppsImpl
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.ExamplesImpl
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.FeaturesImpl
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.ModelsImpl
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.PatternsImpl
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.PermissionsImpl
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.TrainsImpl
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.VersionsImpl
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.yml
+  langs:
+  - java
+  name: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  nameWithType: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  type: Namespace
+  source:
+    remote:
+      path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
+    startLine: 8
+  summary: "<p>This package contains the implementation classes for LUISAuthoringClient. </p>"
+  syntax:
+    content: package com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+references:
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.AppsImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.AppsImpl.yml
+  name: AppsImpl
+  nameWithType: AppsImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.AppsImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Apps. </p>
+  syntax:
+    content: public class AppsImpl implements Apps
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.ExamplesImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.ExamplesImpl.yml
+  name: ExamplesImpl
+  nameWithType: ExamplesImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.ExamplesImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Examples. </p>
+  syntax:
+    content: public class ExamplesImpl implements Examples
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.FeaturesImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.FeaturesImpl.yml
+  name: FeaturesImpl
+  nameWithType: FeaturesImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.FeaturesImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Features. </p>
+  syntax:
+    content: public class FeaturesImpl implements Features
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl.yml
+  name: LUISAuthoringClientImpl
+  nameWithType: LUISAuthoringClientImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the LUISAuthoringClientImpl class. </p>
+  syntax:
+    content: public class LUISAuthoringClientImpl implements LUISAuthoringClient
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.ModelsImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.ModelsImpl.yml
+  name: ModelsImpl
+  nameWithType: ModelsImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.ModelsImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Models. </p>
+  syntax:
+    content: public class ModelsImpl implements Models
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.PatternsImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.PatternsImpl.yml
+  name: PatternsImpl
+  nameWithType: PatternsImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.PatternsImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Patterns. </p>
+  syntax:
+    content: public class PatternsImpl implements Patterns
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.PermissionsImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.PermissionsImpl.yml
+  name: PermissionsImpl
+  nameWithType: PermissionsImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.PermissionsImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Permissions. </p>
+  syntax:
+    content: public class PermissionsImpl implements Permissions
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.TrainsImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.TrainsImpl.yml
+  name: TrainsImpl
+  nameWithType: TrainsImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.TrainsImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Trains. </p>
+  syntax:
+    content: public class TrainsImpl implements Trains
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.VersionsImpl
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.VersionsImpl.yml
+  name: VersionsImpl
+  nameWithType: VersionsImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.VersionsImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Versions. </p>
+  syntax:
+    content: public class VersionsImpl implements Versions

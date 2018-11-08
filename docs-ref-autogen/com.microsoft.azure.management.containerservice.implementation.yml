@@ -3,22 +3,27 @@ items:
 - uid: com.microsoft.azure.management.containerservice.implementation
   id: implementation
   children:
-  - com.microsoft.azure.management.containerservice.implementation._conta572d038c3483400b6864d197bffed278
-  - com.microsoft.azure.management.containerservice.implementation._container_service_impl
-  - com.microsoft.azure.management.containerservice.implementation._container_service_inner
-  - com.microsoft.azure.management.containerservice.implementation._container_service_management_client_impl
-  - com.microsoft.azure.management.containerservice.implementation._container_service_manager
-  - com.microsoft.azure.management.containerservice.implementation._container_services_impl
-  - com.microsoft.azure.management.containerservice.implementation._container_services_inner
-  - com.microsoft.azure.management.containerservice.implementation._kubernetes_cluster_agent_pool_impl
-  - com.microsoft.azure.management.containerservice.implementation._kubernetes_cluster_impl
-  - com.microsoft.azure.management.containerservice.implementation._kubernetes_clusters_impl
-  - com.microsoft.azure.management.containerservice.implementation._managed_cluster_access_profile_inner
-  - com.microsoft.azure.management.containerservice.implementation._managed_cluster_inner
-  - com.microsoft.azure.management.containerservice.implementation._managed_cluster_upgrade_profile_inner
-  - com.microsoft.azure.management.containerservice.implementation._managed_clusters_inner
-  - com.microsoft.azure.management.containerservice.implementation._orchestra14581df1c071d8983d5eaabd25d99969
-  - com.microsoft.azure.management.containerservice.implementation._page_impl
+  - com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl
+  - com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner
+  - com.microsoft.azure.management.containerservice.implementation.ContainerServiceManagementClientImpl
+  - com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager
+  - com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager.Configurable
+  - com.microsoft.azure.management.containerservice.implementation.ContainerServicesImpl
+  - com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner
+  - com.microsoft.azure.management.containerservice.implementation.CredentialResultsInner
+  - com.microsoft.azure.management.containerservice.implementation.KubernetesClusterAgentPoolImpl
+  - com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
+  - com.microsoft.azure.management.containerservice.implementation.KubernetesClusterNetworkProfileImpl
+  - com.microsoft.azure.management.containerservice.implementation.KubernetesClustersImpl
+  - com.microsoft.azure.management.containerservice.implementation.ManagedClusterAccessProfileInner
+  - com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner
+  - com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner
+  - com.microsoft.azure.management.containerservice.implementation.ManagedClusterUpgradeProfileInner
+  - com.microsoft.azure.management.containerservice.implementation.OperationsInner
+  - com.microsoft.azure.management.containerservice.implementation.OperationValueInner
+  - com.microsoft.azure.management.containerservice.implementation.OrchestratorVersionProfileListResultInner
+  - com.microsoft.azure.management.containerservice.implementation.PageImpl
+  - com.microsoft.azure.management.containerservice.implementation.PageImpl1
   href: com.microsoft.azure.management.containerservice.implementation.yml
   langs:
   - java
@@ -33,23 +38,23 @@ items:
       repo: https://github.com/Azure/azure-libraries-for-java
     path: azure-mgmt-containerservice/src/main/java/com/microsoft/azure/management/containerservice/implementation/ContainerServiceAgentPoolImpl.java
     startLine: 5
-  summary: <p>This package contains the implementation classes for ContainerServiceManagementClient. Container Service Client. </p>
+  summary: "<p>This package contains the implementation classes for ContainerServiceManagementClient. Container Service Client. </p>"
   syntax:
     content: package com.microsoft.azure.management.containerservice.implementation
 references:
-- uid: com.microsoft.azure.management.containerservice.implementation._container_service_impl
+- uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._container_service_impl.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl.yml
   name: ContainerServiceImpl
   nameWithType: ContainerServiceImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceImpl
   type: Class
-  summary: <p>The implementation for <xref uid="com.microsoft.azure.management.containerservice._container_service" data-throw-if-not-resolved="false">ContainerService</xref> and its create and update interfaces. </p>
+  summary: <p>The implementation for ContainerService and its create and update interfaces. </p>
   syntax:
     content: public class ContainerServiceImpl implements ContainerService,ContainerService.Definition,ContainerService.Update
-- uid: com.microsoft.azure.management.containerservice.implementation._container_service_inner
+- uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._container_service_inner.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner.yml
   name: ContainerServiceInner
   nameWithType: ContainerServiceInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner
@@ -57,79 +62,99 @@ references:
   summary: <p>Container service. </p>
   syntax:
     content: public class ContainerServiceInner
-- uid: com.microsoft.azure.management.containerservice.implementation._container_service_management_client_impl
+- uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManagementClientImpl
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._container_service_management_client_impl.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManagementClientImpl.yml
   name: ContainerServiceManagementClientImpl
   nameWithType: ContainerServiceManagementClientImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManagementClientImpl
   type: Class
-  summary: <p>Initializes a new instance of the <xref uid="com.microsoft.azure.management.containerservice.implementation._container_service_management_client_impl" data-throw-if-not-resolved="false">ContainerServiceManagementClientImpl</xref> class. </p>
+  summary: <p>Initializes a new instance of the ContainerServiceManagementClientImpl class. </p>
   syntax:
     content: public class ContainerServiceManagementClientImpl
-- uid: com.microsoft.azure.management.containerservice.implementation._container_service_manager
+- uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._container_service_manager.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager.yml
   name: ContainerServiceManager
   nameWithType: ContainerServiceManager
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager
   type: Class
-  summary: <p>Entry point to <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> Container Service management. </p>
+  summary: <p>Entry point to Azure Container Service management. </p>
   syntax:
     content: public class ContainerServiceManager
-- uid: com.microsoft.azure.management.containerservice.implementation._container_services_impl
+- uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesImpl
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._container_services_impl.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ContainerServicesImpl.yml
   name: ContainerServicesImpl
   nameWithType: ContainerServicesImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesImpl
   type: Class
-  summary: <p>The implementation for <xref uid="com.microsoft.azure.management.containerservice._container_services" data-throw-if-not-resolved="false">ContainerServices</xref>. </p>
+  summary: <p>The implementation for ContainerServices. </p>
   syntax:
     content: public class ContainerServicesImpl implements ContainerServices
-- uid: com.microsoft.azure.management.containerservice.implementation._container_services_inner
+- uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._container_services_inner.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.yml
   name: ContainerServicesInner
   nameWithType: ContainerServicesInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner
   type: Class
-  summary: <p>An instance of this class provides access to all the operations defined in <xref uid="com.microsoft.azure.management.containerservice._container_services" data-throw-if-not-resolved="false">ContainerServices</xref>. </p>
+  summary: <p>An instance of this class provides access to all the operations defined in ContainerServices. </p>
   syntax:
     content: public class ContainerServicesInner implements InnerSupportsGet<ContainerServiceInner>,InnerSupportsDelete<Void>,InnerSupportsListing<ContainerServiceInner>
-- uid: com.microsoft.azure.management.containerservice.implementation._kubernetes_cluster_agent_pool_impl
+- uid: com.microsoft.azure.management.containerservice.implementation.CredentialResultsInner
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._kubernetes_cluster_agent_pool_impl.yml
+  href: com.microsoft.azure.management.containerservice.implementation.CredentialResultsInner.yml
+  name: CredentialResultsInner
+  nameWithType: CredentialResultsInner
+  fullName: com.microsoft.azure.management.containerservice.implementation.CredentialResultsInner
+  type: Class
+  summary: <p>The list of credential result response. </p>
+  syntax:
+    content: public class CredentialResultsInner
+- uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterAgentPoolImpl
+  parent: com.microsoft.azure.management.containerservice.implementation
+  href: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterAgentPoolImpl.yml
   name: KubernetesClusterAgentPoolImpl
   nameWithType: KubernetesClusterAgentPoolImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterAgentPoolImpl
   type: Class
-  summary: <p>The implementation for <xref uid="com.microsoft.azure.management.containerservice._kubernetes_cluster_agent_pool" data-throw-if-not-resolved="false">KubernetesClusterAgentPool</xref> and its create and update interfaces. </p>
+  summary: <p>The implementation for KubernetesClusterAgentPool and its create and update interfaces. </p>
   syntax:
     content: public class KubernetesClusterAgentPoolImpl implements KubernetesClusterAgentPool,KubernetesClusterAgentPool.Definition<ParentT>
-- uid: com.microsoft.azure.management.containerservice.implementation._kubernetes_cluster_impl
+- uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._kubernetes_cluster_impl.yml
+  href: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl.yml
   name: KubernetesClusterImpl
   nameWithType: KubernetesClusterImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterImpl
   type: Class
-  summary: <p>The implementation for <xref uid="com.microsoft.azure.management.containerservice._kubernetes_cluster" data-throw-if-not-resolved="false">KubernetesCluster</xref> and its create and update interfaces. </p>
+  summary: <p>The implementation for KubernetesCluster and its create and update interfaces. </p>
   syntax:
     content: public class KubernetesClusterImpl implements KubernetesCluster,KubernetesCluster.Definition,KubernetesCluster.Update
-- uid: com.microsoft.azure.management.containerservice.implementation._kubernetes_clusters_impl
+- uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterNetworkProfileImpl
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._kubernetes_clusters_impl.yml
+  href: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterNetworkProfileImpl.yml
+  name: KubernetesClusterNetworkProfileImpl
+  nameWithType: KubernetesClusterNetworkProfileImpl
+  fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClusterNetworkProfileImpl
+  type: Class
+  summary: <p>The implementation for KubernetesClusterAgentPool and its create and update interfaces. </p>
+  syntax:
+    content: public class KubernetesClusterNetworkProfileImpl implements KubernetesCluster.DefinitionStages.NetworkProfileDefinition<KubernetesCluster.DefinitionStages.WithCreate>
+- uid: com.microsoft.azure.management.containerservice.implementation.KubernetesClustersImpl
+  parent: com.microsoft.azure.management.containerservice.implementation
+  href: com.microsoft.azure.management.containerservice.implementation.KubernetesClustersImpl.yml
   name: KubernetesClustersImpl
   nameWithType: KubernetesClustersImpl
   fullName: com.microsoft.azure.management.containerservice.implementation.KubernetesClustersImpl
   type: Class
-  summary: <p>The implementation for <xref uid="com.microsoft.azure.management.containerservice._kubernetes_clusters" data-throw-if-not-resolved="false">KubernetesClusters</xref>. </p>
+  summary: <p>The implementation for KubernetesClusters. </p>
   syntax:
     content: public class KubernetesClustersImpl implements KubernetesClusters
-- uid: com.microsoft.azure.management.containerservice.implementation._managed_cluster_access_profile_inner
+- uid: com.microsoft.azure.management.containerservice.implementation.ManagedClusterAccessProfileInner
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._managed_cluster_access_profile_inner.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ManagedClusterAccessProfileInner.yml
   name: ManagedClusterAccessProfileInner
   nameWithType: ManagedClusterAccessProfileInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClusterAccessProfileInner
@@ -137,9 +162,9 @@ references:
   summary: <p>Managed cluster Access Profile. </p>
   syntax:
     content: public class ManagedClusterAccessProfileInner
-- uid: com.microsoft.azure.management.containerservice.implementation._managed_cluster_inner
+- uid: com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._managed_cluster_inner.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner.yml
   name: ManagedClusterInner
   nameWithType: ManagedClusterInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner
@@ -147,9 +172,9 @@ references:
   summary: <p>Managed cluster. </p>
   syntax:
     content: public class ManagedClusterInner
-- uid: com.microsoft.azure.management.containerservice.implementation._managed_clusters_inner
+- uid: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._managed_clusters_inner.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.yml
   name: ManagedClustersInner
   nameWithType: ManagedClustersInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner
@@ -157,9 +182,9 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in ManagedClusters. </p>
   syntax:
     content: public class ManagedClustersInner implements InnerSupportsGet<ManagedClusterInner>,InnerSupportsDelete<Void>,InnerSupportsListing<ManagedClusterInner>
-- uid: com.microsoft.azure.management.containerservice.implementation._managed_cluster_upgrade_profile_inner
+- uid: com.microsoft.azure.management.containerservice.implementation.ManagedClusterUpgradeProfileInner
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._managed_cluster_upgrade_profile_inner.yml
+  href: com.microsoft.azure.management.containerservice.implementation.ManagedClusterUpgradeProfileInner.yml
   name: ManagedClusterUpgradeProfileInner
   nameWithType: ManagedClusterUpgradeProfileInner
   fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClusterUpgradeProfileInner
@@ -167,9 +192,29 @@ references:
   summary: <p>The list of available upgrades for compute pools. </p>
   syntax:
     content: public class ManagedClusterUpgradeProfileInner
-- uid: com.microsoft.azure.management.containerservice.implementation._orchestra14581df1c071d8983d5eaabd25d99969
+- uid: com.microsoft.azure.management.containerservice.implementation.OperationsInner
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._orchestra14581df1c071d8983d5eaabd25d99969.yml
+  href: com.microsoft.azure.management.containerservice.implementation.OperationsInner.yml
+  name: OperationsInner
+  nameWithType: OperationsInner
+  fullName: com.microsoft.azure.management.containerservice.implementation.OperationsInner
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in Operations. </p>
+  syntax:
+    content: public class OperationsInner
+- uid: com.microsoft.azure.management.containerservice.implementation.OperationValueInner
+  parent: com.microsoft.azure.management.containerservice.implementation
+  href: com.microsoft.azure.management.containerservice.implementation.OperationValueInner.yml
+  name: OperationValueInner
+  nameWithType: OperationValueInner
+  fullName: com.microsoft.azure.management.containerservice.implementation.OperationValueInner
+  type: Class
+  summary: <p>Describes the properties of a Compute Operation value. </p>
+  syntax:
+    content: public class OperationValueInner
+- uid: com.microsoft.azure.management.containerservice.implementation.OrchestratorVersionProfileListResultInner
+  parent: com.microsoft.azure.management.containerservice.implementation
+  href: com.microsoft.azure.management.containerservice.implementation.OrchestratorVersionProfileListResultInner.yml
   name: OrchestratorVersionProfileListResultInner
   nameWithType: OrchestratorVersionProfileListResultInner
   fullName: com.microsoft.azure.management.containerservice.implementation.OrchestratorVersionProfileListResultInner
@@ -177,25 +222,43 @@ references:
   summary: <p>The list of versions for supported orchestrators. </p>
   syntax:
     content: public class OrchestratorVersionProfileListResultInner
-- uid: com.microsoft.azure.management.containerservice.implementation._page_impl
+- uid: com.microsoft.azure.management.containerservice.implementation.PageImpl
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._page_impl.yml
+  href: com.microsoft.azure.management.containerservice.implementation.PageImpl.yml
   name: PageImpl<T>
   nameWithType: PageImpl<T>
   fullName: com.microsoft.azure.management.containerservice.implementation.PageImpl<T>
   type: Class
   summary: >-
-    <p>An instance of this class defines a page of <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> resources and a link to get the next page of resources, if any.</p>
+    <p>An instance of this class defines a page of Azure resources and a link to get the next page of resources, if any.</p>
 
     <p></p>
   syntax:
     content: public class PageImpl<T>
     typeParameters:
-    - type: 8ce1ecb9
-      description: <p>type of <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> resource </p>
-- uid: com.microsoft.azure.management.containerservice.implementation._conta572d038c3483400b6864d197bffed278
+    - id: T
+      type: 8ce1ecb9
+      description: <p>type of Azure resource </p>
+- uid: com.microsoft.azure.management.containerservice.implementation.PageImpl1
   parent: com.microsoft.azure.management.containerservice.implementation
-  href: com.microsoft.azure.management.containerservice.implementation._conta572d038c3483400b6864d197bffed278.yml
+  href: com.microsoft.azure.management.containerservice.implementation.PageImpl1.yml
+  name: PageImpl1<T>
+  nameWithType: PageImpl1<T>
+  fullName: com.microsoft.azure.management.containerservice.implementation.PageImpl1<T>
+  type: Class
+  summary: >-
+    <p>An instance of this class defines a page of Azure resources and a link to get the next page of resources, if any.</p>
+
+    <p></p>
+  syntax:
+    content: public class PageImpl1<T>
+    typeParameters:
+    - id: T
+      type: 8ce1ecb9
+      description: <p>type of Azure resource </p>
+- uid: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager.Configurable
+  parent: com.microsoft.azure.management.containerservice.implementation
+  href: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager.Configurable.yml
   name: ContainerServiceManager.Configurable
   nameWithType: ContainerServiceManager.Configurable
   fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServiceManager.Configurable

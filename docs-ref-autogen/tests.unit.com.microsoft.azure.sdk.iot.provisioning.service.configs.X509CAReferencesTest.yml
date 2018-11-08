@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  id: X509CAReferencesTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopySucceedOnValidPrimaryAndSecondary()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnPrimaryNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnX509CAReferencesNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryAndSecondary()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryWithoutSecondary()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNullWitValidSecondary()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.gettersSucceed()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: X509CAReferencesTest
+  nameWithType: X509CAReferencesTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 16
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  summary: "<p>Unit tests for Device Provisioning Service X509 CA references 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class X509CAReferencesTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopySucceedOnValidPrimaryAndSecondary()
+  id: constructorCopySucceedOnValidPrimaryAndSecondary()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: constructorCopySucceedOnValidPrimaryAndSecondary()
+  nameWithType: X509CAReferencesTest.constructorCopySucceedOnValidPrimaryAndSecondary()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopySucceedOnValidPrimaryAndSecondary()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopySucceedOnValidPrimaryAndSecondary*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 92
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCopySucceedOnValidPrimaryAndSecondary()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnPrimaryNull()
+  id: constructorCopyThrowsOnPrimaryNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: constructorCopyThrowsOnPrimaryNull()
+  nameWithType: X509CAReferencesTest.constructorCopyThrowsOnPrimaryNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnPrimaryNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnPrimaryNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 79
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCopyThrowsOnPrimaryNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnX509CAReferencesNull()
+  id: constructorCopyThrowsOnX509CAReferencesNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: constructorCopyThrowsOnX509CAReferencesNull()
+  nameWithType: X509CAReferencesTest.constructorCopyThrowsOnX509CAReferencesNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnX509CAReferencesNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnX509CAReferencesNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 68
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCopyThrowsOnX509CAReferencesNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceed()
+  id: constructorSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: constructorSucceed()
+  nameWithType: X509CAReferencesTest.constructorSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 120
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryAndSecondary()
+  id: constructorSucceedOnValidPrimaryAndSecondary()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: constructorSucceedOnValidPrimaryAndSecondary()
+  nameWithType: X509CAReferencesTest.constructorSucceedOnValidPrimaryAndSecondary()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryAndSecondary()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryAndSecondary*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 55
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorSucceedOnValidPrimaryAndSecondary()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryWithoutSecondary()
+  id: constructorSucceedOnValidPrimaryWithoutSecondary()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: constructorSucceedOnValidPrimaryWithoutSecondary()
+  nameWithType: X509CAReferencesTest.constructorSucceedOnValidPrimaryWithoutSecondary()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryWithoutSecondary()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryWithoutSecondary*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 42
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorSucceedOnValidPrimaryWithoutSecondary()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNull()
+  id: constructorThrowsOnPrimaryNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnPrimaryNull()
+  nameWithType: X509CAReferencesTest.constructorThrowsOnPrimaryNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 22
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnPrimaryNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNullWitValidSecondary()
+  id: constructorThrowsOnPrimaryNullWitValidSecondary()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnPrimaryNullWitValidSecondary()
+  nameWithType: X509CAReferencesTest.constructorThrowsOnPrimaryNullWitValidSecondary()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNullWitValidSecondary()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNullWitValidSecondary*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 32
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnPrimaryNullWitValidSecondary()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.gettersSucceed()
+  id: gettersSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.yml
+  langs:
+  - java
+  name: gettersSucceed()
+  nameWithType: X509CAReferencesTest.gettersSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.gettersSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.gettersSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/X509CAReferencesTest.java
+    startLine: 108
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void gettersSucceed()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNull*
+  name: constructorThrowsOnPrimaryNull
+  nameWithType: X509CAReferencesTest.constructorThrowsOnPrimaryNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNullWitValidSecondary*
+  name: constructorThrowsOnPrimaryNullWitValidSecondary
+  nameWithType: X509CAReferencesTest.constructorThrowsOnPrimaryNullWitValidSecondary
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorThrowsOnPrimaryNullWitValidSecondary
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryWithoutSecondary*
+  name: constructorSucceedOnValidPrimaryWithoutSecondary
+  nameWithType: X509CAReferencesTest.constructorSucceedOnValidPrimaryWithoutSecondary
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryWithoutSecondary
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryAndSecondary*
+  name: constructorSucceedOnValidPrimaryAndSecondary
+  nameWithType: X509CAReferencesTest.constructorSucceedOnValidPrimaryAndSecondary
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceedOnValidPrimaryAndSecondary
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnX509CAReferencesNull*
+  name: constructorCopyThrowsOnX509CAReferencesNull
+  nameWithType: X509CAReferencesTest.constructorCopyThrowsOnX509CAReferencesNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnX509CAReferencesNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnPrimaryNull*
+  name: constructorCopyThrowsOnPrimaryNull
+  nameWithType: X509CAReferencesTest.constructorCopyThrowsOnPrimaryNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopyThrowsOnPrimaryNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopySucceedOnValidPrimaryAndSecondary*
+  name: constructorCopySucceedOnValidPrimaryAndSecondary
+  nameWithType: X509CAReferencesTest.constructorCopySucceedOnValidPrimaryAndSecondary
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorCopySucceedOnValidPrimaryAndSecondary
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.gettersSucceed*
+  name: gettersSucceed
+  nameWithType: X509CAReferencesTest.gettersSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.gettersSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceed*
+  name: constructorSucceed
+  nameWithType: X509CAReferencesTest.constructorSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.X509CAReferencesTest.constructorSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs

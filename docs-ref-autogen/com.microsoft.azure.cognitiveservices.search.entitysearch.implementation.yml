@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation
+  id: implementation
+  children:
+  - com.microsoft.azure.cognitiveservices.search.entitysearch.implementation.BingEntitiesImpl
+  - com.microsoft.azure.cognitiveservices.search.entitysearch.implementation.BingEntitySearchAPIImpl
+  href: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation.yml
+  langs:
+  - java
+  name: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation
+  nameWithType: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation
+  fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation
+  type: Namespace
+  source:
+    remote:
+      path: cognitiveservices/data-plane/search/bingentitysearch/src/main/java/com/microsoft/azure/cognitiveservices/search/entitysearch/implementation/BingEntitiesImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/data-plane/search/bingentitysearch/src/main/java/com/microsoft/azure/cognitiveservices/search/entitysearch/implementation/BingEntitiesImpl.java
+    startLine: 8
+  summary: "<p>This package contains the implementation classes for BingEntitySearchAPI. The Entity Search API lets you send a search query to Bing and get back search results that include entities and places. Place results include restaurants, hotel, or other local businesses. For places, the query can specify the name of the local business or it can ask for a list (for example, restaurants near me). Entity results include persons, places, or things. Place in this context is tourist attractions, states, countries, etc. </p>"
+  syntax:
+    content: package com.microsoft.azure.cognitiveservices.search.entitysearch.implementation
+references:
+- uid: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation.BingEntitiesImpl
+  parent: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation
+  href: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation.BingEntitiesImpl.yml
+  name: BingEntitiesImpl
+  nameWithType: BingEntitiesImpl
+  fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation.BingEntitiesImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in BingEntities. </p>
+  syntax:
+    content: public class BingEntitiesImpl implements BingEntities
+- uid: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation.BingEntitySearchAPIImpl
+  parent: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation
+  href: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation.BingEntitySearchAPIImpl.yml
+  name: BingEntitySearchAPIImpl
+  nameWithType: BingEntitySearchAPIImpl
+  fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.implementation.BingEntitySearchAPIImpl
+  type: Class
+  summary: <p>Initializes a new instance of the BingEntitySearchAPIImpl class. </p>
+  syntax:
+    content: public class BingEntitySearchAPIImpl implements BingEntitySearchAPI

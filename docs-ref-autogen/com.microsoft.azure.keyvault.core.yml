@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.azure.keyvault.core
   id: core
   children:
-  - com.microsoft.azure.keyvault.core._i_key
-  - com.microsoft.azure.keyvault.core._i_key_resolver
+  - com.microsoft.azure.keyvault.core.IKey
+  - com.microsoft.azure.keyvault.core.IKeyResolver
   href: com.microsoft.azure.keyvault.core.yml
   langs:
   - java
@@ -19,20 +19,13 @@ items:
       repo: https://github.com/Azure/azure-keyvault-java
     path: azure-keyvault-core/src/main/java/com/microsoft/azure/keyvault/core/IKey.java
     startLine: 6
-  summary: >-
-    <p>Copyright (c) Microsoft and contributors. All rights reserved.</p>
-
-    <p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</p>
-
-    <p>See the License for the specific language governing permissions and limitations under the License.</p>
-
-    <p>This package contains the interface for <xref uid="com.microsoft.azure.keyvault.core._i_key" data-throw-if-not-resolved="false">IKey</xref> and <xref uid="com.microsoft.azure.keyvault.core._i_key_resolver" data-throw-if-not-resolved="false">IKeyResolver</xref>. </p>
+  summary: "<p>Copyright (c) Microsoft and contributors. All rights reserved.</p>\r\n<p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</p>\r\n<p>See the License for the specific language governing permissions and limitations under the License.</p>\r\n<p>This package contains the interface for IKey and IKeyResolver. </p>"
   syntax:
     content: package com.microsoft.azure.keyvault.core
 references:
-- uid: com.microsoft.azure.keyvault.core._i_key
+- uid: com.microsoft.azure.keyvault.core.IKey
   parent: com.microsoft.azure.keyvault.core
-  href: com.microsoft.azure.keyvault.core._i_key.yml
+  href: com.microsoft.azure.keyvault.core.IKey.yml
   name: IKey
   nameWithType: IKey
   fullName: com.microsoft.azure.keyvault.core.IKey
@@ -40,9 +33,9 @@ references:
   summary: <p>Interface for representing cryptographic keys with the Microsoft Azure Key Vault libraries. </p>
   syntax:
     content: public interface IKey
-- uid: com.microsoft.azure.keyvault.core._i_key_resolver
+- uid: com.microsoft.azure.keyvault.core.IKeyResolver
   parent: com.microsoft.azure.keyvault.core
-  href: com.microsoft.azure.keyvault.core._i_key_resolver.yml
+  href: com.microsoft.azure.keyvault.core.IKeyResolver.yml
   name: IKeyResolver
   nameWithType: IKeyResolver
   fullName: com.microsoft.azure.keyvault.core.IKeyResolver

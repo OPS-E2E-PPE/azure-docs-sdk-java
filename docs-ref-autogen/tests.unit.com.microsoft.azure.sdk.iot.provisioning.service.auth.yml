@@ -3,11 +3,11 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
   id: auth
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth1fec933a7a17119e26c6e2a710b97370
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth712150a9467011f9cdc3689a4e69bd73
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth9af6f08640d8a886d246ffdadfe4cc42
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth9cb4e540111edd478694cdbee79a8fb5
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.authe70deca55a807f991a1a6e459690fea3
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringBuilderTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningServiceSasTokenTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ServiceAuthenticationWithSharedAccessPolicyKeyTest
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ServiceAuthenticationWithSharedAccessPolicyTokenTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.yml
   langs:
   - java
@@ -25,9 +25,9 @@ items:
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
 references:
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth9af6f08640d8a886d246ffdadfe4cc42
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringBuilderTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth9af6f08640d8a886d246ffdadfe4cc42.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringBuilderTest.yml
   name: ProvisioningConnectionStringBuilderTest
   nameWithType: ProvisioningConnectionStringBuilderTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringBuilderTest
@@ -35,9 +35,9 @@ references:
   summary: <p>Unit test for Provisioning Connection String Builder 100% methods, 100% lines covered </p>
   syntax:
     content: public class ProvisioningConnectionStringBuilderTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth1fec933a7a17119e26c6e2a710b97370
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth1fec933a7a17119e26c6e2a710b97370.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
   name: ProvisioningConnectionStringTest
   nameWithType: ProvisioningConnectionStringTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
@@ -45,9 +45,9 @@ references:
   summary: <p>Unit test for Provisioning Connection String 100% methods, 100% lines covered </p>
   syntax:
     content: public class ProvisioningConnectionStringTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth9cb4e540111edd478694cdbee79a8fb5
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningServiceSasTokenTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth9cb4e540111edd478694cdbee79a8fb5.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningServiceSasTokenTest.yml
   name: ProvisioningServiceSasTokenTest
   nameWithType: ProvisioningServiceSasTokenTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningServiceSasTokenTest
@@ -55,9 +55,9 @@ references:
   summary: <p>Unit test for Provisioning Service SasToken 100% methods, 100% lines covered </p>
   syntax:
     content: public class ProvisioningServiceSasTokenTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth712150a9467011f9cdc3689a4e69bd73
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ServiceAuthenticationWithSharedAccessPolicyKeyTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth712150a9467011f9cdc3689a4e69bd73.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ServiceAuthenticationWithSharedAccessPolicyKeyTest.yml
   name: ServiceAuthenticationWithSharedAccessPolicyKeyTest
   nameWithType: ServiceAuthenticationWithSharedAccessPolicyKeyTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ServiceAuthenticationWithSharedAccessPolicyKeyTest
@@ -65,9 +65,9 @@ references:
   summary: <p>Unit test for Device Provisioning Service Authentication With Shared Access Policy Key 100% methods, 100% lines covered </p>
   syntax:
     content: public class ServiceAuthenticationWithSharedAccessPolicyKeyTest
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.authe70deca55a807f991a1a6e459690fea3
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ServiceAuthenticationWithSharedAccessPolicyTokenTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.authe70deca55a807f991a1a6e459690fea3.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ServiceAuthenticationWithSharedAccessPolicyTokenTest.yml
   name: ServiceAuthenticationWithSharedAccessPolicyTokenTest
   nameWithType: ServiceAuthenticationWithSharedAccessPolicyTokenTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ServiceAuthenticationWithSharedAccessPolicyTokenTest

@@ -3,12 +3,12 @@ items:
 - uid: com.microsoft.azure.elasticdb.shard.mapper
   id: mapper
   children:
-  - com.microsoft.azure.elasticdb.shard.mapper._base_shard_mapper
-  - com.microsoft.azure.elasticdb.shard.mapper._connection_options
-  - com.microsoft.azure.elasticdb.shard.mapper._default_shard_mapper
-  - com.microsoft.azure.elasticdb.shard.mapper._i_shard_mapper
-  - com.microsoft.azure.elasticdb.shard.mapper._list_shard_mapper
-  - com.microsoft.azure.elasticdb.shard.mapper._range_shard_mapper
+  - com.microsoft.azure.elasticdb.shard.mapper.BaseShardMapper
+  - com.microsoft.azure.elasticdb.shard.mapper.ConnectionOptions
+  - com.microsoft.azure.elasticdb.shard.mapper.DefaultShardMapper
+  - com.microsoft.azure.elasticdb.shard.mapper.IShardMapper
+  - com.microsoft.azure.elasticdb.shard.mapper.ListShardMapper
+  - com.microsoft.azure.elasticdb.shard.mapper.RangeShardMapper
   href: com.microsoft.azure.elasticdb.shard.mapper.yml
   langs:
   - java
@@ -25,9 +25,9 @@ items:
   syntax:
     content: package com.microsoft.azure.elasticdb.shard.mapper
 references:
-- uid: com.microsoft.azure.elasticdb.shard.mapper._base_shard_mapper
+- uid: com.microsoft.azure.elasticdb.shard.mapper.BaseShardMapper
   parent: com.microsoft.azure.elasticdb.shard.mapper
-  href: com.microsoft.azure.elasticdb.shard.mapper._base_shard_mapper.yml
+  href: com.microsoft.azure.elasticdb.shard.mapper.BaseShardMapper.yml
   name: BaseShardMapper
   nameWithType: BaseShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.BaseShardMapper
@@ -35,18 +35,18 @@ references:
   summary: <p>Base class for keyed mappers. </p>
   syntax:
     content: public class BaseShardMapper
-- uid: com.microsoft.azure.elasticdb.shard.mapper._connection_options
+- uid: com.microsoft.azure.elasticdb.shard.mapper.ConnectionOptions
   parent: com.microsoft.azure.elasticdb.shard.mapper
-  href: com.microsoft.azure.elasticdb.shard.mapper._connection_options.yml
+  href: com.microsoft.azure.elasticdb.shard.mapper.ConnectionOptions.yml
   name: ConnectionOptions
   nameWithType: ConnectionOptions
   fullName: com.microsoft.azure.elasticdb.shard.mapper.ConnectionOptions
   type: Enum
   syntax:
     content: public enum ConnectionOptions
-- uid: com.microsoft.azure.elasticdb.shard.mapper._default_shard_mapper
+- uid: com.microsoft.azure.elasticdb.shard.mapper.DefaultShardMapper
   parent: com.microsoft.azure.elasticdb.shard.mapper
-  href: com.microsoft.azure.elasticdb.shard.mapper._default_shard_mapper.yml
+  href: com.microsoft.azure.elasticdb.shard.mapper.DefaultShardMapper.yml
   name: DefaultShardMapper
   nameWithType: DefaultShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.DefaultShardMapper
@@ -54,9 +54,9 @@ references:
   summary: <p>Default shard mapper, that basically is a container of shards with no keys. </p>
   syntax:
     content: public class DefaultShardMapper extends BaseShardMapper implements IShardMapper<Shard, Shard>
-- uid: com.microsoft.azure.elasticdb.shard.mapper._i_shard_mapper
+- uid: com.microsoft.azure.elasticdb.shard.mapper.IShardMapper
   parent: com.microsoft.azure.elasticdb.shard.mapper
-  href: com.microsoft.azure.elasticdb.shard.mapper._i_shard_mapper.yml
+  href: com.microsoft.azure.elasticdb.shard.mapper.IShardMapper.yml
   name: IShardMapper<MappingT,ValueT>
   nameWithType: IShardMapper<MappingT,ValueT>
   fullName: com.microsoft.azure.elasticdb.shard.mapper.IShardMapper<MappingT,ValueT>
@@ -65,11 +65,13 @@ references:
   syntax:
     content: public interface IShardMapper<MappingT extends IShardProvider,ValueT>
     typeParameters:
-    - type: e8a622a9
-    - type: 0fb6b535
-- uid: com.microsoft.azure.elasticdb.shard.mapper._list_shard_mapper
+    - id: MappingT
+      type: e8a622a9
+    - id: ValueT
+      type: 0fb6b535
+- uid: com.microsoft.azure.elasticdb.shard.mapper.ListShardMapper
   parent: com.microsoft.azure.elasticdb.shard.mapper
-  href: com.microsoft.azure.elasticdb.shard.mapper._list_shard_mapper.yml
+  href: com.microsoft.azure.elasticdb.shard.mapper.ListShardMapper.yml
   name: ListShardMapper
   nameWithType: ListShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.ListShardMapper
@@ -80,9 +82,9 @@ references:
     <p></p>
   syntax:
     content: public class ListShardMapper extends BaseShardMapper implements IShardMapper<PointMapping, Object>
-- uid: com.microsoft.azure.elasticdb.shard.mapper._range_shard_mapper
+- uid: com.microsoft.azure.elasticdb.shard.mapper.RangeShardMapper
   parent: com.microsoft.azure.elasticdb.shard.mapper
-  href: com.microsoft.azure.elasticdb.shard.mapper._range_shard_mapper.yml
+  href: com.microsoft.azure.elasticdb.shard.mapper.RangeShardMapper.yml
   name: RangeShardMapper
   nameWithType: RangeShardMapper
   fullName: com.microsoft.azure.elasticdb.shard.mapper.RangeShardMapper

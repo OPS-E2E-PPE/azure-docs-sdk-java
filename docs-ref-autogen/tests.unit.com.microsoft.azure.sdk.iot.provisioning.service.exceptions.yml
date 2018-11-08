@@ -3,7 +3,7 @@ items:
 - uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
   id: exceptions
   children:
-  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exce4708e1415e78b88a8c2ef1e73c929936
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
   href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.yml
   langs:
   - java
@@ -21,9 +21,9 @@ items:
   syntax:
     content: package tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
 references:
-- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exce4708e1415e78b88a8c2ef1e73c929936
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest
   parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exce4708e1415e78b88a8c2ef1e73c929936.yml
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest.yml
   name: ProvisioningServiceClientExceptionManagerTest
   nameWithType: ProvisioningServiceClientExceptionManagerTest
   fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManagerTest

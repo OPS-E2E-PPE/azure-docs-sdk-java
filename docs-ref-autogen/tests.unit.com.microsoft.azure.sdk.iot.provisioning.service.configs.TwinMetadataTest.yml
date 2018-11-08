@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  id: TwinMetadataTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedEmptySucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedInvalidSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedNullSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedVersionNullSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorNegativeLastUpdatedVersionSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorParseLastUpdatedSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorPositiveLastUpdatedVersionSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.GettersSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoDateSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoVersionSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateAndVersionSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapInvalidDateAndInvalidVersionSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapMinDateAndVersionSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNoMetadataSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNotMapSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapThrowsOnInvalidDateAndValidVersion()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapValidDateAndInvalidVersionSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapVersionSucceed()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: TwinMetadataTest
+  nameWithType: TwinMetadataTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 19
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  summary: "<p>Unit tests for Device Provisioning Service TwinMetadata 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class TwinMetadataTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedEmptySucceed()
+  id: constructorLastUpdatedEmptySucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: constructorLastUpdatedEmptySucceed()
+  nameWithType: TwinMetadataTest.constructorLastUpdatedEmptySucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedEmptySucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedEmptySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 53
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorLastUpdatedEmptySucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedInvalidSucceed()
+  id: constructorLastUpdatedInvalidSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: constructorLastUpdatedInvalidSucceed()
+  nameWithType: TwinMetadataTest.constructorLastUpdatedInvalidSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedInvalidSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedInvalidSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 68
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorLastUpdatedInvalidSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedNullSucceed()
+  id: constructorLastUpdatedNullSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: constructorLastUpdatedNullSucceed()
+  nameWithType: TwinMetadataTest.constructorLastUpdatedNullSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedNullSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedNullSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 38
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorLastUpdatedNullSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedVersionNullSucceed()
+  id: constructorLastUpdatedVersionNullSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: constructorLastUpdatedVersionNullSucceed()
+  nameWithType: TwinMetadataTest.constructorLastUpdatedVersionNullSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedVersionNullSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedVersionNullSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 111
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorLastUpdatedVersionNullSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorNegativeLastUpdatedVersionSucceed()
+  id: constructorNegativeLastUpdatedVersionSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: constructorNegativeLastUpdatedVersionSucceed()
+  nameWithType: TwinMetadataTest.constructorNegativeLastUpdatedVersionSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorNegativeLastUpdatedVersionSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorNegativeLastUpdatedVersionSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 96
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorNegativeLastUpdatedVersionSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorParseLastUpdatedSucceed()
+  id: constructorParseLastUpdatedSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: constructorParseLastUpdatedSucceed()
+  nameWithType: TwinMetadataTest.constructorParseLastUpdatedSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorParseLastUpdatedSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorParseLastUpdatedSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 23
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorParseLastUpdatedSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorPositiveLastUpdatedVersionSucceed()
+  id: constructorPositiveLastUpdatedVersionSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: constructorPositiveLastUpdatedVersionSucceed()
+  nameWithType: TwinMetadataTest.constructorPositiveLastUpdatedVersionSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorPositiveLastUpdatedVersionSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorPositiveLastUpdatedVersionSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 81
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorPositiveLastUpdatedVersionSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.GettersSucceed()
+  id: GettersSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: GettersSucceed()
+  nameWithType: TwinMetadataTest.GettersSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.GettersSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.GettersSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 331
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void GettersSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoDateSucceed()
+  id: toJsonElementNoDateSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: toJsonElementNoDateSucceed()
+  nameWithType: TwinMetadataTest.toJsonElementNoDateSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoDateSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoDateSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 377
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonElementNoDateSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoVersionSucceed()
+  id: toJsonElementNoVersionSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: toJsonElementNoVersionSucceed()
+  nameWithType: TwinMetadataTest.toJsonElementNoVersionSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoVersionSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoVersionSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 398
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonElementNoVersionSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementSucceed()
+  id: toJsonElementSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: toJsonElementSucceed()
+  nameWithType: TwinMetadataTest.toJsonElementSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 354
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonElementSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateAndVersionSucceed()
+  id: tryExtractFromMapDateAndVersionSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: tryExtractFromMapDateAndVersionSucceed()
+  nameWithType: TwinMetadataTest.tryExtractFromMapDateAndVersionSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateAndVersionSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateAndVersionSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 186
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void tryExtractFromMapDateAndVersionSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateSucceed()
+  id: tryExtractFromMapDateSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: tryExtractFromMapDateSucceed()
+  nameWithType: TwinMetadataTest.tryExtractFromMapDateSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 140
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void tryExtractFromMapDateSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapInvalidDateAndInvalidVersionSucceed()
+  id: tryExtractFromMapInvalidDateAndInvalidVersionSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: tryExtractFromMapInvalidDateAndInvalidVersionSucceed()
+  nameWithType: TwinMetadataTest.tryExtractFromMapInvalidDateAndInvalidVersionSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapInvalidDateAndInvalidVersionSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapInvalidDateAndInvalidVersionSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 307
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void tryExtractFromMapInvalidDateAndInvalidVersionSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapMinDateAndVersionSucceed()
+  id: tryExtractFromMapMinDateAndVersionSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: tryExtractFromMapMinDateAndVersionSucceed()
+  nameWithType: TwinMetadataTest.tryExtractFromMapMinDateAndVersionSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapMinDateAndVersionSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapMinDateAndVersionSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 212
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void tryExtractFromMapMinDateAndVersionSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNoMetadataSucceed()
+  id: tryExtractFromMapNoMetadataSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: tryExtractFromMapNoMetadataSucceed()
+  nameWithType: TwinMetadataTest.tryExtractFromMapNoMetadataSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNoMetadataSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNoMetadataSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 238
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void tryExtractFromMapNoMetadataSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNotMapSucceed()
+  id: tryExtractFromMapNotMapSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: tryExtractFromMapNotMapSucceed()
+  nameWithType: TwinMetadataTest.tryExtractFromMapNotMapSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNotMapSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNotMapSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 126
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void tryExtractFromMapNotMapSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapThrowsOnInvalidDateAndValidVersion()
+  id: tryExtractFromMapThrowsOnInvalidDateAndValidVersion()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: tryExtractFromMapThrowsOnInvalidDateAndValidVersion()
+  nameWithType: TwinMetadataTest.tryExtractFromMapThrowsOnInvalidDateAndValidVersion()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapThrowsOnInvalidDateAndValidVersion()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapThrowsOnInvalidDateAndValidVersion*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 284
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void tryExtractFromMapThrowsOnInvalidDateAndValidVersion()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapValidDateAndInvalidVersionSucceed()
+  id: tryExtractFromMapValidDateAndInvalidVersionSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: tryExtractFromMapValidDateAndInvalidVersionSucceed()
+  nameWithType: TwinMetadataTest.tryExtractFromMapValidDateAndInvalidVersionSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapValidDateAndInvalidVersionSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapValidDateAndInvalidVersionSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 258
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void tryExtractFromMapValidDateAndInvalidVersionSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapVersionSucceed()
+  id: tryExtractFromMapVersionSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.yml
+  langs:
+  - java
+  name: tryExtractFromMapVersionSucceed()
+  nameWithType: TwinMetadataTest.tryExtractFromMapVersionSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapVersionSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapVersionSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TwinMetadataTest.java
+    startLine: 163
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void tryExtractFromMapVersionSucceed()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorParseLastUpdatedSucceed*
+  name: constructorParseLastUpdatedSucceed
+  nameWithType: TwinMetadataTest.constructorParseLastUpdatedSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorParseLastUpdatedSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedNullSucceed*
+  name: constructorLastUpdatedNullSucceed
+  nameWithType: TwinMetadataTest.constructorLastUpdatedNullSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedNullSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedEmptySucceed*
+  name: constructorLastUpdatedEmptySucceed
+  nameWithType: TwinMetadataTest.constructorLastUpdatedEmptySucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedEmptySucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedInvalidSucceed*
+  name: constructorLastUpdatedInvalidSucceed
+  nameWithType: TwinMetadataTest.constructorLastUpdatedInvalidSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedInvalidSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorPositiveLastUpdatedVersionSucceed*
+  name: constructorPositiveLastUpdatedVersionSucceed
+  nameWithType: TwinMetadataTest.constructorPositiveLastUpdatedVersionSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorPositiveLastUpdatedVersionSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorNegativeLastUpdatedVersionSucceed*
+  name: constructorNegativeLastUpdatedVersionSucceed
+  nameWithType: TwinMetadataTest.constructorNegativeLastUpdatedVersionSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorNegativeLastUpdatedVersionSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedVersionNullSucceed*
+  name: constructorLastUpdatedVersionNullSucceed
+  nameWithType: TwinMetadataTest.constructorLastUpdatedVersionNullSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.constructorLastUpdatedVersionNullSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNotMapSucceed*
+  name: tryExtractFromMapNotMapSucceed
+  nameWithType: TwinMetadataTest.tryExtractFromMapNotMapSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNotMapSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateSucceed*
+  name: tryExtractFromMapDateSucceed
+  nameWithType: TwinMetadataTest.tryExtractFromMapDateSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapVersionSucceed*
+  name: tryExtractFromMapVersionSucceed
+  nameWithType: TwinMetadataTest.tryExtractFromMapVersionSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapVersionSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateAndVersionSucceed*
+  name: tryExtractFromMapDateAndVersionSucceed
+  nameWithType: TwinMetadataTest.tryExtractFromMapDateAndVersionSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapDateAndVersionSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapMinDateAndVersionSucceed*
+  name: tryExtractFromMapMinDateAndVersionSucceed
+  nameWithType: TwinMetadataTest.tryExtractFromMapMinDateAndVersionSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapMinDateAndVersionSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNoMetadataSucceed*
+  name: tryExtractFromMapNoMetadataSucceed
+  nameWithType: TwinMetadataTest.tryExtractFromMapNoMetadataSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapNoMetadataSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapValidDateAndInvalidVersionSucceed*
+  name: tryExtractFromMapValidDateAndInvalidVersionSucceed
+  nameWithType: TwinMetadataTest.tryExtractFromMapValidDateAndInvalidVersionSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapValidDateAndInvalidVersionSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapThrowsOnInvalidDateAndValidVersion*
+  name: tryExtractFromMapThrowsOnInvalidDateAndValidVersion
+  nameWithType: TwinMetadataTest.tryExtractFromMapThrowsOnInvalidDateAndValidVersion
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapThrowsOnInvalidDateAndValidVersion
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapInvalidDateAndInvalidVersionSucceed*
+  name: tryExtractFromMapInvalidDateAndInvalidVersionSucceed
+  nameWithType: TwinMetadataTest.tryExtractFromMapInvalidDateAndInvalidVersionSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.tryExtractFromMapInvalidDateAndInvalidVersionSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.GettersSucceed*
+  name: GettersSucceed
+  nameWithType: TwinMetadataTest.GettersSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.GettersSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementSucceed*
+  name: toJsonElementSucceed
+  nameWithType: TwinMetadataTest.toJsonElementSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoDateSucceed*
+  name: toJsonElementNoDateSucceed
+  nameWithType: TwinMetadataTest.toJsonElementNoDateSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoDateSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoVersionSucceed*
+  name: toJsonElementNoVersionSucceed
+  nameWithType: TwinMetadataTest.toJsonElementNoVersionSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinMetadataTest.toJsonElementNoVersionSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs

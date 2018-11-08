@@ -3,19 +3,19 @@ items:
 - uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
   id: exceptions
   children:
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis0b465facdcea6be4aadae8932ae4d42c
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis0d423877466065f42d44d66a2d881615
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis428e63329f7d8f9903aef432fc5a668d
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis44df38cec06277955900d3713d9e20cc
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis6cc9774bace2e6db41a3904df348eee0
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis89e82404dbda53629c99e8dd13a4862a
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis8a0fa33fb6d65f102e28e9bcde677ce1
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis8a4878881f4ac3e4806ac2bc0f67ca18
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis8d640264fa5997294ef7a61f3c9f7e67
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisdf4a87e2786406409f327606adae377d
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisdf54b54351d86c7bee42822d640658c9
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisec31e828069304f763e053102a181f40
-  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisioning_service_client_exception
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadFormatException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadUsageException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManager
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientInternalServerErrorException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientNotFoundException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientPreconditionFailedException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientServiceException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTooManyRequestsException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTransientException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTransportException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnathorizedException
+  - com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnknownException
   href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.yml
   langs:
   - java
@@ -33,9 +33,9 @@ items:
   syntax:
     content: package com.microsoft.azure.sdk.iot.provisioning.service.exceptions
 references:
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisec31e828069304f763e053102a181f40
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadFormatException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisec31e828069304f763e053102a181f40.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadFormatException.yml
   name: ProvisioningServiceClientBadFormatException
   nameWithType: ProvisioningServiceClientBadFormatException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadFormatException
@@ -48,9 +48,9 @@ references:
     <p>HTTP status code 400. </p>
   syntax:
     content: public class ProvisioningServiceClientBadFormatException extends ProvisioningServiceClientBadUsageException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis8d640264fa5997294ef7a61f3c9f7e67
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadUsageException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis8d640264fa5997294ef7a61f3c9f7e67.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadUsageException.yml
   name: ProvisioningServiceClientBadUsageException
   nameWithType: ProvisioningServiceClientBadUsageException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientBadUsageException
@@ -63,9 +63,9 @@ references:
     <p>HTTP status code 400 to 499. </p>
   syntax:
     content: public class ProvisioningServiceClientBadUsageException extends ProvisioningServiceClientServiceException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisioning_service_client_exception
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisioning_service_client_exception.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException.yml
   name: ProvisioningServiceClientException
   nameWithType: ProvisioningServiceClientException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
@@ -124,9 +124,9 @@ references:
     </p>
   syntax:
     content: public class ProvisioningServiceClientException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis0d423877466065f42d44d66a2d881615
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManager
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis0d423877466065f42d44d66a2d881615.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManager.yml
   name: ProvisioningServiceClientExceptionManager
   nameWithType: ProvisioningServiceClientExceptionManager
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientExceptionManager
@@ -134,9 +134,9 @@ references:
   summary: <p>Provide static function to verify the Device Provisioning Service results and throw appropriate exception. </p>
   syntax:
     content: public class ProvisioningServiceClientExceptionManager
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis8a4878881f4ac3e4806ac2bc0f67ca18
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientInternalServerErrorException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis8a4878881f4ac3e4806ac2bc0f67ca18.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientInternalServerErrorException.yml
   name: ProvisioningServiceClientInternalServerErrorException
   nameWithType: ProvisioningServiceClientInternalServerErrorException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientInternalServerErrorException
@@ -149,9 +149,9 @@ references:
     <p>HTTP status code 500. </p>
   syntax:
     content: public class ProvisioningServiceClientInternalServerErrorException extends ProvisioningServiceClientTransientException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis6cc9774bace2e6db41a3904df348eee0
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientNotFoundException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis6cc9774bace2e6db41a3904df348eee0.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientNotFoundException.yml
   name: ProvisioningServiceClientNotFoundException
   nameWithType: ProvisioningServiceClientNotFoundException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientNotFoundException
@@ -164,9 +164,9 @@ references:
     <p>HTTP status code 404. </p>
   syntax:
     content: public class ProvisioningServiceClientNotFoundException extends ProvisioningServiceClientBadUsageException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisdf4a87e2786406409f327606adae377d
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientPreconditionFailedException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisdf4a87e2786406409f327606adae377d.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientPreconditionFailedException.yml
   name: ProvisioningServiceClientPreconditionFailedException
   nameWithType: ProvisioningServiceClientPreconditionFailedException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientPreconditionFailedException
@@ -179,9 +179,9 @@ references:
     <p>HTTP status code 412. </p>
   syntax:
     content: public class ProvisioningServiceClientPreconditionFailedException extends ProvisioningServiceClientBadUsageException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisdf54b54351d86c7bee42822d640658c9
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientServiceException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provisdf54b54351d86c7bee42822d640658c9.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientServiceException.yml
   name: ProvisioningServiceClientServiceException
   nameWithType: ProvisioningServiceClientServiceException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientServiceException
@@ -189,9 +189,9 @@ references:
   summary: <p>This is the subset of the Device Provisioning Service exceptions for the exceptions reported by the Service. </p>
   syntax:
     content: public class ProvisioningServiceClientServiceException extends ProvisioningServiceClientException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis89e82404dbda53629c99e8dd13a4862a
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTooManyRequestsException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis89e82404dbda53629c99e8dd13a4862a.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTooManyRequestsException.yml
   name: ProvisioningServiceClientTooManyRequestsException
   nameWithType: ProvisioningServiceClientTooManyRequestsException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTooManyRequestsException
@@ -204,9 +204,9 @@ references:
     <p>HTTP status code 429. </p>
   syntax:
     content: public class ProvisioningServiceClientTooManyRequestsException extends ProvisioningServiceClientBadUsageException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis8a0fa33fb6d65f102e28e9bcde677ce1
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTransientException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis8a0fa33fb6d65f102e28e9bcde677ce1.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTransientException.yml
   name: ProvisioningServiceClientTransientException
   nameWithType: ProvisioningServiceClientTransientException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTransientException
@@ -219,9 +219,9 @@ references:
     <p>HTTP status code 500 to 599. </p>
   syntax:
     content: public class ProvisioningServiceClientTransientException extends ProvisioningServiceClientServiceException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis44df38cec06277955900d3713d9e20cc
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTransportException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis44df38cec06277955900d3713d9e20cc.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTransportException.yml
   name: ProvisioningServiceClientTransportException
   nameWithType: ProvisioningServiceClientTransportException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientTransportException
@@ -229,9 +229,9 @@ references:
   summary: <p>Create transport exception </p>
   syntax:
     content: public class ProvisioningServiceClientTransportException extends ProvisioningServiceClientException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis428e63329f7d8f9903aef432fc5a668d
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnathorizedException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis428e63329f7d8f9903aef432fc5a668d.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnathorizedException.yml
   name: ProvisioningServiceClientUnathorizedException
   nameWithType: ProvisioningServiceClientUnathorizedException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnathorizedException
@@ -244,9 +244,9 @@ references:
     <p>HTTP status code 401 </p>
   syntax:
     content: public class ProvisioningServiceClientUnathorizedException extends ProvisioningServiceClientBadUsageException
-- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis0b465facdcea6be4aadae8932ae4d42c
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnknownException
   parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
-  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions._provis0b465facdcea6be4aadae8932ae4d42c.yml
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnknownException.yml
   name: ProvisioningServiceClientUnknownException
   nameWithType: ProvisioningServiceClientUnknownException
   fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientUnknownException

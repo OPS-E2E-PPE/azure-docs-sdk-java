@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation
+  id: implementation
+  children:
+  - com.microsoft.azure.cognitiveservices.search.visualsearch.implementation.BingImagesImpl
+  - com.microsoft.azure.cognitiveservices.search.visualsearch.implementation.BingVisualSearchAPIImpl
+  href: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation.yml
+  langs:
+  - java
+  name: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation
+  nameWithType: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation
+  fullName: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation
+  type: Namespace
+  source:
+    remote:
+      path: cognitiveservices/data-plane/search/bingvisualsearch/src/main/java/com/microsoft/azure/cognitiveservices/search/visualsearch/implementation/BingImagesImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/data-plane/search/bingvisualsearch/src/main/java/com/microsoft/azure/cognitiveservices/search/visualsearch/implementation/BingImagesImpl.java
+    startLine: 8
+  summary: "<p>This package contains the implementation classes for BingVisualSearchAPI. Visual Search API lets you discover insights about an image such as visually similar images, shopping sources, and related searches. The API can also perform text recognition, identify entities (people, places, things), return other topical content for the user to explore, and more. For more information, see [Visual Search Overview](<a href=\"https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/overview\">https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/overview</a>). </p>"
+  syntax:
+    content: package com.microsoft.azure.cognitiveservices.search.visualsearch.implementation
+references:
+- uid: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation.BingImagesImpl
+  parent: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation
+  href: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation.BingImagesImpl.yml
+  name: BingImagesImpl
+  nameWithType: BingImagesImpl
+  fullName: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation.BingImagesImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in BingImages. </p>
+  syntax:
+    content: public class BingImagesImpl implements BingImages
+- uid: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation.BingVisualSearchAPIImpl
+  parent: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation
+  href: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation.BingVisualSearchAPIImpl.yml
+  name: BingVisualSearchAPIImpl
+  nameWithType: BingVisualSearchAPIImpl
+  fullName: com.microsoft.azure.cognitiveservices.search.visualsearch.implementation.BingVisualSearchAPIImpl
+  type: Class
+  summary: <p>Initializes a new instance of the BingVisualSearchAPIImpl class. </p>
+  syntax:
+    content: public class BingVisualSearchAPIImpl implements BingVisualSearchAPI

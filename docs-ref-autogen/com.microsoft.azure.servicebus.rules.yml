@@ -3,14 +3,14 @@ items:
 - uid: com.microsoft.azure.servicebus.rules
   id: rules
   children:
-  - com.microsoft.azure.servicebus.rules._correlation_filter
-  - com.microsoft.azure.servicebus.rules._false_filter
-  - com.microsoft.azure.servicebus.rules._filter
-  - com.microsoft.azure.servicebus.rules._rule_action
-  - com.microsoft.azure.servicebus.rules._rule_description
-  - com.microsoft.azure.servicebus.rules._sql_filter
-  - com.microsoft.azure.servicebus.rules._sql_rule_action
-  - com.microsoft.azure.servicebus.rules._true_filter
+  - com.microsoft.azure.servicebus.rules.CorrelationFilter
+  - com.microsoft.azure.servicebus.rules.FalseFilter
+  - com.microsoft.azure.servicebus.rules.Filter
+  - com.microsoft.azure.servicebus.rules.RuleAction
+  - com.microsoft.azure.servicebus.rules.RuleDescription
+  - com.microsoft.azure.servicebus.rules.SqlFilter
+  - com.microsoft.azure.servicebus.rules.SqlRuleAction
+  - com.microsoft.azure.servicebus.rules.TrueFilter
   href: com.microsoft.azure.servicebus.rules.yml
   langs:
   - java
@@ -28,9 +28,9 @@ items:
   syntax:
     content: package com.microsoft.azure.servicebus.rules
 references:
-- uid: com.microsoft.azure.servicebus.rules._correlation_filter
+- uid: com.microsoft.azure.servicebus.rules.CorrelationFilter
   parent: com.microsoft.azure.servicebus.rules
-  href: com.microsoft.azure.servicebus.rules._correlation_filter.yml
+  href: com.microsoft.azure.servicebus.rules.CorrelationFilter.yml
   name: CorrelationFilter
   nameWithType: CorrelationFilter
   fullName: com.microsoft.azure.servicebus.rules.CorrelationFilter
@@ -41,9 +41,9 @@ references:
     <p></p>
   syntax:
     content: public class CorrelationFilter extends Filter
-- uid: com.microsoft.azure.servicebus.rules._false_filter
+- uid: com.microsoft.azure.servicebus.rules.FalseFilter
   parent: com.microsoft.azure.servicebus.rules
-  href: com.microsoft.azure.servicebus.rules._false_filter.yml
+  href: com.microsoft.azure.servicebus.rules.FalseFilter.yml
   name: FalseFilter
   nameWithType: FalseFilter
   fullName: com.microsoft.azure.servicebus.rules.FalseFilter
@@ -54,9 +54,9 @@ references:
     <p></p>
   syntax:
     content: public class FalseFilter extends SqlFilter
-- uid: com.microsoft.azure.servicebus.rules._filter
+- uid: com.microsoft.azure.servicebus.rules.Filter
   parent: com.microsoft.azure.servicebus.rules
-  href: com.microsoft.azure.servicebus.rules._filter.yml
+  href: com.microsoft.azure.servicebus.rules.Filter.yml
   name: Filter
   nameWithType: Filter
   fullName: com.microsoft.azure.servicebus.rules.Filter
@@ -67,9 +67,9 @@ references:
     <p></p>
   syntax:
     content: public class Filter
-- uid: com.microsoft.azure.servicebus.rules._rule_action
+- uid: com.microsoft.azure.servicebus.rules.RuleAction
   parent: com.microsoft.azure.servicebus.rules
-  href: com.microsoft.azure.servicebus.rules._rule_action.yml
+  href: com.microsoft.azure.servicebus.rules.RuleAction.yml
   name: RuleAction
   nameWithType: RuleAction
   fullName: com.microsoft.azure.servicebus.rules.RuleAction
@@ -80,9 +80,9 @@ references:
     <p></p>
   syntax:
     content: public class RuleAction
-- uid: com.microsoft.azure.servicebus.rules._rule_description
+- uid: com.microsoft.azure.servicebus.rules.RuleDescription
   parent: com.microsoft.azure.servicebus.rules
-  href: com.microsoft.azure.servicebus.rules._rule_description.yml
+  href: com.microsoft.azure.servicebus.rules.RuleDescription.yml
   name: RuleDescription
   nameWithType: RuleDescription
   fullName: com.microsoft.azure.servicebus.rules.RuleDescription
@@ -93,9 +93,9 @@ references:
     <p></p>
   syntax:
     content: public class RuleDescription
-- uid: com.microsoft.azure.servicebus.rules._sql_filter
+- uid: com.microsoft.azure.servicebus.rules.SqlFilter
   parent: com.microsoft.azure.servicebus.rules
-  href: com.microsoft.azure.servicebus.rules._sql_filter.yml
+  href: com.microsoft.azure.servicebus.rules.SqlFilter.yml
   name: SqlFilter
   nameWithType: SqlFilter
   fullName: com.microsoft.azure.servicebus.rules.SqlFilter
@@ -106,9 +106,9 @@ references:
     <p></p>
   syntax:
     content: public class SqlFilter extends Filter
-- uid: com.microsoft.azure.servicebus.rules._sql_rule_action
+- uid: com.microsoft.azure.servicebus.rules.SqlRuleAction
   parent: com.microsoft.azure.servicebus.rules
-  href: com.microsoft.azure.servicebus.rules._sql_rule_action.yml
+  href: com.microsoft.azure.servicebus.rules.SqlRuleAction.yml
   name: SqlRuleAction
   nameWithType: SqlRuleAction
   fullName: com.microsoft.azure.servicebus.rules.SqlRuleAction
@@ -119,9 +119,9 @@ references:
     <p></p>
   syntax:
     content: public class SqlRuleAction extends RuleAction
-- uid: com.microsoft.azure.servicebus.rules._true_filter
+- uid: com.microsoft.azure.servicebus.rules.TrueFilter
   parent: com.microsoft.azure.servicebus.rules
-  href: com.microsoft.azure.servicebus.rules._true_filter.yml
+  href: com.microsoft.azure.servicebus.rules.TrueFilter.yml
   name: TrueFilter
   nameWithType: TrueFilter
   fullName: com.microsoft.azure.servicebus.rules.TrueFilter

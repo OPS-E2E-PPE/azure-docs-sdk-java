@@ -3,20 +3,20 @@ items:
 - uid: com.microsoft.azure.management.resources.fluentcore.model
   id: model
   children:
-  - com.microsoft.azure.management.resources.fluentcore.model._appliable
-  - com.microsoft.azure.management.resources.fluentcore.model._attachable
-  - com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition
-  - com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition_alt
-  - com.microsoft.azure.management.resources.fluentcore.model._attachable._in_update
-  - com.microsoft.azure.management.resources.fluentcore.model._attachable._in_update_alt
-  - com.microsoft.azure.management.resources.fluentcore.model._creatable
-  - com.microsoft.azure.management.resources.fluentcore.model._created_resources
-  - com.microsoft.azure.management.resources.fluentcore.model._executable
-  - com.microsoft.azure.management.resources.fluentcore.model._has_inner
-  - com.microsoft.azure.management.resources.fluentcore.model._indexable
-  - com.microsoft.azure.management.resources.fluentcore.model._refreshable
-  - com.microsoft.azure.management.resources.fluentcore.model._settable
-  - com.microsoft.azure.management.resources.fluentcore.model._updatable
+  - com.microsoft.azure.management.resources.fluentcore.model.Appliable
+  - com.microsoft.azure.management.resources.fluentcore.model.Attachable
+  - com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition
+  - com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinitionAlt
+  - com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate
+  - com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdateAlt
+  - com.microsoft.azure.management.resources.fluentcore.model.Creatable
+  - com.microsoft.azure.management.resources.fluentcore.model.CreatedResources
+  - com.microsoft.azure.management.resources.fluentcore.model.Executable
+  - com.microsoft.azure.management.resources.fluentcore.model.HasInner
+  - com.microsoft.azure.management.resources.fluentcore.model.Indexable
+  - com.microsoft.azure.management.resources.fluentcore.model.Refreshable
+  - com.microsoft.azure.management.resources.fluentcore.model.Settable
+  - com.microsoft.azure.management.resources.fluentcore.model.Updatable
   href: com.microsoft.azure.management.resources.fluentcore.model.yml
   langs:
   - java
@@ -31,13 +31,13 @@ items:
       repo: https://github.com/Azure/azure-sdk-for-java
     path: azure-mgmt-resources/src/main/java/com/microsoft/azure/management/resources/fluentcore/model/Appliable.java
     startLine: 6
-  summary: <p>This package contains the base classes for resource models, and their variants for creating and updating scenarios. </p>
+  summary: "<p>This package contains the base classes for resource models, and their variants for creating and updating scenarios. </p>"
   syntax:
     content: package com.microsoft.azure.management.resources.fluentcore.model
 references:
-- uid: com.microsoft.azure.management.resources.fluentcore.model._appliable
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Appliable
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._appliable.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Appliable.yml
   name: Appliable<T>
   nameWithType: Appliable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Appliable<T>
@@ -49,11 +49,12 @@ references:
   syntax:
     content: public interface Appliable<T> extends Indexable
     typeParameters:
-    - type: 8ce1ecb9
+    - id: T
+      type: 8ce1ecb9
       description: <p>the type of the resource returned from the update. </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Attachable
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._attachable.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Attachable.yml
   name: Attachable<ParentT>
   nameWithType: Attachable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable<ParentT>
@@ -65,27 +66,29 @@ references:
   syntax:
     content: public interface Attachable<ParentT>
     typeParameters:
-    - type: 18a275b1
+    - id: ParentT
+      type: 18a275b1
       description: <p>the stage of the parent definition to return to after attaching this definition. </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._creatable
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Creatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._creatable.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Creatable.yml
   name: Creatable<T>
   nameWithType: Creatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Creatable<T>
   type: Interface
   summary: >-
-    <p>The final stage of the resource definition, at which it can be created using <xref uid="com.microsoft.azure.management.resources.fluentcore.model._creatable.create()" data-throw-if-not-resolved="false">create()</xref>.</p>
+    <p>The final stage of the resource definition, at which it can be created using create().</p>
 
     <p></p>
   syntax:
     content: public interface Creatable<T> extends Indexable,HasName
     typeParameters:
-    - type: 8ce1ecb9
+    - id: T
+      type: 8ce1ecb9
       description: <p>the fluent type of the resource to be created </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._created_resources
+- uid: com.microsoft.azure.management.resources.fluentcore.model.CreatedResources
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._created_resources.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.CreatedResources.yml
   name: CreatedResources<ResourceT>
   nameWithType: CreatedResources<ResourceT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.CreatedResources<ResourceT>
@@ -97,11 +100,12 @@ references:
   syntax:
     content: public interface CreatedResources<ResourceT extends Indexable>
     typeParameters:
-    - type: ab77b02a
+    - id: ResourceT
+      type: ab77b02a
       description: <p>the type of the resource in this batch </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._executable
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Executable
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._executable.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Executable.yml
   name: Executable<T>
   nameWithType: Executable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Executable<T>
@@ -113,11 +117,12 @@ references:
   syntax:
     content: public interface Executable<T> extends Indexable
     typeParameters:
-    - type: 8ce1ecb9
+    - id: T
+      type: 8ce1ecb9
       description: <p>the type of the resource returned from the execution. </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._has_inner
+- uid: com.microsoft.azure.management.resources.fluentcore.model.HasInner
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._has_inner.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.HasInner.yml
   name: HasInner<T>
   nameWithType: HasInner<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.HasInner<T>
@@ -129,11 +134,12 @@ references:
   syntax:
     content: public interface HasInner<T>
     typeParameters:
-    - type: 8ce1ecb9
+    - id: T
+      type: 8ce1ecb9
       description: <p>the type of the inner object. </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._indexable
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Indexable
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._indexable.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Indexable.yml
   name: Indexable
   nameWithType: Indexable
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Indexable
@@ -141,9 +147,9 @@ references:
   summary: <p>Base interface for all models that can be indexed by a key. </p>
   syntax:
     content: public interface Indexable
-- uid: com.microsoft.azure.management.resources.fluentcore.model._refreshable
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Refreshable
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._refreshable.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Refreshable.yml
   name: Refreshable<T>
   nameWithType: Refreshable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Refreshable<T>
@@ -155,11 +161,12 @@ references:
   syntax:
     content: public interface Refreshable<T>
     typeParameters:
-    - type: 8ce1ecb9
+    - id: T
+      type: 8ce1ecb9
       description: <p>the fluent type of the resource </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._settable
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Settable
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._settable.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Settable.yml
   name: Settable<ParentT>
   nameWithType: Settable<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Settable<ParentT>
@@ -171,11 +178,12 @@ references:
   syntax:
     content: public interface Settable<ParentT>
     typeParameters:
-    - type: 18a275b1
-      description: <p>the parent definition <xref uid="com.microsoft.azure.management.resources.fluentcore.model._settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref> returns to </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._updatable
+    - id: ParentT
+      type: 18a275b1
+      description: <p>the parent definition <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()" data-throw-if-not-resolved="false">Settable#parent()</xref> returns to </p>
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Updatable
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._updatable.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Updatable.yml
   name: Updatable<T>
   nameWithType: Updatable<T>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Updatable<T>
@@ -187,11 +195,12 @@ references:
   syntax:
     content: public interface Updatable<T>
     typeParameters:
-    - type: 8ce1ecb9
+    - id: T
+      type: 8ce1ecb9
       description: <p>the fluent type of the resource </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.yml
   name: Attachable.InDefinition<ParentT>
   nameWithType: Attachable.InDefinition<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition<ParentT>
@@ -200,11 +209,12 @@ references:
   syntax:
     content: public interface InDefinition<ParentT>
     typeParameters:
-    - type: 18a275b1
+    - id: ParentT
+      type: 18a275b1
       description: <p>the parent definition </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition_alt
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinitionAlt
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_definition_alt.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinitionAlt.yml
   name: Attachable.InDefinitionAlt<ParentT>
   nameWithType: Attachable.InDefinitionAlt<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinitionAlt<ParentT>
@@ -213,11 +223,12 @@ references:
   syntax:
     content: public interface InDefinitionAlt<ParentT>
     typeParameters:
-    - type: 18a275b1
+    - id: ParentT
+      type: 18a275b1
       description: <p>the parent definition </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_update
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_update.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.yml
   name: Attachable.InUpdate<ParentT>
   nameWithType: Attachable.InUpdate<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate<ParentT>
@@ -226,11 +237,12 @@ references:
   syntax:
     content: public interface InUpdate<ParentT>
     typeParameters:
-    - type: 18a275b1
+    - id: ParentT
+      type: 18a275b1
       description: <p>the parent definition </p>
-- uid: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_update_alt
+- uid: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdateAlt
   parent: com.microsoft.azure.management.resources.fluentcore.model
-  href: com.microsoft.azure.management.resources.fluentcore.model._attachable._in_update_alt.yml
+  href: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdateAlt.yml
   name: Attachable.InUpdateAlt<ParentT>
   nameWithType: Attachable.InUpdateAlt<ParentT>
   fullName: com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdateAlt<ParentT>
@@ -239,5 +251,6 @@ references:
   syntax:
     content: public interface InUpdateAlt<ParentT>
     typeParameters:
-    - type: 18a275b1
+    - id: ParentT
+      type: 18a275b1
       description: <p>the parent definition </p>

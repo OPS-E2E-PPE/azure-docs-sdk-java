@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.cognitiveservices.search.videosearch.implementation
+  id: implementation
+  children:
+  - com.microsoft.azure.cognitiveservices.search.videosearch.implementation.BingVideoSearchAPIImpl
+  - com.microsoft.azure.cognitiveservices.search.videosearch.implementation.BingVideosImpl
+  href: com.microsoft.azure.cognitiveservices.search.videosearch.implementation.yml
+  langs:
+  - java
+  name: com.microsoft.azure.cognitiveservices.search.videosearch.implementation
+  nameWithType: com.microsoft.azure.cognitiveservices.search.videosearch.implementation
+  fullName: com.microsoft.azure.cognitiveservices.search.videosearch.implementation
+  type: Namespace
+  source:
+    remote:
+      path: cognitiveservices/data-plane/search/bingvideosearch/src/main/java/com/microsoft/azure/cognitiveservices/search/videosearch/implementation/BingVideoSearchAPIImpl.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: cognitiveservices/data-plane/search/bingvideosearch/src/main/java/com/microsoft/azure/cognitiveservices/search/videosearch/implementation/BingVideoSearchAPIImpl.java
+    startLine: 8
+  summary: "<p>This package contains the implementation classes for BingVideoSearchAPI. The Video Search API lets you search on Bing for video that are relevant to the user's search query, for insights about a video or for videos that are trending based on search requests made by others. This section provides technical details about the query parameters and headers that you use to request videos and the JSON response objects that contain them. For examples that show how to make requests, see [Searching the Web for Videos](<a href=\"https://docs.microsoft.com/azure/cognitive-services/bing-video-search/search-the-web\">https://docs.microsoft.com/azure/cognitive-services/bing-video-search/search-the-web</a>). </p>"
+  syntax:
+    content: package com.microsoft.azure.cognitiveservices.search.videosearch.implementation
+references:
+- uid: com.microsoft.azure.cognitiveservices.search.videosearch.implementation.BingVideoSearchAPIImpl
+  parent: com.microsoft.azure.cognitiveservices.search.videosearch.implementation
+  href: com.microsoft.azure.cognitiveservices.search.videosearch.implementation.BingVideoSearchAPIImpl.yml
+  name: BingVideoSearchAPIImpl
+  nameWithType: BingVideoSearchAPIImpl
+  fullName: com.microsoft.azure.cognitiveservices.search.videosearch.implementation.BingVideoSearchAPIImpl
+  type: Class
+  summary: <p>Initializes a new instance of the BingVideoSearchAPIImpl class. </p>
+  syntax:
+    content: public class BingVideoSearchAPIImpl implements BingVideoSearchAPI
+- uid: com.microsoft.azure.cognitiveservices.search.videosearch.implementation.BingVideosImpl
+  parent: com.microsoft.azure.cognitiveservices.search.videosearch.implementation
+  href: com.microsoft.azure.cognitiveservices.search.videosearch.implementation.BingVideosImpl.yml
+  name: BingVideosImpl
+  nameWithType: BingVideosImpl
+  fullName: com.microsoft.azure.cognitiveservices.search.videosearch.implementation.BingVideosImpl
+  type: Class
+  summary: <p>An instance of this class provides access to all the operations defined in BingVideos. </p>
+  syntax:
+    content: public class BingVideosImpl implements BingVideos

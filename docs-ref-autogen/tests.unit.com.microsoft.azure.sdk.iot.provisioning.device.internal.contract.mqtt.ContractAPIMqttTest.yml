@@ -1,0 +1,828 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  id: ContractAPIMqttTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnNotConnected()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnResponseNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeAmqpConnectionNullSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeNotOpenSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeThrowOnDisconnect()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullHostName()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullScopeId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusSuccess()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnMqttNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnNotConnected()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnRequestNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnResponseNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRegistrationId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRequestData()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullSSLContext()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMSuccess()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowEndorsementKeyNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowProvisioningDeviceClientException()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRequestDataNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowResponseCallbackNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowSslContextNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowStorageRootKeyNull()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: ContractAPIMqttTest
+  nameWithType: ContractAPIMqttTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 39
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public class ContractAPIMqttTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceSucceeds()
+  id: authenticateWithProvisioningServiceSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: authenticateWithProvisioningServiceSucceeds()
+  nameWithType: ContractAPIMqttTest.authenticateWithProvisioningServiceSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 418
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void authenticateWithProvisioningServiceSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnNotConnected()
+  id: authenticateWithProvisioningServiceThrowsOnNotConnected()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: authenticateWithProvisioningServiceThrowsOnNotConnected()
+  nameWithType: ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnNotConnected()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnNotConnected()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnNotConnected*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 407
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void authenticateWithProvisioningServiceThrowsOnNotConnected()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnResponseNull()
+  id: authenticateWithProvisioningServiceThrowsOnResponseNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: authenticateWithProvisioningServiceThrowsOnResponseNull()
+  nameWithType: ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnResponseNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnResponseNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnResponseNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 397
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void authenticateWithProvisioningServiceThrowsOnResponseNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeAmqpConnectionNullSucceeds()
+  id: closeAmqpConnectionNullSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: closeAmqpConnectionNullSucceeds()
+  nameWithType: ContractAPIMqttTest.closeAmqpConnectionNullSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeAmqpConnectionNullSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeAmqpConnectionNullSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 278
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void closeAmqpConnectionNullSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeNotOpenSucceeds()
+  id: closeNotOpenSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: closeNotOpenSucceeds()
+  nameWithType: ContractAPIMqttTest.closeNotOpenSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeNotOpenSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeNotOpenSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 297
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void closeNotOpenSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeSucceeds()
+  id: closeSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: closeSucceeds()
+  nameWithType: ContractAPIMqttTest.closeSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 361
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void closeSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeThrowOnDisconnect()
+  id: closeThrowOnDisconnect()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: closeThrowOnDisconnect()
+  nameWithType: ContractAPIMqttTest.closeThrowOnDisconnect()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeThrowOnDisconnect()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeThrowOnDisconnect*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 331
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void closeThrowOnDisconnect()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorSucceeds()
+  id: constructorSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: constructorSucceeds()
+  nameWithType: ContractAPIMqttTest.constructorSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 139
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void constructorSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullHostName()
+  id: constructorThrowsOnNullHostName()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullHostName()
+  nameWithType: ContractAPIMqttTest.constructorThrowsOnNullHostName()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullHostName()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullHostName*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 179
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void constructorThrowsOnNullHostName()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullScopeId()
+  id: constructorThrowsOnNullScopeId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullScopeId()
+  nameWithType: ContractAPIMqttTest.constructorThrowsOnNullScopeId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullScopeId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullScopeId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 160
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void constructorThrowsOnNullScopeId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusSuccess()
+  id: getRegistrationStatusSuccess()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusSuccess()
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusSuccess()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusSuccess()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusSuccess*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 568
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void getRegistrationStatusSuccess()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnMqttNull()
+  id: getRegistrationStatusThrowsOnMqttNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnMqttNull()
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnMqttNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnMqttNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnMqttNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 516
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void getRegistrationStatusThrowsOnMqttNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnNotConnected()
+  id: getRegistrationStatusThrowsOnNotConnected()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnNotConnected()
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnNotConnected()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnNotConnected()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnNotConnected*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 534
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void getRegistrationStatusThrowsOnNotConnected()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdEmpty()
+  id: getRegistrationStatusThrowsOnOperationIdEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnOperationIdEmpty()
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 480
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void getRegistrationStatusThrowsOnOperationIdEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdNull()
+  id: getRegistrationStatusThrowsOnOperationIdNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnOperationIdNull()
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 462
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void getRegistrationStatusThrowsOnOperationIdNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnRequestNull()
+  id: getRegistrationStatusThrowsOnRequestNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnRequestNull()
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnRequestNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnRequestNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnRequestNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 452
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void getRegistrationStatusThrowsOnRequestNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnResponseNull()
+  id: getRegistrationStatusThrowsOnResponseNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: getRegistrationStatusThrowsOnResponseNull()
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnResponseNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnResponseNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnResponseNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 498
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void getRegistrationStatusThrowsOnResponseNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openSucceeds()
+  id: openSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: openSucceeds()
+  nameWithType: ContractAPIMqttTest.openSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 199
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void openSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRegistrationId()
+  id: openThrowsOnNullRegistrationId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: openThrowsOnNullRegistrationId()
+  nameWithType: ContractAPIMqttTest.openThrowsOnNullRegistrationId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRegistrationId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRegistrationId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 235
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void openThrowsOnNullRegistrationId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRequestData()
+  id: openThrowsOnNullRequestData()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: openThrowsOnNullRequestData()
+  nameWithType: ContractAPIMqttTest.openThrowsOnNullRequestData()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRequestData()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRequestData*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 223
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void openThrowsOnNullRequestData()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullSSLContext()
+  id: openThrowsOnNullSSLContext()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: openThrowsOnNullSSLContext()
+  nameWithType: ContractAPIMqttTest.openThrowsOnNullSSLContext()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullSSLContext()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullSSLContext*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 255
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void openThrowsOnNullSSLContext()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMSuccess()
+  id: requestNonceForTPMSuccess()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: requestNonceForTPMSuccess()
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMSuccess()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMSuccess()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMSuccess*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 763
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void requestNonceForTPMSuccess()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowEndorsementKeyNull()
+  id: requestNonceForTPMThrowEndorsementKeyNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: requestNonceForTPMThrowEndorsementKeyNull()
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowEndorsementKeyNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowEndorsementKeyNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowEndorsementKeyNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 692
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void requestNonceForTPMThrowEndorsementKeyNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowProvisioningDeviceClientException()
+  id: requestNonceForTPMThrowProvisioningDeviceClientException()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: requestNonceForTPMThrowProvisioningDeviceClientException()
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowProvisioningDeviceClientException()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowProvisioningDeviceClientException()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowProvisioningDeviceClientException*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 603
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void requestNonceForTPMThrowProvisioningDeviceClientException()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdEmpty()
+  id: requestNonceForTPMThrowRegistrationIdEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: requestNonceForTPMThrowRegistrationIdEmpty()
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 733
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void requestNonceForTPMThrowRegistrationIdEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdNull()
+  id: requestNonceForTPMThrowRegistrationIdNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: requestNonceForTPMThrowRegistrationIdNull()
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 714
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void requestNonceForTPMThrowRegistrationIdNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRequestDataNull()
+  id: requestNonceForTPMThrowRequestDataNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: requestNonceForTPMThrowRequestDataNull()
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowRequestDataNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRequestDataNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRequestDataNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 752
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void requestNonceForTPMThrowRequestDataNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowResponseCallbackNull()
+  id: requestNonceForTPMThrowResponseCallbackNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: requestNonceForTPMThrowResponseCallbackNull()
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowResponseCallbackNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowResponseCallbackNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowResponseCallbackNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 629
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void requestNonceForTPMThrowResponseCallbackNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowSslContextNull()
+  id: requestNonceForTPMThrowSslContextNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: requestNonceForTPMThrowSslContextNull()
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowSslContextNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowSslContextNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowSslContextNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 642
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void requestNonceForTPMThrowSslContextNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowStorageRootKeyNull()
+  id: requestNonceForTPMThrowStorageRootKeyNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.yml
+  langs:
+  - java
+  name: requestNonceForTPMThrowStorageRootKeyNull()
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowStorageRootKeyNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowStorageRootKeyNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowStorageRootKeyNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/internal/contract/mqtt/ContractAPIMqttTest.java
+    startLine: 668
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  syntax:
+    content: public void requestNonceForTPMThrowStorageRootKeyNull()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorSucceeds*
+  name: constructorSucceeds
+  nameWithType: ContractAPIMqttTest.constructorSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullScopeId*
+  name: constructorThrowsOnNullScopeId
+  nameWithType: ContractAPIMqttTest.constructorThrowsOnNullScopeId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullScopeId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullHostName*
+  name: constructorThrowsOnNullHostName
+  nameWithType: ContractAPIMqttTest.constructorThrowsOnNullHostName
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.constructorThrowsOnNullHostName
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openSucceeds*
+  name: openSucceeds
+  nameWithType: ContractAPIMqttTest.openSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRequestData*
+  name: openThrowsOnNullRequestData
+  nameWithType: ContractAPIMqttTest.openThrowsOnNullRequestData
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRequestData
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRegistrationId*
+  name: openThrowsOnNullRegistrationId
+  nameWithType: ContractAPIMqttTest.openThrowsOnNullRegistrationId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullRegistrationId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullSSLContext*
+  name: openThrowsOnNullSSLContext
+  nameWithType: ContractAPIMqttTest.openThrowsOnNullSSLContext
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.openThrowsOnNullSSLContext
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeAmqpConnectionNullSucceeds*
+  name: closeAmqpConnectionNullSucceeds
+  nameWithType: ContractAPIMqttTest.closeAmqpConnectionNullSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeAmqpConnectionNullSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeNotOpenSucceeds*
+  name: closeNotOpenSucceeds
+  nameWithType: ContractAPIMqttTest.closeNotOpenSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeNotOpenSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeThrowOnDisconnect*
+  name: closeThrowOnDisconnect
+  nameWithType: ContractAPIMqttTest.closeThrowOnDisconnect
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeThrowOnDisconnect
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeSucceeds*
+  name: closeSucceeds
+  nameWithType: ContractAPIMqttTest.closeSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.closeSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnResponseNull*
+  name: authenticateWithProvisioningServiceThrowsOnResponseNull
+  nameWithType: ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnResponseNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnResponseNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnNotConnected*
+  name: authenticateWithProvisioningServiceThrowsOnNotConnected
+  nameWithType: ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnNotConnected
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceThrowsOnNotConnected
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceSucceeds*
+  name: authenticateWithProvisioningServiceSucceeds
+  nameWithType: ContractAPIMqttTest.authenticateWithProvisioningServiceSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.authenticateWithProvisioningServiceSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnRequestNull*
+  name: getRegistrationStatusThrowsOnRequestNull
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnRequestNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnRequestNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdNull*
+  name: getRegistrationStatusThrowsOnOperationIdNull
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdEmpty*
+  name: getRegistrationStatusThrowsOnOperationIdEmpty
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnOperationIdEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnResponseNull*
+  name: getRegistrationStatusThrowsOnResponseNull
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnResponseNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnResponseNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnMqttNull*
+  name: getRegistrationStatusThrowsOnMqttNull
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnMqttNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnMqttNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnNotConnected*
+  name: getRegistrationStatusThrowsOnNotConnected
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusThrowsOnNotConnected
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusThrowsOnNotConnected
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusSuccess*
+  name: getRegistrationStatusSuccess
+  nameWithType: ContractAPIMqttTest.getRegistrationStatusSuccess
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.getRegistrationStatusSuccess
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowProvisioningDeviceClientException*
+  name: requestNonceForTPMThrowProvisioningDeviceClientException
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowProvisioningDeviceClientException
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowProvisioningDeviceClientException
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowResponseCallbackNull*
+  name: requestNonceForTPMThrowResponseCallbackNull
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowResponseCallbackNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowResponseCallbackNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowSslContextNull*
+  name: requestNonceForTPMThrowSslContextNull
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowSslContextNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowSslContextNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowStorageRootKeyNull*
+  name: requestNonceForTPMThrowStorageRootKeyNull
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowStorageRootKeyNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowStorageRootKeyNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowEndorsementKeyNull*
+  name: requestNonceForTPMThrowEndorsementKeyNull
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowEndorsementKeyNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowEndorsementKeyNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdNull*
+  name: requestNonceForTPMThrowRegistrationIdNull
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdEmpty*
+  name: requestNonceForTPMThrowRegistrationIdEmpty
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRegistrationIdEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRequestDataNull*
+  name: requestNonceForTPMThrowRequestDataNull
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMThrowRequestDataNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMThrowRequestDataNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMSuccess*
+  name: requestNonceForTPMSuccess
+  nameWithType: ContractAPIMqttTest.requestNonceForTPMSuccess
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqttTest.requestNonceForTPMSuccess
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+- uid: com.microsoft.azure.sdk.iot.deps.transport.mqtt.MqttConnection
+  parent: com.microsoft.azure.sdk.iot.deps.transport.mqtt
+  href: com.microsoft.azure.sdk.iot.deps.transport.mqtt.MqttConnection.yml
+  name: MqttConnection
+  nameWithType: MqttConnection
+  fullName: com.microsoft.azure.sdk.iot.deps.transport.mqtt.MqttConnection
+  type: Class
+  syntax:
+    content: public class MqttConnection
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData.yml
+  name: RequestData
+  nameWithType: RequestData
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RequestData
+  type: Class
+  syntax:
+    content: public class RequestData
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback.yml
+  name: ResponseCallback
+  nameWithType: ResponseCallback
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ResponseCallback
+  type: Interface
+  syntax:
+    content: public interface ResponseCallback
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData.yml
+  name: ResponseData
+  nameWithType: ResponseData
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ResponseData
+  type: Class
+  syntax:
+    content: public class ResponseData
+- uid: com.microsoft.azure.sdk.iot.deps.util.ObjectLock
+  parent: com.microsoft.azure.sdk.iot.deps.util
+  href: com.microsoft.azure.sdk.iot.deps.util.ObjectLock.yml
+  name: ObjectLock
+  nameWithType: ObjectLock
+  fullName: com.microsoft.azure.sdk.iot.deps.util.ObjectLock
+  type: Class
+  summary: <p>This class enables mocking of the base class wait and notify functions </p>
+  syntax:
+    content: public class ObjectLock
+- uid: com.microsoft.azure.sdk.iot.deps.transport.mqtt.MqttMessage
+  parent: com.microsoft.azure.sdk.iot.deps.transport.mqtt
+  href: com.microsoft.azure.sdk.iot.deps.transport.mqtt.MqttMessage.yml
+  name: MqttMessage
+  nameWithType: MqttMessage
+  fullName: com.microsoft.azure.sdk.iot.deps.transport.mqtt.MqttMessage
+  type: Class
+  syntax:
+    content: public class MqttMessage
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig.yml
+  name: ProvisioningDeviceClientConfig
+  nameWithType: ProvisioningDeviceClientConfig
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientConfig
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqtt
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqtt.yml
+  name: ContractAPIMqtt
+  nameWithType: ContractAPIMqtt
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqtt
+  type: Class
+  syntax:
+    content: public class ContractAPIMqtt extends ProvisioningDeviceClientContract implements MqttListener
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException.yml
+  name: ProvisioningDeviceClientException
+  nameWithType: ProvisioningDeviceClientException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientException

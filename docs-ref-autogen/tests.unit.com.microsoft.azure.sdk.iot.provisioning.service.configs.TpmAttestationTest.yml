@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  id: TpmAttestationTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyStoresKeys()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyThrowsOnNullTPM()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyStoresEndorsementKey()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorStoresEndorsementKey()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnEmptyEndorsementKey()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnNullEndorsementKey()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.emptyConstructorSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.gettersSucceed()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: TpmAttestationTest
+  nameWithType: TpmAttestationTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 15
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  summary: "<p>Unit tests for Device Provisioning Service TPM attestation 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class TpmAttestationTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyStoresKeys()
+  id: constructorCopyStoresKeys()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: constructorCopyStoresKeys()
+  nameWithType: TpmAttestationTest.constructorCopyStoresKeys()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyStoresKeys()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyStoresKeys*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 103
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCopyStoresKeys()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyThrowsOnNullTPM()
+  id: constructorCopyThrowsOnNullTPM()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: constructorCopyThrowsOnNullTPM()
+  nameWithType: TpmAttestationTest.constructorCopyThrowsOnNullTPM()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyThrowsOnNullTPM()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyThrowsOnNullTPM*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 92
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorCopyThrowsOnNullTPM()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyStoresEndorsementKey()
+  id: constructorOnlyEndorsementKeyStoresEndorsementKey()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: constructorOnlyEndorsementKeyStoresEndorsementKey()
+  nameWithType: TpmAttestationTest.constructorOnlyEndorsementKeyStoresEndorsementKey()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyStoresEndorsementKey()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyStoresEndorsementKey*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 80
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorOnlyEndorsementKeyStoresEndorsementKey()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey()
+  id: constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey()
+  nameWithType: TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 69
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey()
+  id: constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey()
+  nameWithType: TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 58
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorStoresEndorsementKey()
+  id: constructorStoresEndorsementKey()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: constructorStoresEndorsementKey()
+  nameWithType: TpmAttestationTest.constructorStoresEndorsementKey()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorStoresEndorsementKey()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorStoresEndorsementKey*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 45
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorStoresEndorsementKey()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnEmptyEndorsementKey()
+  id: constructorThrowsOnEmptyEndorsementKey()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnEmptyEndorsementKey()
+  nameWithType: TpmAttestationTest.constructorThrowsOnEmptyEndorsementKey()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnEmptyEndorsementKey()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnEmptyEndorsementKey*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 33
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnEmptyEndorsementKey()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnNullEndorsementKey()
+  id: constructorThrowsOnNullEndorsementKey()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullEndorsementKey()
+  nameWithType: TpmAttestationTest.constructorThrowsOnNullEndorsementKey()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnNullEndorsementKey()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnNullEndorsementKey*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 22
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorThrowsOnNullEndorsementKey()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.emptyConstructorSucceed()
+  id: emptyConstructorSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: emptyConstructorSucceed()
+  nameWithType: TpmAttestationTest.emptyConstructorSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.emptyConstructorSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.emptyConstructorSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 133
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void emptyConstructorSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.gettersSucceed()
+  id: gettersSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.yml
+  langs:
+  - java
+  name: gettersSucceed()
+  nameWithType: TpmAttestationTest.gettersSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.gettersSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.gettersSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/TpmAttestationTest.java
+    startLine: 120
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void gettersSucceed()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnNullEndorsementKey*
+  name: constructorThrowsOnNullEndorsementKey
+  nameWithType: TpmAttestationTest.constructorThrowsOnNullEndorsementKey
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnNullEndorsementKey
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnEmptyEndorsementKey*
+  name: constructorThrowsOnEmptyEndorsementKey
+  nameWithType: TpmAttestationTest.constructorThrowsOnEmptyEndorsementKey
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorThrowsOnEmptyEndorsementKey
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorStoresEndorsementKey*
+  name: constructorStoresEndorsementKey
+  nameWithType: TpmAttestationTest.constructorStoresEndorsementKey
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorStoresEndorsementKey
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey*
+  name: constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey
+  nameWithType: TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnNullEndorsementKey
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey*
+  name: constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey
+  nameWithType: TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyThrowsOnEmptyEndorsementKey
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyStoresEndorsementKey*
+  name: constructorOnlyEndorsementKeyStoresEndorsementKey
+  nameWithType: TpmAttestationTest.constructorOnlyEndorsementKeyStoresEndorsementKey
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorOnlyEndorsementKeyStoresEndorsementKey
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyThrowsOnNullTPM*
+  name: constructorCopyThrowsOnNullTPM
+  nameWithType: TpmAttestationTest.constructorCopyThrowsOnNullTPM
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyThrowsOnNullTPM
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyStoresKeys*
+  name: constructorCopyStoresKeys
+  nameWithType: TpmAttestationTest.constructorCopyStoresKeys
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.constructorCopyStoresKeys
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.gettersSucceed*
+  name: gettersSucceed
+  nameWithType: TpmAttestationTest.gettersSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.gettersSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.emptyConstructorSucceed*
+  name: emptyConstructorSucceed
+  nameWithType: TpmAttestationTest.emptyConstructorSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestationTest.emptyConstructorSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs

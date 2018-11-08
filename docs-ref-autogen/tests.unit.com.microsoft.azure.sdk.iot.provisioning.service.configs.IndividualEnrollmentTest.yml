@@ -1,0 +1,1906 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  id: IndividualEnrollmentTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcUsesSetters()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagSucceedOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagUsesSetters()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwin()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinSucceedOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinUsesSetters(@Mocked final TwinState)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsOptionalParametersUsesSetters()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnEmptyJson()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnInvalidJson()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnNullJson()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonUsesSetters()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonWithOptionalParametersSucceedOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithParametersUsesSetters()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.gettersSimpleEnrollment()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismSucceed(@Mocked final TpmAttestation,@Mocked final AttestationMechanism)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationSucceed(@Mocked final TpmAttestation,@Mocked final AttestationMechanism)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnInvalid()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceCapabilitiesSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnInvalidChar()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNotUtf8()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNotUTF8()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinSucceed(@Mocked final TwinState)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnIncompleteName()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnInvalidChar()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNotUTF8()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnInvalid()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdSucceed()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnEmpty()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnInvalidChar()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNotUtf8()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateSucceed(@Mocked final DeviceRegistrationState)
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateThrowsOnNull()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollment()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollmentWithTwin()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonSimpleEnrollment()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toStringSimpleEnrollmentWithTwin()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: IndividualEnrollmentTest
+  nameWithType: IndividualEnrollmentTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 22
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  summary: "<p>Unit tests for Device Provisioning Service IndividualEnrollment serializer 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class IndividualEnrollmentTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorSucceed()
+  id: constructorSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorSucceed()
+  nameWithType: IndividualEnrollmentTest.constructorSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1361
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull()
+  id: constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 454
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcUsesSetters()
+  id: constructorWithJsonSetsCreatedDateTimeUtcUsesSetters()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsCreatedDateTimeUtcUsesSetters()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcUsesSetters()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcUsesSetters()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcUsesSetters*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 427
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsCreatedDateTimeUtcUsesSetters()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagSucceedOnNull()
+  id: constructorWithJsonSetsEtagSucceedOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsEtagSucceedOnNull()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsEtagSucceedOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagSucceedOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagSucceedOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 561
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsEtagSucceedOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagUsesSetters()
+  id: constructorWithJsonSetsEtagUsesSetters()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsEtagUsesSetters()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsEtagUsesSetters()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagUsesSetters()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagUsesSetters*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 533
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsEtagUsesSetters()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwin()
+  id: constructorWithJsonSetsInitialTwin()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsInitialTwin()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsInitialTwin()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwin()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwin*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 362
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsInitialTwin()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinSucceedOnNull()
+  id: constructorWithJsonSetsInitialTwinSucceedOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsInitialTwinSucceedOnNull()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinSucceedOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinSucceedOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinSucceedOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 400
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsInitialTwinSucceedOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinUsesSetters(@Mocked final TwinState)
+  id: constructorWithJsonSetsInitialTwinUsesSetters(@Mocked final TwinState)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsInitialTwinUsesSetters( @Mocked final TwinState mockedTwinState)
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinUsesSetters( @Mocked final TwinState mockedTwinState)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinUsesSetters( @Mocked final TwinState mockedTwinState)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinUsesSetters*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 308
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsInitialTwinUsesSetters( @Mocked final TwinState mockedTwinState)
+    parameters:
+    - id: mockedTwinState
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull()
+  id: constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 507
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters()
+  id: constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 480
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsOptionalParametersUsesSetters()
+  id: constructorWithJsonSetsOptionalParametersUsesSetters()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonSetsOptionalParametersUsesSetters()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsOptionalParametersUsesSetters()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsOptionalParametersUsesSetters()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsOptionalParametersUsesSetters*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 244
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonSetsOptionalParametersUsesSetters()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnEmptyJson()
+  id: constructorWithJsonThrowsOnEmptyJson()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonThrowsOnEmptyJson()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonThrowsOnEmptyJson()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnEmptyJson()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnEmptyJson*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 191
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonThrowsOnEmptyJson()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnInvalidJson()
+  id: constructorWithJsonThrowsOnInvalidJson()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonThrowsOnInvalidJson()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonThrowsOnInvalidJson()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnInvalidJson()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnInvalidJson*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 204
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonThrowsOnInvalidJson()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnNullJson()
+  id: constructorWithJsonThrowsOnNullJson()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonThrowsOnNullJson()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonThrowsOnNullJson()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnNullJson()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnNullJson*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 178
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonThrowsOnNullJson()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonUsesSetters()
+  id: constructorWithJsonUsesSetters()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonUsesSetters()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonUsesSetters()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonUsesSetters()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonUsesSetters*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 218
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonUsesSetters()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonWithOptionalParametersSucceedOnNull()
+  id: constructorWithJsonWithOptionalParametersSucceedOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithJsonWithOptionalParametersSucceedOnNull()
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonWithOptionalParametersSucceedOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonWithOptionalParametersSucceedOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonWithOptionalParametersSucceedOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 282
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithJsonWithOptionalParametersSucceedOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithParametersUsesSetters()
+  id: constructorWithParametersUsesSetters()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: constructorWithParametersUsesSetters()
+  nameWithType: IndividualEnrollmentTest.constructorWithParametersUsesSetters()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithParametersUsesSetters()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithParametersUsesSetters*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 163
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void constructorWithParametersUsesSetters()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.gettersSimpleEnrollment()
+  id: gettersSimpleEnrollment()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: gettersSimpleEnrollment()
+  nameWithType: IndividualEnrollmentTest.gettersSimpleEnrollment()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.gettersSimpleEnrollment()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.gettersSimpleEnrollment*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 749
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void gettersSimpleEnrollment()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismSucceed(@Mocked final TpmAttestation,@Mocked final AttestationMechanism)
+  id: setAttestationMechanismSucceed(@Mocked final TpmAttestation,@Mocked final AttestationMechanism)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setAttestationMechanismSucceed( @Mocked final TpmAttestation mockedTpmAttestation, @Mocked final AttestationMechanism mockedAttestationMechanism)
+  nameWithType: IndividualEnrollmentTest.setAttestationMechanismSucceed( @Mocked final TpmAttestation mockedTpmAttestation, @Mocked final AttestationMechanism mockedAttestationMechanism)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismSucceed( @Mocked final TpmAttestation mockedTpmAttestation, @Mocked final AttestationMechanism mockedAttestationMechanism)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 985
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setAttestationMechanismSucceed( @Mocked final TpmAttestation mockedTpmAttestation, @Mocked final AttestationMechanism mockedAttestationMechanism)
+    parameters:
+    - id: mockedTpmAttestation
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation
+    - id: mockedAttestationMechanism
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismThrowsOnNull()
+  id: setAttestationMechanismThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setAttestationMechanismThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setAttestationMechanismThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 972
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setAttestationMechanismThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationSucceed(@Mocked final TpmAttestation,@Mocked final AttestationMechanism)
+  id: setAttestationSucceed(@Mocked final TpmAttestation,@Mocked final AttestationMechanism)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setAttestationSucceed( @Mocked final TpmAttestation mockedTpmAttestation, @Mocked final AttestationMechanism mockedAttestationMechanism)
+  nameWithType: IndividualEnrollmentTest.setAttestationSucceed( @Mocked final TpmAttestation mockedTpmAttestation, @Mocked final AttestationMechanism mockedAttestationMechanism)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationSucceed( @Mocked final TpmAttestation mockedTpmAttestation, @Mocked final AttestationMechanism mockedAttestationMechanism)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1023
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setAttestationSucceed( @Mocked final TpmAttestation mockedTpmAttestation, @Mocked final AttestationMechanism mockedAttestationMechanism)
+    parameters:
+    - id: mockedTpmAttestation
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation
+    - id: mockedAttestationMechanism
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationThrowsOnNull()
+  id: setAttestationThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setAttestationThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setAttestationThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1010
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setAttestationThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcSucceed()
+  id: setCreatedDateTimeUtcSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setCreatedDateTimeUtcSucceed()
+  nameWithType: IndividualEnrollmentTest.setCreatedDateTimeUtcSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1182
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setCreatedDateTimeUtcSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnEmpty()
+  id: setCreatedDateTimeUtcThrowsOnEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setCreatedDateTimeUtcThrowsOnEmpty()
+  nameWithType: IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1210
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setCreatedDateTimeUtcThrowsOnEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnInvalid()
+  id: setCreatedDateTimeUtcThrowsOnInvalid()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setCreatedDateTimeUtcThrowsOnInvalid()
+  nameWithType: IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnInvalid()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnInvalid()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnInvalid*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1223
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setCreatedDateTimeUtcThrowsOnInvalid()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnNull()
+  id: setCreatedDateTimeUtcThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setCreatedDateTimeUtcThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1197
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setCreatedDateTimeUtcThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceCapabilitiesSucceed()
+  id: setDeviceCapabilitiesSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setDeviceCapabilitiesSucceed()
+  nameWithType: IndividualEnrollmentTest.setDeviceCapabilitiesSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceCapabilitiesSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceCapabilitiesSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1345
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setDeviceCapabilitiesSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdSucceed()
+  id: setDeviceIdSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setDeviceIdSucceed()
+  nameWithType: IndividualEnrollmentTest.setDeviceIdSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 928
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setDeviceIdSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnEmpty()
+  id: setDeviceIdThrowsOnEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setDeviceIdThrowsOnEmpty()
+  nameWithType: IndividualEnrollmentTest.setDeviceIdThrowsOnEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 889
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setDeviceIdThrowsOnEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnInvalidChar()
+  id: setDeviceIdThrowsOnInvalidChar()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setDeviceIdThrowsOnInvalidChar()
+  nameWithType: IndividualEnrollmentTest.setDeviceIdThrowsOnInvalidChar()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnInvalidChar()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnInvalidChar*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 915
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setDeviceIdThrowsOnInvalidChar()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNotUtf8()
+  id: setDeviceIdThrowsOnNotUtf8()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setDeviceIdThrowsOnNotUtf8()
+  nameWithType: IndividualEnrollmentTest.setDeviceIdThrowsOnNotUtf8()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNotUtf8()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNotUtf8*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 902
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setDeviceIdThrowsOnNotUtf8()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNull()
+  id: setDeviceIdThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setDeviceIdThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setDeviceIdThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 876
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setDeviceIdThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagSucceed()
+  id: setEtagSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setEtagSucceed()
+  nameWithType: IndividualEnrollmentTest.setEtagSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1329
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setEtagSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnEmpty()
+  id: setEtagThrowsOnEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setEtagThrowsOnEmpty()
+  nameWithType: IndividualEnrollmentTest.setEtagThrowsOnEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1303
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setEtagThrowsOnEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNotUTF8()
+  id: setEtagThrowsOnNotUTF8()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setEtagThrowsOnNotUTF8()
+  nameWithType: IndividualEnrollmentTest.setEtagThrowsOnNotUTF8()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNotUTF8()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNotUTF8*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1316
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setEtagThrowsOnNotUTF8()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNull()
+  id: setEtagThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setEtagThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setEtagThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1290
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setEtagThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinSucceed(@Mocked final TwinState)
+  id: setInitialTwinSucceed(@Mocked final TwinState)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setInitialTwinSucceed(@Mocked final TwinState mockedTwinState)
+  nameWithType: IndividualEnrollmentTest.setInitialTwinSucceed(@Mocked final TwinState mockedTwinState)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinSucceed(@Mocked final TwinState mockedTwinState)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1139
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setInitialTwinSucceed(@Mocked final TwinState mockedTwinState)
+    parameters:
+    - id: mockedTwinState
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinThrowsOnNull()
+  id: setInitialTwinThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setInitialTwinThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setInitialTwinThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1126
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setInitialTwinThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameSucceed()
+  id: setIotHubHostNameSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setIotHubHostNameSucceed()
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1110
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setIotHubHostNameSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnEmpty()
+  id: setIotHubHostNameThrowsOnEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setIotHubHostNameThrowsOnEmpty()
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1058
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setIotHubHostNameThrowsOnEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnIncompleteName()
+  id: setIotHubHostNameThrowsOnIncompleteName()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setIotHubHostNameThrowsOnIncompleteName()
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnIncompleteName()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnIncompleteName()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnIncompleteName*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1097
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setIotHubHostNameThrowsOnIncompleteName()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnInvalidChar()
+  id: setIotHubHostNameThrowsOnInvalidChar()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setIotHubHostNameThrowsOnInvalidChar()
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnInvalidChar()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnInvalidChar()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnInvalidChar*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1084
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setIotHubHostNameThrowsOnInvalidChar()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNotUTF8()
+  id: setIotHubHostNameThrowsOnNotUTF8()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setIotHubHostNameThrowsOnNotUTF8()
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnNotUTF8()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNotUTF8()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNotUTF8*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1071
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setIotHubHostNameThrowsOnNotUTF8()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNull()
+  id: setIotHubHostNameThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setIotHubHostNameThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1045
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setIotHubHostNameThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcSucceed()
+  id: setLastUpdatedDateTimeUtcSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setLastUpdatedDateTimeUtcSucceed()
+  nameWithType: IndividualEnrollmentTest.setLastUpdatedDateTimeUtcSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1236
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setLastUpdatedDateTimeUtcSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnEmpty()
+  id: setLastUpdatedDateTimeUtcThrowsOnEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setLastUpdatedDateTimeUtcThrowsOnEmpty()
+  nameWithType: IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1264
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setLastUpdatedDateTimeUtcThrowsOnEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnInvalid()
+  id: setLastUpdatedDateTimeUtcThrowsOnInvalid()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setLastUpdatedDateTimeUtcThrowsOnInvalid()
+  nameWithType: IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnInvalid()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnInvalid()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnInvalid*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1277
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setLastUpdatedDateTimeUtcThrowsOnInvalid()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnNull()
+  id: setLastUpdatedDateTimeUtcThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setLastUpdatedDateTimeUtcThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1251
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setLastUpdatedDateTimeUtcThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusSucceed()
+  id: setProvisioningStatusSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setProvisioningStatusSucceed()
+  nameWithType: IndividualEnrollmentTest.setProvisioningStatusSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1167
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setProvisioningStatusSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusThrowsOnNull()
+  id: setProvisioningStatusThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setProvisioningStatusThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setProvisioningStatusThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 1154
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setProvisioningStatusThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdSucceed()
+  id: setRegistrationIdSucceed()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setRegistrationIdSucceed()
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdSucceed()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdSucceed()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 860
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setRegistrationIdSucceed()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnEmpty()
+  id: setRegistrationIdThrowsOnEmpty()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setRegistrationIdThrowsOnEmpty()
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdThrowsOnEmpty()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnEmpty()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnEmpty*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 821
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setRegistrationIdThrowsOnEmpty()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnInvalidChar()
+  id: setRegistrationIdThrowsOnInvalidChar()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setRegistrationIdThrowsOnInvalidChar()
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdThrowsOnInvalidChar()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnInvalidChar()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnInvalidChar*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 847
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setRegistrationIdThrowsOnInvalidChar()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNotUtf8()
+  id: setRegistrationIdThrowsOnNotUtf8()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setRegistrationIdThrowsOnNotUtf8()
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdThrowsOnNotUtf8()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNotUtf8()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNotUtf8*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 834
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setRegistrationIdThrowsOnNotUtf8()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNull()
+  id: setRegistrationIdThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setRegistrationIdThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 808
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setRegistrationIdThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateSucceed(@Mocked final DeviceRegistrationState)
+  id: setRegistrationStateSucceed(@Mocked final DeviceRegistrationState)
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setRegistrationStateSucceed(@Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+  nameWithType: IndividualEnrollmentTest.setRegistrationStateSucceed(@Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateSucceed(@Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 957
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setRegistrationStateSucceed(@Mocked final DeviceRegistrationState mockedDeviceRegistrationState)
+    parameters:
+    - id: mockedDeviceRegistrationState
+      type: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateThrowsOnNull()
+  id: setRegistrationStateThrowsOnNull()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: setRegistrationStateThrowsOnNull()
+  nameWithType: IndividualEnrollmentTest.setRegistrationStateThrowsOnNull()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateThrowsOnNull()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateThrowsOnNull*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 944
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void setRegistrationStateThrowsOnNull()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollment()
+  id: toJsonElementSimpleEnrollment()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: toJsonElementSimpleEnrollment()
+  nameWithType: IndividualEnrollmentTest.toJsonElementSimpleEnrollment()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollment()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollment*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 602
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonElementSimpleEnrollment()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollmentWithTwin()
+  id: toJsonElementSimpleEnrollmentWithTwin()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: toJsonElementSimpleEnrollmentWithTwin()
+  nameWithType: IndividualEnrollmentTest.toJsonElementSimpleEnrollmentWithTwin()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollmentWithTwin()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollmentWithTwin*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 634
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonElementSimpleEnrollmentWithTwin()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonSimpleEnrollment()
+  id: toJsonSimpleEnrollment()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: toJsonSimpleEnrollment()
+  nameWithType: IndividualEnrollmentTest.toJsonSimpleEnrollment()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonSimpleEnrollment()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonSimpleEnrollment*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 588
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toJsonSimpleEnrollment()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toStringSimpleEnrollmentWithTwin()
+  id: toStringSimpleEnrollmentWithTwin()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.yml
+  langs:
+  - java
+  name: toStringSimpleEnrollmentWithTwin()
+  nameWithType: IndividualEnrollmentTest.toStringSimpleEnrollmentWithTwin()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toStringSimpleEnrollmentWithTwin()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toStringSimpleEnrollmentWithTwin*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/configs/IndividualEnrollmentTest.java
+    startLine: 686
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+  syntax:
+    content: public void toStringSimpleEnrollmentWithTwin()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithParametersUsesSetters*
+  name: constructorWithParametersUsesSetters
+  nameWithType: IndividualEnrollmentTest.constructorWithParametersUsesSetters
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithParametersUsesSetters
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnNullJson*
+  name: constructorWithJsonThrowsOnNullJson
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonThrowsOnNullJson
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnNullJson
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnEmptyJson*
+  name: constructorWithJsonThrowsOnEmptyJson
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonThrowsOnEmptyJson
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnEmptyJson
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnInvalidJson*
+  name: constructorWithJsonThrowsOnInvalidJson
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonThrowsOnInvalidJson
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonThrowsOnInvalidJson
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonUsesSetters*
+  name: constructorWithJsonUsesSetters
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonUsesSetters
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonUsesSetters
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsOptionalParametersUsesSetters*
+  name: constructorWithJsonSetsOptionalParametersUsesSetters
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsOptionalParametersUsesSetters
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsOptionalParametersUsesSetters
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonWithOptionalParametersSucceedOnNull*
+  name: constructorWithJsonWithOptionalParametersSucceedOnNull
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonWithOptionalParametersSucceedOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonWithOptionalParametersSucceedOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState
+    name: TwinState
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinUsesSetters*
+  name: constructorWithJsonSetsInitialTwinUsesSetters
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinUsesSetters
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinUsesSetters
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwin*
+  name: constructorWithJsonSetsInitialTwin
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsInitialTwin
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwin
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinSucceedOnNull*
+  name: constructorWithJsonSetsInitialTwinSucceedOnNull
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinSucceedOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsInitialTwinSucceedOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcUsesSetters*
+  name: constructorWithJsonSetsCreatedDateTimeUtcUsesSetters
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcUsesSetters
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcUsesSetters
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull*
+  name: constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsCreatedDateTimeUtcSucceedOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters*
+  name: constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcUsesSetters
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull*
+  name: constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsLastUpdatedDateTimeUtcSucceedOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagUsesSetters*
+  name: constructorWithJsonSetsEtagUsesSetters
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsEtagUsesSetters
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagUsesSetters
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagSucceedOnNull*
+  name: constructorWithJsonSetsEtagSucceedOnNull
+  nameWithType: IndividualEnrollmentTest.constructorWithJsonSetsEtagSucceedOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorWithJsonSetsEtagSucceedOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonSimpleEnrollment*
+  name: toJsonSimpleEnrollment
+  nameWithType: IndividualEnrollmentTest.toJsonSimpleEnrollment
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonSimpleEnrollment
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollment*
+  name: toJsonElementSimpleEnrollment
+  nameWithType: IndividualEnrollmentTest.toJsonElementSimpleEnrollment
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollment
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollmentWithTwin*
+  name: toJsonElementSimpleEnrollmentWithTwin
+  nameWithType: IndividualEnrollmentTest.toJsonElementSimpleEnrollmentWithTwin
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toJsonElementSimpleEnrollmentWithTwin
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toStringSimpleEnrollmentWithTwin*
+  name: toStringSimpleEnrollmentWithTwin
+  nameWithType: IndividualEnrollmentTest.toStringSimpleEnrollmentWithTwin
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.toStringSimpleEnrollmentWithTwin
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.gettersSimpleEnrollment*
+  name: gettersSimpleEnrollment
+  nameWithType: IndividualEnrollmentTest.gettersSimpleEnrollment
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.gettersSimpleEnrollment
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNull*
+  name: setRegistrationIdThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnEmpty*
+  name: setRegistrationIdThrowsOnEmpty
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdThrowsOnEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNotUtf8*
+  name: setRegistrationIdThrowsOnNotUtf8
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdThrowsOnNotUtf8
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnNotUtf8
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnInvalidChar*
+  name: setRegistrationIdThrowsOnInvalidChar
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdThrowsOnInvalidChar
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdThrowsOnInvalidChar
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdSucceed*
+  name: setRegistrationIdSucceed
+  nameWithType: IndividualEnrollmentTest.setRegistrationIdSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationIdSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNull*
+  name: setDeviceIdThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setDeviceIdThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnEmpty*
+  name: setDeviceIdThrowsOnEmpty
+  nameWithType: IndividualEnrollmentTest.setDeviceIdThrowsOnEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNotUtf8*
+  name: setDeviceIdThrowsOnNotUtf8
+  nameWithType: IndividualEnrollmentTest.setDeviceIdThrowsOnNotUtf8
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnNotUtf8
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnInvalidChar*
+  name: setDeviceIdThrowsOnInvalidChar
+  nameWithType: IndividualEnrollmentTest.setDeviceIdThrowsOnInvalidChar
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdThrowsOnInvalidChar
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdSucceed*
+  name: setDeviceIdSucceed
+  nameWithType: IndividualEnrollmentTest.setDeviceIdSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceIdSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateThrowsOnNull*
+  name: setRegistrationStateThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setRegistrationStateThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+    name: DeviceRegistrationState
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateSucceed*
+  name: setRegistrationStateSucceed
+  nameWithType: IndividualEnrollmentTest.setRegistrationStateSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setRegistrationStateSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismThrowsOnNull*
+  name: setAttestationMechanismThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setAttestationMechanismThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation
+    name: TpmAttestation
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation.yml
+- uid: 5514d1f5com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism
+  spec.java:
+  - name: '@Mocked final '
+    fullName: '@Mocked final '
+  - uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism
+    name: AttestationMechanism
+    fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism
+    href: com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism.yml
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismSucceed*
+  name: setAttestationMechanismSucceed
+  nameWithType: IndividualEnrollmentTest.setAttestationMechanismSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationMechanismSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationThrowsOnNull*
+  name: setAttestationThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setAttestationThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationSucceed*
+  name: setAttestationSucceed
+  nameWithType: IndividualEnrollmentTest.setAttestationSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setAttestationSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNull*
+  name: setIotHubHostNameThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnEmpty*
+  name: setIotHubHostNameThrowsOnEmpty
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNotUTF8*
+  name: setIotHubHostNameThrowsOnNotUTF8
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnNotUTF8
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnNotUTF8
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnInvalidChar*
+  name: setIotHubHostNameThrowsOnInvalidChar
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnInvalidChar
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnInvalidChar
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnIncompleteName*
+  name: setIotHubHostNameThrowsOnIncompleteName
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameThrowsOnIncompleteName
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameThrowsOnIncompleteName
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameSucceed*
+  name: setIotHubHostNameSucceed
+  nameWithType: IndividualEnrollmentTest.setIotHubHostNameSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setIotHubHostNameSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinThrowsOnNull*
+  name: setInitialTwinThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setInitialTwinThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinSucceed*
+  name: setInitialTwinSucceed
+  nameWithType: IndividualEnrollmentTest.setInitialTwinSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setInitialTwinSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusThrowsOnNull*
+  name: setProvisioningStatusThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setProvisioningStatusThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusSucceed*
+  name: setProvisioningStatusSucceed
+  nameWithType: IndividualEnrollmentTest.setProvisioningStatusSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setProvisioningStatusSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcSucceed*
+  name: setCreatedDateTimeUtcSucceed
+  nameWithType: IndividualEnrollmentTest.setCreatedDateTimeUtcSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnNull*
+  name: setCreatedDateTimeUtcThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnEmpty*
+  name: setCreatedDateTimeUtcThrowsOnEmpty
+  nameWithType: IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnInvalid*
+  name: setCreatedDateTimeUtcThrowsOnInvalid
+  nameWithType: IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnInvalid
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setCreatedDateTimeUtcThrowsOnInvalid
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcSucceed*
+  name: setLastUpdatedDateTimeUtcSucceed
+  nameWithType: IndividualEnrollmentTest.setLastUpdatedDateTimeUtcSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnNull*
+  name: setLastUpdatedDateTimeUtcThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnEmpty*
+  name: setLastUpdatedDateTimeUtcThrowsOnEmpty
+  nameWithType: IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnInvalid*
+  name: setLastUpdatedDateTimeUtcThrowsOnInvalid
+  nameWithType: IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnInvalid
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setLastUpdatedDateTimeUtcThrowsOnInvalid
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNull*
+  name: setEtagThrowsOnNull
+  nameWithType: IndividualEnrollmentTest.setEtagThrowsOnNull
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNull
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnEmpty*
+  name: setEtagThrowsOnEmpty
+  nameWithType: IndividualEnrollmentTest.setEtagThrowsOnEmpty
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnEmpty
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNotUTF8*
+  name: setEtagThrowsOnNotUTF8
+  nameWithType: IndividualEnrollmentTest.setEtagThrowsOnNotUTF8
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagThrowsOnNotUTF8
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagSucceed*
+  name: setEtagSucceed
+  nameWithType: IndividualEnrollmentTest.setEtagSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setEtagSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceCapabilitiesSucceed*
+  name: setDeviceCapabilitiesSucceed
+  nameWithType: IndividualEnrollmentTest.setDeviceCapabilitiesSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.setDeviceCapabilitiesSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorSucceed*
+  name: constructorSucceed
+  nameWithType: IndividualEnrollmentTest.constructorSucceed
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollmentTest.constructorSucceed
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.configs
+- uid: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility.dateTimeUtcToString(Date)
+  parent: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility
+  href: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility.yml
+  name: dateTimeUtcToString(Date date)
+  nameWithType: ParserUtility.dateTimeUtcToString(Date date)
+  fullName: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility.dateTimeUtcToString(Date date)
+  type: Method
+  summary: >-
+    <p>Helper to convert the provided Date UTC into String. Expected result: "2016-06-01T21:22:43.799Z"</p>
+
+    <p></p>
+  syntax:
+    content: public static String dateTimeUtcToString(Date date)
+    parameters:
+    - id: date
+      type: "12977444"
+      description: >-
+        <p>is the<code>Date 
+
+            </code> with the date and time </p>
+    return:
+      type: "26831127"
+      description: >-
+        <p>the<code>String 
+
+            </code> with the date and time using the UTC format. </p>
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment.yml
+  name: IndividualEnrollment
+  nameWithType: IndividualEnrollment
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment
+  type: Class
+  summary: >-
+    <p>Representation of a single Device Provisioning Service enrollment with a JSON serializer and deserializer.</p>
+
+    <p>This object is used to send IndividualEnrollment information to the provisioning service, or receive IndividualEnrollment information from the provisioning service.</p>
+
+    <p>To create or update an IndividualEnrollment on the provisioning service you should fill this object and call the public API <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.ProvisioningServiceClient.createOrUpdateIndividualEnrollment(IndividualEnrollment)" data-throw-if-not-resolved="false">ProvisioningServiceClient#createOrUpdateIndividualEnrollment(IndividualEnrollment)</xref>. The minimum information required by the provisioning service is the<code>registrationId 
+
+        </code> and the <code>attestation 
+
+        </code> .</p>
+
+    <p>A new device can be provisioned by two attestation mechanisms, Trust Platform Module (see <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation" data-throw-if-not-resolved="false">TpmAttestation</xref>) or X509 (see <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation" data-throw-if-not-resolved="false">X509Attestation</xref>). The definition of each one you should use depending on the physical authentication hardware that the device contains.</p>
+
+    <p>The content of this class will be serialized in a JSON format and sent as a body of the rest API to the provisioning service.</p>
+
+    <p>When serialized, an IndividualEnrollment will look like the following example:</p>
+
+    <p>
+
+      <pre>
+
+        <code>{
+
+           "registrationId":"validRegistrationId",
+
+           "deviceId":"ContosoDevice-123",
+
+           "attestation":{
+
+               "type":"tpm",
+
+               "tpm":{
+
+                   "endorsementKey":"validEndorsementKey"
+
+               }
+
+           },
+
+           "iotHubHostName":"ContosoIoTHub.azure-devices.net",
+
+           "provisioningStatus":"enabled"
+
+        }
+
+        </code>
+
+      </pre>
+
+    </p>
+
+    <p>The content of this class can be filled by a JSON, received from the provisioning service, as result of a IndividualEnrollment operation like create, update, or query enrollment.</p>
+
+    <p>The following JSON is a sample or the IndividualEnrollment response, received from the provisioning service.</p>
+
+    <p>
+
+      <pre>
+
+        <code>{
+
+           "registrationId":"validRegistrationId",
+
+           "deviceId":"ContosoDevice-123",
+
+           "attestation":{
+
+               "type":"tpm",
+
+               "tpm":{
+
+                   "endorsementKey":"validEndorsementKey"
+
+               }
+
+           },
+
+           "iotHubHostName":"ContosoIoTHub.azure-devices.net",
+
+           "provisioningStatus":"enabled"
+
+           "createdDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+           "lastUpdatedDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+           "etag": "\"00000000-0000-0000-0000-00000000000\""
+
+        }
+
+        </code>
+
+      </pre>
+
+    </p>
+
+    <p></p>
+  syntax:
+    content: public class IndividualEnrollment extends Serializable
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState.yml
+  name: TwinState
+  nameWithType: TwinState
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState
+  type: Class
+  summary: >-
+    <p>Representation of a single Twin initial state for the Device Provisioning Service.</p>
+
+    <p>The TwinState can contain one <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollection" data-throw-if-not-resolved="false">TwinCollection</xref> of <b>Tags</b>, and one <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinCollection" data-throw-if-not-resolved="false">TwinCollection</xref> of <b>properties.desired</b>.</p>
+
+    <p>Each entity in the collections can contain a associated <xref uid="" data-throw-if-not-resolved="false">TwinMetadata</xref>.</p>
+
+    <p>These metadata are provided by the Service and contains information about the last updated date time, and version.</p>
+
+    <p>For instance, the following is a valid TwinState, represented as <code>initialTwin 
+
+        </code> in the rest API. <pre><code>{
+
+            "initialTwin": {
+
+                "tags":{
+
+                    "SpeedUnity":"MPH",
+
+                    "$metadata":{
+
+                        "$lastUpdated":"2017-09-21T02:07:44.238Z",
+
+                        "$lastUpdatedVersion":4,
+
+                        "SpeedUnity":{
+
+                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
+
+                            "$lastUpdatedVersion":4
+
+                        }
+
+                    },
+
+                    "$version":4
+
+                }
+
+                "properties":{
+
+                    "desired": {
+
+                        "MaxSpeed":{
+
+                            "Value":500,
+
+                            "NewValue":300
+
+                        },
+
+                        "$metadata":{
+
+                            "$lastUpdated":"2017-09-21T02:07:44.238Z",
+
+                            "$lastUpdatedVersion":4,
+
+                            "MaxSpeed":{
+
+                                "$lastUpdated":"2017-09-21T02:07:44.238Z",
+
+                                "$lastUpdatedVersion":4,
+
+                                "Value":{
+
+                                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
+
+                                    "$lastUpdatedVersion":4
+
+                                },
+
+                                "NewValue":{
+
+                                    "$lastUpdated":"2017-09-21T02:07:44.238Z",
+
+                                    "$lastUpdatedVersion":4
+
+                                }
+
+                            }
+
+                        },
+
+                        "$version":4
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        </code></pre></p>
+
+    <p></p>
+  syntax:
+    content: public class TwinState
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException.yml
+  name: ProvisioningServiceClientException
+  nameWithType: ProvisioningServiceClientException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.exceptions.ProvisioningServiceClientException
+  type: Class
+  summary: >-
+    <p>Super class for the Device Provisioning Service exceptions on the Service Client.</p>
+
+    <p>
+
+      <pre>
+
+        <code>ProvisioningServiceClientException
+
+            |
+
+            +--&gt;ProvisioningServiceClientTransportException [any transport layer exception]
+
+            |
+
+            +--&gt;ProvisioningServiceClientServiceException [any exception reported in the http response]
+
+                    |
+
+                    |
+
+                    +--&gt;ProvisioningServiceClientBadUsageException [any http response 4xx]
+
+                    |        |
+
+                    |        +--&gt;ProvisioningServiceClientBadFormatException [400]
+
+                    |        +--&gt;ProvisioningServiceClientUnathorizedException [401]
+
+                    |        +--&gt;ProvisioningServiceClientNotFoundException [404]
+
+                    |        +--&gt;ProvisioningServiceClientPreconditionFailedException [412]
+
+                    |        +--&gt;ProvisioningServiceClientTooManyRequestsException [429]
+
+                    |
+
+                    +--&gt;ProvisioningServiceClientTransientException [any http response 5xx]
+
+                    |        |
+
+                    |        +--&gt;ProvisioningServiceClientInternalServerErrorException [500]
+
+                    |
+
+                    +--&gt;ProvisioningServiceClientUnknownException [any other http response &gt;300, but not 4xx or 5xx]
+
+        </code>
+
+      </pre>
+
+    </p>
+  syntax:
+    content: public class ProvisioningServiceClientException
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState.yml
+  name: DeviceRegistrationState
+  nameWithType: DeviceRegistrationState
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState
+  type: Class
+  summary: >-
+    <p>Representation of a single Device Provisioning Service device registration state with a JSON deserializer.</p>
+
+    <p>Example of JSON format: <pre><code>{
+
+            "registrationId":"validRegistrationId",
+
+            "createdDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+            "assignedHub":"ContosoIoTHub.azure-devices.net",
+
+            "deviceId":"ContosoDevice-123",
+
+            "status":"assigned"
+
+            "lastUpdatedDateTimeUtc": "2017-09-28T16:29:42.3447817Z",
+
+            "errorCode":200
+
+            "errorMessage":"Succeeded"
+
+            "etag": "\"00000000-0000-0000-0000-00000000000\""
+
+        }
+
+        </code></pre></p>
+
+    <p></p>
+  syntax:
+    content: public class DeviceRegistrationState
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation.yml
+  name: TpmAttestation
+  nameWithType: TpmAttestation
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation
+  type: Class
+  summary: >-
+    <p>Representation of a single Device Provisioning Service TPM Attestation.</p>
+
+    <p>The provisioning service supports Trusted Platform Module, or TPM, as the device attestation mechanism. User must provide the Endorsement Key, and can, optionally, provide the Storage Root Key.</p>
+
+    <p></p>
+  syntax:
+    content: public class TpmAttestation
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.configs
+  href: com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism.yml
+  name: AttestationMechanism
+  nameWithType: AttestationMechanism
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism
+  type: Class
+  summary: >-
+    <p>Representation of a single Device Provisioning Service Attestation mechanism in the IndividualEnrollment and EnrollmentGroup.</p>
+
+    <p>It is an internal class that converts one of the attestations into JSON format. To configure the attestation mechanism, see the external API <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation" data-throw-if-not-resolved="false">Attestation</xref>.</p>
+
+    <p></p>
+  syntax:
+    content: public class AttestationMechanism

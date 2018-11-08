@@ -3,8 +3,8 @@ items:
 - uid: com.microsoft.applicationinsights.channel
   id: channel
   children:
-  - com.microsoft.applicationinsights.channel._telemetry_channel
-  - com.microsoft.applicationinsights.channel._telemetry_sampler
+  - com.microsoft.applicationinsights.channel.TelemetryChannel
+  - com.microsoft.applicationinsights.channel.TelemetrySampler
   href: com.microsoft.applicationinsights.channel.yml
   langs:
   - java
@@ -22,9 +22,9 @@ items:
   syntax:
     content: package com.microsoft.applicationinsights.channel
 references:
-- uid: com.microsoft.applicationinsights.channel._telemetry_channel
+- uid: com.microsoft.applicationinsights.channel.TelemetryChannel
   parent: com.microsoft.applicationinsights.channel
-  href: com.microsoft.applicationinsights.channel._telemetry_channel.yml
+  href: com.microsoft.applicationinsights.channel.TelemetryChannel.yml
   name: TelemetryChannel
   nameWithType: TelemetryChannel
   fullName: com.microsoft.applicationinsights.channel.TelemetryChannel
@@ -32,9 +32,9 @@ references:
   summary: <p>Represents a communication channel for sending telemetry to Azure Application Insights. </p>
   syntax:
     content: public interface TelemetryChannel
-- uid: com.microsoft.applicationinsights.channel._telemetry_sampler
+- uid: com.microsoft.applicationinsights.channel.TelemetrySampler
   parent: com.microsoft.applicationinsights.channel
-  href: com.microsoft.applicationinsights.channel._telemetry_sampler.yml
+  href: com.microsoft.applicationinsights.channel.TelemetrySampler.yml
   name: TelemetrySampler
   nameWithType: TelemetrySampler
   fullName: com.microsoft.applicationinsights.channel.TelemetrySampler

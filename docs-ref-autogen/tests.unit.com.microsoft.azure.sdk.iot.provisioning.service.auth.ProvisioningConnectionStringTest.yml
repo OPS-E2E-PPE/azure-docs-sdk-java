@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  id: ProvisioningConnectionStringTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getAuthenticationMethodSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getDeviceProvisioningServiceNameSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getHostNameSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeyNameSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeySucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessSignatureSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getUserStringSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeyNameSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeySucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessSignatureSucceeded()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.toStringSucceeded()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: ProvisioningConnectionStringTest
+  nameWithType: ProvisioningConnectionStringTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 19
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  summary: "<p>Unit test for Provisioning Connection String 100% methods, 100% lines covered </p>"
+  syntax:
+    content: public class ProvisioningConnectionStringTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getAuthenticationMethodSucceeded()
+  id: getAuthenticationMethodSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: getAuthenticationMethodSucceeded()
+  nameWithType: ProvisioningConnectionStringTest.getAuthenticationMethodSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getAuthenticationMethodSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getAuthenticationMethodSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 92
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void getAuthenticationMethodSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getDeviceProvisioningServiceNameSucceeded()
+  id: getDeviceProvisioningServiceNameSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: getDeviceProvisioningServiceNameSucceeded()
+  nameWithType: ProvisioningConnectionStringTest.getDeviceProvisioningServiceNameSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getDeviceProvisioningServiceNameSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getDeviceProvisioningServiceNameSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 78
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void getDeviceProvisioningServiceNameSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getHostNameSucceeded()
+  id: getHostNameSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: getHostNameSucceeded()
+  nameWithType: ProvisioningConnectionStringTest.getHostNameSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getHostNameSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getHostNameSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 148
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void getHostNameSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeyNameSucceeded()
+  id: getSharedAccessKeyNameSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: getSharedAccessKeyNameSucceeded()
+  nameWithType: ProvisioningConnectionStringTest.getSharedAccessKeyNameSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeyNameSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeyNameSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 106
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void getSharedAccessKeyNameSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeySucceeded()
+  id: getSharedAccessKeySucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: getSharedAccessKeySucceeded()
+  nameWithType: ProvisioningConnectionStringTest.getSharedAccessKeySucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeySucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeySucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 120
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void getSharedAccessKeySucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessSignatureSucceeded()
+  id: getSharedAccessSignatureSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: getSharedAccessSignatureSucceeded()
+  nameWithType: ProvisioningConnectionStringTest.getSharedAccessSignatureSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessSignatureSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessSignatureSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 134
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void getSharedAccessSignatureSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getUserStringSucceeded()
+  id: getUserStringSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: getUserStringSucceeded()
+  nameWithType: ProvisioningConnectionStringTest.getUserStringSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getUserStringSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getUserStringSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 46
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void getUserStringSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeyNameSucceeded()
+  id: setSharedAccessKeyNameSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: setSharedAccessKeyNameSucceeded()
+  nameWithType: ProvisioningConnectionStringTest.setSharedAccessKeyNameSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeyNameSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeyNameSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 162
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void setSharedAccessKeyNameSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeySucceeded()
+  id: setSharedAccessKeySucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: setSharedAccessKeySucceeded()
+  nameWithType: ProvisioningConnectionStringTest.setSharedAccessKeySucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeySucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeySucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 177
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void setSharedAccessKeySucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessSignatureSucceeded()
+  id: setSharedAccessSignatureSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: setSharedAccessSignatureSucceeded()
+  nameWithType: ProvisioningConnectionStringTest.setSharedAccessSignatureSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessSignatureSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessSignatureSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 192
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void setSharedAccessSignatureSucceeded()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.toStringSucceeded()
+  id: toStringSucceeded()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.yml
+  langs:
+  - java
+  name: toStringSucceeded()
+  nameWithType: ProvisioningConnectionStringTest.toStringSucceeded()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.toStringSucceeded()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.toStringSucceeded*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-service-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/service/auth/ProvisioningConnectionStringTest.java
+    startLine: 60
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+  syntax:
+    content: public void toStringSucceeded()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getUserStringSucceeded*
+  name: getUserStringSucceeded
+  nameWithType: ProvisioningConnectionStringTest.getUserStringSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getUserStringSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.toStringSucceeded*
+  name: toStringSucceeded
+  nameWithType: ProvisioningConnectionStringTest.toStringSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.toStringSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getDeviceProvisioningServiceNameSucceeded*
+  name: getDeviceProvisioningServiceNameSucceeded
+  nameWithType: ProvisioningConnectionStringTest.getDeviceProvisioningServiceNameSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getDeviceProvisioningServiceNameSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getAuthenticationMethodSucceeded*
+  name: getAuthenticationMethodSucceeded
+  nameWithType: ProvisioningConnectionStringTest.getAuthenticationMethodSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getAuthenticationMethodSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeyNameSucceeded*
+  name: getSharedAccessKeyNameSucceeded
+  nameWithType: ProvisioningConnectionStringTest.getSharedAccessKeyNameSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeyNameSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeySucceeded*
+  name: getSharedAccessKeySucceeded
+  nameWithType: ProvisioningConnectionStringTest.getSharedAccessKeySucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessKeySucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessSignatureSucceeded*
+  name: getSharedAccessSignatureSucceeded
+  nameWithType: ProvisioningConnectionStringTest.getSharedAccessSignatureSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getSharedAccessSignatureSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getHostNameSucceeded*
+  name: getHostNameSucceeded
+  nameWithType: ProvisioningConnectionStringTest.getHostNameSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.getHostNameSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeyNameSucceeded*
+  name: setSharedAccessKeyNameSucceeded
+  nameWithType: ProvisioningConnectionStringTest.setSharedAccessKeyNameSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeyNameSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeySucceeded*
+  name: setSharedAccessKeySucceeded
+  nameWithType: ProvisioningConnectionStringTest.setSharedAccessKeySucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessKeySucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessSignatureSucceeded*
+  name: setSharedAccessSignatureSucceeded
+  nameWithType: ProvisioningConnectionStringTest.setSharedAccessSignatureSucceeded
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionStringTest.setSharedAccessSignatureSucceeded
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.service.auth
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.auth.AuthenticationMethod
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.auth
+  href: com.microsoft.azure.sdk.iot.provisioning.service.auth.AuthenticationMethod.yml
+  name: AuthenticationMethod
+  nameWithType: AuthenticationMethod
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.auth.AuthenticationMethod
+  type: Class
+  summary: <p>Class used to abstract the different authentication methods used to use Provisioning SDK. </p>
+  syntax:
+    content: public class AuthenticationMethod
+- uid: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString
+  parent: com.microsoft.azure.sdk.iot.provisioning.service.auth
+  href: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString.yml
+  name: ProvisioningConnectionString
+  nameWithType: ProvisioningConnectionString
+  fullName: com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString
+  type: Class
+  summary: <p>Expose all connections string properties and methods for user, device and connection string serialization. </p>
+  syntax:
+    content: public class ProvisioningConnectionString extends ProvisioningConnectionStringBuilder

@@ -1,0 +1,353 @@
+### YamlMime:ManagedReference
+items:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  id: ProvisioningDeviceClientTest
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  children:
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowTerminatedSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyEndPoint()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyScopeId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullEndPoint()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullProtocol()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullScopeId()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullSecurityClient()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerSucceeds()
+  - tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerThrowsOnNullCB()
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: ProvisioningDeviceClientTest
+  nameWithType: ProvisioningDeviceClientTest
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  type: Class
+  source:
+    remote: &o0
+      path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-java
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 33
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public class ProvisioningDeviceClientTest
+  inheritance:
+  - java.lang.Object
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowSucceeds()
+  id: closeNowSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: closeNowSucceeds()
+  nameWithType: ProvisioningDeviceClientTest.closeNowSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 170
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void closeNowSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowTerminatedSucceeds()
+  id: closeNowTerminatedSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: closeNowTerminatedSucceeds()
+  nameWithType: ProvisioningDeviceClientTest.closeNowTerminatedSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowTerminatedSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowTerminatedSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 195
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void closeNowTerminatedSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorSucceeds()
+  id: constructorSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: constructorSucceeds()
+  nameWithType: ProvisioningDeviceClientTest.constructorSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 64
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void constructorSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyEndPoint()
+  id: constructorThrowsOnEmptyEndPoint()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnEmptyEndPoint()
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnEmptyEndPoint()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyEndPoint()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyEndPoint*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 99
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void constructorThrowsOnEmptyEndPoint()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyScopeId()
+  id: constructorThrowsOnEmptyScopeId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnEmptyScopeId()
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnEmptyScopeId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyScopeId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyScopeId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 114
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void constructorThrowsOnEmptyScopeId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullEndPoint()
+  id: constructorThrowsOnNullEndPoint()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullEndPoint()
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnNullEndPoint()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullEndPoint()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullEndPoint*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 92
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void constructorThrowsOnNullEndPoint()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullProtocol()
+  id: constructorThrowsOnNullProtocol()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullProtocol()
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnNullProtocol()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullProtocol()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullProtocol*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 122
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void constructorThrowsOnNullProtocol()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullScopeId()
+  id: constructorThrowsOnNullScopeId()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullScopeId()
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnNullScopeId()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullScopeId()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullScopeId*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 107
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void constructorThrowsOnNullScopeId()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullSecurityClient()
+  id: constructorThrowsOnNullSecurityClient()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: constructorThrowsOnNullSecurityClient()
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnNullSecurityClient()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullSecurityClient()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullSecurityClient*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 130
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void constructorThrowsOnNullSecurityClient()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerSucceeds()
+  id: registerSucceeds()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: registerSucceeds()
+  nameWithType: ProvisioningDeviceClientTest.registerSucceeds()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerSucceeds()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerSucceeds*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 139
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void registerSucceeds()
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerThrowsOnNullCB()
+  id: registerThrowsOnNullCB()
+  parent: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest
+  href: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.yml
+  langs:
+  - java
+  name: registerThrowsOnNullCB()
+  nameWithType: ProvisioningDeviceClientTest.registerThrowsOnNullCB()
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerThrowsOnNullCB()
+  overload: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerThrowsOnNullCB*
+  type: Method
+  source:
+    remote: *o0
+    path: provisioning/provisioning-device-client/src/test/java/tests/unit/com/microsoft/azure/sdk/iot/provisioning/device/ProvisioningDeviceClientTest.java
+    startLine: 160
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+  syntax:
+    content: public void registerThrowsOnNullCB()
+references:
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorSucceeds*
+  name: constructorSucceeds
+  nameWithType: ProvisioningDeviceClientTest.constructorSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullEndPoint*
+  name: constructorThrowsOnNullEndPoint
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnNullEndPoint
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullEndPoint
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyEndPoint*
+  name: constructorThrowsOnEmptyEndPoint
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnEmptyEndPoint
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyEndPoint
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullScopeId*
+  name: constructorThrowsOnNullScopeId
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnNullScopeId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullScopeId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyScopeId*
+  name: constructorThrowsOnEmptyScopeId
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnEmptyScopeId
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnEmptyScopeId
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullProtocol*
+  name: constructorThrowsOnNullProtocol
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnNullProtocol
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullProtocol
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullSecurityClient*
+  name: constructorThrowsOnNullSecurityClient
+  nameWithType: ProvisioningDeviceClientTest.constructorThrowsOnNullSecurityClient
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.constructorThrowsOnNullSecurityClient
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerSucceeds*
+  name: registerSucceeds
+  nameWithType: ProvisioningDeviceClientTest.registerSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerThrowsOnNullCB*
+  name: registerThrowsOnNullCB
+  nameWithType: ProvisioningDeviceClientTest.registerThrowsOnNullCB
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.registerThrowsOnNullCB
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowSucceeds*
+  name: closeNowSucceeds
+  nameWithType: ProvisioningDeviceClientTest.closeNowSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowTerminatedSucceeds*
+  name: closeNowTerminatedSucceeds
+  nameWithType: ProvisioningDeviceClientTest.closeNowTerminatedSucceeds
+  fullName: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTest.closeNowTerminatedSucceeds
+  package: tests.unit.com.microsoft.azure.sdk.iot.provisioning.device
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTransportProtocol
+  parent: com.microsoft.azure.sdk.iot.provisioning.device
+  href: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTransportProtocol.yml
+  name: ProvisioningDeviceClientTransportProtocol
+  nameWithType: ProvisioningDeviceClientTransportProtocol
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientTransportProtocol
+  type: Enum
+  syntax:
+    content: public enum ProvisioningDeviceClientTransportProtocol
+- uid: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider
+  parent: com.microsoft.azure.sdk.iot.provisioning.security
+  href: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider.yml
+  name: SecurityProvider
+  nameWithType: SecurityProvider
+  fullName: com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider
+  type: Class
+  syntax:
+    content: public class SecurityProvider
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationCallback
+  parent: com.microsoft.azure.sdk.iot.provisioning.device
+  href: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationCallback.yml
+  name: ProvisioningDeviceClientRegistrationCallback
+  nameWithType: ProvisioningDeviceClientRegistrationCallback
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.ProvisioningDeviceClientRegistrationCallback
+  type: Interface
+  syntax:
+    content: public interface ProvisioningDeviceClientRegistrationCallback
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig.yml
+  name: ProvisioningDeviceClientConfig
+  nameWithType: ProvisioningDeviceClientConfig
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientConfig
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract.yml
+  name: ProvisioningDeviceClientContract
+  nameWithType: ProvisioningDeviceClientContract
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientContract
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTask
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTask.yml
+  name: ProvisioningTask
+  nameWithType: ProvisioningTask
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTask
+  type: Class
+  syntax:
+    content: public class ProvisioningTask
+- uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  parent: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+  href: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException.yml
+  name: ProvisioningDeviceClientException
+  nameWithType: ProvisioningDeviceClientException
+  fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions.ProvisioningDeviceClientException
+  type: Class
+  syntax:
+    content: public class ProvisioningDeviceClientException
