@@ -1,5 +1,6 @@
 {
   "build_entry_point": "docs",
+  "enable_git_features": false,
   "docsets_to_publish": [
     {
       "docset_name": "e2eppe-AzureJava",
@@ -7,13 +8,21 @@
       "build_output_subfolder": "e2eppe-azure/sdk/java",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
+      "moniker_ranges": [
+        "azure-java-stable",
+        "azure-java-preview",
+        "azure-java-legacy"
+      ],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
-        "ManagedReference": "Content",
         "RestApi": "Content",
-        "LandingData": "Content"
+        "LandingData": "Content",
+        "JavaMember": "Content",
+        "JavaType": "Content",
+        "JavaPackage": "Content",
+        "JavaEnum": "Content",
+        "ReferenceContainer": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
@@ -22,18 +31,24 @@
       ],
       "customized_tasks": {
         "docset_prebuild": [
-          "_dependentPackages/splitToc/tools/run.ps1",
+          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
           "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1",
           "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
         ]
       },
+      "DiffFolder": [
+        "api"
+      ],
       "version": 0
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
+  "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
+  "need_preview_pull_request": true,
+  "enable_incremental_build": false,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
@@ -49,14 +64,44 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "_sample",
-      "url": "https://github.com/rickle-msft/azure-storage-java",
-      "branch": "async-samplesInDocTest",
+      "path_to_root": "_functionsref",
+      "url": "https://github.com/Azure/azure-functions-java-library",
+      "branch": "master",
+      "branch_mapping": {},
+      "include_in_build": true
+    },
+    {
+      "path_to_root": "preview/_mavenref",
+      "url": "https://github.com/Microsoft/azure-maven-plugins/",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "preview/azure-storage-java",
+      "url": "https://github.com/Azure/azure-storage-java",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "azure-storage-java",
+      "url": "https://github.com/Azure/azure-storage-java",
+      "branch": "master",
       "branch_mapping": {}
     }
   ],
+  "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
+  "targets": {},
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
   "dependent_packages": [
+    {
+      "id": "opbuild.templates.uref",
+      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
+      "path_to_root": "_dependentPackages/uref.plugins",
+      "target_framework": "net45",
+      "version": "latest-prerelease"
+    },
     {
       "id": "Microsoft.OpenPublishing.CommonPlugins",
       "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
@@ -65,29 +110,54 @@
       "version": "latest-prerelease"
     },
     {
-      "id": "SplitToc",
-      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
-      "path_to_root": "_dependentPackages/splitToc",
-      "target_framework": "net45",
-      "version": "latest-prerelease"
-    },
-    {
-      "id": "memberpage.plugins",
-      "nuget_feed": "https://www.myget.org/F/docfx-dev/api/v2",
       "path_to_root": "_dependentPackages/memberpage.plugins",
       "target_framework": "net45",
-      "version": "latest-prerelease"
+      "version": "latest",
+      "id": "memberpage.plugins",
+      "nuget_feed": "https://www.myget.org/F/docfx/api/v2"
     }
+  ],
+  "SplitTOC": [
+    "docs-ref-autogen/toc.yml",
+    "preview/docs-ref-autogen/toc.yml",
+    "legacy/docs-ref-autogen/toc.yml"
   ],
   "JoinTOCPlugin": [
     {
-      "TopLevelTOC": "docs-ref-mapping/reference.yml",
+      "TopLevelTOC": "docs-ref-mapping/reference-latest.yml",
       "ReferenceTOC": "docs-ref-autogen/toc.yml",
-      "ConceptualTOC": "docs-ref-conceptual/toc.yml",
-      "ReferenceTOCUrl": "/java/api/toc.json",
-      "ConceptualTOCUrl": "/java/azure/toc.json",
-      "HideEmptyNode": true,
+      "ReferenceTOCUrl": "/java/api/azure/toc.json",
+      "ConceptualTOCUrl": "/azure/developer/java/sdk/toc.json",
       "OutputFolder": "docs-ref-autogen/overview/azure",
+      "HideEmptyNode": false,
+      "ContainerPageMetadata": {
+        "langs": [
+          "java"
+        ],
+        "open_to_public_contributors": false
+      }
+    },
+    {
+      "TopLevelTOC": "preview/docs-ref-mapping/reference-preview.yml",
+      "ReferenceTOC": "preview/docs-ref-autogen/toc.yml",
+      "ReferenceTOCUrl": "/java/api/azure/toc.json",
+      "ConceptualTOCUrl": "/azure/developer/java/sdk/toc.json",
+      "OutputFolder": "preview/docs-ref-autogen/overview/azure",
+      "HideEmptyNode": false,
+      "ContainerPageMetadata": {
+        "langs": [
+          "java"
+        ],
+        "open_to_public_contributors": false
+      }
+    },
+    {
+      "TopLevelTOC": "legacy/docs-ref-mapping/reference.yml",
+      "ReferenceTOC": "legacy/docs-ref-autogen/toc.yml",
+      "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=azure-java-legacy",
+      "ConceptualTOCUrl": "/azure/developer/java/sdk/toc.json",
+      "OutputFolder": "legacy/docs-ref-autogen/overview/azure",
+      "HideEmptyNode": false,
       "ContainerPageMetadata": {
         "langs": [
           "java"
@@ -96,11 +166,7 @@
       }
     }
   ],
-  "DiffFolder": [
-    "docs-ref-autogen/overview/azure"
-  ],
-  "toc_path_need_to_split": "docs-ref-autogen/toc.yml",
-  "git_repository_branch_open_to_public_contributors": "master",
-  "need_generate_pdf_url_template": false,
-  "enable_incremental_build": false
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  }
 }

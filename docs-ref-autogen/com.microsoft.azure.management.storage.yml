@@ -1,524 +1,237 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.microsoft.azure.management.storage
-  id: storage
-  children:
-  - com.microsoft.azure.management.storage._access_tier
-  - com.microsoft.azure.management.storage._account_status
-  - com.microsoft.azure.management.storage._check_name_availability_result
-  - com.microsoft.azure.management.storage._custom_domain
-  - com.microsoft.azure.management.storage._encryption
-  - com.microsoft.azure.management.storage._encryption_service
-  - com.microsoft.azure.management.storage._encryption_services
-  - com.microsoft.azure.management.storage._endpoints
-  - com.microsoft.azure.management.storage._key_permission
-  - com.microsoft.azure.management.storage._kind
-  - com.microsoft.azure.management.storage._provisioning_state
-  - com.microsoft.azure.management.storage._public_endpoints
-  - com.microsoft.azure.management.storage._reason
-  - com.microsoft.azure.management.storage._sku
-  - com.microsoft.azure.management.storage._sku_name
-  - com.microsoft.azure.management.storage._sku_tier
-  - com.microsoft.azure.management.storage._storage_account
-  - com.microsoft.azure.management.storage._storage_account._definition
-  - com.microsoft.azure.management.storage._storage_account._definition_s469b9019a19fe54d19162f72153772ed
-  - com.microsoft.azure.management.storage._storage_account._definition_s4e606f8612789a1189b4dcfd5933aff9
-  - com.microsoft.azure.management.storage._storage_account._definition_s94c180d27e5621e165c3464e9c5a649c
-  - com.microsoft.azure.management.storage._storage_account._definition_stages
-  - com.microsoft.azure.management.storage._storage_account._definition_stages._blank
-  - com.microsoft.azure.management.storage._storage_account._definition_stages._with_create
-  - com.microsoft.azure.management.storage._storage_account._definition_stages._with_custom_domain
-  - com.microsoft.azure.management.storage._storage_account._definition_stages._with_encryption
-  - com.microsoft.azure.management.storage._storage_account._definition_stages._with_group
-  - com.microsoft.azure.management.storage._storage_account._definition_stages._with_sku
-  - com.microsoft.azure.management.storage._storage_account._update
-  - com.microsoft.azure.management.storage._storage_account._update_stages
-  - com.microsoft.azure.management.storage._storage_account._update_stages._with_access_tier
-  - com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain
-  - com.microsoft.azure.management.storage._storage_account._update_stages._with_encryption
-  - com.microsoft.azure.management.storage._storage_account._update_stages._with_sku
-  - com.microsoft.azure.management.storage._storage_account_check_name_availability_parameters
-  - com.microsoft.azure.management.storage._storage_account_encryption_key_source
-  - com.microsoft.azure.management.storage._storage_account_encryption_status
-  - com.microsoft.azure.management.storage._storage_account_key
-  - com.microsoft.azure.management.storage._storage_account_regenerate_key_parameters
-  - com.microsoft.azure.management.storage._storage_accounts
-  - com.microsoft.azure.management.storage._storage_service
-  - com.microsoft.azure.management.storage._storage_usage
-  - com.microsoft.azure.management.storage._usage_name
-  - com.microsoft.azure.management.storage._usage_unit
-  - com.microsoft.azure.management.storage._usages
-  href: com.microsoft.azure.management.storage.yml
-  langs:
-  - java
-  name: com.microsoft.azure.management.storage
-  nameWithType: com.microsoft.azure.management.storage
-  fullName: com.microsoft.azure.management.storage
-  type: Namespace
-  source:
-    remote:
-      path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/AccessTier.java
-      branch: v1.3.0
-      repo: https://github.com/Azure/azure-sdk-for-java
-    path: azure-mgmt-storage/src/main/java/com/microsoft/azure/management/storage/AccessTier.java
-    startLine: 8
-  summary: <p>This package contains the classes for StorageManagementClient. The Storage Management Client. </p>
-  syntax:
-    content: package com.microsoft.azure.management.storage
-references:
-- uid: com.microsoft.azure.management.storage._access_tier
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._access_tier.yml
-  name: AccessTier
-  nameWithType: AccessTier
-  fullName: com.microsoft.azure.management.storage.AccessTier
-  type: Enum
-  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.storage._access_tier" data-throw-if-not-resolved="false">AccessTier</xref>. </p>
-  syntax:
-    content: public enum AccessTier
-- uid: com.microsoft.azure.management.storage._account_status
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._account_status.yml
-  name: AccountStatus
-  nameWithType: AccountStatus
-  fullName: com.microsoft.azure.management.storage.AccountStatus
-  type: Enum
-  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.storage._account_status" data-throw-if-not-resolved="false">AccountStatus</xref>. </p>
-  syntax:
-    content: public enum AccountStatus
-- uid: com.microsoft.azure.management.storage._check_name_availability_result
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._check_name_availability_result.yml
-  name: CheckNameAvailabilityResult
-  nameWithType: CheckNameAvailabilityResult
-  fullName: com.microsoft.azure.management.storage.CheckNameAvailabilityResult
-  type: Class
-  summary: <p>The <xref uid="com.microsoft.azure.management.storage._storage_accounts.checkNameAvailability(String)" data-throw-if-not-resolved="false">com.microsoft.azure.management.storage.StorageAccounts#checkNameAvailability</xref> action result. </p>
-  syntax:
-    content: public class CheckNameAvailabilityResult
-- uid: com.microsoft.azure.management.storage._custom_domain
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._custom_domain.yml
-  name: CustomDomain
-  nameWithType: CustomDomain
-  fullName: com.microsoft.azure.management.storage.CustomDomain
-  type: Class
-  summary: <p>The custom domain assigned to this storage account. This can be set via Update. </p>
-  syntax:
-    content: public class CustomDomain
-- uid: com.microsoft.azure.management.storage._encryption
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._encryption.yml
-  name: Encryption
-  nameWithType: Encryption
-  fullName: com.microsoft.azure.management.storage.Encryption
-  type: Class
-  summary: <p>The encryption settings on the storage account. </p>
-  syntax:
-    content: public class Encryption
-- uid: com.microsoft.azure.management.storage._encryption_service
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._encryption_service.yml
-  name: EncryptionService
-  nameWithType: EncryptionService
-  fullName: com.microsoft.azure.management.storage.EncryptionService
-  type: Class
-  summary: <p>A service that allows server-side encryption to be used. </p>
-  syntax:
-    content: public class EncryptionService
-- uid: com.microsoft.azure.management.storage._encryption_services
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._encryption_services.yml
-  name: EncryptionServices
-  nameWithType: EncryptionServices
-  fullName: com.microsoft.azure.management.storage.EncryptionServices
-  type: Class
-  summary: <p>A list of services that support encryption. </p>
-  syntax:
-    content: public class EncryptionServices
-- uid: com.microsoft.azure.management.storage._endpoints
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._endpoints.yml
-  name: Endpoints
-  nameWithType: Endpoints
-  fullName: com.microsoft.azure.management.storage.Endpoints
-  type: Class
-  summary: <p>The URIs that are used to perform a retrieval of a public blob, queue, or table object. </p>
-  syntax:
-    content: public class Endpoints
-- uid: com.microsoft.azure.management.storage._key_permission
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._key_permission.yml
-  name: KeyPermission
-  nameWithType: KeyPermission
-  fullName: com.microsoft.azure.management.storage.KeyPermission
-  type: Enum
-  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.storage._key_permission" data-throw-if-not-resolved="false">KeyPermission</xref>. </p>
-  syntax:
-    content: public enum KeyPermission
-- uid: com.microsoft.azure.management.storage._kind
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._kind.yml
-  name: Kind
-  nameWithType: Kind
-  fullName: com.microsoft.azure.management.storage.Kind
-  type: Enum
-  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.storage._kind" data-throw-if-not-resolved="false">Kind</xref>. </p>
-  syntax:
-    content: public enum Kind
-- uid: com.microsoft.azure.management.storage._provisioning_state
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._provisioning_state.yml
-  name: ProvisioningState
-  nameWithType: ProvisioningState
-  fullName: com.microsoft.azure.management.storage.ProvisioningState
-  type: Enum
-  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.storage._provisioning_state" data-throw-if-not-resolved="false">ProvisioningState</xref>. </p>
-  syntax:
-    content: public enum ProvisioningState
-- uid: com.microsoft.azure.management.storage._public_endpoints
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._public_endpoints.yml
-  name: PublicEndpoints
-  nameWithType: PublicEndpoints
-  fullName: com.microsoft.azure.management.storage.PublicEndpoints
-  type: Class
-  summary: <p>An instance of this class stores the The URIs associated with a storage account that are used to perform a retrieval of a public blob, queue or table object. </p>
-  syntax:
-    content: public class PublicEndpoints
-- uid: com.microsoft.azure.management.storage._reason
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._reason.yml
-  name: Reason
-  nameWithType: Reason
-  fullName: com.microsoft.azure.management.storage.Reason
-  type: Enum
-  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.storage._reason" data-throw-if-not-resolved="false">Reason</xref>. </p>
-  syntax:
-    content: public enum Reason
-- uid: com.microsoft.azure.management.storage._sku
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._sku.yml
-  name: Sku
-  nameWithType: Sku
-  fullName: com.microsoft.azure.management.storage.Sku
-  type: Class
-  summary: <p>The SKU of the storage account. </p>
-  syntax:
-    content: public class Sku
-- uid: com.microsoft.azure.management.storage._sku_name
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._sku_name.yml
-  name: SkuName
-  nameWithType: SkuName
-  fullName: com.microsoft.azure.management.storage.SkuName
-  type: Enum
-  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.storage._sku_name" data-throw-if-not-resolved="false">SkuName</xref>. </p>
-  syntax:
-    content: public enum SkuName
-- uid: com.microsoft.azure.management.storage._sku_tier
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._sku_tier.yml
-  name: SkuTier
-  nameWithType: SkuTier
-  fullName: com.microsoft.azure.management.storage.SkuTier
-  type: Enum
-  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.storage._sku_tier" data-throw-if-not-resolved="false">SkuTier</xref>. </p>
-  syntax:
-    content: public enum SkuTier
-- uid: com.microsoft.azure.management.storage._storage_account
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account.yml
-  name: StorageAccount
-  nameWithType: StorageAccount
-  fullName: com.microsoft.azure.management.storage.StorageAccount
-  type: Interface
-  summary: <p>An immutable client-side representation of an <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> storage account. </p>
-  syntax:
-    content: public interface StorageAccount extends GroupableResource<StorageManager, StorageAccountInner>,Refreshable<StorageAccount>,Updatable<StorageAccount.Update>
-- uid: com.microsoft.azure.management.storage._storage_account_check_name_availability_parameters
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account_check_name_availability_parameters.yml
-  name: StorageAccountCheckNameAvailabilityParameters
-  nameWithType: StorageAccountCheckNameAvailabilityParameters
-  fullName: com.microsoft.azure.management.storage.StorageAccountCheckNameAvailabilityParameters
-  type: Class
-  summary: <p>The <xref uid="com.microsoft.azure.management.storage._storage_account_check_name_availability_parameters" data-throw-if-not-resolved="false">StorageAccountCheckNameAvailabilityParameters</xref> model. </p>
-  syntax:
-    content: public class StorageAccountCheckNameAvailabilityParameters
-- uid: com.microsoft.azure.management.storage._storage_account_encryption_key_source
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account_encryption_key_source.yml
-  name: StorageAccountEncryptionKeySource
-  nameWithType: StorageAccountEncryptionKeySource
-  fullName: com.microsoft.azure.management.storage.StorageAccountEncryptionKeySource
-  type: Class
-  summary: >-
-    <p>
-
-      <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> storage account encryption key sources. </p>
-  syntax:
-    content: public class StorageAccountEncryptionKeySource extends ExpandableStringEnum<StorageAccountEncryptionKeySource>
-- uid: com.microsoft.azure.management.storage._storage_account_encryption_status
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account_encryption_status.yml
-  name: StorageAccountEncryptionStatus
-  nameWithType: StorageAccountEncryptionStatus
-  fullName: com.microsoft.azure.management.storage.StorageAccountEncryptionStatus
-  type: Interface
-  summary: <p>Type representing the encryption status of a storage service. </p>
-  syntax:
-    content: public interface StorageAccountEncryptionStatus
-- uid: com.microsoft.azure.management.storage._storage_account_key
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account_key.yml
-  name: StorageAccountKey
-  nameWithType: StorageAccountKey
-  fullName: com.microsoft.azure.management.storage.StorageAccountKey
-  type: Class
-  summary: <p>An access key for the storage account. </p>
-  syntax:
-    content: public class StorageAccountKey
-- uid: com.microsoft.azure.management.storage._storage_account_regenerate_key_parameters
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account_regenerate_key_parameters.yml
-  name: StorageAccountRegenerateKeyParameters
-  nameWithType: StorageAccountRegenerateKeyParameters
-  fullName: com.microsoft.azure.management.storage.StorageAccountRegenerateKeyParameters
-  type: Class
-  summary: <p>The <xref uid="com.microsoft.azure.management.storage._storage_account_regenerate_key_parameters" data-throw-if-not-resolved="false">StorageAccountRegenerateKeyParameters</xref> model. </p>
-  syntax:
-    content: public class StorageAccountRegenerateKeyParameters
-- uid: com.microsoft.azure.management.storage._storage_accounts
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_accounts.yml
-  name: StorageAccounts
-  nameWithType: StorageAccounts
-  fullName: com.microsoft.azure.management.storage.StorageAccounts
-  type: Interface
-  summary: <p>Entry point for storage accounts management API. </p>
-  syntax:
-    content: public interface StorageAccounts extends SupportsListing<StorageAccount>,SupportsCreating<StorageAccount.DefinitionStages.Blank>,SupportsDeletingById,SupportsListingByResourceGroup<StorageAccount>,SupportsGettingByResourceGroup<StorageAccount>,SupportsGettingById<StorageAccount>,SupportsDeletingByResourceGroup,SupportsBatchCreation<StorageAccount>,SupportsBatchDeletion,HasManager<StorageManager>,HasInner<StorageAccountsInner>
-- uid: com.microsoft.azure.management.storage._storage_service
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_service.yml
-  name: StorageService
-  nameWithType: StorageService
-  fullName: com.microsoft.azure.management.storage.StorageService
-  type: Class
-  summary: >-
-    <p>
-
-      <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> storage service types. </p>
-  syntax:
-    content: public class StorageService extends ExpandableStringEnum<StorageService>
-- uid: com.microsoft.azure.management.storage._storage_usage
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_usage.yml
-  name: StorageUsage
-  nameWithType: StorageUsage
-  fullName: com.microsoft.azure.management.storage.StorageUsage
-  type: Interface
-  summary: <p>An immutable client-side representation of an <xref uid="com.microsoft.azure.management._azure" data-throw-if-not-resolved="false">Azure</xref> storage resource usage info object. </p>
-  syntax:
-    content: public interface StorageUsage extends HasInner<UsageInner>
-- uid: com.microsoft.azure.management.storage._usage_name
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._usage_name.yml
-  name: UsageName
-  nameWithType: UsageName
-  fullName: com.microsoft.azure.management.storage.UsageName
-  type: Class
-  summary: <p>The usage names that can be used; currently limited to <xref uid="com.microsoft.azure.management.storage._storage_account" data-throw-if-not-resolved="false">StorageAccount</xref>. </p>
-  syntax:
-    content: public class UsageName
-- uid: com.microsoft.azure.management.storage._usages
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._usages.yml
-  name: Usages
-  nameWithType: Usages
-  fullName: com.microsoft.azure.management.storage.Usages
-  type: Interface
-  summary: <p>Entry point for storage resource usage management API. </p>
-  syntax:
-    content: public interface Usages extends SupportsListing<StorageUsage>
-- uid: com.microsoft.azure.management.storage._usage_unit
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._usage_unit.yml
-  name: UsageUnit
-  nameWithType: UsageUnit
-  fullName: com.microsoft.azure.management.storage.UsageUnit
-  type: Enum
-  summary: <p>Defines values for <xref uid="com.microsoft.azure.management.storage._usage_unit" data-throw-if-not-resolved="false">UsageUnit</xref>. </p>
-  syntax:
-    content: public enum UsageUnit
-- uid: com.microsoft.azure.management.storage._storage_account._definition_stages._blank
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_stages._blank.yml
-  name: StorageAccount.DefinitionStages.Blank
-  nameWithType: StorageAccount.DefinitionStages.Blank
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.Blank
-  type: Interface
-  summary: <p>The first stage of the storage account definition. </p>
-  syntax:
-    content: public interface Blank extends Resource.DefinitionWithRegion<WithGroup>
-- uid: com.microsoft.azure.management.storage._storage_account._definition
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition.yml
-  name: StorageAccount.Definition
-  nameWithType: StorageAccount.Definition
-  fullName: com.microsoft.azure.management.storage.StorageAccount.Definition
-  type: Interface
-  summary: <p>Container interface for all the definitions that need to be implemented. </p>
-  syntax:
-    content: public interface Definition extends StorageAccount.DefinitionStages.Blank,StorageAccount.DefinitionStages.WithGroup,StorageAccount.DefinitionStages.WithCreate,StorageAccount.DefinitionStages.WithCreateAndAccessTier
-- uid: com.microsoft.azure.management.storage._storage_account._definition_stages
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_stages.yml
-  name: StorageAccount.DefinitionStages
-  nameWithType: StorageAccount.DefinitionStages
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages
-  type: Interface
-  summary: <p>Grouping of all the storage account definition stages. </p>
-  syntax:
-    content: public interface DefinitionStages
-- uid: com.microsoft.azure.management.storage._storage_account._update
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update.yml
-  name: StorageAccount.Update
-  nameWithType: StorageAccount.Update
-  fullName: com.microsoft.azure.management.storage.StorageAccount.Update
-  type: Interface
-  summary: <p>The template for a storage account update operation, containing all the settings that can be modified. </p>
-  syntax:
-    content: public interface Update extends Appliable<StorageAccount>,StorageAccount.UpdateStages.WithSku,StorageAccount.UpdateStages.WithCustomDomain,StorageAccount.UpdateStages.WithEncryption,StorageAccount.UpdateStages.WithAccessTier,Resource.UpdateWithTags<Update>
-- uid: com.microsoft.azure.management.storage._storage_account._update_stages
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_stages.yml
-  name: StorageAccount.UpdateStages
-  nameWithType: StorageAccount.UpdateStages
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages
-  type: Interface
-  summary: <p>Grouping of all the storage account update stages. </p>
-  syntax:
-    content: public interface UpdateStages
-- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_access_tier
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_access_tier.yml
-  name: StorageAccount.UpdateStages.WithAccessTier
-  nameWithType: StorageAccount.UpdateStages.WithAccessTier
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithAccessTier
-  type: Interface
-  summary: <p>A blob storage account update stage allowing access tier to be specified. </p>
-  syntax:
-    content: public interface WithAccessTier
-- uid: com.microsoft.azure.management.storage._storage_account._definition_s469b9019a19fe54d19162f72153772ed
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_s469b9019a19fe54d19162f72153772ed.yml
-  name: StorageAccount.DefinitionStages.WithBlobStorageAccountKind
-  nameWithType: StorageAccount.DefinitionStages.WithBlobStorageAccountKind
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithBlobStorageAccountKind
-  type: Interface
-  summary: <p>A storage account definition specifying the account kind to be blob. </p>
-  syntax:
-    content: public interface WithBlobStorageAccountKind
-- uid: com.microsoft.azure.management.storage._storage_account._definition_stages._with_create
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_stages._with_create.yml
-  name: StorageAccount.DefinitionStages.WithCreate
-  nameWithType: StorageAccount.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate
-  type: Interface
-  summary: <p>A storage account definition with sufficient inputs to create a new storage account in the cloud, but exposing additional optional inputs to specify. </p>
-  syntax:
-    content: public interface WithCreate extends Creatable<StorageAccount>,StorageAccount.DefinitionStages.WithSku,StorageAccount.DefinitionStages.WithBlobStorageAccountKind,StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind,StorageAccount.DefinitionStages.WithEncryption,StorageAccount.DefinitionStages.WithCustomDomain,Resource.DefinitionWithTags<WithCreate>
-- uid: com.microsoft.azure.management.storage._storage_account._definition_s4e606f8612789a1189b4dcfd5933aff9
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_s4e606f8612789a1189b4dcfd5933aff9.yml
-  name: StorageAccount.DefinitionStages.WithCreateAndAccessTier
-  nameWithType: StorageAccount.DefinitionStages.WithCreateAndAccessTier
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier
-  type: Interface
-  summary: <p>A storage account definition allowing access tier to be set. </p>
-  syntax:
-    content: public interface WithCreateAndAccessTier extends StorageAccount.DefinitionStages.WithCreate
-- uid: com.microsoft.azure.management.storage._storage_account._definition_stages._with_custom_domain
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_stages._with_custom_domain.yml
-  name: StorageAccount.DefinitionStages.WithCustomDomain
-  nameWithType: StorageAccount.DefinitionStages.WithCustomDomain
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain
-  type: Interface
-  summary: <p>A storage account definition specifying a custom domain to associate with the account. </p>
-  syntax:
-    content: public interface WithCustomDomain
-- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_custom_domain.yml
-  name: StorageAccount.UpdateStages.WithCustomDomain
-  nameWithType: StorageAccount.UpdateStages.WithCustomDomain
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain
-  type: Interface
-  summary: <p>A storage account update stage allowing to change the parameters. </p>
-  syntax:
-    content: public interface WithCustomDomain
-- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_encryption
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_encryption.yml
-  name: StorageAccount.UpdateStages.WithEncryption
-  nameWithType: StorageAccount.UpdateStages.WithEncryption
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithEncryption
-  type: Interface
-  summary: <p>A storage account update allowing encryption to be specified. </p>
-  syntax:
-    content: public interface WithEncryption
-- uid: com.microsoft.azure.management.storage._storage_account._definition_stages._with_encryption
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_stages._with_encryption.yml
-  name: StorageAccount.DefinitionStages.WithEncryption
-  nameWithType: StorageAccount.DefinitionStages.WithEncryption
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithEncryption
-  type: Interface
-  summary: <p>A storage account definition specifying encryption setting. </p>
-  syntax:
-    content: public interface WithEncryption
-- uid: com.microsoft.azure.management.storage._storage_account._definition_s94c180d27e5621e165c3464e9c5a649c
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_s94c180d27e5621e165c3464e9c5a649c.yml
-  name: StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind
-  nameWithType: StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind
-  type: Interface
-  summary: <p>A storage account definition selecting the general purpose account kind. </p>
-  syntax:
-    content: public interface WithGeneralPurposeAccountKind
-- uid: com.microsoft.azure.management.storage._storage_account._definition_stages._with_group
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_stages._with_group.yml
-  name: StorageAccount.DefinitionStages.WithGroup
-  nameWithType: StorageAccount.DefinitionStages.WithGroup
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithGroup
-  type: Interface
-  summary: <p>A storage account definition allowing resource group to be set. </p>
-  syntax:
-    content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithCreate>
-- uid: com.microsoft.azure.management.storage._storage_account._definition_stages._with_sku
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._definition_stages._with_sku.yml
-  name: StorageAccount.DefinitionStages.WithSku
-  nameWithType: StorageAccount.DefinitionStages.WithSku
-  fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithSku
-  type: Interface
-  summary: <p>A storage account definition allowing the sku to be set. </p>
-  syntax:
-    content: public interface WithSku
-- uid: com.microsoft.azure.management.storage._storage_account._update_stages._with_sku
-  parent: com.microsoft.azure.management.storage
-  href: com.microsoft.azure.management.storage._storage_account._update_stages._with_sku.yml
-  name: StorageAccount.UpdateStages.WithSku
-  nameWithType: StorageAccount.UpdateStages.WithSku
-  fullName: com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithSku
-  type: Interface
-  summary: <p>A storage account update stage allowing to change the parameters. </p>
-  syntax:
-    content: public interface WithSku
+### YamlMime:JavaPackage
+uid: "com.microsoft.azure.management.storage"
+fullName: "com.microsoft.azure.management.storage"
+name: "com.microsoft.azure.management.storage"
+summary: "This package contains the classes for StorageManagementClient.\n The Azure Storage Management API."
+classes:
+- "com.microsoft.azure.management.storage.AccountSasParameters"
+- "com.microsoft.azure.management.storage.ActiveDirectoryProperties"
+- "com.microsoft.azure.management.storage.AzureEntityResource"
+- "com.microsoft.azure.management.storage.AzureFilesIdentityBasedAuthentication"
+- "com.microsoft.azure.management.storage.BlobContainersCreateOrUpdateImmutabilityPolicyHeaders"
+- "com.microsoft.azure.management.storage.BlobContainersDeleteImmutabilityPolicyHeaders"
+- "com.microsoft.azure.management.storage.BlobContainersExtendImmutabilityPolicyHeaders"
+- "com.microsoft.azure.management.storage.BlobContainersGetImmutabilityPolicyHeaders"
+- "com.microsoft.azure.management.storage.BlobContainersLockImmutabilityPolicyHeaders"
+- "com.microsoft.azure.management.storage.BlobRestoreParameters"
+- "com.microsoft.azure.management.storage.BlobRestoreProgressStatus"
+- "com.microsoft.azure.management.storage.BlobRestoreRange"
+- "com.microsoft.azure.management.storage.BlobTypes"
+- "com.microsoft.azure.management.storage.Bypass"
+- "com.microsoft.azure.management.storage.ChangeFeed"
+- "com.microsoft.azure.management.storage.CheckNameAvailabilityResult"
+- "com.microsoft.azure.management.storage.CorsRule"
+- "com.microsoft.azure.management.storage.CorsRules"
+- "com.microsoft.azure.management.storage.CustomDomain"
+- "com.microsoft.azure.management.storage.DateAfterCreation"
+- "com.microsoft.azure.management.storage.DateAfterModification"
+- "com.microsoft.azure.management.storage.DeleteRetentionPolicy"
+- "com.microsoft.azure.management.storage.DeletedShare"
+- "com.microsoft.azure.management.storage.Dimension"
+- "com.microsoft.azure.management.storage.DirectoryServiceOptions"
+- "com.microsoft.azure.management.storage.EnabledProtocols"
+- "com.microsoft.azure.management.storage.Encryption"
+- "com.microsoft.azure.management.storage.EncryptionScopeKeyVaultProperties"
+- "com.microsoft.azure.management.storage.EncryptionScopeSource"
+- "com.microsoft.azure.management.storage.EncryptionScopeState"
+- "com.microsoft.azure.management.storage.EncryptionService"
+- "com.microsoft.azure.management.storage.EncryptionServices"
+- "com.microsoft.azure.management.storage.Endpoints"
+- "com.microsoft.azure.management.storage.ErrorResponse"
+- "com.microsoft.azure.management.storage.ErrorResponseException"
+- "com.microsoft.azure.management.storage.GeoReplicationStats"
+- "com.microsoft.azure.management.storage.GeoReplicationStatus"
+- "com.microsoft.azure.management.storage.IPRule"
+- "com.microsoft.azure.management.storage.Identity"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicyProperties"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicyState"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicyUpdateType"
+- "com.microsoft.azure.management.storage.KeySource"
+- "com.microsoft.azure.management.storage.KeyType"
+- "com.microsoft.azure.management.storage.KeyVaultProperties"
+- "com.microsoft.azure.management.storage.Kind"
+- "com.microsoft.azure.management.storage.LargeFileSharesState"
+- "com.microsoft.azure.management.storage.LeaseContainerRequest"
+- "com.microsoft.azure.management.storage.LeaseDuration"
+- "com.microsoft.azure.management.storage.LeaseState"
+- "com.microsoft.azure.management.storage.LeaseStatus"
+- "com.microsoft.azure.management.storage.LegalHoldProperties"
+- "com.microsoft.azure.management.storage.ListContainersInclude"
+- "com.microsoft.azure.management.storage.ManagementPolicyAction"
+- "com.microsoft.azure.management.storage.ManagementPolicyBaseBlob"
+- "com.microsoft.azure.management.storage.ManagementPolicyDefinition"
+- "com.microsoft.azure.management.storage.ManagementPolicyFilter"
+- "com.microsoft.azure.management.storage.ManagementPolicyRule"
+- "com.microsoft.azure.management.storage.ManagementPolicySchema"
+- "com.microsoft.azure.management.storage.ManagementPolicySnapShot"
+- "com.microsoft.azure.management.storage.MetricSpecification"
+- "com.microsoft.azure.management.storage.MinimumTlsVersion"
+- "com.microsoft.azure.management.storage.NetworkRuleSet"
+- "com.microsoft.azure.management.storage.ObjectReplicationPolicyFilter"
+- "com.microsoft.azure.management.storage.ObjectReplicationPolicyRule"
+- "com.microsoft.azure.management.storage.OperationDisplay"
+- "com.microsoft.azure.management.storage.Permissions"
+- "com.microsoft.azure.management.storage.PrivateEndpoint"
+- "com.microsoft.azure.management.storage.PrivateEndpointConnectionProvisioningState"
+- "com.microsoft.azure.management.storage.PrivateEndpointServiceConnectionStatus"
+- "com.microsoft.azure.management.storage.PrivateLinkServiceConnectionState"
+- "com.microsoft.azure.management.storage.PublicEndpoints"
+- "com.microsoft.azure.management.storage.ReasonCode"
+- "com.microsoft.azure.management.storage.RestorePolicyProperties"
+- "com.microsoft.azure.management.storage.Restriction"
+- "com.microsoft.azure.management.storage.RootSquashType"
+- "com.microsoft.azure.management.storage.RoutingChoice"
+- "com.microsoft.azure.management.storage.RoutingPreference"
+- "com.microsoft.azure.management.storage.SKUCapability"
+- "com.microsoft.azure.management.storage.ServiceSasParameters"
+- "com.microsoft.azure.management.storage.ServiceSpecification"
+- "com.microsoft.azure.management.storage.Services"
+- "com.microsoft.azure.management.storage.ShareAccessTier"
+- "com.microsoft.azure.management.storage.SignedResource"
+- "com.microsoft.azure.management.storage.SignedResourceTypes"
+- "com.microsoft.azure.management.storage.Sku"
+- "com.microsoft.azure.management.storage.SkuName"
+- "com.microsoft.azure.management.storage.StorageAccountCheckNameAvailabilityParameters"
+- "com.microsoft.azure.management.storage.StorageAccountCreateParameters"
+- "com.microsoft.azure.management.storage.StorageAccountEncryptionKeySource"
+- "com.microsoft.azure.management.storage.StorageAccountInternetEndpoints"
+- "com.microsoft.azure.management.storage.StorageAccountKey"
+- "com.microsoft.azure.management.storage.StorageAccountMicrosoftEndpoints"
+- "com.microsoft.azure.management.storage.StorageAccountRegenerateKeyParameters"
+- "com.microsoft.azure.management.storage.StorageAccountSkuType"
+- "com.microsoft.azure.management.storage.StorageAccountUpdateParameters"
+- "com.microsoft.azure.management.storage.StorageResourceType"
+- "com.microsoft.azure.management.storage.StorageService"
+- "com.microsoft.azure.management.storage.TagFilter"
+- "com.microsoft.azure.management.storage.TagProperty"
+- "com.microsoft.azure.management.storage.UpdateHistoryProperty"
+- "com.microsoft.azure.management.storage.UsageName"
+- "com.microsoft.azure.management.storage.VirtualNetworkRule"
+enums:
+- "com.microsoft.azure.management.storage.AccessTier"
+- "com.microsoft.azure.management.storage.AccountStatus"
+- "com.microsoft.azure.management.storage.Action"
+- "com.microsoft.azure.management.storage.DefaultAction"
+- "com.microsoft.azure.management.storage.GetShareExpand"
+- "com.microsoft.azure.management.storage.HttpProtocol"
+- "com.microsoft.azure.management.storage.KeyPermission"
+- "com.microsoft.azure.management.storage.ListKeyExpand"
+- "com.microsoft.azure.management.storage.ListSharesExpand"
+- "com.microsoft.azure.management.storage.ProvisioningState"
+- "com.microsoft.azure.management.storage.PublicAccess"
+- "com.microsoft.azure.management.storage.Reason"
+- "com.microsoft.azure.management.storage.SkuTier"
+- "com.microsoft.azure.management.storage.State"
+- "com.microsoft.azure.management.storage.StorageAccountExpand"
+- "com.microsoft.azure.management.storage.UsageUnit"
+interfaces:
+- "com.microsoft.azure.management.storage.BlobContainer"
+- "com.microsoft.azure.management.storage.BlobContainer.Definition"
+- "com.microsoft.azure.management.storage.BlobContainer.DefinitionStages"
+- "com.microsoft.azure.management.storage.BlobContainer.DefinitionStages.Blank"
+- "com.microsoft.azure.management.storage.BlobContainer.DefinitionStages.WithBlobService"
+- "com.microsoft.azure.management.storage.BlobContainer.DefinitionStages.WithCreate"
+- "com.microsoft.azure.management.storage.BlobContainer.DefinitionStages.WithMetadata"
+- "com.microsoft.azure.management.storage.BlobContainer.DefinitionStages.WithPublicAccess"
+- "com.microsoft.azure.management.storage.BlobContainer.Update"
+- "com.microsoft.azure.management.storage.BlobContainer.UpdateStages"
+- "com.microsoft.azure.management.storage.BlobContainer.UpdateStages.WithMetadata"
+- "com.microsoft.azure.management.storage.BlobContainer.UpdateStages.WithPublicAccess"
+- "com.microsoft.azure.management.storage.BlobContainers"
+- "com.microsoft.azure.management.storage.BlobServiceProperties"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.Definition"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.DefinitionStages"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.DefinitionStages.Blank"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.DefinitionStages.WithCors"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.DefinitionStages.WithCreate"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.DefinitionStages.WithDefaultServiceVersion"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.DefinitionStages.WithDeleteRetentionPolicy"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.DefinitionStages.WithStorageAccount"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.Update"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.UpdateStages"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.UpdateStages.WithCors"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.UpdateStages.WithDefaultServiceVersion"
+- "com.microsoft.azure.management.storage.BlobServiceProperties.UpdateStages.WithDeleteRetentionPolicy"
+- "com.microsoft.azure.management.storage.BlobServices"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.Definition"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.DefinitionStages"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.DefinitionStages.Blank"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.DefinitionStages.WithContainer"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.DefinitionStages.WithCreate"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.DefinitionStages.WithIfMatch"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.DefinitionStages.WithImmutabilityPeriodSinceCreationInDays"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.Update"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.UpdateStages"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.UpdateStages.WithIfMatch"
+- "com.microsoft.azure.management.storage.ImmutabilityPolicy.UpdateStages.WithImmutabilityPeriodSinceCreationInDays"
+- "com.microsoft.azure.management.storage.LegalHold"
+- "com.microsoft.azure.management.storage.ListContainerItem"
+- "com.microsoft.azure.management.storage.ManagementPolicies"
+- "com.microsoft.azure.management.storage.ManagementPolicy"
+- "com.microsoft.azure.management.storage.ManagementPolicy.Definition"
+- "com.microsoft.azure.management.storage.ManagementPolicy.DefinitionStages"
+- "com.microsoft.azure.management.storage.ManagementPolicy.DefinitionStages.Blank"
+- "com.microsoft.azure.management.storage.ManagementPolicy.DefinitionStages.WithCreate"
+- "com.microsoft.azure.management.storage.ManagementPolicy.DefinitionStages.WithRule"
+- "com.microsoft.azure.management.storage.ManagementPolicy.DefinitionStages.WithStorageAccount"
+- "com.microsoft.azure.management.storage.ManagementPolicy.Update"
+- "com.microsoft.azure.management.storage.ManagementPolicy.UpdateStages"
+- "com.microsoft.azure.management.storage.ManagementPolicy.UpdateStages.Rule"
+- "com.microsoft.azure.management.storage.ManagementPolicy.UpdateStages.WithPolicy"
+- "com.microsoft.azure.management.storage.PolicyRule"
+- "com.microsoft.azure.management.storage.PolicyRule.Definition"
+- "com.microsoft.azure.management.storage.PolicyRule.DefinitionStages"
+- "com.microsoft.azure.management.storage.PolicyRule.DefinitionStages.Blank"
+- "com.microsoft.azure.management.storage.PolicyRule.DefinitionStages.PrefixActionFork"
+- "com.microsoft.azure.management.storage.PolicyRule.DefinitionStages.WithBlobTypesToFilterFor"
+- "com.microsoft.azure.management.storage.PolicyRule.DefinitionStages.WithPolicyRuleAttachable"
+- "com.microsoft.azure.management.storage.PolicyRule.DefinitionStages.WithPolicyRuleType"
+- "com.microsoft.azure.management.storage.PolicyRule.DefinitionStages.WithPrefixesToFilterFor"
+- "com.microsoft.azure.management.storage.PolicyRule.DefinitionStages.WithRuleActions"
+- "com.microsoft.azure.management.storage.PolicyRule.Update"
+- "com.microsoft.azure.management.storage.PolicyRule.UpdateStages"
+- "com.microsoft.azure.management.storage.PolicyRule.UpdateStages.WithActions"
+- "com.microsoft.azure.management.storage.PolicyRule.UpdateStages.WithBlobTypesToFilterFor"
+- "com.microsoft.azure.management.storage.PolicyRule.UpdateStages.WithPrefixesToFilterFor"
+- "com.microsoft.azure.management.storage.StorageAccount"
+- "com.microsoft.azure.management.storage.StorageAccount.Definition"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.Blank"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithAccessTraffic"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithAzureFilesAadIntegration"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithBlobAccess"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithBlobStorageAccountKind"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithBlockBlobStorageAccountKind"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithEncryption"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithFileStorageAccountKind"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithGroup"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithHns"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithLargeFileShares"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithManagedServiceIdentity"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithNetworkAccess"
+- "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithSku"
+- "com.microsoft.azure.management.storage.StorageAccount.Update"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithAccessTier"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithAccessTraffic"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithBlobAccess"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithCustomDomain"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithEncryption"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithManagedServiceIdentity"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithNetworkAccess"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithSku"
+- "com.microsoft.azure.management.storage.StorageAccount.UpdateStages.WithUpgrade"
+- "com.microsoft.azure.management.storage.StorageAccountEncryptionStatus"
+- "com.microsoft.azure.management.storage.StorageAccounts"
+- "com.microsoft.azure.management.storage.StorageSku"
+- "com.microsoft.azure.management.storage.StorageSkus"
+- "com.microsoft.azure.management.storage.StorageUsage"
+- "com.microsoft.azure.management.storage.Usages"
+metadata: {}
+package: "com.microsoft.azure.management.storage"
+artifact: com.microsoft.azure:azure-mgmt-storage:1.41.1

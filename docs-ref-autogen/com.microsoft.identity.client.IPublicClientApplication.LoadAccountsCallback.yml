@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+methods:
+- com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback.onError(MsalException)
+- com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback.onTaskCompleted(List<IAccount>)
+nameWithType: IPublicClientApplication.LoadAccountsCallback
+syntax: public interface LoadAccountsCallback
+type: interface
+uid: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback
+fullName: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback
+name: IPublicClientApplication.LoadAccountsCallback
+package: com.microsoft.identity.client
+metadata: {}
