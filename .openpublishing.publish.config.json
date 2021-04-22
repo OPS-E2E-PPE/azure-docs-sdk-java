@@ -53,8 +53,8 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master-prerelease",
+      "url": "https://github.com/junshi356/templates.docs.msft.git",
+      "branch": "master",
       "branch_mapping": {}
     },
     {
