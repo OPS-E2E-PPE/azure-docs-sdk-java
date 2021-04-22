@@ -52,10 +52,10 @@
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
-      "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master-prerelease",
-      "branch_mapping": {}
+      "url": "https://github.com/junshi356/templates.docs.msft.git",
+      "branch_mapping": {},
+      "branch": "master",
+      "path_to_root": "_themes"
     },
     {
       "path_to_root": "_mavenref",
