@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Models.ModelsListCompositeEntitiesDefinitionStages
-syntax: public interface ModelsListCompositeEntitiesDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListCompositeEntitiesDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListCompositeEntitiesDefinitionStages
-name: Models.ModelsListCompositeEntitiesDefinitionStages
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>Grouping of listCompositeEntities definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListCompositeEntitiesDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListCompositeEntitiesDefinitionStages"
+name: "Models.ModelsListCompositeEntitiesDefinitionStages"
+nameWithType: "Models.ModelsListCompositeEntitiesDefinitionStages"
+summary: "Grouping of list<wbr>Composite<wbr>Entities definition stages."
+syntax: "public static interface **Models.ModelsListCompositeEntitiesDefinitionStages**"
+type: "interface"
+desc: "Grouping of listCompositeEntities definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.eventhubs.models.AuthorizationRule.UpdateSt
 name: "AuthorizationRule.UpdateStages"
 nameWithType: "AuthorizationRule.UpdateStages"
 summary: "Grouping of commons authorization rule update stages shared between event hub namespace authorization rule and event hub authorization rule."
-syntax: "public static interface AuthorizationRule.UpdateStages"
+syntax: "public static interface **AuthorizationRule.UpdateStages**"
 type: "interface"
+desc: "Grouping of commons authorization rule update stages shared between event hub namespace authorization rule and event hub authorization rule."
 metadata: {}
 package: "com.azure.resourcemanager.eventhubs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-eventhubs:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-eventhubs:2.50.0

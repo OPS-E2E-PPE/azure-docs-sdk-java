@@ -1,16 +1,11 @@
 ---
-title: Azure Database for PostgreSQL libraries for Java
-description: Reference documentation for the Java client libraries for Azure Database for PostgreSQL
-keywords: Azure, Java, SDK, API, SQL, database, PostGres, PostgreSQL 
-author: rloutlaw
-ms.author: routlaw
-manager: douge
-ms.date: 05/17/2017
-ms.topic: article
+title: Azure PostgreSQL SDK for Java
+description: Reference for Azure PostgreSQL SDK for Java
+ms.date: 05/21/2025
+ms.topic: reference
 ms.devlang: java
 ms.service: postgresql
 ---
-
 # Azure Database for PostgreSQL libraries for Java
 
 ## Overview
@@ -38,7 +33,7 @@ Connect to Azure Database for PostgreSQL from your applications using the open-s
 Connect to Azure Database for PostgreSQL using JDBC and select all records in the sales table. You can get the JDBC connection string for the database from the Azure Portal.
 
 ```java
-String url = String.format("jdbc:postgresql://mypostgresdb.postgres.database.azure.com:5432/mydb?user=frank@mypostgresdb&password=AbCdEfGhIjK&ssl=true");
+String url = String.format("jdbc:postgresql://[your-database-hostname].postgres.database.azure.com:5432/[your-database-name]?user=[your-username]@[your-database-hostname]&password=[your-password]&ssl=true");
 Connection connection = null;
 try {
     connection = DriverManager.getConnection(url);

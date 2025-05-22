@@ -1,0 +1,29 @@
+{
+  "Name": "azure-resourcemanager-graphservices",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/graphservices/azure-resourcemanager-graphservices",
+  "ServiceDirectory": "graphservices",
+  "ReadMePath": "sdk/graphservices/azure-resourcemanager-graphservices/README.md",
+  "ChangeLogPath": "sdk/graphservices/azure-resourcemanager-graphservices/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-graphservices",
+  "ReleaseStatus": "2024-12-06",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-graphservices",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagergraphservices",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagergraphservices }}"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.graphservices",
+    "com.azure.resourcemanager.graphservices.fluent",
+    "com.azure.resourcemanager.graphservices.fluent.models",
+    "com.azure.resourcemanager.graphservices.models"
+  ]
+}

@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: PublicIPAddress.UpdateStages
-syntax: public interface UpdateStages
-type: interface
-uid: com.microsoft.azure.management.network.PublicIPAddress.UpdateStages
-fullName: com.microsoft.azure.management.network.PublicIPAddress.UpdateStages
-name: PublicIPAddress.UpdateStages
-package: com.microsoft.azure.management.network
-summary: <p>Grouping of public IP address update stages. </p>
+uid: "com.microsoft.azure.management.network.PublicIPAddress.UpdateStages"
+fullName: "com.microsoft.azure.management.network.PublicIPAddress.UpdateStages"
+name: "PublicIPAddress.UpdateStages"
+nameWithType: "PublicIPAddress.UpdateStages"
+summary: "Grouping of public IP address update stages."
+syntax: "public static interface **PublicIPAddress.UpdateStages**"
+type: "interface"
+desc: "Grouping of public IP address update stages."
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

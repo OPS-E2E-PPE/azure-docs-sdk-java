@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.eventhubs.models.EventHubDisasterRecoveryPa
 name: "EventHubDisasterRecoveryPairing.DefinitionStages"
 nameWithType: "EventHubDisasterRecoveryPairing.DefinitionStages"
 summary: "Grouping of disaster recovery pairing definition stages."
-syntax: "public static interface EventHubDisasterRecoveryPairing.DefinitionStages"
+syntax: "public static interface **EventHubDisasterRecoveryPairing.DefinitionStages**"
 type: "interface"
+desc: "Grouping of disaster recovery pairing definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.eventhubs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-eventhubs:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-eventhubs:2.50.0

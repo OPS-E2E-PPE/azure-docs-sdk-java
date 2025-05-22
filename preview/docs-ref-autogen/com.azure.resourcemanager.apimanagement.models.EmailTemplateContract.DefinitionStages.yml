@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.apimanagement.models.EmailTemplateContract.Defin
 fullName: "com.azure.resourcemanager.apimanagement.models.EmailTemplateContract.DefinitionStages"
 name: "EmailTemplateContract.DefinitionStages"
 nameWithType: "EmailTemplateContract.DefinitionStages"
-summary: "The EmailTemplateContract definition stages."
-syntax: "public static interface EmailTemplateContract.DefinitionStages"
+summary: "The Email<wbr>Template<wbr>Contract definition stages."
+syntax: "public static interface **EmailTemplateContract.DefinitionStages**"
 type: "interface"
+desc: "The EmailTemplateContract definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.apimanagement.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-apimanagement:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-apimanagement:1.0.0-beta.5

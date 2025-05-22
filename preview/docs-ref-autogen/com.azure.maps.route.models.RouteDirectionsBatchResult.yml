@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.route.models.RouteDirectionsBatchResult"
+fullName: "com.azure.maps.route.models.RouteDirectionsBatchResult"
+name: "RouteDirectionsBatchResult"
+nameWithType: "RouteDirectionsBatchResult"
+summary: "Route Directions Batch Result"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public class **RouteDirectionsBatchResult**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.route.models.RouteDirectionsBatchResult?alt=com.azure.maps.route.models.RouteDirectionsBatchResult&text=RouteDirectionsBatchResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.maps.route.models.RouteDirectionsBatchResult.RouteDirectionsBatchResult()"
+  fullName: "com.azure.maps.route.models.RouteDirectionsBatchResult.RouteDirectionsBatchResult()"
+  name: "RouteDirectionsBatchResult()"
+  nameWithType: "RouteDirectionsBatchResult.RouteDirectionsBatchResult()"
+  summary: "Creates a new instance of <xref uid=\"com.azure.maps.route.models.RouteDirectionsBatchResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RouteDirectionsBatchResult\"></xref>."
+  syntax: "public RouteDirectionsBatchResult()"
+  desc: "Creates a new instance of <xref uid=\"com.azure.maps.route.models.RouteDirectionsBatchResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RouteDirectionsBatchResult\"></xref>."
+methods:
+- uid: "com.azure.maps.route.models.RouteDirectionsBatchResult.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.maps.route.models.RouteDirectionsBatchResult.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RouteDirectionsBatchResult.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Route<wbr>Directions<wbr>Batch<wbr>Result from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RouteDirectionsBatchResult fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the RouteDirectionsBatchResult."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RouteDirectionsBatchResult from the JsonReader."
+  returns:
+    description: "An instance of RouteDirectionsBatchResult if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.maps.route.models.RouteDirectionsBatchResult?alt=com.azure.maps.route.models.RouteDirectionsBatchResult&text=RouteDirectionsBatchResult\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.route.models.RouteDirectionsBatchResult.getBatchId()"
+  fullName: "com.azure.maps.route.models.RouteDirectionsBatchResult.getBatchId()"
+  name: "getBatchId()"
+  nameWithType: "RouteDirectionsBatchResult.getBatchId()"
+  summary: "Get the batch id of this request."
+  syntax: "public String getBatchId()"
+  desc: "Get the batch id of this request."
+  returns:
+    description: "the batch id"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.maps.route.models.RouteDirectionsBatchResult.getBatchItems()"
+  fullName: "com.azure.maps.route.models.RouteDirectionsBatchResult.getBatchItems()"
+  name: "getBatchItems()"
+  nameWithType: "RouteDirectionsBatchResult.getBatchItems()"
+  summary: "Get the batch<wbr>Items property: Array containing the batch results."
+  syntax: "public List<RouteDirectionsBatchItem> getBatchItems()"
+  desc: "Get the batchItems property: Array containing the batch results."
+  returns:
+    description: "the batchItems value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.maps.route.models.RouteDirectionsBatchItem?alt=com.azure.maps.route.models.RouteDirectionsBatchItem&text=RouteDirectionsBatchItem\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.maps.route.models.RouteDirectionsBatchResult.setBatchId(java.lang.String)"
+  fullName: "com.azure.maps.route.models.RouteDirectionsBatchResult.setBatchId(String batchId)"
+  name: "setBatchId(String batchId)"
+  nameWithType: "RouteDirectionsBatchResult.setBatchId(String batchId)"
+  summary: "Sets the matrix id for this request."
+  parameters:
+  - description: "the bach id for this request."
+    name: "batchId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public void setBatchId(String batchId)"
+  desc: "Sets the matrix id for this request."
+- uid: "com.azure.maps.route.models.RouteDirectionsBatchResult.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.maps.route.models.RouteDirectionsBatchResult.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RouteDirectionsBatchResult.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Route Directions Batch Result"
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.route.models.RouteDirectionsBatchResult?alt=com.azure.maps.route.models.RouteDirectionsBatchResult&text=RouteDirectionsBatchResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.maps.route.models"
+artifact: com.azure:azure-maps-route:1.0.0-beta.3

@@ -1,17 +1,12 @@
 ---
 title: Azure Communications SMS Service client library for Java
 keywords: Azure, java, SDK, API, azure-communication-sms, communication
-author: maggiepint
-ms.author: magpint
 ms.date: 03/10/2021
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.topic: reference
 ms.devlang: java
 ms.service: communication
 ---
-
-## Azure Communications SMS Service client library for Java - Version 1.0.0-beta.4 
+# Azure Communications SMS Service client library for Java - version 1.0.0-beta.4 
 
 
 Azure Communication SMS is used to send simple text messages.
@@ -187,7 +182,7 @@ Check out other client libraries for Azure Communication Services
 [api_documentation]: https://aka.ms/java-docs
 [source]: https://github.com/Azure/azure-sdk-for-java/tree/azure-communication-sms_1.0.0-beta.4/sdk/communication/azure-communication-sms/src
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-java%2Feng%2Fazure-communications-sms%2FREADME.png)
+
 
 ## Contributing
 

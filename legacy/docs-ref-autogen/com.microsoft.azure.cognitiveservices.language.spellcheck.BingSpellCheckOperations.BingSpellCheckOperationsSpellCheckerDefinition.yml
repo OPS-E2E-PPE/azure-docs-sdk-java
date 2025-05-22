@@ -1,32 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withAcceptLanguage(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withActionType(ActionType)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withAppName(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withClientId(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withClientIp(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withClientMachineName(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withCountryCode(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withDocId(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withLocation(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withMarket(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withMode(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withPostContextText(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withPragma(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withPreContextText(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withSessionId(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withSetLang(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithText.withText(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withUserAgent(String)
-- com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithAllOptions.withUserId(String)
-nameWithType: BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinition
-syntax: public interface BingSpellCheckOperationsSpellCheckerDefinition extends BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithText,BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinition
-name: BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinition
-package: com.microsoft.azure.cognitiveservices.language.spellcheck
-summary: <p>The entirety of spellChecker definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinition"
+name: "BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinition"
+nameWithType: "BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinition"
+summary: "The entirety of spell<wbr>Checker definition."
+syntax: "public static interface **BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithText?alt=com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithText&text=WithText\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of spellChecker definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithText?alt=com.microsoft.azure.cognitiveservices.language.spellcheck.BingSpellCheckOperations.BingSpellCheckOperationsSpellCheckerDefinitionStages.WithText&text=WithText\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.spellcheck"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-spellcheck:1.0.3

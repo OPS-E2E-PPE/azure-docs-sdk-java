@@ -1,19 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare.withExistingReadOnlyAzureFileShare(String)
-- com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare.withExistingReadWriteAzureFileShare(String)
-nameWithType: ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>
-syntax: public interface VolumeDefinitionBlank<ParentT> extends ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare<ParentT>
-type: interface
+uid: "com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank"
+fullName: "com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>"
+name: "ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>"
+nameWithType: "ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>"
+summary: "The first stage of the volume definition."
+syntax: "public static interface **ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>**</br> extends <xref href=\"com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare?alt=com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare&text=WithAzureFileShare\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
 typeParameters:
-- description: <p>the stage of the parent definition to return to after attaching this definition </p>
-  name: ParentT
-uid: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank
-fullName: com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>
-name: ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>
-package: com.microsoft.azure.management.containerinstance
-summary: >-
-  <p>The first stage of the volume definition.</p>
-
-  <p></p>
+- description: "the stage of the parent definition to return to after attaching this definition"
+  name: "ParentT"
+desc: "The first stage of the volume definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare?alt=com.microsoft.azure.management.containerinstance.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare&text=WithAzureFileShare\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.containerinstance"
+artifact: com.microsoft.azure:azure-mgmt-containerinstance:1.41.4

@@ -1,0 +1,27 @@
+{
+  "Name": "azure-resourcemanager-securityinsights",
+  "Version": "1.0.0-beta.5",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/securityinsights/azure-resourcemanager-securityinsights",
+  "ServiceDirectory": "securityinsights",
+  "ReadMePath": "sdk/securityinsights/azure-resourcemanager-securityinsights/README.md",
+  "ChangeLogPath": "sdk/securityinsights/azure-resourcemanager-securityinsights/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-securityinsights",
+  "ReleaseStatus": "2024-10-14",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-securityinsights",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagersecurityinsights"
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.securityinsights",
+    "com.azure.resourcemanager.securityinsights.fluent",
+    "com.azure.resourcemanager.securityinsights.fluent.models",
+    "com.azure.resourcemanager.securityinsights.models"
+  ]
+}

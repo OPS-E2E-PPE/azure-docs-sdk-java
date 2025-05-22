@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: SqlServerKeyOperations.DefinitionStages
-syntax: public interface DefinitionStages
-type: interface
-uid: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages
-fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages
-name: SqlServerKeyOperations.DefinitionStages
-package: com.microsoft.azure.management.sql
-summary: <p>Grouping of all the SQL Server Key definition stages. </p>
+uid: "com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages"
+fullName: "com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages"
+name: "SqlServerKeyOperations.DefinitionStages"
+nameWithType: "SqlServerKeyOperations.DefinitionStages"
+summary: "Grouping of all the SQL Server Key definition stages."
+syntax: "public static interface **SqlServerKeyOperations.DefinitionStages**"
+type: "interface"
+desc: "Grouping of all the SQL Server Key definition stages."
 metadata: {}
+package: "com.microsoft.azure.management.sql"
+artifact: com.microsoft.azure:azure-mgmt-sql:1.41.4

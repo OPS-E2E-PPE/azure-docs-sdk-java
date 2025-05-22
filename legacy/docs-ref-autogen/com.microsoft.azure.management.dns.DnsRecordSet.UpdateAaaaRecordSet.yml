@@ -1,19 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck()
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck(String)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address.withIPv6Address(String)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withMetadata(String,String)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address.withoutIPv6Address(String)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withoutMetadata(String)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithTtl.withTimeToLive(long)
-nameWithType: DnsRecordSet.UpdateAaaaRecordSet
-syntax: public interface UpdateAaaaRecordSet extends DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address,DnsRecordSet.Update
-type: interface
-uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateAaaaRecordSet
-fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateAaaaRecordSet
-name: DnsRecordSet.UpdateAaaaRecordSet
-package: com.microsoft.azure.management.dns
-summary: <p>The entirety of an AAAA record set update as a part of parent DNS zone update. </p>
+uid: "com.microsoft.azure.management.dns.DnsRecordSet.UpdateAaaaRecordSet"
+fullName: "com.microsoft.azure.management.dns.DnsRecordSet.UpdateAaaaRecordSet"
+name: "DnsRecordSet.UpdateAaaaRecordSet"
+nameWithType: "DnsRecordSet.UpdateAaaaRecordSet"
+summary: "The entirety of an AAAA record set update as a part of parent DNS zone update."
+syntax: "public static interface **DnsRecordSet.UpdateAaaaRecordSet**</br> extends <xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address?alt=com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address&text=WithAaaaRecordIPv6Address\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.Update?alt=com.microsoft.azure.management.dns.DnsRecordSet.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of an AAAA record set update as a part of parent DNS zone update."
+implements:
+- "<xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.Update?alt=com.microsoft.azure.management.dns.DnsRecordSet.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address?alt=com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithAaaaRecordIPv6Address&text=WithAaaaRecordIPv6Address\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.dns"
+artifact: com.microsoft.azure:azure-mgmt-dns:1.41.4

@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.eventhubs.models.EventHubConsumerGroup.Upda
 name: "EventHubConsumerGroup.UpdateStages"
 nameWithType: "EventHubConsumerGroup.UpdateStages"
 summary: "Grouping of consumer group update stages."
-syntax: "public static interface EventHubConsumerGroup.UpdateStages"
+syntax: "public static interface **EventHubConsumerGroup.UpdateStages**"
 type: "interface"
+desc: "Grouping of consumer group update stages."
 metadata: {}
 package: "com.azure.resourcemanager.eventhubs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-eventhubs:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-eventhubs:2.50.0

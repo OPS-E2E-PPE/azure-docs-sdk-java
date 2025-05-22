@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.storage.models.BlobServiceProperties.DefinitionS
 fullName: "com.azure.resourcemanager.storage.models.BlobServiceProperties.DefinitionStages"
 name: "BlobServiceProperties.DefinitionStages"
 nameWithType: "BlobServiceProperties.DefinitionStages"
-summary: "Grouping of BlobServiceProperties definition stages."
-syntax: "public static interface BlobServiceProperties.DefinitionStages"
+summary: "Grouping of Blob<wbr>Service<wbr>Properties definition stages."
+syntax: "public static interface **BlobServiceProperties.DefinitionStages**"
 type: "interface"
+desc: "Grouping of BlobServiceProperties definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.storage.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.50.0

@@ -1,0 +1,34 @@
+{
+  "Name": "azure-resourcemanager-datafactory",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/datafactory/azure-resourcemanager-datafactory",
+  "ServiceDirectory": "datafactory",
+  "ReadMePath": "sdk/datafactory/azure-resourcemanager-datafactory/README.md",
+  "ChangeLogPath": "sdk/datafactory/azure-resourcemanager-datafactory/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-datafactory",
+  "ReleaseStatus": "2025-04-10",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "safeName": "azureresourcemanagerdatafactory",
+    "name": "azure-resourcemanager-datafactory",
+    "triggeringPaths": [
+      "/sdk/datafactory/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.datafactory",
+    "com.azure.resourcemanager.datafactory.fluent",
+    "com.azure.resourcemanager.datafactory.fluent.models",
+    "com.azure.resourcemanager.datafactory.models"
+  ],
+  "CIMatrixConfigs": []
+}

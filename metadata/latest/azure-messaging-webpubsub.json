@@ -1,0 +1,31 @@
+{
+  "Name": "azure-messaging-webpubsub",
+  "Version": "1.4.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/webpubsub/azure-messaging-webpubsub",
+  "ServiceDirectory": "webpubsub",
+  "ReadMePath": "sdk/webpubsub/azure-messaging-webpubsub/README.md",
+  "ChangeLogPath": "sdk/webpubsub/azure-messaging-webpubsub/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-messaging-webpubsub",
+  "ReleaseStatus": "2025-02-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-messaging-webpubsub",
+    "groupId": "com.azure",
+    "safeName": "azuremessagingwebpubsub",
+    "releaseInBatch": "${{ parameters.release_azuremessagingwebpubsub }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.messaging.webpubsub",
+    "com.azure.messaging.webpubsub.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

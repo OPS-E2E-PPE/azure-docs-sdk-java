@@ -1,0 +1,87 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.kusto.models.SkuDescriptionList"
+fullName: "com.azure.resourcemanager.kusto.models.SkuDescriptionList"
+name: "SkuDescriptionList"
+nameWithType: "SkuDescriptionList"
+summary: "The list of the Engagement<wbr>Fabric SKU descriptions."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **SkuDescriptionList**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.kusto.models.SkuDescriptionList?alt=com.azure.resourcemanager.kusto.models.SkuDescriptionList&text=SkuDescriptionList\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.SkuDescriptionList()"
+  fullName: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.SkuDescriptionList()"
+  name: "SkuDescriptionList()"
+  nameWithType: "SkuDescriptionList.SkuDescriptionList()"
+  summary: "Creates an instance of Sku<wbr>Description<wbr>List class."
+  syntax: "public SkuDescriptionList()"
+  desc: "Creates an instance of SkuDescriptionList class."
+methods:
+- uid: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "SkuDescriptionList.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Sku<wbr>Description<wbr>List from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static SkuDescriptionList fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the SkuDescriptionList."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of SkuDescriptionList from the JsonReader."
+  returns:
+    description: "An instance of SkuDescriptionList if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.kusto.models.SkuDescriptionList?alt=com.azure.resourcemanager.kusto.models.SkuDescriptionList&text=SkuDescriptionList\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "SkuDescriptionList.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.validate()"
+  fullName: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.validate()"
+  name: "validate()"
+  nameWithType: "SkuDescriptionList.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.value()"
+  fullName: "com.azure.resourcemanager.kusto.models.SkuDescriptionList.value()"
+  name: "value()"
+  nameWithType: "SkuDescriptionList.value()"
+  summary: "Get the value property: SKU descriptions."
+  syntax: "public List<SkuDescriptionInner> value()"
+  desc: "Get the value property: SKU descriptions."
+  returns:
+    description: "the value value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.kusto.fluent.models.SkuDescriptionInner?alt=com.azure.resourcemanager.kusto.fluent.models.SkuDescriptionInner&text=SkuDescriptionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "The list of the EngagementFabric SKU descriptions."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.kusto.models.SkuDescriptionList?alt=com.azure.resourcemanager.kusto.models.SkuDescriptionList&text=SkuDescriptionList\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.kusto.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-kusto:1.2.0

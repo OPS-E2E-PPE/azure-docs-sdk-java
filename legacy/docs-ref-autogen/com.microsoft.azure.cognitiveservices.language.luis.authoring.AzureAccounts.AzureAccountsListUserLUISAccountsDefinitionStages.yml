@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: AzureAccounts.AzureAccountsListUserLUISAccountsDefinitionStages
-syntax: public interface AzureAccountsListUserLUISAccountsDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.AzureAccounts.AzureAccountsListUserLUISAccountsDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.AzureAccounts.AzureAccountsListUserLUISAccountsDefinitionStages
-name: AzureAccounts.AzureAccountsListUserLUISAccountsDefinitionStages
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>Grouping of listUserLUISAccounts definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.AzureAccounts.AzureAccountsListUserLUISAccountsDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.AzureAccounts.AzureAccountsListUserLUISAccountsDefinitionStages"
+name: "AzureAccounts.AzureAccountsListUserLUISAccountsDefinitionStages"
+nameWithType: "AzureAccounts.AzureAccountsListUserLUISAccountsDefinitionStages"
+summary: "Grouping of list<wbr>User<wbr>LUISAccounts definition stages."
+syntax: "public static interface **AzureAccounts.AzureAccountsListUserLUISAccountsDefinitionStages**"
+type: "interface"
+desc: "Grouping of listUserLUISAccounts definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

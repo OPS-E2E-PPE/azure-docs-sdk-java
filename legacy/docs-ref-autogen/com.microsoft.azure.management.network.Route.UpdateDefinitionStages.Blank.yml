@@ -1,15 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.network.Route.UpdateDefinitionStages.WithDestinationAddressPrefix.withDestinationAddressPrefix(String)
-nameWithType: Route.UpdateDefinitionStages.Blank<ParentT>
-syntax: public interface Blank<ParentT> extends Route.UpdateDefinitionStages.WithDestinationAddressPrefix<ParentT>
-type: interface
+uid: "com.microsoft.azure.management.network.Route.UpdateDefinitionStages.Blank"
+fullName: "com.microsoft.azure.management.network.Route.UpdateDefinitionStages.Blank<ParentT>"
+name: "Route.UpdateDefinitionStages.Blank<ParentT>"
+nameWithType: "Route.UpdateDefinitionStages.Blank<ParentT>"
+summary: "The first stage of a route definition."
+syntax: "public static interface **Route.UpdateDefinitionStages.Blank<ParentT>**</br> extends <xref href=\"com.microsoft.azure.management.network.Route.UpdateDefinitionStages.WithDestinationAddressPrefix?alt=com.microsoft.azure.management.network.Route.UpdateDefinitionStages.WithDestinationAddressPrefix&text=WithDestinationAddressPrefix\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
 typeParameters:
-- description: <p>the stage of the parent definition to return to after attaching this definition </p>
-  name: ParentT
-uid: com.microsoft.azure.management.network.Route.UpdateDefinitionStages.Blank
-fullName: com.microsoft.azure.management.network.Route.UpdateDefinitionStages.Blank<ParentT>
-name: Route.UpdateDefinitionStages.Blank<ParentT>
-package: com.microsoft.azure.management.network
-summary: <p>The first stage of a route definition. </p>
+- description: "the stage of the parent definition to return to after attaching this definition"
+  name: "ParentT"
+desc: "The first stage of a route definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.network.Route.UpdateDefinitionStages.WithDestinationAddressPrefix?alt=com.microsoft.azure.management.network.Route.UpdateDefinitionStages.WithDestinationAddressPrefix&text=WithDestinationAddressPrefix\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

@@ -1,77 +1,89 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.sql.SqlDatabase.asWarehouse()
-- com.microsoft.azure.management.sql.SqlDatabase.collation()
-- com.microsoft.azure.management.sql.SqlDatabase.creationDate()
-- com.microsoft.azure.management.sql.SqlDatabase.currentServiceObjectiveId()
-- com.microsoft.azure.management.sql.SqlDatabase.databaseId()
-- com.microsoft.azure.management.sql.SqlDatabase.defaultSecondaryLocation()
-- com.microsoft.azure.management.sql.SqlDatabase.defineThreatDetectionPolicy(String)
-- com.microsoft.azure.management.sql.SqlDatabase.delete()
-- com.microsoft.azure.management.sql.SqlDatabase.deleteAsync()
-- com.microsoft.azure.management.sql.SqlDatabase.earliestRestoreDate()
-- com.microsoft.azure.management.sql.SqlDatabase.edition()
-- com.microsoft.azure.management.sql.SqlDatabase.elasticPoolName()
-- com.microsoft.azure.management.sql.SqlDatabase.exportTo(String)
-- com.microsoft.azure.management.sql.SqlDatabase.exportTo(StorageAccount,String,String)
-- com.microsoft.azure.management.sql.SqlDatabase.exportTo(Creatable<StorageAccount>,String,String)
-- com.microsoft.azure.management.sql.SqlDatabase.getDatabaseAutomaticTuning()
-- com.microsoft.azure.management.sql.SqlDatabase.getThreatDetectionPolicy()
-- com.microsoft.azure.management.sql.SqlDatabase.getTransparentDataEncryption()
-- com.microsoft.azure.management.sql.SqlDatabase.getTransparentDataEncryptionAsync()
-- com.microsoft.azure.management.sql.SqlDatabase.getUpgradeHint()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasId.id()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.ExternalChildResource.id()
-- com.microsoft.azure.management.sql.SqlDatabase.importBacpac(String)
-- com.microsoft.azure.management.sql.SqlDatabase.importBacpac(StorageAccount,String,String)
-- com.microsoft.azure.management.resources.fluentcore.model.HasInner.inner()
-- com.microsoft.azure.management.sql.SqlDatabase.isDataWarehouse()
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.sql.SqlDatabase.listMetricDefinitions()
-- com.microsoft.azure.management.sql.SqlDatabase.listMetricDefinitionsAsync()
-- com.microsoft.azure.management.sql.SqlDatabase.listMetrics(String)
-- com.microsoft.azure.management.sql.SqlDatabase.listMetricsAsync(String)
-- com.microsoft.azure.management.sql.SqlDatabase.listReplicationLinks()
-- com.microsoft.azure.management.sql.SqlDatabase.listReplicationLinksAsync()
-- com.microsoft.azure.management.sql.SqlDatabase.listRestorePoints()
-- com.microsoft.azure.management.sql.SqlDatabase.listRestorePointsAsync()
-- com.microsoft.azure.management.sql.SqlDatabase.listServiceTierAdvisors()
-- com.microsoft.azure.management.sql.SqlDatabase.listServiceTierAdvisorsAsync()
-- com.microsoft.azure.management.sql.SqlDatabase.listUsageMetrics()
-- com.microsoft.azure.management.sql.SqlDatabase.listUsageMetricsAsync()
-- com.microsoft.azure.management.sql.SqlDatabase.listUsages()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasManager.manager()
-- com.microsoft.azure.management.sql.SqlDatabase.maxSizeBytes()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasParent.parent()
-- com.microsoft.azure.management.sql.SqlDatabase.parentId()
-- com.microsoft.azure.management.resources.fluentcore.model.Refreshable.refresh()
-- com.microsoft.azure.management.resources.fluentcore.model.Refreshable.refreshAsync()
-- com.microsoft.azure.management.sql.SqlDatabase.region()
-- com.microsoft.azure.management.sql.SqlDatabase.regionName()
-- com.microsoft.azure.management.sql.SqlDatabase.rename(String)
-- com.microsoft.azure.management.sql.SqlDatabase.renameAsync(String)
-- com.microsoft.azure.management.sql.SqlDatabase.requestedServiceObjectiveId()
-- com.microsoft.azure.management.sql.SqlDatabase.requestedServiceObjectiveName()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasResourceGroup.resourceGroupName()
-- com.microsoft.azure.management.sql.SqlDatabase.serviceLevelObjective()
-- com.microsoft.azure.management.sql.SqlDatabase.sqlServerName()
-- com.microsoft.azure.management.sql.SqlDatabase.status()
-- com.microsoft.azure.management.sql.SqlDatabase.syncGroups()
-- com.microsoft.azure.management.resources.fluentcore.model.Updatable.update()
+uid: "com.microsoft.azure.management.sql.SqlWarehouse"
+fullName: "com.microsoft.azure.management.sql.SqlWarehouse"
+name: "SqlWarehouse"
+nameWithType: "SqlWarehouse"
+summary: "An immutable client-side representation of an Azure SQL Warehouse."
+syntax: "public interface **SqlWarehouse**</br> extends <xref href=\"com.microsoft.azure.management.sql.SqlDatabase?alt=com.microsoft.azure.management.sql.SqlDatabase&text=SqlDatabase\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- com.microsoft.azure.management.sql.SqlWarehouse.pauseDataWarehouse()
-- com.microsoft.azure.management.sql.SqlWarehouse.pauseDataWarehouseAsync()
-- com.microsoft.azure.management.sql.SqlWarehouse.pauseDataWarehouseAsync(ServiceCallback<Void>)
-- com.microsoft.azure.management.sql.SqlWarehouse.resumeDataWarehouse()
-- com.microsoft.azure.management.sql.SqlWarehouse.resumeDataWarehouseAsync()
-- com.microsoft.azure.management.sql.SqlWarehouse.resumeDataWarehouseAsync(ServiceCallback<Void>)
-nameWithType: SqlWarehouse
-syntax: public interface SqlWarehouse extends SqlDatabase,SqlDatabase
-type: interface
-uid: com.microsoft.azure.management.sql.SqlWarehouse
-fullName: com.microsoft.azure.management.sql.SqlWarehouse
-name: SqlWarehouse
-package: com.microsoft.azure.management.sql
-summary: <p>An immutable client-side representation of an Azure SQL Warehouse. </p>
+- uid: "com.microsoft.azure.management.sql.SqlWarehouse.pauseDataWarehouse()"
+  fullName: "com.microsoft.azure.management.sql.SqlWarehouse.pauseDataWarehouse()"
+  name: "pauseDataWarehouse()"
+  nameWithType: "SqlWarehouse.pauseDataWarehouse()"
+  summary: "Pause an Azure SQL Data Warehouse database."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract void pauseDataWarehouse()"
+  desc: "Pause an Azure SQL Data Warehouse database."
+- uid: "com.microsoft.azure.management.sql.SqlWarehouse.pauseDataWarehouseAsync()"
+  fullName: "com.microsoft.azure.management.sql.SqlWarehouse.pauseDataWarehouseAsync()"
+  name: "pauseDataWarehouseAsync()"
+  nameWithType: "SqlWarehouse.pauseDataWarehouseAsync()"
+  summary: "Pause an Azure SQL Data Warehouse database asynchronously."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Completable pauseDataWarehouseAsync()"
+  desc: "Pause an Azure SQL Data Warehouse database asynchronously."
+  returns:
+    description: "a representation of the deferred computation of this call"
+    type: "<xref href=\"rx.Completable?alt=rx.Completable&text=Completable\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.sql.SqlWarehouse.pauseDataWarehouseAsync(com.microsoft.rest.ServiceCallback<java.lang.Void>)"
+  fullName: "com.microsoft.azure.management.sql.SqlWarehouse.pauseDataWarehouseAsync(ServiceCallback<Void> callback)"
+  name: "pauseDataWarehouseAsync(ServiceCallback<Void> callback)"
+  nameWithType: "SqlWarehouse.pauseDataWarehouseAsync(ServiceCallback<Void> callback)"
+  summary: "Pause an Azure SQL Data Warehouse database asynchronously."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the callback to call on success or failure"
+    name: "callback"
+    type: "<xref href=\"com.microsoft.rest.ServiceCallback?alt=com.microsoft.rest.ServiceCallback&text=ServiceCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract ServiceFuture<Void> pauseDataWarehouseAsync(ServiceCallback<Void> callback)"
+  desc: "Pause an Azure SQL Data Warehouse database asynchronously."
+  returns:
+    description: "a handle to cancel the request"
+    type: "<xref href=\"com.microsoft.rest.ServiceFuture?alt=com.microsoft.rest.ServiceFuture&text=ServiceFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.sql.SqlWarehouse.resumeDataWarehouse()"
+  fullName: "com.microsoft.azure.management.sql.SqlWarehouse.resumeDataWarehouse()"
+  name: "resumeDataWarehouse()"
+  nameWithType: "SqlWarehouse.resumeDataWarehouse()"
+  summary: "Resume an Azure SQL Data Warehouse database."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract void resumeDataWarehouse()"
+  desc: "Resume an Azure SQL Data Warehouse database."
+- uid: "com.microsoft.azure.management.sql.SqlWarehouse.resumeDataWarehouseAsync()"
+  fullName: "com.microsoft.azure.management.sql.SqlWarehouse.resumeDataWarehouseAsync()"
+  name: "resumeDataWarehouseAsync()"
+  nameWithType: "SqlWarehouse.resumeDataWarehouseAsync()"
+  summary: "Resume an Azure SQL Data Warehouse database asynchronously."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Completable resumeDataWarehouseAsync()"
+  desc: "Resume an Azure SQL Data Warehouse database asynchronously."
+  returns:
+    description: "a representation of the deferred computation of this call"
+    type: "<xref href=\"rx.Completable?alt=rx.Completable&text=Completable\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.management.sql.SqlWarehouse.resumeDataWarehouseAsync(com.microsoft.rest.ServiceCallback<java.lang.Void>)"
+  fullName: "com.microsoft.azure.management.sql.SqlWarehouse.resumeDataWarehouseAsync(ServiceCallback<Void> callback)"
+  name: "resumeDataWarehouseAsync(ServiceCallback<Void> callback)"
+  nameWithType: "SqlWarehouse.resumeDataWarehouseAsync(ServiceCallback<Void> callback)"
+  summary: "Resume an Azure SQL Data Warehouse database asynchronously."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the callback to call on success or failure"
+    name: "callback"
+    type: "<xref href=\"com.microsoft.rest.ServiceCallback?alt=com.microsoft.rest.ServiceCallback&text=ServiceCallback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public abstract ServiceFuture<Void> resumeDataWarehouseAsync(ServiceCallback<Void> callback)"
+  desc: "Resume an Azure SQL Data Warehouse database asynchronously."
+  returns:
+    description: "a handle to cancel the request"
+    type: "<xref href=\"com.microsoft.rest.ServiceFuture?alt=com.microsoft.rest.ServiceFuture&text=ServiceFuture\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "An immutable client-side representation of an Azure SQL Warehouse."
+implements:
+- "<xref href=\"com.microsoft.azure.management.sql.SqlDatabase?alt=com.microsoft.azure.management.sql.SqlDatabase&text=SqlDatabase\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.sql"
+artifact: com.microsoft.azure:azure-mgmt-sql:1.41.4

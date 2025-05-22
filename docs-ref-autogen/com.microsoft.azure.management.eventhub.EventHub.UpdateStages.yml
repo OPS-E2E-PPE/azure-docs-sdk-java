@@ -4,8 +4,9 @@ fullName: "com.microsoft.azure.management.eventhub.EventHub.UpdateStages"
 name: "EventHub.UpdateStages"
 nameWithType: "EventHub.UpdateStages"
 summary: "Grouping of event hub update stages."
-syntax: "public static interface EventHub.UpdateStages"
+syntax: "public static interface **EventHub.UpdateStages**"
 type: "interface"
+desc: "Grouping of event hub update stages."
 metadata: {}
 package: "com.microsoft.azure.management.eventhub"
-artifact: com.microsoft.azure:azure-mgmt-eventhub:1.41.1
+artifact: com.microsoft.azure:azure-mgmt-eventhub:1.41.2

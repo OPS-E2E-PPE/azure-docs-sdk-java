@@ -1,0 +1,19 @@
+{
+  "ServiceDirectory": "NA",
+  "DocsCiConfigProperties": {
+    "inputPath": [],
+    "excludePackages": "com.azure.communication.callingserver.implementation:com.azure.communication.callingserver.implementation.converters:com.azure.communication.callingserver.implementation.models",
+    "excludePath": []
+  },
+  "Name": "azure-communication-callingserver",
+  "SdkType": "NA",
+  "Version": "1.0.0-beta.4",
+  "IsNewSdk": false,
+  "Group": "com.azure",
+  "DirectoryPath": "",
+  "Namespaces": [
+    "com.azure.communication.callingserver",
+    "com.azure.communication.callingserver.models",
+    "com.azure.communication.callingserver.models.events"
+  ]
+}

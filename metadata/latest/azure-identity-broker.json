@@ -1,0 +1,36 @@
+{
+  "Name": "azure-identity-broker",
+  "Version": "1.1.14",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/identity/azure-identity-broker",
+  "ServiceDirectory": "identity",
+  "ReadMePath": "sdk/identity/azure-identity-broker/README.md",
+  "ChangeLogPath": "sdk/identity/azure-identity-broker/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-identity-broker",
+  "ReleaseStatus": "2025-05-06",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-identity-broker-samples",
+    "com.azure:azure-identity-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureidentitybroker }}",
+    "triggeringPaths": [
+      "/sdk/identity/ci.yml"
+    ],
+    "groupId": "com.azure",
+    "name": "azure-identity-broker",
+    "safeName": "azureidentitybroker"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.identity.broker"
+  ],
+  "CIMatrixConfigs": []
+}

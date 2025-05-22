@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Models.ModelsCreatePrebuiltEntityRoleDefinitionStages
-syntax: public interface ModelsCreatePrebuiltEntityRoleDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreatePrebuiltEntityRoleDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreatePrebuiltEntityRoleDefinitionStages
-name: Models.ModelsCreatePrebuiltEntityRoleDefinitionStages
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>Grouping of createPrebuiltEntityRole definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreatePrebuiltEntityRoleDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreatePrebuiltEntityRoleDefinitionStages"
+name: "Models.ModelsCreatePrebuiltEntityRoleDefinitionStages"
+nameWithType: "Models.ModelsCreatePrebuiltEntityRoleDefinitionStages"
+summary: "Grouping of create<wbr>Prebuilt<wbr>Entity<wbr>Role definition stages."
+syntax: "public static interface **Models.ModelsCreatePrebuiltEntityRoleDefinitionStages**"
+type: "interface"
+desc: "Grouping of createPrebuiltEntityRole definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

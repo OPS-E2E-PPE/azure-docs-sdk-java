@@ -1,17 +1,12 @@
 ---
 title: Azure IoT Models Repository client library for Java
-keywords: Azure, java, SDK, API, azure-iot-modelsrepository, 
-author: maggiepint
-ms.author: magpint
+keywords: Azure, java, SDK, API, azure-iot-modelsrepository,
 ms.date: 03/30/2021
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.topic: reference
 ms.devlang: java
 ms.service: 
 ---
-
-# Azure IoT Models Repository client library for Java - Version 1.0.0-beta.1 
+# Azure IoT Models Repository client library for Java - version 1.0.0-beta.1 
 
 
 This library provides functionality for interacting with the [Azure IoT Models Repository][modelsrepository_iot_endpoint]. It also aims to provide a consistent experience working with digital twin model repositories following Azure IoT conventions.

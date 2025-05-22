@@ -1,28 +1,31 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync(final ServiceCallback<T>)
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync()
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
-- com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithBlobStorageAccountKind.withBlobStorageAccountKind()
-- com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain.withCustomDomain(CustomDomain)
-- com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain.withCustomDomain(String)
-- com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCustomDomain.withCustomDomain(String,boolean)
-- com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithEncryption.withEncryption(Encryption)
-- com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithEncryption.withEncryption()
-- com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithGeneralPurposeAccountKind.withGeneralPurposeAccountKind()
-- com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithSku.withSku(SkuName)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags.withTag(String,String)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags.withTags(Map<String, String>)
+uid: "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier"
+fullName: "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier"
+name: "StorageAccount.DefinitionStages.WithCreateAndAccessTier"
+nameWithType: "StorageAccount.DefinitionStages.WithCreateAndAccessTier"
+summary: "The stage of storage account definition allowing to set access tier."
+syntax: "public static interface **StorageAccount.DefinitionStages.WithCreateAndAccessTier**</br> extends <xref href=\"com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier.withAccessTier(AccessTier)
-nameWithType: StorageAccount.DefinitionStages.WithCreateAndAccessTier
-syntax: public interface WithCreateAndAccessTier extends StorageAccount.DefinitionStages.WithCreate
-type: interface
-uid: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier
-fullName: com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier
-name: StorageAccount.DefinitionStages.WithCreateAndAccessTier
-package: com.microsoft.azure.management.storage
-summary: <p>A storage account definition allowing access tier to be set. </p>
+- uid: "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier.withAccessTier(com.microsoft.azure.management.storage.AccessTier)"
+  fullName: "com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreateAndAccessTier.withAccessTier(AccessTier accessTier)"
+  name: "withAccessTier(AccessTier accessTier)"
+  nameWithType: "StorageAccount.DefinitionStages.WithCreateAndAccessTier.withAccessTier(AccessTier accessTier)"
+  summary: "Specifies the access tier used for billing."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "the access tier value"
+    name: "accessTier"
+    type: "<xref href=\"com.microsoft.azure.management.storage.AccessTier?alt=com.microsoft.azure.management.storage.AccessTier&text=AccessTier\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract StorageAccount.DefinitionStages.WithCreate withAccessTier(AccessTier accessTier)"
+  desc: "Specifies the access tier used for billing.\n\nAccess tier cannot be changed more than once every 7 days (168 hours). Access tier cannot be set for StandardLRS, StandardGRS, StandardRAGRS, or PremiumLRS account types."
+  returns:
+    description: "the next stage of storage account definition"
+    type: "<xref href=\"com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of storage account definition allowing to set access tier."
+implements:
+- "<xref href=\"com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.storage.StorageAccount.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.storage"
+artifact: com.microsoft.azure:azure-mgmt-storage:1.41.4

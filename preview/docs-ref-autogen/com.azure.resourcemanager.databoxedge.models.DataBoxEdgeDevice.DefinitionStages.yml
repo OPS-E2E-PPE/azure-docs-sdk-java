@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.databoxedge.models.DataBoxEdgeDevice.DefinitionS
 fullName: "com.azure.resourcemanager.databoxedge.models.DataBoxEdgeDevice.DefinitionStages"
 name: "DataBoxEdgeDevice.DefinitionStages"
 nameWithType: "DataBoxEdgeDevice.DefinitionStages"
-summary: "The DataBoxEdgeDevice definition stages."
-syntax: "public static interface DataBoxEdgeDevice.DefinitionStages"
+summary: "The Data<wbr>Box<wbr>Edge<wbr>Device definition stages."
+syntax: "public static interface **DataBoxEdgeDevice.DefinitionStages**"
 type: "interface"
+desc: "The DataBoxEdgeDevice definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.databoxedge.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-databoxedge:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-databoxedge:1.0.0-beta.3

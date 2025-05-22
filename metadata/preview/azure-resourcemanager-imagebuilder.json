@@ -1,0 +1,20 @@
+{
+  "Name": "azure-resourcemanager-imagebuilder",
+  "Version": "1.0.0-beta.4",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/imagebuilder/azure-resourcemanager-imagebuilder",
+  "ServiceDirectory": "imagebuilder",
+  "ReadMePath": "sdk/imagebuilder/azure-resourcemanager-imagebuilder/README.md",
+  "ChangeLogPath": "sdk/imagebuilder/azure-resourcemanager-imagebuilder/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-imagebuilder",
+  "ReleaseStatus": "2023-03-21",
+  "Namespaces": [
+    "com.azure.resourcemanager.imagebuilder",
+    "com.azure.resourcemanager.imagebuilder.fluent",
+    "com.azure.resourcemanager.imagebuilder.fluent.models",
+    "com.azure.resourcemanager.imagebuilder.models"
+  ]
+}

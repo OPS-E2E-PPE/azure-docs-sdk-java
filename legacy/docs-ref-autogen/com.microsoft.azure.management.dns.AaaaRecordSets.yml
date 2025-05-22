@@ -1,17 +1,14 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.dns.DnsRecordSets.list(String)
-- com.microsoft.azure.management.dns.DnsRecordSets.list(int)
-- com.microsoft.azure.management.dns.DnsRecordSets.list(String,int)
-- com.microsoft.azure.management.dns.DnsRecordSets.listAsync(String)
-- com.microsoft.azure.management.dns.DnsRecordSets.listAsync(int)
-- com.microsoft.azure.management.dns.DnsRecordSets.listAsync(String,int)
-nameWithType: AaaaRecordSets
-syntax: public interface AaaaRecordSets extends DnsRecordSets<AaaaRecordSet>
-type: interface
-uid: com.microsoft.azure.management.dns.AaaaRecordSets
-fullName: com.microsoft.azure.management.dns.AaaaRecordSets
-name: AaaaRecordSets
-package: com.microsoft.azure.management.dns
-summary: <p>Entry point to AAAA record sets in a DNS zone. </p>
+uid: "com.microsoft.azure.management.dns.AaaaRecordSets"
+fullName: "com.microsoft.azure.management.dns.AaaaRecordSets"
+name: "AaaaRecordSets"
+nameWithType: "AaaaRecordSets"
+summary: "Entry point to AAAA record sets in a DNS zone."
+syntax: "public interface **AaaaRecordSets**</br> extends <xref href=\"com.microsoft.azure.management.dns.DnsRecordSets?alt=com.microsoft.azure.management.dns.DnsRecordSets&text=DnsRecordSets\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.dns.AaaaRecordSet?alt=com.microsoft.azure.management.dns.AaaaRecordSet&text=AaaaRecordSet\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "Entry point to AAAA record sets in a DNS zone."
+implements:
+- "<xref href=\"com.microsoft.azure.management.dns.DnsRecordSets?alt=com.microsoft.azure.management.dns.DnsRecordSets&text=DnsRecordSets\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.dns.AaaaRecordSet?alt=com.microsoft.azure.management.dns.AaaaRecordSet&text=AaaaRecordSet\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.dns"
+artifact: com.microsoft.azure:azure-mgmt-dns:1.41.4

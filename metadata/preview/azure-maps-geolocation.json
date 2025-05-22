@@ -1,0 +1,26 @@
+{
+  "Name": "azure-maps-geolocation",
+  "Version": "1.0.0-beta.3",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/maps/azure-maps-geolocation",
+  "ServiceDirectory": "maps/azure-maps-geolocation",
+  "ReadMePath": "sdk/maps/azure-maps-geolocation/README.md",
+  "ChangeLogPath": "sdk/maps/azure-maps-geolocation/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-maps-geolocation",
+  "ReleaseStatus": "2024-12-27",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "safeName": "azuremapsgeolocation",
+    "name": "azure-maps-geolocation",
+    "groupId": "com.azure"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.maps.geolocation",
+    "com.azure.maps.geolocation.models"
+  ]
+}

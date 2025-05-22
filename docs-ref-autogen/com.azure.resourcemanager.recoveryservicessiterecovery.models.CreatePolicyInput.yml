@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput"
+fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput"
+name: "CreatePolicyInput"
+nameWithType: "CreatePolicyInput"
+summary: "Protection Policy input."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **CreatePolicyInput**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput&text=CreatePolicyInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.CreatePolicyInput()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.CreatePolicyInput()"
+  name: "CreatePolicyInput()"
+  nameWithType: "CreatePolicyInput.CreatePolicyInput()"
+  summary: "Creates an instance of Create<wbr>Policy<wbr>Input class."
+  syntax: "public CreatePolicyInput()"
+  desc: "Creates an instance of CreatePolicyInput class."
+methods:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "CreatePolicyInput.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Create<wbr>Policy<wbr>Input from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CreatePolicyInput fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the CreatePolicyInput."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of CreatePolicyInput from the JsonReader."
+  returns:
+    description: "An instance of CreatePolicyInput if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput&text=CreatePolicyInput\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.properties()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.properties()"
+  name: "properties()"
+  nameWithType: "CreatePolicyInput.properties()"
+  summary: "Get the properties property: Policy creation properties."
+  syntax: "public CreatePolicyInputProperties properties()"
+  desc: "Get the properties property: Policy creation properties."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInputProperties&text=CreatePolicyInputProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "CreatePolicyInput.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.validate()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.validate()"
+  name: "validate()"
+  nameWithType: "CreatePolicyInput.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.withProperties(com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInputProperties)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput.withProperties(CreatePolicyInputProperties properties)"
+  name: "withProperties(CreatePolicyInputProperties properties)"
+  nameWithType: "CreatePolicyInput.withProperties(CreatePolicyInputProperties properties)"
+  summary: "Set the properties property: Policy creation properties."
+  parameters:
+  - description: "the properties value to set."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInputProperties&text=CreatePolicyInputProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CreatePolicyInput withProperties(CreatePolicyInputProperties properties)"
+  desc: "Set the properties property: Policy creation properties."
+  returns:
+    description: "the CreatePolicyInput object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput&text=CreatePolicyInput\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Protection Policy input."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.CreatePolicyInput&text=CreatePolicyInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.recoveryservicessiterecovery.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservicessiterecovery:1.3.0

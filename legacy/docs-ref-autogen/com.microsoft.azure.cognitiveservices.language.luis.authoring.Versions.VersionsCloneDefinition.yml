@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithAppId.withAppId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithAllOptions.withVersion(String)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithVersionId.withVersionId(String)
-nameWithType: Versions.VersionsCloneDefinition
-syntax: public interface VersionsCloneDefinition extends Versions.VersionsCloneDefinitionStages.WithAppId,Versions.VersionsCloneDefinitionStages.WithVersionId,Versions.VersionsCloneDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinition
-name: Versions.VersionsCloneDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of clone definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinition"
+name: "Versions.VersionsCloneDefinition"
+nameWithType: "Versions.VersionsCloneDefinition"
+summary: "The entirety of clone definition."
+syntax: "public static interface **Versions.VersionsCloneDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of clone definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsCloneDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

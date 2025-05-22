@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.analytics.synapse.artifacts.models.KqlScript"
+fullName: "com.azure.analytics.synapse.artifacts.models.KqlScript"
+name: "KqlScript"
+nameWithType: "KqlScript"
+summary: "The Kql<wbr>Script model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **KqlScript**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.KqlScript?alt=com.azure.analytics.synapse.artifacts.models.KqlScript&text=KqlScript\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.analytics.synapse.artifacts.models.KqlScript.KqlScript()"
+  fullName: "com.azure.analytics.synapse.artifacts.models.KqlScript.KqlScript()"
+  name: "KqlScript()"
+  nameWithType: "KqlScript.KqlScript()"
+  summary: "Creates an instance of Kql<wbr>Script class."
+  syntax: "public KqlScript()"
+  desc: "Creates an instance of KqlScript class."
+methods:
+- uid: "com.azure.analytics.synapse.artifacts.models.KqlScript.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.KqlScript.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "KqlScript.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Kql<wbr>Script from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static KqlScript fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the KqlScript."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of KqlScript from the JsonReader."
+  returns:
+    description: "An instance of KqlScript if the JsonReader was pointing to an instance of it, or null if it was pointing\n to JSON null."
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.KqlScript?alt=com.azure.analytics.synapse.artifacts.models.KqlScript&text=KqlScript\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.KqlScript.getContent()"
+  fullName: "com.azure.analytics.synapse.artifacts.models.KqlScript.getContent()"
+  name: "getContent()"
+  nameWithType: "KqlScript.getContent()"
+  summary: "Get the content property: The content property."
+  syntax: "public KqlScriptContent getContent()"
+  desc: "Get the content property: The content property."
+  returns:
+    description: "the content value."
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.KqlScriptContent?alt=com.azure.analytics.synapse.artifacts.models.KqlScriptContent&text=KqlScriptContent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.KqlScript.setContent(com.azure.analytics.synapse.artifacts.models.KqlScriptContent)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.KqlScript.setContent(KqlScriptContent content)"
+  name: "setContent(KqlScriptContent content)"
+  nameWithType: "KqlScript.setContent(KqlScriptContent content)"
+  summary: "Set the content property: The content property."
+  parameters:
+  - description: "the content value to set."
+    name: "content"
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.KqlScriptContent?alt=com.azure.analytics.synapse.artifacts.models.KqlScriptContent&text=KqlScriptContent\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public KqlScript setContent(KqlScriptContent content)"
+  desc: "Set the content property: The content property."
+  returns:
+    description: "the KqlScript object itself."
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.KqlScript?alt=com.azure.analytics.synapse.artifacts.models.KqlScript&text=KqlScript\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.KqlScript.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.KqlScript.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "KqlScript.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The KqlScript model."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.KqlScript?alt=com.azure.analytics.synapse.artifacts.models.KqlScript&text=KqlScript\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.analytics.synapse.artifacts.models"
+artifact: com.azure:azure-analytics-synapse-artifacts:1.0.0-beta.16

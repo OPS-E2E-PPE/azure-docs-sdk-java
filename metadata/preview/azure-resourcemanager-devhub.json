@@ -1,0 +1,29 @@
+{
+  "Name": "azure-resourcemanager-devhub",
+  "Version": "1.0.0-beta.3",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/devhub/azure-resourcemanager-devhub",
+  "ServiceDirectory": "devhub",
+  "ReadMePath": "sdk/devhub/azure-resourcemanager-devhub/README.md",
+  "ChangeLogPath": "sdk/devhub/azure-resourcemanager-devhub/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-devhub",
+  "ReleaseStatus": "2024-10-31",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-devhub",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerdevhub",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerdevhub }}"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.devhub",
+    "com.azure.resourcemanager.devhub.fluent",
+    "com.azure.resourcemanager.devhub.fluent.models",
+    "com.azure.resourcemanager.devhub.models"
+  ]
+}

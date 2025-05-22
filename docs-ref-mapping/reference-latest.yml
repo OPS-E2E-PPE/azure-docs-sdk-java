@@ -1,844 +1,2945 @@
 - name: Reference
-  uid: azure.java.sdk.landingpage.reference
   landingPageType: Root
   expanded: false
   items:
   - name: Active Directory
-    uid: azure.java.sdk.landingpage.services.activedirectory
-    href: ~/docs-ref-services/latest/resourcemanager-msi-readme.md
+    href: ~/docs-ref-services/latest/activedirectory.md
+    landingPageType: Service
     items:
     - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.activedirectory.ResourceManagement
-      landingPageType: Service
+      href: ~/docs-ref-services/latest/resourcemanager-msi-readme.md
       children:
       - com.azure.resourcemanager.msi*
     - name: Client
-      uid: azure.java.sdk.landingpage.services.activedirectory.Client
-      landingPageType: Service
       children:
       - com.microsoft.aad.adal*
       - com.microsoft.aad.adal4j*
       - com.microsoft.identity.client*
-  - name: Application Insights
-    uid: azure.java.sdk.landingpage.services.appinsights
-    href: ~/docs-ref-services/latest/appinsights.md
+  - name: Advisor
+    href: ~/docs-ref-services/latest/advisor.md
+    landingPageType: Service
     items:
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.appinsights.Client
-      landingPageType: Service
-      children:
-      - com.microsoft.applicationinsights*
-      - com.microsoft.azure.applicationinsights.query*
+    - name: Management
+      items:
+      - name: Resource Management - Advisor
+        href: ~/docs-ref-services/latest/resourcemanager-advisor-readme.md
+        children:
+        - com.azure.resourcemanager.advisor
+        - com.azure.resourcemanager.advisor.fluent
+        - com.azure.resourcemanager.advisor.fluent.models
+        - com.azure.resourcemanager.advisor.models
+  - name: API Center
+    href: ~/docs-ref-services/latest/api-center.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - API Center
+        href: ~/docs-ref-services/latest/resourcemanager-apicenter-readme.md
+        children:
+        - com.azure.resourcemanager.apicenter
+        - com.azure.resourcemanager.apicenter.fluent
+        - com.azure.resourcemanager.apicenter.fluent.models
+        - com.azure.resourcemanager.apicenter.models
   - name: API Management
-    uid: azure.java.sdk.landingpage.services.apimanagement
+    href: ~/docs-ref-services/latest/api-management.md
     landingPageType: Service
-    children:
-    - com.microsoft.azure.management.apimanagement*
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - API Management
+        href: ~/docs-ref-services/latest/resourcemanager-apimanagement-readme.md
+        children:
+        - com.azure.resourcemanager.apimanagement
+        - com.azure.resourcemanager.apimanagement.fluent
+        - com.azure.resourcemanager.apimanagement.fluent.models
+        - com.azure.resourcemanager.apimanagement.models
+  - name: App Compliance Automation
+    href: ~/docs-ref-services/latest/app-compliance-automation.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - App Compliance Automation
+        href: ~/docs-ref-services/latest/resourcemanager-appcomplianceautomation-readme.md
+        children:
+        - com.azure.resourcemanager.appcomplianceautomation
+        - com.azure.resourcemanager.appcomplianceautomation.fluent
+        - com.azure.resourcemanager.appcomplianceautomation.fluent.models
+        - com.azure.resourcemanager.appcomplianceautomation.models
   - name: App Configuration
-    uid: azure.java.sdk.landingpage.services.appconfig
-    href: ~/docs-ref-services/latest/data-appconfiguration-readme.md
-    children:
-    - com.azure.data.appconfiguration*
-  - name: App Service
-    uid: azure.java.sdk.landingpage.services.appservice
-    href: ~/docs-ref-services/latest/resourcemanager-appservice-readme.md
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.appservice.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.appservice*
-  - name: Authorization
-    uid: azure.java.sdk.landingpage.services.authorization
+    href: ~/docs-ref-services/latest/app-configuration.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.authorization.ResourceManagement
-      landingPageType: Service
+    - name: App Configuration
+      href: ~/docs-ref-services/latest/data-appconfiguration-readme.md
       children:
-      - com.azure.resourcemanager.authorization*
-  - name: Batch
-    uid: azure.java.sdk.landingpage.services.batch
-    href: ~/docs-ref-services/latest/batch.md
+      - com.azure.data.appconfiguration
+      - com.azure.data.appconfiguration.models
+    - name: Management
+      items:
+      - name: Resource Management - App Configuration
+        href: ~/docs-ref-services/latest/resourcemanager-appconfiguration-readme.md
+        children:
+        - com.azure.resourcemanager.appconfiguration
+        - com.azure.resourcemanager.appconfiguration.fluent
+        - com.azure.resourcemanager.appconfiguration.fluent.models
+        - com.azure.resourcemanager.appconfiguration.models
+  - name: App Platform
+    href: ~/docs-ref-services/latest/app-platform.md
+    landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.batch.ResourceManagement
-      landingPageType: Service
+    - name: Management
+      items:
+      - name: Resource Management - App Platform
+        href: ~/docs-ref-services/latest/resourcemanager-appplatform-readme.md
+        children:
+        - com.azure.resourcemanager.appplatform
+        - com.azure.resourcemanager.appplatform.fluent
+        - com.azure.resourcemanager.appplatform.fluent.models
+        - com.azure.resourcemanager.appplatform.models
+  - name: App Service
+    href: ~/docs-ref-services/latest/app-service.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - App Service
+        href: ~/docs-ref-services/latest/resourcemanager-appservice-readme.md
+        children:
+        - com.azure.resourcemanager.appservice
+        - com.azure.resourcemanager.appservice.fluent
+        - com.azure.resourcemanager.appservice.fluent.models
+        - com.azure.resourcemanager.appservice.models
+  - name: Application Insights
+    href: ~/docs-ref-services/latest/application-insights.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Application Insights
+        href: ~/docs-ref-services/latest/resourcemanager-applicationinsights-readme.md
+        children:
+        - com.azure.resourcemanager.applicationinsights
+        - com.azure.resourcemanager.applicationinsights.fluent
+        - com.azure.resourcemanager.applicationinsights.fluent.models
+        - com.azure.resourcemanager.applicationinsights.models
+        - com.azure.resourcemanager.applicationinsights
+        - com.azure.resourcemanager.applicationinsights.fluent
+        - com.azure.resourcemanager.applicationinsights.fluent.models
+        - com.azure.resourcemanager.applicationinsights.models
+  - name: Arc Data
+    href: ~/docs-ref-services/latest/arc-data.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Arc Data
+        href: ~/docs-ref-services/latest/resourcemanager-azurearcdata-readme.md
+        children:
+        - com.azure.resourcemanager.azurearcdata
+        - com.azure.resourcemanager.azurearcdata.fluent
+        - com.azure.resourcemanager.azurearcdata.fluent.models
+        - com.azure.resourcemanager.azurearcdata.models
+  - name: Attestation
+    href: ~/docs-ref-services/latest/attestation.md
+    landingPageType: Service
+    items:
+    - name: Attestation
+      href: ~/docs-ref-services/latest/security-attestation-readme.md
       children:
-      - com.microsoft.azure.management.batch
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.batch.Client
+      - com.azure.security.attestation
+      - com.azure.security.attestation.models
+  - name: Authorization
+    href: ~/docs-ref-services/latest/authorization.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Authorization
+        href: ~/docs-ref-services/latest/resourcemanager-authorization-readme.md
+        children:
+        - com.azure.resourcemanager.authorization
+        - com.azure.resourcemanager.authorization.models
+        - com.azure.resourcemanager.authorization.utils
+  - name: Auto Suggest
+    landingPageType: Service
+    items:
+    - name: Auto Suggest (deprecated)
+      children:
+      - com.microsoft.azure.cognitiveservices.search.autosuggest
+      - com.microsoft.azure.cognitiveservices.search.autosuggest.implementation
+      - com.microsoft.azure.cognitiveservices.search.autosuggest.models
       landingPageType: Service
+  - name: Automanage
+    href: ~/docs-ref-services/latest/automanage.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Automanage
+        href: ~/docs-ref-services/latest/resourcemanager-automanage-readme.md
+        children:
+        - com.azure.resourcemanager.automanage
+        - com.azure.resourcemanager.automanage.fluent
+        - com.azure.resourcemanager.automanage.fluent.models
+        - com.azure.resourcemanager.automanage.models
+  - name: Automation
+    href: ~/docs-ref-services/latest/automation.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Automation
+        href: ~/docs-ref-services/latest/resourcemanager-automation-readme.md
+        children:
+        - com.azure.resourcemanager.automation
+        - com.azure.resourcemanager.automation.fluent
+        - com.azure.resourcemanager.automation.fluent.models
+        - com.azure.resourcemanager.automation.models
+  - name: Azure Stack
+    href: ~/docs-ref-services/latest/azure-stack.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Azure Stack
+        href: ~/docs-ref-services/latest/resourcemanager-azurestack-readme.md
+        children:
+        - com.azure.resourcemanager.azurestack
+        - com.azure.resourcemanager.azurestack.fluent
+        - com.azure.resourcemanager.azurestack.fluent.models
+        - com.azure.resourcemanager.azurestack.models
+  - name: Azure VMware Solution
+    href: ~/docs-ref-services/latest/azure-vmware-solution.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Azure VMware Solution
+        href: ~/docs-ref-services/latest/resourcemanager-avs-readme.md
+        children:
+        - com.azure.resourcemanager.avs
+        - com.azure.resourcemanager.avs.fluent
+        - com.azure.resourcemanager.avs.fluent.models
+        - com.azure.resourcemanager.avs.models
+  - name: BareMetal Infrastructure
+    href: ~/docs-ref-services/latest/baremetal-infrastructure.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - BareMetal Infrastructure
+        href: ~/docs-ref-services/latest/resourcemanager-baremetalinfrastructure-readme.md
+        children:
+        - com.azure.resourcemanager.baremetalinfrastructure
+        - com.azure.resourcemanager.baremetalinfrastructure.fluent
+        - com.azure.resourcemanager.baremetalinfrastructure.fluent.models
+        - com.azure.resourcemanager.baremetalinfrastructure.models
+  - name: Batch
+    href: ~/docs-ref-services/latest/batch.md
+    landingPageType: Service
+    items:
+    - name: Batch
+      href: ~/docs-ref-services/latest/batch-readme.md
       children:
       - com.microsoft.azure.batch
-      - com.microsoft.azure.batch.*
-      - com.microsoft.azure.management.batch.implementation*
-  - name: Batch AI
-    uid: azure.java.sdk.landingpage.services.batchai
-    href: ~/docs-ref-services/latest/batchai.md
-    landingPageType: Service
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.batchai.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.batchai*
-  - name: CDN
-    uid: azure.java.sdk.landingpage.services.cdn
-    href: ~/docs-ref-services/latest/resourcemanager-cdn-readme.md
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.cdn.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.cdn*
-  - name: Compute
-    uid: azure.java.sdk.landingpage.services.compute
-    href: ~/docs-ref-services/latest/resourcemanager-compute-readme.md
-    landingPageType: Service
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.compute.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.compute*
-  - name: Communication
-    uid: azure.java.sdk.landingpage.services.communication
-    landingPageType: Service
-    items:
-    - name: Common
-      uid: azure.java.sdk.landingpage.services.communication.Common
-      href: ~/docs-ref-services/latest/communication-common-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.communication.common*
-    - name: SMS
-      uid: azure.java.sdk.landingpage.services.communication.SMS
-      href: ~/docs-ref-services/latest/communication-sms-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.communication.sms*
-  - name: Cognitive Services
-    uid: azure.java.sdk.landingpage.services.cognitiveservices
-    landingPageType: Service
-    items:
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.cognitiveservices.Client
-      landingPageType: Service
-      items:
-      - name: Bing AutoSuggest
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.autoSuggest
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-autosuggest-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.search.autosuggest*
-      - name: Bing Custom Image Search
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.customImageSearch
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-custom-image-search-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.search.customimagesearch*
-      - name: Bing Custom Search
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.customSearch
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-custom-search-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.search.customsearch*
-      - name: Bing Entity Search API
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.entitySearch
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-entity-search-api-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.search.entitysearch*
-      - name: Bing Image Search
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.imageSearch
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-image-search-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.search.imagesearch*
-      - name: Bing News Search
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.newsSearch
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-news-search-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.search.newssearch*
-      - name: Bing Spell Check
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.spellCheck
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-spell-check-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.language.spell*
-      - name: Bing Video Search
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.videosearch
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-video-search-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.search.videosearch*
-      - name: Bing Visual Search
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.visualsearch
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-visual-search-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.search.visualsearch*
-      - name: Bing Web Search API
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.webSearch
-        href: ~/docs-ref-services/latest/cognitiveservices/bing-web-search-api-readme.md
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.search.websearch*
-      - name: Computer Vision
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.computerVision
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.vision.computervision*
-      - name: Content Moderator
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.contentModerator
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.vision.contentmoderator*
-      - name: Custom Vision
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.customVision
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.vision.customvision*
-      - name: Face API
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.faceApi
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.vision.faceapi*
-      - name: Language Understanding
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.languageUnderstanding
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.language.luis*
-        - com.microsoft.azure.cognitiveservices.language.luis.authoring*
-      - name: Speech Service
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.speech
-        landingPageType: Service
-        children:
-        - com.microsoft.cognitiveservices.speech*
-      - name: Text Analytics
-        uid: azure.java.sdk.landingpage.services.cognitiveservices.Client.textAnalytics
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.cognitiveservices.language.text*
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.cognitiveservices.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.cognitiveservices*
-  - name: Container Instance
-    uid: azure.java.sdk.landingpage.services.containerinstance
-    href: ~/docs-ref-services/latest/resourcemanager-containerinstance-readme.md
-    landingPageType: Service
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.containerinstance.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.containerinstance*
-  - name: Container Registry
-    uid: azure.java.sdk.landingpage.services.containerregistry
-    href: ~/docs-ref-services/latest/resourcemanager-containerregistry-readme.md
-    landingPageType: Service
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.containerregistry.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.containerregistry*
-  - name: Container Service
-    uid: azure.java.sdk.landingpage.services.containerservice
-    landingPageType: Service
-    href: ~/docs-ref-services/latest/resourcemanager-containerservice-readme.md
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.containerservice.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.containerservice*
-  - name: Core
-    uid: azure.java.sdk.landingpage.services.sdk.core
-    landingPageType: Service
-    items:
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.sdk.core.Client
-      href: ~/docs-ref-services/latest/core-readme.md
-      children:
-      - com.azure.core.annotation
-      - com.azure.core.credential
-      - com.azure.core.cryptography
-      - com.azure.core.exception
-      - com.azure.core.http
-      - com.azure.core.util.logging
-      - com.azure.core.util.paging
-      - com.azure.core.http.policy
-      - com.azure.core.util.polling
-      - com.azure.core.http.rest
-      - com.azure.core.util.serializer
-      - com.azure.core.util.tracing
-      - com.azure.core.util
-    - name: AMQP
-      uid: azure.java.sdk.landingpage.services.sdk.core.AMQP
-      href: ~/docs-ref-services/latest/core-amqp-readme.md
-      children:
-      - com.azure.core.amqp*
-    - name: OkHttp
-      uid: azure.java.sdk.landingpage.services.sdk.core.OkHttp
-      href: ~/docs-ref-services/latest/core-http-okhttp-readme.md
-      children:
-      - com.azure.core.http.okhttp*
-    - name: Netty
-      uid: azure.java.sdk.landingpage.services.sdk.core.Netty
-      href: ~/docs-ref-services/latest/core-http-netty-readme.md
-      children:
-      - com.azure.core.http.netty*
-    - name: Gson Serializer
-      uid: azure.java.sdk.landingpage.services.sdk.core.GsonSerializer
-      href: ~/docs-ref-services/latest/core-serializer-json-gson-readme.md
-      children:
-      - com.azure.core.serializer.json.gson
-    - name: Jackson Serializer
-      uid: azure.java.sdk.landingpage.services.sdk.core.JacksonSerializer
-      href: ~/docs-ref-services/latest/core-serializer-json-jackson-readme.md
-      children:
-      - com.azure.core.serializer.json.jackson
-    - name: Test
-      uid: azure.java.sdk.landingpage.services.sdk.core.Test
-      href: ~/docs-ref-services/latest/core-test-readme.md
-      children:
-      - com.azure.core.test*
+      - com.microsoft.azure.batch.auth
+      - com.microsoft.azure.batch.interceptor
+      - com.microsoft.azure.batch.protocol
+      - com.microsoft.azure.batch.protocol.implementation
+      - com.microsoft.azure.batch.protocol.models
     - name: Management
-      uid: azure.java.sdk.landingpage.services.sdk.core.Management
-      href: ~/docs-ref-services/latest/core-management-readme.md
-      children:
-      - com.azure.core.management*
-  - name: Cosmos DB
-    uid: azure.java.sdk.landingpage.services.cosmosdb
-    href: ~/docs-ref-services/latest/cosmosdb.md
-    items:
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.cosmosdb.Client
-      landingPageType: Service
       items:
-      - name: Version 4.X.X
-        uid: azure.java.sdk.landingpage.services.cosmosdb.Client.newVersion
-        href: ~/docs-ref-services/latest/cosmos-readme.md
+      - name: Resource Management - Batch
+        href: ~/docs-ref-services/latest/resourcemanager-batch-readme.md
         children:
-        - com.azure.cosmos*
-      - name: Bulk Executor
-        uid: azure.java.sdk.landingpage.services.cosmosdb.Client.bulkExecutor
-        landingPageType: Service
-        children:
-        - com.microsoft.azure.documentdb.bulk*
-    - name: Spring Data
-      uid: azure.java.sdk.landingpage.services.cosmosdb.SpringData
-      href: ~/docs-ref-services/latest/spring-data-cosmos-readme.md
-      children:
-      - com.azure.spring.data.cosmos*
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.cosmosdb.ResourceManagement
-      href: ~/docs-ref-services/latest/resourcemanager-cosmos-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.cosmos*
-  - name: Kusto
-    uid: azure.java.sdk.landingpage.services.dataexplorer
+        - com.azure.resourcemanager.batch
+        - com.azure.resourcemanager.batch.fluent
+        - com.azure.resourcemanager.batch.fluent.models
+        - com.azure.resourcemanager.batch.models
+  - name: Billing
+    href: ~/docs-ref-services/latest/billing.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.dataexplorer.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.kusto*
-  - name: Data Lake Analytics
-    uid: azure.java.sdk.landingpage.services.datalakeanalytics
-    href: ~/docs-ref-services/latest/datalakeanalytics.md
+    - name: Management
+      items:
+      - name: Resource Management - Billing
+        href: ~/docs-ref-services/latest/resourcemanager-billing-readme.md
+        children:
+        - com.azure.resourcemanager.billing
+        - com.azure.resourcemanager.billing.fluent
+        - com.azure.resourcemanager.billing.fluent.models
+        - com.azure.resourcemanager.billing.models
+  - name: Bot Service
+    href: ~/docs-ref-services/latest/bot-service.md
+    landingPageType: Service
     items:
+    - name: Management
+      items:
+      - name: Resource Management - Bot Service
+        href: ~/docs-ref-services/latest/resourcemanager-botservice-readme.md
+        children:
+        - com.azure.resourcemanager.botservice
+        - com.azure.resourcemanager.botservice.fluent
+        - com.azure.resourcemanager.botservice.fluent.models
+        - com.azure.resourcemanager.botservice.models
+  - name: Change Analysis
+    href: ~/docs-ref-services/latest/change-analysis.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Change Analysis
+        href: ~/docs-ref-services/latest/resourcemanager-changeanalysis-readme.md
+        children:
+        - com.azure.resourcemanager.changeanalysis
+        - com.azure.resourcemanager.changeanalysis.fluent
+        - com.azure.resourcemanager.changeanalysis.fluent.models
+        - com.azure.resourcemanager.changeanalysis.models
+  - name: Chaos
+    href: ~/docs-ref-services/latest/chaos.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Chaos
+        href: ~/docs-ref-services/latest/resourcemanager-chaos-readme.md
+        children:
+        - com.azure.resourcemanager.chaos
+        - com.azure.resourcemanager.chaos.fluent
+        - com.azure.resourcemanager.chaos.fluent.models
+        - com.azure.resourcemanager.chaos.models
+  - name: Cognitive Services
+    href: ~/docs-ref-services/latest/cognitive-services.md
+    landingPageType: Service
+    items:
+    - name: Content Safety
+      href: ~/docs-ref-services/latest/ai-contentsafety-readme.md
+      children:
+      - com.azure.ai.contentsafety
+      - com.azure.ai.contentsafety.models
+    - name: Document Intelligence
+      href: ~/docs-ref-services/latest/ai-documentintelligence-readme.md
+      children:
+      - com.azure.ai.documentintelligence
+      - com.azure.ai.documentintelligence.models
+    - name: Form Recognizer
+      href: ~/docs-ref-services/latest/ai-formrecognizer-readme.md
+      children:
+      - com.azure.ai.formrecognizer
+      - com.azure.ai.formrecognizer.documentanalysis
+      - com.azure.ai.formrecognizer.documentanalysis.administration
+      - com.azure.ai.formrecognizer.documentanalysis.administration.models
+      - com.azure.ai.formrecognizer.documentanalysis.models
+      - com.azure.ai.formrecognizer.models
+      - com.azure.ai.formrecognizer.training
+      - com.azure.ai.formrecognizer.training.models
+    - name: Text Analytics
+      href: ~/docs-ref-services/latest/ai-textanalytics-readme.md
+      children:
+      - com.azure.ai.textanalytics
+      - com.azure.ai.textanalytics.models
+      - com.azure.ai.textanalytics.util
+    - name: Document Translation
+      href: ~/docs-ref-services/latest/ai-translation-document-readme.md
+      children:
+      - com.azure.ai.translation.document
+      - com.azure.ai.translation.document.models
+    - name: Text Translation
+      href: ~/docs-ref-services/latest/ai-translation-text-readme.md
+      children:
+      - com.azure.ai.translation.text
+      - com.azure.ai.translation.text.models
+    - name: Image Analysis
+      href: ~/docs-ref-services/latest/ai-vision-imageanalysis-readme.md
+      children:
+      - com.azure.ai.vision.imageanalysis
+      - com.azure.ai.vision.imageanalysis.models
+    - name: Content Safety (deprecated)
+      children:
+      - com.microsoft.azure.cognitiveservices.vision.contentmoderator
+      - com.microsoft.azure.cognitiveservices.vision.contentmoderator.implementation
+      - com.microsoft.azure.cognitiveservices.vision.contentmoderator.models
+      landingPageType: Service
+    - name: Custom Vision (deprecated)
+      children:
+      - com.microsoft.azure.cognitiveservices.vision.customvision.prediction
+      - com.microsoft.azure.cognitiveservices.vision.customvision.prediction.implementation
+      - com.microsoft.azure.cognitiveservices.vision.customvision.prediction.models
+      landingPageType: Service
+    - name: Custom Vision Training (deprecated)
+      children:
+      - com.microsoft.azure.cognitiveservices.vision.customvision.training
+      - com.microsoft.azure.cognitiveservices.vision.customvision.training.implementation
+      - com.microsoft.azure.cognitiveservices.vision.customvision.training.models
+      landingPageType: Service
+    - name: Face (deprecated)
+      children:
+      - com.microsoft.azure.cognitiveservices.vision.faceapi
+      - com.microsoft.azure.cognitiveservices.vision.faceapi.implementation
+      - com.microsoft.azure.cognitiveservices.vision.faceapi.models
+      landingPageType: Service
+    - name: LUIS Authoring (deprecated)
+      children:
+      - com.microsoft.azure.cognitiveservices.language.luis.authoring
+      - com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+      - com.microsoft.azure.cognitiveservices.language.luis.authoring.models
+      landingPageType: Service
+    - name: LUIS Runtime (deprecated)
+      children:
+      - com.microsoft.azure.cognitiveservices.language.luis.runtime
+      - com.microsoft.azure.cognitiveservices.language.luis.runtime.implementation
+      - com.microsoft.azure.cognitiveservices.language.luis.runtime.models
+      landingPageType: Service
+    - name: Health Insights Radiology Insights
+      href: ~/docs-ref-services/latest/health-insights-radiologyinsights-readme.md
+      children:
+      - com.azure.health.insights.radiologyinsights
+      - com.azure.health.insights.radiologyinsights.models
+    - name: Speech
+      children:
+      - com.microsoft.cognitiveservices.speech
+      - com.microsoft.cognitiveservices.speech.audio
+      - com.microsoft.cognitiveservices.speech.diagnostics.logging
+      - com.microsoft.cognitiveservices.speech.dialog
+      - com.microsoft.cognitiveservices.speech.intent
+      - com.microsoft.cognitiveservices.speech.speaker
+      - com.microsoft.cognitiveservices.speech.transcription
+      - com.microsoft.cognitiveservices.speech.translation
+      - com.microsoft.cognitiveservices.speech.util
+      landingPageType: Service
+    - name: Management
+      items:
+      - name: Resource Management - Cognitive Services
+        href: ~/docs-ref-services/latest/resourcemanager-cognitiveservices-readme.md
+        children:
+        - com.azure.resourcemanager.cognitiveservices
+        - com.azure.resourcemanager.cognitiveservices.fluent
+        - com.azure.resourcemanager.cognitiveservices.fluent.models
+        - com.azure.resourcemanager.cognitiveservices.models
+  - name: Communication
+    href: ~/docs-ref-services/latest/communication.md
+    landingPageType: Service
+    items:
+    - name: Communication Call Automation
+      href: ~/docs-ref-services/latest/communication-callautomation-readme.md
+      children:
+      - com.azure.communication.callautomation
+      - com.azure.communication.callautomation.models
+      - com.azure.communication.callautomation.models.events
+      - com.azure.communication.callautomation
+      - com.azure.communication.callautomation.models
+      - com.azure.communication.callautomation.models.events
+    - name: Communication Chat
+      href: ~/docs-ref-services/latest/communication-chat-readme.md
+      children:
+      - com.azure.communication.chat
+      - com.azure.communication.chat.models
+    - name: Communication Common
+      href: ~/docs-ref-services/latest/communication-common-readme.md
+      children:
+      - com.azure.communication.common
+      - com.azure.communication.common
+    - name: Communication Email
+      href: ~/docs-ref-services/latest/communication-email-readme.md
+      children:
+      - com.azure.communication.email
+      - com.azure.communication.email.models
+      - com.azure.communication.email
+      - com.azure.communication.email.models
+    - name: Communication Identity
+      href: ~/docs-ref-services/latest/communication-identity-readme.md
+      children:
+      - com.azure.communication.identity
+      - com.azure.communication.identity.models
+    - name: Communication JobRouter
+      href: ~/docs-ref-services/latest/communication-jobrouter-readme.md
+      children:
+      - com.azure.communication.jobrouter
+      - com.azure.communication.jobrouter.models
+    - name: Communication Messages
+      href: ~/docs-ref-services/latest/communication-messages-readme.md
+      children:
+      - com.azure.communication.messages
+      - com.azure.communication.messages.models
+      - com.azure.communication.messages.models.channels
+      - com.azure.communication.messages
+      - com.azure.communication.messages.models
+      - com.azure.communication.messages.models.channels
+    - name: Communication Phone Numbers
+      href: ~/docs-ref-services/latest/communication-phonenumbers-readme.md
+      children:
+      - com.azure.communication.phonenumbers
+      - com.azure.communication.phonenumbers.models
+      - com.azure.communication.phonenumbers.siprouting
+      - com.azure.communication.phonenumbers.siprouting.models
+      - com.azure.communication.phonenumbers
+      - com.azure.communication.phonenumbers.models
+      - com.azure.communication.phonenumbers.siprouting
+      - com.azure.communication.phonenumbers.siprouting.models
+    - name: Communication Rooms
+      href: ~/docs-ref-services/latest/communication-rooms-readme.md
+      children:
+      - com.azure.communication.rooms
+      - com.azure.communication.rooms.models
+    - name: Communication Sms
+      href: ~/docs-ref-services/latest/communication-sms-readme.md
+      children:
+      - com.azure.communication.sms
+      - com.azure.communication.sms.models
+    - name: Management
+      items:
+      - name: Resource Management - Communication
+        href: ~/docs-ref-services/latest/resourcemanager-communication-readme.md
+        children:
+        - com.azure.resourcemanager.communication
+        - com.azure.resourcemanager.communication.fluent
+        - com.azure.resourcemanager.communication.fluent.models
+        - com.azure.resourcemanager.communication.models
+  - name: Compute
+    href: ~/docs-ref-services/latest/compute.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Compute
+        href: ~/docs-ref-services/latest/resourcemanager-compute-readme.md
+        children:
+        - com.azure.resourcemanager.compute
+        - com.azure.resourcemanager.compute.fluent
+        - com.azure.resourcemanager.compute.fluent.models
+        - com.azure.resourcemanager.compute.models
+  - name: Compute Fleet
+    href: ~/docs-ref-services/latest/compute-fleet.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Compute Fleet
+        href: ~/docs-ref-services/latest/resourcemanager-computefleet-readme.md
+        children:
+        - com.azure.resourcemanager.computefleet
+        - com.azure.resourcemanager.computefleet.fluent
+        - com.azure.resourcemanager.computefleet.fluent.models
+        - com.azure.resourcemanager.computefleet.models
+  - name: Compute Schedule
+    href: ~/docs-ref-services/latest/compute-schedule.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Compute Schedule
+        href: ~/docs-ref-services/latest/resourcemanager-computeschedule-readme.md
+        children:
+        - com.azure.resourcemanager.computeschedule
+        - com.azure.resourcemanager.computeschedule.fluent
+        - com.azure.resourcemanager.computeschedule.fluent.models
+        - com.azure.resourcemanager.computeschedule.models
+  - name: Confidential Ledger
+    href: ~/docs-ref-services/latest/confidential-ledger.md
+    landingPageType: Service
+    items:
+    - name: Confidential Ledger
+      href: ~/docs-ref-services/latest/security-confidentialledger-readme.md
+      children:
+      - com.azure.security.confidentialledger
+      - com.azure.security.confidentialledger.certificate
+      - com.azure.security.confidentialledger
+      - com.azure.security.confidentialledger.certificate
+    - name: Management
+      items:
+      - name: Resource Management - Confidential Ledger
+        href: ~/docs-ref-services/latest/resourcemanager-confidentialledger-readme.md
+        children:
+        - com.azure.resourcemanager.confidentialledger
+        - com.azure.resourcemanager.confidentialledger.fluent
+        - com.azure.resourcemanager.confidentialledger.fluent.models
+        - com.azure.resourcemanager.confidentialledger.models
+        - com.azure.resourcemanager.confidentialledger
+        - com.azure.resourcemanager.confidentialledger.fluent
+        - com.azure.resourcemanager.confidentialledger.fluent.models
+        - com.azure.resourcemanager.confidentialledger.models
+  - name: Confluent
+    href: ~/docs-ref-services/latest/confluent.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Confluent
+        href: ~/docs-ref-services/latest/resourcemanager-confluent-readme.md
+        children:
+        - com.azure.resourcemanager.confluent
+        - com.azure.resourcemanager.confluent.fluent
+        - com.azure.resourcemanager.confluent.fluent.models
+        - com.azure.resourcemanager.confluent.models
+  - name: Connected VMware
+    href: ~/docs-ref-services/latest/connected-vmware.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Connected VMware
+        href: ~/docs-ref-services/latest/resourcemanager-connectedvmware-readme.md
+        children:
+        - com.azure.resourcemanager.connectedvmware
+        - com.azure.resourcemanager.connectedvmware.fluent
+        - com.azure.resourcemanager.connectedvmware.fluent.models
+        - com.azure.resourcemanager.connectedvmware.models
+  - name: Consumption
+    href: ~/docs-ref-services/latest/consumption.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Consumption
+        href: ~/docs-ref-services/latest/resourcemanager-consumption-readme.md
+        children:
+        - com.azure.resourcemanager.consumption
+        - com.azure.resourcemanager.consumption.fluent
+        - com.azure.resourcemanager.consumption.fluent.models
+        - com.azure.resourcemanager.consumption.models
+  - name: Container Apps
+    href: ~/docs-ref-services/latest/container-apps.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Container Apps
+        href: ~/docs-ref-services/latest/resourcemanager-appcontainers-readme.md
+        children:
+        - com.azure.resourcemanager.appcontainers
+        - com.azure.resourcemanager.appcontainers.fluent
+        - com.azure.resourcemanager.appcontainers.fluent.models
+        - com.azure.resourcemanager.appcontainers.models
+  - name: Container Instances
+    href: ~/docs-ref-services/latest/container-instances.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Container Instances
+        href: ~/docs-ref-services/latest/resourcemanager-containerinstance-readme.md
+        children:
+        - com.azure.resourcemanager.containerinstance
+        - com.azure.resourcemanager.containerinstance.fluent
+        - com.azure.resourcemanager.containerinstance.fluent.models
+        - com.azure.resourcemanager.containerinstance.models
+  - name: Container Registry
+    href: ~/docs-ref-services/latest/container-registry.md
+    landingPageType: Service
+    items:
+    - name: Container Registry
+      href: ~/docs-ref-services/latest/containers-containerregistry-readme.md
+      children:
+      - com.azure.containers.containerregistry
+      - com.azure.containers.containerregistry.models
+    - name: Management
+      items:
+      - name: Resource Management - Container Registry
+        href: ~/docs-ref-services/latest/resourcemanager-containerregistry-readme.md
+        children:
+        - com.azure.resourcemanager.containerregistry
+        - com.azure.resourcemanager.containerregistry.fluent
+        - com.azure.resourcemanager.containerregistry.fluent.models
+        - com.azure.resourcemanager.containerregistry.models
+  - name: Container Service
+    href: ~/docs-ref-services/latest/container-service.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Container Service
+        href: ~/docs-ref-services/latest/resourcemanager-containerservice-readme.md
+        children:
+        - com.azure.resourcemanager.containerservice
+        - com.azure.resourcemanager.containerservice.fluent
+        - com.azure.resourcemanager.containerservice.fluent.models
+        - com.azure.resourcemanager.containerservice.models
+      - name: Resource Management - Hybrid Container Service
+        href: ~/docs-ref-services/latest/resourcemanager-hybridcontainerservice-readme.md
+        children:
+        - com.azure.resourcemanager.hybridcontainerservice
+        - com.azure.resourcemanager.hybridcontainerservice.fluent
+        - com.azure.resourcemanager.hybridcontainerservice.fluent.models
+        - com.azure.resourcemanager.hybridcontainerservice.models
+  - name: Container Service Fleet
+    href: ~/docs-ref-services/latest/container-service-fleet.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Container Service Fleet
+        href: ~/docs-ref-services/latest/resourcemanager-containerservicefleet-readme.md
+        children:
+        - com.azure.resourcemanager.containerservicefleet
+        - com.azure.resourcemanager.containerservicefleet.fluent
+        - com.azure.resourcemanager.containerservicefleet.fluent.models
+        - com.azure.resourcemanager.containerservicefleet.models
+  - name: Content Delivery Network
+    href: ~/docs-ref-services/latest/content-delivery-network.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Content Delivery Network
+        href: ~/docs-ref-services/latest/resourcemanager-cdn-readme.md
+        children:
+        - com.azure.resourcemanager.cdn
+        - com.azure.resourcemanager.cdn.fluent
+        - com.azure.resourcemanager.cdn.fluent.models
+        - com.azure.resourcemanager.cdn.models
+  - name: Cosmos DB
+    href: ~/docs-ref-services/latest/cosmos-db.md
+    landingPageType: Service
+    items:
+    - name: Cosmos DB
+      href: ~/docs-ref-services/latest/cosmos-readme.md
+      children:
+      - com.azure.cosmos
+      - com.azure.cosmos.models
+      - com.azure.cosmos.util
+      - com.azure.cosmos
+      - com.azure.cosmos.models
+      - com.azure.cosmos.util
+    - name: Cosmos DB (deprecated)
+      children:
+      - com.microsoft.azure.documentdb
+      landingPageType: Service
+    - name: Management
+      items:
+      - name: Resource Management - Cosmos DB
+        href: ~/docs-ref-services/latest/resourcemanager-cosmos-readme.md
+        children:
+        - com.azure.resourcemanager.cosmos
+        - com.azure.resourcemanager.cosmos.fluent
+        - com.azure.resourcemanager.cosmos.fluent.models
+        - com.azure.resourcemanager.cosmos.models
+  - name: Cosmos DB for PostgreSQL
+    href: ~/docs-ref-services/latest/cosmos-db-for-postgresql.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Cosmos DB for PostgreSQL
+        href: ~/docs-ref-services/latest/resourcemanager-cosmosdbforpostgresql-readme.md
+        children:
+        - com.azure.resourcemanager.cosmosdbforpostgresql
+        - com.azure.resourcemanager.cosmosdbforpostgresql.fluent
+        - com.azure.resourcemanager.cosmosdbforpostgresql.fluent.models
+        - com.azure.resourcemanager.cosmosdbforpostgresql.models
+        - com.azure.resourcemanager.cosmosdbforpostgresql
+        - com.azure.resourcemanager.cosmosdbforpostgresql.fluent
+        - com.azure.resourcemanager.cosmosdbforpostgresql.fluent.models
+        - com.azure.resourcemanager.cosmosdbforpostgresql.models
+  - name: Cost Management
+    href: ~/docs-ref-services/latest/cost-management.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Cost Management
+        href: ~/docs-ref-services/latest/resourcemanager-costmanagement-readme.md
+        children:
+        - com.azure.resourcemanager.costmanagement
+        - com.azure.resourcemanager.costmanagement.fluent
+        - com.azure.resourcemanager.costmanagement.fluent.models
+        - com.azure.resourcemanager.costmanagement.models
+  - name: Custom Image Search
+    href: ~/docs-ref-services/latest/custom-image-search.md
+    landingPageType: Service
+    items:
+    - name: Custom Image Search (deprecated)
+      children:
+      - com.microsoft.azure.cognitiveservices.search.customimagesearch
+      - com.microsoft.azure.cognitiveservices.search.customimagesearch.implementation
+      - com.microsoft.azure.cognitiveservices.search.customimagesearch.models
+      landingPageType: Service
+  - name: Data Box
+    href: ~/docs-ref-services/latest/data-box.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Data Box
+        href: ~/docs-ref-services/latest/resourcemanager-databox-readme.md
+        children:
+        - com.azure.resourcemanager.databox
+        - com.azure.resourcemanager.databox.fluent
+        - com.azure.resourcemanager.databox.fluent.models
+        - com.azure.resourcemanager.databox.models
+  - name: Data Box Edge
+    href: ~/docs-ref-services/latest/data-box-edge.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Data Box Edge
+        href: ~/docs-ref-services/latest/resourcemanager-databoxedge-readme.md
+        children:
+        - com.azure.resourcemanager.databoxedge
+        - com.azure.resourcemanager.databoxedge.fluent
+        - com.azure.resourcemanager.databoxedge.fluent.models
+        - com.azure.resourcemanager.databoxedge.models
+  - name: Data Explorer
+    href: ~/docs-ref-services/latest/data-explorer.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Management - Kusto (deprecated)
+        children:
+        - com.microsoft.azure.management.kusto.v2020_09_18
+        landingPageType: Service
+      - name: Resource Management - Kusto
+        href: ~/docs-ref-services/latest/resourcemanager-kusto-readme.md
+        children:
+        - com.azure.resourcemanager.kusto
+        - com.azure.resourcemanager.kusto.fluent
+        - com.azure.resourcemanager.kusto.fluent.models
+        - com.azure.resourcemanager.kusto.models
+  - name: Data Factory
+    href: ~/docs-ref-services/latest/data-factory.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Data Factory
+        href: ~/docs-ref-services/latest/resourcemanager-datafactory-readme.md
+        children:
+        - com.azure.resourcemanager.datafactory
+        - com.azure.resourcemanager.datafactory.fluent
+        - com.azure.resourcemanager.datafactory.fluent.models
+        - com.azure.resourcemanager.datafactory.models
+  - name: Data Lake Analytics
+    href: ~/docs-ref-services/latest/data-lake-analytics.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Data Lake Analytics
+        href: ~/docs-ref-services/latest/resourcemanager-datalakeanalytics-readme.md
+        children:
+        - com.azure.resourcemanager.datalakeanalytics
+        - com.azure.resourcemanager.datalakeanalytics.fluent
+        - com.azure.resourcemanager.datalakeanalytics.fluent.models
+        - com.azure.resourcemanager.datalakeanalytics.models
     - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.datalakeanalytics.ResourceManagement
       landingPageType: Service
       children:
       - com.microsoft.azure.management.datalake.analytics*
   - name: Data Lake Store
-    uid: azure.java.sdk.landingpage.services.datalakestore
-    href: ~/docs-ref-services/latest/datalake.md
+    href: ~/docs-ref-services/latest/data-lake-store.md
+    landingPageType: Service
     items:
+    - name: Management
+      items:
+      - name: Resource Management - Data Lake Store
+        href: ~/docs-ref-services/latest/resourcemanager-datalakestore-readme.md
+        children:
+        - com.azure.resourcemanager.datalakestore
+        - com.azure.resourcemanager.datalakestore.fluent
+        - com.azure.resourcemanager.datalakestore.fluent.models
+        - com.azure.resourcemanager.datalakestore.models
     - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.datalakestore.ResourceManagement
       landingPageType: Service
       children:
       - com.microsoft.azure.management.datalakestore*
       - com.microsoft.azure.management.datalake.store*
       - com.microsoft.azure.management.datalake.store.models*
+  - name: Data Protection
+    href: ~/docs-ref-services/latest/data-protection.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Data Protection
+        href: ~/docs-ref-services/latest/resourcemanager-dataprotection-readme.md
+        children:
+        - com.azure.resourcemanager.dataprotection
+        - com.azure.resourcemanager.dataprotection.fluent
+        - com.azure.resourcemanager.dataprotection.fluent.models
+        - com.azure.resourcemanager.dataprotection.models
+  - name: Database Migration Service
+    href: ~/docs-ref-services/latest/database-migration-service.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Data Migration
+        href: ~/docs-ref-services/latest/resourcemanager-datamigration-readme.md
+        children:
+        - com.azure.resourcemanager.datamigration
+        - com.azure.resourcemanager.datamigration.fluent
+        - com.azure.resourcemanager.datamigration.fluent.models
+        - com.azure.resourcemanager.datamigration.models
+  - name: Databricks
+    href: ~/docs-ref-services/latest/databricks.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Databricks
+        href: ~/docs-ref-services/latest/resourcemanager-databricks-readme.md
+        children:
+        - com.azure.resourcemanager.databricks
+        - com.azure.resourcemanager.databricks.fluent
+        - com.azure.resourcemanager.databricks.fluent.models
+        - com.azure.resourcemanager.databricks.models
+  - name: Datadog
+    href: ~/docs-ref-services/latest/datadog.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Datadog
+        href: ~/docs-ref-services/latest/resourcemanager-datadog-readme.md
+        children:
+        - com.azure.resourcemanager.datadog
+        - com.azure.resourcemanager.datadog.fluent
+        - com.azure.resourcemanager.datadog.fluent.models
+        - com.azure.resourcemanager.datadog.models
+  - name: Desktop Virtualization
+    href: ~/docs-ref-services/latest/desktop-virtualization.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Desktop Virtualization
+        href: ~/docs-ref-services/latest/resourcemanager-desktopvirtualization-readme.md
+        children:
+        - com.azure.resourcemanager.desktopvirtualization
+        - com.azure.resourcemanager.desktopvirtualization.fluent
+        - com.azure.resourcemanager.desktopvirtualization.fluent.models
+        - com.azure.resourcemanager.desktopvirtualization.models
+  - name: Dev Center
+    href: ~/docs-ref-services/latest/dev-center.md
+    landingPageType: Service
+    items:
+    - name: Dev Center
+      href: ~/docs-ref-services/latest/developer-devcenter-readme.md
+      children:
+      - com.azure.developer.devcenter
+      - com.azure.developer.devcenter.models
+    - name: Management
+      items:
+      - name: Resource Management - Dev Center
+        href: ~/docs-ref-services/latest/resourcemanager-devcenter-readme.md
+        children:
+        - com.azure.resourcemanager.devcenter
+        - com.azure.resourcemanager.devcenter.fluent
+        - com.azure.resourcemanager.devcenter.fluent.models
+        - com.azure.resourcemanager.devcenter.models
+  - name: DevOps Infrastructure
+    href: ~/docs-ref-services/latest/devops-infrastructure.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - DevOps Infrastructure
+        href: ~/docs-ref-services/latest/resourcemanager-devopsinfrastructure-readme.md
+        children:
+        - com.azure.resourcemanager.devopsinfrastructure
+        - com.azure.resourcemanager.devopsinfrastructure.fluent
+        - com.azure.resourcemanager.devopsinfrastructure.fluent.models
+        - com.azure.resourcemanager.devopsinfrastructure.models
+  - name: DevTest Labs
+    href: ~/docs-ref-services/latest/devtest-labs.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - DevTest Labs
+        href: ~/docs-ref-services/latest/resourcemanager-devtestlabs-readme.md
+        children:
+        - com.azure.resourcemanager.devtestlabs
+        - com.azure.resourcemanager.devtestlabs.fluent
+        - com.azure.resourcemanager.devtestlabs.fluent.models
+        - com.azure.resourcemanager.devtestlabs.models
   - name: DNS
-    uid: azure.java.sdk.landingpage.services.dns
-    href: ~/docs-ref-services/latest/resourcemanager-dns-readme.md
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.dns.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.dns*
-  - name: Digital Twins
-    uid: azure.java.sdk.landingpage.services.digitaltwins
+    href: ~/docs-ref-services/latest/dns.md
     landingPageType: Service
     items:
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.digitaltwins.client
-      landingPageType: Service
-      children:
-      - com.azure.digitaltwins.core*
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.digitaltwins.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.digitaltwins*
-  - name: Edge Gateway
-    uid: azure.java.sdk.landingpage.services.edgegateway
+    - name: Management
+      items:
+      - name: Resource Management - DNS
+        href: ~/docs-ref-services/latest/resourcemanager-dns-readme.md
+        children:
+        - com.azure.resourcemanager.dns
+        - com.azure.resourcemanager.dns.fluent
+        - com.azure.resourcemanager.dns.fluent.models
+        - com.azure.resourcemanager.dns.models
+  - name: DNS Resolver
+    href: ~/docs-ref-services/latest/dns-resolver.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.edgegateway.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.edgegateway*
+    - name: Management
+      items:
+      - name: Resource Management - DNS Resolver
+        href: ~/docs-ref-services/latest/resourcemanager-dnsresolver-readme.md
+        children:
+        - com.azure.resourcemanager.dnsresolver
+        - com.azure.resourcemanager.dnsresolver.fluent
+        - com.azure.resourcemanager.dnsresolver.fluent.models
+        - com.azure.resourcemanager.dnsresolver.models
+  - name: Dynatrace
+    href: ~/docs-ref-services/latest/dynatrace.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Dynatrace
+        href: ~/docs-ref-services/latest/resourcemanager-dynatrace-readme.md
+        children:
+        - com.azure.resourcemanager.dynatrace
+        - com.azure.resourcemanager.dynatrace.fluent
+        - com.azure.resourcemanager.dynatrace.fluent.models
+        - com.azure.resourcemanager.dynatrace.models
+  - name: Edge Order
+    href: ~/docs-ref-services/latest/edge-order.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Edge Order
+        href: ~/docs-ref-services/latest/resourcemanager-edgeorder-readme.md
+        children:
+        - com.azure.resourcemanager.edgeorder
+        - com.azure.resourcemanager.edgeorder.fluent
+        - com.azure.resourcemanager.edgeorder.fluent.models
+        - com.azure.resourcemanager.edgeorder.models
+  - name: Elastic
+    href: ~/docs-ref-services/latest/elastic.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Elastic
+        href: ~/docs-ref-services/latest/resourcemanager-elastic-readme.md
+        children:
+        - com.azure.resourcemanager.elastic
+        - com.azure.resourcemanager.elastic.fluent
+        - com.azure.resourcemanager.elastic.fluent.models
+        - com.azure.resourcemanager.elastic.models
+  - name: Elastic SAN
+    href: ~/docs-ref-services/latest/elastic-san.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Elastic SAN
+        href: ~/docs-ref-services/latest/resourcemanager-elasticsan-readme.md
+        children:
+        - com.azure.resourcemanager.elasticsan
+        - com.azure.resourcemanager.elasticsan.fluent
+        - com.azure.resourcemanager.elasticsan.fluent.models
+        - com.azure.resourcemanager.elasticsan.models
+        - com.azure.resourcemanager.elasticsan
+        - com.azure.resourcemanager.elasticsan.fluent
+        - com.azure.resourcemanager.elasticsan.fluent.models
+        - com.azure.resourcemanager.elasticsan.models
   - name: Event Grid
-    uid: azure.java.sdk.landingpage.services.eventGrid
-    href: ~/docs-ref-services/latest/eventgrid.md
+    href: ~/docs-ref-services/latest/event-grid.md
+    landingPageType: Service
     items:
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.eventGrid.Client
-      landingPageType: Service
+    - name: Event Grid (deprecated)
       children:
-      - com.azure.messaging.eventgrid*
-      - com.microsoft.azure.eventgrid*
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.eventGrid.ResourceManagement
+      - com.microsoft.azure.eventgrid
+      - com.microsoft.azure.eventgrid.customization
+      - com.microsoft.azure.eventgrid.implementation
+      - com.microsoft.azure.eventgrid.models
       landingPageType: Service
+    - name: Event Grid
+      href: ~/docs-ref-services/latest/messaging-eventgrid-readme.md
       children:
-      - com.microsoft.azure.management.eventgrid*
+      - com.azure.messaging.eventgrid
+      - com.azure.messaging.eventgrid.models
+      - com.azure.messaging.eventgrid.systemevents
+    - name: Event Grid Namespaces
+      href: ~/docs-ref-services/latest/messaging-eventgrid-namespaces-readme.md
+      children:
+      - com.azure.messaging.eventgrid.namespaces
+      - com.azure.messaging.eventgrid.namespaces.models
+    - name: System Events
+      children:
+      - com.azure.messaging.eventgrid
+      - com.azure.messaging.eventgrid.systemevents
+      landingPageType: Service
+    - name: Management
+      items:
+      - name: Resource Management - Event Grid
+        href: ~/docs-ref-services/latest/resourcemanager-eventgrid-readme.md
+        children:
+        - com.azure.resourcemanager.eventgrid
+        - com.azure.resourcemanager.eventgrid.fluent
+        - com.azure.resourcemanager.eventgrid.fluent.models
+        - com.azure.resourcemanager.eventgrid.models
   - name: Event Hubs
-    uid: azure.java.sdk.landingpage.services.eventhub
-    href: ~/docs-ref-services/latest/eventhub.md
+    href: ~/docs-ref-services/latest/event-hubs.md
+    landingPageType: Service
     items:
-    - name: Event Hubs Checkpoint Store Extension
-      uid: azure.java.sdk.landingpage.services.eventhub.Checkpoint
+    - name: Event Hubs (deprecated)
+      children:
+      - com.microsoft.azure.eventhubs
+      - com.microsoft.azure.eventhubs.impl
+      landingPageType: Service
+    - name: Event Hubs - Extensions (deprecated)
+      children:
+      - com.microsoft.azure.eventhubs.extensions.appender
+      landingPageType: Service
+    - name: Event Hubs
+      href: ~/docs-ref-services/latest/messaging-eventhubs-readme.md
+      children:
+      - com.azure.messaging.eventhubs
+      - com.azure.messaging.eventhubs.models
+      - com.azure.messaging.eventhubs
+      - com.azure.messaging.eventhubs.models
+    - name: Azure Blob Storage Checkpoint Store
       href: ~/docs-ref-services/latest/messaging-eventhubs-checkpointstore-blob-readme.md
       children:
       - com.azure.messaging.eventhubs.checkpointstore.blob
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.eventhub.ResourceManagement
-      href: ~/docs-ref-services/latest/resourcemanager-eventhubs-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.eventhubs*
-  - name: Form Recognizer
-    uid: azure.java.sdk.landingpage.preview.services.formrecognizer
-    href: ~/docs-ref-services/latest/ai-formrecognizer-readme.md
-    children:
-    - com.azure.ai.formrecognizer*
-  - name: Functions
-    uid: azure.java.sdk.landingpage.services.functions
-    href: ~/_functionsref/README.md
-    items:
-    - name: Runtime
-      uid: azure.java.sdk.landingpage.services.runtime.functions
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.functions*
-  - name: HDInsight
-    uid: azure.java.sdk.landingpage.service.hdinsight
-    href: ~/docs-ref-services/latest/hdinsight.md
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.service.hdinsight.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.hdinsight*
-  - name: HPC Storage Cache
-    uid: azure.java.sdk.landingpage.service.StorageCache
+      - com.azure.messaging.eventhubs.checkpointstore.blob
+    - name: Management
+      items:
+      - name: Management - Event Hubs (deprecated)
+        children:
+        - com.microsoft.azure.management.eventhub
+        landingPageType: Service
+      - name: Resource Management - Event Hubs
+        href: ~/docs-ref-services/latest/resourcemanager-eventhubs-readme.md
+        children:
+        - com.azure.resourcemanager.eventhubs
+        - com.azure.resourcemanager.eventhubs.fluent
+        - com.azure.resourcemanager.eventhubs.fluent.models
+        - com.azure.resourcemanager.eventhubs.models
+  - name: Extended Location
+    href: ~/docs-ref-services/latest/extended-location.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.service.StorageCache.ResourceManagement
-      landingPageType: Service
+    - name: Management
+      items:
+      - name: Resource Management - Extended Location
+        href: ~/docs-ref-services/latest/resourcemanager-extendedlocation-readme.md
+        children:
+        - com.azure.resourcemanager.extendedlocation
+        - com.azure.resourcemanager.extendedlocation.fluent
+        - com.azure.resourcemanager.extendedlocation.fluent.models
+        - com.azure.resourcemanager.extendedlocation.models
+  - name: Fabric
+    href: ~/docs-ref-services/latest/fabric.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Fabric
+        href: ~/docs-ref-services/latest/resourcemanager-fabric-readme.md
+        children:
+        - com.azure.resourcemanager.fabric
+        - com.azure.resourcemanager.fabric.fluent
+        - com.azure.resourcemanager.fabric.fluent.models
+        - com.azure.resourcemanager.fabric.models
+  - name: Fluid Relay
+    href: ~/docs-ref-services/latest/fluid-relay.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Fluid Relay
+        href: ~/docs-ref-services/latest/resourcemanager-fluidrelay-readme.md
+        children:
+        - com.azure.resourcemanager.fluidrelay
+        - com.azure.resourcemanager.fluidrelay.fluent
+        - com.azure.resourcemanager.fluidrelay.fluent.models
+        - com.azure.resourcemanager.fluidrelay.models
+  - name: Front Door
+    href: ~/docs-ref-services/latest/front-door.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Front Door
+        href: ~/docs-ref-services/latest/resourcemanager-frontdoor-readme.md
+        children:
+        - com.azure.resourcemanager.frontdoor
+        - com.azure.resourcemanager.frontdoor.fluent
+        - com.azure.resourcemanager.frontdoor.fluent.models
+        - com.azure.resourcemanager.frontdoor.models
+  - name: Functions
+    href: ~/docs-ref-services/latest/functions.md
+    landingPageType: Service
+    items:
+    - name: Functions - Java Library
       children:
-      - com.microsoft.azure.management.storagecache*
+      - com.microsoft.azure.functions
+      - com.microsoft.azure.functions.annotation
+      - com.microsoft.azure.functions
+      - com.microsoft.azure.functions.annotation
+      landingPageType: Service
+    - name: Durable Functions - Java Library
+      children:
+      - com.microsoft.durabletask.azurefunctions
+      landingPageType: Service
+  - name: Grafana
+    href: ~/docs-ref-services/latest/grafana.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Managed Grafana
+        href: ~/docs-ref-services/latest/resourcemanager-dashboard-readme.md
+        children:
+        - com.azure.resourcemanager.dashboard
+        - com.azure.resourcemanager.dashboard.fluent
+        - com.azure.resourcemanager.dashboard.fluent.models
+        - com.azure.resourcemanager.dashboard.models
+  - name: Graph Services
+    href: ~/docs-ref-services/latest/graph-services.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Graph Services
+        href: ~/docs-ref-services/latest/resourcemanager-graphservices-readme.md
+        children:
+        - com.azure.resourcemanager.graphservices
+        - com.azure.resourcemanager.graphservices.fluent
+        - com.azure.resourcemanager.graphservices.fluent.models
+        - com.azure.resourcemanager.graphservices.models
+  - name: Hardware Security Module
+    href: ~/docs-ref-services/latest/hardware-security-module.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Hardware Security Module
+        href: ~/docs-ref-services/latest/resourcemanager-hardwaresecuritymodules-readme.md
+        children:
+        - com.azure.resourcemanager.hardwaresecuritymodules
+        - com.azure.resourcemanager.hardwaresecuritymodules.fluent
+        - com.azure.resourcemanager.hardwaresecuritymodules.fluent.models
+        - com.azure.resourcemanager.hardwaresecuritymodules.models
+  - name: HDInsight
+    href: ~/docs-ref-services/latest/hdinsight.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Management - HDInsight (deprecated)
+        children:
+        - com.microsoft.azure.management.hdinsight.v2018_06_01_preview
+        landingPageType: Service
+      - name: Resource Management - HDInsight
+        href: ~/docs-ref-services/latest/resourcemanager-hdinsight-readme.md
+        children:
+        - com.azure.resourcemanager.hdinsight
+        - com.azure.resourcemanager.hdinsight.fluent
+        - com.azure.resourcemanager.hdinsight.fluent.models
+        - com.azure.resourcemanager.hdinsight.models
+        - com.azure.resourcemanager.hdinsight
+        - com.azure.resourcemanager.hdinsight.fluent
+        - com.azure.resourcemanager.hdinsight.fluent.models
+        - com.azure.resourcemanager.hdinsight.models
+  - name: Health Bot
+    href: ~/docs-ref-services/latest/health-bot.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Health Bot
+        href: ~/docs-ref-services/latest/resourcemanager-healthbot-readme.md
+        children:
+        - com.azure.resourcemanager.healthbot
+        - com.azure.resourcemanager.healthbot.fluent
+        - com.azure.resourcemanager.healthbot.fluent.models
+        - com.azure.resourcemanager.healthbot.models
+  - name: Health Data AI Services
+    href: ~/docs-ref-services/latest/health-data-ai-services.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Health Data AI Services
+        href: ~/docs-ref-services/latest/resourcemanager-healthdataaiservices-readme.md
+        children:
+        - com.azure.resourcemanager.healthdataaiservices
+        - com.azure.resourcemanager.healthdataaiservices.fluent
+        - com.azure.resourcemanager.healthdataaiservices.fluent.models
+        - com.azure.resourcemanager.healthdataaiservices.models
+  - name: Health Deidentification
+    href: ~/docs-ref-services/latest/health-deidentification.md
+    landingPageType: Service
+    items:
+    - name: Health Deidentification
+      href: ~/docs-ref-services/latest/health-deidentification-readme.md
+      children:
+      - com.azure.health.deidentification
+      - com.azure.health.deidentification.models
+  - name: Healthcare APIs
+    href: ~/docs-ref-services/latest/healthcare-apis.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Healthcare APIs
+        href: ~/docs-ref-services/latest/resourcemanager-healthcareapis-readme.md
+        children:
+        - com.azure.resourcemanager.healthcareapis
+        - com.azure.resourcemanager.healthcareapis.fluent
+        - com.azure.resourcemanager.healthcareapis.fluent.models
+        - com.azure.resourcemanager.healthcareapis.models
+  - name: Hybrid Compute
+    href: ~/docs-ref-services/latest/hybrid-compute.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Hybrid Compute
+        href: ~/docs-ref-services/latest/resourcemanager-hybridcompute-readme.md
+        children:
+        - com.azure.resourcemanager.hybridcompute
+        - com.azure.resourcemanager.hybridcompute.fluent
+        - com.azure.resourcemanager.hybridcompute.fluent.models
+        - com.azure.resourcemanager.hybridcompute.models
+        - com.azure.resourcemanager.hybridcompute
+        - com.azure.resourcemanager.hybridcompute.fluent
+        - com.azure.resourcemanager.hybridcompute.fluent.models
+        - com.azure.resourcemanager.hybridcompute.models
+  - name: Hybrid Connectivity
+    href: ~/docs-ref-services/latest/hybrid-connectivity.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Hybrid Connectivity
+        href: ~/docs-ref-services/latest/resourcemanager-hybridconnectivity-readme.md
+        children:
+        - com.azure.resourcemanager.hybridconnectivity
+        - com.azure.resourcemanager.hybridconnectivity.fluent
+        - com.azure.resourcemanager.hybridconnectivity.fluent.models
+        - com.azure.resourcemanager.hybridconnectivity.models
+        - com.azure.resourcemanager.hybridconnectivity
+        - com.azure.resourcemanager.hybridconnectivity.fluent
+        - com.azure.resourcemanager.hybridconnectivity.fluent.models
+        - com.azure.resourcemanager.hybridconnectivity.models
+  - name: Hybrid Kubernetes
+    href: ~/docs-ref-services/latest/hybrid-kubernetes.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Hybrid Kubernetes
+        href: ~/docs-ref-services/latest/resourcemanager-hybridkubernetes-readme.md
+        children:
+        - com.azure.resourcemanager.hybridkubernetes
+        - com.azure.resourcemanager.hybridkubernetes.fluent
+        - com.azure.resourcemanager.hybridkubernetes.fluent.models
+        - com.azure.resourcemanager.hybridkubernetes.models
+        - com.azure.resourcemanager.hybridkubernetes
+        - com.azure.resourcemanager.hybridkubernetes.fluent
+        - com.azure.resourcemanager.hybridkubernetes.fluent.models
+        - com.azure.resourcemanager.hybridkubernetes.models
+  - name: Hybrid Network
+    href: ~/docs-ref-services/latest/hybrid-network.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Hybrid Network
+        href: ~/docs-ref-services/latest/resourcemanager-hybridnetwork-readme.md
+        children:
+        - com.azure.resourcemanager.hybridnetwork
+        - com.azure.resourcemanager.hybridnetwork.fluent
+        - com.azure.resourcemanager.hybridnetwork.fluent.models
+        - com.azure.resourcemanager.hybridnetwork.models
   - name: Identity
-    uid: azure.java.sdk.landingpage.services.identity
-    href: ~/docs-ref-services/latest/identity-readme.md
-    children:
-    - com.azure.identity
+    href: ~/docs-ref-services/latest/identity.md
+    landingPageType: Service
+    items:
+    - name: Identity
+      href: ~/docs-ref-services/latest/identity-readme.md
+      children:
+      - com.azure.identity
+    - name: Identity Broker
+      href: ~/docs-ref-services/latest/identity-broker-readme.md
+      children:
+      - com.azure.identity.broker
+  - name: Image Builder
+    href: ~/docs-ref-services/latest/image-builder.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Image Builder
+        href: ~/docs-ref-services/latest/resourcemanager-imagebuilder-readme.md
+        children:
+        - com.azure.resourcemanager.imagebuilder
+        - com.azure.resourcemanager.imagebuilder.fluent
+        - com.azure.resourcemanager.imagebuilder.fluent.models
+        - com.azure.resourcemanager.imagebuilder.models
+  - name: Informatica Data Management
+    href: ~/docs-ref-services/latest/informatica-data-management.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Informatica Data Management
+        href: ~/docs-ref-services/latest/resourcemanager-informaticadatamanagement-readme.md
+        children:
+        - com.azure.resourcemanager.informaticadatamanagement
+        - com.azure.resourcemanager.informaticadatamanagement.fluent
+        - com.azure.resourcemanager.informaticadatamanagement.fluent.models
+        - com.azure.resourcemanager.informaticadatamanagement.models
   - name: IoT
-    uid: azure.java.sdk.landingpage.services.iot
     href: ~/docs-ref-services/latest/iot.md
+    landingPageType: Service
     items:
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.iot.Client
+    - name: Digital Twins
+      href: ~/docs-ref-services/latest/digitaltwins-core-readme.md
+      children:
+      - com.azure.digitaltwins.core
+      - com.azure.digitaltwins.core.models
+    - name: Device Update
+      href: ~/docs-ref-services/latest/iot-deviceupdate-readme.md
+      children:
+      - com.azure.iot.deviceupdate
+    - name: IoT Deps
+      children:
+      - com.microsoft.azure.sdk.iot.deps.auth
+      - com.microsoft.azure.sdk.iot.deps.serializer
+      - com.microsoft.azure.sdk.iot.deps.transport.amqp
+      - com.microsoft.azure.sdk.iot.deps.transport.http
+      - com.microsoft.azure.sdk.iot.deps.transport.mqtt
+      - com.microsoft.azure.sdk.iot.deps.twin
+      - com.microsoft.azure.sdk.iot.deps.util
+      - com.microsoft.azure.sdk.iot.deps.ws
+      - com.microsoft.azure.sdk.iot.deps.ws.impl
       landingPageType: Service
+    - name: IoT Plug and Play - Device Client
       children:
-      - com.microsoft.azure.sdk.iot*
-      - com.microsoft.connecteddevices*
-      - tools.com.microsoft.azure.sdk.iot*
+      - com.microsoft.azure.sdk.iot.device
+      - com.microsoft.azure.sdk.iot.device.auth
+      - com.microsoft.azure.sdk.iot.device.DeviceTwin
+      - com.microsoft.azure.sdk.iot.device.edge
+      - com.microsoft.azure.sdk.iot.device.exceptions
+      - com.microsoft.azure.sdk.iot.device.fileupload
+      - com.microsoft.azure.sdk.iot.device.hsm
+      - com.microsoft.azure.sdk.iot.device.hsm.parser
+      - com.microsoft.azure.sdk.iot.device.net
+      - com.microsoft.azure.sdk.iot.device.transport
+      - com.microsoft.azure.sdk.iot.device.transport.amqps
+      - com.microsoft.azure.sdk.iot.device.transport.amqps.exceptions
+      - com.microsoft.azure.sdk.iot.device.transport.https
+      - com.microsoft.azure.sdk.iot.device.transport.mqtt
+      - com.microsoft.azure.sdk.iot.device.transport.mqtt.exceptions
+      - com.microsoft.azure.sdk.iot.device
+      - com.microsoft.azure.sdk.iot.device.auth
+      - com.microsoft.azure.sdk.iot.device.DeviceTwin
+      - com.microsoft.azure.sdk.iot.device.edge
+      - com.microsoft.azure.sdk.iot.device.exceptions
+      - com.microsoft.azure.sdk.iot.device.fileupload
+      - com.microsoft.azure.sdk.iot.device.hsm
+      - com.microsoft.azure.sdk.iot.device.hsm.parser
+      - com.microsoft.azure.sdk.iot.device.net
+      - com.microsoft.azure.sdk.iot.device.transport
+      - com.microsoft.azure.sdk.iot.device.transport.amqps
+      - com.microsoft.azure.sdk.iot.device.transport.amqps.exceptions
+      - com.microsoft.azure.sdk.iot.device.transport.https
+      - com.microsoft.azure.sdk.iot.device.transport.mqtt
+      - com.microsoft.azure.sdk.iot.device.transport.mqtt.exceptions
+      landingPageType: Service
+    - name: IoT Service Client
+      children:
+      - com.microsoft.azure.sdk.iot.service
+      - com.microsoft.azure.sdk.iot.service.auth
+      - com.microsoft.azure.sdk.iot.service.devicetwin
+      - com.microsoft.azure.sdk.iot.service.digitaltwin
+      - com.microsoft.azure.sdk.iot.service.digitaltwin.customized
+      - com.microsoft.azure.sdk.iot.service.digitaltwin.models
+      - com.microsoft.azure.sdk.iot.service.digitaltwin.serialization
+      - com.microsoft.azure.sdk.iot.service.exceptions
+      - com.microsoft.azure.sdk.iot.service.jobs
+      - com.microsoft.azure.sdk.iot.service.transport
+      - com.microsoft.azure.sdk.iot.service.transport.amqps
+      - com.microsoft.azure.sdk.iot.service.transport.http
+      - com.microsoft.azure.sdk.iot.service
+      - com.microsoft.azure.sdk.iot.service.auth
+      - com.microsoft.azure.sdk.iot.service.devicetwin
+      - com.microsoft.azure.sdk.iot.service.digitaltwin
+      - com.microsoft.azure.sdk.iot.service.digitaltwin.customized
+      - com.microsoft.azure.sdk.iot.service.digitaltwin.models
+      - com.microsoft.azure.sdk.iot.service.digitaltwin.serialization
+      - com.microsoft.azure.sdk.iot.service.exceptions
+      - com.microsoft.azure.sdk.iot.service.jobs
+      - com.microsoft.azure.sdk.iot.service.transport
+      - com.microsoft.azure.sdk.iot.service.transport.amqps
+      - com.microsoft.azure.sdk.iot.service.transport.http
+      landingPageType: Service
+    - name: Provisioning Device Client
+      children:
+      - com.microsoft.azure.sdk.iot.provisioning.device
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+      - com.microsoft.azure.sdk.iot.provisioning.device.plugandplay
+      - com.microsoft.azure.sdk.iot.provisioning.device
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.contract
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.http
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.exceptions
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.parser
+      - com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+      - com.microsoft.azure.sdk.iot.provisioning.device.plugandplay
+      landingPageType: Service
+    - name: Provisioning Service Client
+      children:
+      - com.microsoft.azure.sdk.iot.provisioning.service
+      - com.microsoft.azure.sdk.iot.provisioning.service.auth
+      - com.microsoft.azure.sdk.iot.provisioning.service.configs
+      - com.microsoft.azure.sdk.iot.provisioning.service.contract
+      - com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+      - com.microsoft.azure.sdk.iot.provisioning.service
+      - com.microsoft.azure.sdk.iot.provisioning.service.auth
+      - com.microsoft.azure.sdk.iot.provisioning.service.configs
+      - com.microsoft.azure.sdk.iot.provisioning.service.contract
+      - com.microsoft.azure.sdk.iot.provisioning.service.exceptions
+      landingPageType: Service
+    - name: Management
+      items:
+      - name: Resource Management - Device Provisioning Services
+        href: ~/docs-ref-services/latest/resourcemanager-deviceprovisioningservices-readme.md
+        children:
+        - com.azure.resourcemanager.deviceprovisioningservices
+        - com.azure.resourcemanager.deviceprovisioningservices.fluent
+        - com.azure.resourcemanager.deviceprovisioningservices.fluent.models
+        - com.azure.resourcemanager.deviceprovisioningservices.models
+      - name: Resource Management - Device Registry
+        href: ~/docs-ref-services/latest/resourcemanager-deviceregistry-readme.md
+        children:
+        - com.azure.resourcemanager.deviceregistry
+        - com.azure.resourcemanager.deviceregistry.fluent
+        - com.azure.resourcemanager.deviceregistry.fluent.models
+        - com.azure.resourcemanager.deviceregistry.models
+      - name: Resource Management - Device Update
+        href: ~/docs-ref-services/latest/resourcemanager-deviceupdate-readme.md
+        children:
+        - com.azure.resourcemanager.deviceupdate
+        - com.azure.resourcemanager.deviceupdate.fluent
+        - com.azure.resourcemanager.deviceupdate.fluent.models
+        - com.azure.resourcemanager.deviceupdate.models
+      - name: Resource Management - Digital Twins
+        href: ~/docs-ref-services/latest/resourcemanager-digitaltwins-readme.md
+        children:
+        - com.azure.resourcemanager.digitaltwins
+        - com.azure.resourcemanager.digitaltwins.fluent
+        - com.azure.resourcemanager.digitaltwins.fluent.models
+        - com.azure.resourcemanager.digitaltwins.models
+      - name: Resource Management - IoT Central
+        href: ~/docs-ref-services/latest/resourcemanager-iotcentral-readme.md
+        children:
+        - com.azure.resourcemanager.iotcentral
+        - com.azure.resourcemanager.iotcentral.fluent
+        - com.azure.resourcemanager.iotcentral.fluent.models
+        - com.azure.resourcemanager.iotcentral.models
+        - com.azure.resourcemanager.iotcentral
+        - com.azure.resourcemanager.iotcentral.fluent
+        - com.azure.resourcemanager.iotcentral.fluent.models
+        - com.azure.resourcemanager.iotcentral.models
+      - name: Resource Management - IoT Firmware Defense
+        href: ~/docs-ref-services/latest/resourcemanager-iotfirmwaredefense-readme.md
+        children:
+        - com.azure.resourcemanager.iotfirmwaredefense
+        - com.azure.resourcemanager.iotfirmwaredefense.fluent
+        - com.azure.resourcemanager.iotfirmwaredefense.fluent.models
+        - com.azure.resourcemanager.iotfirmwaredefense.models
+      - name: Resource Management - IoT Hub
+        href: ~/docs-ref-services/latest/resourcemanager-iothub-readme.md
+        children:
+        - com.azure.resourcemanager.iothub
+        - com.azure.resourcemanager.iothub.fluent
+        - com.azure.resourcemanager.iothub.fluent.models
+        - com.azure.resourcemanager.iothub.models
+      - name: Resource Management - IoT Operations
+        href: ~/docs-ref-services/latest/resourcemanager-iotoperations-readme.md
+        children:
+        - com.azure.resourcemanager.iotoperations
+        - com.azure.resourcemanager.iotoperations.fluent
+        - com.azure.resourcemanager.iotoperations.fluent.models
+        - com.azure.resourcemanager.iotoperations.models
+      - name: Resource Management - Time Series Insights
+        href: ~/docs-ref-services/latest/resourcemanager-timeseriesinsights-readme.md
+        children:
+        - com.azure.resourcemanager.timeseriesinsights
+        - com.azure.resourcemanager.timeseriesinsights.fluent
+        - com.azure.resourcemanager.timeseriesinsights.fluent.models
+        - com.azure.resourcemanager.timeseriesinsights.models
   - name: Key Vault
-    uid: azure.java.sdk.landingpage.services.keyvault
-    href: ~/docs-ref-services/latest/keyvault.md
+    href: ~/docs-ref-services/latest/key-vault.md
+    landingPageType: Service
     items:
-    - name: Keys
-      uid: azure.java.sdk.landingpage.services.keyvault.Keys
-      href: ~/docs-ref-services/latest/security-keyvault-keys-readme.md
+    - name: Key Vault - Administration
+      href: ~/docs-ref-services/latest/security-keyvault-administration-readme.md
       children:
-      - com.azure.security.keyvault.keys*
-    - name: Secrets
-      uid: azure.java.sdk.landingpage.services.keyvault.Secrets
-      href: ~/docs-ref-services/latest/security-keyvault-secrets-readme.md
-      children:
-      - com.azure.security.keyvault.secrets*
-    - name: Certificates
-      uid: azure.java.sdk.landingpage.services.keyvault.Certificates
+      - com.azure.security.keyvault.administration
+      - com.azure.security.keyvault.administration.models
+      - com.azure.security.keyvault.administration
+      - com.azure.security.keyvault.administration.models
+    - name: Key Vault - Certificates
       href: ~/docs-ref-services/latest/security-keyvault-certificates-readme.md
       children:
-      - com.azure.security.keyvault.certificates*
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.keyvault.ResourceManagement
-      href: ~/docs-ref-services/latest/resourcemanager-keyvault-readme.md
-      landingPageType: Service
+      - com.azure.security.keyvault.certificates
+      - com.azure.security.keyvault.certificates.models
+      - com.azure.security.keyvault.certificates
+      - com.azure.security.keyvault.certificates.models
+    - name: Key Vault - Keys
+      href: ~/docs-ref-services/latest/security-keyvault-keys-readme.md
       children:
-      - com.azure.resourcemanager.keyvault*
-  - name: Lab Services
-    uid: azure.java.sdk.landingpage.service.labservices
+      - com.azure.security.keyvault.keys
+      - com.azure.security.keyvault.keys.cryptography
+      - com.azure.security.keyvault.keys.cryptography.models
+      - com.azure.security.keyvault.keys.models
+      - com.azure.security.keyvault.keys
+      - com.azure.security.keyvault.keys.cryptography
+      - com.azure.security.keyvault.keys.cryptography.models
+      - com.azure.security.keyvault.keys.models
+    - name: Key Vault - Secrets
+      href: ~/docs-ref-services/latest/security-keyvault-secrets-readme.md
+      children:
+      - com.azure.security.keyvault.secrets
+      - com.azure.security.keyvault.secrets.models
+      - com.azure.security.keyvault.secrets
+      - com.azure.security.keyvault.secrets.models
+    - name: Management
+      items:
+      - name: Resource Management - Key Vault
+        href: ~/docs-ref-services/latest/resourcemanager-keyvault-readme.md
+        children:
+        - com.azure.resourcemanager.keyvault
+        - com.azure.resourcemanager.keyvault.fluent
+        - com.azure.resourcemanager.keyvault.fluent.models
+        - com.azure.resourcemanager.keyvault.models
+  - name: Kubernetes Configuration
+    href: ~/docs-ref-services/latest/kubernetes-configuration.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.service.labservices.ResourceManagement
-      landingPageType: Service
+    - name: Management
+      items:
+      - name: Resource Management - Kubernetes Configuration
+        href: ~/docs-ref-services/latest/resourcemanager-kubernetesconfiguration-readme.md
+        children:
+        - com.azure.resourcemanager.kubernetesconfiguration
+        - com.azure.resourcemanager.kubernetesconfiguration.fluent
+        - com.azure.resourcemanager.kubernetesconfiguration.fluent.models
+        - com.azure.resourcemanager.kubernetesconfiguration.models
+  - name: Lab Services
+    href: ~/docs-ref-services/latest/lab-services.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Management - Lab Services (deprecated)
+        children:
+        - com.microsoft.azure.management.labservices.v2018_10_15
+        landingPageType: Service
+      - name: Resource Management - Lab Services
+        href: ~/docs-ref-services/latest/resourcemanager-labservices-readme.md
+        children:
+        - com.azure.resourcemanager.labservices
+        - com.azure.resourcemanager.labservices.fluent
+        - com.azure.resourcemanager.labservices.fluent.models
+        - com.azure.resourcemanager.labservices.models
+  - name: Load Testing
+    href: ~/docs-ref-services/latest/load-testing.md
+    landingPageType: Service
+    items:
+    - name: Load Testing
+      href: ~/docs-ref-services/latest/developer-loadtesting-readme.md
       children:
-      - com.microsoft.azure.management.labservices*
+      - com.azure.developer.loadtesting
+    - name: Management
+      items:
+      - name: Resource Management - Load Testing
+        href: ~/docs-ref-services/latest/resourcemanager-loadtesting-readme.md
+        children:
+        - com.azure.resourcemanager.loadtesting
+        - com.azure.resourcemanager.loadtesting.fluent
+        - com.azure.resourcemanager.loadtesting.fluent.models
+        - com.azure.resourcemanager.loadtesting.models
   - name: Log Analytics
-    uid: azure.java.sdk.landingpage.services.loganalytics
+    href: ~/docs-ref-services/latest/log-analytics.md
     landingPageType: Service
     items:
     - name: Client
-      uid: azure.java.sdk.landingpage.services.loganalytics.Client
       landingPageType: Service
       children:
       - com.microsoft.azure.loganalytics*
+    - name: Management
+      items:
+      - name: Resource Management - Log Analytics
+        href: ~/docs-ref-services/latest/resourcemanager-loganalytics-readme.md
+        children:
+        - com.azure.resourcemanager.loganalytics
+        - com.azure.resourcemanager.loganalytics.fluent
+        - com.azure.resourcemanager.loganalytics.fluent.models
+        - com.azure.resourcemanager.loganalytics.models
+  - name: Logic Apps
+    href: ~/docs-ref-services/latest/logic-apps.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Logic Apps
+        href: ~/docs-ref-services/latest/resourcemanager-logic-readme.md
+        children:
+        - com.azure.resourcemanager.logic
+        - com.azure.resourcemanager.logic.fluent
+        - com.azure.resourcemanager.logic.fluent.models
+        - com.azure.resourcemanager.logic.models
+  - name: Machine Learning
+    href: ~/docs-ref-services/latest/machine-learning.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Machine Learning
+        href: ~/docs-ref-services/latest/resourcemanager-machinelearning-readme.md
+        children:
+        - com.azure.resourcemanager.machinelearning
+        - com.azure.resourcemanager.machinelearning.fluent
+        - com.azure.resourcemanager.machinelearning.fluent.models
+        - com.azure.resourcemanager.machinelearning.models
+  - name: Maintenance
+    href: ~/docs-ref-services/latest/maintenance.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Maintenance
+        href: ~/docs-ref-services/latest/resourcemanager-maintenance-readme.md
+        children:
+        - com.azure.resourcemanager.maintenance
+        - com.azure.resourcemanager.maintenance.fluent
+        - com.azure.resourcemanager.maintenance.fluent.models
+        - com.azure.resourcemanager.maintenance.models
+        - com.azure.resourcemanager.maintenance
+        - com.azure.resourcemanager.maintenance.fluent
+        - com.azure.resourcemanager.maintenance.fluent.models
+        - com.azure.resourcemanager.maintenance.models
+  - name: Managed Applications
+    href: ~/docs-ref-services/latest/managed-applications.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Managed Applications
+        href: ~/docs-ref-services/latest/resourcemanager-managedapplications-readme.md
+        children:
+        - com.azure.resourcemanager.managedapplications
+        - com.azure.resourcemanager.managedapplications.fluent
+        - com.azure.resourcemanager.managedapplications.fluent.models
+        - com.azure.resourcemanager.managedapplications.models
+  - name: Managed Network Fabric
+    href: ~/docs-ref-services/latest/managed-network-fabric.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Managed Network Fabric
+        href: ~/docs-ref-services/latest/resourcemanager-managednetworkfabric-readme.md
+        children:
+        - com.azure.resourcemanager.managednetworkfabric
+        - com.azure.resourcemanager.managednetworkfabric.fluent
+        - com.azure.resourcemanager.managednetworkfabric.fluent.models
+        - com.azure.resourcemanager.managednetworkfabric.models
+  - name: Managed Service Identity
+    href: ~/docs-ref-services/latest/managed-service-identity.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Managed Service Identity
+        href: ~/docs-ref-services/latest/resourcemanager-msi-readme.md
+        children:
+        - com.azure.resourcemanager.msi
+        - com.azure.resourcemanager.msi.fluent
+        - com.azure.resourcemanager.msi.fluent.models
+        - com.azure.resourcemanager.msi.models
+  - name: Maps
+    href: ~/docs-ref-services/latest/maps.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Maps
+        href: ~/docs-ref-services/latest/resourcemanager-maps-readme.md
+        children:
+        - com.azure.resourcemanager.maps
+        - com.azure.resourcemanager.maps.fluent
+        - com.azure.resourcemanager.maps.fluent.models
+        - com.azure.resourcemanager.maps.models
+  - name: MariaDB
+    href: ~/docs-ref-services/latest/mariadb.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - MariaDB
+        href: ~/docs-ref-services/latest/resourcemanager-mariadb-readme.md
+        children:
+        - com.azure.resourcemanager.mariadb
+        - com.azure.resourcemanager.mariadb.fluent
+        - com.azure.resourcemanager.mariadb.fluent.models
+        - com.azure.resourcemanager.mariadb.models
+  - name: Marketplace Ordering
+    href: ~/docs-ref-services/latest/marketplace-ordering.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Marketplace Ordering
+        href: ~/docs-ref-services/latest/resourcemanager-marketplaceordering-readme.md
+        children:
+        - com.azure.resourcemanager.marketplaceordering
+        - com.azure.resourcemanager.marketplaceordering.fluent
+        - com.azure.resourcemanager.marketplaceordering.fluent.models
+        - com.azure.resourcemanager.marketplaceordering.models
   - name: Media Services
-    uid: azure.java.sdk.landingpage.services.mediaservices
+    href: ~/docs-ref-services/latest/media-services.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.management.mediaservices
-      landingPageType: Service
+    - name: Management
+      items:
+      - name: Management - Media Services (deprecated)
+        children:
+        - com.microsoft.azure.management.mediaservices.v2020_05_01
+        landingPageType: Service
+      - name: Resource Management - Media Services
+        href: ~/docs-ref-services/latest/resourcemanager-mediaservices-readme.md
+        children:
+        - com.azure.resourcemanager.mediaservices
+        - com.azure.resourcemanager.mediaservices.fluent
+        - com.azure.resourcemanager.mediaservices.fluent.models
+        - com.azure.resourcemanager.mediaservices.models
+        - com.azure.resourcemanager.mediaservices
+        - com.azure.resourcemanager.mediaservices.fluent
+        - com.azure.resourcemanager.mediaservices.fluent.models
+        - com.azure.resourcemanager.mediaservices.models
+  - name: Metrics Advisor
+    href: ~/docs-ref-services/latest/metrics-advisor.md
+    landingPageType: Service
+    items:
+    - name: Metrics Advisor
+      href: ~/docs-ref-services/latest/ai-metricsadvisor-readme.md
       children:
-      - com.microsoft.azure.management.mediaservices*
+      - com.azure.ai.metricsadvisor
+      - com.azure.ai.metricsadvisor.administration
+      - com.azure.ai.metricsadvisor.administration.models
+      - com.azure.ai.metricsadvisor.models
+  - name: Mixed Reality
+    href: ~/docs-ref-services/latest/mixed-reality.md
+    landingPageType: Service
+    items:
+    - name: Mixed Reality Authentication
+      href: ~/docs-ref-services/latest/mixedreality-authentication-readme.md
+      children:
+      - com.azure.mixedreality.authentication
+    - name: Azure Remote Rendering
+      href: ~/docs-ref-services/latest/mixedreality-remoterendering-readme.md
+      children:
+      - com.azure.mixedreality.remoterendering
+      - com.azure.mixedreality.remoterendering.models
+    - name: Management
+      items:
+      - name: Resource Management - Mixed Reality
+        href: ~/docs-ref-services/latest/resourcemanager-mixedreality-readme.md
+        children:
+        - com.azure.resourcemanager.mixedreality
+        - com.azure.resourcemanager.mixedreality.fluent
+        - com.azure.resourcemanager.mixedreality.fluent.models
+        - com.azure.resourcemanager.mixedreality.models
+  - name: Mobile Network
+    href: ~/docs-ref-services/latest/mobile-network.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Mobile Network
+        href: ~/docs-ref-services/latest/resourcemanager-mobilenetwork-readme.md
+        children:
+        - com.azure.resourcemanager.mobilenetwork
+        - com.azure.resourcemanager.mobilenetwork.fluent
+        - com.azure.resourcemanager.mobilenetwork.fluent.models
+        - com.azure.resourcemanager.mobilenetwork.models
+  - name: Mongo Cluster
+    href: ~/docs-ref-services/latest/mongo-cluster.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Mongo Cluster
+        href: ~/docs-ref-services/latest/resourcemanager-mongocluster-readme.md
+        children:
+        - com.azure.resourcemanager.mongocluster
+        - com.azure.resourcemanager.mongocluster.fluent
+        - com.azure.resourcemanager.mongocluster.fluent.models
+        - com.azure.resourcemanager.mongocluster.models
   - name: Monitor
-    uid: azure.java.sdk.landingpage.services.monitor
+    href: ~/docs-ref-services/latest/monitor.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.monitor.ResourceManagement
-      href: ~/docs-ref-services/latest/resourcemanager-monitor-readme.md
-      landingPageType: Service
+    - name: Monitor Ingestion
+      href: ~/docs-ref-services/latest/monitor-ingestion-readme.md
       children:
-      - com.azure.resourcemanager.monitor*
-  - name: Networking
-    uid: azure.java.sdk.landingpage.services.networking
+      - com.azure.monitor.ingestion
+      - com.azure.monitor.ingestion.models
+    - name: OpenTelemetry AutoConfigure
+      href: ~/docs-ref-services/latest/monitor-opentelemetry-autoconfigure-readme.md
+      children:
+      - com.azure.monitor.opentelemetry.autoconfigure
+    - name: Monitor Query
+      href: ~/docs-ref-services/latest/monitor-query-readme.md
+      children:
+      - com.azure.monitor.query
+      - com.azure.monitor.query.models
+    - name: Management
+      items:
+      - name: Resource Management - Monitor
+        href: ~/docs-ref-services/latest/resourcemanager-monitor-readme.md
+        children:
+        - com.azure.resourcemanager.monitor
+        - com.azure.resourcemanager.monitor.fluent
+        - com.azure.resourcemanager.monitor.fluent.models
+        - com.azure.resourcemanager.monitor.models
+  - name: MySQL
+    href: ~/docs-ref-services/latest/mysql.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - MySQL
+        href: ~/docs-ref-services/latest/resourcemanager-mysql-readme.md
+        children:
+        - com.azure.resourcemanager.mysql
+        - com.azure.resourcemanager.mysql.fluent
+        - com.azure.resourcemanager.mysql.fluent.models
+        - com.azure.resourcemanager.mysql.models
+  - name: Neon Postgres
+    href: ~/docs-ref-services/latest/neon-postgres.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Neon Postgres
+        href: ~/docs-ref-services/latest/resourcemanager-neonpostgres-readme.md
+        children:
+        - com.azure.resourcemanager.neonpostgres
+        - com.azure.resourcemanager.neonpostgres.fluent
+        - com.azure.resourcemanager.neonpostgres.fluent.models
+        - com.azure.resourcemanager.neonpostgres.models
+  - name: NetApp Files
+    href: ~/docs-ref-services/latest/netapp-files.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - NetApp Files
+        href: ~/docs-ref-services/latest/resourcemanager-netapp-readme.md
+        children:
+        - com.azure.resourcemanager.netapp
+        - com.azure.resourcemanager.netapp.fluent
+        - com.azure.resourcemanager.netapp.fluent.models
+        - com.azure.resourcemanager.netapp.models
+        - com.azure.resourcemanager.netapp
+        - com.azure.resourcemanager.netapp.fluent
+        - com.azure.resourcemanager.netapp.fluent.models
+        - com.azure.resourcemanager.netapp.models
+  - name: Network
     href: ~/docs-ref-services/latest/network.md
+    landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.networking.ResourceManagement
-      href: ~/docs-ref-services/latest/resourcemanager-network-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.network*
+    - name: Management
+      items:
+      - name: Resource Management - Network
+        href: ~/docs-ref-services/latest/resourcemanager-network-readme.md
+        children:
+        - com.azure.resourcemanager.network
+        - com.azure.resourcemanager.network.fluent
+        - com.azure.resourcemanager.network.fluent.models
+        - com.azure.resourcemanager.network.models
+  - name: New Relic Observability
+    href: ~/docs-ref-services/latest/new-relic-observability.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - New Relic Observability
+        href: ~/docs-ref-services/latest/resourcemanager-newrelicobservability-readme.md
+        children:
+        - com.azure.resourcemanager.newrelicobservability
+        - com.azure.resourcemanager.newrelicobservability.fluent
+        - com.azure.resourcemanager.newrelicobservability.fluent.models
+        - com.azure.resourcemanager.newrelicobservability.models
+  - name: Nginx
+    href: ~/docs-ref-services/latest/nginx.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Nginx
+        href: ~/docs-ref-services/latest/resourcemanager-nginx-readme.md
+        children:
+        - com.azure.resourcemanager.nginx
+        - com.azure.resourcemanager.nginx.fluent
+        - com.azure.resourcemanager.nginx.fluent.models
+        - com.azure.resourcemanager.nginx.models
+        - com.azure.resourcemanager.nginx
+        - com.azure.resourcemanager.nginx.fluent
+        - com.azure.resourcemanager.nginx.fluent.models
+        - com.azure.resourcemanager.nginx.models
+  - name: Notification Hubs
+    href: ~/docs-ref-services/latest/notification-hubs.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Notification Hubs
+        href: ~/docs-ref-services/latest/resourcemanager-notificationhubs-readme.md
+        children:
+        - com.azure.resourcemanager.notificationhubs
+        - com.azure.resourcemanager.notificationhubs.fluent
+        - com.azure.resourcemanager.notificationhubs.fluent.models
+        - com.azure.resourcemanager.notificationhubs.models
+  - name: Operator Nexus - Network Cloud
+    href: ~/docs-ref-services/latest/operator-nexus---network-cloud.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Network Cloud
+        href: ~/docs-ref-services/latest/resourcemanager-networkcloud-readme.md
+        children:
+        - com.azure.resourcemanager.networkcloud
+        - com.azure.resourcemanager.networkcloud.fluent
+        - com.azure.resourcemanager.networkcloud.fluent.models
+        - com.azure.resourcemanager.networkcloud.models
+        - com.azure.resourcemanager.networkcloud
+        - com.azure.resourcemanager.networkcloud.fluent
+        - com.azure.resourcemanager.networkcloud.fluent.models
+        - com.azure.resourcemanager.networkcloud.models
+  - name: Oracle Database
+    href: ~/docs-ref-services/latest/oracle-database.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Oracle Database
+        href: ~/docs-ref-services/latest/resourcemanager-oracledatabase-readme.md
+        children:
+        - com.azure.resourcemanager.oracledatabase
+        - com.azure.resourcemanager.oracledatabase.fluent
+        - com.azure.resourcemanager.oracledatabase.fluent.models
+        - com.azure.resourcemanager.oracledatabase.models
+  - name: Orbital
+    href: ~/docs-ref-services/latest/orbital.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Orbital
+        href: ~/docs-ref-services/latest/resourcemanager-orbital-readme.md
+        children:
+        - com.azure.resourcemanager.orbital
+        - com.azure.resourcemanager.orbital.fluent
+        - com.azure.resourcemanager.orbital.fluent.models
+        - com.azure.resourcemanager.orbital.models
+  - name: Palo Alto Networks
+    href: ~/docs-ref-services/latest/palo-alto-networks.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Palo Alto Networks - Next Generation Firewall
+        href: ~/docs-ref-services/latest/resourcemanager-paloaltonetworks-ngfw-readme.md
+        children:
+        - com.azure.resourcemanager.paloaltonetworks.ngfw
+        - com.azure.resourcemanager.paloaltonetworks.ngfw.fluent
+        - com.azure.resourcemanager.paloaltonetworks.ngfw.fluent.models
+        - com.azure.resourcemanager.paloaltonetworks.ngfw.models
+  - name: Peering
+    href: ~/docs-ref-services/latest/peering.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Peering
+        href: ~/docs-ref-services/latest/resourcemanager-peering-readme.md
+        children:
+        - com.azure.resourcemanager.peering
+        - com.azure.resourcemanager.peering.fluent
+        - com.azure.resourcemanager.peering.fluent.models
+        - com.azure.resourcemanager.peering.models
+  - name: Playwright Testing
+    href: ~/docs-ref-services/latest/playwright-testing.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Playwright Testing
+        href: ~/docs-ref-services/latest/resourcemanager-playwrighttesting-readme.md
+        children:
+        - com.azure.resourcemanager.playwrighttesting
+        - com.azure.resourcemanager.playwrighttesting.fluent
+        - com.azure.resourcemanager.playwrighttesting.fluent.models
+        - com.azure.resourcemanager.playwrighttesting.models
+  - name: Policy Insights
+    href: ~/docs-ref-services/latest/policy-insights.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Policy Insights
+        href: ~/docs-ref-services/latest/resourcemanager-policyinsights-readme.md
+        children:
+        - com.azure.resourcemanager.policyinsights
+        - com.azure.resourcemanager.policyinsights.fluent
+        - com.azure.resourcemanager.policyinsights.fluent.models
+        - com.azure.resourcemanager.policyinsights.models
+  - name: PostgreSQL
+    href: ~/docs-ref-services/latest/postgresql.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - PostgreSQL
+        href: ~/docs-ref-services/latest/resourcemanager-postgresql-readme.md
+        children:
+        - com.azure.resourcemanager.postgresql
+        - com.azure.resourcemanager.postgresql.fluent
+        - com.azure.resourcemanager.postgresql.fluent.models
+        - com.azure.resourcemanager.postgresql.models
+      - name: Resource Management - PostgreSQL Flexible Server
+        href: ~/docs-ref-services/latest/resourcemanager-postgresqlflexibleserver-readme.md
+        children:
+        - com.azure.resourcemanager.postgresqlflexibleserver
+        - com.azure.resourcemanager.postgresqlflexibleserver.fluent
+        - com.azure.resourcemanager.postgresqlflexibleserver.fluent.models
+        - com.azure.resourcemanager.postgresqlflexibleserver.models
+        - com.azure.resourcemanager.postgresqlflexibleserver
+        - com.azure.resourcemanager.postgresqlflexibleserver.fluent
+        - com.azure.resourcemanager.postgresqlflexibleserver.fluent.models
+        - com.azure.resourcemanager.postgresqlflexibleserver.models
+  - name: Power BI Dedicated
+    href: ~/docs-ref-services/latest/power-bi-dedicated.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Power BI Dedicated
+        href: ~/docs-ref-services/latest/resourcemanager-powerbidedicated-readme.md
+        children:
+        - com.azure.resourcemanager.powerbidedicated
+        - com.azure.resourcemanager.powerbidedicated.fluent
+        - com.azure.resourcemanager.powerbidedicated.fluent.models
+        - com.azure.resourcemanager.powerbidedicated.models
   - name: Private DNS
-    uid: azure.java.sdk.landingpage.services.privatedns
-    href: ~/docs-ref-services/latest/resourcemanager-privatedns-readme.md
+    href: ~/docs-ref-services/latest/private-dns.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.privatedns.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.privatedns*
-  - name: Redis Cache
-    uid: azure.java.sdk.landingpage.services.rediscache
-    href: ~/docs-ref-services/latest/resourcemanager-redis-readme.md
+    - name: Management
+      items:
+      - name: Management - Private DNS (deprecated)
+        children:
+        - com.microsoft.azure.management.privatedns.v2018_09_01
+        landingPageType: Service
+      - name: Resource Management - Private DNS
+        href: ~/docs-ref-services/latest/resourcemanager-privatedns-readme.md
+        children:
+        - com.azure.resourcemanager.privatedns
+        - com.azure.resourcemanager.privatedns.fluent
+        - com.azure.resourcemanager.privatedns.fluent.models
+        - com.azure.resourcemanager.privatedns.models
+  - name: Provider Hub
+    href: ~/docs-ref-services/latest/provider-hub.md
+    landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.rediscache.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.redis*
-  - name: Resources
-    uid: azure.java.sdk.landingpage.services.resources
-    href: ~/docs-ref-services/latest/resourcemanager-resources-readme.md
+    - name: Management
+      items:
+      - name: Resource Management - Provider Hub
+        href: ~/docs-ref-services/latest/resourcemanager-providerhub-readme.md
+        children:
+        - com.azure.resourcemanager.providerhub
+        - com.azure.resourcemanager.providerhub.fluent
+        - com.azure.resourcemanager.providerhub.fluent.models
+        - com.azure.resourcemanager.providerhub.models
+  - name: Purview
+    href: ~/docs-ref-services/latest/purview.md
+    landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.resources.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager
-      - com.azure.resourcemanager.resources*
+    - name: Management
+      items:
+      - name: Resource Management - Purview
+        href: ~/docs-ref-services/latest/resourcemanager-purview-readme.md
+        children:
+        - com.azure.resourcemanager.purview
+        - com.azure.resourcemanager.purview.fluent
+        - com.azure.resourcemanager.purview.fluent.models
+        - com.azure.resourcemanager.purview.models
+  - name: Qumulo
+    href: ~/docs-ref-services/latest/qumulo.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Qumulo
+        href: ~/docs-ref-services/latest/resourcemanager-qumulo-readme.md
+        children:
+        - com.azure.resourcemanager.qumulo
+        - com.azure.resourcemanager.qumulo.fluent
+        - com.azure.resourcemanager.qumulo.fluent.models
+        - com.azure.resourcemanager.qumulo.models
+  - name: Quota
+    href: ~/docs-ref-services/latest/quota.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Quota
+        href: ~/docs-ref-services/latest/resourcemanager-quota-readme.md
+        children:
+        - com.azure.resourcemanager.quota
+        - com.azure.resourcemanager.quota.fluent
+        - com.azure.resourcemanager.quota.fluent.models
+        - com.azure.resourcemanager.quota.models
+  - name: Recovery Services
+    href: ~/docs-ref-services/latest/recovery-services.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Recovery Services
+        href: ~/docs-ref-services/latest/resourcemanager-recoveryservices-readme.md
+        children:
+        - com.azure.resourcemanager.recoveryservices
+        - com.azure.resourcemanager.recoveryservices.fluent
+        - com.azure.resourcemanager.recoveryservices.fluent.models
+        - com.azure.resourcemanager.recoveryservices.models
+      - name: Resource Management - Recovery Services Backup
+        href: ~/docs-ref-services/latest/resourcemanager-recoveryservicesbackup-readme.md
+        children:
+        - com.azure.resourcemanager.recoveryservicesbackup
+        - com.azure.resourcemanager.recoveryservicesbackup.fluent
+        - com.azure.resourcemanager.recoveryservicesbackup.fluent.models
+        - com.azure.resourcemanager.recoveryservicesbackup.models
+      - name: Resource Management - Recovery Services Site Recovery
+        href: ~/docs-ref-services/latest/resourcemanager-recoveryservicessiterecovery-readme.md
+        children:
+        - com.azure.resourcemanager.recoveryservicessiterecovery
+        - com.azure.resourcemanager.recoveryservicessiterecovery.fluent
+        - com.azure.resourcemanager.recoveryservicessiterecovery.fluent.models
+        - com.azure.resourcemanager.recoveryservicessiterecovery.models
+  - name: Redis
+    href: ~/docs-ref-services/latest/redis.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Redis
+        href: ~/docs-ref-services/latest/resourcemanager-redis-readme.md
+        children:
+        - com.azure.resourcemanager.redis
+        - com.azure.resourcemanager.redis.fluent
+        - com.azure.resourcemanager.redis.fluent.models
+        - com.azure.resourcemanager.redis.models
+      - name: Resource Management - Redis Enterprise
+        href: ~/docs-ref-services/latest/resourcemanager-redisenterprise-readme.md
+        children:
+        - com.azure.resourcemanager.redisenterprise
+        - com.azure.resourcemanager.redisenterprise.fluent
+        - com.azure.resourcemanager.redisenterprise.fluent.models
+        - com.azure.resourcemanager.redisenterprise.models
+        - com.azure.resourcemanager.redisenterprise
+        - com.azure.resourcemanager.redisenterprise.fluent
+        - com.azure.resourcemanager.redisenterprise.fluent.models
+        - com.azure.resourcemanager.redisenterprise.models
+  - name: Reservations
+    href: ~/docs-ref-services/latest/reservations.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Reservations
+        href: ~/docs-ref-services/latest/resourcemanager-reservations-readme.md
+        children:
+        - com.azure.resourcemanager.reservations
+        - com.azure.resourcemanager.reservations.fluent
+        - com.azure.resourcemanager.reservations.fluent.models
+        - com.azure.resourcemanager.reservations.models
+  - name: Resource Connector
+    href: ~/docs-ref-services/latest/resource-connector.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource Connector
+        href: ~/docs-ref-services/latest/resourcemanager-resourceconnector-readme.md
+        children:
+        - com.azure.resourcemanager.resourceconnector
+        - com.azure.resourcemanager.resourceconnector.fluent
+        - com.azure.resourcemanager.resourceconnector.fluent.models
+        - com.azure.resourcemanager.resourceconnector.models
   - name: Resource Graph
-    uid: azure.java.sdk.landingpage.services.resourcegraph
+    href: ~/docs-ref-services/latest/resource-graph.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.resourcegraph.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.resourcegraph*
+    - name: Management
+      items:
+      - name: Management - Resource Graph (deprecated)
+        children:
+        - com.microsoft.azure.management.resourcegraph.v2019_04_01
+        - com.microsoft.azure.management.resourcegraph.v2019_04_01
+        landingPageType: Service
+      - name: Resource Management - Resource Graph
+        href: ~/docs-ref-services/latest/resourcemanager-resourcegraph-readme.md
+        children:
+        - com.azure.resourcemanager.resourcegraph
+        - com.azure.resourcemanager.resourcegraph.fluent
+        - com.azure.resourcemanager.resourcegraph.fluent.models
+        - com.azure.resourcemanager.resourcegraph.models
+  - name: Resource Health
+    href: ~/docs-ref-services/latest/resource-health.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource Health
+        href: ~/docs-ref-services/latest/resourcemanager-resourcehealth-readme.md
+        children:
+        - com.azure.resourcemanager.resourcehealth
+        - com.azure.resourcemanager.resourcehealth.fluent
+        - com.azure.resourcemanager.resourcehealth.fluent.models
+        - com.azure.resourcemanager.resourcehealth.models
+        - com.azure.resourcemanager.resourcehealth
+        - com.azure.resourcemanager.resourcehealth.fluent
+        - com.azure.resourcemanager.resourcehealth.fluent.models
+        - com.azure.resourcemanager.resourcehealth.models
   - name: Resource Mover
-    uid: azure.java.sdk.landingpage.services.resourcemover
+    href: ~/docs-ref-services/latest/resource-mover.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.resourcemover.ResourceManagement
-      landingPageType: Service
+    - name: Management
+      items:
+      - name: Resource Management - Resource Mover
+        href: ~/docs-ref-services/latest/resourcemanager-resourcemover-readme.md
+        children:
+        - com.azure.resourcemanager.resourcemover
+        - com.azure.resourcemanager.resourcemover.fluent
+        - com.azure.resourcemanager.resourcemover.fluent.models
+        - com.azure.resourcemanager.resourcemover.models
+  - name: Resources
+    href: ~/docs-ref-services/latest/resources.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resources
+        href: ~/docs-ref-services/latest/resourcemanager-resources-readme.md
+        children:
+        - com.azure.resourcemanager.resources
+        - com.azure.resourcemanager.resources.fluent
+        - com.azure.resourcemanager.resources.fluent.models
+        - com.azure.resourcemanager.resources.fluentcore
+        - com.azure.resourcemanager.resources.fluentcore.arm
+        - com.azure.resourcemanager.resources.fluentcore.arm.collection
+        - com.azure.resourcemanager.resources.fluentcore.arm.models
+        - com.azure.resourcemanager.resources.fluentcore.collection
+        - com.azure.resourcemanager.resources.fluentcore.dag
+        - com.azure.resourcemanager.resources.fluentcore.exception
+        - com.azure.resourcemanager.resources.fluentcore.model
+        - com.azure.resourcemanager.resources.fluentcore.policy
+        - com.azure.resourcemanager.resources.fluentcore.rest
+        - com.azure.resourcemanager.resources.fluentcore.utils
+        - com.azure.resourcemanager.resources.models
+  - name: Schema Registry
+    href: ~/docs-ref-services/latest/schema-registry.md
+    landingPageType: Service
+    items:
+    - name: Schema Registry
+      href: ~/docs-ref-services/latest/data-schemaregistry-readme.md
       children:
-      - com.microsoft.azure.management.resourcemover.v2021_01_01*
+      - com.azure.data.schemaregistry
+      - com.azure.data.schemaregistry.models
+    - name: Schema Registry - Avro
+      href: ~/docs-ref-services/latest/data-schemaregistry-apacheavro-readme.md
+      children:
+      - com.azure.data.schemaregistry.apacheavro
+      - com.azure.data.schemaregistry.apacheavro
+    - name: Schema Registry - JSON
+      href: ~/docs-ref-services/latest/data-schemaregistry-jsonschema-readme.md
+      children:
+      - com.azure.data.schemaregistry.jsonschema
   - name: Search
-    uid: azure.java.sdk.landingpage.services.Search
+    href: ~/docs-ref-services/latest/search.md
     landingPageType: Service
     items:
-    - name: 11.X.X Client
-      uid: azure.java.sdk.landingpage.services.search.Client
+    - name: Azure AI Search
       href: ~/docs-ref-services/latest/search-documents-readme.md
       children:
-      - com.azure.search.documents*
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.search.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.search*
-  - name: Service Bus
-    uid: azure.java.sdk.landingpage.services.servicebus
-    href: ~/docs-ref-services/latest/servicebus.md
+      - com.azure.search.documents
+      - com.azure.search.documents.agents
+      - com.azure.search.documents.agents.models
+      - com.azure.search.documents.indexes
+      - com.azure.search.documents.indexes.models
+      - com.azure.search.documents.models
+      - com.azure.search.documents.options
+      - com.azure.search.documents.util
+      - com.azure.search.documents
+      - com.azure.search.documents.agents
+      - com.azure.search.documents.agents.models
+      - com.azure.search.documents.indexes
+      - com.azure.search.documents.indexes.models
+      - com.azure.search.documents.models
+      - com.azure.search.documents.options
+      - com.azure.search.documents.util
+    - name: Management
+      items:
+      - name: Resource Management - Azure AI Search
+        href: ~/docs-ref-services/latest/resourcemanager-search-readme.md
+        children:
+        - com.azure.resourcemanager.search
+        - com.azure.resourcemanager.search.fluent
+        - com.azure.resourcemanager.search.fluent.models
+        - com.azure.resourcemanager.search.models
+  - name: Security
+    href: ~/docs-ref-services/latest/security.md
+    landingPageType: Service
     items:
-    - name: 7.X.X Client
-      uid: azure.java.sdk.landingpage.services.servicebus.Client
+    - name: Management
+      items:
+      - name: Resource Management - Security
+        href: ~/docs-ref-services/latest/resourcemanager-security-readme.md
+        children:
+        - com.azure.resourcemanager.security
+        - com.azure.resourcemanager.security.fluent
+        - com.azure.resourcemanager.security.fluent.models
+        - com.azure.resourcemanager.security.models
+  - name: Security Insights
+    href: ~/docs-ref-services/latest/security-insights.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Security Insights
+        href: ~/docs-ref-services/latest/resourcemanager-securityinsights-readme.md
+        children:
+        - com.azure.resourcemanager.securityinsights
+        - com.azure.resourcemanager.securityinsights.fluent
+        - com.azure.resourcemanager.securityinsights.fluent.models
+        - com.azure.resourcemanager.securityinsights.models
+  - name: Self Help
+    href: ~/docs-ref-services/latest/self-help.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Self Help
+        href: ~/docs-ref-services/latest/resourcemanager-selfhelp-readme.md
+        children:
+        - com.azure.resourcemanager.selfhelp
+        - com.azure.resourcemanager.selfhelp.fluent
+        - com.azure.resourcemanager.selfhelp.fluent.models
+        - com.azure.resourcemanager.selfhelp.models
+        - com.azure.resourcemanager.selfhelp
+        - com.azure.resourcemanager.selfhelp.fluent
+        - com.azure.resourcemanager.selfhelp.fluent.models
+        - com.azure.resourcemanager.selfhelp.models
+  - name: Service Bus
+    href: ~/docs-ref-services/latest/service-bus.md
+    landingPageType: Service
+    items:
+    - name: Service Bus
       href: ~/docs-ref-services/latest/messaging-servicebus-readme.md
       children:
-      - com.azure.messaging.servicebus*
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.servicebus.Client
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.servicebus*
-      - com.microsoft.azure.servicebus.amqp
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.servicebus.ResourceManagement
-      href: ~/docs-ref-services/latest/resourcemanager-servicebus-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.servicebus*
+      - com.azure.messaging.servicebus
+      - com.azure.messaging.servicebus.administration
+      - com.azure.messaging.servicebus.administration.models
+      - com.azure.messaging.servicebus.models
+      - com.azure.messaging.servicebus
+      - com.azure.messaging.servicebus.administration
+      - com.azure.messaging.servicebus.administration.models
+      - com.azure.messaging.servicebus.models
+    - name: Management
+      items:
+      - name: Resource Management - Service Bus
+        href: ~/docs-ref-services/latest/resourcemanager-servicebus-readme.md
+        children:
+        - com.azure.resourcemanager.servicebus
+        - com.azure.resourcemanager.servicebus.fluent
+        - com.azure.resourcemanager.servicebus.fluent.models
+        - com.azure.resourcemanager.servicebus.models
   - name: Service Fabric
-    uid: azure.java.sdk.landingpage.services.servicefabric
+    href: ~/docs-ref-services/latest/service-fabric.md
     landingPageType: Service
     items:
-    - name: Runtime
-      uid: azure.java.sdk.landingpage.services.servicefabric.Runtime
-      landingPageType: Service
-      children:
-      - microsoft.servicefabric.*
-    - name: Client
-      uid: azure.java.sdk.landingpage.services.servicefabric.Client
-      landingPageType: Service
-      children:
-      - system.fabric.description*
-      - system.fabric.health*
-      - system.fabric.interop*
-      - system.fabric.management.imageStore*
-      - system.fabric.query*
-      - system.fabric.repair*
-      - system.fabric.security*
-    - name: Common
-      uid: azure.java.sdk.landingpage.services.servicefabric.Common
-      landingPageType: Service
-      children:
-      - system.fabric*
-      - system.fabric.exception*
-  - name: Management Locks
-    uid: azure.java.sdk.landingpage.services.managementlock
-    landingPageType: Service
-    children:
-    - com.microsoft.azure.management.locks*
-  - name: Stack HCI
-    uid: azure.java.sdk.landingpage.services.stackhci
+    - name: Management
+      items:
+      - name: Resource Management - Service Fabric
+        href: ~/docs-ref-services/latest/resourcemanager-servicefabric-readme.md
+        children:
+        - com.azure.resourcemanager.servicefabric
+        - com.azure.resourcemanager.servicefabric.fluent
+        - com.azure.resourcemanager.servicefabric.fluent.models
+        - com.azure.resourcemanager.servicefabric.models
+  - name: Service Fabric Managed Clusters
+    href: ~/docs-ref-services/latest/service-fabric-managed-clusters.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.stackhci.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.azurestackhci.v2020_10_01*
-  - name: Stream Analytics
-    uid: azure.java.sdk.landingpage.services.streamanalytics
+    - name: Management
+      items:
+      - name: Resource Management - Service Fabric Managed Clusters
+        href: ~/docs-ref-services/latest/resourcemanager-servicefabricmanagedclusters-readme.md
+        children:
+        - com.azure.resourcemanager.servicefabricmanagedclusters
+        - com.azure.resourcemanager.servicefabricmanagedclusters.fluent
+        - com.azure.resourcemanager.servicefabricmanagedclusters.fluent.models
+        - com.azure.resourcemanager.servicefabricmanagedclusters.models
+  - name: Service Linker
+    href: ~/docs-ref-services/latest/service-linker.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.streamanalytics.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.streamanalytics*
-  - name: Spring Boot
-    uid: azure.java.sdk.landingpage.services.springboot
-    href: ~/docs-ref-services/latest/spring-boot-readme.md
+    - name: Management
+      items:
+      - name: Resource Management - Service Linker
+        href: ~/docs-ref-services/latest/resourcemanager-servicelinker-readme.md
+        children:
+        - com.azure.resourcemanager.servicelinker
+        - com.azure.resourcemanager.servicelinker.fluent
+        - com.azure.resourcemanager.servicelinker.fluent.models
+        - com.azure.resourcemanager.servicelinker.models
+  - name: Service Networking
+    href: ~/docs-ref-services/latest/service-networking.md
     landingPageType: Service
     items:
-    - name: Spring Boot Starter
-      uid: azure.java.sdk.landingpage.services.springboot.starter
-      href: ~/docs-ref-services/latest/spring-boot-starter-readme.md
-    - name: Azure Active Directory Starter
-      uid: azure.java.sdk.landingpage.services.springboot.aadstarter
-      href: ~/docs-ref-services/latest/active-directory-spring-boot-starter-readme.md
-    - name: Azure Active Directory B2C Starter
-      uid: azure.java.sdk.landingpage.services.springboot.aadb2cstarter
-      href: ~/docs-ref-services/latest/spring-boot-starter-active-directory-b2c-readme.md
-    - name: Cosmos DB Starter
-      uid: azure.java.sdk.landingpage.services.springboot.cosmosdb
-      href: ~/docs-ref-services/latest/spring-boot-starter-cosmos-readme.md
-    - name: Key Vault Secrets Starter
-      uid: azure.java.sdk.landingpage.services.springboot.keyvaultsecrets
-      href: ~/docs-ref-services/latest/spring-boot-starter-keyvault-secrets-readme.md
-    - name: Service Bus JMS Starter
-      uid: azure.java.sdk.landingpage.services.springboot.jms
-      href: ~/docs-ref-services/latest/spring-boot-starter-servicebus-jms-readme.md
-    - name: Storage Starter
-      uid: azure.java.sdk.landingpage.services.springboot.storage
-      href: ~/docs-ref-services/latest/spring-boot-starter-storage-readme.md
-  - name: Spring Cloud
-    uid: azure.java.sdk.landingpage.services.springcloud
+    - name: Management
+      items:
+      - name: Resource Management - Service Networking
+        href: ~/docs-ref-services/latest/resourcemanager-servicenetworking-readme.md
+        children:
+        - com.azure.resourcemanager.servicenetworking
+        - com.azure.resourcemanager.servicenetworking.fluent
+        - com.azure.resourcemanager.servicenetworking.fluent.models
+        - com.azure.resourcemanager.servicenetworking.models
+  - name: SignalR
+    href: ~/docs-ref-services/latest/signalr.md
     landingPageType: Service
     items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.springcloud.ResourceManagement
-      href: ~/docs-ref-services/latest/resourcemanager-appplatform-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.appplatform*
-    - name: Spring Cloud Autoconfiguration
-      uid: azure.java.sdk.landingpage.services.springcloud.autoconfigure
-      href: ~/docs-ref-services/latest/spring-cloud-autoconfigure-readme.md
-      children:
-      - com.azure.spring.cloud.autoconfigure*
-    - name: Cache Starter
-      uid: azure.java.sdk.landingpage.services.springcloud.cache
-      href: ~/docs-ref-services/latest/spring-cloud-starter-cache-readme.md
-    - name: Spring Cloud Context
-      uid: azure.java.sdk.landingpage.services.springcloud.context
-      href: ~/docs-ref-services/latest/spring-cloud-context-readme.md
-    - name: Event Hubs Starter
-      uid: azure.java.sdk.landingpage.services.springcloud.eventhubs
-      href: ~/docs-ref-services/latest/spring-cloud-starter-eventhubs-readme.md
-    - name: Event Hubs Stream Binder
-      uid: azure.java.sdk.landingpage.services.springcloud.eventhubsstream
-      href: ~/docs-ref-services/latest/spring-cloud-stream-binder-eventhubs-readme.md
-      children:
-      - com.azure.spring.eventhub.stream.binder*
-    - name: Event Hubs Kafka Starter
-      uid: azure.java.sdk.landingpage.services.springcloud.eventhubskafka
-      href: ~/docs-ref-services/latest/spring-cloud-starter-eventhubs-kafka-readme.md
-    - name: Service Bus Starter
-      uid: azure.java.sdk.landingpage.services.springcloud.servicebus
-      href: ~/docs-ref-services/latest/spring-cloud-starter-servicebus-readme.md
-    - name: Storage
-      uid: azure.java.sdk.landingpage.services.springcloud.storage
-      href: ~/docs-ref-services/latest/spring-cloud-storage-readme.md
-    - name: Storage Queue Starter
-      uid: azure.java.sdk.landingpage.services.springcloud.storagequeue
-      href: ~/docs-ref-services/latest/spring-cloud-starter-storage-queue-readme.md
-    - name: Storage Queue Integration
-      uid: azure.java.sdk.landingpage.services.springcloud.storagequeueintegration
-      href: ~/docs-ref-services/latest/spring-integration-storage-queue-readme.md
+    - name: Management
+      items:
+      - name: Resource Management - SignalR
+        href: ~/docs-ref-services/latest/resourcemanager-signalr-readme.md
+        children:
+        - com.azure.resourcemanager.signalr
+        - com.azure.resourcemanager.signalr.fluent
+        - com.azure.resourcemanager.signalr.fluent.models
+        - com.azure.resourcemanager.signalr.models
+  - name: Sphere
+    href: ~/docs-ref-services/latest/sphere.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Sphere
+        href: ~/docs-ref-services/latest/resourcemanager-sphere-readme.md
+        children:
+        - com.azure.resourcemanager.sphere
+        - com.azure.resourcemanager.sphere.fluent
+        - com.azure.resourcemanager.sphere.fluent.models
+        - com.azure.resourcemanager.sphere.models
   - name: SQL
-    uid: azure.java.sdk.landingpage.services.sql
     href: ~/docs-ref-services/latest/sql.md
+    landingPageType: Service
     items:
     - name: Client
-      uid: azure.java.sdk.landingpage.services.sql.Client
       landingPageType: Service
       children:
       - com.microsoft.azure.elasticdb*
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.sql.ResourceManagement
-      href: ~/docs-ref-services/latest/resourcemanager-sql-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.sql*
-  - name: Storage
-    uid: azure.java.sdk.landingpage.services.storage
-    href: ~/docs-ref-services/latest/storage.md
+    - name: Management
+      items:
+      - name: Resource Management - SQL
+        href: ~/docs-ref-services/latest/resourcemanager-sql-readme.md
+        children:
+        - com.azure.resourcemanager.sql
+        - com.azure.resourcemanager.sql.fluent
+        - com.azure.resourcemanager.sql.fluent.models
+        - com.azure.resourcemanager.sql.models
+  - name: Standby Pool
+    href: ~/docs-ref-services/latest/standby-pool.md
+    landingPageType: Service
     items:
-    - name: Common
-      uid: azure.java.sdk.landingpage.services.storage.Common
-      href: ~/docs-ref-services/latest/storage-common-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.storage.common*
-    - name: Blobs
-      uid: azure.java.sdk.landingpage.services.storage.Blobs
+    - name: Management
+      items:
+      - name: Resource Management - Standby Pool
+        href: ~/docs-ref-services/latest/resourcemanager-standbypool-readme.md
+        children:
+        - com.azure.resourcemanager.standbypool
+        - com.azure.resourcemanager.standbypool.fluent
+        - com.azure.resourcemanager.standbypool.fluent.models
+        - com.azure.resourcemanager.standbypool.models
+  - name: Storage
+    href: ~/docs-ref-services/latest/storage.md
+    landingPageType: Service
+    items:
+    - name: Storage - Blobs
       href: ~/docs-ref-services/latest/storage-blob-readme.md
       children:
-      - com.azure.storage.blob*
-    - name: File Shares
-      uid: azure.java.sdk.landingpage.services.storage.FileShares
-      href: ~/docs-ref-services/latest/storage-file-share-readme.md
+      - com.azure.storage.blob
+      - com.azure.storage.blob.models
+      - com.azure.storage.blob.options
+      - com.azure.storage.blob.sas
+      - com.azure.storage.blob.specialized
+      - com.azure.storage.blob
+      - com.azure.storage.blob.models
+      - com.azure.storage.blob.options
+      - com.azure.storage.blob.sas
+      - com.azure.storage.blob.specialized
+    - name: Storage - Blobs Batch
+      href: ~/docs-ref-services/latest/storage-blob-batch-readme.md
       children:
-      - com.azure.storage.file.share*
-    - name: Queues
-      uid: azure.java.sdk.landingpage.services.storage.Queues
-      href: ~/docs-ref-services/latest/storage-queue-readme.md
+      - com.azure.storage.blob.batch
+      - com.azure.storage.blob.batch.options
+      - com.azure.storage.blob.batch
+      - com.azure.storage.blob.batch.options
+    - name: Storage - Blobs Cryptography
+      href: ~/docs-ref-services/latest/storage-blob-cryptography-readme.md
       children:
-      - com.azure.storage.queue*
-    - name: Data Lake
-      uid: azure.java.sdk.landingpage.services.storage.DataLake
+      - com.azure.storage.blob.specialized.cryptography
+      - com.azure.storage.blob.specialized.cryptography
+    - name: Storage - Files Data Lake
       href: ~/docs-ref-services/latest/storage-file-datalake-readme.md
       children:
-      - com.azure.storage.file.datalake*
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.storage.ResourceManagement
-      href: ~/docs-ref-services/latest/resourcemanager-storage-readme.md
-      landingPageType: Service
+      - com.azure.storage.file.datalake
+      - com.azure.storage.file.datalake.models
+      - com.azure.storage.file.datalake.options
+      - com.azure.storage.file.datalake.sas
+      - com.azure.storage.file.datalake.specialized
+      - com.azure.storage.file.datalake
+      - com.azure.storage.file.datalake.models
+      - com.azure.storage.file.datalake.options
+      - com.azure.storage.file.datalake.sas
+      - com.azure.storage.file.datalake.specialized
+    - name: Storage - Files Share
+      href: ~/docs-ref-services/latest/storage-file-share-readme.md
       children:
-      - com.azure.resourcemanager.storage*
-  - name: Supportability
-    uid: azure.java.sdk.landingpage.preview.services.supportability
+      - com.azure.storage.file.share
+      - com.azure.storage.file.share.models
+      - com.azure.storage.file.share.options
+      - com.azure.storage.file.share.sas
+      - com.azure.storage.file.share.specialized
+      - com.azure.storage.file.share
+      - com.azure.storage.file.share.models
+      - com.azure.storage.file.share.options
+      - com.azure.storage.file.share.sas
+      - com.azure.storage.file.share.specialized
+    - name: Storage - Queues
+      href: ~/docs-ref-services/latest/storage-queue-readme.md
+      children:
+      - com.azure.storage.queue
+      - com.azure.storage.queue.models
+      - com.azure.storage.queue.sas
+      - com.azure.storage.queue
+      - com.azure.storage.queue.models
+      - com.azure.storage.queue.sas
+    - name: Management
+      items:
+      - name: Management - Storage Cache (deprecated)
+        children:
+        - com.microsoft.azure.management.storagecache.v2020_03_01
+        landingPageType: Service
+      - name: Resource Management - Storage
+        href: ~/docs-ref-services/latest/resourcemanager-storage-readme.md
+        children:
+        - com.azure.resourcemanager.storage
+        - com.azure.resourcemanager.storage.fluent
+        - com.azure.resourcemanager.storage.fluent.models
+        - com.azure.resourcemanager.storage.models
+      - name: Resource Management - Storage Cache
+        href: ~/docs-ref-services/latest/resourcemanager-storagecache-readme.md
+        children:
+        - com.azure.resourcemanager.storagecache
+        - com.azure.resourcemanager.storagecache.fluent
+        - com.azure.resourcemanager.storagecache.fluent.models
+        - com.azure.resourcemanager.storagecache.models
+      - name: Resource Management - Storage Mover
+        href: ~/docs-ref-services/latest/resourcemanager-storagemover-readme.md
+        children:
+        - com.azure.resourcemanager.storagemover
+        - com.azure.resourcemanager.storagemover.fluent
+        - com.azure.resourcemanager.storagemover.fluent.models
+        - com.azure.resourcemanager.storagemover.models
+      - name: Resource Management - Storage Pool
+        href: ~/docs-ref-services/latest/resourcemanager-storagepool-readme.md
+        children:
+        - com.azure.resourcemanager.storagepool
+        - com.azure.resourcemanager.storagepool.fluent
+        - com.azure.resourcemanager.storagepool.fluent.models
+        - com.azure.resourcemanager.storagepool.models
+  - name: Stream Analytics
+    href: ~/docs-ref-services/latest/stream-analytics.md
     landingPageType: Service
     items:
+    - name: Management
+      items:
+      - name: Resource Management - Stream Analytics
+        href: ~/docs-ref-services/latest/resourcemanager-streamanalytics-readme.md
+        children:
+        - com.azure.resourcemanager.streamanalytics
+        - com.azure.resourcemanager.streamanalytics.fluent
+        - com.azure.resourcemanager.streamanalytics.fluent.models
+        - com.azure.resourcemanager.streamanalytics.models
     - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.supportability.ResourceManagement
       landingPageType: Service
       children:
-      - com.microsoft.azure.management.support*
-  - name: Text Analytics
-    uid: azure.java.sdk.landingpage.services.textanalytics
-    href: ~/docs-ref-services/latest/ai-textanalytics-readme.md
-    children:
-    - com.azure.ai.textanalytics*
+      - com.microsoft.azure.management.streamanalytics*
+  - name: Subscriptions
+    href: ~/docs-ref-services/latest/subscriptions.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Subscriptions
+        href: ~/docs-ref-services/latest/resourcemanager-subscription-readme.md
+        children:
+        - com.azure.resourcemanager.subscription
+        - com.azure.resourcemanager.subscription.fluent
+        - com.azure.resourcemanager.subscription.fluent.models
+        - com.azure.resourcemanager.subscription.models
+  - name: Support
+    href: ~/docs-ref-services/latest/support.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Support
+        href: ~/docs-ref-services/latest/resourcemanager-support-readme.md
+        children:
+        - com.azure.resourcemanager.support
+        - com.azure.resourcemanager.support.fluent
+        - com.azure.resourcemanager.support.fluent.models
+        - com.azure.resourcemanager.support.models
+  - name: Synapse
+    href: ~/docs-ref-services/latest/synapse.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Synapse
+        href: ~/docs-ref-services/latest/resourcemanager-synapse-readme.md
+        children:
+        - com.azure.resourcemanager.synapse
+        - com.azure.resourcemanager.synapse.fluent
+        - com.azure.resourcemanager.synapse.fluent.models
+        - com.azure.resourcemanager.synapse.models
+  - name: System Center Virtual Machine Manager
+    href: ~/docs-ref-services/latest/system-center-virtual-machine-manager.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - System Center Virtual Machine Manager
+        href: ~/docs-ref-services/latest/resourcemanager-scvmm-readme.md
+        children:
+        - com.azure.resourcemanager.scvmm
+        - com.azure.resourcemanager.scvmm.fluent
+        - com.azure.resourcemanager.scvmm.fluent.models
+        - com.azure.resourcemanager.scvmm.models
+  - name: Tables
+    href: ~/docs-ref-services/latest/tables.md
+    landingPageType: Service
+    items:
+    - name: Tables
+      href: ~/docs-ref-services/latest/data-tables-readme.md
+      children:
+      - com.azure.data.tables
+      - com.azure.data.tables.models
+      - com.azure.data.tables.sas
   - name: Traffic Manager
-    uid: azure.java.sdk.landingpage.services.trafficmanager
-    href: ~/docs-ref-services/latest/resourcemanager-trafficmanager-readme.md
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.trafficmanager.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.trafficmanager*
-  - name: Virtual Machines
-    uid: azure.java.sdk.landingpage.services.virtualmachines
-    href: ~/docs-ref-services/latest/resourcemanager-compute-readme.md
-    items:
-    - name: Resource Management
-      uid: azure.java.sdk.landingpage.services.virtualmachines.ResourceManagement
-      landingPageType: Service
-      children:
-      - com.azure.resourcemanager.compute*
-  - name: Other
-    uid: azure.java.sdk.landingPage.services.other
+    href: ~/docs-ref-services/latest/traffic-manager.md
     landingPageType: Service
-    children:
-    - '*'
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Traffic Manager
+        href: ~/docs-ref-services/latest/resourcemanager-trafficmanager-readme.md
+        children:
+        - com.azure.resourcemanager.trafficmanager
+        - com.azure.resourcemanager.trafficmanager.fluent
+        - com.azure.resourcemanager.trafficmanager.fluent.models
+        - com.azure.resourcemanager.trafficmanager.models
+  - name: Visual Search
+    href: ~/docs-ref-services/latest/visual-search.md
+    landingPageType: Service
+    items:
+    - name: Visual Search (deprecated)
+      children:
+      - com.microsoft.azure.cognitiveservices.search.visualsearch
+      - com.microsoft.azure.cognitiveservices.search.visualsearch.implementation
+      - com.microsoft.azure.cognitiveservices.search.visualsearch.models
+      landingPageType: Service
+  - name: Web PubSub
+    href: ~/docs-ref-services/latest/web-pubsub.md
+    landingPageType: Service
+    items:
+    - name: Web PubSub
+      href: ~/docs-ref-services/latest/messaging-webpubsub-readme.md
+      children:
+      - com.azure.messaging.webpubsub
+      - com.azure.messaging.webpubsub.models
+    - name: Web PubSub Client
+      href: ~/docs-ref-services/latest/messaging-webpubsub-client-readme.md
+      children:
+      - com.azure.messaging.webpubsub.client
+      - com.azure.messaging.webpubsub.client.models
+    - name: Management
+      items:
+      - name: Resource Management - Web PubSub
+        href: ~/docs-ref-services/latest/resourcemanager-webpubsub-readme.md
+        children:
+        - com.azure.resourcemanager.webpubsub
+        - com.azure.resourcemanager.webpubsub.fluent
+        - com.azure.resourcemanager.webpubsub.fluent.models
+        - com.azure.resourcemanager.webpubsub.models
+  - name: Workloads
+    href: ~/docs-ref-services/latest/workloads.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Workloads
+        href: ~/docs-ref-services/latest/resourcemanager-workloads-readme.md
+        children:
+        - com.azure.resourcemanager.workloads
+        - com.azure.resourcemanager.workloads.fluent
+        - com.azure.resourcemanager.workloads.fluent.models
+        - com.azure.resourcemanager.workloads.models
+      - name: Resource Management - Workloads SAP Virtual Instance
+        href: ~/docs-ref-services/latest/resourcemanager-workloadssapvirtualinstance-readme.md
+        children:
+        - com.azure.resourcemanager.workloadssapvirtualinstance
+        - com.azure.resourcemanager.workloadssapvirtualinstance.fluent
+        - com.azure.resourcemanager.workloadssapvirtualinstance.fluent.models
+        - com.azure.resourcemanager.workloadssapvirtualinstance.models
+  - name: Other
+    landingPageType: Service
+    items:
+    - name: azure
+      landingPageType: Service
+      items:
+      - name: core
+        landingPageType: Service
+        items:
+        - name: http
+          landingPageType: Service
+          items:
+          - name: jdk
+            landingPageType: Service
+            items:
+            - name: httpclient
+              href: ~/docs-ref-services/latest/core-http-jdk-httpclient-readme.md
+              children:
+              - com.azure.core.http.jdk.httpclient
+          - name: vertx
+            href: ~/docs-ref-services/latest/core-http-vertx-readme.md
+            children:
+            - com.azure.core.http.vertx
+      - name: json
+        href: ~/docs-ref-services/latest/json-readme.md
+        children:
+        - com.azure.json
+        - com.azure.json.models
+      - name: xml
+        href: ~/docs-ref-services/latest/xml-readme.md
+        children:
+        - com.azure.xml
+    - name: Core
+      landingPageType: Service
+      items:
+      - name: Client
+        landingPageType: Service
+        items:
+        - name: AMQP
+          href: ~/docs-ref-services/latest/core-amqp-readme.md
+          children:
+          - com.azure.core.amqp
+          - com.azure.core.amqp.client.traits
+          - com.azure.core.amqp.exception
+          - com.azure.core.amqp.models
+        - name: Core
+          href: ~/docs-ref-services/latest/core-readme.md
+          children:
+          - com.azure.core.annotation
+          - com.azure.core.client.traits
+          - com.azure.core.credential
+          - com.azure.core.cryptography
+          - com.azure.core.exception
+          - com.azure.core.http
+          - com.azure.core.http.policy
+          - com.azure.core.http.rest
+          - com.azure.core.models
+          - com.azure.core.util
+          - com.azure.core.util.builder
+          - com.azure.core.util.io
+          - com.azure.core.util.logging
+          - com.azure.core.util.metrics
+          - com.azure.core.util.paging
+          - com.azure.core.util.polling
+          - com.azure.core.util.serializer
+          - com.azure.core.util.tracing
+        - name: Core Serializer GSON JSON
+          href: ~/docs-ref-services/latest/core-serializer-json-gson-readme.md
+          children:
+          - com.azure.core.serializer.json.gson
+          - com.azure.core.serializer.json.gson.models
+        - name: Core Serializer Jackson JSON
+          href: ~/docs-ref-services/latest/core-serializer-json-jackson-readme.md
+          children:
+          - com.azure.core.serializer.json.jackson
+          - com.azure.core.serializer.json.jackson.models
+        - name: HTTP Netty
+          href: ~/docs-ref-services/latest/core-http-netty-readme.md
+          children:
+          - com.azure.core.http.netty
+        - name: HTTP OkHttp
+          href: ~/docs-ref-services/latest/core-http-okhttp-readme.md
+          children:
+          - com.azure.core.http.okhttp
+        - name: Test
+          href: ~/docs-ref-services/latest/core-test-readme.md
+          children:
+          - com.azure.core.test
+          - com.azure.core.test
+      - name: Management
+        landingPageType: Service
+        items:
+        - name: Core
+          href: ~/docs-ref-services/latest/core-management-readme.md
+          children:
+          - com.azure.core.management
+          - com.azure.core.management.exception
+          - com.azure.core.management.http.policy
+          - com.azure.core.management.polling
+          - com.azure.core.management.profile
+          - com.azure.core.management.provider
+          - com.azure.core.management.serializer
+    - name: Resource Management
+      href: ~/docs-ref-services/latest/resourcemanager-readme.md
+      children:
+      - com.azure.resourcemanager
+    - name: Uncategorized Packages
+      landingPageType: Service
+      children:
+      - '**'

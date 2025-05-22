@@ -4,13 +4,15 @@ fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayRedirectCo
 name: "ApplicationGatewayRedirectConfiguration.DefinitionStages.WithAttachAndPath<ReturnT>"
 nameWithType: "ApplicationGatewayRedirectConfiguration.DefinitionStages.WithAttachAndPath<ReturnT>"
 summary: "The stage of an application gateway redirect configuration allowing to specify whether the query string should be included in the redirected URL or other optional settings."
-syntax: "public static interface ApplicationGatewayRedirectConfiguration.DefinitionStages.WithAttachAndPath<ReturnT> extends ApplicationGatewayRedirectConfiguration.DefinitionStages.WithAttach<ReturnT>, ApplicationGatewayRedirectConfiguration.DefinitionStages.WithPathIncluded<ReturnT>"
+syntax: "public static interface **ApplicationGatewayRedirectConfiguration.DefinitionStages.WithAttachAndPath<ReturnT>**</br> extends <xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.DefinitionStages.WithAttach?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.DefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ReturnT?alt=ReturnT&text=ReturnT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.DefinitionStages.WithPathIncluded?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.DefinitionStages.WithPathIncluded&text=WithPathIncluded\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ReturnT?alt=ReturnT&text=ReturnT\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 typeParameters:
-- name: "ReturnT"
+- description: "the stage of the parent application gateway definition to return to after attaching this\n     definition"
+  name: "ReturnT"
+desc: "The stage of an application gateway redirect configuration allowing to specify whether the query string should be included in the redirected URL or other optional settings."
 implements:
 - "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.DefinitionStages.WithAttach?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.DefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ReturnT?alt=ReturnT&text=ReturnT\" data-throw-if-not-resolved=\"False\" />&gt;"
 - "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.DefinitionStages.WithPathIncluded?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration.DefinitionStages.WithPathIncluded&text=WithPathIncluded\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ReturnT?alt=ReturnT&text=ReturnT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.50.0

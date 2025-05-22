@@ -1,0 +1,9 @@
+^docs-ref-autogen/
+^docs-ref-mapping/
+^docs-ref-services/
+^metadata/
+^preview/
+^legacy/
+^package.json$
+^docsms-allowlist/
+docfx.json

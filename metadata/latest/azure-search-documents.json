@@ -1,0 +1,40 @@
+{
+  "Name": "azure-search-documents",
+  "Version": "11.7.6",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/search/azure-search-documents",
+  "ServiceDirectory": "search",
+  "ReadMePath": "sdk/search/azure-search-documents/README.md",
+  "ChangeLogPath": "sdk/search/azure-search-documents/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-search-documents",
+  "ReleaseStatus": "2025-03-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-search-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "name": "azure-search-documents",
+    "groupId": "com.azure",
+    "triggeringPaths": [
+      "/sdk/search/ci.yml"
+    ],
+    "safeName": "azuresearch"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.search.documents",
+    "com.azure.search.documents.indexes",
+    "com.azure.search.documents.indexes.models",
+    "com.azure.search.documents.models",
+    "com.azure.search.documents.options",
+    "com.azure.search.documents.util"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

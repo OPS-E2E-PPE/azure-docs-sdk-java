@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: MetricAlert.DefinitionStages
-syntax: public interface DefinitionStages
-type: interface
-uid: com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages
-fullName: com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages
-name: MetricAlert.DefinitionStages
-package: com.microsoft.azure.management.monitor
-summary: <p>Grouping of metric alerts definition stages. </p>
+uid: "com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages"
+fullName: "com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages"
+name: "MetricAlert.DefinitionStages"
+nameWithType: "MetricAlert.DefinitionStages"
+summary: "Grouping of metric alerts definition stages."
+syntax: "public static interface **MetricAlert.DefinitionStages**"
+type: "interface"
+desc: "Grouping of metric alerts definition stages."
 metadata: {}
+package: "com.microsoft.azure.management.monitor"
+artifact: com.microsoft.azure:azure-mgmt-monitor:1.41.4

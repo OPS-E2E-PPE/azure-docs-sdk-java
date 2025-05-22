@@ -2,7 +2,7 @@
 uid: "com.azure.storage.blob"
 fullName: "com.azure.storage.blob"
 name: "com.azure.storage.blob"
-summary: "Package containing the classes for BlobServiceClient."
+summary: "Package containing the classes for Blob<wbr>Service<wbr>Client."
 classes:
 - "com.azure.storage.blob.BlobAsyncClient"
 - "com.azure.storage.blob.BlobClient"
@@ -20,6 +20,7 @@ enums:
 - "com.azure.storage.blob.BlobServiceVersion"
 interfaces:
 - "com.azure.storage.blob.ProgressReceiver"
+desc: "Package containing the classes for BlobServiceClient."
 metadata: {}
 package: "com.azure.storage.blob"
-artifact: com.azure:azure-storage-blob:12.11.0-beta.2
+artifact: com.azure:azure-storage-blob:12.31.0-beta.1

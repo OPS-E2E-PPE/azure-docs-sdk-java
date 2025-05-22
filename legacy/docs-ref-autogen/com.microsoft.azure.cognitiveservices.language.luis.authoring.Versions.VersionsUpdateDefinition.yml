@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithAppId.withAppId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithAllOptions.withVersion(String)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithVersionId.withVersionId(String)
-nameWithType: Versions.VersionsUpdateDefinition
-syntax: public interface VersionsUpdateDefinition extends Versions.VersionsUpdateDefinitionStages.WithAppId,Versions.VersionsUpdateDefinitionStages.WithVersionId,Versions.VersionsUpdateDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinition
-name: Versions.VersionsUpdateDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of update definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinition"
+name: "Versions.VersionsUpdateDefinition"
+nameWithType: "Versions.VersionsUpdateDefinition"
+summary: "The entirety of update definition."
+syntax: "public static interface **Versions.VersionsUpdateDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of update definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsUpdateDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile"
+fullName: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile"
+name: "ImageMappingRuleProfile"
+nameWithType: "ImageMappingRuleProfile"
+summary: "Image mapping rule profile."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ImageMappingRuleProfile**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile?alt=com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile&text=ImageMappingRuleProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.ImageMappingRuleProfile()"
+  fullName: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.ImageMappingRuleProfile()"
+  name: "ImageMappingRuleProfile()"
+  nameWithType: "ImageMappingRuleProfile.ImageMappingRuleProfile()"
+  summary: "Creates an instance of Image<wbr>Mapping<wbr>Rule<wbr>Profile class."
+  syntax: "public ImageMappingRuleProfile()"
+  desc: "Creates an instance of ImageMappingRuleProfile class."
+methods:
+- uid: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ImageMappingRuleProfile.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Image<wbr>Mapping<wbr>Rule<wbr>Profile from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ImageMappingRuleProfile fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ImageMappingRuleProfile."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ImageMappingRuleProfile from the JsonReader."
+  returns:
+    description: "An instance of ImageMappingRuleProfile if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile?alt=com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile&text=ImageMappingRuleProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ImageMappingRuleProfile.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.userConfiguration()"
+  fullName: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.userConfiguration()"
+  name: "userConfiguration()"
+  nameWithType: "ImageMappingRuleProfile.userConfiguration()"
+  summary: "Get the user<wbr>Configuration property: List of values."
+  syntax: "public String userConfiguration()"
+  desc: "Get the userConfiguration property: List of values."
+  returns:
+    description: "the userConfiguration value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.validate()"
+  fullName: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.validate()"
+  name: "validate()"
+  nameWithType: "ImageMappingRuleProfile.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.withUserConfiguration(java.lang.String)"
+  fullName: "com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile.withUserConfiguration(String userConfiguration)"
+  name: "withUserConfiguration(String userConfiguration)"
+  nameWithType: "ImageMappingRuleProfile.withUserConfiguration(String userConfiguration)"
+  summary: "Set the user<wbr>Configuration property: List of values."
+  parameters:
+  - description: "the userConfiguration value to set."
+    name: "userConfiguration"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ImageMappingRuleProfile withUserConfiguration(String userConfiguration)"
+  desc: "Set the userConfiguration property: List of values."
+  returns:
+    description: "the ImageMappingRuleProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile?alt=com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile&text=ImageMappingRuleProfile\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Image mapping rule profile."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile?alt=com.azure.resourcemanager.hybridnetwork.models.ImageMappingRuleProfile&text=ImageMappingRuleProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.hybridnetwork.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-hybridnetwork:1.1.0

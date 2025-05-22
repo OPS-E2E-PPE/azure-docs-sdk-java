@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue"
+fullName: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue"
+name: "ContactSearchResultValue"
+nameWithType: "ContactSearchResultValue"
+summary: "The contact in the search and suggest result."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ContactSearchResultValue**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.purview.datamap.models.ContactSearchResultValue?alt=com.azure.analytics.purview.datamap.models.ContactSearchResultValue&text=ContactSearchResultValue\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ContactSearchResultValue.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Contact<wbr>Search<wbr>Result<wbr>Value from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ContactSearchResultValue fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ContactSearchResultValue."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ContactSearchResultValue from the JsonReader."
+  returns:
+    description: "An instance of ContactSearchResultValue if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.analytics.purview.datamap.models.ContactSearchResultValue?alt=com.azure.analytics.purview.datamap.models.ContactSearchResultValue&text=ContactSearchResultValue\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.getContactType()"
+  fullName: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.getContactType()"
+  name: "getContactType()"
+  nameWithType: "ContactSearchResultValue.getContactType()"
+  summary: "Get the contact<wbr>Type property: The type of the contact."
+  syntax: "public String getContactType()"
+  desc: "Get the contactType property: The type of the contact. It can be Expert or Owner for an entity. It can be Expert or Steward for a glossary term."
+  returns:
+    description: "the contactType value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.getId()"
+  fullName: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.getId()"
+  name: "getId()"
+  nameWithType: "ContactSearchResultValue.getId()"
+  summary: "Get the id property: The GUID of the contact."
+  syntax: "public String getId()"
+  desc: "Get the id property: The GUID of the contact."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.getInfo()"
+  fullName: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.getInfo()"
+  name: "getInfo()"
+  nameWithType: "ContactSearchResultValue.getInfo()"
+  summary: "Get the info property: The description of the contact."
+  syntax: "public String getInfo()"
+  desc: "Get the info property: The description of the contact."
+  returns:
+    description: "the info value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.analytics.purview.datamap.models.ContactSearchResultValue.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ContactSearchResultValue.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The contact in the search and suggest result."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.purview.datamap.models.ContactSearchResultValue?alt=com.azure.analytics.purview.datamap.models.ContactSearchResultValue&text=ContactSearchResultValue\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.analytics.purview.datamap.models"
+artifact: com.azure:azure-analytics-purview-datamap:1.0.0-beta.2

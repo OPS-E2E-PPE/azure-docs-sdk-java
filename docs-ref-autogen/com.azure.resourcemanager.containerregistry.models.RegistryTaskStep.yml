@@ -3,12 +3,35 @@ uid: "com.azure.resourcemanager.containerregistry.models.RegistryTaskStep"
 fullName: "com.azure.resourcemanager.containerregistry.models.RegistryTaskStep"
 name: "RegistryTaskStep"
 nameWithType: "RegistryTaskStep"
-summary: "An immutable client-side representation of an Azure RegistryTaskStep registry task."
-syntax: "public interface RegistryTaskStep"
+summary: "An immutable client-side representation of an Azure Registry<wbr>Task<wbr>Step registry task."
+syntax: "public interface **RegistryTaskStep**"
 methods:
-- "com.azure.resourcemanager.containerregistry.models.RegistryTaskStep.baseImageDependencies()"
-- "com.azure.resourcemanager.containerregistry.models.RegistryTaskStep.contextPath()"
+- uid: "com.azure.resourcemanager.containerregistry.models.RegistryTaskStep.baseImageDependencies()"
+  fullName: "com.azure.resourcemanager.containerregistry.models.RegistryTaskStep.baseImageDependencies()"
+  name: "baseImageDependencies()"
+  nameWithType: "RegistryTaskStep.baseImageDependencies()"
+  summary: "Gets the base image dependencies."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<BaseImageDependency> baseImageDependencies()"
+  desc: "Gets the base image dependencies."
+  returns:
+    description: "the base image dependencies of this RegistryTaskStep"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.containerregistry.models.BaseImageDependency?alt=com.azure.resourcemanager.containerregistry.models.BaseImageDependency&text=BaseImageDependency\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.containerregistry.models.RegistryTaskStep.contextPath()"
+  fullName: "com.azure.resourcemanager.containerregistry.models.RegistryTaskStep.contextPath()"
+  name: "contextPath()"
+  nameWithType: "RegistryTaskStep.contextPath()"
+  summary: "Gets the context path."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String contextPath()"
+  desc: "Gets the context path."
+  returns:
+    description: "the context path of this RegistryTaskStep"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
+desc: "An immutable client-side representation of an Azure RegistryTaskStep registry task."
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.50.0

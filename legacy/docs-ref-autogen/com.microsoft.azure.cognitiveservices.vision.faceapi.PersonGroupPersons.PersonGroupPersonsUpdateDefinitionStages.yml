@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages
-syntax: public interface PersonGroupPersonsUpdateDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages
-name: PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages
-package: com.microsoft.azure.cognitiveservices.vision.faceapi
-summary: <p>Grouping of update definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages"
+name: "PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages"
+nameWithType: "PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages"
+summary: "Grouping of update definition stages."
+syntax: "public static interface **PersonGroupPersons.PersonGroupPersonsUpdateDefinitionStages**"
+type: "interface"
+desc: "Grouping of update definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.faceapi"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-faceapi:1.0.2-beta

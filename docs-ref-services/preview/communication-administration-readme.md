@@ -1,17 +1,12 @@
 ---
 title: Azure Communication Administration client library for Java
 keywords: Azure, java, SDK, API, azure-communication-administration, communication
-author: maggiepint
-ms.author: magpint
 ms.date: 11/17/2020
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.topic: reference
 ms.devlang: java
 ms.service: communication
 ---
-
-# Azure Communication Administration client library for Java - Version 1.0.0-beta.3 
+# Azure Communication Administration client library for Java - version 1.0.0-beta.3 
 
 
 The administration package is used for managing users and tokens for Azure Communication Services. This package also provides capabilities for Phone Number Administration.
@@ -353,5 +348,5 @@ Check out other client libraries for Azure communication service
 
 
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-java%2Fsdk%2Fcommunication%2Fazure-communication-administration%2FREADME.png)
+
 

@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ImageModerations.ImageModerationsMatchFileInputDefinitionStages
-syntax: public interface ImageModerationsMatchFileInputDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchFileInputDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchFileInputDefinitionStages
-name: ImageModerations.ImageModerationsMatchFileInputDefinitionStages
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>Grouping of matchFileInput definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchFileInputDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchFileInputDefinitionStages"
+name: "ImageModerations.ImageModerationsMatchFileInputDefinitionStages"
+nameWithType: "ImageModerations.ImageModerationsMatchFileInputDefinitionStages"
+summary: "Grouping of match<wbr>File<wbr>Input definition stages."
+syntax: "public static interface **ImageModerations.ImageModerationsMatchFileInputDefinitionStages**"
+type: "interface"
+desc: "Grouping of matchFileInput definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

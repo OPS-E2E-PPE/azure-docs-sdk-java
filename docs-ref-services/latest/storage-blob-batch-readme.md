@@ -1,17 +1,12 @@
 ---
 title: Azure Storage Blobs Batch client library for Java
 keywords: Azure, java, SDK, API, azure-storage-blob-batch, storage
-author: maggiepint
-ms.author: magpint
-ms.date: 11/11/2020
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.date: 03/04/2025
+ms.topic: reference
 ms.devlang: java
 ms.service: storage
 ---
-
-# Azure Storage Blobs Batch client library for Java - Version 12.7.0 
+# Azure Storage Blobs Batch client library for Java - version 12.25.1 
 
 
 Azure Blob storage is Microsoft's object storage solution for the cloud. Blob
@@ -26,17 +21,51 @@ definition, such as text or binary data.
 ### Prerequisites
 
 - [Java Development Kit (JDK)][jdk] with version 8 or above
+  - Here are details about [Java 8 client compatibility with Azure Certificate Authority](https://learn.microsoft.com/azure/security/fundamentals/azure-ca-details?tabs=root-and-subordinate-cas-list#client-compatibility-for-public-pkis).
 - [Azure Subscription][azure_subscription]
 - [Create Storage Account][storage_account]
 
 ### Include the package
+
+#### Include the BOM file
+
+Please include the azure-sdk-bom to your project to take dependency on GA version of the library. In the following snippet, replace the {bom_version_to_target} placeholder with the version number.
+To learn more about the BOM, see the [AZURE SDK BOM README](https://github.com/Azure/azure-sdk-for-java/blob/azure-storage-blob-batch_12.25.1/sdk/boms/azure-sdk-bom/README.md).
+
+```xml
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-sdk-bom</artifactId>
+            <version>{bom_version_to_target}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+```
+and then include the direct dependency in the dependencies section without the version tag.
+
+```xml
+<dependencies>
+  <dependency>
+    <groupId>com.azure</groupId>
+    <artifactId>azure-storage-blob-batch</artifactId>
+  </dependency>
+</dependencies>
+```
+
+#### Include direct dependency
+If you want to take dependency on a particular version of the library that is not present in the BOM,
+add the direct dependency to your project as follows.
 
 [//]: # ({x-version-update-start;com.azure:azure-storage-blob-batch;current})
 ```xml
 <dependency>
   <groupId>com.azure</groupId>
   <artifactId>azure-storage-blob-batch</artifactId>
-  <version>12.7.0</version>
+  <version>12.25.1</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -75,15 +104,13 @@ The following sections provide several code snippets covering some of the most c
 
 Create a BlobBatchClient from a [BlobServiceClient][blob_service_client].
 
-<!-- embedme ./src/samples/java/com/azure/storage/blob/batch/ReadmeSamples.java#L42-L42 -->
-```java
+```java readme-sample-creatingBlobBatchClient
 BlobBatchClient blobBatchClient = new BlobBatchClientBuilder(blobServiceClient).buildClient();
 ```
 
 ### Bulk Deleting Blobs
 
-<!-- embedme ./src/samples/java/com/azure/storage/blob/batch/ReadmeSamples.java#L46-L48 -->
-```java
+```java readme-sample-bulkDeletingBlobs
 blobBatchClient.deleteBlobs(blobUrls, DeleteSnapshotsOptionType.INCLUDE).forEach(response ->
     System.out.printf("Deleting blob with URL %s completed with status code %d%n",
         response.getRequest().getUrl(), response.getStatusCode()));
@@ -91,8 +118,7 @@ blobBatchClient.deleteBlobs(blobUrls, DeleteSnapshotsOptionType.INCLUDE).forEach
 
 ### Bulk Setting AccessTier
 
-<!-- embedme ./src/samples/java/com/azure/storage/blob/batch/ReadmeSamples.java#L52-L54 -->
-```java
+```java readme-sample-bulkSettingAccessTier
 blobBatchClient.setBlobsAccessTier(blobUrls, AccessTier.HOT).forEach(response ->
     System.out.printf("Setting blob access tier with URL %s completed with status code %d%n",
         response.getRequest().getUrl(), response.getStatusCode()));
@@ -102,8 +128,7 @@ blobBatchClient.setBlobsAccessTier(blobUrls, AccessTier.HOT).forEach(response ->
 
 Deleting blobs in a batch that have different pre-requisites.
 
-<!-- embedme ./src/samples/java/com/azure/storage/blob/batch/ReadmeSamples.java#L58-L77 -->
-```java
+```java readme-sample-advancedBatchingDelete
 BlobBatch blobBatch = blobBatchClient.getBlobBatch();
 
 // Delete a blob.
@@ -128,8 +153,7 @@ System.out.printf("Deleting blob with lease completed with status code %d%n",
 
 Setting `AccessTier` on blobs in batch that have different pre-requisites.
 
-<!-- embedme ./src/samples/java/com/azure/storage/blob/batch/ReadmeSamples.java#L81-L97 -->
-```java
+```java readme-sample-advancedBatchingSetTier
 BlobBatch blobBatch = blobBatchClient.getBlobBatch();
 
 // Set AccessTier on a blob.
@@ -158,7 +182,7 @@ doesn't exist in your Storage Account, a `404` error is returned, indicating `No
 ### Default HTTP Client
 All client libraries by default use the Netty HTTP client. Adding the above dependency will automatically configure
 the client library to use the Netty HTTP client. Configuring or changing the HTTP client is detailed in the
-[HTTP clients wiki](https://github.com/Azure/azure-sdk-for-java/wiki/HTTP-clients).
+[HTTP clients wiki](https://learn.microsoft.com/azure/developer/java/sdk/http-client-pipeline#http-clients).
 
 ### Default SSL library
 All client libraries, by default, use the Tomcat-native Boring SSL library to enable native-level performance for SSL
@@ -179,19 +203,19 @@ When you submit a pull request, a CLA-bot will automatically determine whether y
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.
 
 <!-- LINKS -->
-[source]: https://github.com/Azure/azure-sdk-for-java/blob/azure-storage-blob-batch_12.7.0/sdk/storage/azure-storage-blob-batch/src/main/java
+[source]: https://github.com/Azure/azure-sdk-for-java/blob/azure-storage-blob-batch_12.25.1/sdk/storage/azure-storage-blob-batch/src/main/java
 [docs]: https://azure.github.io/azure-sdk-for-java/
-[rest_docs]: https://docs.microsoft.com/rest/api/storageservices/blob-service-rest-api
-[product_docs]: https://docs.microsoft.com/azure/storage/blobs/storage-blobs-overview
-[samples]: https://github.com/Azure/azure-sdk-for-java/blob/azure-storage-blob-batch_12.7.0/sdk/storage/azure-storage-blob-batch/src/samples
-[jdk]: https://docs.microsoft.com/java/azure/jdk/?view=azure-java-stable
+[rest_docs]: /rest/api/storageservices/blob-service-rest-api
+[product_docs]: /azure/storage/blobs/storage-blobs-overview
+[samples]: https://github.com/Azure/azure-sdk-for-java/blob/azure-storage-blob-batch_12.25.1/sdk/storage/azure-storage-blob-batch/src/samples
+[jdk]: /java/azure/jdk/?view=azure-java-stable
 [azure_subscription]: https://azure.microsoft.com/free/
-[storage_account]: https://docs.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal
-[azure_portal]: https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal
-[storage_account_create_cli]: https://docs.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=azure-cli
-[blob_service_client]: https://github.com/Azure/azure-sdk-for-java/tree/azure-storage-blob-batch_12.7.0/sdk/storage/azure-storage-blob#create-a-storage-account
-[error_codes]: https://docs.microsoft.com/rest/api/storageservices/blob-service-error-codes
-[blob_samples]: https://github.com/Azure/azure-sdk-for-java/blob/azure-storage-blob-batch_12.7.0/sdk/storage/azure-storage-blob-batch/src/samples/README.md
+[storage_account]: /azure/storage/common/storage-quickstart-create-account?tabs=azure-portal
+[azure_portal]: /azure/storage/common/storage-account-create?tabs=azure-portal
+[storage_account_create_cli]: /azure/storage/common/storage-quickstart-create-account?tabs=azure-cli
+[blob_service_client]: https://github.com/Azure/azure-sdk-for-java/tree/azure-storage-blob-batch_12.25.1/sdk/storage/azure-storage-blob#create-a-storage-account
+[error_codes]: /rest/api/storageservices/blob-service-error-codes
+[blob_samples]: https://github.com/Azure/azure-sdk-for-java/blob/azure-storage-blob-batch_12.25.1/sdk/storage/azure-storage-blob-batch/src/samples/README.md
 [cla]: https://cla.microsoft.com
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/

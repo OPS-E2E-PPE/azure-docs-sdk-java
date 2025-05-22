@@ -1,0 +1,29 @@
+{
+  "Name": "azure-resourcemanager-astro",
+  "Version": "1.0.0-beta.2",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/astro/azure-resourcemanager-astro",
+  "ServiceDirectory": "astro",
+  "ReadMePath": "sdk/astro/azure-resourcemanager-astro/README.md",
+  "ChangeLogPath": "sdk/astro/azure-resourcemanager-astro/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-astro",
+  "ReleaseStatus": "2024-12-03",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-astro",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerastro",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerastro }}"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.astro",
+    "com.azure.resourcemanager.astro.fluent",
+    "com.azure.resourcemanager.astro.fluent.models",
+    "com.azure.resourcemanager.astro.models"
+  ]
+}

@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.monitor.models.AutoscaleSetting.DefinitionS
 name: "AutoscaleSetting.DefinitionStages"
 nameWithType: "AutoscaleSetting.DefinitionStages"
 summary: "Grouping of autoscale setting definition stages."
-syntax: "public static interface AutoscaleSetting.DefinitionStages"
+syntax: "public static interface **AutoscaleSetting.DefinitionStages**"
 type: "interface"
+desc: "Grouping of autoscale setting definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.monitor.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.50.0

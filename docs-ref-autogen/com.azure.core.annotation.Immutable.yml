@@ -3,11 +3,12 @@ uid: "com.azure.core.annotation.Immutable"
 fullName: "com.azure.core.annotation.Immutable"
 name: "Immutable"
 nameWithType: "Immutable"
-summary: "Annotation given to all immutable classes. If a class has this annotation, checks can be made to ensure all fields in this class are final."
-syntax: "public interface Immutable implements Annotation"
+summary: "Annotation given to all immutable classes."
+syntax: "public interface **Immutable**</br> implements <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/annotation/Annotation.html\">Annotation</a>"
 type: "interface"
+desc: "Annotation given to all immutable classes. If a class has this annotation, checks can be made to ensure all fields in this class are final."
 implements:
-- "<xref href=\"java.lang.annotation.Annotation?alt=java.lang.annotation.Annotation&text=Annotation\" data-throw-if-not-resolved=\"False\" />"
+- "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/annotation/Annotation.html\">Annotation</a>"
 metadata: {}
 package: "com.azure.core.annotation"
-artifact: com.azure:azure-core:1.15.0
+artifact: com.azure:azure-core:1.55.3

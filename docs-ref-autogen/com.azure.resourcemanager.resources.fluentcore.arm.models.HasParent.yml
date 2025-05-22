@@ -4,12 +4,25 @@ fullName: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent<P
 name: "HasParent<ParentT>"
 nameWithType: "HasParent<ParentT>"
 summary: "An interface representing a child that has an immediately available parent."
-syntax: "public interface HasParent<ParentT>"
+syntax: "public interface **HasParent<ParentT>**"
 methods:
-- "com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent.parent()"
+- uid: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent.parent()"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent<ParentT>.parent()"
+  name: "parent()"
+  nameWithType: "HasParent<ParentT>.parent()"
+  summary: "Gets the parent of this child object."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ParentT parent()"
+  desc: "Gets the parent of this child object."
+  returns:
+    description: "the parent of this child object"
+    type: "<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
-- name: "ParentT"
+- description: "the parent type"
+  name: "ParentT"
+desc: "An interface representing a child that has an immediately available parent."
 metadata: {}
 package: "com.azure.resourcemanager.resources.fluentcore.arm.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.50.0

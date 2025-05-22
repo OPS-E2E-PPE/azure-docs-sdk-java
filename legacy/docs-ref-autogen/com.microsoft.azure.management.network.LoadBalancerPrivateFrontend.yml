@@ -1,26 +1,37 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.network.LoadBalancerFrontend.inboundNatPools()
-- com.microsoft.azure.management.network.LoadBalancerFrontend.inboundNatRules()
-- com.microsoft.azure.management.resources.fluentcore.model.HasInner.inner()
-- com.microsoft.azure.management.network.LoadBalancerFrontend.isPublic()
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.network.model.HasLoadBalancingRules.loadBalancingRules()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.networkId()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasParent.parent()
-- com.microsoft.azure.management.network.model.HasPrivateIPAddress.privateIPAddress()
-- com.microsoft.azure.management.network.model.HasPrivateIPAddress.privateIPAllocationMethod()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet.subnetName()
+uid: "com.microsoft.azure.management.network.LoadBalancerPrivateFrontend"
+fullName: "com.microsoft.azure.management.network.LoadBalancerPrivateFrontend"
+name: "LoadBalancerPrivateFrontend"
+nameWithType: "LoadBalancerPrivateFrontend"
+summary: "A client-side representation of a private frontend of an internal load balancer."
+syntax: "public interface **LoadBalancerPrivateFrontend**</br> extends <xref href=\"com.microsoft.azure.management.network.LoadBalancerFrontend?alt=com.microsoft.azure.management.network.LoadBalancerFrontend&text=LoadBalancerFrontend\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.model.HasPrivateIPAddress?alt=com.microsoft.azure.management.network.model.HasPrivateIPAddress&text=HasPrivateIPAddress\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet?alt=com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet&text=HasSubnet\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.availabilityZones()
-- com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.getSubnet()
-nameWithType: LoadBalancerPrivateFrontend
-syntax: public interface LoadBalancerPrivateFrontend extends LoadBalancerFrontend,HasPrivateIPAddress,HasSubnet
-type: interface
-uid: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend
-fullName: com.microsoft.azure.management.network.LoadBalancerPrivateFrontend
-name: LoadBalancerPrivateFrontend
-package: com.microsoft.azure.management.network
-summary: <p>A client-side representation of a private frontend of an internal load balancer. </p>
+- uid: "com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.availabilityZones()"
+  fullName: "com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.availabilityZones()"
+  name: "availabilityZones()"
+  nameWithType: "LoadBalancerPrivateFrontend.availabilityZones()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Set<AvailabilityZoneId> availabilityZones()"
+  returns:
+    description: "the availability zones assigned to private frontend."
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.AvailabilityZoneId?alt=com.microsoft.azure.management.resources.fluentcore.arm.AvailabilityZoneId&text=AvailabilityZoneId\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.getSubnet()"
+  fullName: "com.microsoft.azure.management.network.LoadBalancerPrivateFrontend.getSubnet()"
+  name: "getSubnet()"
+  nameWithType: "LoadBalancerPrivateFrontend.getSubnet()"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Subnet getSubnet()"
+  returns:
+    description: "associated subnet\n <p>\n Note this makes a separate call to Azure."
+    type: "<xref href=\"com.microsoft.azure.management.network.Subnet?alt=com.microsoft.azure.management.network.Subnet&text=Subnet\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "A client-side representation of a private frontend of an internal load balancer."
+implements:
+- "<xref href=\"com.microsoft.azure.management.network.LoadBalancerFrontend?alt=com.microsoft.azure.management.network.LoadBalancerFrontend&text=LoadBalancerFrontend\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.model.HasPrivateIPAddress?alt=com.microsoft.azure.management.network.model.HasPrivateIPAddress&text=HasPrivateIPAddress\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet?alt=com.microsoft.azure.management.resources.fluentcore.arm.models.HasSubnet&text=HasSubnet\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

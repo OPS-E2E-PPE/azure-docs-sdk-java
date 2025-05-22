@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ImageModerations.ImageModerationsEvaluateMethodDefinitionStages
-syntax: public interface ImageModerationsEvaluateMethodDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateMethodDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateMethodDefinitionStages
-name: ImageModerations.ImageModerationsEvaluateMethodDefinitionStages
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>Grouping of evaluateMethod definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateMethodDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateMethodDefinitionStages"
+name: "ImageModerations.ImageModerationsEvaluateMethodDefinitionStages"
+nameWithType: "ImageModerations.ImageModerationsEvaluateMethodDefinitionStages"
+summary: "Grouping of evaluate<wbr>Method definition stages."
+syntax: "public static interface **ImageModerations.ImageModerationsEvaluateMethodDefinitionStages**"
+type: "interface"
+desc: "Grouping of evaluateMethod definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

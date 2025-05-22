@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ApplicationGatewayRequestRoutingRule.UpdateStages
-syntax: public interface UpdateStages
-type: interface
-uid: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages
-fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages
-name: ApplicationGatewayRequestRoutingRule.UpdateStages
-package: com.microsoft.azure.management.network
-summary: <p>Grouping of application gateway request routing rule update stages. </p>
+uid: "com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages"
+fullName: "com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateStages"
+name: "ApplicationGatewayRequestRoutingRule.UpdateStages"
+nameWithType: "ApplicationGatewayRequestRoutingRule.UpdateStages"
+summary: "Grouping of application gateway request routing rule update stages."
+syntax: "public static interface **ApplicationGatewayRequestRoutingRule.UpdateStages**"
+type: "interface"
+desc: "Grouping of application gateway request routing rule update stages."
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

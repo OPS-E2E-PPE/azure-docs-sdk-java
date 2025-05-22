@@ -1,0 +1,29 @@
+{
+  "Name": "azure-resourcemanager-providerhub",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/providerhub/azure-resourcemanager-providerhub",
+  "ServiceDirectory": "providerhub",
+  "ReadMePath": "sdk/providerhub/azure-resourcemanager-providerhub/README.md",
+  "ChangeLogPath": "sdk/providerhub/azure-resourcemanager-providerhub/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-providerhub",
+  "ReleaseStatus": "2024-12-06",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-providerhub",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerproviderhub",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerproviderhub }}"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.providerhub",
+    "com.azure.resourcemanager.providerhub.fluent",
+    "com.azure.resourcemanager.providerhub.fluent.models",
+    "com.azure.resourcemanager.providerhub.models"
+  ]
+}

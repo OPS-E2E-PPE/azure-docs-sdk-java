@@ -4,15 +4,49 @@ fullName: "com.azure.resourcemanager.network.models.Route"
 name: "Route"
 nameWithType: "Route"
 summary: "An immutable client-side representation of a route of a route table."
-syntax: "public interface Route extends HasInnerModel<RouteInner>, ChildResource<RouteTable>"
+syntax: "public interface **Route**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.RouteInner?alt=com.azure.resourcemanager.network.fluent.models.RouteInner&text=RouteInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource&text=ChildResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.RouteTable?alt=com.azure.resourcemanager.network.models.RouteTable&text=RouteTable\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
-- "com.azure.resourcemanager.network.models.Route.destinationAddressPrefix()"
-- "com.azure.resourcemanager.network.models.Route.nextHopIpAddress()"
-- "com.azure.resourcemanager.network.models.Route.nextHopType()"
+- uid: "com.azure.resourcemanager.network.models.Route.destinationAddressPrefix()"
+  fullName: "com.azure.resourcemanager.network.models.Route.destinationAddressPrefix()"
+  name: "destinationAddressPrefix()"
+  nameWithType: "Route.destinationAddressPrefix()"
+  summary: "Gets the destination address prefix."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String destinationAddressPrefix()"
+  desc: "Gets the destination address prefix."
+  returns:
+    description: "the destination address prefix, expressed using the CIDR notation, to which the route applies"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.models.Route.nextHopIpAddress()"
+  fullName: "com.azure.resourcemanager.network.models.Route.nextHopIpAddress()"
+  name: "nextHopIpAddress()"
+  nameWithType: "Route.nextHopIpAddress()"
+  summary: "Gets the IP address of the next hop."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String nextHopIpAddress()"
+  desc: "Gets the IP address of the next hop."
+  returns:
+    description: "the IP address of the next hop"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.network.models.Route.nextHopType()"
+  fullName: "com.azure.resourcemanager.network.models.Route.nextHopType()"
+  name: "nextHopType()"
+  nameWithType: "Route.nextHopType()"
+  summary: "Gets the type of the next hop."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract RouteNextHopType nextHopType()"
+  desc: "Gets the type of the next hop."
+  returns:
+    description: "the type of the next hop"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.RouteNextHopType?alt=com.azure.resourcemanager.network.models.RouteNextHopType&text=RouteNextHopType\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "An immutable client-side representation of a route of a route table."
 implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource&text=ChildResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.RouteTable?alt=com.azure.resourcemanager.network.models.RouteTable&text=RouteTable\" data-throw-if-not-resolved=\"False\" />&gt;"
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.RouteInner?alt=com.azure.resourcemanager.network.fluent.models.RouteInner&text=RouteInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.50.0

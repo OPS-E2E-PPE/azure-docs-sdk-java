@@ -1,0 +1,41 @@
+{
+  "Name": "azure-resourcemanager-eventhubs",
+  "Version": "2.50.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-eventhubs",
+  "ServiceDirectory": "resourcemanager",
+  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-eventhubs/README.md",
+  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-eventhubs/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-eventhubs",
+  "ReleaseStatus": "2025-04-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure.resourcemanager:azure-resourcemanager-samples",
+    "com.azure.resourcemanager:azure-resourcemanager-perf",
+    "com.azure.resourcemanager:azure-resourcemanager-test",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagereventhubs }}",
+    "triggeringPaths": [
+      "/sdk/resourcemanager/ci.yml"
+    ],
+    "safeName": "azureresourcemanagereventhubs",
+    "name": "azure-resourcemanager-eventhubs",
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.eventhubs",
+    "com.azure.resourcemanager.eventhubs.fluent",
+    "com.azure.resourcemanager.eventhubs.fluent.models",
+    "com.azure.resourcemanager.eventhubs.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

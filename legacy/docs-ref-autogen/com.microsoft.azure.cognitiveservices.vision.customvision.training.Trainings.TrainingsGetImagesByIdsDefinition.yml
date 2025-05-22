@@ -1,16 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithAllOptions.withImageIds(List<UUID>)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithAllOptions.withIterationId(UUID)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithProjectId.withProjectId(UUID)
-nameWithType: Trainings.TrainingsGetImagesByIdsDefinition
-syntax: public interface TrainingsGetImagesByIdsDefinition extends Trainings.TrainingsGetImagesByIdsDefinitionStages.WithProjectId,Trainings.TrainingsGetImagesByIdsDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinition
-name: Trainings.TrainingsGetImagesByIdsDefinition
-package: com.microsoft.azure.cognitiveservices.vision.customvision.training
-summary: <p>The entirety of getImagesByIds definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinition"
+name: "Trainings.TrainingsGetImagesByIdsDefinition"
+nameWithType: "Trainings.TrainingsGetImagesByIdsDefinition"
+summary: "The entirety of get<wbr>Images<wbr>ByIds definition."
+syntax: "public static interface **Trainings.TrainingsGetImagesByIdsDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of getImagesByIds definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagesByIdsDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.customvision.training"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-customvision-training:1.0.3-beta

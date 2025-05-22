@@ -1,10 +1,14 @@
 ### YamlMime:JavaType
-nameWithType: NetworkInterface.DefinitionStages.Blank
-syntax: public interface Blank
-type: interface
-uid: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.Blank
-fullName: com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.Blank
-name: NetworkInterface.DefinitionStages.Blank
-package: com.microsoft.azure.management.network
-summary: <p>The first stage of the network interface. </p>
+uid: "com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.Blank"
+fullName: "com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.Blank"
+name: "NetworkInterface.DefinitionStages.Blank"
+nameWithType: "NetworkInterface.DefinitionStages.Blank"
+summary: "The first stage of the network interface."
+syntax: "public static interface **NetworkInterface.DefinitionStages.Blank**</br> extends <xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion?alt=com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion&text=DefinitionWithRegion\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithGroup?alt=com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithGroup&text=WithGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "The first stage of the network interface."
+implements:
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion?alt=com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithRegion&text=DefinitionWithRegion\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithGroup?alt=com.microsoft.azure.management.network.NetworkInterface.DefinitionStages.WithGroup&text=WithGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

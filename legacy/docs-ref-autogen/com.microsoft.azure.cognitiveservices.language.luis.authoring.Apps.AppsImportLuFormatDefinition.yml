@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithAllOptions.withAppName(String)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithLuisAppLu.withLuisAppLu(String)
-nameWithType: Apps.AppsImportLuFormatDefinition
-syntax: public interface AppsImportLuFormatDefinition extends Apps.AppsImportLuFormatDefinitionStages.WithLuisAppLu,Apps.AppsImportLuFormatDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinition
-name: Apps.AppsImportLuFormatDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of importLuFormat definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinition"
+name: "Apps.AppsImportLuFormatDefinition"
+nameWithType: "Apps.AppsImportLuFormatDefinition"
+summary: "The entirety of import<wbr>LuFormat definition."
+syntax: "public static interface **Apps.AppsImportLuFormatDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithLuisAppLu?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithLuisAppLu&text=WithLuisAppLu\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of importLuFormat definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithLuisAppLu?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportLuFormatDefinitionStages.WithLuisAppLu&text=WithLuisAppLu\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

@@ -4,12 +4,25 @@ fullName: "com.azure.resourcemanager.resources.fluentcore.model.HasServiceClient
 name: "HasServiceClient<T>"
 nameWithType: "HasServiceClient<T>"
 summary: "The wrapper around a service client providing extended functionalities."
-syntax: "public interface HasServiceClient<T>"
+syntax: "public interface **HasServiceClient<T>**"
 methods:
-- "com.azure.resourcemanager.resources.fluentcore.model.HasServiceClient.serviceClient()"
+- uid: "com.azure.resourcemanager.resources.fluentcore.model.HasServiceClient.serviceClient()"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.model.HasServiceClient<T>.serviceClient()"
+  name: "serviceClient()"
+  nameWithType: "HasServiceClient<T>.serviceClient()"
+  summary: "Gets The wrapper around a service client."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract T serviceClient()"
+  desc: "Gets The wrapper around a service client."
+  returns:
+    description: "wrapped service client providing direct access to the underlying\n auto-generated API implementation, based on Azure REST API"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
-- name: "T"
+- description: "the type of the service client."
+  name: "T"
+desc: "The wrapper around a service client providing extended functionalities."
 metadata: {}
 package: "com.azure.resourcemanager.resources.fluentcore.model"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.50.0

@@ -1,0 +1,158 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.route.models.RouteAvoidType"
+fullName: "com.azure.maps.route.models.RouteAvoidType"
+name: "RouteAvoidType"
+nameWithType: "RouteAvoidType"
+summary: "Defines values for Route<wbr>Avoid<wbr>Type."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RouteAvoidType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.maps.route.models.RouteAvoidType.RouteAvoidType()"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.RouteAvoidType()"
+  name: "RouteAvoidType()"
+  nameWithType: "RouteAvoidType.RouteAvoidType()"
+  summary: "Creates a new instance of Route<wbr>Avoid<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.maps.route.models.RouteAvoidType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public RouteAvoidType()"
+  desc: "Creates a new instance of RouteAvoidType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.maps.route.models.RouteAvoidType.ALREADY_USED_ROADS"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.ALREADY_USED_ROADS"
+  name: "ALREADY_USED_ROADS"
+  nameWithType: "RouteAvoidType.ALREADY_USED_ROADS"
+  summary: "Avoids using the same road multiple times."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteAvoidType ALREADY_USED_ROADS"
+  desc: "Avoids using the same road multiple times. Most useful in conjunction with \\`routeType\\`=thrilling."
+- uid: "com.azure.maps.route.models.RouteAvoidType.BORDER_CROSSINGS"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.BORDER_CROSSINGS"
+  name: "BORDER_CROSSINGS"
+  nameWithType: "RouteAvoidType.BORDER_CROSSINGS"
+  summary: "Avoids border crossings in route calculation."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteAvoidType BORDER_CROSSINGS"
+  desc: "Avoids border crossings in route calculation."
+- uid: "com.azure.maps.route.models.RouteAvoidType.CARPOOLS"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.CARPOOLS"
+  name: "CARPOOLS"
+  nameWithType: "RouteAvoidType.CARPOOLS"
+  summary: "Avoids routes that require the use of carpool (HOV/High Occupancy Vehicle) lanes."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteAvoidType CARPOOLS"
+  desc: "Avoids routes that require the use of carpool (HOV/High Occupancy Vehicle) lanes."
+- uid: "com.azure.maps.route.models.RouteAvoidType.FERRIES"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.FERRIES"
+  name: "FERRIES"
+  nameWithType: "RouteAvoidType.FERRIES"
+  summary: "Avoids ferries."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteAvoidType FERRIES"
+  desc: "Avoids ferries."
+- uid: "com.azure.maps.route.models.RouteAvoidType.MOTORWAYS"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.MOTORWAYS"
+  name: "MOTORWAYS"
+  nameWithType: "RouteAvoidType.MOTORWAYS"
+  summary: "Avoids motorways."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteAvoidType MOTORWAYS"
+  desc: "Avoids motorways."
+- uid: "com.azure.maps.route.models.RouteAvoidType.TOLL_ROADS"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.TOLL_ROADS"
+  name: "TOLL_ROADS"
+  nameWithType: "RouteAvoidType.TOLL_ROADS"
+  summary: "Avoids toll roads."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteAvoidType TOLL_ROADS"
+  desc: "Avoids toll roads."
+- uid: "com.azure.maps.route.models.RouteAvoidType.UNPAVED_ROADS"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.UNPAVED_ROADS"
+  name: "UNPAVED_ROADS"
+  nameWithType: "RouteAvoidType.UNPAVED_ROADS"
+  summary: "Avoids unpaved roads."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteAvoidType UNPAVED_ROADS"
+  desc: "Avoids unpaved roads."
+methods:
+- uid: "com.azure.maps.route.models.RouteAvoidType.fromString(java.lang.String)"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "RouteAvoidType.fromString(String name)"
+  summary: "Creates or finds a Route<wbr>Avoid<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static RouteAvoidType fromString(String name)"
+  desc: "Creates or finds a RouteAvoidType from its string representation."
+  returns:
+    description: "the corresponding RouteAvoidType."
+    type: "<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.route.models.RouteAvoidType.values()"
+  fullName: "com.azure.maps.route.models.RouteAvoidType.values()"
+  name: "values()"
+  nameWithType: "RouteAvoidType.values()"
+  summary: "Gets known Route<wbr>Avoid<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<RouteAvoidType> values()"
+  desc: "Gets known RouteAvoidType values."
+  returns:
+    description: "known RouteAvoidType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.maps.route.models.RouteAvoidType?alt=com.azure.maps.route.models.RouteAvoidType&text=RouteAvoidType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for RouteAvoidType."
+metadata: {}
+package: "com.azure.maps.route.models"
+artifact: com.azure:azure-maps-route:1.0.0-beta.3

@@ -6,6 +6,7 @@ summary: "This package contains the converter classes of cosmos db"
 classes:
 - "com.azure.spring.data.cosmos.core.convert.MappingCosmosConverter"
 - "com.azure.spring.data.cosmos.core.convert.ObjectMapperFactory"
+desc: "This package contains the converter classes of cosmos db"
 metadata: {}
 package: "com.azure.spring.data.cosmos.core.convert"
-artifact: com.azure:azure-spring-data-cosmos:3.6.0
+artifact: com.azure:azure-spring-data-cosmos:3.47.0

@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.network.models.LoadBalancerBackend.UpdateSt
 name: "LoadBalancerBackend.UpdateStages"
 nameWithType: "LoadBalancerBackend.UpdateStages"
 summary: "Grouping of load balancer backend update stages."
-syntax: "public static interface LoadBalancerBackend.UpdateStages"
+syntax: "public static interface **LoadBalancerBackend.UpdateStages**"
 type: "interface"
+desc: "Grouping of load balancer backend update stages."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.50.0

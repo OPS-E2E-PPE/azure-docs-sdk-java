@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties"
+fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties"
+name: "StorageMappingInputProperties"
+nameWithType: "StorageMappingInputProperties"
+summary: "Storage mapping input properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **StorageMappingInputProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties&text=StorageMappingInputProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.StorageMappingInputProperties()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.StorageMappingInputProperties()"
+  name: "StorageMappingInputProperties()"
+  nameWithType: "StorageMappingInputProperties.StorageMappingInputProperties()"
+  summary: "Creates an instance of Storage<wbr>Mapping<wbr>Input<wbr>Properties class."
+  syntax: "public StorageMappingInputProperties()"
+  desc: "Creates an instance of StorageMappingInputProperties class."
+methods:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "StorageMappingInputProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Storage<wbr>Mapping<wbr>Input<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static StorageMappingInputProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the StorageMappingInputProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of StorageMappingInputProperties from the JsonReader."
+  returns:
+    description: "An instance of StorageMappingInputProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties&text=StorageMappingInputProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.targetStorageClassificationId()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.targetStorageClassificationId()"
+  name: "targetStorageClassificationId()"
+  nameWithType: "StorageMappingInputProperties.targetStorageClassificationId()"
+  summary: "Get the target<wbr>Storage<wbr>Classification<wbr>Id property: The ID of the storage object."
+  syntax: "public String targetStorageClassificationId()"
+  desc: "Get the targetStorageClassificationId property: The ID of the storage object."
+  returns:
+    description: "the targetStorageClassificationId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "StorageMappingInputProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.validate()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.validate()"
+  name: "validate()"
+  nameWithType: "StorageMappingInputProperties.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.withTargetStorageClassificationId(java.lang.String)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties.withTargetStorageClassificationId(String targetStorageClassificationId)"
+  name: "withTargetStorageClassificationId(String targetStorageClassificationId)"
+  nameWithType: "StorageMappingInputProperties.withTargetStorageClassificationId(String targetStorageClassificationId)"
+  summary: "Set the target<wbr>Storage<wbr>Classification<wbr>Id property: The ID of the storage object."
+  parameters:
+  - description: "the targetStorageClassificationId value to set."
+    name: "targetStorageClassificationId"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public StorageMappingInputProperties withTargetStorageClassificationId(String targetStorageClassificationId)"
+  desc: "Set the targetStorageClassificationId property: The ID of the storage object."
+  returns:
+    description: "the StorageMappingInputProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties&text=StorageMappingInputProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Storage mapping input properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.StorageMappingInputProperties&text=StorageMappingInputProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.recoveryservicessiterecovery.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservicessiterecovery:1.3.0

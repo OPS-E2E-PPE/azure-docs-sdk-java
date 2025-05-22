@@ -1,0 +1,29 @@
+{
+  "Name": "azure-resourcemanager-sphere",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/sphere/azure-resourcemanager-sphere",
+  "ServiceDirectory": "sphere",
+  "ReadMePath": "sdk/sphere/azure-resourcemanager-sphere/README.md",
+  "ChangeLogPath": "sdk/sphere/azure-resourcemanager-sphere/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-sphere",
+  "ReleaseStatus": "2024-12-19",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagersphere }}",
+    "name": "azure-resourcemanager-sphere",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagersphere"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.sphere",
+    "com.azure.resourcemanager.sphere.fluent",
+    "com.azure.resourcemanager.sphere.fluent.models",
+    "com.azure.resourcemanager.sphere.models"
+  ]
+}

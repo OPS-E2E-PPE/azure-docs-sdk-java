@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Faces.FacesDetectWithStreamDefinitionStages
-syntax: public interface FacesDetectWithStreamDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages
-name: Faces.FacesDetectWithStreamDefinitionStages
-package: com.microsoft.azure.cognitiveservices.vision.faceapi
-summary: <p>Grouping of detectWithStream definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.FacesDetectWithStreamDefinitionStages"
+name: "Faces.FacesDetectWithStreamDefinitionStages"
+nameWithType: "Faces.FacesDetectWithStreamDefinitionStages"
+summary: "Grouping of detect<wbr>With<wbr>Stream definition stages."
+syntax: "public static interface **Faces.FacesDetectWithStreamDefinitionStages**"
+type: "interface"
+desc: "Grouping of detectWithStream definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.faceapi"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-faceapi:1.0.2-beta

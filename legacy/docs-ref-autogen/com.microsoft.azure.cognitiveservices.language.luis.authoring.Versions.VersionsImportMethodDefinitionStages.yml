@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Versions.VersionsImportMethodDefinitionStages
-syntax: public interface VersionsImportMethodDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportMethodDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportMethodDefinitionStages
-name: Versions.VersionsImportMethodDefinitionStages
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>Grouping of importMethod definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportMethodDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportMethodDefinitionStages"
+name: "Versions.VersionsImportMethodDefinitionStages"
+nameWithType: "Versions.VersionsImportMethodDefinitionStages"
+summary: "Grouping of import<wbr>Method definition stages."
+syntax: "public static interface **Versions.VersionsImportMethodDefinitionStages**"
+type: "interface"
+desc: "Grouping of importMethod definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

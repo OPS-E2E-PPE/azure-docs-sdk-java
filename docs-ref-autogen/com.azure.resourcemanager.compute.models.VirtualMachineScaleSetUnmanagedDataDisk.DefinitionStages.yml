@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetUnmana
 name: "VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages"
 nameWithType: "VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages"
 summary: "Grouping of unmanaged data disk definition stages applicable as part of a virtual machine scale set creation."
-syntax: "public static interface VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages"
+syntax: "public static interface **VirtualMachineScaleSetUnmanagedDataDisk.DefinitionStages**"
 type: "interface"
+desc: "Grouping of unmanaged data disk definition stages applicable as part of a virtual machine scale set creation."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.50.0

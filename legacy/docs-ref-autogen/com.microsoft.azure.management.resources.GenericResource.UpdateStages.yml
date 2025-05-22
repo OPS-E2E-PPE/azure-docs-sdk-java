@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: GenericResource.UpdateStages
-syntax: public interface UpdateStages
-type: interface
-uid: com.microsoft.azure.management.resources.GenericResource.UpdateStages
-fullName: com.microsoft.azure.management.resources.GenericResource.UpdateStages
-name: GenericResource.UpdateStages
-package: com.microsoft.azure.management.resources
-summary: <p>Grouping of generic resource update stages. </p>
+uid: "com.microsoft.azure.management.resources.GenericResource.UpdateStages"
+fullName: "com.microsoft.azure.management.resources.GenericResource.UpdateStages"
+name: "GenericResource.UpdateStages"
+nameWithType: "GenericResource.UpdateStages"
+summary: "Grouping of generic resource update stages."
+syntax: "public static interface **GenericResource.UpdateStages**"
+type: "interface"
+desc: "Grouping of generic resource update stages."
 metadata: {}
+package: "com.microsoft.azure.management.resources"
+artifact: com.microsoft.azure:azure-mgmt-resources:1.41.4

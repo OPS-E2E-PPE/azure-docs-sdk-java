@@ -1,0 +1,41 @@
+{
+  "Name": "azure-resourcemanager-network",
+  "Version": "2.50.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-network",
+  "ServiceDirectory": "resourcemanager",
+  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-network/README.md",
+  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-network/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-network",
+  "ReleaseStatus": "2025-04-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure.resourcemanager:azure-resourcemanager-samples",
+    "com.azure.resourcemanager:azure-resourcemanager-perf",
+    "com.azure.resourcemanager:azure-resourcemanager-test",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagernetwork }}",
+    "triggeringPaths": [
+      "/sdk/resourcemanager/ci.yml"
+    ],
+    "safeName": "azureresourcemanagernetwork",
+    "name": "azure-resourcemanager-network",
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.network",
+    "com.azure.resourcemanager.network.fluent",
+    "com.azure.resourcemanager.network.fluent.models",
+    "com.azure.resourcemanager.network.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

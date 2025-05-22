@@ -4,17 +4,73 @@ fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage
 name: "VirtualMachineExtensionImageVersion"
 nameWithType: "VirtualMachineExtensionImageVersion"
 summary: "An immutable client-side representation of an Azure virtual machine extension image version."
-syntax: "public interface VirtualMachineExtensionImageVersion extends HasInnerModel<VirtualMachineExtensionImageInner>, HasName"
+syntax: "public interface **VirtualMachineExtensionImageVersion**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionImageInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionImageInner&text=VirtualMachineExtensionImageInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.HasName?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.HasName&text=HasName\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.getImage()"
-- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.getImageAsync()"
-- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.id()"
-- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.regionName()"
-- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.type()"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.getImage()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.getImage()"
+  name: "getImage()"
+  nameWithType: "VirtualMachineExtensionImageVersion.getImage()"
+  summary: "Gets virtual machine extension image this version represents."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachineExtensionImage getImage()"
+  desc: "Gets virtual machine extension image this version represents."
+  returns:
+    description: "virtual machine extension image this version represents"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage?alt=com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage&text=VirtualMachineExtensionImage\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.getImageAsync()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.getImageAsync()"
+  name: "getImageAsync()"
+  nameWithType: "VirtualMachineExtensionImageVersion.getImageAsync()"
+  summary: "Gets an observable upon subscription emits the image."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Mono<VirtualMachineExtensionImage> getImageAsync()"
+  desc: "Gets an observable upon subscription emits the image."
+  returns:
+    description: "an observable upon subscription emits the image"
+    type: "<a href=\"https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html\">Mono</a>&lt;<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage?alt=com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage&text=VirtualMachineExtensionImage\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.id()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.id()"
+  name: "id()"
+  nameWithType: "VirtualMachineExtensionImageVersion.id()"
+  summary: "Gets the resource ID of the extension image version."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets the resource ID of the extension image version."
+  returns:
+    description: "the resource ID of the extension image version"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.regionName()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.regionName()"
+  name: "regionName()"
+  nameWithType: "VirtualMachineExtensionImageVersion.regionName()"
+  summary: "Gets the region in which virtual machine extension image version is available."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String regionName()"
+  desc: "Gets the region in which virtual machine extension image version is available."
+  returns:
+    description: "the region in which virtual machine extension image version is available"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.type()"
+  fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageVersion.type()"
+  name: "type()"
+  nameWithType: "VirtualMachineExtensionImageVersion.type()"
+  summary: "Gets the virtual machine extension image type this version belongs to."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract VirtualMachineExtensionImageType type()"
+  desc: "Gets the virtual machine extension image type this version belongs to."
+  returns:
+    description: "the virtual machine extension image type this version belongs to"
+    type: "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageType?alt=com.azure.resourcemanager.compute.models.VirtualMachineExtensionImageType&text=VirtualMachineExtensionImageType\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "An immutable client-side representation of an Azure virtual machine extension image version."
 implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.HasName?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.HasName&text=HasName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionImageInner?alt=com.azure.resourcemanager.compute.fluent.models.VirtualMachineExtensionImageInner&text=VirtualMachineExtensionImageInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.50.0

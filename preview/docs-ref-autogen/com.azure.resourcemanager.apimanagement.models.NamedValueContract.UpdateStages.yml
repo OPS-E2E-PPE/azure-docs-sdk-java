@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.apimanagement.models.NamedValueContract.UpdateSt
 fullName: "com.azure.resourcemanager.apimanagement.models.NamedValueContract.UpdateStages"
 name: "NamedValueContract.UpdateStages"
 nameWithType: "NamedValueContract.UpdateStages"
-summary: "The NamedValueContract update stages."
-syntax: "public static interface NamedValueContract.UpdateStages"
+summary: "The Named<wbr>Value<wbr>Contract update stages."
+syntax: "public static interface **NamedValueContract.UpdateStages**"
 type: "interface"
+desc: "The NamedValueContract update stages."
 metadata: {}
 package: "com.azure.resourcemanager.apimanagement.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-apimanagement:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-apimanagement:1.0.0-beta.5

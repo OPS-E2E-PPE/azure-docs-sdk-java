@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ServicePrincipal.DefinitionStages
-syntax: public interface DefinitionStages
-type: interface
-uid: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages
-fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages
-name: ServicePrincipal.DefinitionStages
-package: com.microsoft.azure.management.graphrbac
-summary: <p>Grouping of all the service principal definition stages. </p>
+uid: "com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages"
+fullName: "com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages"
+name: "ServicePrincipal.DefinitionStages"
+nameWithType: "ServicePrincipal.DefinitionStages"
+summary: "Grouping of all the service principal definition stages."
+syntax: "public static interface **ServicePrincipal.DefinitionStages**"
+type: "interface"
+desc: "Grouping of all the service principal definition stages."
 metadata: {}
+package: "com.microsoft.azure.management.graphrbac"
+artifact: com.microsoft.azure:azure-mgmt-graph-rbac:1.41.4

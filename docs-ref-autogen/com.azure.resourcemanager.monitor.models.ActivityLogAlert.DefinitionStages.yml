@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.monitor.models.ActivityLogAlert.DefinitionS
 name: "ActivityLogAlert.DefinitionStages"
 nameWithType: "ActivityLogAlert.DefinitionStages"
 summary: "Grouping of activity log alerts definition stages."
-syntax: "public static interface ActivityLogAlert.DefinitionStages"
+syntax: "public static interface **ActivityLogAlert.DefinitionStages**"
 type: "interface"
+desc: "Grouping of activity log alerts definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.monitor.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.50.0

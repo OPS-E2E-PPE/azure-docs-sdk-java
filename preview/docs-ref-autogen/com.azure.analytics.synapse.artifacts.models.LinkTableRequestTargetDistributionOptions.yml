@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions"
+fullName: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions"
+name: "LinkTableRequestTargetDistributionOptions"
+nameWithType: "LinkTableRequestTargetDistributionOptions"
+summary: "The Link<wbr>Table<wbr>Request<wbr>Target<wbr>Distribution<wbr>Options model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **LinkTableRequestTargetDistributionOptions**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions?alt=com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions&text=LinkTableRequestTargetDistributionOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.LinkTableRequestTargetDistributionOptions()"
+  fullName: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.LinkTableRequestTargetDistributionOptions()"
+  name: "LinkTableRequestTargetDistributionOptions()"
+  nameWithType: "LinkTableRequestTargetDistributionOptions.LinkTableRequestTargetDistributionOptions()"
+  summary: "Creates an instance of Link<wbr>Table<wbr>Request<wbr>Target<wbr>Distribution<wbr>Options class."
+  syntax: "public LinkTableRequestTargetDistributionOptions()"
+  desc: "Creates an instance of LinkTableRequestTargetDistributionOptions class."
+methods:
+- uid: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "LinkTableRequestTargetDistributionOptions.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Link<wbr>Table<wbr>Request<wbr>Target<wbr>Distribution<wbr>Options from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static LinkTableRequestTargetDistributionOptions fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the LinkTableRequestTargetDistributionOptions."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of LinkTableRequestTargetDistributionOptions from the JsonReader."
+  returns:
+    description: "An instance of LinkTableRequestTargetDistributionOptions if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions?alt=com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions&text=LinkTableRequestTargetDistributionOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.getDistributionColumn()"
+  fullName: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.getDistributionColumn()"
+  name: "getDistributionColumn()"
+  nameWithType: "LinkTableRequestTargetDistributionOptions.getDistributionColumn()"
+  summary: "Get the distribution<wbr>Column property: Target table distribution column."
+  syntax: "public String getDistributionColumn()"
+  desc: "Get the distributionColumn property: Target table distribution column."
+  returns:
+    description: "the distributionColumn value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.getType()"
+  fullName: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.getType()"
+  name: "getType()"
+  nameWithType: "LinkTableRequestTargetDistributionOptions.getType()"
+  summary: "Get the type property: Target table distribution type."
+  syntax: "public String getType()"
+  desc: "Get the type property: Target table distribution type."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.setDistributionColumn(java.lang.String)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.setDistributionColumn(String distributionColumn)"
+  name: "setDistributionColumn(String distributionColumn)"
+  nameWithType: "LinkTableRequestTargetDistributionOptions.setDistributionColumn(String distributionColumn)"
+  summary: "Set the distribution<wbr>Column property: Target table distribution column."
+  parameters:
+  - description: "the distributionColumn value to set."
+    name: "distributionColumn"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public LinkTableRequestTargetDistributionOptions setDistributionColumn(String distributionColumn)"
+  desc: "Set the distributionColumn property: Target table distribution column."
+  returns:
+    description: "the LinkTableRequestTargetDistributionOptions object itself."
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions?alt=com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions&text=LinkTableRequestTargetDistributionOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.setType(java.lang.String)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.setType(String type)"
+  name: "setType(String type)"
+  nameWithType: "LinkTableRequestTargetDistributionOptions.setType(String type)"
+  summary: "Set the type property: Target table distribution type."
+  parameters:
+  - description: "the type value to set."
+    name: "type"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public LinkTableRequestTargetDistributionOptions setType(String type)"
+  desc: "Set the type property: Target table distribution type."
+  returns:
+    description: "the LinkTableRequestTargetDistributionOptions object itself."
+    type: "<xref href=\"com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions?alt=com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions&text=LinkTableRequestTargetDistributionOptions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "LinkTableRequestTargetDistributionOptions.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The LinkTableRequestTargetDistributionOptions model."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions?alt=com.azure.analytics.synapse.artifacts.models.LinkTableRequestTargetDistributionOptions&text=LinkTableRequestTargetDistributionOptions\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.analytics.synapse.artifacts.models"
+artifact: com.azure:azure-analytics-synapse-artifacts:1.0.0-beta.16

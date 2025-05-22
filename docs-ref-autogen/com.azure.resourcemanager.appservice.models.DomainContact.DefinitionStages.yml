@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.appservice.models.DomainContact.DefinitionS
 name: "DomainContact.DefinitionStages"
 nameWithType: "DomainContact.DefinitionStages"
 summary: "Grouping of domain contact stages applicable as part of a domain creation."
-syntax: "public static interface DomainContact.DefinitionStages"
+syntax: "public static interface **DomainContact.DefinitionStages**"
 type: "interface"
+desc: "Grouping of domain contact stages applicable as part of a domain creation."
 metadata: {}
 package: "com.azure.resourcemanager.appservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.50.0

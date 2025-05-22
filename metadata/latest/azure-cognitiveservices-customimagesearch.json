@@ -1,0 +1,18 @@
+{
+  "ServiceDirectory": "NA",
+  "DocsCiConfigProperties": {
+    "inputPath": [],
+    "excludePackages": "com.microsoft.azure.cognitiveservices.search.customimagesearch.implementation",
+    "excludePath": []
+  },
+  "Name": "azure-cognitiveservices-customimagesearch",
+  "SdkType": "NA",
+  "Version": "1.0.2-beta",
+  "IsNewSdk": false,
+  "Group": "com.microsoft.azure.cognitiveservices",
+  "DirectoryPath": "",
+  "Namespaces": [
+    "com.microsoft.azure.cognitiveservices.search.customimagesearch",
+    "com.microsoft.azure.cognitiveservices.search.customimagesearch.models"
+  ]
+}

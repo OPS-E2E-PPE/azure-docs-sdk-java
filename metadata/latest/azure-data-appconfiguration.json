@@ -1,0 +1,35 @@
+{
+  "Name": "azure-data-appconfiguration",
+  "Version": "1.8.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/appconfiguration/azure-data-appconfiguration",
+  "ServiceDirectory": "appconfiguration",
+  "ReadMePath": "sdk/appconfiguration/azure-data-appconfiguration/README.md",
+  "ChangeLogPath": "sdk/appconfiguration/azure-data-appconfiguration/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-data-appconfiguration",
+  "ReleaseStatus": "2025-03-12",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/appconfiguration/ci.yml"
+    ],
+    "groupId": "com.azure",
+    "name": "azure-data-appconfiguration",
+    "releaseInBatch": "${{ parameters.release_azuredataappconfiguration }}",
+    "safeName": "azuredataappconfiguration"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.data.appconfiguration",
+    "com.azure.data.appconfiguration.models"
+  ],
+  "CIMatrixConfigs": []
+}

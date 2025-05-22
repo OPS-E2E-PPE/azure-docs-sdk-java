@@ -1,18 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address.withIPv4Address(String)
-nameWithType: DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank<ParentT>
-syntax: public interface ARecordSetBlank<ParentT> extends DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address<ParentT>
-type: interface
+uid: "com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank"
+fullName: "com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank<ParentT>"
+name: "DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank<ParentT>"
+nameWithType: "DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank<ParentT>"
+summary: "The first stage of a A record definition."
+syntax: "public static interface **DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank<ParentT>**</br> extends <xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address?alt=com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address&text=WithARecordIPv4Address\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
 typeParameters:
-- description: <p>the stage of the parent definition to return to after attaching this definition </p>
-  name: ParentT
-uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank
-fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank<ParentT>
-name: DnsRecordSet.UpdateDefinitionStages.ARecordSetBlank<ParentT>
-package: com.microsoft.azure.management.dns
-summary: >-
-  <p>The first stage of a A record definition.</p>
-
-  <p></p>
+- description: "the stage of the parent definition to return to after attaching this definition"
+  name: "ParentT"
+desc: "The first stage of a A record definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address?alt=com.microsoft.azure.management.dns.DnsRecordSet.UpdateDefinitionStages.WithARecordIPv4Address&text=WithARecordIPv4Address\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.dns"
+artifact: com.microsoft.azure:azure-mgmt-dns:1.41.4

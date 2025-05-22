@@ -2,7 +2,7 @@
 uid: "com.azure.storage.blob.nio"
 fullName: "com.azure.storage.blob.nio"
 name: "com.azure.storage.blob.nio"
-summary: "Package containing the classes for loading the AzureFileSystemProvider based on Azure Storage Blobs."
+summary: "Package containing the classes for loading the Azure<wbr>File<wbr>System<wbr>Provider based on Azure Storage Blobs."
 classes:
 - "com.azure.storage.blob.nio.AzureBasicFileAttributeView"
 - "com.azure.storage.blob.nio.AzureBasicFileAttributes"
@@ -16,6 +16,7 @@ classes:
 - "com.azure.storage.blob.nio.AzureSeekableByteChannel"
 - "com.azure.storage.blob.nio.NioBlobInputStream"
 - "com.azure.storage.blob.nio.NioBlobOutputStream"
+desc: "Package containing the classes for loading the AzureFileSystemProvider based on Azure Storage Blobs."
 metadata: {}
 package: "com.azure.storage.blob.nio"
-artifact: com.azure:azure-storage-blob-nio:12.0.0-beta.4
+artifact: com.azure:azure-storage-blob-nio:12.0.0-beta.31

@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.postgresql.models.Server.DefinitionStages"
 name: "Server.DefinitionStages"
 nameWithType: "Server.DefinitionStages"
 summary: "The Server definition stages."
-syntax: "public static interface Server.DefinitionStages"
+syntax: "public static interface **Server.DefinitionStages**"
 type: "interface"
+desc: "The Server definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.postgresql.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-postgresql:1.1.0

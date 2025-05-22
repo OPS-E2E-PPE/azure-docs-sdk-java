@@ -1,0 +1,28 @@
+{
+  "Name": "azure-resourcemanager-frontdoor",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/frontdoor/azure-resourcemanager-frontdoor",
+  "ServiceDirectory": "frontdoor",
+  "ReadMePath": "sdk/frontdoor/azure-resourcemanager-frontdoor/README.md",
+  "ChangeLogPath": "sdk/frontdoor/azure-resourcemanager-frontdoor/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-frontdoor",
+  "ReleaseStatus": "2024-12-19",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-frontdoor",
+    "safeName": "azureresourcemanagerfrontdoor"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.frontdoor",
+    "com.azure.resourcemanager.frontdoor.fluent",
+    "com.azure.resourcemanager.frontdoor.fluent.models",
+    "com.azure.resourcemanager.frontdoor.models"
+  ]
+}

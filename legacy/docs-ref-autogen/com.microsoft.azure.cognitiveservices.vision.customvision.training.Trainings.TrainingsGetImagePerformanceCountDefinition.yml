@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithIterationId.withIterationId(UUID)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithProjectId.withProjectId(UUID)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithAllOptions.withTagIds(List<UUID>)
-nameWithType: Trainings.TrainingsGetImagePerformanceCountDefinition
-syntax: public interface TrainingsGetImagePerformanceCountDefinition extends Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithProjectId,Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithIterationId,Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinition
-name: Trainings.TrainingsGetImagePerformanceCountDefinition
-package: com.microsoft.azure.cognitiveservices.vision.customvision.training
-summary: <p>The entirety of getImagePerformanceCount definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinition"
+name: "Trainings.TrainingsGetImagePerformanceCountDefinition"
+nameWithType: "Trainings.TrainingsGetImagePerformanceCountDefinition"
+summary: "The entirety of get<wbr>Image<wbr>Performance<wbr>Count definition."
+syntax: "public static interface **Trainings.TrainingsGetImagePerformanceCountDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithIterationId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithIterationId&text=WithIterationId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of getImagePerformanceCount definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithIterationId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithIterationId&text=WithIterationId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetImagePerformanceCountDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.customvision.training"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-customvision-training:1.0.3-beta

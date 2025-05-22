@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.providerhub.models.OperationsPutContent"
+fullName: "com.azure.resourcemanager.providerhub.models.OperationsPutContent"
+name: "OperationsPutContent"
+nameWithType: "OperationsPutContent"
+summary: "The Operations<wbr>Put<wbr>Content model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **OperationsPutContent**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.providerhub.models.OperationsPutContent?alt=com.azure.resourcemanager.providerhub.models.OperationsPutContent&text=OperationsPutContent\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.OperationsPutContent()"
+  fullName: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.OperationsPutContent()"
+  name: "OperationsPutContent()"
+  nameWithType: "OperationsPutContent.OperationsPutContent()"
+  summary: "Creates an instance of Operations<wbr>Put<wbr>Content class."
+  syntax: "public OperationsPutContent()"
+  desc: "Creates an instance of OperationsPutContent class."
+methods:
+- uid: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.contents()"
+  fullName: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.contents()"
+  name: "contents()"
+  nameWithType: "OperationsPutContent.contents()"
+  summary: "Get the contents property: The contents property."
+  syntax: "public List<OperationsDefinitionInner> contents()"
+  desc: "Get the contents property: The contents property."
+  returns:
+    description: "the contents value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.providerhub.fluent.models.OperationsDefinitionInner?alt=com.azure.resourcemanager.providerhub.fluent.models.OperationsDefinitionInner&text=OperationsDefinitionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "OperationsPutContent.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Operations<wbr>Put<wbr>Content from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static OperationsPutContent fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of OperationsPutContent from the JsonReader."
+  returns:
+    description: "An instance of OperationsPutContent if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.providerhub.models.OperationsPutContent?alt=com.azure.resourcemanager.providerhub.models.OperationsPutContent&text=OperationsPutContent\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "OperationsPutContent.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.validate()"
+  fullName: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.validate()"
+  name: "validate()"
+  nameWithType: "OperationsPutContent.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.withContents(java.util.List<com.azure.resourcemanager.providerhub.fluent.models.OperationsDefinitionInner>)"
+  fullName: "com.azure.resourcemanager.providerhub.models.OperationsPutContent.withContents(List<OperationsDefinitionInner> contents)"
+  name: "withContents(List<OperationsDefinitionInner> contents)"
+  nameWithType: "OperationsPutContent.withContents(List<OperationsDefinitionInner> contents)"
+  summary: "Set the contents property: The contents property."
+  parameters:
+  - description: "the contents value to set."
+    name: "contents"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.providerhub.fluent.models.OperationsDefinitionInner?alt=com.azure.resourcemanager.providerhub.fluent.models.OperationsDefinitionInner&text=OperationsDefinitionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public OperationsPutContent withContents(List<OperationsDefinitionInner> contents)"
+  desc: "Set the contents property: The contents property."
+  returns:
+    description: "the OperationsPutContent object itself."
+    type: "<xref href=\"com.azure.resourcemanager.providerhub.models.OperationsPutContent?alt=com.azure.resourcemanager.providerhub.models.OperationsPutContent&text=OperationsPutContent\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The OperationsPutContent model."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.providerhub.models.OperationsPutContent?alt=com.azure.resourcemanager.providerhub.models.OperationsPutContent&text=OperationsPutContent\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.providerhub.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-providerhub:1.1.0

@@ -1,0 +1,33 @@
+{
+  "Name": "azure-mixedreality-authentication",
+  "Version": "1.2.32",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/mixedreality/azure-mixedreality-authentication",
+  "ServiceDirectory": "mixedreality",
+  "ReadMePath": "sdk/mixedreality/azure-mixedreality-authentication/README.md",
+  "ChangeLogPath": "sdk/mixedreality/azure-mixedreality-authentication/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-mixedreality-authentication",
+  "ReleaseStatus": "2025-03-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-mixedreality-authentication",
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azuremixedrealityauthentication }}",
+    "triggeringPaths": [
+      "/sdk/mixedreality/ci.yml"
+    ],
+    "safeName": "azuremixedrealityauthentication"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.mixedreality.authentication"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

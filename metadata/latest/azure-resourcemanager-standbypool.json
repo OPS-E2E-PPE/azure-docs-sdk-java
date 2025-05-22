@@ -1,0 +1,34 @@
+{
+  "Name": "azure-resourcemanager-standbypool",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/standbypool/azure-resourcemanager-standbypool",
+  "ServiceDirectory": "standbypool",
+  "ReadMePath": "sdk/standbypool/azure-resourcemanager-standbypool/README.md",
+  "ChangeLogPath": "sdk/standbypool/azure-resourcemanager-standbypool/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-standbypool",
+  "ReleaseStatus": "2025-04-21",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "safeName": "azureresourcemanagerstandbypool",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerstandbypool }}",
+    "triggeringPaths": [
+      "/sdk/standbypool/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager",
+    "name": "azure-resourcemanager-standbypool"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.standbypool",
+    "com.azure.resourcemanager.standbypool.fluent",
+    "com.azure.resourcemanager.standbypool.fluent.models",
+    "com.azure.resourcemanager.standbypool.models"
+  ]
+}

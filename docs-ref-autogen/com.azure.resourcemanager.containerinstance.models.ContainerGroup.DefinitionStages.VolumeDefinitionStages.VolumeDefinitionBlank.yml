@@ -4,12 +4,14 @@ fullName: "com.azure.resourcemanager.containerinstance.models.ContainerGroup.Def
 name: "ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>"
 nameWithType: "ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>"
 summary: "The first stage of the volume definition."
-syntax: "public static interface ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT> extends ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare<ParentT>"
+syntax: "public static interface **ContainerGroup.DefinitionStages.VolumeDefinitionStages.VolumeDefinitionBlank<ParentT>**</br> extends <xref href=\"com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare?alt=com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare&text=WithAzureFileShare\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 typeParameters:
-- name: "ParentT"
+- description: "the stage of the parent definition to return to after attaching this definition"
+  name: "ParentT"
+desc: "The first stage of the volume definition."
 implements:
 - "<xref href=\"com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare?alt=com.azure.resourcemanager.containerinstance.models.ContainerGroup.DefinitionStages.VolumeDefinitionStages.WithAzureFileShare&text=WithAzureFileShare\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.containerinstance.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerinstance:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerinstance:2.50.0

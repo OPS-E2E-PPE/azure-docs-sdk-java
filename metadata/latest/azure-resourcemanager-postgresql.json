@@ -1,0 +1,28 @@
+{
+  "Name": "azure-resourcemanager-postgresql",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/postgresql/azure-resourcemanager-postgresql",
+  "ServiceDirectory": "postgresql",
+  "ReadMePath": "sdk/postgresql/azure-resourcemanager-postgresql/README.md",
+  "ChangeLogPath": "sdk/postgresql/azure-resourcemanager-postgresql/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-postgresql",
+  "ReleaseStatus": "2024-12-23",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-postgresql",
+    "safeName": "azureresourcemanagerpostgresql",
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.postgresql",
+    "com.azure.resourcemanager.postgresql.fluent",
+    "com.azure.resourcemanager.postgresql.fluent.models",
+    "com.azure.resourcemanager.postgresql.models"
+  ]
+}

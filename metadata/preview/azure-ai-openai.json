@@ -1,0 +1,35 @@
+{
+  "Name": "azure-ai-openai",
+  "Version": "1.0.0-beta.16",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/openai/azure-ai-openai",
+  "ServiceDirectory": "openai",
+  "ReadMePath": "sdk/openai/azure-ai-openai/README.md",
+  "ChangeLogPath": "sdk/openai/azure-ai-openai/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-ai-openai",
+  "ReleaseStatus": "2025-03-26",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "safeName": "azureaiopenai",
+    "releaseInBatch": "${{ parameters.release_azureaiopenai }}",
+    "name": "azure-ai-openai",
+    "triggeringPaths": [
+      "/sdk/openai/ci.yml"
+    ],
+    "groupId": "com.azure"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.ai.openai",
+    "com.azure.ai.openai.models",
+    "com.azure.ai.openai.responses",
+    "com.azure.ai.openai.responses.models"
+  ],
+  "CIMatrixConfigs": []
+}

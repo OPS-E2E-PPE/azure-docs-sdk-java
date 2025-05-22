@@ -1,26 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()
-- com.microsoft.azure.management.resources.fluentcore.model.Appliable.applyAsync()
-- com.microsoft.azure.management.resources.fluentcore.model.Appliable.applyAsync(final ServiceCallback<T>)
-- com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.defineRoute(String)
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.updateRoute(String)
-- com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.withoutRoute(String)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags.withoutTag(String)
-- com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.withRoute(String,RouteNextHopType)
-- com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute.withRouteViaVirtualAppliance(String,String)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags.withTag(String,String)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags.withTags(Map<String, String>)
-nameWithType: RouteTable.Update
-syntax: public interface Update extends Appliable<RouteTable>,Resource.UpdateWithTags<Update>,RouteTable.UpdateStages.WithRoute
-type: interface
-uid: com.microsoft.azure.management.network.RouteTable.Update
-fullName: com.microsoft.azure.management.network.RouteTable.Update
-name: RouteTable.Update
-package: com.microsoft.azure.management.network
-summary: >-
-  <p>The template for a route table update operation, containing all the settings that can be modified. </p>
-
-  <p>Call <xref uid="com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()" data-throw-if-not-resolved="false" data-raw-source="Update#apply()"></xref> to apply the changes to the resource in Azure. </p>
+uid: "com.microsoft.azure.management.network.RouteTable.Update"
+fullName: "com.microsoft.azure.management.network.RouteTable.Update"
+name: "RouteTable.Update"
+nameWithType: "RouteTable.Update"
+summary: "The template for a route table update operation, containing all the settings that can be modified."
+syntax: "public static interface **RouteTable.Update**</br> extends <xref href=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable?alt=com.microsoft.azure.management.resources.fluentcore.model.Appliable&text=Appliable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.RouteTable?alt=com.microsoft.azure.management.network.RouteTable&text=RouteTable\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags?alt=com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags&text=UpdateWithTags\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.RouteTable.Update?alt=com.microsoft.azure.management.network.RouteTable.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute?alt=com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute&text=WithRoute\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.RouteTable.UpdateStages.WithBgpRoutePropagation?alt=com.microsoft.azure.management.network.RouteTable.UpdateStages.WithBgpRoutePropagation&text=WithBgpRoutePropagation\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for a route table update operation, containing all the settings that can be modified.\n\nCall <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Update#apply()\"></xref> to apply the changes to the resource in Azure."
+implements:
+- "<xref href=\"com.microsoft.azure.management.network.RouteTable.UpdateStages.WithBgpRoutePropagation?alt=com.microsoft.azure.management.network.RouteTable.UpdateStages.WithBgpRoutePropagation&text=WithBgpRoutePropagation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute?alt=com.microsoft.azure.management.network.RouteTable.UpdateStages.WithRoute&text=WithRoute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags?alt=com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.UpdateWithTags&text=UpdateWithTags\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.RouteTable.Update?alt=com.microsoft.azure.management.network.RouteTable.Update&text=Update\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable?alt=com.microsoft.azure.management.resources.fluentcore.model.Appliable&text=Appliable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.RouteTable?alt=com.microsoft.azure.management.network.RouteTable&text=RouteTable\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

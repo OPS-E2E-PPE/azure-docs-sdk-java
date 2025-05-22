@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: QueueAuthorizationRule.DefinitionStages
-syntax: public interface DefinitionStages
-type: interface
-uid: com.microsoft.azure.management.servicebus.QueueAuthorizationRule.DefinitionStages
-fullName: com.microsoft.azure.management.servicebus.QueueAuthorizationRule.DefinitionStages
-name: QueueAuthorizationRule.DefinitionStages
-package: com.microsoft.azure.management.servicebus
-summary: <p>Grouping of Service Bus queue authorization rule definition stages. </p>
+uid: "com.microsoft.azure.management.servicebus.QueueAuthorizationRule.DefinitionStages"
+fullName: "com.microsoft.azure.management.servicebus.QueueAuthorizationRule.DefinitionStages"
+name: "QueueAuthorizationRule.DefinitionStages"
+nameWithType: "QueueAuthorizationRule.DefinitionStages"
+summary: "Grouping of Service Bus queue authorization rule definition stages."
+syntax: "public static interface **QueueAuthorizationRule.DefinitionStages**"
+type: "interface"
+desc: "Grouping of Service Bus queue authorization rule definition stages."
 metadata: {}
+package: "com.microsoft.azure.management.servicebus"
+artifact: com.microsoft.azure:azure-mgmt-servicebus:1.41.4

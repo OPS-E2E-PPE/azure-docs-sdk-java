@@ -3,28 +3,33 @@ uid: "com.microsoft.azure.sdk.iot.device.IotHubStatusCode"
 fullName: "com.microsoft.azure.sdk.iot.device.IotHubStatusCode"
 name: "IotHubStatusCode"
 nameWithType: "IotHubStatusCode"
-summary: "An IoT Hub status code. Included in a message from an IoT Hub to a device."
+summary: "An IoT Hub status code."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-- "java.lang.Enum.clone()"
-- "java.lang.Enum.compareTo(E)"
-- "java.lang.Enum.equals(java.lang.Object)"
-- "java.lang.Enum.finalize()"
-- "java.lang.Enum.getDeclaringClass()"
-- "java.lang.Enum.hashCode()"
-- "java.lang.Enum.name()"
-- "java.lang.Enum.ordinal()"
-- "java.lang.Enum.toString()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public enum IotHubStatusCode extends Enum<IotHubStatusCode>"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"java.lang.Enum?alt=java.lang.Enum&text=Enum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)?alt=java.lang.Enum.<T>valueOf&text=<T>valueOf\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.clone()?alt=java.lang.Enum.clone&text=clone\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.compareTo(E)?alt=java.lang.Enum.compareTo&text=compareTo\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.describeConstable()?alt=java.lang.Enum.describeConstable&text=describeConstable\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.equals(java.lang.Object)?alt=java.lang.Enum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.finalize()?alt=java.lang.Enum.finalize&text=finalize\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.getDeclaringClass()?alt=java.lang.Enum.getDeclaringClass&text=getDeclaringClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.hashCode()?alt=java.lang.Enum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.name()?alt=java.lang.Enum.name&text=name\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.ordinal()?alt=java.lang.Enum.ordinal&text=ordinal\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Enum.toString()?alt=java.lang.Enum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"java.lang.Object.getClass()?alt=java.lang.Object.getClass&text=getClass\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notify()?alt=java.lang.Object.notify&text=notify\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.notifyAll()?alt=java.lang.Object.notifyAll&text=notifyAll\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait()?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"java.lang.Object.wait(long,int)?alt=java.lang.Object.wait&text=wait\" data-throw-if-not-resolved=\"False\" />"
+syntax: "public enum **IotHubStatusCode**</br> extends <xref href=\"java.lang.Enum?alt=java.lang.Enum&text=Enum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.sdk.iot.device.IotHubStatusCode?alt=com.microsoft.azure.sdk.iot.device.IotHubStatusCode&text=IotHubStatusCode\" data-throw-if-not-resolved=\"False\" />&gt;"
 fields:
 - uid: "com.microsoft.azure.sdk.iot.device.IotHubStatusCode.BAD_FORMAT"
   fullName: "com.microsoft.azure.sdk.iot.device.IotHubStatusCode.BAD_FORMAT"
@@ -87,6 +92,8 @@ methods:
   fullName: "com.microsoft.azure.sdk.iot.device.IotHubStatusCode.getConnectionStatusException(IotHubStatusCode statusCode, String statusDescription)"
   name: "getConnectionStatusException(IotHubStatusCode statusCode, String statusDescription)"
   nameWithType: "IotHubStatusCode.getConnectionStatusException(IotHubStatusCode statusCode, String statusDescription)"
+  modifiers:
+  - "static"
   parameters:
   - name: "statusCode"
     type: "<xref href=\"com.microsoft.azure.sdk.iot.device.IotHubStatusCode?alt=com.microsoft.azure.sdk.iot.device.IotHubStatusCode&text=IotHubStatusCode\" data-throw-if-not-resolved=\"False\" />"
@@ -100,11 +107,14 @@ methods:
   name: "getIotHubStatusCode(int httpsStatus)"
   nameWithType: "IotHubStatusCode.getIotHubStatusCode(int httpsStatus)"
   summary: "Returns the IoT Hub status code referenced by the HTTPS status code."
+  modifiers:
+  - "static"
   parameters:
   - description: "the HTTPS status code."
     name: "httpsStatus"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static IotHubStatusCode getIotHubStatusCode(int httpsStatus)"
+  desc: "Returns the IoT Hub status code referenced by the HTTPS status code."
   returns:
     description: "the corresponding IoT Hub status code."
     type: "<xref href=\"com.microsoft.azure.sdk.iot.device.IotHubStatusCode?alt=com.microsoft.azure.sdk.iot.device.IotHubStatusCode&text=IotHubStatusCode\" data-throw-if-not-resolved=\"False\" />"
@@ -112,6 +122,8 @@ methods:
   fullName: "com.microsoft.azure.sdk.iot.device.IotHubStatusCode.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "IotHubStatusCode.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -122,9 +134,12 @@ methods:
   fullName: "com.microsoft.azure.sdk.iot.device.IotHubStatusCode.values()"
   name: "values()"
   nameWithType: "IotHubStatusCode.values()"
+  modifiers:
+  - "static"
   syntax: "public static IotHubStatusCode[] values()"
   returns:
     type: "<xref href=\"com.microsoft.azure.sdk.iot.device.IotHubStatusCode?alt=com.microsoft.azure.sdk.iot.device.IotHubStatusCode&text=IotHubStatusCode\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "An IoT Hub status code. Included in a message from an IoT Hub to a device."
 metadata: {}
 package: "com.microsoft.azure.sdk.iot.device"
-artifact: com.microsoft.azure.sdk.iot:iot-device-client:1.26.0
+artifact: com.microsoft.azure.sdk.iot:iot-device-client:1.30.1

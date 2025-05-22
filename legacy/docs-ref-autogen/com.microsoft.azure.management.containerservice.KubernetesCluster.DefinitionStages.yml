@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: KubernetesCluster.DefinitionStages
-syntax: public interface DefinitionStages
-type: interface
-uid: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages
-fullName: com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages
-name: KubernetesCluster.DefinitionStages
-package: com.microsoft.azure.management.containerservice
-summary: <p>Grouping of Kubernetes cluster definition stages. </p>
+uid: "com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages"
+fullName: "com.microsoft.azure.management.containerservice.KubernetesCluster.DefinitionStages"
+name: "KubernetesCluster.DefinitionStages"
+nameWithType: "KubernetesCluster.DefinitionStages"
+summary: "Grouping of Kubernetes cluster definition stages."
+syntax: "public static interface **KubernetesCluster.DefinitionStages**"
+type: "interface"
+desc: "Grouping of Kubernetes cluster definition stages."
 metadata: {}
+package: "com.microsoft.azure.management.containerservice"
+artifact: com.microsoft.azure:azure-mgmt-containerservice:1.41.4

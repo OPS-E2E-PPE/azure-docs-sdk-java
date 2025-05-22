@@ -1,18 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.WithMXRecordMailExchange.withMailExchange(String,int)
-nameWithType: DnsRecordSet.DefinitionStages.MXRecordSetBlank<ParentT>
-syntax: public interface MXRecordSetBlank<ParentT> extends DnsRecordSet.DefinitionStages.WithMXRecordMailExchange<ParentT>
-type: interface
+uid: "com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.MXRecordSetBlank"
+fullName: "com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.MXRecordSetBlank<ParentT>"
+name: "DnsRecordSet.DefinitionStages.MXRecordSetBlank<ParentT>"
+nameWithType: "DnsRecordSet.DefinitionStages.MXRecordSetBlank<ParentT>"
+summary: "The first stage of a MX record definition."
+syntax: "public static interface **DnsRecordSet.DefinitionStages.MXRecordSetBlank<ParentT>**</br> extends <xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.WithMXRecordMailExchange?alt=com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.WithMXRecordMailExchange&text=WithMXRecordMailExchange\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
 typeParameters:
-- description: <p>the stage of the parent definition to return to after attaching this definition </p>
-  name: ParentT
-uid: com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.MXRecordSetBlank
-fullName: com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.MXRecordSetBlank<ParentT>
-name: DnsRecordSet.DefinitionStages.MXRecordSetBlank<ParentT>
-package: com.microsoft.azure.management.dns
-summary: >-
-  <p>The first stage of a MX record definition.</p>
-
-  <p></p>
+- description: "the stage of the parent definition to return to after attaching this definition"
+  name: "ParentT"
+desc: "The first stage of a MX record definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.WithMXRecordMailExchange?alt=com.microsoft.azure.management.dns.DnsRecordSet.DefinitionStages.WithMXRecordMailExchange&text=WithMXRecordMailExchange\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.dns"
+artifact: com.microsoft.azure:azure-mgmt-dns:1.41.4

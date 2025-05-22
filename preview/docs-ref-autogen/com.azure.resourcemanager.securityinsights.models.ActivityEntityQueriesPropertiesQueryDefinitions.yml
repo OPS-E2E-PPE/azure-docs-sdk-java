@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions"
+fullName: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions"
+name: "ActivityEntityQueriesPropertiesQueryDefinitions"
+nameWithType: "ActivityEntityQueriesPropertiesQueryDefinitions"
+summary: "The Activity query definitions."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ActivityEntityQueriesPropertiesQueryDefinitions**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions?alt=com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions&text=ActivityEntityQueriesPropertiesQueryDefinitions\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.ActivityEntityQueriesPropertiesQueryDefinitions()"
+  fullName: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.ActivityEntityQueriesPropertiesQueryDefinitions()"
+  name: "ActivityEntityQueriesPropertiesQueryDefinitions()"
+  nameWithType: "ActivityEntityQueriesPropertiesQueryDefinitions.ActivityEntityQueriesPropertiesQueryDefinitions()"
+  summary: "Creates an instance of Activity<wbr>Entity<wbr>Queries<wbr>Properties<wbr>Query<wbr>Definitions class."
+  syntax: "public ActivityEntityQueriesPropertiesQueryDefinitions()"
+  desc: "Creates an instance of ActivityEntityQueriesPropertiesQueryDefinitions class."
+methods:
+- uid: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ActivityEntityQueriesPropertiesQueryDefinitions.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Activity<wbr>Entity<wbr>Queries<wbr>Properties<wbr>Query<wbr>Definitions from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ActivityEntityQueriesPropertiesQueryDefinitions fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ActivityEntityQueriesPropertiesQueryDefinitions."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ActivityEntityQueriesPropertiesQueryDefinitions from the JsonReader."
+  returns:
+    description: "An instance of ActivityEntityQueriesPropertiesQueryDefinitions if the JsonReader was pointing to an\n instance of it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions?alt=com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions&text=ActivityEntityQueriesPropertiesQueryDefinitions\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.query()"
+  fullName: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.query()"
+  name: "query()"
+  nameWithType: "ActivityEntityQueriesPropertiesQueryDefinitions.query()"
+  summary: "Get the query property: The Activity query to run on a given entity."
+  syntax: "public String query()"
+  desc: "Get the query property: The Activity query to run on a given entity."
+  returns:
+    description: "the query value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ActivityEntityQueriesPropertiesQueryDefinitions.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.validate()"
+  fullName: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.validate()"
+  name: "validate()"
+  nameWithType: "ActivityEntityQueriesPropertiesQueryDefinitions.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.withQuery(java.lang.String)"
+  fullName: "com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions.withQuery(String query)"
+  name: "withQuery(String query)"
+  nameWithType: "ActivityEntityQueriesPropertiesQueryDefinitions.withQuery(String query)"
+  summary: "Set the query property: The Activity query to run on a given entity."
+  parameters:
+  - description: "the query value to set."
+    name: "query"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ActivityEntityQueriesPropertiesQueryDefinitions withQuery(String query)"
+  desc: "Set the query property: The Activity query to run on a given entity."
+  returns:
+    description: "the ActivityEntityQueriesPropertiesQueryDefinitions object itself."
+    type: "<xref href=\"com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions?alt=com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions&text=ActivityEntityQueriesPropertiesQueryDefinitions\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The Activity query definitions."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions?alt=com.azure.resourcemanager.securityinsights.models.ActivityEntityQueriesPropertiesQueryDefinitions&text=ActivityEntityQueriesPropertiesQueryDefinitions\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.securityinsights.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-securityinsights:1.0.0-beta.5

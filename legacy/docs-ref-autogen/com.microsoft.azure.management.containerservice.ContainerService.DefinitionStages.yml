@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ContainerService.DefinitionStages
-syntax: public interface DefinitionStages
-type: interface
-uid: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages
-fullName: com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages
-name: ContainerService.DefinitionStages
-package: com.microsoft.azure.management.containerservice
-summary: <p>Grouping of container service definition stages. </p>
+uid: "com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages"
+fullName: "com.microsoft.azure.management.containerservice.ContainerService.DefinitionStages"
+name: "ContainerService.DefinitionStages"
+nameWithType: "ContainerService.DefinitionStages"
+summary: "Grouping of container service definition stages."
+syntax: "public static interface **ContainerService.DefinitionStages**"
+type: "interface"
+desc: "Grouping of container service definition stages."
 metadata: {}
+package: "com.microsoft.azure.management.containerservice"
+artifact: com.microsoft.azure:azure-mgmt-containerservice:1.41.4

@@ -1,0 +1,118 @@
+### YamlMime:JavaType
+uid: "com.azure.analytics.purview.datamap.models.SearchFacetSort"
+fullName: "com.azure.analytics.purview.datamap.models.SearchFacetSort"
+name: "SearchFacetSort"
+nameWithType: "SearchFacetSort"
+summary: "The sorting criteria."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **SearchFacetSort**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.purview.datamap.models.SearchFacetSort?alt=com.azure.analytics.purview.datamap.models.SearchFacetSort&text=SearchFacetSort\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.analytics.purview.datamap.models.SearchFacetSort.SearchFacetSort()"
+  fullName: "com.azure.analytics.purview.datamap.models.SearchFacetSort.SearchFacetSort()"
+  name: "SearchFacetSort()"
+  nameWithType: "SearchFacetSort.SearchFacetSort()"
+  summary: "Creates an instance of Search<wbr>Facet<wbr>Sort class."
+  syntax: "public SearchFacetSort()"
+  desc: "Creates an instance of SearchFacetSort class."
+methods:
+- uid: "com.azure.analytics.purview.datamap.models.SearchFacetSort.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.analytics.purview.datamap.models.SearchFacetSort.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "SearchFacetSort.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Search<wbr>Facet<wbr>Sort from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static SearchFacetSort fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the SearchFacetSort."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of SearchFacetSort from the JsonReader."
+  returns:
+    description: "An instance of SearchFacetSort if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.analytics.purview.datamap.models.SearchFacetSort?alt=com.azure.analytics.purview.datamap.models.SearchFacetSort&text=SearchFacetSort\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.purview.datamap.models.SearchFacetSort.getCount()"
+  fullName: "com.azure.analytics.purview.datamap.models.SearchFacetSort.getCount()"
+  name: "getCount()"
+  nameWithType: "SearchFacetSort.getCount()"
+  summary: "Get the count property: Order by count."
+  syntax: "public SearchSortOrder getCount()"
+  desc: "Get the count property: Order by count."
+  returns:
+    description: "the count value."
+    type: "<xref href=\"com.azure.analytics.purview.datamap.models.SearchSortOrder?alt=com.azure.analytics.purview.datamap.models.SearchSortOrder&text=SearchSortOrder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.purview.datamap.models.SearchFacetSort.getValue()"
+  fullName: "com.azure.analytics.purview.datamap.models.SearchFacetSort.getValue()"
+  name: "getValue()"
+  nameWithType: "SearchFacetSort.getValue()"
+  summary: "Get the value property: Order by value."
+  syntax: "public SearchSortOrder getValue()"
+  desc: "Get the value property: Order by value."
+  returns:
+    description: "the value value."
+    type: "<xref href=\"com.azure.analytics.purview.datamap.models.SearchSortOrder?alt=com.azure.analytics.purview.datamap.models.SearchSortOrder&text=SearchSortOrder\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.purview.datamap.models.SearchFacetSort.setCount(com.azure.analytics.purview.datamap.models.SearchSortOrder)"
+  fullName: "com.azure.analytics.purview.datamap.models.SearchFacetSort.setCount(SearchSortOrder count)"
+  name: "setCount(SearchSortOrder count)"
+  nameWithType: "SearchFacetSort.setCount(SearchSortOrder count)"
+  summary: "Set the count property: Order by count."
+  parameters:
+  - description: "the count value to set."
+    name: "count"
+    type: "<xref href=\"com.azure.analytics.purview.datamap.models.SearchSortOrder?alt=com.azure.analytics.purview.datamap.models.SearchSortOrder&text=SearchSortOrder\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SearchFacetSort setCount(SearchSortOrder count)"
+  desc: "Set the count property: Order by count."
+  returns:
+    description: "the SearchFacetSort object itself."
+    type: "<xref href=\"com.azure.analytics.purview.datamap.models.SearchFacetSort?alt=com.azure.analytics.purview.datamap.models.SearchFacetSort&text=SearchFacetSort\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.purview.datamap.models.SearchFacetSort.setValue(com.azure.analytics.purview.datamap.models.SearchSortOrder)"
+  fullName: "com.azure.analytics.purview.datamap.models.SearchFacetSort.setValue(SearchSortOrder value)"
+  name: "setValue(SearchSortOrder value)"
+  nameWithType: "SearchFacetSort.setValue(SearchSortOrder value)"
+  summary: "Set the value property: Order by value."
+  parameters:
+  - description: "the value value to set."
+    name: "value"
+    type: "<xref href=\"com.azure.analytics.purview.datamap.models.SearchSortOrder?alt=com.azure.analytics.purview.datamap.models.SearchSortOrder&text=SearchSortOrder\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SearchFacetSort setValue(SearchSortOrder value)"
+  desc: "Set the value property: Order by value."
+  returns:
+    description: "the SearchFacetSort object itself."
+    type: "<xref href=\"com.azure.analytics.purview.datamap.models.SearchFacetSort?alt=com.azure.analytics.purview.datamap.models.SearchFacetSort&text=SearchFacetSort\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.purview.datamap.models.SearchFacetSort.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.analytics.purview.datamap.models.SearchFacetSort.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "SearchFacetSort.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The sorting criteria."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.purview.datamap.models.SearchFacetSort?alt=com.azure.analytics.purview.datamap.models.SearchFacetSort&text=SearchFacetSort\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.analytics.purview.datamap.models"
+artifact: com.azure:azure-analytics-purview-datamap:1.0.0-beta.2

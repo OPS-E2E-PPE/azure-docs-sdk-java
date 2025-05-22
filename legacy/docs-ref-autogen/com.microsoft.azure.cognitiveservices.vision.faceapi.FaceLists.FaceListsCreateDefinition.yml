@@ -1,16 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithFaceListId.withFaceListId(String)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithAllOptions.withName(String)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithAllOptions.withUserData(String)
-nameWithType: FaceLists.FaceListsCreateDefinition
-syntax: public interface FaceListsCreateDefinition extends FaceLists.FaceListsCreateDefinitionStages.WithFaceListId,FaceLists.FaceListsCreateDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinition
-name: FaceLists.FaceListsCreateDefinition
-package: com.microsoft.azure.cognitiveservices.vision.faceapi
-summary: <p>The entirety of create definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinition"
+name: "FaceLists.FaceListsCreateDefinition"
+nameWithType: "FaceLists.FaceListsCreateDefinition"
+summary: "The entirety of create definition."
+syntax: "public static interface **FaceLists.FaceListsCreateDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithFaceListId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithFaceListId&text=WithFaceListId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of create definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithFaceListId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsCreateDefinitionStages.WithFaceListId&text=WithFaceListId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.faceapi"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-faceapi:1.0.2-beta

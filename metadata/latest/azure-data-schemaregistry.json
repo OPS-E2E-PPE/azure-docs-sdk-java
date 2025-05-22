@@ -1,0 +1,34 @@
+{
+  "Name": "azure-data-schemaregistry",
+  "Version": "1.5.4",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/schemaregistry/azure-data-schemaregistry",
+  "ServiceDirectory": "schemaregistry",
+  "ReadMePath": "sdk/schemaregistry/azure-data-schemaregistry/README.md",
+  "ChangeLogPath": "sdk/schemaregistry/azure-data-schemaregistry/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-data-schemaregistry",
+  "ReleaseStatus": "2025-03-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-data-schemaregistry",
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azuredataschemaregistry }}",
+    "triggeringPaths": [
+      "/sdk/schemaregistry/ci.yml"
+    ],
+    "safeName": "azuredataschemaregistry"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.data.schemaregistry",
+    "com.azure.data.schemaregistry.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

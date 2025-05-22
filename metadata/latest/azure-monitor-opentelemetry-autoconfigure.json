@@ -1,0 +1,35 @@
+{
+  "Name": "azure-monitor-opentelemetry-autoconfigure",
+  "Version": "1.2.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/monitor/azure-monitor-opentelemetry-autoconfigure",
+  "ServiceDirectory": "monitor",
+  "ReadMePath": "sdk/monitor/azure-monitor-opentelemetry-autoconfigure/README.md",
+  "ChangeLogPath": "sdk/monitor/azure-monitor-opentelemetry-autoconfigure/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-monitor-opentelemetry-autoconfigure",
+  "ReleaseStatus": "2025-04-11",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-monitor-query-perf",
+    "com.azure:azure-monitor-ingestion-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/monitor/ci.yml"
+    ],
+    "safeName": "azuremonitoropentelemetryautoconfigure",
+    "releaseInBatch": "${{ parameters.release_azuremonitoropentelemetryautoconfigure }}",
+    "groupId": "com.azure",
+    "name": "azure-monitor-opentelemetry-autoconfigure"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.monitor.opentelemetry.autoconfigure"
+  ]
+}

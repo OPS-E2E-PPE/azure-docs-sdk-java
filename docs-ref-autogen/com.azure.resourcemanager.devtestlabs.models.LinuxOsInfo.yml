@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo"
+fullName: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo"
+name: "LinuxOsInfo"
+nameWithType: "LinuxOsInfo"
+summary: "Information about a Linux OS."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **LinuxOsInfo**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo?alt=com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo&text=LinuxOsInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.LinuxOsInfo()"
+  fullName: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.LinuxOsInfo()"
+  name: "LinuxOsInfo()"
+  nameWithType: "LinuxOsInfo.LinuxOsInfo()"
+  summary: "Creates an instance of Linux<wbr>OsInfo class."
+  syntax: "public LinuxOsInfo()"
+  desc: "Creates an instance of LinuxOsInfo class."
+methods:
+- uid: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "LinuxOsInfo.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Linux<wbr>OsInfo from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static LinuxOsInfo fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the LinuxOsInfo."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of LinuxOsInfo from the JsonReader."
+  returns:
+    description: "An instance of LinuxOsInfo if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo?alt=com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo&text=LinuxOsInfo\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.linuxOsState()"
+  fullName: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.linuxOsState()"
+  name: "linuxOsState()"
+  nameWithType: "LinuxOsInfo.linuxOsState()"
+  summary: "Get the linux<wbr>OsState property: The state of the Linux OS (i.<wbr>e."
+  syntax: "public LinuxOsState linuxOsState()"
+  desc: "Get the linuxOsState property: The state of the Linux OS (i.e. NonDeprovisioned, DeprovisionRequested, DeprovisionApplied)."
+  returns:
+    description: "the linuxOsState value."
+    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.models.LinuxOsState?alt=com.azure.resourcemanager.devtestlabs.models.LinuxOsState&text=LinuxOsState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "LinuxOsInfo.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.validate()"
+  fullName: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.validate()"
+  name: "validate()"
+  nameWithType: "LinuxOsInfo.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.withLinuxOsState(com.azure.resourcemanager.devtestlabs.models.LinuxOsState)"
+  fullName: "com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo.withLinuxOsState(LinuxOsState linuxOsState)"
+  name: "withLinuxOsState(LinuxOsState linuxOsState)"
+  nameWithType: "LinuxOsInfo.withLinuxOsState(LinuxOsState linuxOsState)"
+  summary: "Set the linux<wbr>OsState property: The state of the Linux OS (i.<wbr>e."
+  parameters:
+  - description: "the linuxOsState value to set."
+    name: "linuxOsState"
+    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.models.LinuxOsState?alt=com.azure.resourcemanager.devtestlabs.models.LinuxOsState&text=LinuxOsState\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public LinuxOsInfo withLinuxOsState(LinuxOsState linuxOsState)"
+  desc: "Set the linuxOsState property: The state of the Linux OS (i.e. NonDeprovisioned, DeprovisionRequested, DeprovisionApplied)."
+  returns:
+    description: "the LinuxOsInfo object itself."
+    type: "<xref href=\"com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo?alt=com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo&text=LinuxOsInfo\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Information about a Linux OS."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo?alt=com.azure.resourcemanager.devtestlabs.models.LinuxOsInfo&text=LinuxOsInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.devtestlabs.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-devtestlabs:1.1.0

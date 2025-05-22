@@ -1,16 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithFaceListId.withFaceListId(String)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithAllOptions.withName(String)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithAllOptions.withUserData(String)
-nameWithType: FaceLists.FaceListsUpdateDefinition
-syntax: public interface FaceListsUpdateDefinition extends FaceLists.FaceListsUpdateDefinitionStages.WithFaceListId,FaceLists.FaceListsUpdateDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinition
-name: FaceLists.FaceListsUpdateDefinition
-package: com.microsoft.azure.cognitiveservices.vision.faceapi
-summary: <p>The entirety of update definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinition"
+name: "FaceLists.FaceListsUpdateDefinition"
+nameWithType: "FaceLists.FaceListsUpdateDefinition"
+summary: "The entirety of update definition."
+syntax: "public static interface **FaceLists.FaceListsUpdateDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithFaceListId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithFaceListId&text=WithFaceListId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of update definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithFaceListId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsUpdateDefinitionStages.WithFaceListId&text=WithFaceListId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.faceapi"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-faceapi:1.0.2-beta

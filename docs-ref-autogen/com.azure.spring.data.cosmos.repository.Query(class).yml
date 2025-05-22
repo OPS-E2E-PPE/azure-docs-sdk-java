@@ -4,12 +4,24 @@ fullName: "com.azure.spring.data.cosmos.repository.Query"
 name: "Query"
 nameWithType: "Query"
 summary: "Annotation to declare finder queries directly on repository methods."
-syntax: "public interface Query implements Annotation"
+syntax: "public interface **Query**</br> implements <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/annotation/Annotation.html\">Annotation</a>"
 methods:
-- "com.azure.spring.data.cosmos.repository.Query.value()"
+- uid: "com.azure.spring.data.cosmos.repository.Query.value()"
+  fullName: "com.azure.spring.data.cosmos.repository.Query.value()"
+  name: "value()"
+  nameWithType: "Query.value()"
+  summary: "value of the query"
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String value()"
+  desc: "value of the query"
+  returns:
+    description: "the value"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
+desc: "Annotation to declare finder queries directly on repository methods."
 implements:
-- "<xref href=\"java.lang.annotation.Annotation?alt=java.lang.annotation.Annotation&text=Annotation\" data-throw-if-not-resolved=\"False\" />"
+- "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/annotation/Annotation.html\">Annotation</a>"
 metadata: {}
 package: "com.azure.spring.data.cosmos.repository"
-artifact: com.azure:azure-spring-data-cosmos:3.6.0
+artifact: com.azure:azure-spring-data-cosmos:3.47.0

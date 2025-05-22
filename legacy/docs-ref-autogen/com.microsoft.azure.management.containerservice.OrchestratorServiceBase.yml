@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: OrchestratorServiceBase
-syntax: public interface OrchestratorServiceBase
-type: interface
-uid: com.microsoft.azure.management.containerservice.OrchestratorServiceBase
-fullName: com.microsoft.azure.management.containerservice.OrchestratorServiceBase
-name: OrchestratorServiceBase
-package: com.microsoft.azure.management.containerservice
-summary: <p>A common representation for Azure container services orchestrators. </p>
+uid: "com.microsoft.azure.management.containerservice.OrchestratorServiceBase"
+fullName: "com.microsoft.azure.management.containerservice.OrchestratorServiceBase"
+name: "OrchestratorServiceBase"
+nameWithType: "OrchestratorServiceBase"
+summary: "A common representation for Azure container services orchestrators."
+syntax: "public interface **OrchestratorServiceBase**"
+type: "interface"
+desc: "A common representation for Azure container services orchestrators."
 metadata: {}
+package: "com.microsoft.azure.management.containerservice"
+artifact: com.microsoft.azure:azure-mgmt-containerservice:1.41.4

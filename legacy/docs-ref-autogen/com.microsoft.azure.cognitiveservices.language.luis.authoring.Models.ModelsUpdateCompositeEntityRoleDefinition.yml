@@ -1,18 +1,18 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithAppId.withAppId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithCEntityId.withCEntityId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithAllOptions.withName(String)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithRoleId.withRoleId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithVersionId.withVersionId(String)
-nameWithType: Models.ModelsUpdateCompositeEntityRoleDefinition
-syntax: public interface ModelsUpdateCompositeEntityRoleDefinition extends Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithAppId,Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithVersionId,Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithCEntityId,Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithRoleId,Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinition
-name: Models.ModelsUpdateCompositeEntityRoleDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of updateCompositeEntityRole definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinition"
+name: "Models.ModelsUpdateCompositeEntityRoleDefinition"
+nameWithType: "Models.ModelsUpdateCompositeEntityRoleDefinition"
+summary: "The entirety of update<wbr>Composite<wbr>Entity<wbr>Role definition."
+syntax: "public static interface **Models.ModelsUpdateCompositeEntityRoleDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithCEntityId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithCEntityId&text=WithCEntityId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithRoleId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithRoleId&text=WithRoleId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of updateCompositeEntityRole definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithCEntityId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithCEntityId&text=WithCEntityId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithRoleId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithRoleId&text=WithRoleId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateCompositeEntityRoleDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

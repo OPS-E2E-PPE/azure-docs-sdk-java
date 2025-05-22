@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.monitor.models.DiagnosticSetting.Definition
 name: "DiagnosticSetting.DefinitionStages"
 nameWithType: "DiagnosticSetting.DefinitionStages"
 summary: "Grouping of diagnostic settings definition stages."
-syntax: "public static interface DiagnosticSetting.DefinitionStages"
+syntax: "public static interface **DiagnosticSetting.DefinitionStages**"
 type: "interface"
+desc: "Grouping of diagnostic settings definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.monitor.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.50.0

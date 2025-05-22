@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.mediaservices.models.StreamingEndpoint.Definitio
 fullName: "com.azure.resourcemanager.mediaservices.models.StreamingEndpoint.DefinitionStages"
 name: "StreamingEndpoint.DefinitionStages"
 nameWithType: "StreamingEndpoint.DefinitionStages"
-summary: "The StreamingEndpoint definition stages."
-syntax: "public static interface StreamingEndpoint.DefinitionStages"
+summary: "The Streaming<wbr>Endpoint definition stages."
+syntax: "public static interface **StreamingEndpoint.DefinitionStages**"
 type: "interface"
+desc: "The StreamingEndpoint definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.3.0

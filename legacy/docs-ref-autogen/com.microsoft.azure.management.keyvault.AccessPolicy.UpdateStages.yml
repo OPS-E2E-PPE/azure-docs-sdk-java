@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: AccessPolicy.UpdateStages
-syntax: public interface UpdateStages
-type: interface
-uid: com.microsoft.azure.management.keyvault.AccessPolicy.UpdateStages
-fullName: com.microsoft.azure.management.keyvault.AccessPolicy.UpdateStages
-name: AccessPolicy.UpdateStages
-package: com.microsoft.azure.management.keyvault
-summary: <p>Grouping of all the key vault update stages. </p>
+uid: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateStages"
+fullName: "com.microsoft.azure.management.keyvault.AccessPolicy.UpdateStages"
+name: "AccessPolicy.UpdateStages"
+nameWithType: "AccessPolicy.UpdateStages"
+summary: "Grouping of all the key vault update stages."
+syntax: "public static interface **AccessPolicy.UpdateStages**"
+type: "interface"
+desc: "Grouping of all the key vault update stages."
 metadata: {}
+package: "com.microsoft.azure.management.keyvault"
+artifact: com.microsoft.azure:azure-mgmt-keyvault:1.41.4

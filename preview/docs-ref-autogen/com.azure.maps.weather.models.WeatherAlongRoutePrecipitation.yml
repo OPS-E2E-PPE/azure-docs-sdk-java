@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation"
+fullName: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation"
+name: "WeatherAlongRoutePrecipitation"
+nameWithType: "WeatherAlongRoutePrecipitation"
+summary: "Precipitation forecast of the weather along the route."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **WeatherAlongRoutePrecipitation**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.weather.models.WeatherAlongRoutePrecipitation?alt=com.azure.maps.weather.models.WeatherAlongRoutePrecipitation&text=WeatherAlongRoutePrecipitation\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "WeatherAlongRoutePrecipitation.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Weather<wbr>Along<wbr>Route<wbr>Precipitation from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static WeatherAlongRoutePrecipitation fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the WeatherAlongRoutePrecipitation."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of WeatherAlongRoutePrecipitation from the JsonReader."
+  returns:
+    description: "An instance of WeatherAlongRoutePrecipitation if the JsonReader was pointing to an instance of it, or\n null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.maps.weather.models.WeatherAlongRoutePrecipitation?alt=com.azure.maps.weather.models.WeatherAlongRoutePrecipitation&text=WeatherAlongRoutePrecipitation\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation.getDeciblesRelativeToZ()"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation.getDeciblesRelativeToZ()"
+  name: "getDeciblesRelativeToZ()"
+  nameWithType: "WeatherAlongRoutePrecipitation.getDeciblesRelativeToZ()"
+  summary: "Get the dbz property: The forecasted precipitation intensity in dBZ (decibels relative to Z) from 0.0 to 100.0."
+  syntax: "public Double getDeciblesRelativeToZ()"
+  desc: "Get the dbz property: The forecasted precipitation intensity in dBZ (decibels relative to Z) from 0.0 to 100.0."
+  returns:
+    description: "the dbz value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html\">Double</a>"
+- uid: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation.getType()"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation.getType()"
+  name: "getType()"
+  nameWithType: "WeatherAlongRoutePrecipitation.getType()"
+  summary: "Get the type property: Precipitation type."
+  syntax: "public String getType()"
+  desc: "Get the type property: Precipitation type. If precipitation should occur, the type that it will be: \"RAIN,\" \"HAIL,\" \"SNOW,\" \"ICE,\" or \"MIX.\"."
+  returns:
+    description: "the type value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRoutePrecipitation.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "WeatherAlongRoutePrecipitation.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Precipitation forecast of the weather along the route."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.weather.models.WeatherAlongRoutePrecipitation?alt=com.azure.maps.weather.models.WeatherAlongRoutePrecipitation&text=WeatherAlongRoutePrecipitation\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.maps.weather.models"
+artifact: com.azure:azure-maps-weather:1.0.0-beta.3

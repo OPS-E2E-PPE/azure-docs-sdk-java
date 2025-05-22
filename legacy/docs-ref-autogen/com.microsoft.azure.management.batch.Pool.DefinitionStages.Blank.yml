@@ -1,33 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withApplicationLicenses(List<String>)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withApplicationPackages(List<ApplicationPackageReference>)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withCertificates(List<CertificateReference>)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withDeploymentConfiguration(DeploymentConfiguration)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withDisplayName(String)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withInterNodeCommunication(InterNodeCommunicationState)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withMaxTasksPerNode(Integer)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withMetadata(List<MetadataItem>)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withMountConfiguration(List<MountConfiguration>)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withNetworkConfiguration(NetworkConfiguration)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withScaleSettings(ScaleSettings)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withStartTask(StartTask)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withTaskSchedulingPolicy(TaskSchedulingPolicy)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withUserAccounts(List<UserAccount>)
-- com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach.withVmSize(String)
-nameWithType: Pool.DefinitionStages.Blank<ParentT>
-syntax: public interface Blank<ParentT> extends Pool.DefinitionStages.WithAttach<ParentT>
-type: interface
+uid: "com.microsoft.azure.management.batch.Pool.DefinitionStages.Blank"
+fullName: "com.microsoft.azure.management.batch.Pool.DefinitionStages.Blank<ParentT>"
+name: "Pool.DefinitionStages.Blank<ParentT>"
+nameWithType: "Pool.DefinitionStages.Blank<ParentT>"
+summary: "The first stage of a batch pool definition."
+syntax: "public static interface **Pool.DefinitionStages.Blank<ParentT>**</br> extends <xref href=\"com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach?alt=com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
 typeParameters:
-- description: <p>the stage of the parent Batch account definition to return to after attaching this definition </p>
-  name: ParentT
-uid: com.microsoft.azure.management.batch.Pool.DefinitionStages.Blank
-fullName: com.microsoft.azure.management.batch.Pool.DefinitionStages.Blank<ParentT>
-name: Pool.DefinitionStages.Blank<ParentT>
-package: com.microsoft.azure.management.batch
-summary: >-
-  <p>The first stage of a batch pool definition.</p>
-
-  <p></p>
+- description: "the stage of the parent Batch account definition to return to after attaching this definition"
+  name: "ParentT"
+desc: "The first stage of a batch pool definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach?alt=com.microsoft.azure.management.batch.Pool.DefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.batch"
+artifact: com.microsoft.azure:azure-mgmt-batch:1.41.4

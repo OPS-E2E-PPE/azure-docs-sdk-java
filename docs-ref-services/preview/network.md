@@ -1,18 +1,13 @@
 ---
 title: Azure Network libraries for Java
-description: Reference documentation for the Java Azure Network management libraries 
+description: Reference documentation for the Java Azure Network management libraries
 keywords: Azure, Java, SDK, API, networking, load balancing, vnet , subnet
-author: rloutlaw
-ms.author: routlaw
-manager: douge
 ms.date: 07/20/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: java
 ms.service: networking
+manager: douge
 ---
-
 # Azure Network libraries for Java
 
 ## Overview
@@ -61,3 +56,4 @@ Network virtualNetwork1 = azure.networks().define(vnetName1)
 [Manage internet facing load balancers](https://github.com/Azure-Samples/network-java-manage-internet-facing-load-balancers)   
 
 Explore more [sample Java code for Azure Networking](https://azure.microsoft.com/resources/samples/?platform=java&term=network) you can use in your apps.
+

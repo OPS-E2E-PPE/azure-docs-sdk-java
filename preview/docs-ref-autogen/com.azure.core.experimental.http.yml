@@ -6,6 +6,7 @@ summary: "Package containing the classes for sending HTTP requests and receiving
 classes:
 - "com.azure.core.experimental.http.DynamicRequest"
 - "com.azure.core.experimental.http.DynamicResponse"
+desc: "Package containing the classes for sending HTTP requests and receiving HTTP responses for a low level client."
 metadata: {}
 package: "com.azure.core.experimental.http"
-artifact: com.azure:azure-core-experimental:1.0.0-beta.12
+artifact: com.azure:azure-core-experimental:1.0.0-beta.60

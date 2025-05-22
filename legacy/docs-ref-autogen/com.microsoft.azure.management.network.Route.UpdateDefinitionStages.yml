@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Route.UpdateDefinitionStages
-syntax: public interface UpdateDefinitionStages
-type: interface
-uid: com.microsoft.azure.management.network.Route.UpdateDefinitionStages
-fullName: com.microsoft.azure.management.network.Route.UpdateDefinitionStages
-name: Route.UpdateDefinitionStages
-package: com.microsoft.azure.management.network
-summary: <p>Grouping of route definition stages applicable as part of a route table update. </p>
+uid: "com.microsoft.azure.management.network.Route.UpdateDefinitionStages"
+fullName: "com.microsoft.azure.management.network.Route.UpdateDefinitionStages"
+name: "Route.UpdateDefinitionStages"
+nameWithType: "Route.UpdateDefinitionStages"
+summary: "Grouping of route definition stages applicable as part of a route table update."
+syntax: "public static interface **Route.UpdateDefinitionStages**"
+type: "interface"
+desc: "Grouping of route definition stages applicable as part of a route table update."
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

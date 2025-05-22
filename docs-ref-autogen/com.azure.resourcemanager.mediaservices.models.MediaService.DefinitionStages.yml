@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.mediaservices.models.MediaService.DefinitionStag
 fullName: "com.azure.resourcemanager.mediaservices.models.MediaService.DefinitionStages"
 name: "MediaService.DefinitionStages"
 nameWithType: "MediaService.DefinitionStages"
-summary: "The MediaService definition stages."
-syntax: "public static interface MediaService.DefinitionStages"
+summary: "The Media<wbr>Service definition stages."
+syntax: "public static interface **MediaService.DefinitionStages**"
 type: "interface"
+desc: "The MediaService definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.3.0

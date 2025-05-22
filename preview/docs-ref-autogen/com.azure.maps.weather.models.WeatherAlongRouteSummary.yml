@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.weather.models.WeatherAlongRouteSummary"
+fullName: "com.azure.maps.weather.models.WeatherAlongRouteSummary"
+name: "WeatherAlongRouteSummary"
+nameWithType: "WeatherAlongRouteSummary"
+summary: "Short summary of the weather along the route."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **WeatherAlongRouteSummary**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.weather.models.WeatherAlongRouteSummary?alt=com.azure.maps.weather.models.WeatherAlongRouteSummary&text=WeatherAlongRouteSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.maps.weather.models.WeatherAlongRouteSummary.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRouteSummary.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "WeatherAlongRouteSummary.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Weather<wbr>Along<wbr>Route<wbr>Summary from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static WeatherAlongRouteSummary fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the WeatherAlongRouteSummary."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of WeatherAlongRouteSummary from the JsonReader."
+  returns:
+    description: "An instance of WeatherAlongRouteSummary if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.maps.weather.models.WeatherAlongRouteSummary?alt=com.azure.maps.weather.models.WeatherAlongRouteSummary&text=WeatherAlongRouteSummary\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.weather.models.WeatherAlongRouteSummary.getHazards()"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRouteSummary.getHazards()"
+  name: "getHazards()"
+  nameWithType: "WeatherAlongRouteSummary.getHazards()"
+  summary: "Get the hazards property: Description of the weather hazard affecting the trip."
+  syntax: "public WeatherHazards getHazards()"
+  desc: "Get the hazards property: Description of the weather hazard affecting the trip."
+  returns:
+    description: "the hazards value."
+    type: "<xref href=\"com.azure.maps.weather.models.WeatherHazards?alt=com.azure.maps.weather.models.WeatherHazards&text=WeatherHazards\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.weather.models.WeatherAlongRouteSummary.getIconCode()"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRouteSummary.getIconCode()"
+  name: "getIconCode()"
+  nameWithType: "WeatherAlongRouteSummary.getIconCode()"
+  summary: "Get the icon<wbr>Code property: Numeric value representing an image that displays the \\`icon<wbr>Phrase\\`."
+  syntax: "public IconCode getIconCode()"
+  desc: "Get the iconCode property: Numeric value representing an image that displays the \\`iconPhrase\\`. Please refer to \\[Weather services in Azure Maps\\](/azure/azure-maps/weather-services-concepts\\#weather-icons) for details."
+  returns:
+    description: "the iconCode value."
+    type: "<xref href=\"com.azure.maps.weather.models.IconCode?alt=com.azure.maps.weather.models.IconCode&text=IconCode\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.weather.models.WeatherAlongRouteSummary.setHazards(com.azure.maps.weather.models.WeatherHazards)"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRouteSummary.setHazards(WeatherHazards hazards)"
+  name: "setHazards(WeatherHazards hazards)"
+  nameWithType: "WeatherAlongRouteSummary.setHazards(WeatherHazards hazards)"
+  summary: "Set the hazards property: Description of the weather hazard affecting the trip."
+  parameters:
+  - description: "the hazards value to set."
+    name: "hazards"
+    type: "<xref href=\"com.azure.maps.weather.models.WeatherHazards?alt=com.azure.maps.weather.models.WeatherHazards&text=WeatherHazards\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public WeatherAlongRouteSummary setHazards(WeatherHazards hazards)"
+  desc: "Set the hazards property: Description of the weather hazard affecting the trip."
+  returns:
+    description: "the WeatherAlongRouteSummary object itself."
+    type: "<xref href=\"com.azure.maps.weather.models.WeatherAlongRouteSummary?alt=com.azure.maps.weather.models.WeatherAlongRouteSummary&text=WeatherAlongRouteSummary\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.weather.models.WeatherAlongRouteSummary.setIconCode(com.azure.maps.weather.models.IconCode)"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRouteSummary.setIconCode(IconCode iconCode)"
+  name: "setIconCode(IconCode iconCode)"
+  nameWithType: "WeatherAlongRouteSummary.setIconCode(IconCode iconCode)"
+  summary: "Set the icon<wbr>Code property: Numeric value representing an image that displays the \\`icon<wbr>Phrase\\`."
+  parameters:
+  - description: "the iconCode value to set."
+    name: "iconCode"
+    type: "<xref href=\"com.azure.maps.weather.models.IconCode?alt=com.azure.maps.weather.models.IconCode&text=IconCode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public WeatherAlongRouteSummary setIconCode(IconCode iconCode)"
+  desc: "Set the iconCode property: Numeric value representing an image that displays the \\`iconPhrase\\`. Please refer to \\[Weather services in Azure Maps\\](/azure/azure-maps/weather-services-concepts\\#weather-icons) for details."
+  returns:
+    description: "the WeatherAlongRouteSummary object itself."
+    type: "<xref href=\"com.azure.maps.weather.models.WeatherAlongRouteSummary?alt=com.azure.maps.weather.models.WeatherAlongRouteSummary&text=WeatherAlongRouteSummary\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.weather.models.WeatherAlongRouteSummary.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.maps.weather.models.WeatherAlongRouteSummary.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "WeatherAlongRouteSummary.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Short summary of the weather along the route."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.weather.models.WeatherAlongRouteSummary?alt=com.azure.maps.weather.models.WeatherAlongRouteSummary&text=WeatherAlongRouteSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.maps.weather.models"
+artifact: com.azure:azure-maps-weather:1.0.0-beta.3

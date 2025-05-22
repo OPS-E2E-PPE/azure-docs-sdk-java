@@ -1,0 +1,27 @@
+{
+  "Name": "azure-resourcemanager-devspaces",
+  "Version": "1.0.0-beta.3",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/devspaces/azure-resourcemanager-devspaces",
+  "ServiceDirectory": "devspaces",
+  "ReadMePath": "sdk/devspaces/azure-resourcemanager-devspaces/README.md",
+  "ChangeLogPath": "sdk/devspaces/azure-resourcemanager-devspaces/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-devspaces",
+  "ReleaseStatus": "2024-10-17",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-devspaces",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerdevspaces"
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.devspaces",
+    "com.azure.resourcemanager.devspaces.fluent",
+    "com.azure.resourcemanager.devspaces.fluent.models",
+    "com.azure.resourcemanager.devspaces.models"
+  ]
+}

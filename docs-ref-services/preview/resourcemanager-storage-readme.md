@@ -1,20 +1,15 @@
 ---
 title: Azure Resource Manager storage client library for Java
 keywords: Azure, java, SDK, API, azure-resourcemanager-storage, storage
-author: maggiepint
-ms.author: magpint
 ms.date: 09/03/2020
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.topic: reference
 ms.devlang: java
 ms.service: storage
 ---
+# Azure Resource Manager storage client library for Java - version 2.0.0-beta.4 
 
-# Azure Resource Manager storage client library for Java - Version 2.0.0-beta.4 
 
-
-Azure Resource Manager storage client library for Java - Version 2.0.0-beta.4 
+Azure Resource Manager storage client library for Java - version 2.0.0-beta.4 
 
 
 For documentation on how to use this package, please see [Azure Management Libraries for Java](https://aka.ms/azure-sdk-java-mgmt).

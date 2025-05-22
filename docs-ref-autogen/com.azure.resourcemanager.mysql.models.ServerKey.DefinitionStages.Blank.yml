@@ -3,11 +3,12 @@ uid: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.Blank"
 fullName: "com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.Blank"
 name: "ServerKey.DefinitionStages.Blank"
 nameWithType: "ServerKey.DefinitionStages.Blank"
-summary: "The first stage of the ServerKey definition."
-syntax: "public static interface ServerKey.DefinitionStages.Blank extends ServerKey.DefinitionStages.WithParentResource"
+summary: "The first stage of the Server<wbr>Key definition."
+syntax: "public static interface **ServerKey.DefinitionStages.Blank**</br> extends <xref href=\"com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "The first stage of the ServerKey definition."
 implements:
 - "<xref href=\"com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithParentResource?alt=com.azure.resourcemanager.mysql.models.ServerKey.DefinitionStages.WithParentResource&text=WithParentResource\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.mysql.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-mysql:1.0.2

@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: DiagnosticSetting.DefinitionStages
-syntax: public interface DefinitionStages
-type: interface
-uid: com.microsoft.azure.management.monitor.DiagnosticSetting.DefinitionStages
-fullName: com.microsoft.azure.management.monitor.DiagnosticSetting.DefinitionStages
-name: DiagnosticSetting.DefinitionStages
-package: com.microsoft.azure.management.monitor
-summary: <p>Grouping of diagnostic settings definition stages. </p>
+uid: "com.microsoft.azure.management.monitor.DiagnosticSetting.DefinitionStages"
+fullName: "com.microsoft.azure.management.monitor.DiagnosticSetting.DefinitionStages"
+name: "DiagnosticSetting.DefinitionStages"
+nameWithType: "DiagnosticSetting.DefinitionStages"
+summary: "Grouping of diagnostic settings definition stages."
+syntax: "public static interface **DiagnosticSetting.DefinitionStages**"
+type: "interface"
+desc: "Grouping of diagnostic settings definition stages."
 metadata: {}
+package: "com.microsoft.azure.management.monitor"
+artifact: com.microsoft.azure:azure-mgmt-monitor:1.41.4

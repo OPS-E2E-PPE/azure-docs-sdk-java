@@ -4,10 +4,11 @@ fullName: "com.azure.resourcemanager.eventhubs.models.EventHubDisasterRecoveryPa
 name: "EventHubDisasterRecoveryPairing.DefinitionStages.Blank"
 nameWithType: "EventHubDisasterRecoveryPairing.DefinitionStages.Blank"
 summary: "The first stage of a disaster recovery pairing definition."
-syntax: "public static interface EventHubDisasterRecoveryPairing.DefinitionStages.Blank extends EventHubDisasterRecoveryPairing.DefinitionStages.WithPrimaryNamespace"
+syntax: "public static interface **EventHubDisasterRecoveryPairing.DefinitionStages.Blank**</br> extends <xref href=\"com.azure.resourcemanager.eventhubs.models.EventHubDisasterRecoveryPairing.DefinitionStages.WithPrimaryNamespace?alt=com.azure.resourcemanager.eventhubs.models.EventHubDisasterRecoveryPairing.DefinitionStages.WithPrimaryNamespace&text=WithPrimaryNamespace\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "The first stage of a disaster recovery pairing definition."
 implements:
 - "<xref href=\"com.azure.resourcemanager.eventhubs.models.EventHubDisasterRecoveryPairing.DefinitionStages.WithPrimaryNamespace?alt=com.azure.resourcemanager.eventhubs.models.EventHubDisasterRecoveryPairing.DefinitionStages.WithPrimaryNamespace&text=WithPrimaryNamespace\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.eventhubs.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-eventhubs:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-eventhubs:2.50.0

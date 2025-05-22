@@ -4,12 +4,24 @@ fullName: "com.azure.core.annotation.ServiceInterface"
 name: "ServiceInterface"
 nameWithType: "ServiceInterface"
 summary: "Annotation to give the service interfaces a name that correlates to the service that is usable in a programmatic way."
-syntax: "public interface ServiceInterface implements Annotation"
+syntax: "public interface **ServiceInterface**</br> implements <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/annotation/Annotation.html\">Annotation</a>"
 methods:
-- "com.azure.core.annotation.ServiceInterface.name()"
+- uid: "com.azure.core.annotation.ServiceInterface.name()"
+  fullName: "com.azure.core.annotation.ServiceInterface.name()"
+  name: "name()"
+  nameWithType: "ServiceInterface.name()"
+  summary: "Name of the service - this must be short and without spaces."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Name of the service - this must be short and without spaces."
+  returns:
+    description: "the service name given to the interface."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
+desc: "Annotation to give the service interfaces a name that correlates to the service that is usable in a programmatic way."
 implements:
-- "<xref href=\"java.lang.annotation.Annotation?alt=java.lang.annotation.Annotation&text=Annotation\" data-throw-if-not-resolved=\"False\" />"
+- "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/annotation/Annotation.html\">Annotation</a>"
 metadata: {}
 package: "com.azure.core.annotation"
-artifact: com.azure:azure-core:1.15.0
+artifact: com.azure:azure-core:1.55.3

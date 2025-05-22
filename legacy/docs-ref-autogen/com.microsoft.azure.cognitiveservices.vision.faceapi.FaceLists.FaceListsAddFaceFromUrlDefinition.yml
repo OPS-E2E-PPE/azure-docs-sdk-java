@@ -1,17 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId.withFaceListId(String)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithAllOptions.withTargetFace(List<Integer>)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithUrl.withUrl(String)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithAllOptions.withUserData(String)
-nameWithType: FaceLists.FaceListsAddFaceFromUrlDefinition
-syntax: public interface FaceListsAddFaceFromUrlDefinition extends FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId,FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithUrl,FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinition
-name: FaceLists.FaceListsAddFaceFromUrlDefinition
-package: com.microsoft.azure.cognitiveservices.vision.faceapi
-summary: <p>The entirety of addFaceFromUrl definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinition"
+name: "FaceLists.FaceListsAddFaceFromUrlDefinition"
+nameWithType: "FaceLists.FaceListsAddFaceFromUrlDefinition"
+summary: "The entirety of add<wbr>Face<wbr>From<wbr>Url definition."
+syntax: "public static interface **FaceLists.FaceListsAddFaceFromUrlDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId&text=WithFaceListId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithUrl?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithUrl&text=WithUrl\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of addFaceFromUrl definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId&text=WithFaceListId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithUrl?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromUrlDefinitionStages.WithUrl&text=WithUrl\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.faceapi"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-faceapi:1.0.2-beta

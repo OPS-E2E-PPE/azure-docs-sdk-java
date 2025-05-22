@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.containerregistry.models.Webhook.UpdateDefi
 name: "Webhook.UpdateDefinitionStages"
 nameWithType: "Webhook.UpdateDefinitionStages"
 summary: "Grouping of webhook update definition stages."
-syntax: "public static interface Webhook.UpdateDefinitionStages"
+syntax: "public static interface **Webhook.UpdateDefinitionStages**"
 type: "interface"
+desc: "Grouping of webhook update definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.containerregistry.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.50.0

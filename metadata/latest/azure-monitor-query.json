@@ -1,0 +1,35 @@
+{
+  "Name": "azure-monitor-query",
+  "Version": "1.5.5",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/monitor/azure-monitor-query",
+  "ServiceDirectory": "monitor",
+  "ReadMePath": "sdk/monitor/azure-monitor-query/README.md",
+  "ChangeLogPath": "sdk/monitor/azure-monitor-query/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-monitor-query",
+  "ReleaseStatus": "2025-02-18",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-monitor-query-perf",
+    "com.azure:azure-monitor-ingestion-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azuremonitorquery }}",
+    "name": "azure-monitor-query",
+    "safeName": "azuremonitorquery"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.monitor.query",
+    "com.azure.monitor.query.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

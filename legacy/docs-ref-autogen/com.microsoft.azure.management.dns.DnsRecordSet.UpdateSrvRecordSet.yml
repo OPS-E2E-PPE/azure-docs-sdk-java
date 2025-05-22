@@ -1,19 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Settable.parent()
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck()
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithETagCheck.withETagCheck(String)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withMetadata(String,String)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithMetadata.withoutMetadata(String)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSrvRecordEntry.withoutRecord(String,int,int,int)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSrvRecordEntry.withRecord(String,int,int,int)
-- com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithTtl.withTimeToLive(long)
-nameWithType: DnsRecordSet.UpdateSrvRecordSet
-syntax: public interface UpdateSrvRecordSet extends DnsRecordSet.UpdateStages.WithSrvRecordEntry,DnsRecordSet.Update
-type: interface
-uid: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSrvRecordSet
-fullName: com.microsoft.azure.management.dns.DnsRecordSet.UpdateSrvRecordSet
-name: DnsRecordSet.UpdateSrvRecordSet
-package: com.microsoft.azure.management.dns
-summary: <p>The entirety of a SRV record set update as a part of parent DNS zone update. </p>
+uid: "com.microsoft.azure.management.dns.DnsRecordSet.UpdateSrvRecordSet"
+fullName: "com.microsoft.azure.management.dns.DnsRecordSet.UpdateSrvRecordSet"
+name: "DnsRecordSet.UpdateSrvRecordSet"
+nameWithType: "DnsRecordSet.UpdateSrvRecordSet"
+summary: "The entirety of a SRV record set update as a part of parent DNS zone update."
+syntax: "public static interface **DnsRecordSet.UpdateSrvRecordSet**</br> extends <xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSrvRecordEntry?alt=com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSrvRecordEntry&text=WithSrvRecordEntry\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.Update?alt=com.microsoft.azure.management.dns.DnsRecordSet.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of a SRV record set update as a part of parent DNS zone update."
+implements:
+- "<xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.Update?alt=com.microsoft.azure.management.dns.DnsRecordSet.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSrvRecordEntry?alt=com.microsoft.azure.management.dns.DnsRecordSet.UpdateStages.WithSrvRecordEntry&text=WithSrvRecordEntry\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.dns"
+artifact: com.microsoft.azure:azure-mgmt-dns:1.41.4

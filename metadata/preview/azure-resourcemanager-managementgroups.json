@@ -1,0 +1,28 @@
+{
+  "Name": "azure-resourcemanager-managementgroups",
+  "Version": "1.0.0-beta.2",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/managementgroups/azure-resourcemanager-managementgroups",
+  "ServiceDirectory": "managementgroups",
+  "ReadMePath": "sdk/managementgroups/azure-resourcemanager-managementgroups/README.md",
+  "ChangeLogPath": "sdk/managementgroups/azure-resourcemanager-managementgroups/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-managementgroups",
+  "ReleaseStatus": "2024-10-28",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-managementgroups",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagermanagementgroups",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagermanagementgroups }}"
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.managementgroups",
+    "com.azure.resourcemanager.managementgroups.fluent",
+    "com.azure.resourcemanager.managementgroups.fluent.models",
+    "com.azure.resourcemanager.managementgroups.models"
+  ]
+}

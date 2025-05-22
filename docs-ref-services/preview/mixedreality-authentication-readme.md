@@ -1,17 +1,12 @@
 ---
 title: Azure Mixed Reality client library for Java
-keywords: Azure, java, SDK, API, azure-mixedreality-authentication, 
-author: maggiepint
-ms.author: magpint
+keywords: Azure, java, SDK, API, azure-mixedreality-authentication,
 ms.date: 02/23/2021
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.topic: reference
 ms.devlang: java
 ms.service: 
 ---
-
-# Azure Mixed Reality client library for Java - Version 1.0.0-beta.1 
+# Azure Mixed Reality client library for Java - version 1.0.0-beta.1 
 
 
 Mixed Reality services, like Azure Spatial Anchors, Azure Remote Rendering, and others, use the Mixed Reality security
@@ -168,5 +163,5 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 [api_documentation]: https://aka.ms/java-docs
 [source]: https://github.com/Azure/azure-sdk-for-java/tree/azure-mixedreality-authentication_1.0.0-beta.1/sdk/mixedreality/azure-mixedreality-authentication
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-java%2Fsdk%2Fmixedreality%2Fazure-mixedreality-authentication%2FREADME.png)
+
 

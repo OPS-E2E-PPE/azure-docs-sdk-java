@@ -1,18 +1,13 @@
 ---
-title: Azure Resource Manager libraries for Java
-description: Reference documentation for the Java Resource Manager libraries 
+title: Azure Resources SDK for Java
+description: Reference for Azure Resources SDK for Java
 keywords: Azure, Java, SDK, API, resource groups, arm, resource manager
-author: rloutlaw
-ms.author: routlaw
-manager: douge
 ms.date: 06/21/2017
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.topic: reference
 ms.devlang: java
-ms.service: data-lake-store
+ms.service: azure-resource-manager
+manager: douge
 ---
-
 # Azure Resource Manager libraries for Java
 
 ## Overview
@@ -56,3 +51,4 @@ ResourceGroup resourceGroup = azure.resourceGroups().define("myResourceGroup")
 [2]: https://github.com/Azure-Samples/resources-java-deploy-using-arm-template
 
 View the [complete list](https://azure.microsoft.com/resources/samples/?platform=java&term=resource) of Azure Resource Manager samples.
+

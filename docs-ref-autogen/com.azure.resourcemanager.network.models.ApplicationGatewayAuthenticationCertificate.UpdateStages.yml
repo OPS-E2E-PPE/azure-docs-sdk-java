@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayAuthentica
 name: "ApplicationGatewayAuthenticationCertificate.UpdateStages"
 nameWithType: "ApplicationGatewayAuthenticationCertificate.UpdateStages"
 summary: "Grouping of application gateway authentication certificate update stages."
-syntax: "public static interface ApplicationGatewayAuthenticationCertificate.UpdateStages"
+syntax: "public static interface **ApplicationGatewayAuthenticationCertificate.UpdateStages**"
 type: "interface"
+desc: "Grouping of application gateway authentication certificate update stages."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.50.0

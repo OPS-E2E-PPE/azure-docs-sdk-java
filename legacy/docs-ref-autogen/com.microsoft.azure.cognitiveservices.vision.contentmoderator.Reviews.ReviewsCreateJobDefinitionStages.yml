@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Reviews.ReviewsCreateJobDefinitionStages
-syntax: public interface ReviewsCreateJobDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages
-name: Reviews.ReviewsCreateJobDefinitionStages
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>Grouping of createJob definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateJobDefinitionStages"
+name: "Reviews.ReviewsCreateJobDefinitionStages"
+nameWithType: "Reviews.ReviewsCreateJobDefinitionStages"
+summary: "Grouping of create<wbr>Job definition stages."
+syntax: "public static interface **Reviews.ReviewsCreateJobDefinitionStages**"
+type: "interface"
+desc: "Grouping of createJob definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithAppId.withAppId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithAllOptions.withDeleteUtterances(Boolean)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithIntentId.withIntentId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithVersionId.withVersionId(String)
-nameWithType: Models.ModelsDeleteIntentDefinition
-syntax: public interface ModelsDeleteIntentDefinition extends Models.ModelsDeleteIntentDefinitionStages.WithAppId,Models.ModelsDeleteIntentDefinitionStages.WithVersionId,Models.ModelsDeleteIntentDefinitionStages.WithIntentId,Models.ModelsDeleteIntentDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinition
-name: Models.ModelsDeleteIntentDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of deleteIntent definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinition"
+name: "Models.ModelsDeleteIntentDefinition"
+nameWithType: "Models.ModelsDeleteIntentDefinition"
+summary: "The entirety of delete<wbr>Intent definition."
+syntax: "public static interface **Models.ModelsDeleteIntentDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithIntentId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithIntentId&text=WithIntentId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of deleteIntent definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithIntentId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithIntentId&text=WithIntentId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsDeleteIntentDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

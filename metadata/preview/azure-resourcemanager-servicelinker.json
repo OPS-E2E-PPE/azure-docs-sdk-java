@@ -1,0 +1,22 @@
+{
+  "Name": "azure-resourcemanager-servicelinker",
+  "Version": "1.0.0-beta.4",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/servicelinker/azure-resourcemanager-servicelinker",
+  "ServiceDirectory": "servicelinker",
+  "ReadMePath": "sdk/servicelinker/azure-resourcemanager-servicelinker/README.md",
+  "ChangeLogPath": "sdk/servicelinker/azure-resourcemanager-servicelinker/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-servicelinker",
+  "ReleaseStatus": "2024-10-09",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "Namespaces": [
+    "com.azure.resourcemanager.servicelinker",
+    "com.azure.resourcemanager.servicelinker.fluent",
+    "com.azure.resourcemanager.servicelinker.fluent.models",
+    "com.azure.resourcemanager.servicelinker.models"
+  ]
+}

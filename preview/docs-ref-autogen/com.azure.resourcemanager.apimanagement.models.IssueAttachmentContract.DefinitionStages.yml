@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.apimanagement.models.IssueAttachmentContract.Def
 fullName: "com.azure.resourcemanager.apimanagement.models.IssueAttachmentContract.DefinitionStages"
 name: "IssueAttachmentContract.DefinitionStages"
 nameWithType: "IssueAttachmentContract.DefinitionStages"
-summary: "The IssueAttachmentContract definition stages."
-syntax: "public static interface IssueAttachmentContract.DefinitionStages"
+summary: "The Issue<wbr>Attachment<wbr>Contract definition stages."
+syntax: "public static interface **IssueAttachmentContract.DefinitionStages**"
 type: "interface"
+desc: "The IssueAttachmentContract definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.apimanagement.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-apimanagement:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-apimanagement:1.0.0-beta.5

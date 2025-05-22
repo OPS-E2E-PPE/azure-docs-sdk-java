@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ServiceBusSubscription.UpdateStages
-syntax: public interface UpdateStages
-type: interface
-uid: com.microsoft.azure.management.servicebus.ServiceBusSubscription.UpdateStages
-fullName: com.microsoft.azure.management.servicebus.ServiceBusSubscription.UpdateStages
-name: ServiceBusSubscription.UpdateStages
-package: com.microsoft.azure.management.servicebus
-summary: <p>Grouping of subscription update stages. </p>
+uid: "com.microsoft.azure.management.servicebus.ServiceBusSubscription.UpdateStages"
+fullName: "com.microsoft.azure.management.servicebus.ServiceBusSubscription.UpdateStages"
+name: "ServiceBusSubscription.UpdateStages"
+nameWithType: "ServiceBusSubscription.UpdateStages"
+summary: "Grouping of subscription update stages."
+syntax: "public static interface **ServiceBusSubscription.UpdateStages**"
+type: "interface"
+desc: "Grouping of subscription update stages."
 metadata: {}
+package: "com.microsoft.azure.management.servicebus"
+artifact: com.microsoft.azure:azure-mgmt-servicebus:1.41.4

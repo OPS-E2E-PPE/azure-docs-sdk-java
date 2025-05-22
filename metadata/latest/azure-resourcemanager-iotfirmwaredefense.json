@@ -1,0 +1,29 @@
+{
+  "Name": "azure-resourcemanager-iotfirmwaredefense",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/iotfirmwaredefense/azure-resourcemanager-iotfirmwaredefense",
+  "ServiceDirectory": "iotfirmwaredefense",
+  "ReadMePath": "sdk/iotfirmwaredefense/azure-resourcemanager-iotfirmwaredefense/README.md",
+  "ChangeLogPath": "sdk/iotfirmwaredefense/azure-resourcemanager-iotfirmwaredefense/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-iotfirmwaredefense",
+  "ReleaseStatus": "2024-12-19",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanageriotfirmwaredefense }}",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanageriotfirmwaredefense",
+    "name": "azure-resourcemanager-iotfirmwaredefense"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.iotfirmwaredefense",
+    "com.azure.resourcemanager.iotfirmwaredefense.fluent",
+    "com.azure.resourcemanager.iotfirmwaredefense.fluent.models",
+    "com.azure.resourcemanager.iotfirmwaredefense.models"
+  ]
+}

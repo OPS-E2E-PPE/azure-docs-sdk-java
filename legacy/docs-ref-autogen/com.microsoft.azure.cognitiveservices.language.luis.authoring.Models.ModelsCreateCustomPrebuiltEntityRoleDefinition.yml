@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithAppId.withAppId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithEntityId.withEntityId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithAllOptions.withName(String)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithVersionId.withVersionId(String)
-nameWithType: Models.ModelsCreateCustomPrebuiltEntityRoleDefinition
-syntax: public interface ModelsCreateCustomPrebuiltEntityRoleDefinition extends Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithAppId,Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithVersionId,Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithEntityId,Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinition
-name: Models.ModelsCreateCustomPrebuiltEntityRoleDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of createCustomPrebuiltEntityRole definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinition"
+name: "Models.ModelsCreateCustomPrebuiltEntityRoleDefinition"
+nameWithType: "Models.ModelsCreateCustomPrebuiltEntityRoleDefinition"
+summary: "The entirety of create<wbr>Custom<wbr>Prebuilt<wbr>Entity<wbr>Role definition."
+syntax: "public static interface **Models.ModelsCreateCustomPrebuiltEntityRoleDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithEntityId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithEntityId&text=WithEntityId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of createCustomPrebuiltEntityRole definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithEntityId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithEntityId&text=WithEntityId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsCreateCustomPrebuiltEntityRoleDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

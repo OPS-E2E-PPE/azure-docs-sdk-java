@@ -1,28 +1,14 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withAcceptLanguage(String)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withClientId(String)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withClientIp(String)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withCount(Integer)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withCountryCode(String)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withLocation(String)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withMarket(String)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withOffset(Integer)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withSafeSearch(SafeSearch)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withSetLang(String)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withSince(Long)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withSortBy(String)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withTextDecorations(Boolean)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withTextFormat(TextFormat)
-- com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithAllOptions.withUserAgent(String)
-nameWithType: BingNews.BingNewsTrendingDefinition
-syntax: public interface BingNewsTrendingDefinition extends BingNews.BingNewsTrendingDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinition
-fullName: com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinition
-name: BingNews.BingNewsTrendingDefinition
-package: com.microsoft.azure.cognitiveservices.search.newssearch
-summary: <p>The entirety of trending definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinition"
+name: "BingNews.BingNewsTrendingDefinition"
+nameWithType: "BingNews.BingNewsTrendingDefinition"
+summary: "The entirety of trending definition."
+syntax: "public static interface **BingNews.BingNewsTrendingDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of trending definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.BingNewsTrendingDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.search.newssearch"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-newssearch:1.0.3

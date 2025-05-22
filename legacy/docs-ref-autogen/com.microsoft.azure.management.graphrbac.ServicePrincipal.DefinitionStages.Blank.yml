@@ -1,15 +1,14 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(String)
-- com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withExistingApplication(ActiveDirectoryApplication)
-- com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(Creatable<ActiveDirectoryApplication>)
-- com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication.withNewApplication(String)
-nameWithType: ServicePrincipal.DefinitionStages.Blank
-syntax: public interface Blank extends ServicePrincipal.DefinitionStages.WithApplication
-type: interface
-uid: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.Blank
-fullName: com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.Blank
-name: ServicePrincipal.DefinitionStages.Blank
-package: com.microsoft.azure.management.graphrbac
-summary: <p>The first stage of the service principal definition. </p>
+uid: "com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.Blank"
+fullName: "com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.Blank"
+name: "ServicePrincipal.DefinitionStages.Blank"
+nameWithType: "ServicePrincipal.DefinitionStages.Blank"
+summary: "The first stage of the service principal definition."
+syntax: "public static interface **ServicePrincipal.DefinitionStages.Blank**</br> extends <xref href=\"com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication?alt=com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication&text=WithApplication\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The first stage of the service principal definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication?alt=com.microsoft.azure.management.graphrbac.ServicePrincipal.DefinitionStages.WithApplication&text=WithApplication\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.graphrbac"
+artifact: com.microsoft.azure:azure-mgmt-graph-rbac:1.41.4

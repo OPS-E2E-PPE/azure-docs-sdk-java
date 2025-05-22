@@ -1,0 +1,90 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.route.models.RouteGuidance"
+fullName: "com.azure.maps.route.models.RouteGuidance"
+name: "RouteGuidance"
+nameWithType: "RouteGuidance"
+summary: "Contains guidance related elements."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RouteGuidance**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.route.models.RouteGuidance?alt=com.azure.maps.route.models.RouteGuidance&text=RouteGuidance\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.maps.route.models.RouteGuidance.RouteGuidance()"
+  fullName: "com.azure.maps.route.models.RouteGuidance.RouteGuidance()"
+  name: "RouteGuidance()"
+  nameWithType: "RouteGuidance.RouteGuidance()"
+  summary: "Creates an instance of Route<wbr>Guidance class."
+  syntax: "public RouteGuidance()"
+  desc: "Creates an instance of RouteGuidance class."
+methods:
+- uid: "com.azure.maps.route.models.RouteGuidance.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.maps.route.models.RouteGuidance.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RouteGuidance.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Route<wbr>Guidance from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RouteGuidance fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the RouteGuidance."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RouteGuidance from the JsonReader."
+  returns:
+    description: "An instance of RouteGuidance if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.maps.route.models.RouteGuidance?alt=com.azure.maps.route.models.RouteGuidance&text=RouteGuidance\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.route.models.RouteGuidance.getInstructionGroups()"
+  fullName: "com.azure.maps.route.models.RouteGuidance.getInstructionGroups()"
+  name: "getInstructionGroups()"
+  nameWithType: "RouteGuidance.getInstructionGroups()"
+  summary: "Get the instruction<wbr>Groups property: Groups a sequence of instruction elements which are related to each other."
+  syntax: "public List<RouteInstructionGroup> getInstructionGroups()"
+  desc: "Get the instructionGroups property: Groups a sequence of instruction elements which are related to each other."
+  returns:
+    description: "the instructionGroups value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.maps.route.models.RouteInstructionGroup?alt=com.azure.maps.route.models.RouteInstructionGroup&text=RouteInstructionGroup\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.maps.route.models.RouteGuidance.getInstructions()"
+  fullName: "com.azure.maps.route.models.RouteGuidance.getInstructions()"
+  name: "getInstructions()"
+  nameWithType: "RouteGuidance.getInstructions()"
+  summary: "Get the instructions property: A list of instructions describing maneuvers."
+  syntax: "public List<RouteInstruction> getInstructions()"
+  desc: "Get the instructions property: A list of instructions describing maneuvers."
+  returns:
+    description: "the instructions value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.maps.route.models.RouteInstruction?alt=com.azure.maps.route.models.RouteInstruction&text=RouteInstruction\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.maps.route.models.RouteGuidance.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.maps.route.models.RouteGuidance.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RouteGuidance.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Contains guidance related elements. This field is present only when guidance was requested and is available."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.route.models.RouteGuidance?alt=com.azure.maps.route.models.RouteGuidance&text=RouteGuidance\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.maps.route.models"
+artifact: com.azure:azure-maps-route:1.0.0-beta.3

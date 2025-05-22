@@ -1,0 +1,34 @@
+{
+  "Name": "azure-digitaltwins-core",
+  "Version": "1.4.2",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/digitaltwins/azure-digitaltwins-core",
+  "ServiceDirectory": "digitaltwins",
+  "ReadMePath": "sdk/digitaltwins/azure-digitaltwins-core/README.md",
+  "ChangeLogPath": "sdk/digitaltwins/azure-digitaltwins-core/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-digitaltwins-core",
+  "ReleaseStatus": "2025-03-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-digitaltwins-core",
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azuredigitaltwinscore }}",
+    "triggeringPaths": [
+      "/sdk/digitaltwins/ci.yml"
+    ],
+    "safeName": "azuredigitaltwinscore"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.digitaltwins.core",
+    "com.azure.digitaltwins.core.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

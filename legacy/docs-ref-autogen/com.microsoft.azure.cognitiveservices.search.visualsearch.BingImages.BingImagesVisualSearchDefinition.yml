@@ -1,21 +1,14 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithAllOptions.withAcceptLanguage(String)
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithAllOptions.withClientId(String)
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithAllOptions.withClientIp(String)
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithAllOptions.withContentType(String)
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithAllOptions.withImage(byte [])
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithAllOptions.withKnowledgeRequest(String)
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithAllOptions.withLocation(String)
-- com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithAllOptions.withUserAgent(String)
-nameWithType: BingImages.BingImagesVisualSearchDefinition
-syntax: public interface BingImagesVisualSearchDefinition extends BingImages.BingImagesVisualSearchDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinition
-fullName: com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinition
-name: BingImages.BingImagesVisualSearchDefinition
-package: com.microsoft.azure.cognitiveservices.search.visualsearch
-summary: <p>The entirety of visualSearch definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinition"
+name: "BingImages.BingImagesVisualSearchDefinition"
+nameWithType: "BingImages.BingImagesVisualSearchDefinition"
+summary: "The entirety of visual<wbr>Search definition."
+syntax: "public static interface **BingImages.BingImagesVisualSearchDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of visualSearch definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.search.visualsearch.BingImages.BingImagesVisualSearchDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.search.visualsearch"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-visualsearch:1.0.3-beta

@@ -1,0 +1,37 @@
+{
+  "Name": "azure-data-tables",
+  "Version": "12.5.3",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/tables/azure-data-tables",
+  "ServiceDirectory": "tables",
+  "ReadMePath": "sdk/tables/azure-data-tables/README.md",
+  "ChangeLogPath": "sdk/tables/azure-data-tables/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-data-tables",
+  "ReleaseStatus": "2025-03-19",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-data-tables-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "groupId": "com.azure",
+    "name": "azure-data-tables",
+    "safeName": "azuredatatables",
+    "triggeringPaths": [
+      "/sdk/tables/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.data.tables",
+    "com.azure.data.tables.models",
+    "com.azure.data.tables.sas"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

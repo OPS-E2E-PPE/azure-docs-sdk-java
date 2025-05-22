@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.compute.models.Disk.DefinitionStages"
 name: "Disk.DefinitionStages"
 nameWithType: "Disk.DefinitionStages"
 summary: "Grouping of managed disk definition stages."
-syntax: "public static interface Disk.DefinitionStages"
+syntax: "public static interface **Disk.DefinitionStages**"
 type: "interface"
+desc: "Grouping of managed disk definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.50.0

@@ -1,0 +1,30 @@
+{
+  "Name": "azure-resourcemanager-quota",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/quota/azure-resourcemanager-quota",
+  "ServiceDirectory": "quota",
+  "ReadMePath": "sdk/quota/azure-resourcemanager-quota/README.md",
+  "ChangeLogPath": "sdk/quota/azure-resourcemanager-quota/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-quota",
+  "ReleaseStatus": "2025-02-21",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-quota",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerquota"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.quota",
+    "com.azure.resourcemanager.quota.fluent",
+    "com.azure.resourcemanager.quota.fluent.models",
+    "com.azure.resourcemanager.quota.models"
+  ]
+}

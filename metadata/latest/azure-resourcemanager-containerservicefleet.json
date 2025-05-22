@@ -1,0 +1,34 @@
+{
+  "Name": "azure-resourcemanager-containerservicefleet",
+  "Version": "1.2.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/containerservicefleet/azure-resourcemanager-containerservicefleet",
+  "ServiceDirectory": "containerservicefleet",
+  "ReadMePath": "sdk/containerservicefleet/azure-resourcemanager-containerservicefleet/README.md",
+  "ChangeLogPath": "sdk/containerservicefleet/azure-resourcemanager-containerservicefleet/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-containerservicefleet",
+  "ReleaseStatus": "2025-04-10",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/containerservicefleet/ci.yml"
+    ],
+    "groupId": "com.azure.resourcemanager",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagercontainerservicefleet }}",
+    "safeName": "azureresourcemanagercontainerservicefleet",
+    "name": "azure-resourcemanager-containerservicefleet"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.containerservicefleet",
+    "com.azure.resourcemanager.containerservicefleet.fluent",
+    "com.azure.resourcemanager.containerservicefleet.fluent.models",
+    "com.azure.resourcemanager.containerservicefleet.models"
+  ]
+}

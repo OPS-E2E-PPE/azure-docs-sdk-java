@@ -1,0 +1,41 @@
+{
+  "Name": "azure-resourcemanager-dns",
+  "Version": "2.50.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-dns",
+  "ServiceDirectory": "resourcemanager",
+  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-dns/README.md",
+  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-dns/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-dns",
+  "ReleaseStatus": "2025-04-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure.resourcemanager:azure-resourcemanager-samples",
+    "com.azure.resourcemanager:azure-resourcemanager-perf",
+    "com.azure.resourcemanager:azure-resourcemanager-test",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerdns }}",
+    "triggeringPaths": [
+      "/sdk/resourcemanager/ci.yml"
+    ],
+    "safeName": "azureresourcemanagerdns",
+    "name": "azure-resourcemanager-dns",
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.dns",
+    "com.azure.resourcemanager.dns.fluent",
+    "com.azure.resourcemanager.dns.fluent.models",
+    "com.azure.resourcemanager.dns.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

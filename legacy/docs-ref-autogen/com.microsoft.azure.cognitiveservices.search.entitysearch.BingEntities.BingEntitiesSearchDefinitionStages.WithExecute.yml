@@ -1,26 +1,39 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withAcceptLanguage(String)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withClientId(String)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withClientIp(String)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withCountryCode(String)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withLocation(String)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withMarket(String)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withPragma(String)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withResponseFilter(List<AnswerType>)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withResponseFormat(List<ResponseFormat>)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withSafeSearch(SafeSearch)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withSetLang(String)
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions.withUserAgent(String)
+uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute"
+fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute"
+name: "BingEntities.BingEntitiesSearchDefinitionStages.WithExecute"
+nameWithType: "BingEntities.BingEntitiesSearchDefinitionStages.WithExecute"
+summary: "The last stage of the definition which will make the operation call."
+syntax: "public static interface **BingEntities.BingEntitiesSearchDefinitionStages.WithExecute**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions?alt=com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions&text=WithAllOptions\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute.executeAsync()
-nameWithType: BingEntities.BingEntitiesSearchDefinitionStages.WithExecute
-syntax: public interface WithExecute extends BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions
-type: interface
-uid: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute
-fullName: com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute
-name: BingEntities.BingEntitiesSearchDefinitionStages.WithExecute
-package: com.microsoft.azure.cognitiveservices.search.entitysearch
-summary: <p>The last stage of the definition which will make the operation call. </p>
+- uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute.execute()"
+  fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute.execute()"
+  name: "execute()"
+  nameWithType: "BingEntities.BingEntitiesSearchDefinitionStages.WithExecute.execute()"
+  summary: "Execute the request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SearchResponse execute()"
+  desc: "Execute the request."
+  returns:
+    description: "the SearchResponse object if successful."
+    type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.entitysearch.models.SearchResponse?alt=com.microsoft.azure.cognitiveservices.search.entitysearch.models.SearchResponse&text=SearchResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute.executeAsync()"
+  fullName: "com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithExecute.executeAsync()"
+  name: "executeAsync()"
+  nameWithType: "BingEntities.BingEntitiesSearchDefinitionStages.WithExecute.executeAsync()"
+  summary: "Execute the request asynchronously."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Observable<SearchResponse> executeAsync()"
+  desc: "Execute the request asynchronously."
+  returns:
+    description: "the observable to the SearchResponse object"
+    type: "<xref href=\"rx.Observable?alt=rx.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.cognitiveservices.search.entitysearch.models.SearchResponse?alt=com.microsoft.azure.cognitiveservices.search.entitysearch.models.SearchResponse&text=SearchResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "The last stage of the definition which will make the operation call."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions?alt=com.microsoft.azure.cognitiveservices.search.entitysearch.BingEntities.BingEntitiesSearchDefinitionStages.WithAllOptions&text=WithAllOptions\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.search.entitysearch"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-entitysearch:1.0.3

@@ -1,17 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId.withFaceListId(String)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage.withImage(byte [])
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithAllOptions.withTargetFace(List<Integer>)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithAllOptions.withUserData(String)
-nameWithType: FaceLists.FaceListsAddFaceFromStreamDefinition
-syntax: public interface FaceListsAddFaceFromStreamDefinition extends FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId,FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage,FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinition
-name: FaceLists.FaceListsAddFaceFromStreamDefinition
-package: com.microsoft.azure.cognitiveservices.vision.faceapi
-summary: <p>The entirety of addFaceFromStream definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinition"
+name: "FaceLists.FaceListsAddFaceFromStreamDefinition"
+nameWithType: "FaceLists.FaceListsAddFaceFromStreamDefinition"
+summary: "The entirety of add<wbr>Face<wbr>From<wbr>Stream definition."
+syntax: "public static interface **FaceLists.FaceListsAddFaceFromStreamDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId&text=WithFaceListId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage&text=WithImage\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of addFaceFromStream definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithFaceListId&text=WithFaceListId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.FaceListsAddFaceFromStreamDefinitionStages.WithImage&text=WithImage\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.faceapi"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-faceapi:1.0.2-beta

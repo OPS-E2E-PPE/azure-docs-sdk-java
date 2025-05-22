@@ -1,0 +1,41 @@
+{
+  "Name": "azure-resourcemanager-redis",
+  "Version": "2.50.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-redis",
+  "ServiceDirectory": "resourcemanager",
+  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-redis/README.md",
+  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-redis/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-redis",
+  "ReleaseStatus": "2025-04-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure.resourcemanager:azure-resourcemanager-samples",
+    "com.azure.resourcemanager:azure-resourcemanager-perf",
+    "com.azure.resourcemanager:azure-resourcemanager-test",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerredis }}",
+    "triggeringPaths": [
+      "/sdk/resourcemanager/ci.yml"
+    ],
+    "safeName": "azureresourcemanagerredis",
+    "name": "azure-resourcemanager-redis",
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.redis",
+    "com.azure.resourcemanager.redis.fluent",
+    "com.azure.resourcemanager.redis.fluent.models",
+    "com.azure.resourcemanager.redis.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

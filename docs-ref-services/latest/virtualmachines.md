@@ -2,17 +2,12 @@
 title: Azure Virtual Machine libraries for Java
 description: 
 keywords: Azure, Java, SDK, API, Compute , Virtual Machines
-author: douge
-ms.author: douge
-manager: douge
 ms.date: 05/17/2017
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.topic: reference
 ms.devlang: java
 ms.service: compute
+manager: douge
 ---
-
 # Azure virtual machine libraries
 
 ## Overview
@@ -73,3 +68,4 @@ VirtualMachine newLinuxVm = azure.virtualMachines().define(linuxVmName)
 [7]: ../docs-ref-conceptual/java-sdk-manage-vm-scalesets.md
 
 Explore more [sample Java code for Azure virtual machines](https://azure.microsoft.com/resources/samples/?platform=java&term=VM) you can use in your apps.
+

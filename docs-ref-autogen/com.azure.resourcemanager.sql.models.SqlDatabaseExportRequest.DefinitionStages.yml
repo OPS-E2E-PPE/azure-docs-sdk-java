@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.sql.models.SqlDatabaseExportRequest.Definit
 name: "SqlDatabaseExportRequest.DefinitionStages"
 nameWithType: "SqlDatabaseExportRequest.DefinitionStages"
 summary: "Grouping of database export definition stages."
-syntax: "public static interface SqlDatabaseExportRequest.DefinitionStages"
+syntax: "public static interface **SqlDatabaseExportRequest.DefinitionStages**"
 type: "interface"
+desc: "Grouping of database export definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.sql.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.50.0

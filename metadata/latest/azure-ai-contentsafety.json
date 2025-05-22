@@ -1,0 +1,34 @@
+{
+  "Name": "azure-ai-contentsafety",
+  "Version": "1.0.11",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/contentsafety/azure-ai-contentsafety",
+  "ServiceDirectory": "contentsafety",
+  "ReadMePath": "sdk/contentsafety/azure-ai-contentsafety/README.md",
+  "ChangeLogPath": "sdk/contentsafety/azure-ai-contentsafety/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-ai-contentsafety",
+  "ReleaseStatus": "2025-03-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-ai-contentsafety",
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azureaicontentsafety }}",
+    "triggeringPaths": [
+      "/sdk/contentsafety/ci.yml"
+    ],
+    "safeName": "azureaicontentsafety"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.ai.contentsafety",
+    "com.azure.ai.contentsafety.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

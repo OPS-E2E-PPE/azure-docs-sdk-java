@@ -1,15 +1,14 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages.WithAllOptions.withCacheImage(Boolean)
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages.WithAllOptions.withListId(String)
-nameWithType: ImageModerations.ImageModerationsMatchMethodDefinition
-syntax: public interface ImageModerationsMatchMethodDefinition extends ImageModerations.ImageModerationsMatchMethodDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinition
-name: ImageModerations.ImageModerationsMatchMethodDefinition
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>The entirety of matchMethod definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinition"
+name: "ImageModerations.ImageModerationsMatchMethodDefinition"
+nameWithType: "ImageModerations.ImageModerationsMatchMethodDefinition"
+summary: "The entirety of match<wbr>Method definition."
+syntax: "public static interface **ImageModerations.ImageModerationsMatchMethodDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of matchMethod definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

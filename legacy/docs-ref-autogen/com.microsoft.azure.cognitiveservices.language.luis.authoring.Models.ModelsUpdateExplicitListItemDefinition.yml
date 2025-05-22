@@ -1,18 +1,18 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithAppId.withAppId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithEntityId.withEntityId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithAllOptions.withExplicitListItem(String)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithItemId.withItemId(long)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithVersionId.withVersionId(String)
-nameWithType: Models.ModelsUpdateExplicitListItemDefinition
-syntax: public interface ModelsUpdateExplicitListItemDefinition extends Models.ModelsUpdateExplicitListItemDefinitionStages.WithAppId,Models.ModelsUpdateExplicitListItemDefinitionStages.WithVersionId,Models.ModelsUpdateExplicitListItemDefinitionStages.WithEntityId,Models.ModelsUpdateExplicitListItemDefinitionStages.WithItemId,Models.ModelsUpdateExplicitListItemDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinition
-name: Models.ModelsUpdateExplicitListItemDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of updateExplicitListItem definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinition"
+name: "Models.ModelsUpdateExplicitListItemDefinition"
+nameWithType: "Models.ModelsUpdateExplicitListItemDefinition"
+summary: "The entirety of update<wbr>Explicit<wbr>List<wbr>Item definition."
+syntax: "public static interface **Models.ModelsUpdateExplicitListItemDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithEntityId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithEntityId&text=WithEntityId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithItemId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithItemId&text=WithItemId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of updateExplicitListItem definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithEntityId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithEntityId&text=WithEntityId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithItemId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithItemId&text=WithItemId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsUpdateExplicitListItemDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

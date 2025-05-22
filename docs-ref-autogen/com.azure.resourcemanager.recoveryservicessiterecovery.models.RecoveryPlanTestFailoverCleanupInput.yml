@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput"
+fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput"
+name: "RecoveryPlanTestFailoverCleanupInput"
+nameWithType: "RecoveryPlanTestFailoverCleanupInput"
+summary: "Recovery plan test failover cleanup input."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RecoveryPlanTestFailoverCleanupInput**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput&text=RecoveryPlanTestFailoverCleanupInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.RecoveryPlanTestFailoverCleanupInput()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.RecoveryPlanTestFailoverCleanupInput()"
+  name: "RecoveryPlanTestFailoverCleanupInput()"
+  nameWithType: "RecoveryPlanTestFailoverCleanupInput.RecoveryPlanTestFailoverCleanupInput()"
+  summary: "Creates an instance of Recovery<wbr>Plan<wbr>Test<wbr>Failover<wbr>Cleanup<wbr>Input class."
+  syntax: "public RecoveryPlanTestFailoverCleanupInput()"
+  desc: "Creates an instance of RecoveryPlanTestFailoverCleanupInput class."
+methods:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "RecoveryPlanTestFailoverCleanupInput.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Recovery<wbr>Plan<wbr>Test<wbr>Failover<wbr>Cleanup<wbr>Input from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static RecoveryPlanTestFailoverCleanupInput fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of RecoveryPlanTestFailoverCleanupInput from the JsonReader."
+  returns:
+    description: "An instance of RecoveryPlanTestFailoverCleanupInput if the JsonReader was pointing to an instance of it,\n or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput&text=RecoveryPlanTestFailoverCleanupInput\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.properties()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.properties()"
+  name: "properties()"
+  nameWithType: "RecoveryPlanTestFailoverCleanupInput.properties()"
+  summary: "Get the properties property: The recovery plan test failover cleanup input properties."
+  syntax: "public RecoveryPlanTestFailoverCleanupInputProperties properties()"
+  desc: "Get the properties property: The recovery plan test failover cleanup input properties."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInputProperties&text=RecoveryPlanTestFailoverCleanupInputProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "RecoveryPlanTestFailoverCleanupInput.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.validate()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.validate()"
+  name: "validate()"
+  nameWithType: "RecoveryPlanTestFailoverCleanupInput.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.withProperties(com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInputProperties)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput.withProperties(RecoveryPlanTestFailoverCleanupInputProperties properties)"
+  name: "withProperties(RecoveryPlanTestFailoverCleanupInputProperties properties)"
+  nameWithType: "RecoveryPlanTestFailoverCleanupInput.withProperties(RecoveryPlanTestFailoverCleanupInputProperties properties)"
+  summary: "Set the properties property: The recovery plan test failover cleanup input properties."
+  parameters:
+  - description: "the properties value to set."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInputProperties&text=RecoveryPlanTestFailoverCleanupInputProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public RecoveryPlanTestFailoverCleanupInput withProperties(RecoveryPlanTestFailoverCleanupInputProperties properties)"
+  desc: "Set the properties property: The recovery plan test failover cleanup input properties."
+  returns:
+    description: "the RecoveryPlanTestFailoverCleanupInput object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput&text=RecoveryPlanTestFailoverCleanupInput\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Recovery plan test failover cleanup input."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.RecoveryPlanTestFailoverCleanupInput&text=RecoveryPlanTestFailoverCleanupInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.recoveryservicessiterecovery.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservicessiterecovery:1.3.0

@@ -4,13 +4,70 @@ fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule"
 name: "LoadBalancingRule"
 nameWithType: "LoadBalancingRule"
 summary: "A client-side representation of an HTTP load balancing rule."
-syntax: "public interface LoadBalancingRule extends HasInnerModel<LoadBalancingRuleInner>, ChildResource<LoadBalancer>, HasBackendPort, HasFrontend, HasFloatingIP, HasProtocol<TransportProtocol>, HasFrontendPort"
+syntax: "public interface **LoadBalancingRule**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.LoadBalancingRuleInner?alt=com.azure.resourcemanager.network.fluent.models.LoadBalancingRuleInner&text=LoadBalancingRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource&text=ChildResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.LoadBalancer?alt=com.azure.resourcemanager.network.models.LoadBalancer&text=LoadBalancer\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.network.models.HasBackendPort?alt=com.azure.resourcemanager.network.models.HasBackendPort&text=HasBackendPort\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.network.models.HasFrontend?alt=com.azure.resourcemanager.network.models.HasFrontend&text=HasFrontend\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.network.models.HasFloatingIP?alt=com.azure.resourcemanager.network.models.HasFloatingIP&text=HasFloatingIP\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.network.models.HasProtocol?alt=com.azure.resourcemanager.network.models.HasProtocol&text=HasProtocol\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.TransportProtocol?alt=com.azure.resourcemanager.network.models.TransportProtocol&text=TransportProtocol\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.network.models.HasFrontendPort?alt=com.azure.resourcemanager.network.models.HasFrontendPort&text=HasFrontendPort\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- "com.azure.resourcemanager.network.models.LoadBalancingRule.backend()"
-- "com.azure.resourcemanager.network.models.LoadBalancingRule.idleTimeoutInMinutes()"
-- "com.azure.resourcemanager.network.models.LoadBalancingRule.loadDistribution()"
-- "com.azure.resourcemanager.network.models.LoadBalancingRule.probe()"
+- uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.backend()"
+  fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.backend()"
+  name: "backend()"
+  nameWithType: "LoadBalancingRule.backend()"
+  summary: "Gets the backend associated with the load balancing rule."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LoadBalancerBackend backend()"
+  desc: "Gets the backend associated with the load balancing rule.\n\nIf there are multiple backends associated with the rule, this API only returns the first backend. Use <xref uid=\"com.azure.resourcemanager.network.models.LoadBalancingRule.backends()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#backends()\"></xref> for the case of multiple backends associated with the rule."
+  returns:
+    description: "the backend associated with the load balancing rule"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerBackend?alt=com.azure.resourcemanager.network.models.LoadBalancerBackend&text=LoadBalancerBackend\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.backends()"
+  fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.backends()"
+  name: "backends()"
+  nameWithType: "LoadBalancingRule.backends()"
+  summary: "Gets the list of backends associated with the load balancing rule."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract List<LoadBalancerBackend> backends()"
+  desc: "Gets the list of backends associated with the load balancing rule."
+  returns:
+    description: "the list of backends associated with the load balancing rule"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerBackend?alt=com.azure.resourcemanager.network.models.LoadBalancerBackend&text=LoadBalancerBackend\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.idleTimeoutInMinutes()"
+  fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.idleTimeoutInMinutes()"
+  name: "idleTimeoutInMinutes()"
+  nameWithType: "LoadBalancingRule.idleTimeoutInMinutes()"
+  summary: "Gets the number of minutes before an inactive connection is closed."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract int idleTimeoutInMinutes()"
+  desc: "Gets the number of minutes before an inactive connection is closed."
+  returns:
+    description: "the number of minutes before an inactive connection is closed"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.loadDistribution()"
+  fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.loadDistribution()"
+  name: "loadDistribution()"
+  nameWithType: "LoadBalancingRule.loadDistribution()"
+  summary: "Gets the method of load distribution."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LoadDistribution loadDistribution()"
+  desc: "Gets the method of load distribution."
+  returns:
+    description: "the method of load distribution"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadDistribution?alt=com.azure.resourcemanager.network.models.LoadDistribution&text=LoadDistribution\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.LoadBalancingRule.probe()"
+  fullName: "com.azure.resourcemanager.network.models.LoadBalancingRule.probe()"
+  name: "probe()"
+  nameWithType: "LoadBalancingRule.probe()"
+  summary: "Gets the probe associated with the load balancing rule."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract LoadBalancerProbe probe()"
+  desc: "Gets the probe associated with the load balancing rule."
+  returns:
+    description: "the probe associated with the load balancing rule"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.LoadBalancerProbe?alt=com.azure.resourcemanager.network.models.LoadBalancerProbe&text=LoadBalancerProbe\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "A client-side representation of an HTTP load balancing rule."
 implements:
 - "<xref href=\"com.azure.resourcemanager.network.models.HasBackendPort?alt=com.azure.resourcemanager.network.models.HasBackendPort&text=HasBackendPort\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.network.models.HasFloatingIP?alt=com.azure.resourcemanager.network.models.HasFloatingIP&text=HasFloatingIP\" data-throw-if-not-resolved=\"False\" />"
@@ -21,4 +78,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.LoadBalancingRuleInner?alt=com.azure.resourcemanager.network.fluent.models.LoadBalancingRuleInner&text=LoadBalancingRuleInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.50.0

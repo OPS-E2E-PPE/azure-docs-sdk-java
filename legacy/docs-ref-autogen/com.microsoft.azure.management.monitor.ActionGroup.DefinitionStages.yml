@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ActionGroup.DefinitionStages
-syntax: public interface DefinitionStages
-type: interface
-uid: com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages
-fullName: com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages
-name: ActionGroup.DefinitionStages
-package: com.microsoft.azure.management.monitor
-summary: <p>Grouping of Action Group definition stages. </p>
+uid: "com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages"
+fullName: "com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages"
+name: "ActionGroup.DefinitionStages"
+nameWithType: "ActionGroup.DefinitionStages"
+summary: "Grouping of Action Group definition stages."
+syntax: "public static interface **ActionGroup.DefinitionStages**"
+type: "interface"
+desc: "Grouping of Action Group definition stages."
 metadata: {}
+package: "com.microsoft.azure.management.monitor"
+artifact: com.microsoft.azure:azure-mgmt-monitor:1.41.4

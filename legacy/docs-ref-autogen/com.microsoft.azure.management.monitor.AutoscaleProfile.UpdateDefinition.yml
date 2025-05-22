@@ -1,20 +1,18 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Attachable.InUpdate.attach()
-- com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRule.defineScaleRule()
-- com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRuleOptional.defineScaleRule()
-- com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRuleOptional.withFixedDateSchedule(String,DateTime,DateTime)
-- com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleSchedule.withFixedDateSchedule(String,DateTime,DateTime)
-- com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.Blank.withMetricBasedScale(int,int,int)
-- com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRuleOptional.withRecurrentSchedule(String,String,DayOfWeek...)
-- com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleSchedule.withRecurrentSchedule(String,String,DayOfWeek...)
-- com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.Blank.withScheduleBasedScale(int)
-nameWithType: AutoscaleProfile.UpdateDefinition
-syntax: public interface UpdateDefinition extends AutoscaleProfile.UpdateDefinitionStages.WithAttach,AutoscaleProfile.UpdateDefinitionStages.Blank,AutoscaleProfile.UpdateDefinitionStages.WithScaleRule,AutoscaleProfile.UpdateDefinitionStages.WithScaleRuleOptional,AutoscaleProfile.UpdateDefinitionStages.WithScaleSchedule
-type: interface
-uid: com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinition
-fullName: com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinition
-name: AutoscaleProfile.UpdateDefinition
-package: com.microsoft.azure.management.monitor
-summary: <p>The entirety of an autoscale profile definition during current autoscale settings update. </p>
+uid: "com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinition"
+fullName: "com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinition"
+name: "AutoscaleProfile.UpdateDefinition"
+nameWithType: "AutoscaleProfile.UpdateDefinition"
+summary: "The entirety of an autoscale profile definition during current autoscale settings update."
+syntax: "public static interface **AutoscaleProfile.UpdateDefinition**</br> extends <xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.Blank?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRule?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRule&text=WithScaleRule\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRuleOptional?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRuleOptional&text=WithScaleRuleOptional\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleSchedule?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleSchedule&text=WithScaleSchedule\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of an autoscale profile definition during current autoscale settings update."
+implements:
+- "<xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.Blank?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRule?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRule&text=WithScaleRule\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRuleOptional?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleRuleOptional&text=WithScaleRuleOptional\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleSchedule?alt=com.microsoft.azure.management.monitor.AutoscaleProfile.UpdateDefinitionStages.WithScaleSchedule&text=WithScaleSchedule\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.monitor"
+artifact: com.microsoft.azure:azure-mgmt-monitor:1.41.4

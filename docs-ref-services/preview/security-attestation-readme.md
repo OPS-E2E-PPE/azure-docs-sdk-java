@@ -1,17 +1,12 @@
 ---
 title: Azure Attestation client library for Java
-keywords: Azure, java, SDK, API, azure-security-attestation, 
-author: maggiepint
-ms.author: magpint
+keywords: Azure, java, SDK, API, azure-security-attestation,
 ms.date: 01/30/2021
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.topic: reference
 ms.devlang: java
 ms.service: 
 ---
-
-# Azure Attestation client library for Java - Version 1.0.0-beta.1 
+# Azure Attestation client library for Java - version 1.0.0-beta.1 
 
 
 Microsoft Azure Attestation (preview) is a unified solution for remotely verifying the trustworthiness of a platform and integrity of the binaries running inside it. The service supports attestation of the platforms backed by Trusted Platform Modules (TPMs) alongside the ability to attest to the state of Trusted Execution Environments (TEEs) such as Intel® Software Guard Extensions (SGX) enclaves and Virtualization-based Security (VBS) enclaves.
@@ -191,5 +186,5 @@ This project has adopted the [Microsoft Open Source Code of Conduct][microsoft_c
 <!-- LINKS -->
 [style-guide-msft]: https://docs.microsoft.com/style-guide/capitalization
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-java%2Fsdk%2Fattestation%2Fazure-security-attestation%2FREADME.png)
+
 

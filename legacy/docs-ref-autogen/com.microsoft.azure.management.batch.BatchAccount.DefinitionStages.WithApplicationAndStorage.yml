@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplication.defineNewApplication(String)
-- com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage.withExistingStorageAccount(StorageAccount)
-- com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage.withNewStorageAccount(Creatable<StorageAccount>)
-- com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage.withNewStorageAccount(String)
-nameWithType: BatchAccount.DefinitionStages.WithApplicationAndStorage
-syntax: public interface WithApplicationAndStorage extends BatchAccount.DefinitionStages.WithStorage,BatchAccount.DefinitionStages.WithApplication
-type: interface
-uid: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplicationAndStorage
-fullName: com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplicationAndStorage
-name: BatchAccount.DefinitionStages.WithApplicationAndStorage
-package: com.microsoft.azure.management.batch
-summary: <p>The stage of a Batch account definition allowing adding an application and a storage account. </p>
+uid: "com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplicationAndStorage"
+fullName: "com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplicationAndStorage"
+name: "BatchAccount.DefinitionStages.WithApplicationAndStorage"
+nameWithType: "BatchAccount.DefinitionStages.WithApplicationAndStorage"
+summary: "The stage of a Batch account definition allowing adding an application and a storage account."
+syntax: "public static interface **BatchAccount.DefinitionStages.WithApplicationAndStorage**</br> extends <xref href=\"com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage?alt=com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage&text=WithStorage\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplication?alt=com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplication&text=WithApplication\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The stage of a Batch account definition allowing adding an application and a storage account."
+implements:
+- "<xref href=\"com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplication?alt=com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithApplication&text=WithApplication\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage?alt=com.microsoft.azure.management.batch.BatchAccount.DefinitionStages.WithStorage&text=WithStorage\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.batch"
+artifact: com.microsoft.azure:azure-mgmt-batch:1.41.4

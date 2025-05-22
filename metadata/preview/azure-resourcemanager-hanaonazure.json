@@ -1,0 +1,27 @@
+{
+  "Name": "azure-resourcemanager-hanaonazure",
+  "Version": "1.0.0-beta.3",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/hanaonazure/azure-resourcemanager-hanaonazure",
+  "ServiceDirectory": "hanaonazure",
+  "ReadMePath": "sdk/hanaonazure/azure-resourcemanager-hanaonazure/README.md",
+  "ChangeLogPath": "sdk/hanaonazure/azure-resourcemanager-hanaonazure/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-hanaonazure",
+  "ReleaseStatus": "2024-10-17",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-hanaonazure",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerhanaonazure"
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.hanaonazure",
+    "com.azure.resourcemanager.hanaonazure.fluent",
+    "com.azure.resourcemanager.hanaonazure.fluent.models",
+    "com.azure.resourcemanager.hanaonazure.models"
+  ]
+}

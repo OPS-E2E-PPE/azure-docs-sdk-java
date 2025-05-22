@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.appservice.models.HostnameSslBinding.Defini
 name: "HostnameSslBinding.DefinitionStages"
 nameWithType: "HostnameSslBinding.DefinitionStages"
 summary: "Grouping of hostname SSL binding definition stages applicable as part of a web app creation."
-syntax: "public static interface HostnameSslBinding.DefinitionStages"
+syntax: "public static interface **HostnameSslBinding.DefinitionStages**"
 type: "interface"
+desc: "Grouping of hostname SSL binding definition stages applicable as part of a web app creation."
 metadata: {}
 package: "com.azure.resourcemanager.appservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.50.0

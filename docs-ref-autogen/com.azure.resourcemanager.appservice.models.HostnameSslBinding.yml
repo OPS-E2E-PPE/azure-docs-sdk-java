@@ -4,15 +4,49 @@ fullName: "com.azure.resourcemanager.appservice.models.HostnameSslBinding"
 name: "HostnameSslBinding"
 nameWithType: "HostnameSslBinding"
 summary: "An immutable representation of an host name SSL binding."
-syntax: "public interface HostnameSslBinding extends HasInnerModel<HostnameSslState>, ChildResource<WebAppBase>"
+syntax: "public interface **HostnameSslBinding**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.HostnameSslState?alt=com.azure.resourcemanager.appservice.models.HostnameSslState&text=HostnameSslState\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource&text=ChildResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase?alt=com.azure.resourcemanager.appservice.models.WebAppBase&text=WebAppBase\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
-- "com.azure.resourcemanager.appservice.models.HostnameSslBinding.sslState()"
-- "com.azure.resourcemanager.appservice.models.HostnameSslBinding.thumbprint()"
-- "com.azure.resourcemanager.appservice.models.HostnameSslBinding.virtualIp()"
+- uid: "com.azure.resourcemanager.appservice.models.HostnameSslBinding.sslState()"
+  fullName: "com.azure.resourcemanager.appservice.models.HostnameSslBinding.sslState()"
+  name: "sslState()"
+  nameWithType: "HostnameSslBinding.sslState()"
+  summary: "Gets the SSL type."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SslState sslState()"
+  desc: "Gets the SSL type."
+  returns:
+    description: "the SSL type"
+    type: "<xref href=\"com.azure.resourcemanager.appservice.models.SslState?alt=com.azure.resourcemanager.appservice.models.SslState&text=SslState\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appservice.models.HostnameSslBinding.thumbprint()"
+  fullName: "com.azure.resourcemanager.appservice.models.HostnameSslBinding.thumbprint()"
+  name: "thumbprint()"
+  nameWithType: "HostnameSslBinding.thumbprint()"
+  summary: "Gets the SSL cert thumbprint."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String thumbprint()"
+  desc: "Gets the SSL cert thumbprint."
+  returns:
+    description: "the SSL cert thumbprint."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.appservice.models.HostnameSslBinding.virtualIp()"
+  fullName: "com.azure.resourcemanager.appservice.models.HostnameSslBinding.virtualIp()"
+  name: "virtualIp()"
+  nameWithType: "HostnameSslBinding.virtualIp()"
+  summary: "Gets the virtual IP address assigned to the host name."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String virtualIp()"
+  desc: "Gets the virtual IP address assigned to the host name."
+  returns:
+    description: "the virtual IP address assigned to the host name if IP based SSL is enabled"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
+desc: "An immutable representation of an host name SSL binding."
 implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource&text=ChildResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase?alt=com.azure.resourcemanager.appservice.models.WebAppBase&text=WebAppBase\" data-throw-if-not-resolved=\"False\" />&gt;"
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.HostnameSslState?alt=com.azure.resourcemanager.appservice.models.HostnameSslState&text=HostnameSslState\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.appservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.50.0

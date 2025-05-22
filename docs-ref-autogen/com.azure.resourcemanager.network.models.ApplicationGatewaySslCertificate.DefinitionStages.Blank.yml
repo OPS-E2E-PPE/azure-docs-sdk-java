@@ -4,12 +4,14 @@ fullName: "com.azure.resourcemanager.network.models.ApplicationGatewaySslCertifi
 name: "ApplicationGatewaySslCertificate.DefinitionStages.Blank<ParentT>"
 nameWithType: "ApplicationGatewaySslCertificate.DefinitionStages.Blank<ParentT>"
 summary: "The first stage of an application gateway SSL certificate."
-syntax: "public static interface ApplicationGatewaySslCertificate.DefinitionStages.Blank<ParentT> extends ApplicationGatewaySslCertificate.DefinitionStages.WithData<ParentT>"
+syntax: "public static interface **ApplicationGatewaySslCertificate.DefinitionStages.Blank<ParentT>**</br> extends <xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewaySslCertificate.DefinitionStages.WithData?alt=com.azure.resourcemanager.network.models.ApplicationGatewaySslCertificate.DefinitionStages.WithData&text=WithData\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 typeParameters:
-- name: "ParentT"
+- description: "the parent application gateway type"
+  name: "ParentT"
+desc: "The first stage of an application gateway SSL certificate."
 implements:
 - "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewaySslCertificate.DefinitionStages.WithData?alt=com.azure.resourcemanager.network.models.ApplicationGatewaySslCertificate.DefinitionStages.WithData&text=WithData\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.50.0

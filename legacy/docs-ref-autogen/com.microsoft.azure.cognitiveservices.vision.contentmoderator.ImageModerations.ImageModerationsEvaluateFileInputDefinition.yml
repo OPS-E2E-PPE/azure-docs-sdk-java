@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithAllOptions.withCacheImage(Boolean)
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithImageStream.withImageStream(byte [])
-nameWithType: ImageModerations.ImageModerationsEvaluateFileInputDefinition
-syntax: public interface ImageModerationsEvaluateFileInputDefinition extends ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithImageStream,ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinition
-name: ImageModerations.ImageModerationsEvaluateFileInputDefinition
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>The entirety of evaluateFileInput definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinition"
+name: "ImageModerations.ImageModerationsEvaluateFileInputDefinition"
+nameWithType: "ImageModerations.ImageModerationsEvaluateFileInputDefinition"
+summary: "The entirety of evaluate<wbr>File<wbr>Input definition."
+syntax: "public static interface **ImageModerations.ImageModerationsEvaluateFileInputDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithImageStream?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithImageStream&text=WithImageStream\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of evaluateFileInput definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithImageStream?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateFileInputDefinitionStages.WithImageStream&text=WithImageStream\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

@@ -1,0 +1,28 @@
+{
+  "Name": "azure-security-attestation",
+  "Version": "1.1.30",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/attestation/azure-security-attestation",
+  "ServiceDirectory": "attestation",
+  "ReadMePath": "sdk/attestation/azure-security-attestation/README.md",
+  "ChangeLogPath": "sdk/attestation/azure-security-attestation/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-security-attestation",
+  "ReleaseStatus": "2024-12-04",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-security-attestation",
+    "groupId": "com.azure",
+    "safeName": "azuresecurityattestation",
+    "releaseInBatch": "${{ parameters.release_azuresecurityattestation }}"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.security.attestation",
+    "com.azure.security.attestation.models"
+  ],
+  "DependentPackages": null
+}

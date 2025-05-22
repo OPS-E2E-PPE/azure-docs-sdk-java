@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.timezone.models.IanaId"
+fullName: "com.azure.maps.timezone.models.IanaId"
+name: "IanaId"
+nameWithType: "IanaId"
+summary: "The Iana<wbr>Id model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **IanaId**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.timezone.models.IanaId?alt=com.azure.maps.timezone.models.IanaId&text=IanaId\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.maps.timezone.models.IanaId.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.maps.timezone.models.IanaId.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "IanaId.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Iana<wbr>Id from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static IanaId fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the IanaId."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of IanaId from the JsonReader."
+  returns:
+    description: "An instance of IanaId if the JsonReader was pointing to an instance of it, or null if it was pointing to\n JSON null."
+    type: "<xref href=\"com.azure.maps.timezone.models.IanaId?alt=com.azure.maps.timezone.models.IanaId&text=IanaId\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.timezone.models.IanaId.getAlias()"
+  fullName: "com.azure.maps.timezone.models.IanaId.getAlias()"
+  name: "getAlias()"
+  nameWithType: "IanaId.getAlias()"
+  summary: "Get the alias<wbr>Of property: Alias<wbr>Of property."
+  syntax: "public String getAlias()"
+  desc: "Get the aliasOf property: AliasOf property."
+  returns:
+    description: "the aliasOf value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.maps.timezone.models.IanaId.getHasZone1970Location()"
+  fullName: "com.azure.maps.timezone.models.IanaId.getHasZone1970Location()"
+  name: "getHasZone1970Location()"
+  nameWithType: "IanaId.getHasZone1970Location()"
+  summary: "Get the has<wbr>Zone1970Location property: This attribute returns \\`True\\` if the Iana<wbr>Id has any country/zone associated with it."
+  syntax: "public Boolean getHasZone1970Location()"
+  desc: "Get the hasZone1970Location property: This attribute returns \\`True\\` if the IanaId has any country/zone associated with it."
+  returns:
+    description: "the hasZone1970Location value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.maps.timezone.models.IanaId.getId()"
+  fullName: "com.azure.maps.timezone.models.IanaId.getId()"
+  name: "getId()"
+  nameWithType: "IanaId.getId()"
+  summary: "Get the id property: Id property."
+  syntax: "public String getId()"
+  desc: "Get the id property: Id property."
+  returns:
+    description: "the id value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.maps.timezone.models.IanaId.isAlias()"
+  fullName: "com.azure.maps.timezone.models.IanaId.isAlias()"
+  name: "isAlias()"
+  nameWithType: "IanaId.isAlias()"
+  summary: "Get the is<wbr>Alias property: Is<wbr>Alias property."
+  syntax: "public Boolean isAlias()"
+  desc: "Get the isAlias property: IsAlias property."
+  returns:
+    description: "the isAlias value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html\">Boolean</a>"
+- uid: "com.azure.maps.timezone.models.IanaId.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.maps.timezone.models.IanaId.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "IanaId.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The IanaId model."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.timezone.models.IanaId?alt=com.azure.maps.timezone.models.IanaId&text=IanaId\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.maps.timezone.models"
+artifact: com.azure:azure-maps-timezone:1.0.0-beta.2

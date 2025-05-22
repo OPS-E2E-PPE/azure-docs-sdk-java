@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ImageModerations.ImageModerationsEvaluateUrlInputDefinitionStages
-syntax: public interface ImageModerationsEvaluateUrlInputDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateUrlInputDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateUrlInputDefinitionStages
-name: ImageModerations.ImageModerationsEvaluateUrlInputDefinitionStages
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>Grouping of evaluateUrlInput definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateUrlInputDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsEvaluateUrlInputDefinitionStages"
+name: "ImageModerations.ImageModerationsEvaluateUrlInputDefinitionStages"
+nameWithType: "ImageModerations.ImageModerationsEvaluateUrlInputDefinitionStages"
+summary: "Grouping of evaluate<wbr>Url<wbr>Input definition stages."
+syntax: "public static interface **ImageModerations.ImageModerationsEvaluateUrlInputDefinitionStages**"
+type: "interface"
+desc: "Grouping of evaluateUrlInput definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

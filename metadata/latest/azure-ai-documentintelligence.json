@@ -1,0 +1,32 @@
+{
+  "Name": "azure-ai-documentintelligence",
+  "Version": "1.0.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/documentintelligence/azure-ai-documentintelligence",
+  "ServiceDirectory": "documentintelligence",
+  "ReadMePath": "sdk/documentintelligence/azure-ai-documentintelligence/README.md",
+  "ChangeLogPath": "sdk/documentintelligence/azure-ai-documentintelligence/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-ai-documentintelligence",
+  "ReleaseStatus": "2025-03-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-ai-documentintelligence",
+    "groupId": "com.azure",
+    "triggeringPaths": [
+      "/sdk/documentintelligence/ci.yml"
+    ],
+    "safeName": "azureaidocumentintelligence"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.ai.documentintelligence",
+    "com.azure.ai.documentintelligence.models"
+  ],
+  "CIMatrixConfigs": []
+}

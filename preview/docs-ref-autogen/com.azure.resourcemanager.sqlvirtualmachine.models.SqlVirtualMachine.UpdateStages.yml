@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachine.Updat
 fullName: "com.azure.resourcemanager.sqlvirtualmachine.models.SqlVirtualMachine.UpdateStages"
 name: "SqlVirtualMachine.UpdateStages"
 nameWithType: "SqlVirtualMachine.UpdateStages"
-summary: "The SqlVirtualMachine update stages."
-syntax: "public static interface SqlVirtualMachine.UpdateStages"
+summary: "The Sql<wbr>Virtual<wbr>Machine update stages."
+syntax: "public static interface **SqlVirtualMachine.UpdateStages**"
 type: "interface"
+desc: "The SqlVirtualMachine update stages."
 metadata: {}
 package: "com.azure.resourcemanager.sqlvirtualmachine.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-sqlvirtualmachine:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-sqlvirtualmachine:1.0.0-beta.5

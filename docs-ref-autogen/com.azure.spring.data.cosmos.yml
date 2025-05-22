@@ -6,6 +6,7 @@ summary: "Cosmosdb class for spring"
 classes:
 - "com.azure.spring.data.cosmos.Constants"
 - "com.azure.spring.data.cosmos.CosmosFactory"
+desc: "Cosmosdb class for spring"
 metadata: {}
 package: "com.azure.spring.data.cosmos"
-artifact: com.azure:azure-spring-data-cosmos:3.6.0
+artifact: com.azure:azure-spring-data-cosmos:3.47.0

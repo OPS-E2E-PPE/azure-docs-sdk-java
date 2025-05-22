@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: PersonGroups.PersonGroupsCreateDefinitionStages
-syntax: public interface PersonGroupsCreateDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.PersonGroupsCreateDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.PersonGroupsCreateDefinitionStages
-name: PersonGroups.PersonGroupsCreateDefinitionStages
-package: com.microsoft.azure.cognitiveservices.vision.faceapi
-summary: <p>Grouping of create definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.PersonGroupsCreateDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.PersonGroupsCreateDefinitionStages"
+name: "PersonGroups.PersonGroupsCreateDefinitionStages"
+nameWithType: "PersonGroups.PersonGroupsCreateDefinitionStages"
+summary: "Grouping of create definition stages."
+syntax: "public static interface **PersonGroups.PersonGroupsCreateDefinitionStages**"
+type: "interface"
+desc: "Grouping of create definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.faceapi"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-faceapi:1.0.2-beta

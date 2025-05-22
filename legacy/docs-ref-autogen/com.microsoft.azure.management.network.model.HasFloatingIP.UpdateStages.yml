@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: HasFloatingIP.UpdateStages
-syntax: public interface UpdateStages
-type: interface
-uid: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages
-fullName: com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages
-name: HasFloatingIP.UpdateStages
-package: com.microsoft.azure.management.network.model
-summary: <p>Grouping of update stages involving enabling or disabling floating IP support. </p>
+uid: "com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages"
+fullName: "com.microsoft.azure.management.network.model.HasFloatingIP.UpdateStages"
+name: "HasFloatingIP.UpdateStages"
+nameWithType: "HasFloatingIP.UpdateStages"
+summary: "Grouping of update stages involving enabling or disabling floating IP support."
+syntax: "public static interface **HasFloatingIP.UpdateStages**"
+type: "interface"
+desc: "Grouping of update stages involving enabling or disabling floating IP support."
 metadata: {}
+package: "com.microsoft.azure.management.network.model"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

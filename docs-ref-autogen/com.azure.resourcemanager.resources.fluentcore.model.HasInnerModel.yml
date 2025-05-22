@@ -4,12 +4,25 @@ fullName: "com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel<T>
 name: "HasInnerModel<T>"
 nameWithType: "HasInnerModel<T>"
 summary: "The wrapper around an inner model providing extended functionalities."
-syntax: "public interface HasInnerModel<T>"
+syntax: "public interface **HasInnerModel<T>**"
 methods:
-- "com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel.innerModel()"
+- uid: "com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel.innerModel()"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel<T>.innerModel()"
+  name: "innerModel()"
+  nameWithType: "HasInnerModel<T>.innerModel()"
+  summary: "Gets the wrapping internal models based on Azure REST API."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract T innerModel()"
+  desc: "Gets the wrapping internal models based on Azure REST API."
+  returns:
+    description: "wrapped inner model providing direct access to the underlying\n auto-generated API implementation, based on Azure REST API"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
-- name: "T"
+- description: "the type of the inner object."
+  name: "T"
+desc: "The wrapper around an inner model providing extended functionalities."
 metadata: {}
 package: "com.azure.resourcemanager.resources.fluentcore.model"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.50.0

@@ -1,0 +1,20 @@
+{
+  "Name": "azure-resourcemanager-kubernetesconfiguration",
+  "Version": "1.0.0-beta.4",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/kubernetesconfiguration/azure-resourcemanager-kubernetesconfiguration",
+  "ServiceDirectory": "kubernetesconfiguration",
+  "ReadMePath": "sdk/kubernetesconfiguration/azure-resourcemanager-kubernetesconfiguration/README.md",
+  "ChangeLogPath": "sdk/kubernetesconfiguration/azure-resourcemanager-kubernetesconfiguration/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-kubernetesconfiguration",
+  "ReleaseStatus": "2023-05-17",
+  "Namespaces": [
+    "com.azure.resourcemanager.kubernetesconfiguration",
+    "com.azure.resourcemanager.kubernetesconfiguration.fluent",
+    "com.azure.resourcemanager.kubernetesconfiguration.fluent.models",
+    "com.azure.resourcemanager.kubernetesconfiguration.models"
+  ]
+}

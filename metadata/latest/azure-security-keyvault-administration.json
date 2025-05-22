@@ -1,0 +1,37 @@
+{
+  "Name": "azure-security-keyvault-administration",
+  "Version": "4.6.4",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/keyvault/azure-security-keyvault-administration",
+  "ServiceDirectory": "keyvault",
+  "ReadMePath": "sdk/keyvault/azure-security-keyvault-administration/README.md",
+  "ChangeLogPath": "sdk/keyvault/azure-security-keyvault-administration/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-security-keyvault-administration",
+  "ReleaseStatus": "2025-03-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-security-keyvault-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "name": "azure-security-keyvault-administration",
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azuresecuritykeyvaultadministration }}",
+    "triggeringPaths": [
+      "/sdk/keyvault/ci.yml"
+    ],
+    "safeName": "azuresecuritykeyvaultadministration"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.security.keyvault.administration",
+    "com.azure.security.keyvault.administration.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

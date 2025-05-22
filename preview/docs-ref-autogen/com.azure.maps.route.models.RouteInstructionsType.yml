@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.route.models.RouteInstructionsType"
+fullName: "com.azure.maps.route.models.RouteInstructionsType"
+name: "RouteInstructionsType"
+nameWithType: "RouteInstructionsType"
+summary: "Defines values for Route<wbr>Instructions<wbr>Type."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **RouteInstructionsType**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.route.models.RouteInstructionsType?alt=com.azure.maps.route.models.RouteInstructionsType&text=RouteInstructionsType\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.maps.route.models.RouteInstructionsType.RouteInstructionsType()"
+  fullName: "com.azure.maps.route.models.RouteInstructionsType.RouteInstructionsType()"
+  name: "RouteInstructionsType()"
+  nameWithType: "RouteInstructionsType.RouteInstructionsType()"
+  summary: "Creates a new instance of Route<wbr>Instructions<wbr>Type value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.maps.route.models.RouteInstructionsType.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public RouteInstructionsType()"
+  desc: "Creates a new instance of RouteInstructionsType value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.maps.route.models.RouteInstructionsType.CODED"
+  fullName: "com.azure.maps.route.models.RouteInstructionsType.CODED"
+  name: "CODED"
+  nameWithType: "RouteInstructionsType.CODED"
+  summary: "Returns raw instruction data without human-readable messages."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteInstructionsType?alt=com.azure.maps.route.models.RouteInstructionsType&text=RouteInstructionsType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteInstructionsType CODED"
+  desc: "Returns raw instruction data without human-readable messages."
+- uid: "com.azure.maps.route.models.RouteInstructionsType.TAGGED"
+  fullName: "com.azure.maps.route.models.RouteInstructionsType.TAGGED"
+  name: "TAGGED"
+  nameWithType: "RouteInstructionsType.TAGGED"
+  summary: "Returns raw instruction data with tagged human-readable messages to permit formatting."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteInstructionsType?alt=com.azure.maps.route.models.RouteInstructionsType&text=RouteInstructionsType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteInstructionsType TAGGED"
+  desc: "Returns raw instruction data with tagged human-readable messages to permit formatting. A human-readable message is built up from repeatable identified elements. These are tagged to allow client applications to format them correctly. The following message components are tagged when instructionsType=tagged: street, roadNumber, signpostText, exitNumber, roundaboutExitNumber. Example of tagged 'Turn left' message:​ \\`\\`\\` Turn left onto <roadNumber>A4</roadNumber>/<roadNumber>E19</roadNumber> towards <signpostText>Den Haag</signpostText> \\`\\`\\`."
+- uid: "com.azure.maps.route.models.RouteInstructionsType.TEXT"
+  fullName: "com.azure.maps.route.models.RouteInstructionsType.TEXT"
+  name: "TEXT"
+  nameWithType: "RouteInstructionsType.TEXT"
+  summary: "Returns raw instructions data with human-readable messages in plain text."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.route.models.RouteInstructionsType?alt=com.azure.maps.route.models.RouteInstructionsType&text=RouteInstructionsType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final RouteInstructionsType TEXT"
+  desc: "Returns raw instructions data with human-readable messages in plain text."
+methods:
+- uid: "com.azure.maps.route.models.RouteInstructionsType.fromString(java.lang.String)"
+  fullName: "com.azure.maps.route.models.RouteInstructionsType.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "RouteInstructionsType.fromString(String name)"
+  summary: "Creates or finds a Route<wbr>Instructions<wbr>Type from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static RouteInstructionsType fromString(String name)"
+  desc: "Creates or finds a RouteInstructionsType from its string representation."
+  returns:
+    description: "the corresponding RouteInstructionsType."
+    type: "<xref href=\"com.azure.maps.route.models.RouteInstructionsType?alt=com.azure.maps.route.models.RouteInstructionsType&text=RouteInstructionsType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.route.models.RouteInstructionsType.values()"
+  fullName: "com.azure.maps.route.models.RouteInstructionsType.values()"
+  name: "values()"
+  nameWithType: "RouteInstructionsType.values()"
+  summary: "Gets known Route<wbr>Instructions<wbr>Type values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<RouteInstructionsType> values()"
+  desc: "Gets known RouteInstructionsType values."
+  returns:
+    description: "known RouteInstructionsType values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.maps.route.models.RouteInstructionsType?alt=com.azure.maps.route.models.RouteInstructionsType&text=RouteInstructionsType\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for RouteInstructionsType."
+metadata: {}
+package: "com.azure.maps.route.models"
+artifact: com.azure:azure-maps-route:1.0.0-beta.3

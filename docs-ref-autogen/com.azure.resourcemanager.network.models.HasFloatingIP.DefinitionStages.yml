@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.network.models.HasFloatingIP.DefinitionStag
 name: "HasFloatingIP.DefinitionStages"
 nameWithType: "HasFloatingIP.DefinitionStages"
 summary: "Grouping of definition stages involving enabling or disabling floating IP support."
-syntax: "public static interface HasFloatingIP.DefinitionStages"
+syntax: "public static interface **HasFloatingIP.DefinitionStages**"
 type: "interface"
+desc: "Grouping of definition stages involving enabling or disabling floating IP support."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.50.0

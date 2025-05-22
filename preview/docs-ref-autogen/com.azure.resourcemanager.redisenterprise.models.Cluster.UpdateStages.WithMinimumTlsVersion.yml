@@ -3,11 +3,27 @@ uid: "com.azure.resourcemanager.redisenterprise.models.Cluster.UpdateStages.With
 fullName: "com.azure.resourcemanager.redisenterprise.models.Cluster.UpdateStages.WithMinimumTlsVersion"
 name: "Cluster.UpdateStages.WithMinimumTlsVersion"
 nameWithType: "Cluster.UpdateStages.WithMinimumTlsVersion"
-summary: "The stage of the Cluster update allowing to specify minimumTlsVersion."
-syntax: "public static interface Cluster.UpdateStages.WithMinimumTlsVersion"
+summary: "The stage of the Cluster update allowing to specify minimum<wbr>Tls<wbr>Version."
+syntax: "public static interface **Cluster.UpdateStages.WithMinimumTlsVersion**"
 methods:
-- "com.azure.resourcemanager.redisenterprise.models.Cluster.UpdateStages.WithMinimumTlsVersion.withMinimumTlsVersion(com.azure.resourcemanager.redisenterprise.models.TlsVersion)"
+- uid: "com.azure.resourcemanager.redisenterprise.models.Cluster.UpdateStages.WithMinimumTlsVersion.withMinimumTlsVersion(com.azure.resourcemanager.redisenterprise.models.TlsVersion)"
+  fullName: "com.azure.resourcemanager.redisenterprise.models.Cluster.UpdateStages.WithMinimumTlsVersion.withMinimumTlsVersion(TlsVersion minimumTlsVersion)"
+  name: "withMinimumTlsVersion(TlsVersion minimumTlsVersion)"
+  nameWithType: "Cluster.UpdateStages.WithMinimumTlsVersion.withMinimumTlsVersion(TlsVersion minimumTlsVersion)"
+  summary: "Specifies the minimum<wbr>Tls<wbr>Version property: The minimum TLS version for the cluster to support, e.<wbr>g."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The minimum TLS version for the cluster to support, e.g. '1.2'. Newer versions\n can be added in the future. Note that TLS 1.0 and TLS 1.1 are now completely obsolete -- you cannot use\n them. They are mentioned only for the sake of consistency with old API versions."
+    name: "minimumTlsVersion"
+    type: "<xref href=\"com.azure.resourcemanager.redisenterprise.models.TlsVersion?alt=com.azure.resourcemanager.redisenterprise.models.TlsVersion&text=TlsVersion\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Cluster.Update withMinimumTlsVersion(TlsVersion minimumTlsVersion)"
+  desc: "Specifies the minimumTlsVersion property: The minimum TLS version for the cluster to support, e.g. '1.2'. Newer versions can be added in the future. Note that TLS 1.0 and TLS 1.1 are now completely obsolete -- you cannot use them. They are mentioned only for the sake of consistency with old API versions.."
+  returns:
+    description: "the next definition stage."
+    type: "<xref href=\"com.azure.resourcemanager.redisenterprise.models.Cluster.Update?alt=com.azure.resourcemanager.redisenterprise.models.Cluster.Update&text=Update\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "The stage of the Cluster update allowing to specify minimumTlsVersion."
 metadata: {}
 package: "com.azure.resourcemanager.redisenterprise.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:1.0.0-beta.2
+artifact: com.azure.resourcemanager:azure-resourcemanager-redisenterprise:2.1.0-beta.3

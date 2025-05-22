@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithAllOptions.withCacheImage(Boolean)
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithContentType.withContentType(String)
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithImageUrl.withImageUrl(BodyModelModel)
-nameWithType: ImageModerations.ImageModerationsFindFacesUrlInputDefinition
-syntax: public interface ImageModerationsFindFacesUrlInputDefinition extends ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithContentType,ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithImageUrl,ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinition
-name: ImageModerations.ImageModerationsFindFacesUrlInputDefinition
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>The entirety of findFacesUrlInput definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinition"
+name: "ImageModerations.ImageModerationsFindFacesUrlInputDefinition"
+nameWithType: "ImageModerations.ImageModerationsFindFacesUrlInputDefinition"
+summary: "The entirety of find<wbr>Faces<wbr>Url<wbr>Input definition."
+syntax: "public static interface **ImageModerations.ImageModerationsFindFacesUrlInputDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithContentType?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithContentType&text=WithContentType\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithImageUrl?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithImageUrl&text=WithImageUrl\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of findFacesUrlInput definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithContentType?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithContentType&text=WithContentType\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithImageUrl?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesUrlInputDefinitionStages.WithImageUrl&text=WithImageUrl\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

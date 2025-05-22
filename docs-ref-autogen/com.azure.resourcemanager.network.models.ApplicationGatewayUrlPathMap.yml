@@ -4,16 +4,61 @@ fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap
 name: "ApplicationGatewayUrlPathMap"
 nameWithType: "ApplicationGatewayUrlPathMap"
 summary: "A client-side representation of an application gateway's URL path map."
-syntax: "public interface ApplicationGatewayUrlPathMap extends HasInnerModel<ApplicationGatewayUrlPathMapInner>, ChildResource<ApplicationGateway>"
+syntax: "public interface **ApplicationGatewayUrlPathMap**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayUrlPathMapInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayUrlPathMapInner&text=ApplicationGatewayUrlPathMapInner\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource&text=ChildResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ApplicationGateway?alt=com.azure.resourcemanager.network.models.ApplicationGateway&text=ApplicationGateway\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
-- "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.defaultBackend()"
-- "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.defaultBackendHttpConfiguration()"
-- "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.defaultRedirectConfiguration()"
-- "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.pathRules()"
+- uid: "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.defaultBackend()"
+  fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.defaultBackend()"
+  name: "defaultBackend()"
+  nameWithType: "ApplicationGatewayUrlPathMap.defaultBackend()"
+  summary: "Gets default backend address pool."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApplicationGatewayBackend defaultBackend()"
+  desc: "Gets default backend address pool."
+  returns:
+    description: "default backend address pool"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackend?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackend&text=ApplicationGatewayBackend\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.defaultBackendHttpConfiguration()"
+  fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.defaultBackendHttpConfiguration()"
+  name: "defaultBackendHttpConfiguration()"
+  nameWithType: "ApplicationGatewayUrlPathMap.defaultBackendHttpConfiguration()"
+  summary: "Gets default backend HTTP settings configuration."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApplicationGatewayBackendHttpConfiguration defaultBackendHttpConfiguration()"
+  desc: "Gets default backend HTTP settings configuration."
+  returns:
+    description: "default backend HTTP settings configuration"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration&text=ApplicationGatewayBackendHttpConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.defaultRedirectConfiguration()"
+  fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.defaultRedirectConfiguration()"
+  name: "defaultRedirectConfiguration()"
+  nameWithType: "ApplicationGatewayUrlPathMap.defaultRedirectConfiguration()"
+  summary: "Gets default redirect configuration."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ApplicationGatewayRedirectConfiguration defaultRedirectConfiguration()"
+  desc: "Gets default redirect configuration."
+  returns:
+    description: "default redirect configuration"
+    type: "<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration?alt=com.azure.resourcemanager.network.models.ApplicationGatewayRedirectConfiguration&text=ApplicationGatewayRedirectConfiguration\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.pathRules()"
+  fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayUrlPathMap.pathRules()"
+  name: "pathRules()"
+  nameWithType: "ApplicationGatewayUrlPathMap.pathRules()"
+  summary: "Gets path rules of URL path map resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Map<String,ApplicationGatewayPathRule> pathRules()"
+  desc: "Gets path rules of URL path map resource."
+  returns:
+    description: "path rules of URL path map resource"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<xref href=\"com.azure.resourcemanager.network.models.ApplicationGatewayPathRule?alt=com.azure.resourcemanager.network.models.ApplicationGatewayPathRule&text=ApplicationGatewayPathRule\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
+desc: "A client-side representation of an application gateway's URL path map."
 implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.ChildResource&text=ChildResource\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.models.ApplicationGateway?alt=com.azure.resourcemanager.network.models.ApplicationGateway&text=ApplicationGateway\" data-throw-if-not-resolved=\"False\" />&gt;"
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInnerModel&text=HasInnerModel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.ApplicationGatewayUrlPathMapInner?alt=com.azure.resourcemanager.network.fluent.models.ApplicationGatewayUrlPathMapInner&text=ApplicationGatewayUrlPathMapInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.50.0

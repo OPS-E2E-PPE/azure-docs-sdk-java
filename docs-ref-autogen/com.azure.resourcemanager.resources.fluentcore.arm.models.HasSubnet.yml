@@ -4,11 +4,34 @@ fullName: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasSubnet"
 name: "HasSubnet"
 nameWithType: "HasSubnet"
 summary: "An interface representing a model's ability to reference a subnet by its name and network's ID."
-syntax: "public interface HasSubnet"
+syntax: "public interface **HasSubnet**"
 methods:
-- "com.azure.resourcemanager.resources.fluentcore.arm.models.HasSubnet.networkId()"
-- "com.azure.resourcemanager.resources.fluentcore.arm.models.HasSubnet.subnetName()"
+- uid: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasSubnet.networkId()"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasSubnet.networkId()"
+  name: "networkId()"
+  nameWithType: "HasSubnet.networkId()"
+  summary: "Gets the resource ID of the virtual network whose subnet is associated with this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String networkId()"
+  desc: "Gets the resource ID of the virtual network whose subnet is associated with this resource."
+  returns:
+    description: "the resource ID of the virtual network whose subnet is associated with this resource"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasSubnet.subnetName()"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasSubnet.subnetName()"
+  name: "subnetName()"
+  nameWithType: "HasSubnet.subnetName()"
+  summary: "Gets the name of the subnet associated with this resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String subnetName()"
+  desc: "Gets the name of the subnet associated with this resource."
+  returns:
+    description: "the name of the subnet associated with this resource"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
+desc: "An interface representing a model's ability to reference a subnet by its name and network's ID."
 metadata: {}
 package: "com.azure.resourcemanager.resources.fluentcore.arm.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.50.0

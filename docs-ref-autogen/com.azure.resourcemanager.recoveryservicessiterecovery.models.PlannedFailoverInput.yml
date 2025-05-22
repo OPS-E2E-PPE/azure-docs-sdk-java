@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput"
+fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput"
+name: "PlannedFailoverInput"
+nameWithType: "PlannedFailoverInput"
+summary: "Input definition for planned failover."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PlannedFailoverInput**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput&text=PlannedFailoverInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.PlannedFailoverInput()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.PlannedFailoverInput()"
+  name: "PlannedFailoverInput()"
+  nameWithType: "PlannedFailoverInput.PlannedFailoverInput()"
+  summary: "Creates an instance of Planned<wbr>Failover<wbr>Input class."
+  syntax: "public PlannedFailoverInput()"
+  desc: "Creates an instance of PlannedFailoverInput class."
+methods:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PlannedFailoverInput.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Planned<wbr>Failover<wbr>Input from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PlannedFailoverInput fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the PlannedFailoverInput."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of PlannedFailoverInput from the JsonReader."
+  returns:
+    description: "An instance of PlannedFailoverInput if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput&text=PlannedFailoverInput\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.properties()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.properties()"
+  name: "properties()"
+  nameWithType: "PlannedFailoverInput.properties()"
+  summary: "Get the properties property: Planned failover input properties."
+  syntax: "public PlannedFailoverInputProperties properties()"
+  desc: "Get the properties property: Planned failover input properties."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInputProperties&text=PlannedFailoverInputProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PlannedFailoverInput.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.validate()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.validate()"
+  name: "validate()"
+  nameWithType: "PlannedFailoverInput.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.withProperties(com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInputProperties)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput.withProperties(PlannedFailoverInputProperties properties)"
+  name: "withProperties(PlannedFailoverInputProperties properties)"
+  nameWithType: "PlannedFailoverInput.withProperties(PlannedFailoverInputProperties properties)"
+  summary: "Set the properties property: Planned failover input properties."
+  parameters:
+  - description: "the properties value to set."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInputProperties&text=PlannedFailoverInputProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PlannedFailoverInput withProperties(PlannedFailoverInputProperties properties)"
+  desc: "Set the properties property: Planned failover input properties."
+  returns:
+    description: "the PlannedFailoverInput object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput&text=PlannedFailoverInput\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Input definition for planned failover."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.PlannedFailoverInput&text=PlannedFailoverInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.recoveryservicessiterecovery.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservicessiterecovery:1.3.0

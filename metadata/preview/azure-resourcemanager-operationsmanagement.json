@@ -1,0 +1,27 @@
+{
+  "Name": "azure-resourcemanager-operationsmanagement",
+  "Version": "1.0.0-beta.3",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/operationsmanagement/azure-resourcemanager-operationsmanagement",
+  "ServiceDirectory": "operationsmanagement",
+  "ReadMePath": "sdk/operationsmanagement/azure-resourcemanager-operationsmanagement/README.md",
+  "ChangeLogPath": "sdk/operationsmanagement/azure-resourcemanager-operationsmanagement/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-operationsmanagement",
+  "ReleaseStatus": "2024-10-17",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-operationsmanagement",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanageroperationsmanagement"
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.operationsmanagement",
+    "com.azure.resourcemanager.operationsmanagement.fluent",
+    "com.azure.resourcemanager.operationsmanagement.fluent.models",
+    "com.azure.resourcemanager.operationsmanagement.models"
+  ]
+}

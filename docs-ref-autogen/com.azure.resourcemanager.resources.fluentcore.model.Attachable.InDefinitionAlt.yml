@@ -4,12 +4,25 @@ fullName: "com.azure.resourcemanager.resources.fluentcore.model.Attachable.InDef
 name: "Attachable.InDefinitionAlt<ParentT>"
 nameWithType: "Attachable.InDefinitionAlt<ParentT>"
 summary: "The final stage of the child object definition, as which it can be attached to the parent."
-syntax: "public static interface Attachable.InDefinitionAlt<ParentT>"
+syntax: "public static interface **Attachable.InDefinitionAlt<ParentT>**"
 methods:
-- "com.azure.resourcemanager.resources.fluentcore.model.Attachable.InDefinitionAlt.attach()"
+- uid: "com.azure.resourcemanager.resources.fluentcore.model.Attachable.InDefinitionAlt.attach()"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.model.Attachable.InDefinitionAlt<ParentT>.attach()"
+  name: "attach()"
+  nameWithType: "Attachable.InDefinitionAlt<ParentT>.attach()"
+  summary: "Attaches the child definition to the parent resource definition."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ParentT attach()"
+  desc: "Attaches the child definition to the parent resource definition."
+  returns:
+    description: "the next stage of the parent definition"
+    type: "<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
-- name: "ParentT"
+- description: "the parent definition"
+  name: "ParentT"
+desc: "The final stage of the child object definition, as which it can be attached to the parent."
 metadata: {}
 package: "com.azure.resourcemanager.resources.fluentcore.model"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.50.0

@@ -1,27 +1,23 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync(final ServiceCallback<T>)
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync()
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncDirection.withDatabaseType(SyncDirection)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase.withExistingDatabaseName(String)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSqlServer.withExistingSqlServer(String,String)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSqlServer.withExistingSyncGroup(SqlSyncGroup)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName.withExistingSyncGroupName(String)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType.withMemberDatabaseType(SyncMemberDbType)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberPassword.withMemberPassword(String)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer.withMemberSqlDatabase(SqlDatabase)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase.withMemberSqlDatabaseName(String)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer.withMemberSqlServerName(String)
-- com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberUserName.withMemberUserName(String)
-nameWithType: SqlSyncMemberOperations.SqlSyncMemberOperationsDefinition
-syntax: public interface SqlSyncMemberOperationsDefinition extends SqlSyncMemberOperations.DefinitionStages.WithSqlServer,SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase,SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName,SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer,SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase,SqlSyncMemberOperations.DefinitionStages.WithMemberUserName,SqlSyncMemberOperations.DefinitionStages.WithMemberPassword,SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType,SqlSyncMemberOperations.DefinitionStages.WithSyncDirection,SqlSyncMemberOperations.DefinitionStages.WithCreate
-type: interface
-uid: com.microsoft.azure.management.sql.SqlSyncMemberOperations.SqlSyncMemberOperationsDefinition
-fullName: com.microsoft.azure.management.sql.SqlSyncMemberOperations.SqlSyncMemberOperationsDefinition
-name: SqlSyncMemberOperations.SqlSyncMemberOperationsDefinition
-package: com.microsoft.azure.management.sql
-summary: <p>Container interface for all the definitions that need to be implemented. </p>
+uid: "com.microsoft.azure.management.sql.SqlSyncMemberOperations.SqlSyncMemberOperationsDefinition"
+fullName: "com.microsoft.azure.management.sql.SqlSyncMemberOperations.SqlSyncMemberOperationsDefinition"
+name: "SqlSyncMemberOperations.SqlSyncMemberOperationsDefinition"
+nameWithType: "SqlSyncMemberOperations.SqlSyncMemberOperationsDefinition"
+summary: "Container interface for all the definitions that need to be implemented."
+syntax: "public static interface **SqlSyncMemberOperations.SqlSyncMemberOperationsDefinition**</br> extends <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSqlServer?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSqlServer&text=WithSqlServer\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase&text=WithSyncMemberDatabase\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName&text=WithSyncGroupName\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer&text=WithMemberSqlServer\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase&text=WithMemberSqlDatabase\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberUserName?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberUserName&text=WithMemberUserName\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberPassword?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberPassword&text=WithMemberPassword\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType&text=WithMemberDatabaseType\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncDirection?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncDirection&text=WithSyncDirection\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "Container interface for all the definitions that need to be implemented."
+implements:
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberDatabaseType&text=WithMemberDatabaseType\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberPassword?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberPassword&text=WithMemberPassword\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlDatabase&text=WithMemberSqlDatabase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberSqlServer&text=WithMemberSqlServer\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberUserName?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithMemberUserName&text=WithMemberUserName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSqlServer?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSqlServer&text=WithSqlServer\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncDirection?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncDirection&text=WithSyncDirection\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncGroupName&text=WithSyncGroupName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase?alt=com.microsoft.azure.management.sql.SqlSyncMemberOperations.DefinitionStages.WithSyncMemberDatabase&text=WithSyncMemberDatabase\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.sql"
+artifact: com.microsoft.azure:azure-mgmt-sql:1.41.4

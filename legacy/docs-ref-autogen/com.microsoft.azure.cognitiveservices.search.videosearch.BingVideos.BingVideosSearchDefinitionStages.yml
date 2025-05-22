@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: BingVideos.BingVideosSearchDefinitionStages
-syntax: public interface BingVideosSearchDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.search.videosearch.BingVideos.BingVideosSearchDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.search.videosearch.BingVideos.BingVideosSearchDefinitionStages
-name: BingVideos.BingVideosSearchDefinitionStages
-package: com.microsoft.azure.cognitiveservices.search.videosearch
-summary: <p>Grouping of search definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.search.videosearch.BingVideos.BingVideosSearchDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.search.videosearch.BingVideos.BingVideosSearchDefinitionStages"
+name: "BingVideos.BingVideosSearchDefinitionStages"
+nameWithType: "BingVideos.BingVideosSearchDefinitionStages"
+summary: "Grouping of search definition stages."
+syntax: "public static interface **BingVideos.BingVideosSearchDefinitionStages**"
+type: "interface"
+desc: "Grouping of search definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.search.videosearch"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-videosearch:1.0.3

@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.network.models.HasCookieBasedAffinity.Defin
 name: "HasCookieBasedAffinity.DefinitionStages"
 nameWithType: "HasCookieBasedAffinity.DefinitionStages"
 summary: "Grouping of definition stages involving enabling cookie based affinity."
-syntax: "public static interface HasCookieBasedAffinity.DefinitionStages"
+syntax: "public static interface **HasCookieBasedAffinity.DefinitionStages**"
 type: "interface"
+desc: "Grouping of definition stages involving enabling cookie based affinity."
 metadata: {}
 package: "com.azure.resourcemanager.network.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.50.0

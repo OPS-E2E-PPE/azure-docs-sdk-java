@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithAllOptions.withAppName(String)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithLuisApp.withLuisApp(LuisApp)
-nameWithType: Apps.AppsImportMethodDefinition
-syntax: public interface AppsImportMethodDefinition extends Apps.AppsImportMethodDefinitionStages.WithLuisApp,Apps.AppsImportMethodDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinition
-name: Apps.AppsImportMethodDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of importMethod definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinition"
+name: "Apps.AppsImportMethodDefinition"
+nameWithType: "Apps.AppsImportMethodDefinition"
+summary: "The entirety of import<wbr>Method definition."
+syntax: "public static interface **Apps.AppsImportMethodDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithLuisApp?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithLuisApp&text=WithLuisApp\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of importMethod definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithLuisApp?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.AppsImportMethodDefinitionStages.WithLuisApp&text=WithLuisApp\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ImageModerations.ImageModerationsMatchMethodDefinitionStages
-syntax: public interface ImageModerationsMatchMethodDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages
-name: ImageModerations.ImageModerationsMatchMethodDefinitionStages
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>Grouping of matchMethod definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsMatchMethodDefinitionStages"
+name: "ImageModerations.ImageModerationsMatchMethodDefinitionStages"
+nameWithType: "ImageModerations.ImageModerationsMatchMethodDefinitionStages"
+summary: "Grouping of match<wbr>Method definition stages."
+syntax: "public static interface **ImageModerations.ImageModerationsMatchMethodDefinitionStages**"
+type: "interface"
+desc: "Grouping of matchMethod definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

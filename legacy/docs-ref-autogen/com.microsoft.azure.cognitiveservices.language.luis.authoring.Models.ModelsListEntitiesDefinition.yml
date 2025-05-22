@@ -1,17 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAppId.withAppId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAllOptions.withSkip(Integer)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAllOptions.withTake(Integer)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithVersionId.withVersionId(String)
-nameWithType: Models.ModelsListEntitiesDefinition
-syntax: public interface ModelsListEntitiesDefinition extends Models.ModelsListEntitiesDefinitionStages.WithAppId,Models.ModelsListEntitiesDefinitionStages.WithVersionId,Models.ModelsListEntitiesDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinition
-name: Models.ModelsListEntitiesDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of listEntities definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinition"
+name: "Models.ModelsListEntitiesDefinition"
+nameWithType: "Models.ModelsListEntitiesDefinition"
+summary: "The entirety of list<wbr>Entities definition."
+syntax: "public static interface **Models.ModelsListEntitiesDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of listEntities definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListEntitiesDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

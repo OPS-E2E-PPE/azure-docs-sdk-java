@@ -1,0 +1,33 @@
+{
+  "Name": "azure-communication-rooms",
+  "Version": "1.2.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/communication/azure-communication-rooms",
+  "ServiceDirectory": "communication/azure-communication-rooms",
+  "ReadMePath": "sdk/communication/azure-communication-rooms/README.md",
+  "ChangeLogPath": "sdk/communication/azure-communication-rooms/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-communication-rooms",
+  "ReleaseStatus": "2025-03-13",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/communication/azure-communication-rooms/ci.yml"
+    ],
+    "safeName": "azurecommunicationrooms",
+    "name": "azure-communication-rooms",
+    "groupId": "com.azure"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.communication.rooms",
+    "com.azure.communication.rooms.models"
+  ],
+  "CIMatrixConfigs": null,
+  "DependentPackages": null
+}

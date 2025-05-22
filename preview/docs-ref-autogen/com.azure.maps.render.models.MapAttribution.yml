@@ -1,0 +1,94 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.render.models.MapAttribution"
+fullName: "com.azure.maps.render.models.MapAttribution"
+name: "MapAttribution"
+nameWithType: "MapAttribution"
+summary: "Copyright attribution for the requested section of a tileset."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **MapAttribution**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.render.models.MapAttribution?alt=com.azure.maps.render.models.MapAttribution&text=MapAttribution\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.maps.render.models.MapAttribution.MapAttribution()"
+  fullName: "com.azure.maps.render.models.MapAttribution.MapAttribution()"
+  name: "MapAttribution()"
+  nameWithType: "MapAttribution.MapAttribution()"
+  summary: "Creates an instance of Map<wbr>Attribution class."
+  syntax: "public MapAttribution()"
+  desc: "Creates an instance of MapAttribution class."
+methods:
+- uid: "com.azure.maps.render.models.MapAttribution.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.maps.render.models.MapAttribution.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "MapAttribution.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Map<wbr>Attribution from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static MapAttribution fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the MapAttribution."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of MapAttribution from the JsonReader."
+  returns:
+    description: "An instance of MapAttribution if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.maps.render.models.MapAttribution?alt=com.azure.maps.render.models.MapAttribution&text=MapAttribution\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.render.models.MapAttribution.getCopyrights()"
+  fullName: "com.azure.maps.render.models.MapAttribution.getCopyrights()"
+  name: "getCopyrights()"
+  nameWithType: "MapAttribution.getCopyrights()"
+  summary: "Get the copyrights property: A list of copyright strings."
+  syntax: "public List<String> getCopyrights()"
+  desc: "Get the copyrights property: A list of copyright strings."
+  returns:
+    description: "the copyrights value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.maps.render.models.MapAttribution.setCopyrights(java.util.List<java.lang.String>)"
+  fullName: "com.azure.maps.render.models.MapAttribution.setCopyrights(List<String> copyrights)"
+  name: "setCopyrights(List<String> copyrights)"
+  nameWithType: "MapAttribution.setCopyrights(List<String> copyrights)"
+  summary: "Set the copyrights property: A list of copyright strings."
+  parameters:
+  - description: "the copyrights value to set."
+    name: "copyrights"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+  syntax: "public MapAttribution setCopyrights(List<String> copyrights)"
+  desc: "Set the copyrights property: A list of copyright strings."
+  returns:
+    description: "the MapAttribution object itself."
+    type: "<xref href=\"com.azure.maps.render.models.MapAttribution?alt=com.azure.maps.render.models.MapAttribution&text=MapAttribution\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.render.models.MapAttribution.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.maps.render.models.MapAttribution.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "MapAttribution.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Copyright attribution for the requested section of a tileset."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.render.models.MapAttribution?alt=com.azure.maps.render.models.MapAttribution&text=MapAttribution\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.maps.render.models"
+artifact: com.azure:azure-maps-render:2.0.0-beta.2

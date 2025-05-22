@@ -1,17 +1,12 @@
 ---
 title: Azure Quantum Jobs client library for Java
-keywords: Azure, java, SDK, API, azure-quantum-jobs, 
-author: maggiepint
-ms.author: magpint
+keywords: Azure, java, SDK, API, azure-quantum-jobs,
 ms.date: 02/02/2021
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
+ms.topic: reference
 ms.devlang: java
 ms.service: 
 ---
-
-# Azure Quantum Jobs client library for Java - Version 1.0.0-beta.1 
+# Azure Quantum Jobs client library for Java - version 1.0.0-beta.1 
 
 
 Azure Quantum is a Microsoft Azure service that you can use to run quantum computing programs or solve optimization problems in the cloud.  Using the Azure Quantum tools and SDKs, you can create quantum programs and run them against different quantum simulators and machines.  You can use the Azure.Quantum.Jobs client library to:
@@ -225,5 +220,5 @@ additional questions or comments.
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [coc_contact]: mailto:opencode@microsoft.com
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-java%2Fsdk%2Ftemplate%2Fazure-sdk-template%2FREADME.png)
+
 

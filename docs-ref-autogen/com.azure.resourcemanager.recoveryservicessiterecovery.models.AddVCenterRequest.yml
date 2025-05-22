@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest"
+fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest"
+name: "AddVCenterRequest"
+nameWithType: "AddVCenterRequest"
+summary: "Input required to add v<wbr>Center."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AddVCenterRequest**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest&text=AddVCenterRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.AddVCenterRequest()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.AddVCenterRequest()"
+  name: "AddVCenterRequest()"
+  nameWithType: "AddVCenterRequest.AddVCenterRequest()"
+  summary: "Creates an instance of Add<wbr>VCenter<wbr>Request class."
+  syntax: "public AddVCenterRequest()"
+  desc: "Creates an instance of AddVCenterRequest class."
+methods:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AddVCenterRequest.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Add<wbr>VCenter<wbr>Request from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AddVCenterRequest fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the AddVCenterRequest."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AddVCenterRequest from the JsonReader."
+  returns:
+    description: "An instance of AddVCenterRequest if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest&text=AddVCenterRequest\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.properties()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.properties()"
+  name: "properties()"
+  nameWithType: "AddVCenterRequest.properties()"
+  summary: "Get the properties property: The properties of an add v<wbr>Center request."
+  syntax: "public AddVCenterRequestProperties properties()"
+  desc: "Get the properties property: The properties of an add vCenter request."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequestProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequestProperties&text=AddVCenterRequestProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AddVCenterRequest.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.validate()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.validate()"
+  name: "validate()"
+  nameWithType: "AddVCenterRequest.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.withProperties(com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequestProperties)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest.withProperties(AddVCenterRequestProperties properties)"
+  name: "withProperties(AddVCenterRequestProperties properties)"
+  nameWithType: "AddVCenterRequest.withProperties(AddVCenterRequestProperties properties)"
+  summary: "Set the properties property: The properties of an add v<wbr>Center request."
+  parameters:
+  - description: "the properties value to set."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequestProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequestProperties&text=AddVCenterRequestProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public AddVCenterRequest withProperties(AddVCenterRequestProperties properties)"
+  desc: "Set the properties property: The properties of an add vCenter request."
+  returns:
+    description: "the AddVCenterRequest object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest&text=AddVCenterRequest\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Input required to add vCenter."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.AddVCenterRequest&text=AddVCenterRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.recoveryservicessiterecovery.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservicessiterecovery:1.3.0

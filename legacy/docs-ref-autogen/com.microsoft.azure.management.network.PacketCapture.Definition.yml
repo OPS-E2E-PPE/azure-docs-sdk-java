@@ -1,24 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync(final ServiceCallback<T>)
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync()
-- com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreate.definePacketCaptureFilter()
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
-- com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreate.withBytesToCapturePerPacket(int)
-- com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithStorageLocation.withFilePath(String)
-- com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithStorageLocation.withStorageAccountId(String)
-- com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreateAndStoragePath.withStoragePath(String)
-- com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithTarget.withTarget(String)
-- com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreate.withTimeLimitInSeconds(int)
-- com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreate.withTotalBytesPerSession(int)
-nameWithType: PacketCapture.Definition
-syntax: public interface Definition extends PacketCapture.DefinitionStages.WithTarget,PacketCapture.DefinitionStages.WithStorageLocation,PacketCapture.DefinitionStages.WithCreateAndStoragePath
-type: interface
-uid: com.microsoft.azure.management.network.PacketCapture.Definition
-fullName: com.microsoft.azure.management.network.PacketCapture.Definition
-name: PacketCapture.Definition
-package: com.microsoft.azure.management.network
-summary: <p>The entirety of the packet capture definition. </p>
+uid: "com.microsoft.azure.management.network.PacketCapture.Definition"
+fullName: "com.microsoft.azure.management.network.PacketCapture.Definition"
+name: "PacketCapture.Definition"
+nameWithType: "PacketCapture.Definition"
+summary: "The entirety of the packet capture definition."
+syntax: "public static interface **PacketCapture.Definition**</br> extends <xref href=\"com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithTarget?alt=com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithTarget&text=WithTarget\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithStorageLocation?alt=com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithStorageLocation&text=WithStorageLocation\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreateAndStoragePath?alt=com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreateAndStoragePath&text=WithCreateAndStoragePath\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the packet capture definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreateAndStoragePath?alt=com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithCreateAndStoragePath&text=WithCreateAndStoragePath\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithStorageLocation?alt=com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithStorageLocation&text=WithStorageLocation\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithTarget?alt=com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithTarget&text=WithTarget\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

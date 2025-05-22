@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Models.ModelsAddCompositeEntityChildDefinitionStages
-syntax: public interface ModelsAddCompositeEntityChildDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsAddCompositeEntityChildDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsAddCompositeEntityChildDefinitionStages
-name: Models.ModelsAddCompositeEntityChildDefinitionStages
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>Grouping of addCompositeEntityChild definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsAddCompositeEntityChildDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsAddCompositeEntityChildDefinitionStages"
+name: "Models.ModelsAddCompositeEntityChildDefinitionStages"
+nameWithType: "Models.ModelsAddCompositeEntityChildDefinitionStages"
+summary: "Grouping of add<wbr>Composite<wbr>Entity<wbr>Child definition stages."
+syntax: "public static interface **Models.ModelsAddCompositeEntityChildDefinitionStages**"
+type: "interface"
+desc: "Grouping of addCompositeEntityChild definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

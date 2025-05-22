@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput"
+fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput"
+name: "UpdateNetworkMappingInput"
+nameWithType: "UpdateNetworkMappingInput"
+summary: "Update network mapping input."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **UpdateNetworkMappingInput**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput&text=UpdateNetworkMappingInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.UpdateNetworkMappingInput()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.UpdateNetworkMappingInput()"
+  name: "UpdateNetworkMappingInput()"
+  nameWithType: "UpdateNetworkMappingInput.UpdateNetworkMappingInput()"
+  summary: "Creates an instance of Update<wbr>Network<wbr>Mapping<wbr>Input class."
+  syntax: "public UpdateNetworkMappingInput()"
+  desc: "Creates an instance of UpdateNetworkMappingInput class."
+methods:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "UpdateNetworkMappingInput.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Update<wbr>Network<wbr>Mapping<wbr>Input from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static UpdateNetworkMappingInput fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the UpdateNetworkMappingInput."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of UpdateNetworkMappingInput from the JsonReader."
+  returns:
+    description: "An instance of UpdateNetworkMappingInput if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput&text=UpdateNetworkMappingInput\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.properties()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.properties()"
+  name: "properties()"
+  nameWithType: "UpdateNetworkMappingInput.properties()"
+  summary: "Get the properties property: The input properties needed to update network mapping."
+  syntax: "public UpdateNetworkMappingInputProperties properties()"
+  desc: "Get the properties property: The input properties needed to update network mapping."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInputProperties&text=UpdateNetworkMappingInputProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "UpdateNetworkMappingInput.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.validate()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.validate()"
+  name: "validate()"
+  nameWithType: "UpdateNetworkMappingInput.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.withProperties(com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInputProperties)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput.withProperties(UpdateNetworkMappingInputProperties properties)"
+  name: "withProperties(UpdateNetworkMappingInputProperties properties)"
+  nameWithType: "UpdateNetworkMappingInput.withProperties(UpdateNetworkMappingInputProperties properties)"
+  summary: "Set the properties property: The input properties needed to update network mapping."
+  parameters:
+  - description: "the properties value to set."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInputProperties&text=UpdateNetworkMappingInputProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public UpdateNetworkMappingInput withProperties(UpdateNetworkMappingInputProperties properties)"
+  desc: "Set the properties property: The input properties needed to update network mapping."
+  returns:
+    description: "the UpdateNetworkMappingInput object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput&text=UpdateNetworkMappingInput\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Update network mapping input."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.UpdateNetworkMappingInput&text=UpdateNetworkMappingInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.recoveryservicessiterecovery.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservicessiterecovery:1.3.0

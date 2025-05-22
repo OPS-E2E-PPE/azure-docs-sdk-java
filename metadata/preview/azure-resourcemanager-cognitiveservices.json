@@ -1,0 +1,34 @@
+{
+  "Name": "azure-resourcemanager-cognitiveservices",
+  "Version": "1.2.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/cognitiveservices/azure-resourcemanager-cognitiveservices",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "sdk/cognitiveservices/azure-resourcemanager-cognitiveservices/README.md",
+  "ChangeLogPath": "sdk/cognitiveservices/azure-resourcemanager-cognitiveservices/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-cognitiveservices",
+  "ReleaseStatus": "2025-05-22",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/cognitiveservices/ci.yml"
+    ],
+    "name": "azure-resourcemanager-cognitiveservices",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagercognitiveservices"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.cognitiveservices",
+    "com.azure.resourcemanager.cognitiveservices.fluent",
+    "com.azure.resourcemanager.cognitiveservices.fluent.models",
+    "com.azure.resourcemanager.cognitiveservices.models"
+  ],
+  "CIMatrixConfigs": []
+}

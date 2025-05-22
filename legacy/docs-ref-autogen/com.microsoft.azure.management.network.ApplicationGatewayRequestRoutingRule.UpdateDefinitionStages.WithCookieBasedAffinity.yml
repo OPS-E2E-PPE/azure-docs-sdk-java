@@ -1,16 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity.withCookieBasedAffinity()
-- com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity.withoutCookieBasedAffinity()
-nameWithType: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity<ParentT>
-syntax: public interface WithCookieBasedAffinity<ParentT> extends HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity<WithAttach<ParentT>>
-type: interface
+uid: "com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity"
+fullName: "com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity<ParentT>"
+name: "ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity<ParentT>"
+nameWithType: "ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity<ParentT>"
+summary: "The stage of an application gateway request routing rule allowing to enable cookie based affinity."
+syntax: "public static interface **ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity<ParentT>**</br> extends <xref href=\"com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity?alt=com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity&text=WithCookieBasedAffinity\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "interface"
 typeParameters:
-- description: <p>the next stage of the definition </p>
-  name: ParentT
-uid: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity
-fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity<ParentT>
-name: ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithCookieBasedAffinity<ParentT>
-package: com.microsoft.azure.management.network
-summary: <p>The stage of an application gateway request routing rule allowing to enable cookie based affinity. </p>
+- description: "the next stage of the definition"
+  name: "ParentT"
+desc: "The stage of an application gateway request routing rule allowing to enable cookie based affinity."
+implements:
+- "<xref href=\"com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity?alt=com.microsoft.azure.management.network.model.HasCookieBasedAffinity.UpdateDefinitionStages.WithCookieBasedAffinity&text=WithCookieBasedAffinity\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithAttach?alt=com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.UpdateDefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

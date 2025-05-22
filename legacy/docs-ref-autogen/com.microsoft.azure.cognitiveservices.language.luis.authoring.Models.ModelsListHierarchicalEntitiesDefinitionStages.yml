@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Models.ModelsListHierarchicalEntitiesDefinitionStages
-syntax: public interface ModelsListHierarchicalEntitiesDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListHierarchicalEntitiesDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListHierarchicalEntitiesDefinitionStages
-name: Models.ModelsListHierarchicalEntitiesDefinitionStages
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>Grouping of listHierarchicalEntities definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListHierarchicalEntitiesDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsListHierarchicalEntitiesDefinitionStages"
+name: "Models.ModelsListHierarchicalEntitiesDefinitionStages"
+nameWithType: "Models.ModelsListHierarchicalEntitiesDefinitionStages"
+summary: "Grouping of list<wbr>Hierarchical<wbr>Entities definition stages."
+syntax: "public static interface **Models.ModelsListHierarchicalEntitiesDefinitionStages**"
+type: "interface"
+desc: "Grouping of listHierarchicalEntities definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

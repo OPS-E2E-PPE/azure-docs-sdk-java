@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: CdnEndpoint.UpdateDefinitionStages.Blank
-syntax: public interface Blank
-type: interface
-uid: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.Blank
-fullName: com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.Blank
-name: CdnEndpoint.UpdateDefinitionStages.Blank
-package: com.microsoft.azure.management.cdn
-summary: <p>The first stage of a CDN profile endpoint definition. </p>
+uid: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.Blank"
+fullName: "com.microsoft.azure.management.cdn.CdnEndpoint.UpdateDefinitionStages.Blank"
+name: "CdnEndpoint.UpdateDefinitionStages.Blank"
+nameWithType: "CdnEndpoint.UpdateDefinitionStages.Blank"
+summary: "The first stage of a CDN profile endpoint definition."
+syntax: "public static interface **CdnEndpoint.UpdateDefinitionStages.Blank**"
+type: "interface"
+desc: "The first stage of a CDN profile endpoint definition."
 metadata: {}
+package: "com.microsoft.azure.management.cdn"
+artifact: com.microsoft.azure:azure-mgmt-cdn:1.41.4

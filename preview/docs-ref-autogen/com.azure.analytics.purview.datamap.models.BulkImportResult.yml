@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.analytics.purview.datamap.models.BulkImportResult"
+fullName: "com.azure.analytics.purview.datamap.models.BulkImportResult"
+name: "BulkImportResult"
+nameWithType: "BulkImportResult"
+summary: "Bulk import result."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **BulkImportResult**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.purview.datamap.models.BulkImportResult?alt=com.azure.analytics.purview.datamap.models.BulkImportResult&text=BulkImportResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.analytics.purview.datamap.models.BulkImportResult.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.analytics.purview.datamap.models.BulkImportResult.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "BulkImportResult.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Bulk<wbr>Import<wbr>Result from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static BulkImportResult fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the BulkImportResult."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of BulkImportResult from the JsonReader."
+  returns:
+    description: "An instance of BulkImportResult if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.analytics.purview.datamap.models.BulkImportResult?alt=com.azure.analytics.purview.datamap.models.BulkImportResult&text=BulkImportResult\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.analytics.purview.datamap.models.BulkImportResult.getFailedImportInfoList()"
+  fullName: "com.azure.analytics.purview.datamap.models.BulkImportResult.getFailedImportInfoList()"
+  name: "getFailedImportInfoList()"
+  nameWithType: "BulkImportResult.getFailedImportInfoList()"
+  summary: "Get the failed<wbr>Import<wbr>Info<wbr>List property: failed import<wbr>Info<wbr>List."
+  syntax: "public List<ImportInfo> getFailedImportInfoList()"
+  desc: "Get the failedImportInfoList property: failed importInfoList."
+  returns:
+    description: "the failedImportInfoList value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.analytics.purview.datamap.models.ImportInfo?alt=com.azure.analytics.purview.datamap.models.ImportInfo&text=ImportInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.analytics.purview.datamap.models.BulkImportResult.getSuccessImportInfoList()"
+  fullName: "com.azure.analytics.purview.datamap.models.BulkImportResult.getSuccessImportInfoList()"
+  name: "getSuccessImportInfoList()"
+  nameWithType: "BulkImportResult.getSuccessImportInfoList()"
+  summary: "Get the success<wbr>Import<wbr>Info<wbr>List property: successful import<wbr>Info<wbr>List."
+  syntax: "public List<ImportInfo> getSuccessImportInfoList()"
+  desc: "Get the successImportInfoList property: successful importInfoList."
+  returns:
+    description: "the successImportInfoList value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.analytics.purview.datamap.models.ImportInfo?alt=com.azure.analytics.purview.datamap.models.ImportInfo&text=ImportInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.analytics.purview.datamap.models.BulkImportResult.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.analytics.purview.datamap.models.BulkImportResult.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "BulkImportResult.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Bulk import result."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.analytics.purview.datamap.models.BulkImportResult?alt=com.azure.analytics.purview.datamap.models.BulkImportResult&text=BulkImportResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.analytics.purview.datamap.models"
+artifact: com.azure:azure-analytics-purview-datamap:1.0.0-beta.2

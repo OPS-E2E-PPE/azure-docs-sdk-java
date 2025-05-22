@@ -1,0 +1,41 @@
+{
+  "Name": "azure-json",
+  "Version": "1.5.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/serialization/azure-json",
+  "ServiceDirectory": "serialization",
+  "ReadMePath": "sdk/serialization/azure-json/README.md",
+  "ChangeLogPath": "sdk/serialization/azure-json/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-json",
+  "ReleaseStatus": "2025-03-07",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/serialization/ci.yml"
+    ],
+    "name": "azure-json",
+    "safeName": "azurejson",
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azurejson }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": [
+      {
+        "Path": "eng/pipelines/templates/stages/platform-matrix.json",
+        "Name": "Java_ci_test_base",
+        "NonSparseParameters": "Agent",
+        "Selection": "sparse",
+        "GenerateVMJobs": true
+      }
+    ]
+  },
+  "Namespaces": [
+    "com.azure.json",
+    "com.azure.json.models"
+  ],
+  "CIMatrixConfigs": []
+}

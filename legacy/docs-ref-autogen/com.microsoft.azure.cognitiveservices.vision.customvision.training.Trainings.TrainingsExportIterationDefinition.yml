@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithAllOptions.withFlavor(String)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithIterationId.withIterationId(UUID)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithPlatform.withPlatform(String)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithProjectId.withProjectId(UUID)
-nameWithType: Trainings.TrainingsExportIterationDefinition
-syntax: public interface TrainingsExportIterationDefinition extends Trainings.TrainingsExportIterationDefinitionStages.WithProjectId,Trainings.TrainingsExportIterationDefinitionStages.WithIterationId,Trainings.TrainingsExportIterationDefinitionStages.WithPlatform,Trainings.TrainingsExportIterationDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinition
-name: Trainings.TrainingsExportIterationDefinition
-package: com.microsoft.azure.cognitiveservices.vision.customvision.training
-summary: <p>The entirety of exportIteration definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinition"
+name: "Trainings.TrainingsExportIterationDefinition"
+nameWithType: "Trainings.TrainingsExportIterationDefinition"
+summary: "The entirety of export<wbr>Iteration definition."
+syntax: "public static interface **Trainings.TrainingsExportIterationDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithIterationId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithIterationId&text=WithIterationId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithPlatform?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithPlatform&text=WithPlatform\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of exportIteration definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithIterationId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithIterationId&text=WithIterationId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithPlatform?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithPlatform&text=WithPlatform\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsExportIterationDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.customvision.training"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-customvision-training:1.0.3-beta

@@ -1,0 +1,92 @@
+### YamlMime:JavaType
+uid: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo"
+fullName: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo"
+name: "AuditLivenessResponseInfo"
+nameWithType: "AuditLivenessResponseInfo"
+summary: "Audit entry for a response in the session."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AuditLivenessResponseInfo**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.vision.face.models.AuditLivenessResponseInfo?alt=com.azure.ai.vision.face.models.AuditLivenessResponseInfo&text=AuditLivenessResponseInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AuditLivenessResponseInfo.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Audit<wbr>Liveness<wbr>Response<wbr>Info from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AuditLivenessResponseInfo fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of AuditLivenessResponseInfo from the JsonReader."
+  returns:
+    description: "An instance of AuditLivenessResponseInfo if the JsonReader was pointing to an instance of it, or null if\n it was pointing to JSON null."
+    type: "<xref href=\"com.azure.ai.vision.face.models.AuditLivenessResponseInfo?alt=com.azure.ai.vision.face.models.AuditLivenessResponseInfo&text=AuditLivenessResponseInfo\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.getBody()"
+  fullName: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.getBody()"
+  name: "getBody()"
+  nameWithType: "AuditLivenessResponseInfo.getBody()"
+  summary: "Get the body property: The response body."
+  syntax: "public LivenessResponseBody getBody()"
+  desc: "Get the body property: The response body. The schema of this field will depend on the request.url and request.method used by the client."
+  returns:
+    description: "the body value."
+    type: "<xref href=\"com.azure.ai.vision.face.models.LivenessResponseBody?alt=com.azure.ai.vision.face.models.LivenessResponseBody&text=LivenessResponseBody\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.getLatencyInMilliseconds()"
+  fullName: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.getLatencyInMilliseconds()"
+  name: "getLatencyInMilliseconds()"
+  nameWithType: "AuditLivenessResponseInfo.getLatencyInMilliseconds()"
+  summary: "Get the latency<wbr>InMilliseconds property: The server measured latency for this request in milliseconds."
+  syntax: "public long getLatencyInMilliseconds()"
+  desc: "Get the latencyInMilliseconds property: The server measured latency for this request in milliseconds."
+  returns:
+    description: "the latencyInMilliseconds value."
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.getStatusCode()"
+  fullName: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.getStatusCode()"
+  name: "getStatusCode()"
+  nameWithType: "AuditLivenessResponseInfo.getStatusCode()"
+  summary: "Get the status<wbr>Code property: The HTTP status code returned to the client."
+  syntax: "public int getStatusCode()"
+  desc: "Get the statusCode property: The HTTP status code returned to the client."
+  returns:
+    description: "the statusCode value."
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.ai.vision.face.models.AuditLivenessResponseInfo.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AuditLivenessResponseInfo.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Audit entry for a response in the session."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.vision.face.models.AuditLivenessResponseInfo?alt=com.azure.ai.vision.face.models.AuditLivenessResponseInfo&text=AuditLivenessResponseInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.ai.vision.face.models"
+artifact: com.azure:azure-ai-vision-face:1.0.0-beta.2

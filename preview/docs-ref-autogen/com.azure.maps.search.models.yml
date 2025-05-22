@@ -1,0 +1,28 @@
+### YamlMime:JavaPackage
+uid: "com.azure.maps.search.models"
+fullName: "com.azure.maps.search.models"
+name: "com.azure.maps.search.models"
+summary: "Package containing the data models for Search<wbr>Client."
+classes:
+- "com.azure.maps.search.models.BaseSearchOptions"
+- "com.azure.maps.search.models.Boundary"
+- "com.azure.maps.search.models.BoundaryResultTypeEnum"
+- "com.azure.maps.search.models.FeatureCollectionEnum"
+- "com.azure.maps.search.models.GeoJsonFeature"
+- "com.azure.maps.search.models.GeoJsonGeometry"
+- "com.azure.maps.search.models.GeoJsonObject"
+- "com.azure.maps.search.models.GeocodingBatchRequestBody"
+- "com.azure.maps.search.models.GeocodingBatchResponse"
+- "com.azure.maps.search.models.GeocodingBatchResponseSummary"
+- "com.azure.maps.search.models.GeocodingResponse"
+- "com.azure.maps.search.models.Intersection"
+- "com.azure.maps.search.models.MapsSearchAddress"
+- "com.azure.maps.search.models.MapsSearchAddressCountryRegion"
+- "com.azure.maps.search.models.ResolutionEnum"
+- "com.azure.maps.search.models.ReverseGeocodingBatchRequestBody"
+enums:
+- "com.azure.maps.search.models.GeoJsonObjectType"
+desc: "Package containing the data models for SearchClient. Azure Maps Search REST APIs."
+metadata: {}
+package: "com.azure.maps.search.models"
+artifact: com.azure:azure-maps-search:2.0.0-beta.2

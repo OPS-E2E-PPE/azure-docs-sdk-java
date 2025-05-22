@@ -2,13 +2,14 @@
 uid: "com.azure.storage.queue.models"
 fullName: "com.azure.storage.queue.models"
 name: "com.azure.storage.queue.models"
-summary: "Package containing classes for AzureQueueStorage. null."
+summary: "Package containing the data models for Azure<wbr>Queue<wbr>Storage."
 classes:
 - "com.azure.storage.queue.models.GeoReplication"
 - "com.azure.storage.queue.models.GeoReplicationStatus"
 - "com.azure.storage.queue.models.PeekedMessageItem"
 - "com.azure.storage.queue.models.QueueAccessPolicy"
 - "com.azure.storage.queue.models.QueueAnalyticsLogging"
+- "com.azure.storage.queue.models.QueueAudience"
 - "com.azure.storage.queue.models.QueueCorsRule"
 - "com.azure.storage.queue.models.QueueErrorCode"
 - "com.azure.storage.queue.models.QueueItem"
@@ -24,6 +25,7 @@ classes:
 - "com.azure.storage.queue.models.QueuesSegmentOptions"
 - "com.azure.storage.queue.models.SendMessageResult"
 - "com.azure.storage.queue.models.UpdateMessageResult"
+desc: "Package containing the data models for AzureQueueStorage. null."
 metadata: {}
 package: "com.azure.storage.queue.models"
-artifact: com.azure:azure-storage-queue:12.9.0-beta.2
+artifact: com.azure:azure-storage-queue:12.26.0-beta.1

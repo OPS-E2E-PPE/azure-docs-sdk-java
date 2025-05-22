@@ -1,0 +1,87 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner"
+fullName: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner"
+name: "LiveTokenResponseInner"
+nameWithType: "LiveTokenResponseInner"
+summary: "The response to a live token query."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **LiveTokenResponseInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner?alt=com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner&text=LiveTokenResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.LiveTokenResponseInner()"
+  fullName: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.LiveTokenResponseInner()"
+  name: "LiveTokenResponseInner()"
+  nameWithType: "LiveTokenResponseInner.LiveTokenResponseInner()"
+  summary: "Creates an instance of Live<wbr>Token<wbr>Response<wbr>Inner class."
+  syntax: "public LiveTokenResponseInner()"
+  desc: "Creates an instance of LiveTokenResponseInner class."
+methods:
+- uid: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "LiveTokenResponseInner.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Live<wbr>Token<wbr>Response<wbr>Inner from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static LiveTokenResponseInner fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the LiveTokenResponseInner."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of LiveTokenResponseInner from the JsonReader."
+  returns:
+    description: "An instance of LiveTokenResponseInner if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner?alt=com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner&text=LiveTokenResponseInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.liveToken()"
+  fullName: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.liveToken()"
+  name: "liveToken()"
+  nameWithType: "LiveTokenResponseInner.liveToken()"
+  summary: "Get the live<wbr>Token property: JWT token for accessing live metrics stream data."
+  syntax: "public String liveToken()"
+  desc: "Get the liveToken property: JWT token for accessing live metrics stream data."
+  returns:
+    description: "the liveToken value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "LiveTokenResponseInner.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.validate()"
+  fullName: "com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner.validate()"
+  name: "validate()"
+  nameWithType: "LiveTokenResponseInner.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+type: "class"
+desc: "The response to a live token query."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner?alt=com.azure.resourcemanager.applicationinsights.fluent.models.LiveTokenResponseInner&text=LiveTokenResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.applicationinsights.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-applicationinsights:1.2.0-beta.1

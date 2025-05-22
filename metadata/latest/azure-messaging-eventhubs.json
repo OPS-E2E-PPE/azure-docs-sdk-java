@@ -1,0 +1,37 @@
+{
+  "Name": "azure-messaging-eventhubs",
+  "Version": "5.20.3",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/eventhubs/azure-messaging-eventhubs",
+  "ServiceDirectory": "eventhubs",
+  "ReadMePath": "sdk/eventhubs/azure-messaging-eventhubs/README.md",
+  "ChangeLogPath": "sdk/eventhubs/azure-messaging-eventhubs/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-messaging-eventhubs",
+  "ReleaseStatus": "2025-04-16",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-messaging-eventhubs-track2-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/eventhubs/ci.yml"
+    ],
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azuremessagingeventhubs }}",
+    "name": "azure-messaging-eventhubs",
+    "safeName": "azuremessagingeventhubs"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.messaging.eventhubs",
+    "com.azure.messaging.eventhubs.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

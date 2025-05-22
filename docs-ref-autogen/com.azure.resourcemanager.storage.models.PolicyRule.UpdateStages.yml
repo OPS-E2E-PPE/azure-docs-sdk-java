@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.storage.models.PolicyRule.UpdateStages"
 name: "PolicyRule.UpdateStages"
 nameWithType: "PolicyRule.UpdateStages"
 summary: "Grouping of management policy rule update stages."
-syntax: "public static interface PolicyRule.UpdateStages"
+syntax: "public static interface **PolicyRule.UpdateStages**"
 type: "interface"
+desc: "Grouping of management policy rule update stages."
 metadata: {}
 package: "com.azure.resourcemanager.storage.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.50.0

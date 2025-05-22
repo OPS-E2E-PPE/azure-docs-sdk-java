@@ -1,0 +1,29 @@
+{
+  "Name": "azure-resourcemanager-digitaltwins",
+  "Version": "1.3.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/digitaltwins/azure-resourcemanager-digitaltwins",
+  "ServiceDirectory": "digitaltwins",
+  "ReadMePath": "sdk/digitaltwins/azure-resourcemanager-digitaltwins/README.md",
+  "ChangeLogPath": "sdk/digitaltwins/azure-resourcemanager-digitaltwins/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-digitaltwins",
+  "ReleaseStatus": "2024-12-06",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-digitaltwins",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerdigitaltwins",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerdigitaltwins }}"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.digitaltwins",
+    "com.azure.resourcemanager.digitaltwins.fluent",
+    "com.azure.resourcemanager.digitaltwins.fluent.models",
+    "com.azure.resourcemanager.digitaltwins.models"
+  ]
+}

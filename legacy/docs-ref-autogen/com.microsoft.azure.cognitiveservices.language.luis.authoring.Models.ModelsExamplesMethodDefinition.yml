@@ -1,18 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithAppId.withAppId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithModelId.withModelId(String)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithAllOptions.withSkip(Integer)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithAllOptions.withTake(Integer)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithVersionId.withVersionId(String)
-nameWithType: Models.ModelsExamplesMethodDefinition
-syntax: public interface ModelsExamplesMethodDefinition extends Models.ModelsExamplesMethodDefinitionStages.WithAppId,Models.ModelsExamplesMethodDefinitionStages.WithVersionId,Models.ModelsExamplesMethodDefinitionStages.WithModelId,Models.ModelsExamplesMethodDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinition
-name: Models.ModelsExamplesMethodDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of examplesMethod definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinition"
+name: "Models.ModelsExamplesMethodDefinition"
+nameWithType: "Models.ModelsExamplesMethodDefinition"
+summary: "The entirety of examples<wbr>Method definition."
+syntax: "public static interface **Models.ModelsExamplesMethodDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithModelId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithModelId&text=WithModelId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of examplesMethod definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithModelId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithModelId&text=WithModelId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithVersionId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsExamplesMethodDefinitionStages.WithVersionId&text=WithVersionId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

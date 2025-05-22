@@ -3,9 +3,10 @@ uid: "com.microsoft.azure.management.kusto.v2020_09_18.AttachedDatabaseConfigura
 fullName: "com.microsoft.azure.management.kusto.v2020_09_18.AttachedDatabaseConfiguration.DefinitionStages.Blank"
 name: "AttachedDatabaseConfiguration.DefinitionStages.Blank"
 nameWithType: "AttachedDatabaseConfiguration.DefinitionStages.Blank"
-summary: "The first stage of a AttachedDatabaseConfiguration definition."
-syntax: "public static interface AttachedDatabaseConfiguration.DefinitionStages.Blank extends AttachedDatabaseConfiguration.DefinitionStages.WithCluster"
+summary: "The first stage of a Attached<wbr>Database<wbr>Configuration definition."
+syntax: "public static interface **AttachedDatabaseConfiguration.DefinitionStages.Blank**</br> extends <xref href=\"com.microsoft.azure.management.kusto.v2020_09_18.AttachedDatabaseConfiguration.DefinitionStages.WithCluster?alt=com.microsoft.azure.management.kusto.v2020_09_18.AttachedDatabaseConfiguration.DefinitionStages.WithCluster&text=WithCluster\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "The first stage of a AttachedDatabaseConfiguration definition."
 implements:
 - "<xref href=\"com.microsoft.azure.management.kusto.v2020_09_18.AttachedDatabaseConfiguration.DefinitionStages.WithCluster?alt=com.microsoft.azure.management.kusto.v2020_09_18.AttachedDatabaseConfiguration.DefinitionStages.WithCluster&text=WithCluster\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

@@ -1,0 +1,22 @@
+{
+  "Name": "azure-resourcemanager-elasticsan",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/elasticsan/azure-resourcemanager-elasticsan",
+  "ServiceDirectory": "elasticsan",
+  "ReadMePath": "sdk/elasticsan/azure-resourcemanager-elasticsan/README.md",
+  "ChangeLogPath": "sdk/elasticsan/azure-resourcemanager-elasticsan/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-elasticsan",
+  "ReleaseStatus": "2024-09-25",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "Namespaces": [
+    "com.azure.resourcemanager.elasticsan",
+    "com.azure.resourcemanager.elasticsan.fluent",
+    "com.azure.resourcemanager.elasticsan.fluent.models",
+    "com.azure.resourcemanager.elasticsan.models"
+  ]
+}

@@ -1,19 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithAllOptions.withIterationId(UUID)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithAllOptions.withOrderBy(String)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithProjectId.withProjectId(UUID)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithAllOptions.withSkip(Integer)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithAllOptions.withTagIds(List<UUID>)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithAllOptions.withTake(Integer)
-nameWithType: Trainings.TrainingsGetTaggedImagesDefinition
-syntax: public interface TrainingsGetTaggedImagesDefinition extends Trainings.TrainingsGetTaggedImagesDefinitionStages.WithProjectId,Trainings.TrainingsGetTaggedImagesDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinition
-name: Trainings.TrainingsGetTaggedImagesDefinition
-package: com.microsoft.azure.cognitiveservices.vision.customvision.training
-summary: <p>The entirety of getTaggedImages definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinition"
+name: "Trainings.TrainingsGetTaggedImagesDefinition"
+nameWithType: "Trainings.TrainingsGetTaggedImagesDefinition"
+summary: "The entirety of get<wbr>Tagged<wbr>Images definition."
+syntax: "public static interface **Trainings.TrainingsGetTaggedImagesDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of getTaggedImages definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsGetTaggedImagesDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.customvision.training"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-customvision-training:1.0.3-beta

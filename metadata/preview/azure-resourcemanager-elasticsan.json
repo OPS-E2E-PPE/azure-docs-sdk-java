@@ -1,0 +1,34 @@
+{
+  "Name": "azure-resourcemanager-elasticsan",
+  "Version": "1.2.0-beta.2",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/elasticsan/azure-resourcemanager-elasticsan",
+  "ServiceDirectory": "elasticsan",
+  "ReadMePath": "sdk/elasticsan/azure-resourcemanager-elasticsan/README.md",
+  "ChangeLogPath": "sdk/elasticsan/azure-resourcemanager-elasticsan/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-elasticsan",
+  "ReleaseStatus": "2025-04-18",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "triggeringPaths": [
+      "/sdk/elasticsan/ci.yml"
+    ],
+    "safeName": "azureresourcemanagerelasticsan",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerelasticsan }}",
+    "name": "azure-resourcemanager-elasticsan",
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.elasticsan",
+    "com.azure.resourcemanager.elasticsan.fluent",
+    "com.azure.resourcemanager.elasticsan.fluent.models",
+    "com.azure.resourcemanager.elasticsan.models"
+  ]
+}

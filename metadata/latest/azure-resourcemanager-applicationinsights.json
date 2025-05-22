@@ -1,0 +1,28 @@
+{
+  "Name": "azure-resourcemanager-applicationinsights",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/applicationinsights/azure-resourcemanager-applicationinsights",
+  "ServiceDirectory": "applicationinsights",
+  "ReadMePath": "sdk/applicationinsights/azure-resourcemanager-applicationinsights/README.md",
+  "ChangeLogPath": "sdk/applicationinsights/azure-resourcemanager-applicationinsights/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-applicationinsights",
+  "ReleaseStatus": "2024-12-13",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-applicationinsights",
+    "safeName": "azureresourcemanagerapplicationinsights",
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.applicationinsights",
+    "com.azure.resourcemanager.applicationinsights.fluent",
+    "com.azure.resourcemanager.applicationinsights.fluent.models",
+    "com.azure.resourcemanager.applicationinsights.models"
+  ]
+}

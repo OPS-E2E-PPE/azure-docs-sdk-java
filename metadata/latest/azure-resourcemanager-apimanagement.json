@@ -1,0 +1,34 @@
+{
+  "Name": "azure-resourcemanager-apimanagement",
+  "Version": "2.0.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/apimanagement/azure-resourcemanager-apimanagement",
+  "ServiceDirectory": "apimanagement",
+  "ReadMePath": "sdk/apimanagement/azure-resourcemanager-apimanagement/README.md",
+  "ChangeLogPath": "sdk/apimanagement/azure-resourcemanager-apimanagement/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-apimanagement",
+  "ReleaseStatus": "2025-04-23",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "groupId": "com.azure.resourcemanager",
+    "triggeringPaths": [
+      "/sdk/apimanagement/ci.yml"
+    ],
+    "name": "azure-resourcemanager-apimanagement",
+    "safeName": "azureresourcemanagerapimanagement"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.apimanagement",
+    "com.azure.resourcemanager.apimanagement.fluent",
+    "com.azure.resourcemanager.apimanagement.fluent.models",
+    "com.azure.resourcemanager.apimanagement.models"
+  ],
+  "CIMatrixConfigs": []
+}

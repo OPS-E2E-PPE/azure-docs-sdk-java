@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.synapse.models.TransparentDataEncryption.Definit
 fullName: "com.azure.resourcemanager.synapse.models.TransparentDataEncryption.DefinitionStages"
 name: "TransparentDataEncryption.DefinitionStages"
 nameWithType: "TransparentDataEncryption.DefinitionStages"
-summary: "The TransparentDataEncryption definition stages."
-syntax: "public static interface TransparentDataEncryption.DefinitionStages"
+summary: "The Transparent<wbr>Data<wbr>Encryption definition stages."
+syntax: "public static interface **TransparentDataEncryption.DefinitionStages**"
 type: "interface"
+desc: "The TransparentDataEncryption definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.synapse.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-synapse:1.0.0-beta.1
+artifact: com.azure.resourcemanager:azure-resourcemanager-synapse:1.0.0-beta.8

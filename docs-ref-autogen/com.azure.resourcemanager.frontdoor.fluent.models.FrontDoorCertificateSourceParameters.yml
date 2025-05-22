@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters"
+fullName: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters"
+name: "FrontDoorCertificateSourceParameters"
+nameWithType: "FrontDoorCertificateSourceParameters"
+summary: "Parameters required for enabling SSL with Front Door-managed certificates."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **FrontDoorCertificateSourceParameters**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters?alt=com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters&text=FrontDoorCertificateSourceParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.FrontDoorCertificateSourceParameters()"
+  fullName: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.FrontDoorCertificateSourceParameters()"
+  name: "FrontDoorCertificateSourceParameters()"
+  nameWithType: "FrontDoorCertificateSourceParameters.FrontDoorCertificateSourceParameters()"
+  summary: "Creates an instance of Front<wbr>Door<wbr>Certificate<wbr>Source<wbr>Parameters class."
+  syntax: "public FrontDoorCertificateSourceParameters()"
+  desc: "Creates an instance of FrontDoorCertificateSourceParameters class."
+methods:
+- uid: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.certificateType()"
+  fullName: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.certificateType()"
+  name: "certificateType()"
+  nameWithType: "FrontDoorCertificateSourceParameters.certificateType()"
+  summary: "Get the certificate<wbr>Type property: Defines the type of the certificate used for secure connections to a frontend<wbr>Endpoint."
+  syntax: "public FrontDoorCertificateType certificateType()"
+  desc: "Get the certificateType property: Defines the type of the certificate used for secure connections to a frontendEndpoint."
+  returns:
+    description: "the certificateType value."
+    type: "<xref href=\"com.azure.resourcemanager.frontdoor.models.FrontDoorCertificateType?alt=com.azure.resourcemanager.frontdoor.models.FrontDoorCertificateType&text=FrontDoorCertificateType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "FrontDoorCertificateSourceParameters.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Front<wbr>Door<wbr>Certificate<wbr>Source<wbr>Parameters from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static FrontDoorCertificateSourceParameters fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the FrontDoorCertificateSourceParameters."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of FrontDoorCertificateSourceParameters from the JsonReader."
+  returns:
+    description: "An instance of FrontDoorCertificateSourceParameters if the JsonReader was pointing to an instance of it,\n or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters?alt=com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters&text=FrontDoorCertificateSourceParameters\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "FrontDoorCertificateSourceParameters.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.validate()"
+  fullName: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.validate()"
+  name: "validate()"
+  nameWithType: "FrontDoorCertificateSourceParameters.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.withCertificateType(com.azure.resourcemanager.frontdoor.models.FrontDoorCertificateType)"
+  fullName: "com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters.withCertificateType(FrontDoorCertificateType certificateType)"
+  name: "withCertificateType(FrontDoorCertificateType certificateType)"
+  nameWithType: "FrontDoorCertificateSourceParameters.withCertificateType(FrontDoorCertificateType certificateType)"
+  summary: "Set the certificate<wbr>Type property: Defines the type of the certificate used for secure connections to a frontend<wbr>Endpoint."
+  parameters:
+  - description: "the certificateType value to set."
+    name: "certificateType"
+    type: "<xref href=\"com.azure.resourcemanager.frontdoor.models.FrontDoorCertificateType?alt=com.azure.resourcemanager.frontdoor.models.FrontDoorCertificateType&text=FrontDoorCertificateType\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public FrontDoorCertificateSourceParameters withCertificateType(FrontDoorCertificateType certificateType)"
+  desc: "Set the certificateType property: Defines the type of the certificate used for secure connections to a frontendEndpoint."
+  returns:
+    description: "the FrontDoorCertificateSourceParameters object itself."
+    type: "<xref href=\"com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters?alt=com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters&text=FrontDoorCertificateSourceParameters\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Parameters required for enabling SSL with Front Door-managed certificates."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters?alt=com.azure.resourcemanager.frontdoor.fluent.models.FrontDoorCertificateSourceParameters&text=FrontDoorCertificateSourceParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.frontdoor.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-frontdoor:1.1.0

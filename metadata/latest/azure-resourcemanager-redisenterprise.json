@@ -1,0 +1,20 @@
+{
+  "Name": "azure-resourcemanager-redisenterprise",
+  "Version": "2.0.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/redisenterprise/azure-resourcemanager-redisenterprise",
+  "ServiceDirectory": "redisenterprise",
+  "ReadMePath": "sdk/redisenterprise/azure-resourcemanager-redisenterprise/README.md",
+  "ChangeLogPath": "sdk/redisenterprise/azure-resourcemanager-redisenterprise/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-redisenterprise",
+  "ReleaseStatus": "2024-03-14",
+  "Namespaces": [
+    "com.azure.resourcemanager.redisenterprise",
+    "com.azure.resourcemanager.redisenterprise.fluent",
+    "com.azure.resourcemanager.redisenterprise.fluent.models",
+    "com.azure.resourcemanager.redisenterprise.models"
+  ]
+}

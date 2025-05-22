@@ -1,24 +1,19 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Appliable.apply()
-- com.microsoft.azure.management.resources.fluentcore.model.Appliable.applyAsync()
-- com.microsoft.azure.management.resources.fluentcore.model.Appliable.applyAsync(final ServiceCallback<T>)
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential.defineCertificateCredential(String)
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential.definePasswordCredential(String)
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithMultiTenant.withAvailableToOtherTenants(boolean)
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl.withIdentifierUrl(String)
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential.withoutCredential(String)
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl.withoutIdentifierUrl(String)
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl.withoutReplyUrl(String)
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl.withReplyUrl(String)
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithSignOnUrl.withSignOnUrl(String)
-nameWithType: ActiveDirectoryApplication.Update
-syntax: public interface Update extends Appliable<ActiveDirectoryApplication>,ActiveDirectoryApplication.UpdateStages.WithSignOnUrl,ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl,ActiveDirectoryApplication.UpdateStages.WithReplyUrl,ActiveDirectoryApplication.UpdateStages.WithCredential,ActiveDirectoryApplication.UpdateStages.WithMultiTenant
-type: interface
-uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.Update
-fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.Update
-name: ActiveDirectoryApplication.Update
-package: com.microsoft.azure.management.graphrbac
-summary: <p>The template for an application update operation, containing all the settings that can be modified. </p>
+uid: "com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.Update"
+fullName: "com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.Update"
+name: "ActiveDirectoryApplication.Update"
+nameWithType: "ActiveDirectoryApplication.Update"
+summary: "The template for an application update operation, containing all the settings that can be modified."
+syntax: "public static interface **ActiveDirectoryApplication.Update**</br> extends <xref href=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable?alt=com.microsoft.azure.management.resources.fluentcore.model.Appliable&text=Appliable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication&text=ActiveDirectoryApplication\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithSignOnUrl?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithSignOnUrl&text=WithSignOnUrl\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl&text=WithIdentifierUrl\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl&text=WithReplyUrl\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential&text=WithCredential\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithMultiTenant?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithMultiTenant&text=WithMultiTenant\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The template for an application update operation, containing all the settings that can be modified."
+implements:
+- "<xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithCredential&text=WithCredential\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithIdentifierUrl&text=WithIdentifierUrl\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithMultiTenant?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithMultiTenant&text=WithMultiTenant\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithReplyUrl&text=WithReplyUrl\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithSignOnUrl?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication.UpdateStages.WithSignOnUrl&text=WithSignOnUrl\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.model.Appliable?alt=com.microsoft.azure.management.resources.fluentcore.model.Appliable&text=Appliable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryApplication&text=ActiveDirectoryApplication\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.graphrbac"
+artifact: com.microsoft.azure:azure-mgmt-graph-rbac:1.41.4

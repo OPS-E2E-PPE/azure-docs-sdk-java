@@ -1,29 +1,22 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults.withBasicEdition()
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults.withBasicEdition(SqlDatabaseBasicStorage)
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCollation.withCollation(String)
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEdition.withEdition(DatabaseEdition)
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEdition.withEdition(DatabaseEditions)
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithMaxSizeBytes.withMaxSizeBytes(long)
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults.withPremiumEdition(SqlDatabasePremiumServiceObjective)
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults.withPremiumEdition(SqlDatabasePremiumServiceObjective,SqlDatabasePremiumStorage)
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective.withServiceObjective(ServiceObjectiveName)
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults.withStandardEdition(SqlDatabaseStandardServiceObjective)
-- com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults.withStandardEdition(SqlDatabaseStandardServiceObjective,SqlDatabaseStandardStorage)
-nameWithType: SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>
-syntax: public interface WithAttachAllOptions<ParentT> extends SqlDatabase.DefinitionStages.WithServiceObjective<ParentT>,SqlDatabase.DefinitionStages.WithEdition<ParentT>,SqlDatabase.DefinitionStages.WithEditionDefaults<ParentT>,SqlDatabase.DefinitionStages.WithCollation<ParentT>,SqlDatabase.DefinitionStages.WithMaxSizeBytes<ParentT>,SqlDatabase.DefinitionStages.WithAttachFinal<ParentT>
-type: interface
+uid: "com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachAllOptions"
+fullName: "com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>"
+name: "SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>"
+nameWithType: "SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>"
+summary: "The final stage of the SQL Database definition with all the other options."
+syntax: "public static interface **SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>**</br> extends <xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective&text=WithServiceObjective\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEdition?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEdition&text=WithEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults&text=WithEditionDefaults\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCollation?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCollation&text=WithCollation\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithMaxSizeBytes?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithMaxSizeBytes&text=WithMaxSizeBytes\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachFinal?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachFinal&text=WithAttachFinal\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
 typeParameters:
-- description: <p>the stage of the parent definition to return to after attaching this definition </p>
-  name: ParentT
-uid: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachAllOptions
-fullName: com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>
-name: SqlDatabase.DefinitionStages.WithAttachAllOptions<ParentT>
-package: com.microsoft.azure.management.sql
-summary: >-
-  <p>The final stage of the SQL Database definition with all the other options.</p>
-
-  <p></p>
+- description: "the stage of the parent definition to return to after attaching this definition"
+  name: "ParentT"
+desc: "The final stage of the SQL Database definition with all the other options."
+implements:
+- "<xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachFinal?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithAttachFinal&text=WithAttachFinal\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCollation?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithCollation&text=WithCollation\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEdition?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEdition&text=WithEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithEditionDefaults&text=WithEditionDefaults\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithMaxSizeBytes?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithMaxSizeBytes&text=WithMaxSizeBytes\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective?alt=com.microsoft.azure.management.sql.SqlDatabase.DefinitionStages.WithServiceObjective&text=WithServiceObjective\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.sql"
+artifact: com.microsoft.azure:azure-mgmt-sql:1.41.4

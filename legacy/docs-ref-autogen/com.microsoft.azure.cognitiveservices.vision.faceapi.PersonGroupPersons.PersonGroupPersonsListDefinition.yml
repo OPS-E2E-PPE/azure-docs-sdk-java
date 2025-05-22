@@ -1,16 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithPersonGroupId.withPersonGroupId(String)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithAllOptions.withStart(String)
-- com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithAllOptions.withTop(Integer)
-nameWithType: PersonGroupPersons.PersonGroupPersonsListDefinition
-syntax: public interface PersonGroupPersonsListDefinition extends PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithPersonGroupId,PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinition
-name: PersonGroupPersons.PersonGroupPersonsListDefinition
-package: com.microsoft.azure.cognitiveservices.vision.faceapi
-summary: <p>The entirety of list definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinition"
+name: "PersonGroupPersons.PersonGroupPersonsListDefinition"
+nameWithType: "PersonGroupPersons.PersonGroupPersonsListDefinition"
+summary: "The entirety of list definition."
+syntax: "public static interface **PersonGroupPersons.PersonGroupPersonsListDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithPersonGroupId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithPersonGroupId&text=WithPersonGroupId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of list definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithPersonGroupId?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroupPersons.PersonGroupPersonsListDefinitionStages.WithPersonGroupId&text=WithPersonGroupId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.faceapi"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-faceapi:1.0.2-beta

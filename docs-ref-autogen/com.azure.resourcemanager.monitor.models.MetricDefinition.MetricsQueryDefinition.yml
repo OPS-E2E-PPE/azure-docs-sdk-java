@@ -4,12 +4,13 @@ fullName: "com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQuer
 name: "MetricDefinition.MetricsQueryDefinition"
 nameWithType: "MetricDefinition.MetricsQueryDefinition"
 summary: "The entirety of a Metrics query definition."
-syntax: "public static interface MetricDefinition.MetricsQueryDefinition extends MetricDefinition.MetricsQueryDefinitionStages.WithMetricStartTimeFilter, MetricDefinition.MetricsQueryDefinitionStages.WithMetricEndFilter, MetricDefinition.MetricsQueryDefinitionStages.WithMetricsQueryExecute"
+syntax: "public static interface **MetricDefinition.MetricsQueryDefinition**</br> extends <xref href=\"com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricStartTimeFilter?alt=com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricStartTimeFilter&text=WithMetricStartTimeFilter\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricEndFilter?alt=com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricEndFilter&text=WithMetricEndFilter\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricsQueryExecute?alt=com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricsQueryExecute&text=WithMetricsQueryExecute\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "The entirety of a Metrics query definition."
 implements:
 - "<xref href=\"com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricEndFilter?alt=com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricEndFilter&text=WithMetricEndFilter\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricStartTimeFilter?alt=com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricStartTimeFilter&text=WithMetricStartTimeFilter\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricsQueryExecute?alt=com.azure.resourcemanager.monitor.models.MetricDefinition.MetricsQueryDefinitionStages.WithMetricsQueryExecute&text=WithMetricsQueryExecute\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.monitor.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.50.0

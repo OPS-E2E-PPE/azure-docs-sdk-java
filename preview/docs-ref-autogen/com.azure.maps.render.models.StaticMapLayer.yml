@@ -1,0 +1,110 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.render.models.StaticMapLayer"
+fullName: "com.azure.maps.render.models.StaticMapLayer"
+name: "StaticMapLayer"
+nameWithType: "StaticMapLayer"
+summary: "Defines values for Static<wbr>Map<wbr>Layer."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>fromString&text=<T>fromString\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)?alt=com.azure.core.util.ExpandableStringEnum.<T>values&text=<T>values\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)?alt=com.azure.core.util.ExpandableStringEnum.equals&text=equals\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.getValue()?alt=com.azure.core.util.ExpandableStringEnum.getValue&text=getValue\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.hashCode()?alt=com.azure.core.util.ExpandableStringEnum.hashCode&text=hashCode\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.azure.core.util.ExpandableStringEnum.toString()?alt=com.azure.core.util.ExpandableStringEnum.toString&text=toString\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **StaticMapLayer**</br> extends <xref href=\"com.azure.core.util.ExpandableStringEnum?alt=com.azure.core.util.ExpandableStringEnum&text=ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.render.models.StaticMapLayer?alt=com.azure.maps.render.models.StaticMapLayer&text=StaticMapLayer\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.maps.render.models.StaticMapLayer.StaticMapLayer()"
+  fullName: "com.azure.maps.render.models.StaticMapLayer.StaticMapLayer()"
+  name: "StaticMapLayer()"
+  nameWithType: "StaticMapLayer.StaticMapLayer()"
+  summary: "Creates a new instance of Static<wbr>Map<wbr>Layer value."
+  deprecatedTag: "Use the <xref uid=\"com.azure.maps.render.models.StaticMapLayer.fromString(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromString(String)\"></xref> factory method."
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public StaticMapLayer()"
+  desc: "Creates a new instance of StaticMapLayer value."
+  hasDeprecatedTag: true
+fields:
+- uid: "com.azure.maps.render.models.StaticMapLayer.BASIC"
+  fullName: "com.azure.maps.render.models.StaticMapLayer.BASIC"
+  name: "BASIC"
+  nameWithType: "StaticMapLayer.BASIC"
+  summary: "Returns an image containing all map features including polygons, borders, roads and labels."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.render.models.StaticMapLayer?alt=com.azure.maps.render.models.StaticMapLayer&text=StaticMapLayer\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final StaticMapLayer BASIC"
+  desc: "Returns an image containing all map features including polygons, borders, roads and labels."
+- uid: "com.azure.maps.render.models.StaticMapLayer.HYBRID"
+  fullName: "com.azure.maps.render.models.StaticMapLayer.HYBRID"
+  name: "HYBRID"
+  nameWithType: "StaticMapLayer.HYBRID"
+  summary: "Returns an image containing borders, roads, and labels, and can be overlaid on other tiles (such as satellite imagery) to produce hybrid tiles."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.render.models.StaticMapLayer?alt=com.azure.maps.render.models.StaticMapLayer&text=StaticMapLayer\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final StaticMapLayer HYBRID"
+  desc: "Returns an image containing borders, roads, and labels, and can be overlaid on other tiles (such as satellite imagery) to produce hybrid tiles."
+- uid: "com.azure.maps.render.models.StaticMapLayer.LABELS"
+  fullName: "com.azure.maps.render.models.StaticMapLayer.LABELS"
+  name: "LABELS"
+  nameWithType: "StaticMapLayer.LABELS"
+  summary: "Returns an image of just the map's label information."
+  modifiers:
+  - "static"
+  - "final"
+  field:
+    type: "<xref href=\"com.azure.maps.render.models.StaticMapLayer?alt=com.azure.maps.render.models.StaticMapLayer&text=StaticMapLayer\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static final StaticMapLayer LABELS"
+  desc: "Returns an image of just the map's label information."
+methods:
+- uid: "com.azure.maps.render.models.StaticMapLayer.fromString(java.lang.String)"
+  fullName: "com.azure.maps.render.models.StaticMapLayer.fromString(String name)"
+  name: "fromString(String name)"
+  nameWithType: "StaticMapLayer.fromString(String name)"
+  summary: "Creates or finds a Static<wbr>Map<wbr>Layer from its string representation."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "a name to look for."
+    name: "name"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public static StaticMapLayer fromString(String name)"
+  desc: "Creates or finds a StaticMapLayer from its string representation."
+  returns:
+    description: "the corresponding StaticMapLayer."
+    type: "<xref href=\"com.azure.maps.render.models.StaticMapLayer?alt=com.azure.maps.render.models.StaticMapLayer&text=StaticMapLayer\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.render.models.StaticMapLayer.values()"
+  fullName: "com.azure.maps.render.models.StaticMapLayer.values()"
+  name: "values()"
+  nameWithType: "StaticMapLayer.values()"
+  summary: "Gets known Static<wbr>Map<wbr>Layer values."
+  modifiers:
+  - "static"
+  syntax: "public static Collection<StaticMapLayer> values()"
+  desc: "Gets known StaticMapLayer values."
+  returns:
+    description: "known StaticMapLayer values."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html\">Collection</a>&lt;<xref href=\"com.azure.maps.render.models.StaticMapLayer?alt=com.azure.maps.render.models.StaticMapLayer&text=StaticMapLayer\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "class"
+desc: "Defines values for StaticMapLayer."
+metadata: {}
+package: "com.azure.maps.render.models"
+artifact: com.azure:azure-maps-render:2.0.0-beta.2

@@ -1,27 +1,20 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync(final ServiceCallback<T>)
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync()
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
-- com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithBgp.withBgp(long,String)
-- com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork.withExistingNetwork(Network)
-- com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType.withExpressRoute()
-- com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork.withNewNetwork(Creatable<Network>)
-- com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork.withNewNetwork(String,String,String)
-- com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork.withNewNetwork(String,String)
-- com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType.withPolicyBasedVpn()
-- com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType.withRouteBasedVpn()
-- com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithSku.withSku(VirtualNetworkGatewaySkuName)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags.withTag(String,String)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags.withTags(Map<String, String>)
-nameWithType: VirtualNetworkGateway.Definition
-syntax: public interface Definition extends VirtualNetworkGateway.DefinitionStages.Blank,VirtualNetworkGateway.DefinitionStages.WithGroup,VirtualNetworkGateway.DefinitionStages.WithGatewayType,VirtualNetworkGateway.DefinitionStages.WithSku,VirtualNetworkGateway.DefinitionStages.WithNetwork,VirtualNetworkGateway.DefinitionStages.WithBgp,VirtualNetworkGateway.DefinitionStages.WithCreate
-type: interface
-uid: com.microsoft.azure.management.network.VirtualNetworkGateway.Definition
-fullName: com.microsoft.azure.management.network.VirtualNetworkGateway.Definition
-name: VirtualNetworkGateway.Definition
-package: com.microsoft.azure.management.network
-summary: <p>The entirety of the virtual network gateway definition. </p>
+uid: "com.microsoft.azure.management.network.VirtualNetworkGateway.Definition"
+fullName: "com.microsoft.azure.management.network.VirtualNetworkGateway.Definition"
+name: "VirtualNetworkGateway.Definition"
+nameWithType: "VirtualNetworkGateway.Definition"
+summary: "The entirety of the virtual network gateway definition."
+syntax: "public static interface **VirtualNetworkGateway.Definition**</br> extends <xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.Blank?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGroup?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGroup&text=WithGroup\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType&text=WithGatewayType\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithSku?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithSku&text=WithSku\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork&text=WithNetwork\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithBgp?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithBgp&text=WithBgp\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of the virtual network gateway definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.Blank?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithBgp?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithBgp&text=WithBgp\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGatewayType&text=WithGatewayType\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGroup?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithGroup&text=WithGroup\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithNetwork&text=WithNetwork\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithSku?alt=com.microsoft.azure.management.network.VirtualNetworkGateway.DefinitionStages.WithSku&text=WithSku\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithContentType.withContentType(String)
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithCreateVideoReviewsBody.withCreateVideoReviewsBody(List<CreateVideoReviewsBodyItem>)
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithAllOptions.withSubTeam(String)
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithTeamName.withTeamName(String)
-nameWithType: Reviews.ReviewsCreateVideoReviewsDefinition
-syntax: public interface ReviewsCreateVideoReviewsDefinition extends Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithTeamName,Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithContentType,Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithCreateVideoReviewsBody,Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinition
-name: Reviews.ReviewsCreateVideoReviewsDefinition
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>The entirety of createVideoReviews definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinition"
+name: "Reviews.ReviewsCreateVideoReviewsDefinition"
+nameWithType: "Reviews.ReviewsCreateVideoReviewsDefinition"
+summary: "The entirety of create<wbr>Video<wbr>Reviews definition."
+syntax: "public static interface **Reviews.ReviewsCreateVideoReviewsDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithTeamName?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithTeamName&text=WithTeamName\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithContentType?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithContentType&text=WithContentType\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithCreateVideoReviewsBody?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithCreateVideoReviewsBody&text=WithCreateVideoReviewsBody\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of createVideoReviews definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithContentType?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithContentType&text=WithContentType\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithCreateVideoReviewsBody?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithCreateVideoReviewsBody&text=WithCreateVideoReviewsBody\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithTeamName?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.ReviewsCreateVideoReviewsDefinitionStages.WithTeamName&text=WithTeamName\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

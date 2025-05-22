@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties"
+fullName: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties"
+name: "ProductUpdateProperties"
+nameWithType: "ProductUpdateProperties"
+summary: "The updatable properties of the Product."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ProductUpdateProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sphere.models.ProductUpdateProperties?alt=com.azure.resourcemanager.sphere.models.ProductUpdateProperties&text=ProductUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.ProductUpdateProperties()"
+  fullName: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.ProductUpdateProperties()"
+  name: "ProductUpdateProperties()"
+  nameWithType: "ProductUpdateProperties.ProductUpdateProperties()"
+  summary: "Creates an instance of Product<wbr>Update<wbr>Properties class."
+  syntax: "public ProductUpdateProperties()"
+  desc: "Creates an instance of ProductUpdateProperties class."
+methods:
+- uid: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.description()"
+  fullName: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.description()"
+  name: "description()"
+  nameWithType: "ProductUpdateProperties.description()"
+  summary: "Get the description property: Description of the product."
+  syntax: "public String description()"
+  desc: "Get the description property: Description of the product."
+  returns:
+    description: "the description value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ProductUpdateProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Product<wbr>Update<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ProductUpdateProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ProductUpdateProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ProductUpdateProperties from the JsonReader."
+  returns:
+    description: "An instance of ProductUpdateProperties if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.sphere.models.ProductUpdateProperties?alt=com.azure.resourcemanager.sphere.models.ProductUpdateProperties&text=ProductUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ProductUpdateProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.validate()"
+  fullName: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.validate()"
+  name: "validate()"
+  nameWithType: "ProductUpdateProperties.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.withDescription(java.lang.String)"
+  fullName: "com.azure.resourcemanager.sphere.models.ProductUpdateProperties.withDescription(String description)"
+  name: "withDescription(String description)"
+  nameWithType: "ProductUpdateProperties.withDescription(String description)"
+  summary: "Set the description property: Description of the product."
+  parameters:
+  - description: "the description value to set."
+    name: "description"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public ProductUpdateProperties withDescription(String description)"
+  desc: "Set the description property: Description of the product."
+  returns:
+    description: "the ProductUpdateProperties object itself."
+    type: "<xref href=\"com.azure.resourcemanager.sphere.models.ProductUpdateProperties?alt=com.azure.resourcemanager.sphere.models.ProductUpdateProperties&text=ProductUpdateProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The updatable properties of the Product."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sphere.models.ProductUpdateProperties?alt=com.azure.resourcemanager.sphere.models.ProductUpdateProperties&text=ProductUpdateProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.sphere.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-sphere:1.1.0

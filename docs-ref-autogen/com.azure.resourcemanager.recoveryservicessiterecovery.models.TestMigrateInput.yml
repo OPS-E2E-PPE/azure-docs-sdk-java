@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput"
+fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput"
+name: "TestMigrateInput"
+nameWithType: "TestMigrateInput"
+summary: "Input for test migrate."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **TestMigrateInput**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput&text=TestMigrateInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.TestMigrateInput()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.TestMigrateInput()"
+  name: "TestMigrateInput()"
+  nameWithType: "TestMigrateInput.TestMigrateInput()"
+  summary: "Creates an instance of Test<wbr>Migrate<wbr>Input class."
+  syntax: "public TestMigrateInput()"
+  desc: "Creates an instance of TestMigrateInput class."
+methods:
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "TestMigrateInput.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Test<wbr>Migrate<wbr>Input from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static TestMigrateInput fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of TestMigrateInput from the JsonReader."
+  returns:
+    description: "An instance of TestMigrateInput if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput&text=TestMigrateInput\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.properties()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.properties()"
+  name: "properties()"
+  nameWithType: "TestMigrateInput.properties()"
+  summary: "Get the properties property: Test migrate input properties."
+  syntax: "public TestMigrateInputProperties properties()"
+  desc: "Get the properties property: Test migrate input properties."
+  returns:
+    description: "the properties value."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInputProperties&text=TestMigrateInputProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "TestMigrateInput.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.validate()"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.validate()"
+  name: "validate()"
+  nameWithType: "TestMigrateInput.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.withProperties(com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInputProperties)"
+  fullName: "com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput.withProperties(TestMigrateInputProperties properties)"
+  name: "withProperties(TestMigrateInputProperties properties)"
+  nameWithType: "TestMigrateInput.withProperties(TestMigrateInputProperties properties)"
+  summary: "Set the properties property: Test migrate input properties."
+  parameters:
+  - description: "the properties value to set."
+    name: "properties"
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInputProperties?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInputProperties&text=TestMigrateInputProperties\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public TestMigrateInput withProperties(TestMigrateInputProperties properties)"
+  desc: "Set the properties property: Test migrate input properties."
+  returns:
+    description: "the TestMigrateInput object itself."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput&text=TestMigrateInput\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Input for test migrate."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput?alt=com.azure.resourcemanager.recoveryservicessiterecovery.models.TestMigrateInput&text=TestMigrateInput\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.recoveryservicessiterecovery.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservicessiterecovery:1.3.0

@@ -1,0 +1,41 @@
+{
+  "Name": "azure-resourcemanager-containerinstance",
+  "Version": "2.50.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-containerinstance",
+  "ServiceDirectory": "resourcemanager",
+  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-containerinstance/README.md",
+  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-containerinstance/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-containerinstance",
+  "ReleaseStatus": "2025-04-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure.resourcemanager:azure-resourcemanager-samples",
+    "com.azure.resourcemanager:azure-resourcemanager-perf",
+    "com.azure.resourcemanager:azure-resourcemanager-test",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagercontainerinstance }}",
+    "triggeringPaths": [
+      "/sdk/resourcemanager/ci.yml"
+    ],
+    "safeName": "azureresourcemanagercontainerinstance",
+    "name": "azure-resourcemanager-containerinstance",
+    "groupId": "com.azure.resourcemanager"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.containerinstance",
+    "com.azure.resourcemanager.containerinstance.fluent",
+    "com.azure.resourcemanager.containerinstance.fluent.models",
+    "com.azure.resourcemanager.containerinstance.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

@@ -1,0 +1,97 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad"
+fullName: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad"
+name: "ProviderPropertiesAad"
+nameWithType: "ProviderPropertiesAad"
+summary: "Azure Active Directory info."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **ProviderPropertiesAad**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.quantum.models.ProviderPropertiesAad?alt=com.azure.resourcemanager.quantum.models.ProviderPropertiesAad&text=ProviderPropertiesAad\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.ProviderPropertiesAad()"
+  fullName: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.ProviderPropertiesAad()"
+  name: "ProviderPropertiesAad()"
+  nameWithType: "ProviderPropertiesAad.ProviderPropertiesAad()"
+  summary: "Creates an instance of Provider<wbr>Properties<wbr>Aad class."
+  syntax: "public ProviderPropertiesAad()"
+  desc: "Creates an instance of ProviderPropertiesAad class."
+methods:
+- uid: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.applicationId()"
+  fullName: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.applicationId()"
+  name: "applicationId()"
+  nameWithType: "ProviderPropertiesAad.applicationId()"
+  summary: "Get the application<wbr>Id property: Provider's application id."
+  syntax: "public String applicationId()"
+  desc: "Get the applicationId property: Provider's application id."
+  returns:
+    description: "the applicationId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "ProviderPropertiesAad.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Provider<wbr>Properties<wbr>Aad from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ProviderPropertiesAad fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the ProviderPropertiesAad."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of ProviderPropertiesAad from the JsonReader."
+  returns:
+    description: "An instance of ProviderPropertiesAad if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.quantum.models.ProviderPropertiesAad?alt=com.azure.resourcemanager.quantum.models.ProviderPropertiesAad&text=ProviderPropertiesAad\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.tenantId()"
+  fullName: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.tenantId()"
+  name: "tenantId()"
+  nameWithType: "ProviderPropertiesAad.tenantId()"
+  summary: "Get the tenant<wbr>Id property: Provider's tenant id."
+  syntax: "public String tenantId()"
+  desc: "Get the tenantId property: Provider's tenant id."
+  returns:
+    description: "the tenantId value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "ProviderPropertiesAad.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.validate()"
+  fullName: "com.azure.resourcemanager.quantum.models.ProviderPropertiesAad.validate()"
+  name: "validate()"
+  nameWithType: "ProviderPropertiesAad.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+type: "class"
+desc: "Azure Active Directory info."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.quantum.models.ProviderPropertiesAad?alt=com.azure.resourcemanager.quantum.models.ProviderPropertiesAad&text=ProviderPropertiesAad\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.quantum.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-quantum:1.0.0-beta.3

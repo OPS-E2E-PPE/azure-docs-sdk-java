@@ -1,0 +1,30 @@
+{
+  "Name": "azure-resourcemanager-logz",
+  "Version": "1.0.0-beta.4",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/logz/azure-resourcemanager-logz",
+  "ServiceDirectory": "logz",
+  "ReadMePath": "sdk/logz/azure-resourcemanager-logz/README.md",
+  "ChangeLogPath": "sdk/logz/azure-resourcemanager-logz/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-logz",
+  "ReleaseStatus": "2025-02-14",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerlogz",
+    "name": "azure-resourcemanager-logz"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager.logz",
+    "com.azure.resourcemanager.logz.fluent",
+    "com.azure.resourcemanager.logz.fluent.models",
+    "com.azure.resourcemanager.logz.models"
+  ]
+}

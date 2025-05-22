@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.containerservice.models.KubernetesClusterAg
 name: "KubernetesClusterAgentPool.DefinitionStages"
 nameWithType: "KubernetesClusterAgentPool.DefinitionStages"
 summary: "Grouping of container service agent pool definition stages as a part of parent container service definition."
-syntax: "public static interface KubernetesClusterAgentPool.DefinitionStages"
+syntax: "public static interface **KubernetesClusterAgentPool.DefinitionStages**"
 type: "interface"
+desc: "Grouping of container service agent pool definition stages as a part of parent container service definition."
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.50.0

@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Models.ModelsAddExplicitListItemDefinitionStages
-syntax: public interface ModelsAddExplicitListItemDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsAddExplicitListItemDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsAddExplicitListItemDefinitionStages
-name: Models.ModelsAddExplicitListItemDefinitionStages
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>Grouping of addExplicitListItem definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsAddExplicitListItemDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.ModelsAddExplicitListItemDefinitionStages"
+name: "Models.ModelsAddExplicitListItemDefinitionStages"
+nameWithType: "Models.ModelsAddExplicitListItemDefinitionStages"
+summary: "Grouping of add<wbr>Explicit<wbr>List<wbr>Item definition stages."
+syntax: "public static interface **Models.ModelsAddExplicitListItemDefinitionStages**"
+type: "interface"
+desc: "Grouping of addExplicitListItem definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

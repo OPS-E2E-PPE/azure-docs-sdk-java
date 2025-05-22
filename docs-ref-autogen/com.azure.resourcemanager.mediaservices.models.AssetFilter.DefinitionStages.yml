@@ -3,9 +3,10 @@ uid: "com.azure.resourcemanager.mediaservices.models.AssetFilter.DefinitionStage
 fullName: "com.azure.resourcemanager.mediaservices.models.AssetFilter.DefinitionStages"
 name: "AssetFilter.DefinitionStages"
 nameWithType: "AssetFilter.DefinitionStages"
-summary: "The AssetFilter definition stages."
-syntax: "public static interface AssetFilter.DefinitionStages"
+summary: "The Asset<wbr>Filter definition stages."
+syntax: "public static interface **AssetFilter.DefinitionStages**"
 type: "interface"
+desc: "The AssetFilter definition stages."
 metadata: {}
 package: "com.azure.resourcemanager.mediaservices.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:1.0.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-mediaservices:2.3.0

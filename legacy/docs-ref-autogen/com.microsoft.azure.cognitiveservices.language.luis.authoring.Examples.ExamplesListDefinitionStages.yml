@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Examples.ExamplesListDefinitionStages
-syntax: public interface ExamplesListDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Examples.ExamplesListDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Examples.ExamplesListDefinitionStages
-name: Examples.ExamplesListDefinitionStages
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>Grouping of list definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Examples.ExamplesListDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Examples.ExamplesListDefinitionStages"
+name: "Examples.ExamplesListDefinitionStages"
+nameWithType: "Examples.ExamplesListDefinitionStages"
+summary: "Grouping of list definition stages."
+syntax: "public static interface **Examples.ExamplesListDefinitionStages**"
+type: "interface"
+desc: "Grouping of list definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

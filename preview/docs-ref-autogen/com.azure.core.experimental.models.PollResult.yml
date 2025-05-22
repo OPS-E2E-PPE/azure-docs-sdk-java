@@ -1,0 +1,82 @@
+### YamlMime:JavaType
+uid: "com.azure.core.experimental.models.PollResult"
+fullName: "com.azure.core.experimental.models.PollResult"
+name: "PollResult"
+nameWithType: "PollResult"
+summary: "Provides status details for long-running operations."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **PollResult**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.experimental.models.PollResult?alt=com.azure.core.experimental.models.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.core.experimental.models.PollResult.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.core.experimental.models.PollResult.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "PollResult.fromJson(JsonReader jsonReader)"
+  summary: "Deserializes an instance of <xref uid=\"com.azure.core.experimental.models.PollResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollResult\"></xref> from the <xref uid=\"com.azure.json.JsonReader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonReader\"></xref>."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The <xref uid=\"com.azure.json.JsonReader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonReader\"></xref> to read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static PollResult fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the <xref uid=\"JsonReader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonReader\"></xref>."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Deserializes an instance of <xref uid=\"com.azure.core.experimental.models.PollResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollResult\"></xref> from the <xref uid=\"com.azure.json.JsonReader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonReader\"></xref>."
+  returns:
+    description: "An instance of <xref uid=\"com.azure.core.experimental.models.PollResult\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PollResult\"></xref>, or null if the <xref uid=\"com.azure.json.JsonReader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonReader\"></xref> was pointing to\n <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonToken#NULL\"></xref>."
+    type: "<xref href=\"com.azure.core.experimental.models.PollResult?alt=com.azure.core.experimental.models.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.core.experimental.models.PollResult.getError()"
+  fullName: "com.azure.core.experimental.models.PollResult.getError()"
+  name: "getError()"
+  nameWithType: "PollResult.getError()"
+  summary: "Get the error property: Error object that describes the error when status is \"Failed\"."
+  syntax: "public ResponseError getError()"
+  desc: "Get the error property: Error object that describes the error when status is \"Failed\"."
+  returns:
+    description: "the error object that describes the error when status is \"Failed\"."
+    type: "<xref href=\"com.azure.core.models.ResponseError?alt=com.azure.core.models.ResponseError&text=ResponseError\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.core.experimental.models.PollResult.getOperationId()"
+  fullName: "com.azure.core.experimental.models.PollResult.getOperationId()"
+  name: "getOperationId()"
+  nameWithType: "PollResult.getOperationId()"
+  summary: "Get the id property: The unique ID of the operation."
+  syntax: "public String getOperationId()"
+  desc: "Get the id property: The unique ID of the operation."
+  returns:
+    description: "the unique ID of the operation."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.core.experimental.models.PollResult.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.core.experimental.models.PollResult.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "PollResult.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Provides status details for long-running operations."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.experimental.models.PollResult?alt=com.azure.core.experimental.models.PollResult&text=PollResult\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.core.experimental.models"
+artifact: com.azure:azure-core-experimental:1.0.0-beta.60

@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ActiveDirectoryGroup.UpdateStages
-syntax: public interface UpdateStages
-type: interface
-uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup.UpdateStages
-fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup.UpdateStages
-name: ActiveDirectoryGroup.UpdateStages
-package: com.microsoft.azure.management.graphrbac
-summary: <p>Grouping of all the AD group update stages. </p>
+uid: "com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup.UpdateStages"
+fullName: "com.microsoft.azure.management.graphrbac.ActiveDirectoryGroup.UpdateStages"
+name: "ActiveDirectoryGroup.UpdateStages"
+nameWithType: "ActiveDirectoryGroup.UpdateStages"
+summary: "Grouping of all the AD group update stages."
+syntax: "public static interface **ActiveDirectoryGroup.UpdateStages**"
+type: "interface"
+desc: "Grouping of all the AD group update stages."
 metadata: {}
+package: "com.microsoft.azure.management.graphrbac"
+artifact: com.microsoft.azure:azure-mgmt-graph-rbac:1.41.4

@@ -1,14 +1,31 @@
 ### YamlMime:JavaType
+uid: "com.microsoft.cognitiveservices.speech.util.EventHandler"
+fullName: "com.microsoft.cognitiveservices.speech.util.EventHandler<T>"
+name: "EventHandler<T>"
+nameWithType: "EventHandler<T>"
+summary: "The Event<wbr>Handler interface used for all recognition events."
+syntax: "public interface **EventHandler<T>**"
 methods:
-- com.microsoft.cognitiveservices.speech.util.EventHandler.onEvent(Object,T)
-nameWithType: EventHandler<T>
-syntax: public interface EventHandler<T>
-type: interface
+- uid: "com.microsoft.cognitiveservices.speech.util.EventHandler.onEvent(java.lang.Object,T)"
+  fullName: "com.microsoft.cognitiveservices.speech.util.EventHandler<T>.onEvent(Object sender, T e)"
+  name: "onEvent(Object sender, T e)"
+  nameWithType: "EventHandler<T>.onEvent(Object sender, T e)"
+  summary: "Calles when the subscribed event occurred."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The origin of the event."
+    name: "sender"
+    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The event."
+    name: "e"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void onEvent(Object sender, T e)"
+  desc: "Calles when the subscribed event occurred."
+type: "interface"
 typeParameters:
-- name: T
-uid: com.microsoft.cognitiveservices.speech.util.EventHandler
-fullName: com.microsoft.cognitiveservices.speech.util.EventHandler<T>
-name: EventHandler<T>
-package: com.microsoft.cognitiveservices.speech.util
-summary: <p>The EventHandler interface used for all recognition events. </p>
+- name: "T"
+desc: "The EventHandler interface used for all recognition events."
 metadata: {}
+package: "com.microsoft.cognitiveservices.speech.util"
+artifact: com.microsoft.cognitiveservices.speech:client-sdk:1.43.0

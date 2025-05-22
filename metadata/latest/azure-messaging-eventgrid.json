@@ -1,0 +1,34 @@
+{
+  "Name": "azure-messaging-eventgrid",
+  "Version": "4.30.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/eventgrid/azure-messaging-eventgrid",
+  "ServiceDirectory": "eventgrid",
+  "ReadMePath": "sdk/eventgrid/azure-messaging-eventgrid/README.md",
+  "ChangeLogPath": "sdk/eventgrid/azure-messaging-eventgrid/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-messaging-eventgrid",
+  "ReleaseStatus": "2025-05-16",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "safeName": "azuremessagingeventgrid",
+    "groupId": "com.azure",
+    "name": "azure-messaging-eventgrid",
+    "triggeringPaths": [
+      "/sdk/eventgrid/ci.yml"
+    ],
+    "releaseInBatch": "${{ parameters.release_azuremessagingeventgrid }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.messaging.eventgrid",
+    "com.azure.messaging.eventgrid.systemevents"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

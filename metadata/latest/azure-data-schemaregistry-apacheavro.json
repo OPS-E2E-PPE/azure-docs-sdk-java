@@ -1,0 +1,33 @@
+{
+  "Name": "azure-data-schemaregistry-apacheavro",
+  "Version": "1.1.25",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/schemaregistry/azure-data-schemaregistry-apacheavro",
+  "ServiceDirectory": "schemaregistry",
+  "ReadMePath": "sdk/schemaregistry/azure-data-schemaregistry-apacheavro/README.md",
+  "ChangeLogPath": "sdk/schemaregistry/azure-data-schemaregistry-apacheavro/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-data-schemaregistry-apacheavro",
+  "ReleaseStatus": "2025-03-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-data-schemaregistry-apacheavro",
+    "groupId": "com.azure",
+    "releaseInBatch": "${{ parameters.release_azuredataschemaregistryapacheavro }}",
+    "triggeringPaths": [
+      "/sdk/schemaregistry/ci.yml"
+    ],
+    "safeName": "azuredataschemaregistryapacheavro"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.data.schemaregistry.apacheavro"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

@@ -1,0 +1,29 @@
+{
+  "Name": "azure-resourcemanager-hybridconnectivity",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/hybridconnectivity/azure-resourcemanager-hybridconnectivity",
+  "ServiceDirectory": "hybridconnectivity",
+  "ReadMePath": "sdk/hybridconnectivity/azure-resourcemanager-hybridconnectivity/README.md",
+  "ChangeLogPath": "sdk/hybridconnectivity/azure-resourcemanager-hybridconnectivity/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-hybridconnectivity",
+  "ReleaseStatus": "2024-12-11",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-hybridconnectivity",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagerhybridconnectivity",
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerhybridconnectivity }}"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.hybridconnectivity",
+    "com.azure.resourcemanager.hybridconnectivity.fluent",
+    "com.azure.resourcemanager.hybridconnectivity.fluent.models",
+    "com.azure.resourcemanager.hybridconnectivity.models"
+  ]
+}

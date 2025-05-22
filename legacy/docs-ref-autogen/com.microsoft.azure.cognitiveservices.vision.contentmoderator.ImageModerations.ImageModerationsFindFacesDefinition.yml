@@ -1,14 +1,14 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinitionStages.WithAllOptions.withCacheImage(Boolean)
-nameWithType: ImageModerations.ImageModerationsFindFacesDefinition
-syntax: public interface ImageModerationsFindFacesDefinition extends ImageModerations.ImageModerationsFindFacesDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinition
-name: ImageModerations.ImageModerationsFindFacesDefinition
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>The entirety of findFaces definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinition"
+name: "ImageModerations.ImageModerationsFindFacesDefinition"
+nameWithType: "ImageModerations.ImageModerationsFindFacesDefinition"
+summary: "The entirety of find<wbr>Faces definition."
+syntax: "public static interface **ImageModerations.ImageModerationsFindFacesDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of findFaces definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsFindFacesDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

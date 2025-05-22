@@ -1,0 +1,87 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner"
+fullName: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner"
+name: "UrlTokenInner"
+nameWithType: "UrlTokenInner"
+summary: "Url data for creating or accessing a blob file."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **UrlTokenInner**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner?alt=com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner&text=UrlTokenInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.UrlTokenInner()"
+  fullName: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.UrlTokenInner()"
+  name: "UrlTokenInner()"
+  nameWithType: "UrlTokenInner.UrlTokenInner()"
+  summary: "Creates an instance of Url<wbr>Token<wbr>Inner class."
+  syntax: "public UrlTokenInner()"
+  desc: "Creates an instance of UrlTokenInner class."
+methods:
+- uid: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "UrlTokenInner.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Url<wbr>Token<wbr>Inner from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static UrlTokenInner fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the UrlTokenInner."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of UrlTokenInner from the JsonReader."
+  returns:
+    description: "An instance of UrlTokenInner if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner?alt=com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner&text=UrlTokenInner\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "UrlTokenInner.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.url()"
+  fullName: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.url()"
+  name: "url()"
+  nameWithType: "UrlTokenInner.url()"
+  summary: "Get the url property: SAS URL for creating or accessing a blob file."
+  syntax: "public String url()"
+  desc: "Get the url property: SAS URL for creating or accessing a blob file."
+  returns:
+    description: "the url value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.validate()"
+  fullName: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner.validate()"
+  name: "validate()"
+  nameWithType: "UrlTokenInner.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+type: "class"
+desc: "Url data for creating or accessing a blob file."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner?alt=com.azure.resourcemanager.iotfirmwaredefense.fluent.models.UrlTokenInner&text=UrlTokenInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.iotfirmwaredefense.fluent.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-iotfirmwaredefense:1.1.0

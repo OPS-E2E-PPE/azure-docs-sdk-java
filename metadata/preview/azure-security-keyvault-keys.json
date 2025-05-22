@@ -1,0 +1,37 @@
+{
+  "Name": "azure-security-keyvault-keys",
+  "Version": "4.10.0-beta.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/keyvault/azure-security-keyvault-keys",
+  "ServiceDirectory": "keyvault",
+  "ReadMePath": "sdk/keyvault/azure-security-keyvault-keys/README.md",
+  "ChangeLogPath": "sdk/keyvault/azure-security-keyvault-keys/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-security-keyvault-keys",
+  "ReleaseStatus": "2025-04-10",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure:azure-security-keyvault-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "groupId": "com.azure",
+    "safeName": "azuresecuritykeyvaultkeys",
+    "name": "azure-security-keyvault-keys",
+    "triggeringPaths": [
+      "/sdk/keyvault/ci.yml"
+    ],
+    "releaseInBatch": "${{ parameters.release_azuresecuritykeyvaultkeys }}"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.security.keyvault.keys",
+    "com.azure.security.keyvault.keys.cryptography",
+    "com.azure.security.keyvault.keys.cryptography.models",
+    "com.azure.security.keyvault.keys.models"
+  ]
+}

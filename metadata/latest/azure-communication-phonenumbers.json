@@ -1,0 +1,35 @@
+{
+  "Name": "azure-communication-phonenumbers",
+  "Version": "1.2.2",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/communication/azure-communication-phonenumbers",
+  "ServiceDirectory": "communication/azure-communication-phonenumbers",
+  "ReadMePath": "sdk/communication/azure-communication-phonenumbers/README.md",
+  "ChangeLogPath": "sdk/communication/azure-communication-phonenumbers/CHANGELOG.md",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-communication-phonenumbers",
+  "ReleaseStatus": "2025-03-24",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-communication-phonenumbers",
+    "groupId": "com.azure",
+    "triggeringPaths": [
+      "/sdk/communication/azure-communication-phonenumbers/ci.yml"
+    ],
+    "safeName": "azurecommunicationphonenumbers"
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.communication.phonenumbers",
+    "com.azure.communication.phonenumbers.models",
+    "com.azure.communication.phonenumbers.siprouting",
+    "com.azure.communication.phonenumbers.siprouting.models"
+  ],
+  "CIMatrixConfigs": [],
+  "DependentPackages": null
+}

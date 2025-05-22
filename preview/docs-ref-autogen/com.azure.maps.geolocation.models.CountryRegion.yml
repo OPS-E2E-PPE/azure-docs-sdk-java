@@ -1,0 +1,72 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.geolocation.models.CountryRegion"
+fullName: "com.azure.maps.geolocation.models.CountryRegion"
+name: "CountryRegion"
+nameWithType: "CountryRegion"
+summary: "The object containing the country/region information."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **CountryRegion**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.geolocation.models.CountryRegion?alt=com.azure.maps.geolocation.models.CountryRegion&text=CountryRegion\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.maps.geolocation.models.CountryRegion.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.maps.geolocation.models.CountryRegion.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "CountryRegion.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Country<wbr>Region from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static CountryRegion fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the CountryRegion."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of CountryRegion from the JsonReader."
+  returns:
+    description: "An instance of CountryRegion if the JsonReader was pointing to an instance of it, or null if it was\n pointing to JSON null."
+    type: "<xref href=\"com.azure.maps.geolocation.models.CountryRegion?alt=com.azure.maps.geolocation.models.CountryRegion&text=CountryRegion\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.geolocation.models.CountryRegion.getIsoCode()"
+  fullName: "com.azure.maps.geolocation.models.CountryRegion.getIsoCode()"
+  name: "getIsoCode()"
+  nameWithType: "CountryRegion.getIsoCode()"
+  summary: "Get the iso<wbr>Code property: The IP Address's 2-character code \\[(ISO 3166-1)\\](https://www.<wbr>iso.<wbr>org/iso-3166-country-codes.<wbr>html) of the country or region."
+  syntax: "public String getIsoCode()"
+  desc: "Get the isoCode property: The IP Address's 2-character code \\[(ISO 3166-1)\\](https://www.iso.org/iso-3166-country-codes.html) of the country or region. Please note, IP address in ranges reserved for special purpose will return Null for country/region."
+  returns:
+    description: "the isoCode value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.maps.geolocation.models.CountryRegion.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.maps.geolocation.models.CountryRegion.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "CountryRegion.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The object containing the country/region information."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.geolocation.models.CountryRegion?alt=com.azure.maps.geolocation.models.CountryRegion&text=CountryRegion\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.maps.geolocation.models"
+artifact: com.azure:azure-maps-geolocation:1.0.0-beta.3

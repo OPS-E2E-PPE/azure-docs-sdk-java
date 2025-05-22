@@ -1,0 +1,102 @@
+### YamlMime:JavaType
+uid: "com.azure.maps.weather.models.StormWindRadiiSummary"
+fullName: "com.azure.maps.weather.models.StormWindRadiiSummary"
+name: "StormWindRadiiSummary"
+nameWithType: "StormWindRadiiSummary"
+summary: "Displayed when details=true or radii<wbr>Geometry=true in the request."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **StormWindRadiiSummary**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.weather.models.StormWindRadiiSummary?alt=com.azure.maps.weather.models.StormWindRadiiSummary&text=StormWindRadiiSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
+methods:
+- uid: "com.azure.maps.weather.models.StormWindRadiiSummary.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.maps.weather.models.StormWindRadiiSummary.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "StormWindRadiiSummary.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Storm<wbr>Wind<wbr>Radii<wbr>Summary from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static StormWindRadiiSummary fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the StormWindRadiiSummary."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of StormWindRadiiSummary from the JsonReader."
+  returns:
+    description: "An instance of StormWindRadiiSummary if the JsonReader was pointing to an instance of it, or null if it\n was pointing to JSON null."
+    type: "<xref href=\"com.azure.maps.weather.models.StormWindRadiiSummary?alt=com.azure.maps.weather.models.StormWindRadiiSummary&text=StormWindRadiiSummary\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.weather.models.StormWindRadiiSummary.getPolygon()"
+  fullName: "com.azure.maps.weather.models.StormWindRadiiSummary.getPolygon()"
+  name: "getPolygon()"
+  nameWithType: "StormWindRadiiSummary.getPolygon()"
+  summary: "Return Geo<wbr>Polygon"
+  syntax: "public GeoPolygon getPolygon()"
+  desc: "Return GeoPolygon"
+  returns:
+    description: "Returns a <xref uid=\"com.azure.core.models.GeoPolygon\" data-throw-if-not-resolved=\"false\" data-raw-source=\"GeoPolygon\"></xref> for this weather window"
+    type: "<xref href=\"com.azure.core.models.GeoPolygon?alt=com.azure.core.models.GeoPolygon&text=GeoPolygon\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.weather.models.StormWindRadiiSummary.getRadiusSectorData()"
+  fullName: "com.azure.maps.weather.models.StormWindRadiiSummary.getRadiusSectorData()"
+  name: "getRadiusSectorData()"
+  nameWithType: "StormWindRadiiSummary.getRadiusSectorData()"
+  summary: "Get the radius<wbr>Sector<wbr>Data property: Contains the information needed to plot wind radius quadrants."
+  syntax: "public List<RadiusSector> getRadiusSectorData()"
+  desc: "Get the radiusSectorData property: Contains the information needed to plot wind radius quadrants. Bearing 0â€“90 = NE quadrant; 90â€“180 = SE quadrant; 180â€“270 = SW quadrant; 270â€“360 = NW quadrant."
+  returns:
+    description: "the radiusSectorData value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.azure.maps.weather.models.RadiusSector?alt=com.azure.maps.weather.models.RadiusSector&text=RadiusSector\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.maps.weather.models.StormWindRadiiSummary.getTimestamp()"
+  fullName: "com.azure.maps.weather.models.StormWindRadiiSummary.getTimestamp()"
+  name: "getTimestamp()"
+  nameWithType: "StormWindRadiiSummary.getTimestamp()"
+  summary: "Get the timestamp property: Date<wbr>Time for which the wind radii summary data is valid, displayed in ISO8601 format."
+  syntax: "public OffsetDateTime getTimestamp()"
+  desc: "Get the timestamp property: DateTime for which the wind radii summary data is valid, displayed in ISO8601 format."
+  returns:
+    description: "the timestamp value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html\">OffsetDateTime</a>"
+- uid: "com.azure.maps.weather.models.StormWindRadiiSummary.getWindSpeed()"
+  fullName: "com.azure.maps.weather.models.StormWindRadiiSummary.getWindSpeed()"
+  name: "getWindSpeed()"
+  nameWithType: "StormWindRadiiSummary.getWindSpeed()"
+  summary: "Get the wind<wbr>Speed property: Wind speed associated with the radius<wbr>Sector<wbr>Data."
+  syntax: "public WeatherUnitDetails getWindSpeed()"
+  desc: "Get the windSpeed property: Wind speed associated with the radiusSectorData."
+  returns:
+    description: "the windSpeed value."
+    type: "<xref href=\"com.azure.maps.weather.models.WeatherUnitDetails?alt=com.azure.maps.weather.models.WeatherUnitDetails&text=WeatherUnitDetails\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.maps.weather.models.StormWindRadiiSummary.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.maps.weather.models.StormWindRadiiSummary.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "StormWindRadiiSummary.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Displayed when details=true or radiiGeometry=true in the request."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.maps.weather.models.StormWindRadiiSummary?alt=com.azure.maps.weather.models.StormWindRadiiSummary&text=StormWindRadiiSummary\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.maps.weather.models"
+artifact: com.azure:azure-maps-weather:1.0.0-beta.3

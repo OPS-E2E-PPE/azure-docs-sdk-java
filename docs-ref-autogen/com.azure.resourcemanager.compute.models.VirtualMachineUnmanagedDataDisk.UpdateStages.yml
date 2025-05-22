@@ -4,8 +4,9 @@ fullName: "com.azure.resourcemanager.compute.models.VirtualMachineUnmanagedDataD
 name: "VirtualMachineUnmanagedDataDisk.UpdateStages"
 nameWithType: "VirtualMachineUnmanagedDataDisk.UpdateStages"
 summary: "Grouping of data disk update stages."
-syntax: "public static interface VirtualMachineUnmanagedDataDisk.UpdateStages"
+syntax: "public static interface **VirtualMachineUnmanagedDataDisk.UpdateStages**"
 type: "interface"
+desc: "Grouping of data disk update stages."
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.50.0

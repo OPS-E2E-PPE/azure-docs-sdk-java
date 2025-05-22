@@ -1,30 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.attach()
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync(final ServiceCallback<T>)
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync()
-- com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.WithCreate.defineReceiver(String)
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.withAutomationRunbook(String,String,String,boolean)
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.withAzureFunction(String,String,String)
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.withEmail(String)
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.withItsm(String,String,String,String)
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.withLogicApp(String,String)
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.withPushNotification(String)
-- com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.WithCreate.withShortName(String)
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.withSms(String,String)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags.withTag(String,String)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags.withTags(Map<String, String>)
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.withVoice(String,String)
-- com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition.withWebhook(String)
-nameWithType: ActionGroup.Definition
-syntax: public interface Definition extends ActionGroup.DefinitionStages.Blank,ActionGroup.ActionDefinition<ParentT>,ActionGroup.DefinitionStages.WithCreate
-type: interface
-uid: com.microsoft.azure.management.monitor.ActionGroup.Definition
-fullName: com.microsoft.azure.management.monitor.ActionGroup.Definition
-name: ActionGroup.Definition
-package: com.microsoft.azure.management.monitor
-summary: <p>The entirety of a Action Group definition. </p>
+uid: "com.microsoft.azure.management.monitor.ActionGroup.Definition"
+fullName: "com.microsoft.azure.management.monitor.ActionGroup.Definition"
+name: "ActionGroup.Definition"
+nameWithType: "ActionGroup.Definition"
+summary: "The entirety of a Action Group definition."
+syntax: "public static interface **ActionGroup.Definition**</br> extends <xref href=\"com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.Blank?alt=com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition?alt=com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition&text=ActionDefinition\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of a Action Group definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition?alt=com.microsoft.azure.management.monitor.ActionGroup.ActionDefinition&text=ActionDefinition\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.Blank?alt=com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.monitor.ActionGroup.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.monitor"
+artifact: com.microsoft.azure:azure-mgmt-monitor:1.41.4

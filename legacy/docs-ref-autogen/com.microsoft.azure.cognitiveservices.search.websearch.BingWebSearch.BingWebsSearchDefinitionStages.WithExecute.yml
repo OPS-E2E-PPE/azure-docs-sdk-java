@@ -1,32 +1,39 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withAcceptLanguage(String)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withAnswerCount(Integer)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withClientId(String)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withClientIp(String)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withCount(Integer)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withCountryCode(String)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withFreshness(Freshness)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withLocation(String)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withMarket(String)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withOffset(Integer)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withPragma(String)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withPromote(List<AnswerType>)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withResponseFilter(List<AnswerType>)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withSafeSearch(SafeSearch)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withSetLang(String)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withTextDecorations(Boolean)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withTextFormat(TextFormat)
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions.withUserAgent(String)
+uid: "com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute"
+fullName: "com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute"
+name: "BingWebSearch.BingWebsSearchDefinitionStages.WithExecute"
+nameWithType: "BingWebSearch.BingWebsSearchDefinitionStages.WithExecute"
+summary: "The last stage of the definition which will make the operation call."
+syntax: "public static interface **BingWebSearch.BingWebsSearchDefinitionStages.WithExecute**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions?alt=com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions&text=WithAllOptions\" data-throw-if-not-resolved=\"False\" />"
 methods:
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute.executeAsync()
-nameWithType: BingWebSearch.BingWebsSearchDefinitionStages.WithExecute
-syntax: public interface WithExecute extends BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions
-type: interface
-uid: com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute
-fullName: com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute
-name: BingWebSearch.BingWebsSearchDefinitionStages.WithExecute
-package: com.microsoft.azure.cognitiveservices.search.websearch
-summary: <p>The last stage of the definition which will make the operation call. </p>
+- uid: "com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute.execute()"
+  fullName: "com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute.execute()"
+  name: "execute()"
+  nameWithType: "BingWebSearch.BingWebsSearchDefinitionStages.WithExecute.execute()"
+  summary: "Execute the request."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SearchResponse execute()"
+  desc: "Execute the request."
+  returns:
+    description: "the SearchResponse object if successful."
+    type: "<xref href=\"com.microsoft.azure.cognitiveservices.search.websearch.models.SearchResponse?alt=com.microsoft.azure.cognitiveservices.search.websearch.models.SearchResponse&text=SearchResponse\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute.executeAsync()"
+  fullName: "com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithExecute.executeAsync()"
+  name: "executeAsync()"
+  nameWithType: "BingWebSearch.BingWebsSearchDefinitionStages.WithExecute.executeAsync()"
+  summary: "Execute the request asynchronously."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract Observable<SearchResponse> executeAsync()"
+  desc: "Execute the request asynchronously."
+  returns:
+    description: "the observable to the SearchResponse object"
+    type: "<xref href=\"rx.Observable?alt=rx.Observable&text=Observable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.cognitiveservices.search.websearch.models.SearchResponse?alt=com.microsoft.azure.cognitiveservices.search.websearch.models.SearchResponse&text=SearchResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "The last stage of the definition which will make the operation call."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions?alt=com.microsoft.azure.cognitiveservices.search.websearch.BingWebSearch.BingWebsSearchDefinitionStages.WithAllOptions&text=WithAllOptions\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.search.websearch"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-websearch:1.0.3

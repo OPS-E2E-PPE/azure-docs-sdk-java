@@ -1,38 +1,22 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Attachable.InDefinition.attach()
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withBasicPool()
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithBasicEdition.withDatabaseDtuMax(SqlElasticPoolBasicMaxEDTUs)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithDatabaseDtuMax.withDatabaseDtuMax(int)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStandardEdition.withDatabaseDtuMax(SqlElasticPoolStandardMaxEDTUs)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithPremiumEdition.withDatabaseDtuMax(SqlElasticPoolPremiumMaxEDTUs)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithBasicEdition.withDatabaseDtuMin(SqlElasticPoolBasicMinEDTUs)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithDatabaseDtuMin.withDatabaseDtuMin(int)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStandardEdition.withDatabaseDtuMin(SqlElasticPoolStandardMinEDTUs)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithPremiumEdition.withDatabaseDtuMin(SqlElasticPoolPremiumMinEDTUs)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithDtu.withDtu(int)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withEdition(ElasticPoolEdition)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withEdition(ElasticPoolEditions)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withPremiumPool()
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithBasicEdition.withReservedDtu(SqlElasticPoolBasicEDTUs)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStandardEdition.withReservedDtu(SqlElasticPoolStandardEDTUs)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithPremiumEdition.withReservedDtu(SqlElasticPoolPremiumEDTUs)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition.withStandardPool()
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStorageCapacity.withStorageCapacity(int)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStandardEdition.withStorageCapacity(SqlElasticPoolStandardStorage)
-- com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithPremiumEdition.withStorageCapacity(SqlElasticPoolPremiumSorage)
-nameWithType: SqlElasticPool.SqlElasticPoolDefinition<ParentT>
-syntax: public interface SqlElasticPoolDefinition<ParentT> extends SqlElasticPool.DefinitionStages.Blank<ParentT>,SqlElasticPool.DefinitionStages.WithEdition<ParentT>,SqlElasticPool.DefinitionStages.WithBasicEdition<ParentT>,SqlElasticPool.DefinitionStages.WithStandardEdition<ParentT>,SqlElasticPool.DefinitionStages.WithPremiumEdition<ParentT>,SqlElasticPool.DefinitionStages.WithAttach<ParentT>
-type: interface
+uid: "com.microsoft.azure.management.sql.SqlElasticPool.SqlElasticPoolDefinition"
+fullName: "com.microsoft.azure.management.sql.SqlElasticPool.SqlElasticPoolDefinition<ParentT>"
+name: "SqlElasticPool.SqlElasticPoolDefinition<ParentT>"
+nameWithType: "SqlElasticPool.SqlElasticPoolDefinition<ParentT>"
+summary: "Container interface for all the definitions that need to be implemented."
+syntax: "public static interface **SqlElasticPool.SqlElasticPoolDefinition<ParentT>**</br> extends <xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.Blank?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition&text=WithEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithBasicEdition?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithBasicEdition&text=WithBasicEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStandardEdition?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStandardEdition&text=WithStandardEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithPremiumEdition?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithPremiumEdition&text=WithPremiumEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithAttach?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
 typeParameters:
-- description: <p>the stage of the parent definition to return to after attaching this definition </p>
-  name: ParentT
-uid: com.microsoft.azure.management.sql.SqlElasticPool.SqlElasticPoolDefinition
-fullName: com.microsoft.azure.management.sql.SqlElasticPool.SqlElasticPoolDefinition<ParentT>
-name: SqlElasticPool.SqlElasticPoolDefinition<ParentT>
-package: com.microsoft.azure.management.sql
-summary: >-
-  <p>Container interface for all the definitions that need to be implemented.</p>
-
-  <p></p>
+- description: "the stage of the parent definition to return to after attaching this definition"
+  name: "ParentT"
+desc: "Container interface for all the definitions that need to be implemented."
+implements:
+- "<xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.Blank?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithAttach?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithAttach&text=WithAttach\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithBasicEdition?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithBasicEdition&text=WithBasicEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithEdition&text=WithEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithPremiumEdition?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithPremiumEdition&text=WithPremiumEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStandardEdition?alt=com.microsoft.azure.management.sql.SqlElasticPool.DefinitionStages.WithStandardEdition&text=WithStandardEdition\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.sql"
+artifact: com.microsoft.azure:azure-mgmt-sql:1.41.4

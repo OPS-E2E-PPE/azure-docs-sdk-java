@@ -1,20 +1,18 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating.define(String)
-- com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName.deleteByName(String)
-- com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName.deleteByNameAsync(String,ServiceCallback<Void>)
-- com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName.deleteByNameAsync(String)
-- com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByName.getByName(String)
-- com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByNameAsync.getByNameAsync(String)
-- com.microsoft.azure.management.resources.fluentcore.model.HasInner.inner()
-- com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing.list()
-- com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing.listAsync()
-nameWithType: PacketCaptures
-syntax: public interface PacketCaptures extends SupportsCreating<PacketCapture.DefinitionStages.WithTarget>,SupportsListing<PacketCapture>,SupportsGettingByNameAsync<PacketCapture>,SupportsDeletingByName,HasInner<PacketCapturesInner>
-type: interface
-uid: com.microsoft.azure.management.network.PacketCaptures
-fullName: com.microsoft.azure.management.network.PacketCaptures
-name: PacketCaptures
-package: com.microsoft.azure.management.network
-summary: <p>Entry point to packet captures management API in Azure. </p>
+uid: "com.microsoft.azure.management.network.PacketCaptures"
+fullName: "com.microsoft.azure.management.network.PacketCaptures"
+name: "PacketCaptures"
+nameWithType: "PacketCaptures"
+summary: "Entry point to packet captures management API in Azure."
+syntax: "public interface **PacketCaptures**</br> extends <xref href=\"com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating?alt=com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating&text=SupportsCreating\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithTarget?alt=com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithTarget&text=WithTarget\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing?alt=com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing&text=SupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.PacketCapture?alt=com.microsoft.azure.management.network.PacketCapture&text=PacketCapture\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByNameAsync?alt=com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByNameAsync&text=SupportsGettingByNameAsync\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.PacketCapture?alt=com.microsoft.azure.management.network.PacketCapture&text=PacketCapture\" data-throw-if-not-resolved=\"False\" />&gt;, <xref href=\"com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName?alt=com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName&text=SupportsDeletingByName\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.resources.fluentcore.model.HasInner?alt=com.microsoft.azure.management.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.implementation.PacketCapturesInner?alt=com.microsoft.azure.management.network.implementation.PacketCapturesInner&text=PacketCapturesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "interface"
+desc: "Entry point to packet captures management API in Azure."
+implements:
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByNameAsync?alt=com.microsoft.azure.management.resources.fluentcore.arm.collection.SupportsGettingByNameAsync&text=SupportsGettingByNameAsync\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.PacketCapture?alt=com.microsoft.azure.management.network.PacketCapture&text=PacketCapture\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating?alt=com.microsoft.azure.management.resources.fluentcore.collection.SupportsCreating&text=SupportsCreating\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithTarget?alt=com.microsoft.azure.management.network.PacketCapture.DefinitionStages.WithTarget&text=WithTarget\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName?alt=com.microsoft.azure.management.resources.fluentcore.collection.SupportsDeletingByName&text=SupportsDeletingByName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing?alt=com.microsoft.azure.management.resources.fluentcore.collection.SupportsListing&text=SupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.PacketCapture?alt=com.microsoft.azure.management.network.PacketCapture&text=PacketCapture\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.azure.management.resources.fluentcore.model.HasInner?alt=com.microsoft.azure.management.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.network.implementation.PacketCapturesInner?alt=com.microsoft.azure.management.network.implementation.PacketCapturesInner&text=PacketCapturesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

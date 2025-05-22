@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ServiceBusSubscription.DefinitionStages
-syntax: public interface DefinitionStages
-type: interface
-uid: com.microsoft.azure.management.servicebus.ServiceBusSubscription.DefinitionStages
-fullName: com.microsoft.azure.management.servicebus.ServiceBusSubscription.DefinitionStages
-name: ServiceBusSubscription.DefinitionStages
-package: com.microsoft.azure.management.servicebus
-summary: <p>Grouping of queue definition stages. </p>
+uid: "com.microsoft.azure.management.servicebus.ServiceBusSubscription.DefinitionStages"
+fullName: "com.microsoft.azure.management.servicebus.ServiceBusSubscription.DefinitionStages"
+name: "ServiceBusSubscription.DefinitionStages"
+nameWithType: "ServiceBusSubscription.DefinitionStages"
+summary: "Grouping of queue definition stages."
+syntax: "public static interface **ServiceBusSubscription.DefinitionStages**"
+type: "interface"
+desc: "Grouping of queue definition stages."
 metadata: {}
+package: "com.microsoft.azure.management.servicebus"
+artifact: com.microsoft.azure:azure-mgmt-servicebus:1.41.4

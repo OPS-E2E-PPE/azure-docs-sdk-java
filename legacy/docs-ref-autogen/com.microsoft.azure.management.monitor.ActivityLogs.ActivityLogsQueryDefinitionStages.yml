@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ActivityLogs.ActivityLogsQueryDefinitionStages
-syntax: public interface ActivityLogsQueryDefinitionStages
-type: interface
-uid: com.microsoft.azure.management.monitor.ActivityLogs.ActivityLogsQueryDefinitionStages
-fullName: com.microsoft.azure.management.monitor.ActivityLogs.ActivityLogsQueryDefinitionStages
-name: ActivityLogs.ActivityLogsQueryDefinitionStages
-package: com.microsoft.azure.management.monitor
-summary: <p>Grouping of Activity log query stages. </p>
+uid: "com.microsoft.azure.management.monitor.ActivityLogs.ActivityLogsQueryDefinitionStages"
+fullName: "com.microsoft.azure.management.monitor.ActivityLogs.ActivityLogsQueryDefinitionStages"
+name: "ActivityLogs.ActivityLogsQueryDefinitionStages"
+nameWithType: "ActivityLogs.ActivityLogsQueryDefinitionStages"
+summary: "Grouping of Activity log query stages."
+syntax: "public static interface **ActivityLogs.ActivityLogsQueryDefinitionStages**"
+type: "interface"
+desc: "Grouping of Activity log query stages."
 metadata: {}
+package: "com.microsoft.azure.management.monitor"
+artifact: com.microsoft.azure:azure-mgmt-monitor:1.41.4

@@ -4,12 +4,46 @@ fullName: "com.azure.resourcemanager.appservice.models.AppSetting"
 name: "AppSetting"
 nameWithType: "AppSetting"
 summary: "An immutable client-side representation of an app setting on a web app."
-syntax: "public interface AppSetting"
+syntax: "public interface **AppSetting**"
 methods:
-- "com.azure.resourcemanager.appservice.models.AppSetting.key()"
-- "com.azure.resourcemanager.appservice.models.AppSetting.sticky()"
-- "com.azure.resourcemanager.appservice.models.AppSetting.value()"
+- uid: "com.azure.resourcemanager.appservice.models.AppSetting.key()"
+  fullName: "com.azure.resourcemanager.appservice.models.AppSetting.key()"
+  name: "key()"
+  nameWithType: "AppSetting.key()"
+  summary: "Gets the key of the setting."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String key()"
+  desc: "Gets the key of the setting."
+  returns:
+    description: "the key of the setting"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.appservice.models.AppSetting.sticky()"
+  fullName: "com.azure.resourcemanager.appservice.models.AppSetting.sticky()"
+  name: "sticky()"
+  nameWithType: "AppSetting.sticky()"
+  summary: "Check whether the setting sticks to the slot during a swap."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract boolean sticky()"
+  desc: "Check whether the setting sticks to the slot during a swap."
+  returns:
+    description: "if the setting sticks to the slot during a swap"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.appservice.models.AppSetting.value()"
+  fullName: "com.azure.resourcemanager.appservice.models.AppSetting.value()"
+  name: "value()"
+  nameWithType: "AppSetting.value()"
+  summary: "Gets the value of the setting."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String value()"
+  desc: "Gets the value of the setting."
+  returns:
+    description: "the value of the setting"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
+desc: "An immutable client-side representation of an app setting on a web app."
 metadata: {}
 package: "com.azure.resourcemanager.appservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.50.0

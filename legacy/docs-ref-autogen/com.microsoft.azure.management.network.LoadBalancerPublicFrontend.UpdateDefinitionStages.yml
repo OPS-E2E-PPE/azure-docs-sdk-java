@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: LoadBalancerPublicFrontend.UpdateDefinitionStages
-syntax: public interface UpdateDefinitionStages
-type: interface
-uid: com.microsoft.azure.management.network.LoadBalancerPublicFrontend.UpdateDefinitionStages
-fullName: com.microsoft.azure.management.network.LoadBalancerPublicFrontend.UpdateDefinitionStages
-name: LoadBalancerPublicFrontend.UpdateDefinitionStages
-package: com.microsoft.azure.management.network
-summary: <p>Grouping of public frontend definition stages applicable as part of an Internet-facing load balancer update. </p>
+uid: "com.microsoft.azure.management.network.LoadBalancerPublicFrontend.UpdateDefinitionStages"
+fullName: "com.microsoft.azure.management.network.LoadBalancerPublicFrontend.UpdateDefinitionStages"
+name: "LoadBalancerPublicFrontend.UpdateDefinitionStages"
+nameWithType: "LoadBalancerPublicFrontend.UpdateDefinitionStages"
+summary: "Grouping of public frontend definition stages applicable as part of an Internet-facing load balancer update."
+syntax: "public static interface **LoadBalancerPublicFrontend.UpdateDefinitionStages**"
+type: "interface"
+desc: "Grouping of public frontend definition stages applicable as part of an Internet-facing load balancer update."
 metadata: {}
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.41.4

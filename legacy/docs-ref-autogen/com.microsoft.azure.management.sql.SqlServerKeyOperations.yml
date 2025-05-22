@@ -1,27 +1,27 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.sql.SqlChildrenOperations.deleteById(String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.deleteByIdAsync(String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.deleteBySqlServer(String,String,String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.deleteBySqlServerAsync(String,String,String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.getById(String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.getByIdAsync(String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.getBySqlServer(String,String,String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.getBySqlServer(SqlServer,String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.getBySqlServerAsync(String,String,String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.getBySqlServerAsync(SqlServer,String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.listBySqlServer(String,String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.listBySqlServer(SqlServer)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.listBySqlServerAsync(String,String)
-- com.microsoft.azure.management.sql.SqlChildrenOperations.listBySqlServerAsync(SqlServer)
+uid: "com.microsoft.azure.management.sql.SqlServerKeyOperations"
+fullName: "com.microsoft.azure.management.sql.SqlServerKeyOperations"
+name: "SqlServerKeyOperations"
+nameWithType: "SqlServerKeyOperations"
+summary: "A representation of the Azure SQL Server Key operations."
+syntax: "public interface **SqlServerKeyOperations**</br> extends <xref href=\"com.microsoft.azure.management.sql.SqlChildrenOperations?alt=com.microsoft.azure.management.sql.SqlChildrenOperations&text=SqlChildrenOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.sql.SqlServerKey?alt=com.microsoft.azure.management.sql.SqlServerKey&text=SqlServerKey\" data-throw-if-not-resolved=\"False\" />&gt;"
 methods:
-- com.microsoft.azure.management.sql.SqlServerKeyOperations.define()
-nameWithType: SqlServerKeyOperations
-syntax: public interface SqlServerKeyOperations extends SqlChildrenOperations<SqlServerKey>
-type: interface
-uid: com.microsoft.azure.management.sql.SqlServerKeyOperations
-fullName: com.microsoft.azure.management.sql.SqlServerKeyOperations
-name: SqlServerKeyOperations
-package: com.microsoft.azure.management.sql
-summary: <p>A representation of the Azure SQL Server Key operations. </p>
+- uid: "com.microsoft.azure.management.sql.SqlServerKeyOperations.define()"
+  fullName: "com.microsoft.azure.management.sql.SqlServerKeyOperations.define()"
+  name: "define()"
+  nameWithType: "SqlServerKeyOperations.define()"
+  summary: "Begins a definition for a new SQL Server Key resource."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract SqlServerKeyOperations.DefinitionStages.WithSqlServer define()"
+  desc: "Begins a definition for a new SQL Server Key resource."
+  returns:
+    description: "the first stage of the resource definition"
+    type: "<xref href=\"com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithSqlServer?alt=com.microsoft.azure.management.sql.SqlServerKeyOperations.DefinitionStages.WithSqlServer&text=WithSqlServer\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "A representation of the Azure SQL Server Key operations."
+implements:
+- "<xref href=\"com.microsoft.azure.management.sql.SqlChildrenOperations?alt=com.microsoft.azure.management.sql.SqlChildrenOperations&text=SqlChildrenOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.azure.management.sql.SqlServerKey?alt=com.microsoft.azure.management.sql.SqlServerKey&text=SqlServerKey\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
+package: "com.microsoft.azure.management.sql"
+artifact: com.microsoft.azure:azure-mgmt-sql:1.41.4

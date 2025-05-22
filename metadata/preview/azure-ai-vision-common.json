@@ -1,0 +1,14 @@
+{
+  "Name": "azure-ai-vision-common",
+  "Version": "0.15.1-beta.1",
+  "DirectoryPath": "",
+  "ServiceDirectory": "NA",
+  "Group": "com.azure",
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-ai-vision-common",
+  "Namespaces": [
+    "com.azure.ai.vision.common",
+    "com.azure.ai.vision.common.implementation"
+  ]
+}

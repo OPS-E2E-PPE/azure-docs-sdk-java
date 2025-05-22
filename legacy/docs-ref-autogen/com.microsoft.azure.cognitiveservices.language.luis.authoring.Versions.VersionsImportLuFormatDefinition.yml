@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithAppId.withAppId(UUID)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithLuisAppLu.withLuisAppLu(String)
-- com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithAllOptions.withVersionId(String)
-nameWithType: Versions.VersionsImportLuFormatDefinition
-syntax: public interface VersionsImportLuFormatDefinition extends Versions.VersionsImportLuFormatDefinitionStages.WithAppId,Versions.VersionsImportLuFormatDefinitionStages.WithLuisAppLu,Versions.VersionsImportLuFormatDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinition
-fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinition
-name: Versions.VersionsImportLuFormatDefinition
-package: com.microsoft.azure.cognitiveservices.language.luis.authoring
-summary: <p>The entirety of importLuFormat definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinition"
+name: "Versions.VersionsImportLuFormatDefinition"
+nameWithType: "Versions.VersionsImportLuFormatDefinition"
+summary: "The entirety of import<wbr>LuFormat definition."
+syntax: "public static interface **Versions.VersionsImportLuFormatDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithLuisAppLu?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithLuisAppLu&text=WithLuisAppLu\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of importLuFormat definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithAppId?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithAppId&text=WithAppId\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithLuisAppLu?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.VersionsImportLuFormatDefinitionStages.WithLuisAppLu&text=WithLuisAppLu\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.language.luis.authoring"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring:1.0.5-beta

@@ -1,0 +1,28 @@
+{
+  "Name": "azure-resourcemanager-maintenance",
+  "Version": "1.1.0-beta.2",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/maintenance/azure-resourcemanager-maintenance",
+  "ServiceDirectory": "maintenance",
+  "ReadMePath": "sdk/maintenance/azure-resourcemanager-maintenance/README.md",
+  "ChangeLogPath": "sdk/maintenance/azure-resourcemanager-maintenance/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-maintenance",
+  "ReleaseStatus": "2024-12-04",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "ArtifactDetails": {
+    "name": "azure-resourcemanager-maintenance",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanagermaintenance"
+  },
+  "CIMatrixConfigs": [],
+  "Namespaces": [
+    "com.azure.resourcemanager.maintenance",
+    "com.azure.resourcemanager.maintenance.fluent",
+    "com.azure.resourcemanager.maintenance.fluent.models",
+    "com.azure.resourcemanager.maintenance.models"
+  ]
+}

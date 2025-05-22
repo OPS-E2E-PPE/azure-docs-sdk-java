@@ -3,29 +3,47 @@ uid: "com.azure.resourcemanager.resources.fluentcore.utils.ResourceDelayProvider
 fullName: "com.azure.resourcemanager.resources.fluentcore.utils.ResourceDelayProvider"
 name: "ResourceDelayProvider"
 nameWithType: "ResourceDelayProvider"
-summary: "The ResourceDelayProvider to help thread sleep."
+summary: "The Resource<wbr>Delay<wbr>Provider to help thread sleep."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public class ResourceDelayProvider implements DelayProvider"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public class **ResourceDelayProvider**</br> implements <xref href=\"com.azure.core.management.provider.DelayProvider?alt=com.azure.core.management.provider.DelayProvider&text=DelayProvider\" data-throw-if-not-resolved=\"False\" />"
 constructors:
-- "com.azure.resourcemanager.resources.fluentcore.utils.ResourceDelayProvider.ResourceDelayProvider()"
+- uid: "com.azure.resourcemanager.resources.fluentcore.utils.ResourceDelayProvider.ResourceDelayProvider()"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.utils.ResourceDelayProvider.ResourceDelayProvider()"
+  name: "ResourceDelayProvider()"
+  nameWithType: "ResourceDelayProvider.ResourceDelayProvider()"
+  summary: "Creates a new instance of Resource<wbr>Delay<wbr>Provider."
+  syntax: "public ResourceDelayProvider()"
+  desc: "Creates a new instance of ResourceDelayProvider."
 methods:
-- "com.azure.resourcemanager.resources.fluentcore.utils.ResourceDelayProvider.getDelayDuration(java.time.Duration)"
+- uid: "com.azure.resourcemanager.resources.fluentcore.utils.ResourceDelayProvider.getDelayDuration(java.time.Duration)"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.utils.ResourceDelayProvider.getDelayDuration(Duration delay)"
+  name: "getDelayDuration(Duration delay)"
+  nameWithType: "ResourceDelayProvider.getDelayDuration(Duration delay)"
+  parameters:
+  - name: "delay"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
+  syntax: "public Duration getDelayDuration(Duration delay)"
+  returns:
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html\">Duration</a>"
 type: "class"
+desc: "The ResourceDelayProvider to help thread sleep."
 implements:
 - "<xref href=\"com.azure.core.management.provider.DelayProvider?alt=com.azure.core.management.provider.DelayProvider&text=DelayProvider\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.resources.fluentcore.utils"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.50.0

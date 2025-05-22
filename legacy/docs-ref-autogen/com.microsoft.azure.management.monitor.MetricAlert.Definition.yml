@@ -1,29 +1,21 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.create()
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync(final ServiceCallback<T>)
-- com.microsoft.azure.management.resources.fluentcore.model.Creatable.createAsync()
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCriteriaDefinition.defineAlertCriteria(String)
-- com.microsoft.azure.management.resources.fluentcore.model.Indexable.key()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.HasName.name()
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithActionGroup.withActionGroups(String...)
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithSeverity.withAlertDetails(int,String)
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithEvaluationFrequency.withFrequency(Period)
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithScopes.withMultipleTargetResources(Collection<String>,String,String)
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithScopes.withMultipleTargetResources(Collection<? extends Resource>)
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCreate.withoutAutoMitigation()
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithWindowSize.withPeriod(Period)
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCreate.withRuleDisabled()
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags.withTag(String,String)
-- com.microsoft.azure.management.resources.fluentcore.arm.models.Resource.DefinitionWithTags.withTags(Map<String, String>)
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithScopes.withTargetResource(String)
-- com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithScopes.withTargetResource(HasId)
-nameWithType: MetricAlert.Definition
-syntax: public interface Definition extends MetricAlert.DefinitionStages.Blank,MetricAlert.DefinitionStages.WithCreate,MetricAlert.DefinitionStages.WithScopes,MetricAlert.DefinitionStages.WithWindowSize,MetricAlert.DefinitionStages.WithEvaluationFrequency,MetricAlert.DefinitionStages.WithSeverity,MetricAlert.DefinitionStages.WithActionGroup,MetricAlert.DefinitionStages.WithCriteriaDefinition
-type: interface
-uid: com.microsoft.azure.management.monitor.MetricAlert.Definition
-fullName: com.microsoft.azure.management.monitor.MetricAlert.Definition
-name: MetricAlert.Definition
-package: com.microsoft.azure.management.monitor
-summary: <p>The entirety of a Metric Alert definition. </p>
+uid: "com.microsoft.azure.management.monitor.MetricAlert.Definition"
+fullName: "com.microsoft.azure.management.monitor.MetricAlert.Definition"
+name: "MetricAlert.Definition"
+nameWithType: "MetricAlert.Definition"
+summary: "The entirety of a Metric Alert definition."
+syntax: "public static interface **MetricAlert.Definition**</br> extends <xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.Blank?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithScopes?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithScopes&text=WithScopes\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithWindowSize?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithWindowSize&text=WithWindowSize\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithEvaluationFrequency?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithEvaluationFrequency&text=WithEvaluationFrequency\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithSeverity?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithSeverity&text=WithSeverity\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithActionGroup?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithActionGroup&text=WithActionGroup\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCriteriaDefinition?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCriteriaDefinition&text=WithCriteriaDefinition\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of a Metric Alert definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.Blank?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.Blank&text=Blank\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithActionGroup?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithActionGroup&text=WithActionGroup\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCreate?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCriteriaDefinition?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithCriteriaDefinition&text=WithCriteriaDefinition\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithEvaluationFrequency?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithEvaluationFrequency&text=WithEvaluationFrequency\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithScopes?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithScopes&text=WithScopes\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithSeverity?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithSeverity&text=WithSeverity\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithWindowSize?alt=com.microsoft.azure.management.monitor.MetricAlert.DefinitionStages.WithWindowSize&text=WithWindowSize\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.monitor"
+artifact: com.microsoft.azure:azure-mgmt-monitor:1.41.4

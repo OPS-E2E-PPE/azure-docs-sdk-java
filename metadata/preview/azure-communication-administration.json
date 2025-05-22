@@ -1,0 +1,18 @@
+{
+  "ServiceDirectory": "NA",
+  "DocsCiConfigProperties": {
+    "inputPath": [],
+    "excludePackages": "com.azure.communication.administration.implementation",
+    "excludePath": []
+  },
+  "Name": "azure-communication-administration",
+  "SdkType": "NA",
+  "Version": "1.0.0-beta.3",
+  "IsNewSdk": false,
+  "Group": "com.azure",
+  "DirectoryPath": "",
+  "Namespaces": [
+    "com.azure.communication.administration",
+    "com.azure.communication.administration.models"
+  ]
+}

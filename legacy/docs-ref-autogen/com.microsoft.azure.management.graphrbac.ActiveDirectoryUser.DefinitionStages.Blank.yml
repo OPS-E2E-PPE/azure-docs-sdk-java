@@ -1,13 +1,14 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withEmailAlias(String)
-- com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName.withUserPrincipalName(String)
-nameWithType: ActiveDirectoryUser.DefinitionStages.Blank
-syntax: public interface Blank extends ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName
-type: interface
-uid: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.Blank
-fullName: com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.Blank
-name: ActiveDirectoryUser.DefinitionStages.Blank
-package: com.microsoft.azure.management.graphrbac
-summary: <p>The first stage of the user definition. </p>
+uid: "com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.Blank"
+fullName: "com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.Blank"
+name: "ActiveDirectoryUser.DefinitionStages.Blank"
+nameWithType: "ActiveDirectoryUser.DefinitionStages.Blank"
+summary: "The first stage of the user definition."
+syntax: "public static interface **ActiveDirectoryUser.DefinitionStages.Blank**</br> extends <xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName&text=WithUserPrincipalName\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The first stage of the user definition."
+implements:
+- "<xref href=\"com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName?alt=com.microsoft.azure.management.graphrbac.ActiveDirectoryUser.DefinitionStages.WithUserPrincipalName&text=WithUserPrincipalName\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.management.graphrbac"
+artifact: com.microsoft.azure:azure-mgmt-graph-rbac:1.41.4

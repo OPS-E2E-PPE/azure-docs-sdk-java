@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: Queue.UpdateStages
-syntax: public interface UpdateStages
-type: interface
-uid: com.microsoft.azure.management.servicebus.Queue.UpdateStages
-fullName: com.microsoft.azure.management.servicebus.Queue.UpdateStages
-name: Queue.UpdateStages
-package: com.microsoft.azure.management.servicebus
-summary: <p>Grouping of Service Bus queue update stages. </p>
+uid: "com.microsoft.azure.management.servicebus.Queue.UpdateStages"
+fullName: "com.microsoft.azure.management.servicebus.Queue.UpdateStages"
+name: "Queue.UpdateStages"
+nameWithType: "Queue.UpdateStages"
+summary: "Grouping of Service Bus queue update stages."
+syntax: "public static interface **Queue.UpdateStages**"
+type: "interface"
+desc: "Grouping of Service Bus queue update stages."
 metadata: {}
+package: "com.microsoft.azure.management.servicebus"
+artifact: com.microsoft.azure:azure-mgmt-servicebus:1.41.4

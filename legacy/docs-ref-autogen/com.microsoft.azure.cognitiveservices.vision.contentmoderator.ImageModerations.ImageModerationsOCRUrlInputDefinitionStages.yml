@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: ImageModerations.ImageModerationsOCRUrlInputDefinitionStages
-syntax: public interface ImageModerationsOCRUrlInputDefinitionStages
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsOCRUrlInputDefinitionStages
-fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsOCRUrlInputDefinitionStages
-name: ImageModerations.ImageModerationsOCRUrlInputDefinitionStages
-package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
-summary: <p>Grouping of oCRUrlInput definition stages. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsOCRUrlInputDefinitionStages"
+fullName: "com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.ImageModerationsOCRUrlInputDefinitionStages"
+name: "ImageModerations.ImageModerationsOCRUrlInputDefinitionStages"
+nameWithType: "ImageModerations.ImageModerationsOCRUrlInputDefinitionStages"
+summary: "Grouping of o<wbr>CRUrl<wbr>Input definition stages."
+syntax: "public static interface **ImageModerations.ImageModerationsOCRUrlInputDefinitionStages**"
+type: "interface"
+desc: "Grouping of oCRUrlInput definition stages."
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.contentmoderator"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator:1.0.3-beta

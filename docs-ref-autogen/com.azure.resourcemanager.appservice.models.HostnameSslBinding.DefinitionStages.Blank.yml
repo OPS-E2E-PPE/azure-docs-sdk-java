@@ -4,12 +4,14 @@ fullName: "com.azure.resourcemanager.appservice.models.HostnameSslBinding.Defini
 name: "HostnameSslBinding.DefinitionStages.Blank<ParentT>"
 nameWithType: "HostnameSslBinding.DefinitionStages.Blank<ParentT>"
 summary: "The first stage of a hostname SSL binding definition."
-syntax: "public static interface HostnameSslBinding.DefinitionStages.Blank<ParentT> extends HostnameSslBinding.DefinitionStages.WithHostname<ParentT>"
+syntax: "public static interface **HostnameSslBinding.DefinitionStages.Blank<ParentT>**</br> extends <xref href=\"com.azure.resourcemanager.appservice.models.HostnameSslBinding.DefinitionStages.WithHostname?alt=com.azure.resourcemanager.appservice.models.HostnameSslBinding.DefinitionStages.WithHostname&text=WithHostname\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
 typeParameters:
-- name: "ParentT"
+- description: "the stage of the parent definition to return to after attaching this definition"
+  name: "ParentT"
+desc: "The first stage of a hostname SSL binding definition."
 implements:
 - "<xref href=\"com.azure.resourcemanager.appservice.models.HostnameSslBinding.DefinitionStages.WithHostname?alt=com.azure.resourcemanager.appservice.models.HostnameSslBinding.DefinitionStages.WithHostname&text=WithHostname\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"ParentT?alt=ParentT&text=ParentT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.appservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.3.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.50.0

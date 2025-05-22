@@ -1,0 +1,17 @@
+{
+  "ServiceDirectory": "NA",
+  "DocsCiConfigProperties": {
+    "inputPath": [],
+    "excludePackages": "com.microsoft.azure.management.sql.implementation",
+    "excludePath": []
+  },
+  "Name": "azure-mgmt-sql",
+  "SdkType": "NA",
+  "Version": "1.41.4",
+  "IsNewSdk": false,
+  "Group": "com.microsoft.azure",
+  "DirectoryPath": "",
+  "Namespaces": [
+    "com.microsoft.azure.management.sql"
+  ]
+}

@@ -1,0 +1,97 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties"
+fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties"
+name: "WorkflowModelCustomProperties"
+nameWithType: "WorkflowModelCustomProperties"
+summary: "Workflow model custom properties."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public class **WorkflowModelCustomProperties**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties?alt=com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties&text=WorkflowModelCustomProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.WorkflowModelCustomProperties()"
+  fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.WorkflowModelCustomProperties()"
+  name: "WorkflowModelCustomProperties()"
+  nameWithType: "WorkflowModelCustomProperties.WorkflowModelCustomProperties()"
+  summary: "Creates an instance of Workflow<wbr>Model<wbr>Custom<wbr>Properties class."
+  syntax: "public WorkflowModelCustomProperties()"
+  desc: "Creates an instance of WorkflowModelCustomProperties class."
+methods:
+- uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.affectedObjectDetails()"
+  fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.affectedObjectDetails()"
+  name: "affectedObjectDetails()"
+  nameWithType: "WorkflowModelCustomProperties.affectedObjectDetails()"
+  summary: "Get the affected<wbr>Object<wbr>Details property: Gets or sets any custom properties of the affected object."
+  syntax: "public Map<String,String> affectedObjectDetails()"
+  desc: "Get the affectedObjectDetails property: Gets or sets any custom properties of the affected object."
+  returns:
+    description: "the affectedObjectDetails value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/Map.html\">Map</a>&lt;<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>&gt;"
+- uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "WorkflowModelCustomProperties.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Workflow<wbr>Model<wbr>Custom<wbr>Properties from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static WorkflowModelCustomProperties fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the WorkflowModelCustomProperties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of WorkflowModelCustomProperties from the JsonReader."
+  returns:
+    description: "An instance of WorkflowModelCustomProperties if the JsonReader was pointing to an instance of it, or null\n if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties?alt=com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties&text=WorkflowModelCustomProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.instanceType()"
+  fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.instanceType()"
+  name: "instanceType()"
+  nameWithType: "WorkflowModelCustomProperties.instanceType()"
+  summary: "Get the instance<wbr>Type property: Gets or sets the instance type."
+  syntax: "public String instanceType()"
+  desc: "Get the instanceType property: Gets or sets the instance type."
+  returns:
+    description: "the instanceType value."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "WorkflowModelCustomProperties.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.validate()"
+  fullName: "com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties.validate()"
+  name: "validate()"
+  nameWithType: "WorkflowModelCustomProperties.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+type: "class"
+desc: "Workflow model custom properties."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties?alt=com.azure.resourcemanager.recoveryservicesdatareplication.models.WorkflowModelCustomProperties&text=WorkflowModelCustomProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.recoveryservicesdatareplication.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-recoveryservicesdatareplication:1.0.0-beta.2

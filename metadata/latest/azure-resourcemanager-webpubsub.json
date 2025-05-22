@@ -1,0 +1,22 @@
+{
+  "Name": "azure-resourcemanager-webpubsub",
+  "Version": "1.1.0",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/webpubsub/azure-resourcemanager-webpubsub",
+  "ServiceDirectory": "webpubsub",
+  "ReadMePath": "sdk/webpubsub/azure-resourcemanager-webpubsub/README.md",
+  "ChangeLogPath": "sdk/webpubsub/azure-resourcemanager-webpubsub/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager-webpubsub",
+  "ReleaseStatus": "2024-09-26",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": null,
+  "Namespaces": [
+    "com.azure.resourcemanager.webpubsub",
+    "com.azure.resourcemanager.webpubsub.fluent",
+    "com.azure.resourcemanager.webpubsub.fluent.models",
+    "com.azure.resourcemanager.webpubsub.models"
+  ]
+}

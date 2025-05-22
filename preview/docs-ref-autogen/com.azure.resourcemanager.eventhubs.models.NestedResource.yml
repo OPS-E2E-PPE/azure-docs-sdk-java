@@ -1,0 +1,51 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.eventhubs.models.NestedResource"
+fullName: "com.azure.resourcemanager.eventhubs.models.NestedResource"
+name: "NestedResource"
+nameWithType: "NestedResource"
+summary: "A type contains subset of ARM envelop properties in <xref uid=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.azure.core.management.Resource\"></xref> namely id, name and type."
+syntax: "public interface **NestedResource**</br> extends <xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Indexable?alt=com.azure.resourcemanager.resources.fluentcore.model.Indexable&text=Indexable\" data-throw-if-not-resolved=\"False\" />"
+methods:
+- uid: "com.azure.resourcemanager.eventhubs.models.NestedResource.id()"
+  fullName: "com.azure.resourcemanager.eventhubs.models.NestedResource.id()"
+  name: "id()"
+  nameWithType: "NestedResource.id()"
+  summary: "Gets resource id."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String id()"
+  desc: "Gets resource id."
+  returns:
+    description: "resource id."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.eventhubs.models.NestedResource.name()"
+  fullName: "com.azure.resourcemanager.eventhubs.models.NestedResource.name()"
+  name: "name()"
+  nameWithType: "NestedResource.name()"
+  summary: "Gets the resource name."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String name()"
+  desc: "Gets the resource name."
+  returns:
+    description: "the resource name."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.resourcemanager.eventhubs.models.NestedResource.type()"
+  fullName: "com.azure.resourcemanager.eventhubs.models.NestedResource.type()"
+  name: "type()"
+  nameWithType: "NestedResource.type()"
+  summary: "Gets the resource type."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String type()"
+  desc: "Gets the resource type."
+  returns:
+    description: "the resource type."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+type: "interface"
+desc: "A type contains subset of ARM envelop properties in <xref uid=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.azure.core.management.Resource\"></xref> namely id, name and type."
+implements:
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Indexable?alt=com.azure.resourcemanager.resources.fluentcore.model.Indexable&text=Indexable\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.azure.resourcemanager.eventhubs.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-eventhubs:2.48.0-beta.1

@@ -1,18 +1,15 @@
 ### YamlMime:JavaType
-inheritedMembers:
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithExecute.execute()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithExecute.executeAsync()
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithAllOptions.withForceTrain(Boolean)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithAllOptions.withNotificationEmailAddress(String)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithProjectId.withProjectId(UUID)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithAllOptions.withReservedBudgetInHours(Integer)
-- com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithAllOptions.withTrainingType(String)
-nameWithType: Trainings.TrainingsTrainProjectDefinition
-syntax: public interface TrainingsTrainProjectDefinition extends Trainings.TrainingsTrainProjectDefinitionStages.WithProjectId,Trainings.TrainingsTrainProjectDefinitionStages.WithExecute
-type: interface
-uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinition
-fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinition
-name: Trainings.TrainingsTrainProjectDefinition
-package: com.microsoft.azure.cognitiveservices.vision.customvision.training
-summary: <p>The entirety of trainProject definition. </p>
+uid: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinition"
+fullName: "com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinition"
+name: "Trainings.TrainingsTrainProjectDefinition"
+nameWithType: "Trainings.TrainingsTrainProjectDefinition"
+summary: "The entirety of train<wbr>Project definition."
+syntax: "public static interface **Trainings.TrainingsTrainProjectDefinition**</br> extends <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+desc: "The entirety of trainProject definition."
+implements:
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithExecute?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithExecute&text=WithExecute\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithProjectId?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.TrainingsTrainProjectDefinitionStages.WithProjectId&text=WithProjectId\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
+package: "com.microsoft.azure.cognitiveservices.vision.customvision.training"
+artifact: com.microsoft.azure.cognitiveservices:azure-cognitiveservices-customvision-training:1.0.3-beta

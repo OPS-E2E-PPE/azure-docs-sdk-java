@@ -5,26 +5,31 @@ name: "ModelsRepositoryServiceVersion"
 nameWithType: "ModelsRepositoryServiceVersion"
 summary: "The service API versions of Azure Models Repository that are supported by this client."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
-- "java.lang.Enum.clone()"
-- "java.lang.Enum.compareTo(E)"
-- "java.lang.Enum.equals(java.lang.Object)"
-- "java.lang.Enum.finalize()"
-- "java.lang.Enum.getDeclaringClass()"
-- "java.lang.Enum.hashCode()"
-- "java.lang.Enum.name()"
-- "java.lang.Enum.ordinal()"
-- "java.lang.Enum.toString()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public enum ModelsRepositoryServiceVersion extends Enum<ModelsRepositoryServiceVersion> implements ServiceVersion"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#valueOf-java.lang.Class-java.lang.String-\">valueOf</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#compareTo-E-\">compareTo</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#describeConstable--\">describeConstable</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#getDeclaringClass--\">getDeclaringClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#name--\">name</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#ordinal--\">ordinal</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html#toString--\">toString</a>"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public enum **ModelsRepositoryServiceVersion**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Enum.html\">Enum</a>&lt;<xref href=\"com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion?alt=com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion&text=ModelsRepositoryServiceVersion\" data-throw-if-not-resolved=\"False\" />&gt;</br> implements <xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 fields:
 - uid: "com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion.V2021_02_11"
   fullName: "com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion.V2021_02_11"
@@ -36,7 +41,10 @@ methods:
   name: "getLatest()"
   nameWithType: "ModelsRepositoryServiceVersion.getLatest()"
   summary: "Gets the latest service API version of Azure Models Repository that is supported by this client."
+  modifiers:
+  - "static"
   syntax: "public static ModelsRepositoryServiceVersion getLatest()"
+  desc: "Gets the latest service API version of Azure Models Repository that is supported by this client."
   returns:
     description: "The latest service API version of Azure Models Repository that is supported by this client."
     type: "<xref href=\"com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion?alt=com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion&text=ModelsRepositoryServiceVersion\" data-throw-if-not-resolved=\"False\" />"
@@ -46,14 +54,16 @@ methods:
   nameWithType: "ModelsRepositoryServiceVersion.getVersion()"
   syntax: "public String getVersion()"
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion.valueOf(java.lang.String)"
   fullName: "com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "ModelsRepositoryServiceVersion.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public static ModelsRepositoryServiceVersion valueOf(String name)"
   returns:
     type: "<xref href=\"com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion?alt=com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion&text=ModelsRepositoryServiceVersion\" data-throw-if-not-resolved=\"False\" />"
@@ -61,9 +71,12 @@ methods:
   fullName: "com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion.values()"
   name: "values()"
   nameWithType: "ModelsRepositoryServiceVersion.values()"
+  modifiers:
+  - "static"
   syntax: "public static ModelsRepositoryServiceVersion[] values()"
   returns:
     type: "<xref href=\"com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion?alt=com.azure.iot.modelsrepository.ModelsRepositoryServiceVersion&text=ModelsRepositoryServiceVersion\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "The service API versions of Azure Models Repository that are supported by this client."
 implements:
 - "<xref href=\"com.azure.core.util.ServiceVersion?alt=com.azure.core.util.ServiceVersion&text=ServiceVersion\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

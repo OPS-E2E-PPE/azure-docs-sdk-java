@@ -1,0 +1,101 @@
+### YamlMime:JavaType
+uid: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile"
+fullName: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile"
+name: "VirtualNetworkPropertiesInfraVnetProfile"
+nameWithType: "VirtualNetworkPropertiesInfraVnetProfile"
+summary: "The Virtual<wbr>Network<wbr>Properties<wbr>Infra<wbr>Vnet<wbr>Profile model."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **VirtualNetworkPropertiesInfraVnetProfile**</br> implements <xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile?alt=com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile&text=VirtualNetworkPropertiesInfraVnetProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.VirtualNetworkPropertiesInfraVnetProfile()"
+  fullName: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.VirtualNetworkPropertiesInfraVnetProfile()"
+  name: "VirtualNetworkPropertiesInfraVnetProfile()"
+  nameWithType: "VirtualNetworkPropertiesInfraVnetProfile.VirtualNetworkPropertiesInfraVnetProfile()"
+  summary: "Creates an instance of Virtual<wbr>Network<wbr>Properties<wbr>Infra<wbr>Vnet<wbr>Profile class."
+  syntax: "public VirtualNetworkPropertiesInfraVnetProfile()"
+  desc: "Creates an instance of VirtualNetworkPropertiesInfraVnetProfile class."
+methods:
+- uid: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.fromJson(com.azure.json.JsonReader)"
+  fullName: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "VirtualNetworkPropertiesInfraVnetProfile.fromJson(JsonReader jsonReader)"
+  summary: "Reads an instance of Virtual<wbr>Network<wbr>Properties<wbr>Infra<wbr>Vnet<wbr>Profile from the Json<wbr>Reader."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The JsonReader being read."
+    name: "jsonReader"
+    type: "<xref href=\"com.azure.json.JsonReader?alt=com.azure.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static VirtualNetworkPropertiesInfraVnetProfile fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If an error occurs while reading the VirtualNetworkPropertiesInfraVnetProfile."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads an instance of VirtualNetworkPropertiesInfraVnetProfile from the JsonReader."
+  returns:
+    description: "An instance of VirtualNetworkPropertiesInfraVnetProfile if the JsonReader was pointing to an instance of\n it, or null if it was pointing to JSON null."
+    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile?alt=com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile&text=VirtualNetworkPropertiesInfraVnetProfile\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.hci()"
+  fullName: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.hci()"
+  name: "hci()"
+  nameWithType: "VirtualNetworkPropertiesInfraVnetProfile.hci()"
+  summary: "Get the hci property: Infrastructure network profile for HCI platform."
+  syntax: "public VirtualNetworkPropertiesInfraVnetProfileHci hci()"
+  desc: "Get the hci property: Infrastructure network profile for HCI platform."
+  returns:
+    description: "the hci value."
+    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileHci?alt=com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileHci&text=VirtualNetworkPropertiesInfraVnetProfileHci\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.toJson(com.azure.json.JsonWriter)"
+  fullName: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "VirtualNetworkPropertiesInfraVnetProfile.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"com.azure.json.JsonWriter?alt=com.azure.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.validate()"
+  fullName: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.validate()"
+  name: "validate()"
+  nameWithType: "VirtualNetworkPropertiesInfraVnetProfile.validate()"
+  summary: "Validates the instance."
+  syntax: "public void validate()"
+  desc: "Validates the instance."
+- uid: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.withHci(com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileHci)"
+  fullName: "com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile.withHci(VirtualNetworkPropertiesInfraVnetProfileHci hci)"
+  name: "withHci(VirtualNetworkPropertiesInfraVnetProfileHci hci)"
+  nameWithType: "VirtualNetworkPropertiesInfraVnetProfile.withHci(VirtualNetworkPropertiesInfraVnetProfileHci hci)"
+  summary: "Set the hci property: Infrastructure network profile for HCI platform."
+  parameters:
+  - description: "the hci value to set."
+    name: "hci"
+    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileHci?alt=com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfileHci&text=VirtualNetworkPropertiesInfraVnetProfileHci\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public VirtualNetworkPropertiesInfraVnetProfile withHci(VirtualNetworkPropertiesInfraVnetProfileHci hci)"
+  desc: "Set the hci property: Infrastructure network profile for HCI platform."
+  returns:
+    description: "the VirtualNetworkPropertiesInfraVnetProfile object itself."
+    type: "<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile?alt=com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile&text=VirtualNetworkPropertiesInfraVnetProfile\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "The VirtualNetworkPropertiesInfraVnetProfile model."
+implements:
+- "<xref href=\"com.azure.json.JsonSerializable?alt=com.azure.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile?alt=com.azure.resourcemanager.hybridcontainerservice.models.VirtualNetworkPropertiesInfraVnetProfile&text=VirtualNetworkPropertiesInfraVnetProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.resourcemanager.hybridcontainerservice.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-hybridcontainerservice:1.1.0

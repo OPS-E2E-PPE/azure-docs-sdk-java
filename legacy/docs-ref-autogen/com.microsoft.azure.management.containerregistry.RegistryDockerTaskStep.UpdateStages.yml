@@ -1,10 +1,12 @@
 ### YamlMime:JavaType
-nameWithType: RegistryDockerTaskStep.UpdateStages
-syntax: public interface UpdateStages
-type: interface
-uid: com.microsoft.azure.management.containerregistry.RegistryDockerTaskStep.UpdateStages
-fullName: com.microsoft.azure.management.containerregistry.RegistryDockerTaskStep.UpdateStages
-name: RegistryDockerTaskStep.UpdateStages
-package: com.microsoft.azure.management.containerregistry
-summary: <p>Grouping of registry Docker task update stages. </p>
+uid: "com.microsoft.azure.management.containerregistry.RegistryDockerTaskStep.UpdateStages"
+fullName: "com.microsoft.azure.management.containerregistry.RegistryDockerTaskStep.UpdateStages"
+name: "RegistryDockerTaskStep.UpdateStages"
+nameWithType: "RegistryDockerTaskStep.UpdateStages"
+summary: "Grouping of registry Docker task update stages."
+syntax: "public static interface **RegistryDockerTaskStep.UpdateStages**"
+type: "interface"
+desc: "Grouping of registry Docker task update stages."
 metadata: {}
+package: "com.microsoft.azure.management.containerregistry"
+artifact: com.microsoft.azure:azure-mgmt-containerregistry:1.41.4
