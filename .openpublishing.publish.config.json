@@ -4,11 +4,10 @@
     {
       "docset_name": "e2eppe-AzureJava",
       "build_source_folder": ".",
-      "build_output_subfolder": "e2eppe-azure/sdk/java",
+      "build_output_subfolder": "e2eppe-AzureJava",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
+      "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -16,7 +15,6 @@
         "LandingData": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
       "customized_template_paths": [
         "_dependentPackages/memberpage.plugins/content"
       ],
